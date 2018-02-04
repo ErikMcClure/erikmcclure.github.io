@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'">-->
+  <meta name="theme-color" content="#2b7bb5">
+  <meta name="description" content="{{ .Site.Params.description }}" />
+  <meta name="copyright" content="Copyright (c){{ $.Site.LastChange.Year }} {{ .Site.Author }}" />
+  <meta name="keywords" content="{{ .Site.Params.keywords }}">
+  <meta name="robots" content="index,follow">
+  <meta name="googlebot" content="index,follow">
+  <meta name="google-site-verification" content="{{ .Site.Params.googleAnalytics }}">
+  
+  {{ .Hugo.Generator }}
+  
+  <link rel="canonical" href="{{ .Page.Permalink }}"/>
+  <link rel="apple-touch-icon" href="/favicon.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css" />
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/prism.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/katex.min.css" rel="stylesheet" />
+  
+  {{ if eq .URL "/" }}
+  <title>{{ .Title }}</title>
+  <meta property='og:title' content="{{ .Title }}">
+  <meta property="og:type" content="website">
+  {{ else }}
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
+  <meta property='og:title' content="{{ .Title }} - {{ .Site.Title }}">
+  <meta property="og:type" content="article">
+  {{ end }}
+  
+  <meta property="og:url" content="{{ .Site.BaseURL }}" />
+  <meta property="og:site_name" content="{{ .Site.Title }}" />
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.image }}" />
+  <meta property="og:description" content="{{ .Page.Description }}" />
+  <meta property="og:locale" content="en-US" />
+  <meta property="article:author" content="{{ .Site.Author }}">
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@blackhole0173">
+  <meta name="twitter:creator" content="@blackhole0173">
+  <meta name="twitter:title" content="{{ .Site.Title }}">
+  <meta name="twitter:description" content="{{ .Site.Params.description }}">
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.image }}" />
+  <meta name="twitter:dnt" content="on">
+  
+  <link href="https://plus.google.com/+ErikMcClure" rel="publisher">
+  <meta itemprop="name" content="{{ .Title }}">
+  <meta itemprop="description" content="{{ .Page.Description }}">
+  <meta itemprop="image" content="{{ .Site.BaseURL }}{{ .Site.Params.image }}">
+  <meta name="last-updated" content="{{.Page.Lastmod.Format "20060102-15:04:05.000"}}"> 
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63026815-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-63026815-3');
+</script>
+
+</head>
+<body>
+<div id="container">

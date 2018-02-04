@@ -1,0 +1,264 @@
+<html>
+<head>
+  <title>My Little Pony: Markov Chains Are Magic!</title>
+  <style>
+@font-face {
+  font-family: Celestia;
+  src: url(CelestiaMediumRedux1.55.ttf);
+}
+h3 {
+  font-family: Celestia;
+  font-size: 48px;
+  color: #F5F5F5;
+  text-align: center;
+  margin:0;
+}
+h4 {
+  font-size: 18px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5px 1em;
+  border-radius: 15px;
+  color: #EEE;
+  margin: 1em auto 2em auto;
+  font-family: sans-serif;
+}
+body {
+  background: #000 url('bg.png') no-repeat fixed 50% 50%;
+  font-family: sans;
+  margin:0;
+}
+#main {
+  margin: 0 100px;
+  background: #666;
+  border: 20px solid rgba(0, 0, 0, 0.3);
+  background-clip: padding-box; 
+  border-radius: 25px;
+  padding: 1px;
+}
+#inner {
+  border: 1px solid #C0C0C0;
+  background: #BBB;
+  padding: 10px;
+}
+#wrap {
+  text-align: center;
+}
+#target {
+  border: 2px #666 solid;
+  border-radius: 4px;
+  background: #F0F0F0;
+  padding: 0.5em;
+  margin: 0.5em 0 0 0;
+}
+form {
+   line-height:2em;
+   font-family: sans-serif;
+}
+form label {
+  width: 2em;
+  padding: 0 0.25em;
+  text-align: left;
+}
+#numlines {
+  position:relative;
+  Top: 6px;
+}
+#credits {
+  position:relative;
+  float:right;
+  font-family: sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+  color:#666;
+  text-align:right;
+  margin-top:0.75em;
+}
+#credits a {
+  text-decoration: none;
+}
+#credits img {
+  display:none;
+}
+#credits:hover img {
+  display:block;
+}
+
+@media (max-width: 960px) {
+#main {
+  margin:0;
+  border-left:0;
+  border-right:0;
+}
+}
+  </style>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+<meta charset="utf-8" />
+<meta name="description" content="Generate My Little Pony: Friendship Is Magic episodes using markov chains!" />
+<meta name="copyright" content="Copyright (c)2016 Cloud Hop The Angry Pegasus" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon" href="/favicon.ico" />
+</head>
+<body>
+<h3>My Little Pony: Markov Chains Are Magic!</h3>
+<div id="wrap">
+<h4>A random episode transcript generator using markov chains</h4>
+</div>
+<div id="main"><div id="inner">
+  <div id="credits">Created by: <a href="https://github.com/blackhole12">Cloud Hop</a>
+  <a href="https://github.com/blackhole12"><img src="cloudhop.png" alt="" /></a>
+  </div>
+  <form action="javascript:setMarkovScript()">Choose the number of lines to generate: <input type="range" id="numlines" name="numlines" value="6" oninput="document.getElementById('lineslabel').innerHTML = this.value"/><label for="numlines" id="lineslabel">30</label><input type="submit" value="Generate!" /></form>
+  <div id="target">Loading a crapload of markov chain objects...</div>
+</div></div>
+
+<script type="text/javascript" src="data.js"></script>
+<script>
+"use strict";
+
+var target = document.getElementById('target');
+var numlines = document.getElementById('numlines');
+var mp = {}; // stores where in the gigantic map arrays each PrevID starts.
+var ma = {}; // stores alias tables
+var total = 0;
+for (var key in mc) {
+  if (mc.hasOwnProperty(key)) {
+    mp[key] = total;
+    var s = map_counts.slice(total, total + mc[key]);
+    var sum = 0;
+    var i;
+    for(i = 0; i < s.length; ++i) { sum += s[i]; }
+    for(i = 0; i < s.length; ++i) { s[i] /= sum; }
+    ma[key] = CreateAliasTable(s);
+    total += mc[key];
+  }
+}
+function randInt(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+function getMarkov(prev) {
+  return map_next[mp[prev] + GetAlias(ma[prev])] // REPLACE WITH ALIAS TABLE
+}
+
+function capitalize(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+function getMarkovLine(prev) {
+  if (!(prev in mp)) return null;
+  var prev = getMarkov(prev)
+  var actionid = 59;
+  var speakerid = m1[prev]
+  var phrase = m2[prev]
+  var speaker = m3[speakerid]
+  var line = ''
+  
+  if(speakerid == actionid) {
+    line = '[' + phrase;
+  } else {
+    line = '<b>' + speaker + ':</b> ' + capitalize(phrase);
+  }
+  
+  var i;
+  for(i = 0; i < 200; ++i) {
+    if (!(prev in mp)) break;
+    var punc = phrase.charAt(0) == '.' || phrase.charAt(0) == '!' || phrase.charAt(0) == '?';
+    
+    var next = getMarkov(prev)
+    if(speakerid != m1[next]) break;
+    prev = next;
+    
+    phrase = m2[prev];
+    if(phrase.charAt(0) == '.' || phrase.charAt(0) == '!' || phrase.charAt(0) == '?' || phrase.charAt(0) == ',') {
+      line = line + phrase;
+    } else {
+      if(punc) {
+        line = line + ' ' + capitalize(phrase);
+      } else {
+        line = line + ' ' + phrase;
+      }
+    }
+  }
+  
+  if(speakerid == actionid) {
+    line = line + ']';
+  }
+  return {"Line": line, "Prev": prev};
+}
+
+function getMarkovScript(lines) {
+  var i;
+  var s = '';
+  var prev = {"Line":'', "Prev":0};
+  for(i = 0; i < lines; ++i) {
+    prev = getMarkovLine(prev.Prev);
+    if(prev == null) prev = {"Line":'[]', "Prev":0};
+    if(prev.Line != '[]') s += prev.Line;
+    s += '<br/>';
+  }
+  return s;
+}
+function setMarkovScript() {
+  target.innerHTML = getMarkovScript(0+numlines.value);
+}
+function CreateAliasTable(probs) {
+  var r = { "Prob": [], "Alias": [], "Count": probs.length };
+  var small = [];
+  var large = [];
+  var n_large = 0;
+  var n_small = 0;
+  var average = 1.0/probs.length;
+  
+  var i;
+  for(i = 0; i < probs.length; ++i)
+  {
+    if(probs[i] >= average)
+      large[n_large++]=i;
+    else
+      small[n_small++]=i;
+  }
+
+  var l;
+  var g;
+  while(n_small!=0 && n_large!=0) //In a perfect world, small always empties before large, but our world isn't, so we check both
+  {
+    l=small[--n_small];
+    g=large[--n_large];
+
+    r.Prob[l] = probs[l] * probs.length; //scale probabilities so 1/n is given weight 1.0
+    r.Alias[l] = g;
+    probs[g]=(probs[g] + probs[l]) - average; //Set new probability    
+
+    if(probs[g] >= average) //Move new probability to correct list
+      large[n_large++]=g;
+    else
+      small[n_small++]=g;
+  }
+
+  //Set everything to 1.0 (both lists are set due to numerical uncertainty)
+  while(n_large!=0)
+    r.Prob[large[--n_large]] = 1.0;
+  while(n_small!=0)
+    r.Prob[small[--n_small]] = 1.0;
+  return r;
+}
+function GetAlias(table) {
+  var c = randInt(0, table.Count);
+  return (Math.random()<=table.Prob[c])?c:table.Alias[c];
+}
+/*var table = CreateAliasTable([0.2,0.1,0.2,0.5]); // Used to test that the alias table is behaving correctly
+var test = [0,0,0,0];
+var k
+for(k = 0; k < 100; ++k) { test[GetAlias(table)]++; }
+alert(test[0]+', '+test[1]+', '+test[2]+', '+test[3]);*/ 
+
+
+target.innerHTML = "Click the <i>Generate</i> button to get started!";
+numlines.min = 1;
+numlines.max = 500;
+numlines.value = 30;
+</script>
+</body>
+</html>
+  

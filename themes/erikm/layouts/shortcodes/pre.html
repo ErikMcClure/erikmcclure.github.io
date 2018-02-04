@@ -1,0 +1,1 @@
+<pre {{ if len .Params | eq 1 }}class="language-{{ .Get 0 }}"{{ end }}><code>{{ .Inner | htmlEscape | safeHTML }}</code></pre>

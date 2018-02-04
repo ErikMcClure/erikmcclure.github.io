@@ -1,0 +1,12 @@
+{{ partial "head.html" . }}
+{{ partial "nav.html" . }}
+<main class="blog">
+  <section id="rendermath">
+      {{ range $index, $element := (.Paginate .Data.Pages).Pages }}
+      {{ .Render "li" }}
+      {{ end }}
+      {{ partial "pagination.html" . }}
+  </section>
+  {{ partial "archive.html" . }}
+</main>
+{{ partial "foot.html" . }}

@@ -1,0 +1,12 @@
+{{ range .Pages }}
+<section>
+  <aside><h2>{{ if .Params.links }}<a href="{{ index (index .Params.links 0) 2 }}">{{end}}{{ .Title }}{{ if .Params.links }}</a>{{end}}</h2>
+  {{ if .Params.image }}{{ if .Params.links }}<a href="{{ index (index .Params.links 0) 2 }}">{{end}}<img src="/{{ .Params.image }}" alt="{{ .Title }}" title="{{ .Title }}" />{{ if .Params.links }}</a>{{end}}{{ end }}
+  <ul>
+    {{ range .Params.links }}<li><a href="{{ index . 2 }}" title="{{ index . 1 }}"><i class="fa fa-{{ index . 0 }} fa-fw fa-lg"></i> {{ index . 1 }}</a></li>
+    {{ end }}
+  </ul>
+  </aside>
+  <article>{{ .Content }}</article>
+</section>
+{{ end }}

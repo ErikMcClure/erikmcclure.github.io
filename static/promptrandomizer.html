@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<title>Pony Typewriter</title>
+<style>
+h2 {
+  display:inline;
+  margin:0;
+  font-weight: bold;
+}
+#prompt {
+  font-weight: bold;
+}
+textarea {
+  width:40em;
+  height:5em;
+}
+</style>
+</head>
+<body>
+<h1>Prompt Randomizer</h1>
+
+<p id="prompt">&nbsp;</p>
+<div id="groups">
+<br/><h2>Genders:</h2>
+<br/><textarea id="txt1">Male,Female</textarea>
+<br/><h2>Animals:</h2>
+<br/><textarea id="txt2">Dog,Cat,Fox,Lion,Tiger,Cheetah,Panther,Mouse,Rat,Gerbil,Guinea Pig,Hamster,Snake,Lizard,Gecko,Chameleon,Rhino,Alligator,Crocodile,Hippo,Hyena,Rabbit,Coyote,Wolf,Cougar,Monkey,Ape,Dragon,Horse,Pony,Bird,Bear,Kangaroo,Koala,Raccoon,Bat</textarea>
+<br/><h2>Themes:</h2>
+<br/><textarea id="txt3">Princess,Warrior,Rogue,Criminal,Business,Priest,King,Noble,Pirate,Seafarer,Explorer,Scientist,Poet,Actor,Entertainer,Dancer,Burlesque,Singer,Magician,Sorcerer,Barbarian,Monk,Shaman,Student,Cheerleeder,Jock,Athlete,Pilot,Captain,Sodier,Knight,Witch,Mystic,Robot,Musician,Samurai,Ninja,Viking,Polititian,Swimsuit,Science Fiction,Jedi,Sith,Painter</textarea>
+</div>
+<br/>
+<br/><button onclick="doprompt()">Next Prompt</button>
+<br/><button onclick="addtext()">Add Text Group</button>
+<script type="text/javascript">
+var prompt = document.getElementById("prompt");
+var groups = document.getElementById("groups");
+var curnum = 3;
+function dotext(target) {
+  var r = target.value.split(",");
+  return r[Math.floor(Math.random() * r.length)];
+}
+function doprompt() {
+  prompt.innerHTML='';
+  var x;
+  var k=0;
+  while(x = document.getElementById("txt" + (++k))) {   
+    prompt.innerHTML += dotext(x) + " ";
+  }
+}
+function addtext() {
+  ++curnum;
+  groups.innerHTML += '<br/><h2>Group ' + curnum + ':</h2><br/><textarea id="txt' + curnum + '"></textarea>';
+}
+</script>
+</body>
+</html>

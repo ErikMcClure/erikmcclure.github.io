@@ -1,0 +1,40 @@
++++
+title = "I'm Slowly Losing My Mind"
+date = 2013-02-10T04:20:00Z
+updated = 2013-02-10T17:14:01Z
+blogimport = true 
+categories = [ "blog" ]
+[author]
+	name = "Erik McClure"
+	uri = "https://plus.google.com/104896885003230920472"
++++
+
+I say a lot of things. I avoid lying at all costs, and instead prefer to simply leave out a lot of... details. Like why I started a game development company that spends an awful lot of time developing tools instead of games. Or why I've spent 6 years chasing a dream, and instead of doing what any sane person would have done and used existing frameworks to achieve my supposed goal of creating the various game ideas I've had, I have stubbornly built my own framework of tools, giving myself control of everything from the high level game engine down to CPU specific SSE optimizations and how I allocate my arrays. 
+
+I extended std::string into my own string class and use my own replacement for std::vector. I built my own audio engine. I built my own graphics engine. I built my own game engine, state control system, box2D physics integration, and serialization. Now I've even built my own GUI framework, because CEGUI was such a load of crap. I resisted doing that one for a long time, until it became increasingly obvious to me that I had no choice. 
+
+If I really wanted to just make a game, what the hell am I doing? I'm building an enormous foundation for some unseen purpose, as if I had something else in mind. Something bigger. Something that I set out to do without realizing it years ago when I decided to build a graphics engine.
+
+It's hard to avoid lying to other people when you're lying to yourself and don't realize it. I wanted to make games, but the reasons were more complicated than that. I wanted to make game-building *tools*. I wanted to unlock the creative potential of a thousand artists so they could build games that far surpassed this modern slump of quality we seem to have gotten stuck in. But the rabbit-hole kept going deeper the farther into college I got and the endless failures I was met with. Constantly I would try to utilize the power of my work, take advantage of the fruits of my labor, only to find that my labor was horrendously misguided, and always failing to produce a product. Something was always either wrong with the engine, or more often a significant chunk of it simply wasn't there. I have built so much, and yet I [dream of failure](http://blackhole12.blogspot.com/2012/12/dreams-of-failure.html).
+
+Despite this, I press onward with relentless enthusiasm, driven by a strange force of hope in the face of overwhelming evidence that I have absolutely no fucking idea what I'm doing and am clearly destined to fail miserably. I graduate college in 2 months. I'm running out of time.
+
+Sometimes I feel like I'm just going to die when the end comes and I have to give up everything I strove to create for a normal job. Of course, with a degree in Applied Mathematics and years of complex programming, my normal job would probably involve being paid a 6 figure salary. I would stare at those 6 digits and feel only the crushing weight of regret, because my idealism had failed - destroyed by the seething hatred of reality. By the time I had gotten enough money to "pursue my dreams", I would have gotten married and be tied down by kids. My desperate attempt to reclaim the dreams I had in my youth would be met with the horrifying realization that I could no longer recall what those dreams were. This is the living hell that haunts my nightmares.
+
+People are confused. They don't understand why those dreams are so important. They ask me, why are you doing this? And I reply, *because I have to*.
+
+For as long as I can remember, I have had an increasingly wild and extravagant imagination. It would be triggered by movies, animations, books, music, art, anything that gave my brain a new idea to absorb. It would assimilate the new ideas and then spit out visions and sounds distilled from every good part of everything I've ever seen or heard, combining and recombining elements from a thousand different sources until they become a cacophony of beautiful chaos.
+
+And then they fade, and I am left staring at a blank wall, frustrated once again by the fact that I can't make those dreams happen. Even in my one creative outlet, music, I am so incompetent I can only stumble on good ideas by accident, and they are never even remotely related to the orgasmic explosion of amazing sounds I hear in my imagination.
+
+I thought this was normal. I thought everyone had such an insanely hyperactive imagination. It was only recently I realized that my condition was highly irregular for a software engineer. It also explained why I had such perpendicular opinions to the rest of the programming world, and why the majority of my friends were artists.
+
+I also realized I was going to go crazy if I couldn't figure out a way to get it out, which is *definitely* not normal. The ideas feel like they're trying to claw their way out of my brain, ready to burst fully realized into my monitor. Parts of them I can reverse engineer and say "I know how I could do that." Others require multiple things to be invented - I've already invented at least 2 technologies whose prototypes are locked away. Some things I simply don't think I can do on my own. I need help. I'm not a genius, I'm just a programmer who's slowly being driven mad by his creative frustration.
+
+Everything I had ever done makes sense when you realize that I am almost entirely a product of creative impotence. I keep building more and more powerful tools in frantic, desperate attempts to express myself. My foundation is being built in preparation for the construction of an entire suite of tools whose sole purpose is to give me a suitable creative outlet. I'm building a foundation for tools I probably don't even know I'm going to make yet - that's happened a disturbing number of times. It seems like I am following a plan so obtuse I can't even figure out what I'm doing. And I can't stop. There is no way to make me stop. If I became homeless I would still find a way to work on my tools, to try and find a way to let the creative flood out of my head, because *I have to*.
+
+The things I see in my head, I have to make them happen. I have to make them real. Somehow. I'll invent a new precedent for 3D graphics rendering if I have to. Don't even try to tell me something is impossible, because even if you convince me that my ideas are insane I will try to get as close to them as I can anyway. It doesn't matter if I am destined to fail, or chasing an impossible ideal, because without it I have no reason to live, and can derive no joy from my existence. If I get a normal job, I rightfully believe that it will end up killing me, physically or mentally. Even if I don't get a normal job, I am now terrified that if the great Aaron Swartz was somehow driven to suicide by an unrelenting, hopeless reality, my idealism stands even less of a chance. No matter how frightened I become, my imagination remains an unrelenting torrent of ideas, slowly eating away at my mind. It will never let me stop trying. *Ever.* 
+
+I just didn't tell people because they simply wouldn't understand unless I explained how I was basically insane by society's standards. But now, I feel the endgame is upon me, and I don't know if I can beat the final boss of this dungeon that is my life. I'm running out of cards to play, and I'm not sure if I'm going to survive. I feel like this mask of sanity and reasonableness has gotten me as far as its going to get me, and that if I am going to beat this, I need all the help I can get, and lying to everyone that I am actually some sort of reasonable person isn't going to help anymore. I'm not a normal person. I am a delusional idealist who is chasing his dream like a goddamn determinator and nothing short of death itself is going to stop him. As I have learned the hard way, you can try as hard as you possibly can, and sometimes it still just isn't enough.
+
+If curiosity killed the cat, perhaps creativity is killing the rabbit?

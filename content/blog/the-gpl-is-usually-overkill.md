@@ -1,0 +1,28 @@
++++
+title = "The GPL Is Usually Overkill"
+date = 2016-04-28T14:23:00Z
+updated = 2016-04-28T14:23:41Z
+blogimport = true 
+categories = [ "blog" ]
+[author]
+	name = "Erik McClure"
+	uri = "https://plus.google.com/104896885003230920472"
++++
+
+Something that really bothers me about the GPL and free software crusaders in general is that they don't seem to understand the nuances behind the problem they are attempting to solve. I'm not entirely sure they are even trying to solve the right problem in the first place.
+
+The core issue at play here is *control*. In a world run by software, we need control over what code is being executed on our hardware. This issue is of paramount importance as we move into an age of autonomous vehicles and wearable devices. Cory Doctorow's brilliant essay, [Lockdown: The coming war on general-purpose computing](http://boingboing.net/2012/01/10/lockdown.html), gives a detailed explanation of precisely *why* it is of such crucial importance that *you* have control over what software gets executed on your machine, and not some corporation. Are you really going to buy a car and then get into it when you have no way of controlling what it does? This isn't some desktop computer anymore, it's a machine that can decide whether you live or die.
+
+It is completely true that, if everything was open source, we would then have total control over everything that is being run on our machines. However, proponents of open source software don't seem to realize that this is the *nuclear option*. Yes, it solves your problem, but it does so via massive overkill. There are much less extreme ways to achieve exactly what you want that don't involve requiring *literally everything* to be open source.
+
+Our goal is to ensure that only trusted code is run on our machine. In order to achieve this goal, the firmware and operating system **must be open source**. This is because both the operating system and the firmware act as gatekeepers - if we have something like Intel's Trusted Execution Technology, we absolutely must have access to the firmware's source code, because it is the first link in our *trust chain*. If we can make the TXT engine work for *us*, we can use it to ensure that only operating systems we approve of can be run on our hardware.
+
+We now reach the second stage of our trust chain. By using a boot-time validation of a cryptographic signature, we can verify that we are running an operating system of our choice. Because the operating system is what implements the necessary program isolation and protection mechanisms, it too is a required part of our trust chain and therefore *must be open source*. We also want the operating system to implement some form of permission restriction - ideally it would be like Android, except that *anything* running on the OS must explicitly tell you what resources it needs to access, not just apps you download from the store.
+
+And... *that's it*. Most free software zealots that are already familiar with this chain of events would go on to say that you should only install open source software and whatever, but in reality this is unnecessary. You certainly want open source drivers, but once you have control over the firmware and the operating system, no program can be run without your permission. Any closed-source application can only do what I have given it permission to do. It could phone home without my knowledge or abuse the permissions I have granted it in other ways, but the hardware is still under my control. I can simply uninstall the application if I decide I don't like it. Applications cannot control my hardware unless I give them explicit permission to do so.
+
+Is this enough? The FSF would argue that, no, it's not enough until your entire computer is running only open source code that can be verified and compiled by yourself, but I disagree. At some point, you have to trust *someone*, somewhere, as demonstrated by the [Ken Thompson Hack](http://c2.com/cgi/wiki?TheKenThompsonHack). I'm fine with trusting a corporation, but I need have total control over who I am trusting. If a corporation controls my firmware or my operating system, then **they control who I trust**. I can ask them politely to please trust or not trust some program, but I can't actually be sure of anything, because I do not control the root of the trust chain. **Open source software is important for firmware and operating systems, because it's the only way to establish a chain of trust that you control**. However, once I have an existing chain of trust, I don't need open-source programs anymore. *I now control what runs on my computer*. I can tell my computer to never run anything written by Oracle, and be assured that it will actually never trust anything written by Oracle.
+
+If I sell you a piece of software, you have a right to decompile it, modify it, hack it, or uninstall it. This does not, however, require me to explain how it works to you, nor how to assemble it. If you trust me, you can run this piece of software on your hardware, but if you don't trust me, then a verifiable chain of trust will ensure that my software *never* runs on your machine. *This* is what matters. This is what having control means. It means being able to say what does or doesn't run on your computer. It does not require that everything is open source. It only requires an open source, verifiable chain of trust, and faith in whatever company made the software you've chosen to run. If a company's software is proprietary and they do something you don't like, *use something else*.
+
+Open source code is important for *firmware and operating systems*, not *everything*.
