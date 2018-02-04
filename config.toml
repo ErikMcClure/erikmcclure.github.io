@@ -1,49 +1,48 @@
 author = "Erik McClure"
 baseURL = "https://blackhole12.github.io/"
 copyright = "Erik McClure"
-languageCode = "en-us"
-theme = "erikm"
-title = "Erik McClure"
 defaultLayout = "post"
+languageCode = "en-us"
 layoutDir = "layouts"
 paginate = 5
 paginatePath = "page"
-
+theme = "erikm"
+title = "Erik McClure"
 [[menu.main]]
-identifier = "globe"
-name = "Websites"
-url = "/web/"
-weight = 6
-[[menu.main]]
-identifier = "linkedin"
-name = "LinkedIn"
-url = "https://linkedin.com/in/erikmcclure/"
-weight = 5
-[[menu.main]]
-identifier = "github"
-name = "Github"
-url = "https://github.com/blackhole12"
-weight = 4
-[[menu.main]]
-identifier = "bandcamp"
-name = "Bandcamp"
-url = "https://erikmcclure.bandcamp.com"
-weight = 3
+identifier = "book"
+name = "Blog"
+url = "/blog/"
+weight = 1
 [[menu.main]]
 identifier = "briefcase"
 name = "Projects"
 url = "/projects/"
 weight = 2
 [[menu.main]]
-identifier = "book"
-name = "Blog"
-url = "/blog/"
-weight = 1
+identifier = "bandcamp"
+name = "Bandcamp"
+url = "https://erikmcclure.bandcamp.com"
+weight = 3
+[[menu.main]]
+identifier = "github"
+name = "Github"
+url = "https://github.com/blackhole12"
+weight = 4
+[[menu.main]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://linkedin.com/in/erikmcclure/"
+weight = 5
+[[menu.main]]
+identifier = "globe"
+name = "Websites"
+url = "/web/"
+weight = 6
+[params]
+description = "Applied mathematician and software architect who makes games and music."
+googleanalytics = "Oxb2ia8HjcHLXlvstA8xPpQO3BO_y15Ds2Ia-feq1MQ"
+image = "img/avatar.png"
+keywords = "games, music, code, blackhole, blackhole12, blackhole0173, erik mcclure, aurora theory, sweetie bot, discord, feathergui, black sphere studios, tinyoal, upatch"
 [taxonomies]
 category = "categories"
 tag = "tags"
-[params]
-  keywords = "games, music, code, blackhole, blackhole12, blackhole0173, erik mcclure, aurora theory, sweetie bot, discord, feathergui, black sphere studios, tinyoal, upatch"
-  description = "Applied mathematician and software engineer who makes games and music."
-  image = "img/avatar.png"
-  googleAnalytics = "Oxb2ia8HjcHLXlvstA8xPpQO3BO_y15Ds2Ia-feq1MQ"
