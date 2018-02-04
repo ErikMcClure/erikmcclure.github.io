@@ -1,7 +1,7 @@
 {{ partial "head.html" . }}
 {{ partial "nav.html" . }}
 <main class="blog">
-  <section id="rendermath">
+  <section>
     <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="{{ .Site.BaseURL }}"/>
     <meta itemprop="dateModified" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">
     <meta itemprop="headline" content="{{ .Title }}">
@@ -24,7 +24,7 @@
       <div class="padding">{{ .Content }}</div>
       <hr/>
       <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}"><i class="fa fa-clock-o fa-fw"></i> Published on <a href="{{ .Permalink }}">{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "January 2, 2006 at 3:04pm" }}{{ end }}</a></time>
-      <aside><i class="fa fa-share-square-o fa-fw"></i> share this</aside>
+      {{ partial "share.html" . }}
     </article>
     <article>
     <h6>Comments are disabled</h6>

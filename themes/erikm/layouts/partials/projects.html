@@ -1,5 +1,6 @@
 {{ range .Pages }}
 <section>
+<div class="dim">
   <aside><h2>{{ if .Params.links }}<a href="{{ index (index .Params.links 0) 2 }}">{{end}}{{ .Title }}{{ if .Params.links }}</a>{{end}}</h2>
   {{ if .Params.image }}{{ if .Params.links }}<a href="{{ index (index .Params.links 0) 2 }}">{{end}}<img src="/{{ .Params.image }}" alt="{{ .Title }}" title="{{ .Title }}" />{{ if .Params.links }}</a>{{end}}{{ end }}
   <ul>
@@ -8,5 +9,6 @@
   </ul>
   </aside>
   <article>{{ .Content }}</article>
+</div>
 </section>
 {{ end }}

@@ -58,7 +58,7 @@ body {
 nav {
   position:relative;
   background: #2b7bb5;
-	font: 700 small-caps 1.07rem "Open Sans", Helvetica, Arial, sans-serif;
+	font: 700 small-caps 1.07rem Helvetica, Arial, sans-serif;
   letter-spacing: 3px;
   text-align: center;
   box-shadow: 0 0 3px #000;
@@ -98,6 +98,13 @@ nav ul li a:hover {
   background: #3585c0;
 }
 
+header {
+  background: url('/img/bg.jpg') no-repeat bottom left fixed;
+}
+header .dim {
+  background: rgba(0,0,0,0.45);
+}
+
 h1 {
   display:block;
 	font: 700 2.6rem "Lucida grande", Helvetica, Arial, sans-serif;
@@ -117,7 +124,7 @@ main {
   padding-bottom: 3em;
 }
 h2, h3, h4 {
-	font: 700 small-caps 1.7rem "Open Sans", Helvetica, Arial, sans-serif;
+	font: 700 small-caps 1.7rem Helvetica, Arial, sans-serif;
   text-align: center;
   margin: 0.6em 0 0 0;
   color: #33373f;
@@ -134,7 +141,7 @@ h4 {
   padding-top: 0.5em;
 }
 h5 {
-	font: 700 small-caps 1.4rem "Open Sans", Helvetica, Arial, sans-serif;
+	font: 700 small-caps 1.4rem Helvetica, Arial, sans-serif;
   color: #33373f;
   margin: 0.5em 0 0.5em 0;
 }
@@ -185,18 +192,22 @@ main.projects section p {
   padding-top: 0.75em;
 }
 main.projects section, .links section {
-  display: flex;
-  align-items: stretch;
   position: relative;
-  border-radius: 0.5rem;
+  border-radius: 8px;
   border: 1px solid #fff;
   max-width: 1000px;
   box-shadow: 0 3px 8px #303030;
   box-shadow: 0 3px 8px rgba(0,0,0,0.7);
-  background: rgb(240,243,245);
-  background: rgba(240,243,245,0.85);
+  background: url('/img/bg.jpg') no-repeat bottom left fixed;
   color: #000;
   margin: 3em auto 0 auto;
+  overflow:hidden;
+}
+main.projects .dim {
+  display: flex;
+  align-items: stretch;
+  background: rgba(0,0,0,0.45);
+  border-radius: 9px;
 }
 
 main.projects section aside {
@@ -204,6 +215,8 @@ main.projects section aside {
   min-width: 250px;
   text-align: center;
   user-select: none;
+  background: rgb(220,223,225);
+  background: rgba(240,243,245,0.85);
 }
 
 main.projects section article {
@@ -211,6 +224,8 @@ main.projects section article {
   padding: 0 0.75em 0.75em 1em;
   text-shadow: 1px 1px 0 #f0f3f5;
   border-left: 1px solid #f5f9ff;
+  background: rgb(220,223,225);
+  background: rgba(240,243,245,0.85);
 }
 main.projects section article time {
   display:block;
@@ -230,8 +245,17 @@ main.links {
 }
 
 main.links section {
+  position: relative;
   display: inline-block;
-  padding-right: 1.4em;
+}
+main.links .dim {
+  background: rgba(0,0,0,0.45);
+  border-radius: 9px;
+}
+main.links .dim .color {
+  background: rgb(220,223,225);
+  background: rgba(240,243,245,0.85);
+  padding: 0.1em 1.3em 0.1em 0;
 }
 
 main.blog {
@@ -292,7 +316,7 @@ main.blog section article time {
 main.blog section article aside {
   display: inline-block;
   color: #666564;
-  margin: 0.25em 0 0 1.75em;
+  margin: 1px 0 0 1.75em;
 }
 main.blog section article i, main.blog section article em {
   font-style: italic;
@@ -303,6 +327,27 @@ main.blog section article b, main.blog section article strong {
 main.blog section article aside i, main.blog section article time i {
   font-style: normal;
 }
+main.blog section article aside ul {
+  display: inline-block;
+  margin: 0;
+  height: 26px;
+  overflow: hidden;
+  vertical-align:bottom;
+}
+main.blog section article aside ul li {
+  display: inline;
+  list-style: none;
+  margin: 0 0 0 2px;
+}
+
+main.blog section article aside ul li a:link, main.blog section article aside ul li a:visited {
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+main.blog section article aside ul li a:hover, main.blog section article aside ul li a:active {
+  opacity: 1;
+}
+
 main.blog section article img {
   margin: 0 0.75rem;
 }
@@ -410,7 +455,7 @@ footer {
   Bottom: 0;
   border-top: 1px solid #000;
   color: #c0c3c5;
-	font: 700 small-caps 0.8rem "Open Sans", Helvetica, Arial, sans-serif;
+	font: 700 small-caps 0.8rem Helvetica, Arial, sans-serif;
   letter-spacing:2px;
   margin: 0 0 0 0;
   text-align: center;

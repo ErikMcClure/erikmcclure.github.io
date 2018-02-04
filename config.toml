@@ -8,6 +8,7 @@ paginate = 5
 paginatePath = "page"
 theme = "erikm"
 title = "Erik McClure"
+disableKinds = [ "taxonomy" ]
 [[menu.main]]
 identifier = "book"
 name = "Blog"

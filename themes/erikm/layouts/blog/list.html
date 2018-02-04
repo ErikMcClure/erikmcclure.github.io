@@ -1,7 +1,7 @@
 {{ partial "head.html" . }}
 {{ partial "nav.html" . }}
 <main class="blog">
-  <section id="rendermath">
+  <section>
       {{ range $index, $element := (.Paginate .Data.Pages).Pages }}
       {{ .Render "li" }}
       {{ end }}
