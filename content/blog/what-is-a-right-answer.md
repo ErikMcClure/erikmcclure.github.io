@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-08-22T18:40:00Z"
 title = "What Is A Right Answer?"
-date = 2012-08-22T18:40:00Z
-updated = 2012-08-22T18:40:19Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-08-22T18:40:19.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I find that modern culture is often obsessed with a concept of *wrongness*. It is a tendency to paint things in a black and white fashion, as if there are simply wrong answers and right answers and nothing in-between. While I have seen this in every single imaginable discipline (including art and music, which is particularly disturbing), it is most obvious to me in the realm of programming.
 
 When people aren't making astonishingly over-generalized statements like trying to say one programming language is better than another without context, we often try to find the "best" way to do something. The problem is that we don't often bother to think about exactly what makes the best answer the *best answer*. Does it have to be fast? If speed was the only thing that was important, we'd write everything in assembly. Does it have to be simple? I could list a thousand instances were simplicity fails to account for edge-cases that render the code useless. Does it have to be easy to understand? If you want something to be easy to understand, then the entire C standard library is one giant wrong answer that's being relied upon by virtually every single program in the entire world.

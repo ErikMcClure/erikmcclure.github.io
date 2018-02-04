@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-04-26T21:11:00Z"
 title = "An Outside Perspective on the PSN Fiasco"
-date = 2011-04-26T21:11:00Z
-updated = 2011-04-26T21:17:56Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-04-26T21:17:56.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I asked a non-technical friend of mine, who has been unable to play online with his PS3 recently due to the PSN outage, what he thought about practically all of his personal information being compromised due to an intrusion and questionable security. His perspective is not what I was expecting.
 
 {{%blockquote%}}I'm just saying, they've been the target of hackers already, it just takes a couple members of Anonymous doing their own thing to get back in I imagine.  If a hacker wants something, they usually wind up getting it somehow or other unless it's tucked in the Pentagon or some shit, or so it seems anymore. The 3DS was built to be unhackable and someone broke it in 48 hours.  Nothing about any console maker told me they're the best bastions of defense. So no, it doesn't concern me one damn bit, because I've never considered anything I've ever had secure in the first place.

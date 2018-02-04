@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-09-05T04:43:00Z"
 title = "The Problem of Vsync"
-date = 2011-09-05T04:43:00Z
-updated = 2011-09-05T17:49:34Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-09-05T17:49:34.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 If you were to write directly to the screen when drawing a bouncing circle, you would run into some problems. Because you don't do any buffering, your user might end up with a quarter circle drawn for a frame. This can be solved through Double Buffering, which means you draw the circle on to a backbuffer, then "flip" (or copy) the completed image on to the screen. This means you will only ever send a completely drawn scene to the monitor, but you will still have tearing issues. These are caused by trying to update the monitor outside of its refresh rate, meaning you will have only finished drawing half of your new scene over the old scene in the monitor's video buffer when it updates itself, resulting in half the scanlines on the screen having the new scene and half still having the old scene, which gives the impression of tearing.
 
 This can be solved with Vsync, which only flips the backbuffer right before the screen refreshes, effectively locking your frames per second to the refresh rate (usually 60 Hz or 60 FPS). Unfortunately, Vsync with double buffering is implemented by simply locking up the entire program until the next refresh cycle. In DirectX, this problem is made even worse because the API locks up the program with a 100% CPU polling thread, sucking up an entire CPU core just waiting for the screen to enter a refresh cycle, often for almost 13 milliseconds. So your program sucks up an entire CPU core when 90% of the CPU isn't actually doing anything but waiting around for the monitor.

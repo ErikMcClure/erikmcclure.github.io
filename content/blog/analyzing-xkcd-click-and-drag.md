@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-09-19T07:33:00Z"
 title = "Analyzing XKCD: Click and Drag"
-date = 2012-09-19T07:33:00Z
-updated = 2012-09-19T08:03:43Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-09-19T08:03:43.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Today, xkcd [featured a comic](http://xkcd.com/1110/) with a *comically* large image that is navigated by clicking and dragging. In the interests of SCIENCE (and possibly accidentally DDoSing Randall's image server - sorry!), I created a static HTML file of the **[entire composite image](http://blackspherestudios.com/storage/xkcd_huge_static.html)**.{{<sup>}}1{{</sup>}}
 
 The collage is made up of 225 images{{<sup>}}2{{</sup>}} that stretch out over a total image area 79872 pixels high and 165888 pixels wide. The images take up 5.52 MB of space and are named with a simple naming scheme {{<code>}}"ydxd.png"{{</code>}} where d represents a cardinal direction appropriate for the axis (n for north, s for south on the y axis and e for east, w for west on the x axis) along with the tile coordinate number; for example, {{<code>}}"1n1e.png"{{</code>}}. Tiles are 2048x2048 png images with an average size of 24.53 KB. If you were to try and represent this as a single, uncompressed 32-bit 79872x165888 image file, it would take up 52.99 GB of space.

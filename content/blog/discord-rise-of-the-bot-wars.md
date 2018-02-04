@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2017-06-24T08:40:00Z"
 title = "Discord: Rise Of The Bot Wars"
-date = 2017-06-24T08:40:00Z
-updated = 2017-06-25T12:26:28Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2017-06-25T12:26:28.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 The most surreal experience I ever had on discord was when someone PMed me to complain that my anti-spam bot wasn't working against a 200+ bot raid. I pointed out that it was never designed for large-scale attacks, and that discord's own rate-limiting would likely make it useless. He revealed he was selling spambot accounts at a rate of about $1 for 100 unique accounts and that he was being attacked by a rival spammer. My anti-spam bot had been dragged into a turf war between two spambot networks. We discussed possible mitigation strategies for worst-case scenarios, but agreed that most of them would involve false-positives and that discord showed no interest in fixing how exploitable their API was. I hoped that I would never have to implement such extreme measures into my bot.
 
 Yesterday, our server was attacked by over 40 spambots, and after discord's astonishingly useless "customer service" response, I was forced to do exactly that.

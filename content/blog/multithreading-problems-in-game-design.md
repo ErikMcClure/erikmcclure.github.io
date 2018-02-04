@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-05-23T23:46:00Z"
 title = "Multithreading Problems In Game Design"
-date = 2012-05-23T23:46:00Z
-updated = 2012-05-24T02:21:40Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-05-24T02:21:40.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 A couple years ago, when I first started designing a game engine to unify Box2D and my graphics engine, I thought this was a superb opportunity to join all the cool kids and multithread it. I mean all the other game developers were talking about having a thread for graphics, a thread for physics, a thread for audio, etc. etc. etc. So I spent a lot of time teaching myself various lockless threading techniques and building quite a few iterations of various multithreading structures. Almost all of them failed spectacularly for various reasons, but in the end they were all too complicated.
 
 I eventually settled on a single worker thread that was sent off to start working on the physics at the beginning of a frame render. Then at the beginning of each subsequent frame I would check to see if the physics were done, and if so sync the physics and graphics and start up another physics render iteration. It was a very clean solution, but fundamentally flawed. For one, it introduces an inescapable frame of input lag.

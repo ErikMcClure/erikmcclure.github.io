@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2010-11-18T03:56:00Z"
 title = "The IM Failure"
-date = 2010-11-18T03:56:00Z
-updated = 2011-01-22T03:39:43Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T03:39:43.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 This is completely insane. First, Microsoft has rendered its new Windows Live Messenger (previously MSN messenger) almost completely useless.
 
  * No more handwriting

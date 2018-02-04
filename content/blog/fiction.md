@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2014-04-06T12:09:00Z"
 title = "Fiction"
-date = 2014-04-06T12:09:00Z
-updated = 2014-04-06T12:09:20Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2014-04-06T12:09:20.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I was reading a story on the plane today. It was the tale of a terrible war, a battle between two civilizations bent on the destruction of the other. It spoke of barbaric acts, of unspeakable horrors, of cruelty and pain on such a magnitude it could only exist in a place devoid of morality.
 
 None of it is real. No one is really dying, no one is having their heart broken, no one's lives are really being destroyed. And yet, it bothers me. It bothers me because I know such tales of war were not composed in a vacuum. The power that story holds over me does not come from the imaginary characters it paints, but of the real people it is based off of. The lives that really were lost, the tragedies that tore us apart, the chapters of human history most of us would prefer to forget.

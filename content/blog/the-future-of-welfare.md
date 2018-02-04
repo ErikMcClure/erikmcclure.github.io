@@ -1,15 +1,15 @@
 +++
-title = "The Future Of Welfare"
-date = 2014-04-07T12:43:00Z
-updated = 2014-04-07T12:43:58Z
+blogimport = true
+categories = ["blog"]
+date = "2014-04-07T12:43:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "The Future Of Welfare"
+updated = "2014-04-07T12:43:58.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 In the future, what will the unemployment rate be?
 
 The Industrial Revolution decimated the traditional job market of that era. The invention of threshing machines put so many farm laborers out of work, it was one of the driving factors behind the [Swing Riots](http://en.wikipedia.org/wiki/Swing_Riots). The invention of robotics allowed for the automation of assembly lines and resulted in millions of factory workers finding themselves suddenly obsolete. The [proliferation of software](http://online.wsj.com/news/articles/SB10001424053111903480904576512250915629460) through the world's economy has automated most menial labor, and our economy is now suffering from millions of jobs taken by computers instead of people.

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-11-07T03:44:00Z"
 title = "Why Kids Hate Math"
-date = 2011-11-07T03:44:00Z
-updated = 2011-11-07T13:52:44Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-11-07T13:52:44.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 **They're teaching it wrong.**
 
 And I don't just mean teaching the concepts incorrectly (although they do plenty of that), I mean their teaching priorities are *completely backwards*. Set Theory is really fun. Basic Set Theory can be taught to someone without them needing to know how to *add or subtract*. We teach kids Venn Diagrams but never teach them all the fun operators that go with them? Why not? You say they won't understand? **Bullshit**. If we can [teach third graders binary](http://www.garlikov.com/Soc_Meth.html), we can teach them set theory. We take forever to get around to teaching algebra to kids, because its considered difficult. If something is a difficult conceptual leap, then you don't want to *delay* it, you want to introduce the concepts *as early as possible*. I say start teaching kids algebra once they know basic arithmetic. They don't need to know how to do crazy weird stuff like x * x = x² (they don't even know what ² means), but you can still introduce them to the idea of representing an unknown value with x. Then you can teach them exponentiation and logs and all those other operators first in the context of numbers, and then in the context of unknown variables. Then algebra isn't some scary thing that makes all those people who don't understand math give up, its something you simply grow up with. 

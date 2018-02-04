@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-06-19T17:56:00Z"
 title = "On Hacking (or Why We Need Security Ratings)"
-date = 2011-06-19T17:56:00Z
-updated = 2011-06-19T20:07:57Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-06-19T20:07:57.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 [Another website has been hacked](http://news.ycombinator.com/item?id=2671612). It seems almost routine now, with site after site getting demolished by hackers. The overwhelming public response to the catastrophe has been to ask, "can anything be made secure?" Security experts, naturally, are constantly attacking the companies in question for their dismal security practices, but what of the general public? They don't know what a hash is. They don't know what an SQL injection is. They have no reason to know these things and will never understand them. All they understand is that their company assured them they had good security, and then they were hacked, and somehow the good security wasn't actually good. So then they'll move to another company, and this time, they're told, this company *really does have* good security. But nope, it got hacked too, guess that good security wasn't actually good.
 
 Can any security be good? A security expert knows why the companies were hacked and can answer that question - the average Joe probably won't be able to. This is the crux of the problem - What is good security? How can an average person figure out what good security is? Good security used to be MD5 hashing. Then it was MD5 hashing with a seed. Now MD5 is cryptographically insecure, so we're trying to move to SHA1, but even that might be crackable in the near future, so someone invented bcrypt, but now the bcrypt implementation has demonstrated [some unnerving behavior](http://rondam.blogspot.com/2011/06/possible-flaw-in-open-source-bcrypt.html), making its implementation unverified. Then there is SQL injection vulnerabilities and the long list of [XSS attacks](http://ha.ckers.org/xss.html), along with cookiejacking made possible by unencrypted networks and [Firesheep](http://codebutler.com/firesheep). Even now we are seeing weaknesses at the highest echelons of security - [hacked RSA databases](http://arstechnica.com/security/news/2011/06/rsa-finally-comes-clean-securid-is-compromised.ars?utm_source=rss&utm_medium=rss&utm_campaign=rss) and even [HTTPS certificates](http://www.phreedom.org/research/rogue-ca/).

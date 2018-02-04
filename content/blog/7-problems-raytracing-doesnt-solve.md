@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-09-27T04:13:00Z"
 title = "7 Problems Raytracing Doesn't Solve"
-date = 2012-09-27T04:13:00Z
-updated = 2012-09-28T07:54:23Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-09-28T07:54:23.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I see a lot of people get excited about extreme concurrency in modern hardware bringing us closer to the magical holy grail of *raytracing*. It seems that everyone thinks that once we have raytracing, we can fully simulate entire digital worlds, everything will be photorealistic, and graphics will become a "solved problem". This simply isn't true, and in fact highlights several fundamental misconceptions about the problems faced by modern games and other interactive media.
 
 For those unfamiliar with the term, *raytracing* is the process of rendering a 3D scene by tracing the path of a beam of light after it is emitted from a light source, calculating its properties as it bounces off various objects in the world until it finally hits the virtual camera. At least, you hope it hits the camera. You see, to be perfectly accurate, you have to cast a bajillion rays of light out from the light sources and then see which ones end up hitting the camera at some point. This is obviously a problem, because most of the rays don't actually hit the camera, and are simply wasted. Because this brute force method is so incredibly inefficient, many complex algorithms (such as [photon-mapping](http://en.wikipedia.org/wiki/Photon_mapping) and [Metropolis light transport](http://en.wikipedia.org/wiki/Metropolis_light_transport)) have been developed to yield approximations that are thousands of times more efficient. These techniques are almost always focused on attempting to find paths from the light source to the camera, so rays can be cast in the reverse direction. Some early approximations actually cast rays out from the camera until they hit an object, then calculated the lighting information from the distance and angle, disregarding other objects in the scene. While highly efficient, this method produced extremely inaccurate results.

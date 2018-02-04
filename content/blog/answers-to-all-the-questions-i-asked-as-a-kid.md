@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-05-29T22:51:00Z"
 title = "Answers To All The Questions I Asked As A Kid"
-date = 2012-05-29T22:51:00Z
-updated = 2012-05-31T13:21:10Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-05-31T13:21:10.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 When I was growing up and trying to figure out what was going on in this crazy planet I was born on, there were several important questions I asked that took many, many years to find answers to. What was frustrating is that almost every single answer was usually extremely obvious once I could just find someone who actually knew what they were talking about. So here are the answers to several simple life questions that always bugged me as a kid, based on my own life experiences. Many people will probably disagree with one or two things here, which is fine, because I don't care.
 
 ##### 1. What is the purpose of Math?

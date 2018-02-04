@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-07-21T19:35:00Z"
 title = "C# to C++ Tutorial - Part 2: Pointers Everywhere!"
-date = 2011-07-21T19:35:00Z
-updated = 2013-05-10T02:02:17Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-05-10T02:02:17.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 [ [1](http://blackhole12.blogspot.com/2011/07/c-to-c-tutorial-part-1-basics-of-syntax.html) &middot; **2** &middot; [3](http://blackhole12.blogspot.com/2011/09/c-to-c-tutorial-part-3-classes-and.html) &middot; [4](http://blackhole12.blogspot.com/2012/10/c-to-c-tutorial-part-4-operator-overload.html) <span style="color:#aaa;">&middot; 5 &middot; 6 &middot; 7</span> ]
 
 We still have a lot of ground to cover on pointers, but before we do, we need to address certain conceptual frameworks missing from C# that one must be intimately familiar with when moving to C++.

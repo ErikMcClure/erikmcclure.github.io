@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-12-14T22:46:00Z"
 title = "My SteamOS Experience"
-date = 2013-12-14T22:46:00Z
-updated = 2013-12-14T23:55:19Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-12-14T23:55:19.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{<div style="text-align:center">}}<a href="http://i.imgur.com/UoeZCWN.png"><img style="max-height:256px;" src="http://i.imgur.com/UoeZCWN.png" alt="SteamOS"/></a>{{</div>}}
 After quite a bit of fighting, I have managed to create a stable, working SteamOS installation, on which I am writing this blog post. In the interest of ***science!*** I will be detailing the steps I took while installing the OS, along with all the issues I had and how I solved them. To help anyone trying to troubleshoot things, here are a list of things that went wrong. If you want to know how they were fixed, keep reading:
 

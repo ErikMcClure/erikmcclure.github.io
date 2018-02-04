@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2015-05-08T21:53:00Z"
 title = "Am I Making The World A Better Place?"
-date = 2015-05-08T21:53:00Z
-updated = 2015-05-09T14:26:51Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2015-05-09T14:26:51.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 A while ago, I watched [The Internet's Own Boy](https://www.youtube.com/watch?v=vXr-2hwTk58), a documentary about Aaron Swartz. It was immensely painful to learn about someone as amazing as he was, someone who seemed to look at the world in the same way I did, after he committed suicide. At 24 minutes, Aaron's brother says something that continues to stick with me.
 
 {{%blockquote%}}"The way Aaron always saw it, is that programming is magic—you can accomplish these things that normal humans can't, by being able to program. So, if you had magical powers, would you use them for good, or to make you mountains of cash?" — *Ben Swartz*{{%/blockquote%}}

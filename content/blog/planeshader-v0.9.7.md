@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2010-07-21T18:45:00Z"
 title = "PlaneShader v0.9.7"
-date = 2010-07-21T18:45:00Z
-updated = 2011-01-22T04:06:22Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T04:06:22.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 PlaneShader is a high-speed 2D rendering engine, which at some point will have a lot of really cool features, but right now just has all the basics.
 
 - Image manipulation

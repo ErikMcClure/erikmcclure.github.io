@@ -1,15 +1,15 @@
 +++
-title = "Born Into A World Of Hatred"
-date = 2015-12-26T23:08:00Z
-updated = 2015-12-27T04:31:52Z
+blogimport = true
+categories = ["blog"]
+date = "2015-12-26T23:08:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "Born Into A World Of Hatred"
+updated = "2015-12-27T04:31:52.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I thought I was born into a world of promise. The 90s heralded the most significant step forward in communication since the telephone: the Internet. At the same time, scientific advances continued marching forward in almost every discipline. I didn't have to worry about disease, famine, lead poisoning or asbestos. The rapid technological advances of the early 1900s had been tamed, and the deadly threat of nuclear war had subsided. I thought I had been born into a tolerant, peaceful future filled with technological wonders. I thought that technology would allow us to move past the petty hatred that had divided us for so long.
 
 **I was wrong**. I was born into a world of hatred, where technological progress has only served to expose the ugly underbelly of the human psyche. We attack each other with words instead of swords, inventing ever more creative ways of utterly ruining other people's lives without laying a finger on them. We call SWAT teams on people's houses. We [bully people into attempting suicide](http://www.dailydot.com/geek/steven-universe-fanartist-bullied-controversy/). Twitter lynch mobs ensure that any stupid comment taken out-of-context is carved into stone, forever obliterating someone's chances at employment. Our society engages in active intellectual torture, then rationalizes it by saying they're defending something, as if that makes it any more acceptable to harass another human being until they commit suicide.

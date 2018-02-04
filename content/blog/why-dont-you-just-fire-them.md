@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2015-02-11T01:32:00Z"
 title = "Why Don't You Just Fire Them?"
-date = 2015-02-11T01:32:00Z
-updated = 2015-02-11T01:32:31Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2015-02-11T01:32:31.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*"Nothing is foolproof to a sufficiently talented fool."*
 &nbsp; &mdash; Anonymous{{%/blockquote%}}
 

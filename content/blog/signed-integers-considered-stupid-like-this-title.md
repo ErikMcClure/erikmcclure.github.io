@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-11-24T16:02:00Z"
 title = "Signed Integers Considered Stupid (Like This Title)"
-date = 2011-11-24T16:02:00Z
-updated = 2013-05-10T02:01:14Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-05-10T02:01:14.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 *Unrelated note: If you title your article "[x] considered harmful", you are a horrible person with no originality. Stop doing it.*
 
 Signed integers have always bugged me. I've seen quite a bit of signed integer overuse in C#, but it is most egregious when dealing with C/C++ libraries that, for some reason, insist on using {{<code>}}for(int i = 0; i < 5; ++i){{</code>}}. Why would you *ever* write that? {{<code>}}i{{</code>}} cannot possibly be negative and for that matter shouldn't be negative, ever. Use  {{<code>}}for(unsigned int i = 0; i < 5; ++i){{</code>}}, for crying out loud. 

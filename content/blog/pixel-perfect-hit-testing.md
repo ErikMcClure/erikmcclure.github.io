@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2010-08-17T06:27:00Z"
 title = "Pixel Perfect Hit Testing"
-date = 2010-08-17T06:27:00Z
-updated = 2011-01-22T03:50:37Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T03:50:37.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 After beating World of Goo after stabilizing things in my game and renaming it, I wondered how easy it was to decompile C# applications and simultaneously thought this would be a great opportunity to get pixel perfect hit testing to work on my engine. So, I decompiled GearGOD's composition example and quickly discovered that his method of detecting mouse messages was... well something completely different then his extremely bad attempt at explaining it to me had suggested.
 
 Basically, he did not run into the window event issues that I was having because... he didn't use them. XNA keeps track of the mouse coordinates in its own separate update function, most likely using its special input hook, and hence there is no mousemove to keep track of. Instead of occurring when the user moves the mouse, the hit tests occur *every single frame*. 

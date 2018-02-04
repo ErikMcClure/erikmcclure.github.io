@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2009-11-03T23:57:00Z"
 title = "Proving Strong AI"
-date = 2009-11-03T23:57:00Z
-updated = 2011-01-22T04:39:14Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T04:39:14.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I stumped my philosophy professor today. We were discussing the [Chinese Room Thought Experiment](http://en.wikipedia.org/wiki/Chinese_room) and how it proves that a [Strong AI](http://en.wikipedia.org/wiki/Strong_AI) is impossible (a strong AI being a thinking machine). The experiment is based on the idea that someone is sitting in a room and Chinese symbols are handed to him. He uses a rulebook that tells him what characters to write in response to the symbols given to him, and he understands neither the input nor the output. Due to this, anyone standing outside the room would think that the person inside the room understands Chinese, even though he clearly does not.
 
 There are two glaring issues with this argument. The first is very simple - Understanding cannot be defined by philosophers. We will ignore that for now.

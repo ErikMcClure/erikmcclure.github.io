@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2017-08-06T12:20:00Z"
 title = "Sexist Programmers Are Awful Engineers"
-date = 2017-08-06T12:20:00Z
-updated = 2017-09-05T18:08:49Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2017-09-05T18:08:49.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Men and women [are fundamentally different](https://stanmed.stanford.edu/2017spring/how-mens-and-womens-brains-are-different.html). So are white people and black people and autistic people and gay people and transgender people and conservatives and liberals and every other human being along every imaginable axis of discrimination. Some of these differences are cultural. Others are genetic. Others depend on environmental factors. These differences mean that some of us are inherently better at certain tasks than others. On average, men are better at spatial temporal reasoning, women are better at reading comprehension and writing ability, and [psychopaths can sometimes be excellent CEOs](https://www.forbes.com/sites/jeffbercovici/2011/06/14/why-some-psychopaths-make-great-ceos/#749d149f261a).
 
 Whenever I meet a programmer who insists on doing everything a certain way, the chances I'll hire them drop off a cliff. Just as object-oriented programming didn't fix everything, neither will functional programming, or data-oriented programming or array-based programming or any other language. They are different tools that allow you to attack a problem from different directions, much like we have different classes of algorithms to attack certain classes of problems. Greedy algorithms, lazy evaluation, dynamic programming, recursive-descent, maximum flow, all of these are different ways to approach a problem. They represent looking at a problem from *different perspectives*. A problem that is difficult from one angle might be trivial when examined from a different angle.

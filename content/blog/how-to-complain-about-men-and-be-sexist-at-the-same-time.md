@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-05-30T16:54:00Z"
 title = "How To Complain About Men And Be Sexist At The Same Time"
-date = 2013-05-30T16:54:00Z
-updated = 2013-05-30T16:59:31Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-05-30T16:59:31.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 What if I told you about an article that complained about how social media and instant gratification has eroded away at our social fabric? How we don't take the time to pause and reflect on how we live our lives? How we fail to really work at making the world a better place, and instead waste time building websites to share cat photos on? I'd think that it raised several important issues about modern society.
 
 What if I then told you that the entire article only applied this to men? What if it was titled, ["Why Men Aren't Really Men Anymore"](http://elitedaily.com/life/culture/why-men-arent-really-men-anymore/)? Suddenly, things just got a lot more sexist. In fact, that entire article is built almost entirely out of gender stereotypes. It's that subtle, classy kind of sexism; bigotry that hides behind delicate prose, hiding it's true nature. If the article were rewritten so that it described these issues in gender-nuetral terms, I'd be liable to agree with it. Trolling, aggression, lack of human interaction, billions of dollars being spent on worthless startups that solve first world problems - these are all real issues. Yet, to imply that *men* are the ones with these problems, to imply that any class of problems belong to only one gender, is sexist.

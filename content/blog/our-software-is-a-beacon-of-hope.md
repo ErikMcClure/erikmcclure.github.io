@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2017-01-17T14:35:00Z"
 title = "Our Software Is a Beacon of Hope"
-date = 2017-01-17T14:35:00Z
-updated = 2017-02-01T17:07:54Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2017-02-01T17:07:54.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 As I draw closer to releasing the first early alpha of a library I've been working on for several years, I've noticed that it's release time coincides with some rather depressing politics that I wish I could ignore. Unfortunately, it's difficult to ignore politicians who seek to destroy the lives of your closest friends. A common theme I hear from my friends is a feeling of helplessness, as though we all know terrible things are happening, but no one really knows what to do about it.
 
 But we are not helpless. It is so easy to lose ourselves in pessimism and cynicism, to think that everything will continue to be shit simply because it's been shit for so many years. A common refrain I heard while still working at a large corporation was, *we know our code is shit, but it's okay, because everyone else's code is shit*. This kind of mentality really bothers me, not because it isn't true, but because it seems to reflect a resigned, cynical view of the world, and never strives to do better. Yes, everything might end up being shit in the end, but if we don't even attempt to build something better, we never will. If we hadn't been trying to write better code we never would have invented structured programming, or object oriented programming, or functional programming. Each innovation builds on the last, and each innovation has it's faults, but each brings us one step closer to not being shit.

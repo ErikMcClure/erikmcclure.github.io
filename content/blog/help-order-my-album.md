@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-07-08T02:26:00Z"
 title = "Help Order My Album!"
-date = 2013-07-08T02:26:00Z
-updated = 2013-07-10T23:07:17Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-07-10T23:07:17.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 And the experiment is over! [Here's the final album ordering](http://erikmcclure.bandcamp.com/album/aurora-theory).
 
 <!--<style type="text/css">

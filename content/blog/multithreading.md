@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2010-04-10T15:14:00Z"
 title = "Multithreading"
-date = 2010-04-10T15:14:00Z
-updated = 2011-01-22T04:14:02Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T04:14:02.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 This was a mistake. I have learned several things about multithreading ever since I started attempting to restructure my engine around it. Recently I have just discovered that *everything I did with multithreading was wrong*. Lockless threading was invented for being applied to realtime applications. In addition, Windows has a serious issue with this kind of stuff, and so the best library out there only works on Mac and Linux. All the windows lockless thread are written in C# because they love the garbage collector.
 
 Thus, even beginning to start with implementing lockless stuff would require me to multithread my memory management, my utilities, my graphics engine, my audio engine, and rewrite pretty much every single line of code I've written over the past 4 years. And then I'd have to *test all of it*.

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-03-10T16:22:00Z"
 title = "Visual Studio Broke My Computer"
-date = 2012-03-10T16:22:00Z
-updated = 2012-03-11T13:39:54Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-03-11T13:39:54.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 So I'd been using the developer preview of VS11 and liked some of its improvements. When the desaturated VS11 beta came out, [I hated the color scheme](http://blackhole12.blogspot.com/2012/02/implicit-ui-design.html) but decided I still wanted the upgraded components, so I went to install VS11 beta. Unfortunately the beta only lets you change its install location if the preview developer preview isn't installed, and the developer preview had installed itself into C:\ without ever letting me change the path, which was annoying. So I took the opportunity to fix things and uninstalled the developer preview, then installed the beta of VS11.
 
 Everything was fine and dandy until I discovered that VS11 wasn't compiling C++ DLLs that worked on XP. I don't know how it managed to do this, since the DLL had no dependencies whatsoever, and that bug was only supposed to affect MFC and other windows related components and hence there was no windows flag for me to specify which version I wanted, but just to be sure I decided to try and compile it in VS2010. It was at this point I discovered that VS2010 could no longer open any projects at all. It was broken. Further investigation revealed that uninstalling VS11 developer preview will break VS2010. Now, I had an ultimate version of VS2010 I've had sitting around for a while I got from Dreamspark, so I figured I could just uninstall VS2010 and then reinstall the ultimate version and that would kill any remaining problems the pesky 2011 beta introduced.

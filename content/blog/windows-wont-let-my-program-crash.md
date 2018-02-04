@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2017-02-13T21:33:00Z"
 title = "Windows Won't Let My Program Crash"
-date = 2017-02-13T21:33:00Z
-updated = 2017-02-14T03:31:45Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2017-02-14T03:31:45.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 It's been known for a while that windows has a bad habit of [eating your exceptions](http://blog.paulbetts.org/index.php/2010/07/20/the-case-of-the-disappearing-onload-exception-user-mode-callback-exceptions-in-x64/) if you're inside a WinProc callback function. This behavior can cause all sorts of mayhem, like your program just vanishing into thin air without any error messages due to a stack overflow that terminated the program without actually throwing an exception. What I didn't realize is that it also eats {{<code>}}assert(){{</code>}}, which makes debugging hell, because the assertion would throw, the entire user callback would immediately terminate without any stack unwinding, and then windows would just... keep going, even though the program is now in a laughably corrupt state, because only half the function executed.
 
 While trying to find a way to fix this, I discovered that there are no less than 4 different ways windows can choose to eat exceptions from your program. I had already told the kernel to stop eating my exceptions using the following code:

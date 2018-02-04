@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2010-01-02T14:22:00Z"
 title = "Extraordinary"
-date = 2010-01-02T14:22:00Z
-updated = 2011-01-22T04:22:03Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T04:22:03.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Today I woke up after having the most amazing dream ever. What I've tried to do here is extract the essence of the dream's plot ideas and work them into a concrete story. Note that the story would be used in a playable game that functions a lot like Myst, although with real-time interactions and time-based events. I've so far recognized elements that have been subconsciously influenced from: Terminator 4, Myst, Myst 3, Jump Start 3rd Grade (I'm not kidding), Aeon Flux, Watchmen, The Westing Game, and others. I have used several other previous dreams as jumping off points for ideas as well. The song I'm currently listening to also sounds like the theme song.
 
 **Extraordinary**

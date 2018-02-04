@@ -1,15 +1,15 @@
 +++
-title = "A Trip Through DirectX's Deranged Matrix Transforms"
-date = 2015-04-23T02:49:00Z
-updated = 2015-04-23T02:49:07Z
+blogimport = true
+categories = ["blog"]
+date = "2015-04-23T02:49:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "A Trip Through DirectX's Deranged Matrix Transforms"
+updated = "2015-04-23T02:49:07.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 If you are a mathematician who is familiar with Matrix Algebra, there is something about the DirectX documentation that seems a bit... *odd*. And by odd, I mean it looks completely wrong:
 
 {{<div style="margin-left:3em">}}<pre>D3DXMATRIX* D3DXMatrixMultiply(

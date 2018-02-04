@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2016-08-18T17:55:00Z"
 title = "Blaming Inslee for Washington's Early Prisoner Release Is Unconscionable"
-date = 2016-08-18T17:55:00Z
-updated = 2016-08-18T22:14:34Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2016-08-18T22:14:34.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 For a guy who keeps trying to convince me he's better than Jay Inslee, Bill Bryant seems determined to ensure I never vote for him in *any* election, *ever.*
 
 As <a href="http://www.seattletimes.com/seattle-news/politics/we-fact-check-the-first-inslee-bryant-debate"/>The Seattle Times</a> so eloquently explains, the software bug leading to the early release of prisoners dates back to 2002, and wasn't discovered by the DOC until 2012, a year **before** Inslee took office! Even then, Inslee didn't learn of the problem until December 16th, after which he promptly held a news conference less than a week later. He fired multiple state workers and immediately instituted a [rigorous double-checking procedure at the DOC](http://www.seattletimes.com/seattle-news/crime/state-moves-to-review-and-confirm-prison-sentences/) to ensure prisoners were being released on time. Given Jay Inslee's position, I simply cannot imagine a better way to handle this, short of Jay Inslee miraculously developing mind reading powers that told him to audit the DOC for no apparent reason.

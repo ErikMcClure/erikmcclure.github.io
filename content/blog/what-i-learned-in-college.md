@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-06-13T07:56:00Z"
 title = "What I Learned In College"
-date = 2013-06-13T07:56:00Z
-updated = 2013-06-14T16:05:30Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-06-14T16:05:30.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*"In times of change, learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists."* ― Eric Hoffer{{%/blockquote%}}
 
 Yesterday, the University of Washington finally mailed me my diploma. A Bachelor of Science in *Applied Computational Math and Science: Discrete Math and Algorithms*. I learned a lot of things in college. I learned how to take tests and how to pinpoint exactly what useless crap a particular final needed me to memorize. I learned that math is an incredibly beautiful thing that has been butchered so badly I hated it all the way until my second year of college. I learned that creativity is useless and all problems have one specific right answer you can find in the back of a textbook somewhere, because that's all I was ever graded on. I learned that getting into the CSE major is more about fighting an enormous, broken bureaucratic mess than actually being good at computer science.  But most of all, I learned that our educational system is so obsessed with itself it can't even recognize it's own shortcomings.

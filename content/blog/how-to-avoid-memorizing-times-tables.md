@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2018-01-01T11:37:00Z"
 title = "How To Avoid Memorizing Times Tables"
-date = 2018-01-01T11:37:00Z
-updated = 2018-01-01T11:49:02Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2018-01-01T11:49:02.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I was recently told that my niece was trying to memorize her times tables. As an applied mathematician whose coding involves plenty of multiplication, I was not happy to hear this. Nobody who does math actually memorizes times tables, and furthermore, forcing a child to memorize *anything* is probably the worst possible thing you can do in modern society. No one should *memorize* their times tables, they should learn how to *calculate them*. Forcing children to memorize useless equations for no reason is a great way to either ensure they hate math, teach them they should blindly memorize and believe anything adults tell them, or both. So for any parents who wish to teach their children how to be critical thinkers and give them an advantage on their next math test, I am going to describe how to derive the entire times tables with only 12 rules.
 
  1. Anything multiplied by 1 is itself. Note that I said *anything*, that includes fractions, pies, cars, the moon, or anything else you can think of. Multiplying it by 1 just gives you back the same result.

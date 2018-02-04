@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-09-12T10:36:00Z"
 title = "Write Less Code  "
-date = 2013-09-12T10:36:00Z
-updated = 2013-09-12T10:36:56Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-09-12T10:36:56.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*"Everything should be as simple as possible, but not simpler."* - Albert Einstein ([paraphrased](http://quoteinvestigator.com/2011/05/13/einstein-simple/#more-2363)){{%/blockquote%}}
 
 The burgeoning complexity of software is perhaps one of the most persistent problems plaguing computer science. We have tried many, many ways of managing this complexity: inventing new languages, creating management systems, and enforcing coding styles. They have all proven to be nothing more than stopgaps. With the revelation that the NSA is utilizing the inherent complexity of software systems to sabotage our efforts at securing our systems, this problem has become even more urgent.

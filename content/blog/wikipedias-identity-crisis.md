@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-01-09T01:31:00Z"
 title = "Wikipedia's Identity Crisis"
-date = 2012-01-09T01:31:00Z
-updated = 2012-01-09T01:31:35Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-01-09T01:31:35.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I assume we've all heard the term "[deletionism](http://en.wikipedia.org/wiki/Deletionism)", but for the uninitiated, it simply describes a point of view that Wikipedia should only consist of high quality articles that would be relevant to an encyclopedia. This is in stark contrast to inclusionism, which contends that anything remotely useful should be retained. These two factions have been at war for quite some time, flaring up when any particularly contentious deletion debate arises. The funny thing is that **both sides are right**. The catch is that they are not fighting over what should be included in Wikipedia, they are fighting over what Wikipedia *is*. 
 
 The problem here is a classic case of intended usage not matching up with real usage. The crux of the issue is the [introduction to Wikipedia](http://en.wikipedia.org/wiki/Wikipedia:Introduction), which states "Wikipedia is a free encyclopedia". Consequently, taking everything about Wikipedia literally, the *deletionists* are in fact, correct. They delete articles that do not belong in an Encyclopedia, of which the ones in question quite often would not. Sometimes they get a little overzealous, but for the most part, they're just trying to ensure Wikipedia stays an encyclopedia. 

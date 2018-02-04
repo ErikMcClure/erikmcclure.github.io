@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-07-06T17:22:00Z"
 title = "Radians: An explanation"
-date = 2011-07-06T17:22:00Z
-updated = 2013-05-04T20:31:38Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-05-04T20:31:38.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Radians are used in almost everything that involves computers, and often come up in mathematical equations. However, most people are used to measuring angles in degrees, even though degrees (unlike radians) are a completely arbitrary measurement. To understand Radians, you need to understand **{{<math>}}\pi{{</math>}}**, or more precisely, why it *sucks*. Like a black hole, except <del>black holes don't actually *suck*, they just warp space-time so you fall into them</del> **OK BACK ON TOPIC:**
 
 {{<math>}}\pi{{</math>}} is the ratio of a circle's *diameter* to its *circumference*. **This is retarded.** When was the last time you thought of a circle using its *diameter* for crying out loud? We define circles, and should intuitively think of circles using their *radius*, which is the distance from the center to any point on the edge of the circle.

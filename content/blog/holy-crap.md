@@ -1,15 +1,15 @@
 +++
-title = "Holy crap"
-date = 2010-02-12T01:00:00Z
-updated = 2011-01-22T04:17:38Z
+blogimport = true
+categories = ["blog"]
+date = "2010-02-12T01:00:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "Holy crap"
+updated = "2011-01-22T04:17:38.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I must have accidentally imbued my to-do-list with rabbits or something, because it just gets bigger and bigger.
 
 **To-Do**

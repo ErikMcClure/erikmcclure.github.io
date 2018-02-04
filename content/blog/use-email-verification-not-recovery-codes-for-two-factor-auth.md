@@ -1,15 +1,15 @@
 +++
-title = "Use Email Verification, Not Recovery Codes for Two-Factor Auth"
-date = 2016-10-13T14:46:00Z
-updated = 2016-10-13T14:46:15Z
+blogimport = true
+categories = ["blog"]
+date = "2016-10-13T14:46:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "Use Email Verification, Not Recovery Codes for Two-Factor Auth"
+updated = "2016-10-13T14:46:15.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 A friend of mine recently lost access to an account protected by Two-Factor Authentication because he was forced to do a factory reset on his phone, and he couldn't find his recovery codes anywhere. By design, this means it is now completely impossible for him to access his own account. However, I realized that he's now in a situation where he has access to the attached e-mail account, *and* he knows the current account password.
 
 *This doesn't make any sense*. We already treat e-mail as an inconsistent 3rd factor of authentication for the purpose of password resets. When you have two-factor authentication enabled and you need to reset your password because you forgot it, you have to enter your two-factor auth code **and** you must then click on a link from an e-mail sent to you to prove that you have control over the e-mail account. The purpose here is to verify two separate methods of authentication so that you can reset the third. That's why it's called **two-factor** authentication, not *smartphone authentication*.

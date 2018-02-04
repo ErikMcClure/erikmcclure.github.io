@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2010-07-17T01:40:00Z"
 title = "Desktop Composition"
-date = 2010-07-17T01:40:00Z
-updated = 2011-01-22T04:06:59Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T04:06:59.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I have succeeded in directly compositing my graphics engine to a vista window, using a dynamic DLL load so it doesn't cause any problems on XP. I also managed to create a situation where the window is entirely transparent and impossible to click, which was an absolute bitch to get working. For future reference, if you ever want a window that is click-through, use CreateWindowEx with both WS_EX_TRANSPARENT and WS_EX_LAYERED. Using only one will not work, nor will any sort of windows message handling. That is the ONLY WAY to make the window click-through. Consequently to do opacity based hittesting, you have to hook the mouse events for the entire desktop and manually notify your window after doing the calculations yourself (something I don't even want to think about).
 
 Pics!

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2017-10-10T02:24:00Z"
 title = "My Little Pony And The Downfall Of Western Civilization"
-date = 2017-10-10T02:24:00Z
-updated = 2017-10-10T02:24:11Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2017-10-10T02:24:11.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Our current political climate is best described as a bunch of chimpanzees angrily throwing feces at each other. Many people recognize that there are many problems with modern politics, but few agree on what those problems actually are. Liberals, republicans, Trump, millenials, capitalism, communism, too many regulations, too few regulations, gerrymandering, illegal immigrants, rich people, poor people, schools, governments, religion, secularism, the list goes on and on and on. These, however, are not *problems*, they are *excuses*. They are scapegoats we have conjured up from our mental list of things we don't like so we can ignore the ugly truth.
 
 At some point, Americans are going to have to admit that the entire problem with this country has been summed up in a TV show for six-year-old girls designed to sell toys. My Little Pony was released seven years ago, and as the series has progressed, it has focused more and more on reforming villains instead of defeating them. Time and time again, ponies refuse to give up on those who seem lost to darkness and try to figure out what is causing them to lash out. A central theme of the show is that almost no one is truly a "villain", only misguided, misunderstood, or pushed towards lashing out after a traumatic experience. While a select few villains have been show to be truly irredeemable, this is rare, which is in line with reality. Only a very small percentage of the human population is deliberately evil as opposed to simply lashing out, being stupid, or being tragically misinformed.

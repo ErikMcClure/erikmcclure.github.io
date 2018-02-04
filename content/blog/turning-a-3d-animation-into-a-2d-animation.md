@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2009-12-03T18:21:00Z"
 title = "Turning a 3D animation into a 2D animation"
-date = 2009-12-03T18:21:00Z
-updated = 2011-01-22T04:29:08Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T04:29:08.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I don't have anyone on MSN to excitedly spew out this idea to so I'll just do this as a journal entry. Everyone knows about Celshading. Cheap Anime games use it to try and make 3D look 2D and often fail spectacularly, although its still a nifty effect.
 
 After studying The Secret of NIMH, I've noticed several particular aspects of the movie that could feasibly be recreated in a 3D graphics engine in such a way that it would be ***indistinguishable from the real thing***, provided it did not break certain constraints.

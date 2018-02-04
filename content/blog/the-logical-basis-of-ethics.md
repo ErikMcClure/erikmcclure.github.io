@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-06-03T07:25:00Z"
 title = "The Logical Basis of Ethics"
-date = 2011-06-03T07:25:00Z
-updated = 2011-06-03T07:25:22Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-06-03T07:25:22.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 In modern times society has come to understand that some moral standards are unfair - Most people agree that racism is unfair and should not be tolerated. What is interesting is that almost any given ethical system will be considered unfair only if it is logically inconsistent. That is, an ethical system is fair precisely because it is logically consistent with itself. While racism is commonly considered unfair because thinking another human being is inferior to oneself based on some arbitrary physical attribute makes no sense, the entire concept of a superior race being allowed to make another race suffer is logically inconsistent. This, in turn, leads us to the problem of animal rights.
 
 It is generally accepted that humans are superior to animals, at least for the sake of moral consideration. This is usually rationalized by a number of logical reasons, such as a sentience, or simply that any creature has a right to favor its own species over another. While this is a common aspect of several environmental ethical structures, it isn't necessary. It is a known fact that some people respond well to vegetarian diets, while others suffer from serious nutrient deficiencies. This is because humans are omnivores; we do not eat vegetables **OR** meat, we eat vegetables **AND** meat. We usually require both to remain healthy, although some individuals can successfully short-circuit this. However, it only justifies killing the animal for the purposes of a food source, not for torturing, poaching or other activities that are, coincidentally, illegal. We are therefore obligated to make an animal's death as painless as possible - something PETA has repeatedly brought up in its war against factory farming.

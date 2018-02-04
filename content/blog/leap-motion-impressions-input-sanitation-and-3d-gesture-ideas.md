@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-07-23T17:05:00Z"
 title = "Leap Motion Impressions, Input Sanitation, and 3D Gesture Ideas"
-date = 2013-07-23T17:05:00Z
-updated = 2013-07-23T17:05:15Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-07-23T17:05:15.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}**Pros:**
 
  * For the most part, does what it claims it does, and gives you extremely precise, fast tracking of fingers.

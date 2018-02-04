@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-11-17T11:13:00Z"
 title = "Google's Decline Really Bugs Me"
-date = 2013-11-17T11:13:00Z
-updated = 2013-11-17T17:48:05Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-11-17T17:48:05.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Google is going down the drain.
 
 That isn't to say they aren't fantastically successful. They are. I still use their products, mostly because I don't put things on the internet I don't want other people to find, and I'm not female, so I don't have to worry about misogynists stalking me. They still make stupendous amounts of money and pump out some genuinely good software. They still have the best search engine. Like Microsoft, they'll be a force to be reckoned with for many decades to come.

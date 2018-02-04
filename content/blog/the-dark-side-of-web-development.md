@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-02-24T20:54:00Z"
 title = "The Dark Side of Web Development"
-date = 2013-02-24T20:54:00Z
-updated = 2013-02-25T11:19:29Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-02-25T11:19:29.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I am, by no means, a very good web developer. I am, however, a highly experienced C++ developer. The end result is that people usually ask me why I like C++ so much when everyone else hates it, and everyone is supposedly in agreement that C++ is the worst language ever made and unless you are writing drivers you should never, ever use it. I mean, you can write games in Python now, right?
 
 While these kinds of ignorant opinions are frustrating for me and my fellow C++ developers who actually need efficient cross-platform programs, that's not what I'm here to debate. In fact, if you think C++ is a complete piece of shit, I won't argue with you about that at all. For all I know, you may be right!

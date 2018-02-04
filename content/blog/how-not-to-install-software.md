@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2014-11-26T18:53:00Z"
 title = "How Not To Install Software"
-date = 2014-11-26T18:53:00Z
-updated = 2014-11-26T20:22:56Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2014-11-26T20:22:56.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 It's that time of the year again, when everyone and their pony puts on a sale, except now it seems to have started much earlier than the traditional Black Friday. Needless to say, this is the only time of year I go around buying expensive sample libraries. One of these libraries was recommended by a friend: LA Scoring Strings - First Chair 2, a cheaper version of LA Scoring Strings. It's $100 off, which is pretty nice, except that the page that describes the product [doesn't actually have a link to buy it](http://audiobro.com/la-scoring-strings/la-scoring-strings-first-chair/). You have to click the STORE link, and then buy it from *there*, because this is a completely obvious and intuitive interface design (it isn't).
 
 So, after finding the proper link in the Store and verifying I am actually purchasing what I want to purchase, they give me exactly one payment option: Paypal. This is pretty common, so we'll let it slide, and the whole process seems to go smoothly until they give me my receipt. On the receipt page, they gave me a link to download the files, and a serial number. How helpful! Until I click the download link, which does not open in a new window, and instead opens a completely different webpage with absolutely no way to get back to the page I was just on, because there is no store page with this information and I have no user account on this site. So, I have to go to my e-mail, where they have helpfully e-mailed me a copy of the receipt (probably for this exact reason) to get the serial number.

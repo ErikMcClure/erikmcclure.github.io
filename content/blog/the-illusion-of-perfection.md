@@ -1,15 +1,15 @@
 +++
-title = "The Illusion Of Perfection"
-date = 2015-06-04T02:10:00Z
-updated = 2015-06-04T02:10:25Z
+blogimport = true
+categories = ["blog"]
+date = "2015-06-04T02:10:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "The Illusion Of Perfection"
+updated = "2015-06-04T02:10:25.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*"The essence of being human is that one does not seek perfection." &mdash; George Orwell*{{%/blockquote%}}
 
 I have seen many engineers lose themselves in an endless pursuit of perfection. Too often, I find myself falling into the same traps, convinced that 

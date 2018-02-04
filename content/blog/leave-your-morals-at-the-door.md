@@ -1,15 +1,15 @@
 +++
-title = "Leave Your Morals At The Door"
-date = 2016-11-25T15:11:00Z
-updated = 2016-11-25T15:11:52Z
+blogimport = true
+categories = ["blog"]
+date = "2016-11-25T15:11:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "Leave Your Morals At The Door"
+updated = "2016-11-25T15:11:52.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Shortly before the launch of Windows 10, I quit my job at Microsoft, because I knew what they were going to do. It didn't take long for the first updates to [start breaking things]() and for people to discover that Microsoft was going to suck up all your data [whether you like it or not](). They only cared about meeting deadlines, not shipping quality software.
 
 Unfortunately, the alternatives aren't much better.

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2014-08-08T13:14:00Z"
 title = "Can We Choose What We Enjoy?"
-date = 2014-08-08T13:14:00Z
-updated = 2014-08-08T13:28:20Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2014-08-08T13:28:20.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 One of the most bizarre arguments I have ever heard in ethics is whether or not people can choose to be gay or not. The idea is, if being gay is genetically predetermined, it's not their fault, therefore you can't prosecute them for something they have no control over.
 
 Since when did *anyone* get to choose what makes them happy? Can you *choose* to like strawberries? Can you *choose* to enjoy the smell of dandelions? At best, you can subject yourself to something over and over and over again and enjoy it as a sort of acquired taste, but this doesn't always work, and the fact remains that you are still predisposed to enjoying certain experiences. Unless we make a concentrated effort to change our preferences, *all* enjoyable sensory experiences occur *without our consent*. We are not in charge of what combination of neural impulses our brain happens to find enjoyable. All we can do is slowly influence those preferences, and even then, only sometimes.

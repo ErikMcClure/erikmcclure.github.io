@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2017-03-07T15:06:00Z"
 title = "I Can't Hear Anything Below 80 Hz*"
-date = 2017-03-07T15:06:00Z
-updated = 2017-03-12T19:03:32Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2017-03-12T19:03:32.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}** at a comfortable listening volume.*{{%/blockquote%}}
 
 **EDIT: I have confirmed all the results presented here by taking the low frequency test with someone standing physically next to me. They heard a tone beginning at 30 Hz, and by the time I could hear a very faint tone around 70 Hz, they described the tone as "conversation volume level", which is about 60 dB. I did not reach this perceived volume level until about 120 Hz, which strongly correlates with the experiment. More specific results would require a professional hearing test.**

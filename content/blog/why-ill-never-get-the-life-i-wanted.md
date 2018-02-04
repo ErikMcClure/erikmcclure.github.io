@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2015-07-28T01:04:00Z"
 title = "Why I'll Never Get The Life I Wanted"
-date = 2015-07-28T01:04:00Z
-updated = 2015-07-28T01:16:22Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2015-07-28T01:16:22.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}"We must let go of the life we have planned, so as to accept the one that is waiting for us." - *Joseph Campbell*{{%/blockquote%}}
 
 I never liked money. It was always an inconvenience, a roadblock that had to be maneuvered around to get to where I actually wanted to go. For a long time, I had a nice life for myself planned out. I'd take a few consulting jobs and travel the world, staying with friends and squeezing by on a slim budget. In my spare time, I could develop open-source software and give it away for free. I could focus on making the world a better place, instead of making a ton of money that served no purpose. 

@@ -1,15 +1,15 @@
 +++
-title = "C# to C++ Tutorial - Part 5: Delegated Llamas"
-date = 2012-09-29T17:07:00Z
-updated = 2012-09-29T17:07:59Z
+blogimport = true
+categories = ["blog"]
+date = "2012-09-29T17:07:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "C# to C++ Tutorial - Part 5: Delegated Llamas"
+updated = "2012-09-29T17:07:59.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Delegates and lambda functions and how they map to C++ function pointers and C++0x lambda functions.
 
 C# to C++ Tutorial - Part 6: Virtual DLL Hell - virtual functions, the diamond problem, virtual inheritance, DLL bounderies, how to build DLLs, how virtual functions work in DLLs and what to watch out for.

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-06-03T19:19:00Z"
 title = "The GPL Sucks"
-date = 2011-06-03T19:19:00Z
-updated = 2011-06-03T22:05:03Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-06-03T22:05:03.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 When I release an open-source program, I want to guarantee something very simple. The program and its source code can be distributed and used by anyone for any purpose, and all modifications to the program must be released as open-source under these same terms. I want to guarantee that the program and any improvements made on it are available to anyone, proprietary or not, forever.
 
 **This is impossible.**

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-05-08T22:03:00Z"
 title = "Save RSS"
-date = 2011-05-08T22:03:00Z
-updated = 2011-05-08T22:03:57Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-05-08T22:03:57.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 A recent article by Jesse Stay describes how [Twitter and Facebook are killing RSS](http://www.staynalive.com/2011/05/twitter-and-facebook-both-quietly-kill.html?q=1). Many people point out that you don't really *need* an RSS feed for either service, since the content they generate is not particularly conducive to an RSS feed. While this is strictly true if you are attempting to read the actual RSS feed, I don't consider this the primary benefit of an RSS feed. 
 
 RSS feeds provide a way to broadcast data in a standard format, which then allows an application to be quickly constructed using an RSS parser to process that data. Since its an open standard, efficient, open-source RSS parsers propagate rapidly. This allows creative use of RSS feeds to comb vastly different types of media, and more importantly *allows inter-site integration* through a single API. That is, if you publish your blog on an RSS feed, scrapers on Last.fm can pick it up and display it on your artist page. The reason RSS is so valuable is because it provides a standard method of communicating contextualized data over the web.

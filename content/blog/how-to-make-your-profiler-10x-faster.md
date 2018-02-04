@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2014-06-28T17:31:00Z"
 title = "How To Make Your Profiler 10x Faster"
-date = 2014-06-28T17:31:00Z
-updated = 2017-04-09T16:51:59Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2017-04-09T16:51:59.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Frustrated with C profilers that are either so minimal as to be useless, or giant behemoths that require you to install device drivers, I started writing a lightweight profiler for my [utility library](http://bss-util.blackspherestudios.com). I already had a high precision timer class, so it was just a matter of using a radix trie that didn't blow up the cache. I was very careful about minimizing the impact the profiler had on the code, even going so far as to check if extended precision floating point calculations were slowing it down.
 
 Of course, since I was writing a profiler, I could use the profiler to profile itself. By pretending to profile a random number added to a cache-murdering int stuck in the middle of an array, I could do a fairly good simulation of profiling a function, while also profiling the act of profiling the function. The difference between the two measurements is how much overhead the profiler has. Unfortunately, my initial results were... *unfavorable*, to say the least.

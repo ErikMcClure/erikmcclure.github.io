@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2016-03-13T21:27:00Z"
 title = "The Right To Ignore: The Difference Between Free Speech And Harassment"
-date = 2016-03-13T21:27:00Z
-updated = 2016-03-13T21:27:47Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2016-03-13T21:27:47.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 On one hand, America was built on the values of **free speech**, which are obviously important. We cannot control what people are saying or our democracy falls apart. On the other hand, allowing **harassment** has a stifling effect on free speech, because it allows people to be bullied into silence. Before the internet, this distinction was fairly simple: Someone with a megaphone screaming hate speech in a park is exercising their right to free speech. Someone with a megaphone following a guy down the street is harassing them.
 
 The arrival of the internet has made this line much more vague. However, the line between free speech and harassment is not nearly as blurry as some people might think. Our concept of *reasonable* freedom of speech is guided primarily by our *ability to ignore it*. The idea is, someone can go to a public park and say whatever they want, because other people can simply go somewhere else. As long as people have the ability to *ignore* whatever you're saying, you can say pretty much whatever you want. We have some additional controls on this for safety reasons, so you can't go to a park and talk about how you're going to kill all the gay people, tomorrow, with a shotgun, because that is a death threat.

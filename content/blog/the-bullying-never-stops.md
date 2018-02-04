@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-03-28T14:22:00Z"
 title = "The Bullying Never Stops"
-date = 2011-03-28T14:22:00Z
-updated = 2011-03-28T14:42:43Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-03-28T14:42:43.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I believe that at a young age, I was physically harassed a couple of times, but I have long since forgotten. What I haven't forgotten is the intellectual bullying I was subjected to during 7th grade. There is not a day that goes by that my actions are not subtly influenced by when I misprounced "subtle" as "sub"-"tle" and was made a laughingstock in front of my honors class, several of whom told me that I was a hopeless idiot who couldn't do anything right. This was reinforced about three years later after my inept social skills earned me an enormous tirade from someone whom I held in high regard who then told me I was a useless pile of shit whose attempts at being helpful had only slowed things down, and that after 14 months I had contributed absolutely nothing to the project that was actually going to be used.
 
 Years later, memories of these moments would begin to haunt me in high school, where the bullying had largely stopped, or so I had thought. It wasn't long before programmers started telling me how I should do things and what was the right thing to do. They told me that performance didn't matter, that I should never learn C++, that interpreted languages are the future. I disagreed with them. I gave reasons for my disagreement, and I was ridiculed and laughed at. At one point I somehow ended up in a game development IRC channel and mentioned that I preferred C++ over .net, and when pressed for justification I explained how I had to sort 10000 images 60 times a second, which requires delicate memory management that is difficult to do in C#.

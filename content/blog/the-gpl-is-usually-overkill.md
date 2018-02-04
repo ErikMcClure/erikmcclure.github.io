@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2016-04-28T14:23:00Z"
 title = "The GPL Is Usually Overkill"
-date = 2016-04-28T14:23:00Z
-updated = 2016-04-28T14:23:41Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2016-04-28T14:23:41.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Something that really bothers me about the GPL and free software crusaders in general is that they don't seem to understand the nuances behind the problem they are attempting to solve. I'm not entirely sure they are even trying to solve the right problem in the first place.
 
 The core issue at play here is *control*. In a world run by software, we need control over what code is being executed on our hardware. This issue is of paramount importance as we move into an age of autonomous vehicles and wearable devices. Cory Doctorow's brilliant essay, [Lockdown: The coming war on general-purpose computing](http://boingboing.net/2012/01/10/lockdown.html), gives a detailed explanation of precisely *why* it is of such crucial importance that *you* have control over what software gets executed on your machine, and not some corporation. Are you really going to buy a car and then get into it when you have no way of controlling what it does? This isn't some desktop computer anymore, it's a machine that can decide whether you live or die.

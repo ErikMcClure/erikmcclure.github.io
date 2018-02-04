@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2017-09-05T01:04:00Z"
 title = "I Used To Want To Work For Google"
-date = 2017-09-05T01:04:00Z
-updated = 2017-09-06T12:07:38Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2017-09-06T12:07:38.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 A long time ago I thought Google was this magical company that truly cared about engineering and solving problems instead of maximizing shareholder value. Then Larry Page became CEO and [I realized they were not a magical unicorn](https://blackhole12.blogspot.com/2013/11/googles-decline-really-bugs-me.html) and lamented the fact that they had been transformed into "just another large company". Several important things happened between that post and now: Microsoft got a new CEO, so I decided to give them a shot and got hired there. I quit right before Windows 10 came out because I knew it was going to be a disaster. More recently, it's become apparent that Google had gone far past simply being a behemoth unconcerned with the cries of the helpless and transformed into something outright malevolent. It's [silenced multiple reporters](http://gizmodo.com/yes-google-uses-its-power-to-quash-ideas-it-doesn-t-li-1798646437), [blocked windows phone from accessing youtube out of spite](https://thenextweb.com/insider/2013/01/05/calling-shenanigans-on-googles-windows-phone-8-maps-narrative/), and [successfully gotten an entire group of researchers fired by threatening to pull funding](https://www.nytimes.com/2017/08/30/us/politics/eric-schmidt-google-new-america.html?_r=0) ([but that didn't stop them](https://citizensagainstmonopoly.org/)).
 
 This is **evil**. This is *horrifying*. This is the kind of stuff Microsoft did in the 90s that made everyone hate it so much they still have to fight against the repercussions of decisions made two decades ago because of the sheer amount of damage they did and lives they ruined. I'm at the point where I'd rather go back to Microsoft, whose primary sin at this point is mostly just being incompetent instead of outright evil, rather than Google, who is actually doing things that are fundamentally morally wrong. These are the kinds of decisions that are bald-faced abuses of power, without any possible "good intention" driving them. It's **vile**. There is no excuse.

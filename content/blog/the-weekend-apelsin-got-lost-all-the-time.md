@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-11-13T23:24:00Z"
 title = "The Weekend Apelsin Got Lost All The Time"
-date = 2012-11-13T23:24:00Z
-updated = 2012-11-13T23:24:45Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-11-13T23:24:45.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 So on thursday morning my friend [apelsin](https://soundcloud.com/apelsin) mentioned a hackathon at his college, San Jose University. I expressed interest but pointed out that I live 800 miles away. So he bought me a ticket on the last plane flying to San Francisco that night. 10 hours after he had mentioned this hackathon with me, I was riding on a train to San Jose University (after missing one train and getting off on the wrong stop).
 
 The hackathon had prizes - $3100, $1500, and $600 for 1{{<sup>}}st{{</sup>}}, 2{{<sup>}}nd{{</sup>}}, and 3{{<sup>}}rd{{</sup>}}, respectively. The goal was to build, in 24 hours, a AI for a game. The game was a 7x7 board with empty tiles on it. To win a round, you must construct a continuous path from one side to the other. Player 1 must construct a path connecting the left and right sides, while player 2 must construct a path from top to bottom. The squares are grouped into randomized sets, which are then run through over and over, and each time a set is made available, each bot places a bid on the set. The highest bid gets to pick any square from that set and claim it. You had 98 credits to bid with (7*7*2 = 98) and there was no way to get more.

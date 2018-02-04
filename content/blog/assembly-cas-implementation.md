@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2010-07-22T12:08:00Z"
 title = "Assembly CAS implementation"
-date = 2010-07-22T12:08:00Z
-updated = 2011-01-22T04:05:49Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T04:05:49.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{<pre cpp>}}inline unsigned char BSS_FASTCALL asmcas(int *pval, int newval, int oldval)
   {
       unsigned char rval;

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2015-05-14T04:19:00Z"
 title = "Pony Clicker Postmortem"
-date = 2015-05-14T04:19:00Z
-updated = 2015-10-08T23:20:48Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2015-10-08T23:20:48.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*Never Again...*{{%/blockquote%}}
 
 Pony Clicker was intended to be a fun experiment in designing an HTML5 game. It was developed over a period of about 2 weeks, which was a lot longer than I had anticipated. Normally I build games using low level graphics APIs and highly optimized physics engines, so I wanted to try something that would be simple, where I could rely on HTML5 to do most of the work for me... right?

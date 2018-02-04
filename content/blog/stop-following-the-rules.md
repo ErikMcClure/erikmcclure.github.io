@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-05-13T14:54:00Z"
 title = "Stop Following The Rules"
-date = 2012-05-13T14:54:00Z
-updated = 2012-05-13T14:54:07Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-05-13T14:54:07.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 The fact that math, for most people, is about a set of rules, exemplifies how terrible our attempts at teaching it are. A disturbing amount of programming education is also spent hammering proper coding guidelines into students' heads. Describing someone as a cowboy programmer is often derisive, and wars between standards, rules and languages rage like everlasting fires. It is into these fires we throw the burnt-out husks that were once our imaginations. We have taken our holy texts and turned them into weapons to crush any remnants of creativity that might have survived our childhood's educational incarceration.
 
 Math and programming are not sets of rules to be followed. Math is a language - an incredibly dense, powerful way of conveying ideas about abstraction and generalization taken to truly astonishing levels. Each theorem is another note added to a chord, and as the chords play one after another, they build on each other, across instruments, to form a grand symphony. Math, in the right hands, is the language of problem solving. Most people know enough math to get by. It's like knowing enough French to say hello, order food, and call a taxi. You don't really know the language, you're just repeating phrases to accomplish basic tasks. Only when you have mastered a certain amount of fluency can you construct your own epigraphs, and taste the feeling of putting thoughts into words.

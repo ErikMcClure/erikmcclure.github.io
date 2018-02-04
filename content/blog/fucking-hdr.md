@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2010-03-09T11:09:00Z"
 title = "Fucking HDR"
-date = 2010-03-09T11:09:00Z
-updated = 2011-01-22T04:17:08Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T04:17:08.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I really, really have to avoid thinking about HDR, because once I start working on one thing, I become completely and utterly *obsessed* with it. I'm talking an obsession more extreme then my love of bunnies. I'm talking an obsession that would have kept me up all night if I had let it. I've tried approximately 240 different equations in my head and none of them work. The approaches don't work. Nothing seems to work other then a few key things:
 
 1. Bloom is subtle

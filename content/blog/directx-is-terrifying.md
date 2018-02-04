@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2017-02-01T19:35:00Z"
 title = "DirectX Is Terrifying"
-date = 2017-02-01T19:35:00Z
-updated = 2017-04-09T16:44:26Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2017-04-09T16:44:26.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 About two months ago, I got a new laptop and proceeded to load all my projects on it. Despite compiling everything fine, my graphics engine that used DirectX mysteriously crashed upon running. I immediately suspected either a configuration issue or a driver issue, but this seemed weird because my laptop had a *newer* graphics card than my desktop. Why was it crashing on *newer* hardware? Things got even more bizarre once I narrowed down the issue - it was in my shader assignment code, which hadn't been touched in almost 2 years. While I initially suspected a shader compilation issue, there was no such error in the logs. All the shaders compiled fine, and then... didn't work.
 
 Now, if this error had also been happening on my desktop, I would have immediately started digging through my constant assignments, followed by the vertex buffers assigned to the shader, but again, all of this ran perfectly fine on my desktop. I was completely baffled as to why things weren't working properly. I had eliminated all possible errors I could think of that would have resulted from moving the project from my desktop to my laptop: none of the media files were missing, all the shaders compiled, all the relative paths were correct, I was using the exact same compiler as before with all the appropriate updates. I even updated drivers on both computers, but it stubbornly refused to work on the laptop while running fine on the desktop.

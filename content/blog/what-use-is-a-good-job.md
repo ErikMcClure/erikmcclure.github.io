@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2014-09-22T17:36:00Z"
 title = "What Use Is A Good Job?"
-date = 2014-09-22T17:36:00Z
-updated = 2014-09-23T13:29:29Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2014-09-23T13:29:29.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I am not a particularly happy person these days.
 
 Certainly this is not because of my financial situation. I have a six-figure job at some giant software corporation writing code no one will ever see. I can afford to buy whatever tickles my fancy because I have no family to raise, or even a romantic interest. I could stay here for years and make so much money I wouldn't know what to do with it all.

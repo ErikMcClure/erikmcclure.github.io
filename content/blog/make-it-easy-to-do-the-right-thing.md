@@ -1,15 +1,15 @@
 +++
-title = "Make It Easy To Do The Right Thing"
-date = 2015-07-19T23:58:00Z
-updated = 2015-07-19T23:58:51Z
+blogimport = true
+categories = ["blog"]
+date = "2015-07-19T23:58:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "Make It Easy To Do The Right Thing"
+updated = "2015-07-19T23:58:51.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*"But MongoDB is web scale!"*{{%/blockquote%}}
 
 It seems that the general consensus nowadays is that using MongoDB is a bad idea. I don't really have much of an opinion on this particular argument, mostly because I never understood NoSQL in the first place. "With MongoDB, you don't have to worry about schemas or relationships between data!"

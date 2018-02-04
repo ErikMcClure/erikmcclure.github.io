@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-02-03T01:56:00Z"
 title = "How My Little Pony Destroys The Universe"
-date = 2013-02-03T01:56:00Z
-updated = 2013-02-03T02:45:36Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-02-03T02:45:36.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*Princess Celestia WILL satisfy your values through friendship and ponies, and it will be COMPLETELY consensual.*{{%/blockquote%}}
 
 [Friendship Is Optimal](http://www.fimfiction.net/story/62074/1/friendship-is-optimal) is a hard science fiction short story ([level 5](https://docs.google.com/document/d/1dq0hn1LdXuglBUEshJZNWYZjV3wsAJBJsPfxWwEEexI/edit) on [Mohs Scale Of Science Fiction Hardness](http://tvtropes.org/pmwiki/pmwiki.php/Main/MohsScaleOfScienceFictionHardness)) that explores the implications of a general artificial intelligence tasked with maximizing an optimization function. The problem with Strong AIs that are told to maximize some function is best described via the [Paperclip Maximizer](http://wiki.lesswrong.com/wiki/Paperclip_maximizer), wherein an AI that is capable of self-improvement is told to amass the largest collection of paperclips possible. In order to do so, the AI makes itself progressively more intelligent, until it's exponential intellect eventually enables it to convert all matter in the solar system to paperclips. In Friendship is Optimal, this AI is tasked with maximally satisfying the values of all human beings, subject to certain constraints. In this way, the AI is, for all intents and purposes, perfectly benevolent and dedicated to making all of humanity lead happy, fulfilling immortal lives.

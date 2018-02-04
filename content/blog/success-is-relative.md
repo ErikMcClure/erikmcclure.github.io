@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2014-02-20T16:32:00Z"
 title = "Success Is Relative"
-date = 2014-02-20T16:32:00Z
-updated = 2014-02-20T16:45:29Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2014-02-20T16:45:29.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 It seems that many people view success as some sort of absolute value, usually inextricably tied to how much money you make. Ignoring the fact that we should not be tying success to monetary value, we should also not be treating success as some sort of absolute value based on where you end up. What really matters is *where you started from*.
 
 Climbing a mountain is not that impressive when you start half a mile from the peak. On the other hand, if you start all the way at the bottom, climbing the whole thing is very impressive, indeed. A blogger once said that being born as a middle-class straight white male is like [playing life on easy mode](http://whatever.scalzi.com/2012/05/15/straight-white-male-the-lowest-difficulty-setting-there-is/). Minorities have many cultural barriers they must break down to reach the same level as a white male, often because they are born poor.

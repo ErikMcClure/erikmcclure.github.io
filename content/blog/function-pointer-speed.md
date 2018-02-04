@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2010-07-13T22:24:00Z"
 title = "Function Pointer Speed"
-date = 2010-07-13T22:24:00Z
-updated = 2011-01-22T04:07:39Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T04:07:39.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 So after a lot of misguided profiling where I ended up just testing the stupid CPU cache and its ability to fucking predict what my code is going to do, I have, for the most part, demonstrated the following:
 
 {{<code>}}if(!(rand()%2d)) footest.nothing();

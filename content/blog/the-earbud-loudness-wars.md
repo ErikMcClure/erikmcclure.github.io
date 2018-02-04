@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-01-11T19:15:00Z"
 title = "The Earbud Loudness Wars"
-date = 2013-01-11T19:15:00Z
-updated = 2013-01-11T19:17:31Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-01-11T19:17:31.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I have a Zune I got as a prize at a Microsoft Hunt The Wumpus competition back when Microsoft was still under the delusion that they could actually compete with the iPod. My Zune has served me faithfully for almost 7 years. I am now on my third pair of earbuds for my Zune, and have noticed a disturbing trend.
 
 The Zune has a volume control that goes from 0 to 20. I have sensitive ears, so with my first pair of earbuds, which came with the Zune and were presumably made by Microsoft, I listened to music at a volume of 3. Sometimes it was bumped up to 4, but never higher unless a particular song was abnormally quiet. I wish I could say this will let me keep my hearing pristine for many years to come, but standing next to the freeway for 4 years has probably screwed me over anyway.

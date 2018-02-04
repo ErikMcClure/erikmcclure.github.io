@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2009-12-05T16:28:00Z"
 title = "Memory Management on Modern CPUs"
-date = 2009-12-05T16:28:00Z
-updated = 2011-01-22T04:27:01Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T04:27:01.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 The following post is going to make very little sense:
 
 Modern CPUs have started to branch out into parallelism and increased cache size due to their inability to decrease latency, since electricity can only travel so fast. A signal from one side of the CPU can no longer get to the other side in a single cycle. This has led to an exponential increase in cache size and other bizarre optimizations, such as the CPU attempting to guess what the code is going to do. In some cases the CPU might even decide to do something completely different then what the assembly told it to do just for the sake of speed, which can introduce serious issues for threading. The cache, however, is what we are concerned with. L1 cache takes 2 cycles, L2 takes about 14 cycles, and I don't know what L3 takes but its probably somewhere around 50. RAM on the other hand takes, on average, nearly **200 cycles**. This means that cache misses are ridiculously expensive and made even worse by the fact that you can't really be sure that the CPU is actually doing what you're telling it to do. There's little we can do about the CPU running off with your code, but we can help it along by paying attention to data locality.

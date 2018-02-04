@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2017-11-01T15:26:00Z"
 title = "Ignoring Outliers Creates Racist Algorithms"
-date = 2017-11-01T15:26:00Z
-updated = 2017-11-01T15:33:38Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2017-11-01T15:33:38.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Have you built an algorithm that *mostly* works? Does it account for *almost* everyone's needs, save for a few weird outliers that you ignore because they make up 0.0001% of the population? Congratulations, your algorithm is racist! To illustrate how this happens, let's take a recent example from Facebook. My friend's message was removed for "violating community standards". Now, my friend has had all sorts of ridiculous problems with Facebook, so to test my theory, I posted the exact same message on my page, and then had him report it.
 
 {{< img src="/img/fb1.png" alt="" width="637" >}}

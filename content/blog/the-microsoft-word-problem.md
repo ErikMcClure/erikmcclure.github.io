@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-09-18T22:34:00Z"
 title = "The Microsoft Word Problem "
-date = 2013-09-18T22:34:00Z
-updated = 2013-09-28T07:12:36Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-09-28T07:12:36.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I use FL Studio 11 to make my music. Some people find this surprising, due to FL Studio's stigma as being a "toy" DAW that it simply cannot seem to shake, despite the fact it actually does most things as well or better than other professional DAWs. FL Studio has two real, significant issues: Large projects are unstable, and it has extremely bad 64-bit support.
 
 This is almost never what people actually complain about. Instead, people complain about FL studio lacking features when they really just need to enable the right option. My friend lamented FL Studio's poor handling of automation clips without knowing about the "browse parameters" feature that lists all of a synth's parameters and highlights the one you are changing. He then complained that it didn't play notes when you started playback in the middle of them - this can be toggled in the audio settings. He also didn't know how to group multiple instruments to be controlled by the same piano roll, so I had to show him how to use Layers. Every single reason he gave for FL Studio being crap was just him not understanding how to use it properly, or not knowing where to find a specific feature.

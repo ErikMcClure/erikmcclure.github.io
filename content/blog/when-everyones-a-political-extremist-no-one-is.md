@@ -1,15 +1,15 @@
 +++
-title = "When Everyone's A Political Extremist, No One Is"
-date = 2017-06-21T00:35:00Z
-updated = 2017-06-21T00:35:54Z
+blogimport = true
+categories = ["blog"]
+date = "2017-06-21T00:35:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "When Everyone's A Political Extremist, No One Is"
+updated = "2017-06-21T00:35:54.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 <center><img src="https://cdn.discordapp.com/attachments/271024005283184641/320732416450756610/SIRLSHoFA33XRTGTBgAHMImLMy5IACZAACZAACRSPAO3J6NkX0p6MXIBEj4t3IAESIAESIAESIAESIAESKBcCFCDlslKcJwmQAAm.png" alt="Libertarian Socialism" width="400" /></center>
 According to various political opinion polls, I am supposedly all the way on the extreme left end of the political spectrum, a full-blown liberal progressive socialist who probably smokes weed and makes a living recording youtube videos about how I'm being oppressed by the white cismale patriarchy, or something. In reality, I *am* an upper-middle-class straight cisgender white male. I oppose censorship in all forms, including refusing to let people you don't like talk at your university, and have [highlighted the difference between free speech and harassment](). While I support LGTBQ, gender equality, economic equality, racial equality, religious equality, and basically anything else involving the word "equality", I absolutely refuse to be a white knight. We no longer live in a society where this is necessary. The internet has given everyone a voice, and the oppressed minorities are entirely capable of speaking for themselves.
 

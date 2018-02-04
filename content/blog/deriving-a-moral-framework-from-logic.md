@@ -1,15 +1,15 @@
 +++
-title = "Deriving A Moral Framework From Logic"
-date = 2017-04-17T21:08:00Z
-updated = 2017-04-17T21:08:56Z
+blogimport = true
+categories = ["blog"]
+date = "2017-04-17T21:08:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "Deriving A Moral Framework From Logic"
+updated = "2017-04-17T21:08:56.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I am an atheist, and while many atheists derive their moral framework from what I would call "basic human decency", I prefer to derive my moral framework from a consistent logical basis. My morals are derived from one basic observation: I should not treat anyone badly simply because they are in a bad position that I can take advantage of, because I might find myself in that position and I don't want to be mistreated myself. Put more simply, this is the golden rule: Treat others as you want to be treated.
 
 The golden rule is not sufficient to derive an entire moral framework. Instead, there are several additional assumptions that must be made. You must take into account that someone who is not you may not share your desires, and consequently if you want them to treat you as you wish to be treated, you must treat them as they wish to be treated, regardless of what you might want if you were in that position. In addition, you must take into account the *context* of someone's actions. It is not fair to judge a drunk person's judgement the same as a sober person, and this is precisely why most human beings are more lenient with drunkards doing stupid things. Someone's *current position* must be taken into account when you decide how you treat them.

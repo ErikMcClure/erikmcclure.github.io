@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2010-08-08T19:16:00Z"
 title = "P != NP"
-date = 2010-08-08T19:16:00Z
-updated = 2011-01-22T03:53:57Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T03:53:57.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 A paper has been published proving that P != NP.
 
 [http://www.scribd.com/doc/35539144/pnp12pt](http://www.scribd.com/doc/35539144/pnp12pt)
