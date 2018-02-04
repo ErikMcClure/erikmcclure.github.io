@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-12-01T13:36:00Z"
 title = "The Great Mystery of Linear Gradient Lighting"
-date = 2011-12-01T13:36:00Z
-updated = 2012-11-13T23:27:40Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-11-13T23:27:40.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 A long, long time ago, in pretty much the same place I'm sitting in right now, I was learning how one would do 2D lighting with soft shadows and discovered the age old adage in 2D graphics: linear gradient lighting looks better than mathematically correct inverse square lighting. 
 
 Strange. 

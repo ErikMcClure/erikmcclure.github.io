@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-10-15T14:24:00Z"
 title = "Lockless Lattice-Based Computing"
-date = 2012-10-15T14:24:00Z
-updated = 2012-10-15T14:24:16Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-10-15T14:24:16.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 The **[Flow Programming Language](http://www.flowlang.net/p/solving-multicore-dilemma.html)** was introduced as a form of *lattice-based computing*{{<sup>}}<a href="#f1">1</a>{{</sup>}}. This method of thinking about code structure was motivated by the need to make implicit parallelization of code possible at compile-time. Despite this, it has fascinated me for a number of reasons that extend well beyond simple multithreading applications. Most intriguing is its complete elimination of memory management{{<sup>}}<a href="#f2">2</a>{{</sup>}}. A lattice-based programming language doesn't have manual memory allocation or garbage collection, because it knows when and where memory is needed throughout the entire program. This is particularly exciting to me, because for the longest time I've had to use C or C++ simply because they are the only high-performance languages in existence that *don't* have garbage collection, which can be catastrophic in real-time scenarios, like games.
 
 Naturally, this new methodology is not without its flaws. In particular, it currently has no way of addressing the issue of what to do when one variable depends on the values of multiple other variables, which can give rise to race conditions.

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-02-07T20:17:00Z"
 title = "Windows Breaks assert() Inside WM_CANCELMODE"
-date = 2013-02-07T20:17:00Z
-updated = 2013-02-07T20:17:29Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-02-07T20:17:29.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 So I have this dll that's doing a bunch of horrible WinAPI calls for me. It's designed to abstract away all the pain and unholy functions feeding on innocent blood. Little did I know that trying to cage WinAPI into a more manageable corner would be my undoing. 
 
 The window is created and assigned a WndProc callback function inside this DLL, as per the various absurd requirements involving how you create windows in Windows. Everything works just fine and dandy until the application window suddenly closes, an error "ding" is heard, and the program silently crashes without any sort of error message whatsoever.

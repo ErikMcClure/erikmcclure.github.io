@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-09-23T23:25:00Z"
 title = "Don't Work on Someone Else's Dream"
-date = 2011-09-23T23:25:00Z
-updated = 2012-05-02T14:03:02Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-05-02T14:03:02.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 When I complain to my friends about a recent spat of not being productive, they often remind me of the occasional 10 hours I spend forgetting to eat while hunting down a bug. When introducing myself, I am always clear that, most of the time, I am either busy, or trying to be busy. Everything to me is work, everything that makes me proud of myself is work, everything in my future will, hopefully, be more work. The entire concept of retiring to me is madness. I never want to stop working.
 
 This is often mistaken as an unhealthy obsession with work, which is not entirely true. I am not torturing myself every day for 10 hours just so I can prove myself, I'm doing *exactly what I want to do*. I'm 21 years old, I can drink and smoke (but never do), I can drive (but I take the bus anyway), I go to college (but rarely attend classes), and in general am supposed to be an adult. Most people my age are finishing college and inevitably taking low paying jobs while they search for another low paying internship at a company so they can eventually get a high paying job that actually uses what they learned in college after they're too old to care.

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-09-01T16:29:00Z"
 title = "Musical Genres"
-date = 2011-09-01T16:29:00Z
-updated = 2011-09-01T16:55:03Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-09-01T16:55:03.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 As a composer, I have been on the receiving end of a lot of musical criticism - some useful, most ridiculous. I have given out quite a bit of criticism myself, but after discovering that most people aren't interested in brutally honest opinions, I have since avoided it. However, one thing that continues to come up over and over again is someone complaining about Genres.
 
 "This is too fast to be trance."

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-07-06T04:26:00Z"
 title = "C# to C++ Tutorial - Part 1: Basics of Syntax"
-date = 2011-07-06T04:26:00Z
-updated = 2013-05-10T02:02:50Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-05-10T02:02:50.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 [ **1** &middot; [2](http://blackhole12.blogspot.com/2011/07/c-to-c-tutorial-part-2-pointers.html) &middot; [3](http://blackhole12.blogspot.com/2011/09/c-to-c-tutorial-part-3-classes-and.html) &middot; [4](http://blackhole12.blogspot.com/2012/10/c-to-c-tutorial-part-4-operator-overload.html) <span style="color:#aaa;">&middot; 5 &middot; 6 &middot; 7</span> ]
 
 When moving from C# to C++, one must have a very deep knowledge of what C# is actually doing when you run your program. Doing so allows you to recognize the close parallels between both languages, and why and how they are different. This tutorial will assume you have a fairly strong grasp of C#, but may not be familiar with some of its more arcane attributes.

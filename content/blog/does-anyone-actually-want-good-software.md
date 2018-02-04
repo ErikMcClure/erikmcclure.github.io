@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2015-02-18T23:10:00Z"
 title = "Does Anyone Actually Want Good Software?"
-date = 2015-02-18T23:10:00Z
-updated = 2015-02-19T17:21:43Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2015-02-19T17:21:43.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Are there any programmers left that actually care about writing good software? As far as I can tell, the software development industry has turned into a series of echo chambers where managers scream about new features and shipping software and analyzing feedback from customers. Then they ignore all the feedback and implement whatever new things are supposed to be cool, like flat design, or cloud computing, or software as a service.
 
 The entire modern web is built on top of the worst programming language that's still remotely popular. It's so awful that [IE now supports asm.js](http://blogs.msdn.com/b/ie/archive/2015/02/18/bringing-asm-js-to-the-chakra-javascript-engine-in-windows-10.aspx) just so we can use other languages instead. With everyone relentlessly misquoting "Premature optimization is the root of all evil", it's hard to get programmers to optimize any of their code *at all*, let alone get them to care about things like CPU caches and why allocation on the heap is slow and how memory locality matters.

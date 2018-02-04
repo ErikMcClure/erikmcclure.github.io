@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-10-29T19:58:00Z"
 title = "The Educational Imbroglio  "
-date = 2013-10-29T19:58:00Z
-updated = 2013-10-30T16:42:34Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-10-30T16:42:34.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}**im·bro·glio**
 <span style="color:#666">*noun*</span>
 <span style="padding-left:1em;">1. an extremely confused, complicated, or embarrassing situation.</span>{{%/blockquote%}}

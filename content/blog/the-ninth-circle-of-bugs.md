@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-05-15T04:43:00Z"
 title = "The Ninth Circle of Bugs"
-date = 2011-05-15T04:43:00Z
-updated = 2011-05-15T04:43:28Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-05-15T04:43:28.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 So I'm rewriting my [2D culling kd-tree](www.blackspherestudios.com/storage/McClure_Erik_Regional_KD_Trees.pdf) for my graphics engine, and a strange bug pops up. On release mode, one of the images vanished. Since it didn't happen in debug mode, it was already a {{<code>}}heisenbug{{</code>}}. A {{<code>}}heisenbug{{</code>}} is defined as a bug that vanishes when you try to find it. It took me almost a day to trace the bug to the {{<code>}}rebalance{{</code>}} function. At first I thought the image had simply been removed from a node accidentally, but this wasn't the case. It took another day to finally figure out that the {{<code>}}numimages{{</code>}} variable was getting set to 0, thus causing the node to think it was empty and resulted in it deleting itself and removing itself from the tree (which caused all sorts of other problems).
 
 Unfortunately, I could not verify the tree. Any attempt that so much as *touched* the tree's memory would wipe out the bug, or so I thought. Then I tried adding the verification function into an if statement that would only activate if the bug appeared - it did not. The act of adding a line of code *that was never executed* actually **caused the bug to vanish**.

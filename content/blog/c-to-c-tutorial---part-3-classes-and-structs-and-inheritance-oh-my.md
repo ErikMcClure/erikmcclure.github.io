@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-09-09T18:07:00Z"
 title = "C# to C++ Tutorial - Part 3: Classes and Structs and Inheritance (OH MY!)"
-date = 2011-09-09T18:07:00Z
-updated = 2013-05-10T02:01:38Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-05-10T02:01:38.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 [ [1](http://blackhole12.blogspot.com/2011/07/c-to-c-tutorial-part-1-basics-of-syntax.html) &middot; [2](http://blackhole12.blogspot.com/2011/07/c-to-c-tutorial-part-2-pointers.html) &middot; **3** &middot; [4](http://blackhole12.blogspot.com/2012/10/c-to-c-tutorial-part-4-operator-overload.html) {{<span style="color:#aaa">}}&middot; 5 &middot; 6 &middot; 7{{</span>}} ]
 
 Classes in C#, like most object-oriented languages, are very similar to their C++ counterparts. They are declared with {{<code>}}class{{</code>}}, exist between brackets and inherit classes using a colon {{<code>}}':'{{</code>}}. Note, however, that all classes in C++ **must end with a semicolon!** You will forget this semicolon, and then *all the things will break*. You can do pretty much everything you can do with a C# class in a C++ class, except that C++ does not have {{<code>}}partial{{</code>}} classes, and in C++ classes themselves cannot be declared {{<code>}}public{{</code>}}, {{<code>}}protected{{</code>}} or {{<code>}}private{{</code>}}. Both of these features don't exist because they are made irrelevant with how classes are declared in header files.

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-02-29T17:21:00Z"
 title = "Hiring the Wrong People"
-date = 2012-02-29T17:21:00Z
-updated = 2012-02-29T22:00:23Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-02-29T22:00:23.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Several years ago, [this famous rant](http://antitrust.slated.org/www.iowaconsumercase.org/011607/7000/PX07199.pdf) by Bill Gates (here's a [more readable version](http://blog.seattlepi.com/microsoft/2008/06/24/full-text-an-epic-bill-gates-e-mail-rant/)) made its way around the internet. What was remarkable about it was that Bill Gates himself flaming his underlings for many of the things everyone else was complaining about did almost nothing to improve Windows. What improvements were eventually made are usually attributed to many outside influences, especially Apple and the rise of tablet PCs. 
 
 This really isn't that remarkable to anyone inside the software industry. I've been an intern at Microsoft and I've seen all sorts of hilariously misconstrued practices and rules and regulations meant to bend employees into some magical definition of an awesome developer that is usually, itself, hopelessly misguided. Almost the entire modern business world runs on the idea that you hire someone and then tell them how to behave. It's an authoritarian mindset derived from the idea that employees should be obedient little robots. You hire managers to manage the employees, and when you have too many managers you hire department heads to manage the managers, and so on. 

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2017-05-04T14:06:00Z"
 title = "Why Bother Making An App?"
-date = 2017-05-04T14:06:00Z
-updated = 2017-05-04T14:19:46Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2017-05-04T14:19:46.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I have an idea for an app. According to startup literature, I'm supposed to get initial fundraising from small-time investors, or "angel" investors, possibly with help from an incubator. Then, after using this money to build an MVP and push the product on the marketplace, I do a Series A round with actual venture capitalists. Now, the venture capitalists probably won't give me any money unless I can give them a proper financial outlook, user growth metrics, and a solid plan for expansion, along with a market cap estimation. Alternatively, I can just use enough meaningless buzzwords and complete bullshit to convince them to give me [$120 million for a worthless piece of junk](http://www.npr.org/sections/thetwo-way/2017/04/21/525055713/juicero-ceo-says-luxury-juicer-is-much-more-than-juice-internet-is-unimpressed).
 
 Either way, venture capitalists usually want a sizable 10-30% stake in your company (depending on if it's Series A, Series B, or Series C), given how much money they're pouring into a company that might fail. That's okay though, because my app does reasonably well and sells lots of copies on the app store and journalists write about it. Unfortunately, soon sales start tapering off, and ad revenue declines because customers either purchase the pro version or block the ads entirely. While the company is financially stable and making a modest profit, this isn't enough for the investors. They want *growth*, they need *user engagement*, they need *ever increasing profits*. Simply building a stable company isn't enough for them.

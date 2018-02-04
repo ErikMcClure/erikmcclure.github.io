@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2017-06-01T15:48:00Z"
 title = "Programmers Should Take Linguistics"
-date = 2017-06-01T15:48:00Z
-updated = 2017-06-01T15:48:19Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2017-06-01T15:48:19.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 The older I get, the more I realize that 90% of all disagreements or social drama results from a miscommunication of some kind. Every time I wind up having to resolve a dispute, I'll try to get both sides of the story, only to realize that they're the same story, and both parties were actually either in agreement or fighting over a perceived insult that never actually existed. Unsurprisingly, a disproportionate amount of this miscommunication often involves programmers being far too strict with their interpretations of what certain words mean.
 
 A linguistics class teaches you about what a language actually is - a bunch of sounds that we mutually agree mean certain things. Language is, intrinsically, a social construct. The correct definition of a word is whatever the majority of your primary social circle thinks it is. However, this also means that if you interact with a secondary social circle, and they all think the word means something else, then whenever you interact with them, it really *does* mean something else. Language is inherently contextual, and the possible meanings of a word can change based on who is saying it and to whom they're saying it to. If everyone else on Earth has decided that 'literally' can also mean 'figuratively', then it does, even if the dictionary says otherwise. It also means most people don't actually care if you say *jif* or *gif*, they'll just say whatever pronunciation gets you to shut up about it.

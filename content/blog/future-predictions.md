@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-04-17T15:54:00Z"
 title = "Future Predictions"
-date = 2011-04-17T15:54:00Z
-updated = 2011-04-18T00:47:23Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-04-18T00:47:23.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 In the past I've made several predictions that were dismissed, at the time, as ludicrous, but have in fact come to fruition, like the importance of having dynamic environments in games and graphics engines that can handle it. So, here I present a complete list of all the computer-related or economic predictions I currently have, along with justification:
 
 **Speed becomes paramount to all mature markets**: People have been ignoring speed for as long as they can, because its apparently rather difficult for programmers to properly optimize programs. This is fine in emerging markets because no one knows how fast things can go. However, the more mature a market gets, the faster the consumer will notice speed problems - even little ones. People are really impatient, and a program that successfully combines both ease of use and extremely fast calculations will win over a bloated, slow, feature-filled one. This has become markedly apparent in the current cycle of web applications, and will soon spill over into just about everything that we use.

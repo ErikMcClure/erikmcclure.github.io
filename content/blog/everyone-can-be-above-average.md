@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2014-10-18T01:13:00Z"
 title = "Everyone Can Be Above Average"
-date = 2014-10-18T01:13:00Z
-updated = 2014-10-18T01:13:22Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2014-10-18T01:13:22.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*When everyone's special, no one is.*
  — Anonymous{{%/blockquote%}}
 

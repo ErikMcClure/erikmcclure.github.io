@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-12-14T19:49:00Z"
 title = "Giant List of FREE SAMPLES"
-date = 2012-12-14T19:49:00Z
-updated = 2015-08-10T22:39:45Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2015-08-10T22:39:45.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Back when I started making music, I quickly realized that trying to make sample-based music without a significant sample library is *really hard*. While there are thousands of sample libraries for sale, the problem with starting out is that, by definition, you suck, you're probably in high school, and your allowance is likely going towards other, more important things, and not your silly musical experiments.
 
 Over the years, I've been frustrated with how difficult it is to find good free samples. It turns out that there's some really great royalty-free stuff out there, if you can find it. This post is a categorized list of every single sample pack and soundfont I have that is royalty-free, and of reasonable quality in an effort to give beginner musicians a much better foundation to build their music off of. Some of these are soundfonts compressed with [sfArk](https://dl.dropbox.com/u/755994/sfArkXTc.zip) - just drag the file on to sfArkXTc.exe to generate a self-extracting executable that will create the sf2 file when run. Others are compressed using [sfpack.exe](http://soundfonts.darkesword.com/files/sfpack.zip). A few use the SFZ format (usually when the soundfont in question would take up too much RAM), which can be read by the free [sForzando](http://www.plogue.com/products/sforzando/) VSTi.

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2016-12-20T15:26:00Z"
 title = "Everyone Does sRGB Wrong Because Everyone Else Does sRGB Wrong"
-date = 2016-12-20T15:26:00Z
-updated = 2016-12-22T07:03:44Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2016-12-22T07:03:44.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Did you know that CSS3 does all its linear gradients and color interpolation completely wrong? All color values in CSS3 are in the sRGB color space, because that's the color space that gets displayed on our monitor. However, the problem is that the sRGB color space looks like this:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/SRGB_gamma.svg/250px-SRGB_gamma.svg.png" alt="sRGB gamma curve" />

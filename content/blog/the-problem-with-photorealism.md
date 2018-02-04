@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2014-03-18T09:05:00Z"
 title = "The Problem With Photorealism"
-date = 2014-03-18T09:05:00Z
-updated = 2014-03-23T03:46:25Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2014-03-23T03:46:25.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Many people assume that modern graphics technology is now capable of rendering photorealistic video games. If you define *photorealistic* as *any still frame is indistinguishable from a real photo*, then we can get pretty close. Unfortunately, the problem with video games is that they are not still frames - they *move*.
 
 What people don't realize is that modern games rely on faking a lot of stuff, and that means they only *look* photorealistic in a very tight set of circumstances. They rely on you not paying close attention to environmental details so you don't notice that the grass is actually just painted on to the terrain. They precompute environmental convolution maps and bake ambient occlusion and radiance information into level architecture. You can't knock down a building in a game unless it is specifically programmed to be breakable and all the necessary preparations are made. Changes in levels are often scripted, with complex physical changes and graphical consequences being largely precomputed and simply triggered at the appropriate time.

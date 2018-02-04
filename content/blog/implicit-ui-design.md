@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-02-24T10:18:00Z"
 title = "Implicit UI Design"
-date = 2012-02-24T10:18:00Z
-updated = 2012-02-25T01:38:07Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-02-25T01:38:07.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 For a long time, I have been frustrated with the poor UI design that is rampant in the software industry. As a consequence, many Linux enthusiasts have pointed out how productive you can be with Emacs, VIM, and other keyboard-shortcut/terminal oriented software. The UI design has gotten so bad, I have to agree that in comparison to recent user interface designs, keyboard shortcuts are looking rather appealing. This, however, doesn't mean that one approach is inherently better than another, simply that modern user interfaces *suck*. 
 
 In this blog, I'm going to outline several improvements to user interfaces and the generalized alternative design philosophy that is behind many of them. To start, let's look at [this recent article](http://blogs.msdn.com/b/visualstudio/archive/2012/02/23/introducing-the-new-developer-experience.aspx) about Visual Studio 11, which details Microsoft's latest strategy to ruin their products by sucking all the color out of them: 

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2015-07-21T00:45:00Z"
 title = "I Tried To Install Linux And Now I Regret Everything"
-date = 2015-07-21T00:45:00Z
-updated = 2015-07-21T09:48:17Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2015-07-21T09:48:17.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 <style>.imghover img { display:none; position:absolute; margin-top:-350px; right:0; background: white; border: 1px solid black; } .imghover:hover img, .imghover:focus img { float:left; display:block; }</style>I am going to tell you a story.
 
 This story began with me getting pissed off at Windows for reasons that don't really need to be articulated. Just, pick your favorite reason to hate Windows, and let's pretend that was the tipping point. I had some spare space on my secondary drive, so I decided to give Linux another whirl. After all, it had been three or four years since I last attempted anything like this (it's been so long I don't rightly remember the last time I tried), and people have been saying that Linux has gotten a lot better recently!

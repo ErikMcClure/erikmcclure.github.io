@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-04-10T17:06:00Z"
 title = "Investigating Low-level CPU Performance"
-date = 2011-04-10T17:06:00Z
-updated = 2011-04-10T17:18:39Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-04-10T17:18:39.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 While reconstructing my threaded Red-Black tree data structure, I naturally assumed that due to invalid branch predictions costing significant amounts of performance, by eliminating branching in low-level data structures, one can significant enhance the performance of your application. I did some profiling and was stunned to discover that my new, optimized Red Black tree was... *SLOWER* then the old one! This can't be right, I eliminated several branches and streamlined the whole thing, how can it be *SLOWER?!* I tested again, and again, and again, but the results were clear - even with fluctuations of up to 5% in the results, the average speed for my new tree was roughly 7.5% larger then my old one (the following numbers are the average of 5 tests).
 
 Old: 626699 ticks

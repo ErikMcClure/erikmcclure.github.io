@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2017-07-30T16:57:00Z"
 title = "Why I Never Built My SoundCloud Killer"
-date = 2017-07-30T16:57:00Z
-updated = 2017-07-30T17:04:49Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2017-07-30T17:04:49.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 While the news of SoundCloud imploding are fairly recent, musicians and producers have had a beef with the music uploading site's direction for years. I still remember when SoundCloud only gave you a paltry 2 hours worth of free upload time and managed to convert my high quality lossless WAV files to the shittiest 128 kbps MP3 I've ever heard in my life. What really pissed me off was that they demanded a ridiculous $7 a month just to *double* your upload time. This is in contrast to [Newgrounds](http://www.newgrounds.com/audio/), a tiny website run by a dozen people with an audio portal built almost as an afterthought that still manages to be superior to *every single other offering*. It gives you unlimited space, for free, and lets you upload *your own MP3*, which allows me to upload properly encoded joint-stereo 128 kbps MP3 files, or much higher quality MP3s for songs I'm giving out for free.
 
 Obviously, Newgrounds is only able to offer unlimited free uploads because the audio portal just piggybacks on the rest of the site. However, I was so pissed off at SoundCloud's disgusting subscription offering that I actually ran the numbers in terms of what it would cost to store lossless FLAC encodings of songs using Amazon S3. These calculations are now out of date, so I've redone them for the purposes of this blog.

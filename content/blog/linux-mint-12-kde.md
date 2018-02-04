@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-02-19T10:32:00Z"
 title = "Linux Mint 12 KDE"
-date = 2012-02-19T10:32:00Z
-updated = 2012-02-19T11:07:17Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-02-19T11:07:17.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Over the course of 3 hours spent trying to figure out why my Linux Mint 12 KDE installation would to go to a permanent black screen on boot, I managed to overheat part of my computer (at least that is the only thing that could explain this) to the point where it'd lock up on the POST and had to give up until this morning, where I managed to figure out that I could delete the xorg.conf file in Mint to force it to go to default settings. This finally got Mint 12 to show up, and I later confirmed that the nvidia drivers were broken. I then discovered that the nvidia drivers in the distribution for apt-get sources are almost **120 versions** behind the current release (295), but the installer for that kept failing despite my attempts to fix it and having to add source repositories to apt-get because apparently these are disabled by default, which confused me greatly for a short period whilst trying to install the Linux source. This ultimately proved futile since Nvidia can't be bothered to make anything remotely easy for Linux, so I'm stuck with a half-broken default driver that can't use my second monitor with a mouse cursor that repeatedly blinks out of existence in a very aggravating manner. 
 
 Of course, the only reason I even have Linux installed is to compile things on Linux and make sure they work, so as long as my development IDE works, I should be fine! Naturally, it doesn't. Kdevelop4 is the least insultingly bad coding IDE available for Linux that isn't VIM or Emacs, which both follow in the tradition of being so amazingly configurable you'll spent half your development cycle trying to get them to work work and then learning all the arcane commands they use in order to have some semblance of productivity. Like most bizarre, functionality-oriented Linux tools, after about 6 months of torturing yourself with them, you'll probably be significantly more productive than someone on Visual Studio. Sadly, the majority of my time is not spent coding, it's spent sitting in front of a computer screen for hours trying to figure out how to get 50 lines of code to work properly. Saying that your text editor lets you be super productive assumes you are typing something all the time, and if you are doing that you are a codemonkey, not a programmer. Hence, I really don't give a fuck about how efficient a given text editor is so long as it has a couple commands I find useful in it. What's more important is that it works. KDevelop4 looked like it might actually do this, but sadly it can't find any include files. It also can't compile anything that isn't C++ because it builds everything with CMake and refuses to properly compile a C file. It has a bunch of hilariously bad user interface design choices, and basically just sucks. 

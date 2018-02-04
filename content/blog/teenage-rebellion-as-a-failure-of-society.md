@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-09-23T20:37:00Z"
 title = "Teenage Rebellion as a Failure of Society"
-date = 2012-09-23T20:37:00Z
-updated = 2012-09-24T00:12:25Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-09-24T00:12:25.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Historians have noticed that the concept of teenage rebellion is a [modern invention](http://www.ushistory.org/us/46c.asp). Young adults often (but not always) have a tendency to be horny and impulsive, but the flagrant and sometimes violent rejection of authority associated with teenagers is a stereotype unique to modern culture. Many adults incorrectly assume this means we have gotten "too soft" and need to bring back spanking, paddles, and other harsher methods of punishment. As any respectable young adult will tell you, that isn't the answer, and in fact highlights the underlying issue of **ageism** that is creating an aloof, frustrated, and repressed youth.
 
 The problem is that adults refuse to take children seriously. Until puberty, kids are often aware of this, but most simply don't care (and sometimes take advantage of it). As they develop into young adults, however, this begins to clash with their own aspirations. They want to be in control of their own lives, because they're trying to figure out what they want their lives to be. They want to explore the world and decide where to stand and what to avoid. Instead, they are locked inside a school for 6-7 hours and spoon-fed buckets of irrelevant information, which they must then regurgitate on a battery of tests that have no relation to reality. They are not given meaningful opportunities to prove themselves as functional members of society. Instead, they are explicitly forbidden from participating in the adult world until the arbitrary age of 18, regardless of how mature or immature they are. They are told that they can't be an adult not because of their behavior, but simply because *they aren't old enough*. The high school dropout and the valedictorian get to be adults at exactly the same time - 18.

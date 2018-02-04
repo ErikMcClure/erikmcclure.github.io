@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2010-03-14T23:00:00Z"
 title = "Texas Fucks Everyone"
-date = 2010-03-14T23:00:00Z
-updated = 2011-01-22T04:16:39Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T04:16:39.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 [Texas conservatives screw history](http://blogs.discovermagazine.com/badastronomy/2010/03/14/texas-conservatives-screw-history)
 
 {{%blockquote%}}[Texas Board of Education cuts Thomas Jefferson out of its textbooks.](http://thinkprogress.org/2010/03/12/texas-education-board-cuts-thomas-jefferson-out-of-its-textbooks/)

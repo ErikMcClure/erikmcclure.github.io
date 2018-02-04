@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-05-20T05:11:00Z"
 title = "Embracing Remix Culture"
-date = 2013-05-20T05:11:00Z
-updated = 2013-05-20T06:09:16Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-05-20T06:09:16.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*"Good artists copy; great artists steal."*{{%/blockquote%}}
 
 The first fandom I was ever really got in to was the [Redwall](https://en.wikipedia.org/wiki/Redwall) series. Pokemon was another thing I was a fan of for quite a while, along with Dragon Ball Z. Recently I've become a fan of My Little Pony: Friendship is Magic. Both My Little Pony and Pokemon are notable for producing truly absurd amounts of fanart. Many people aren't actually aware of the *massive* amount of [pokemon fanart](http://chillysundance.deviantart.com/art/To-Each-Their-own-Ends-Cover-368357065) that exists. Sonic is another fandom that produces stupendous amounts of fanart, and some of it is incredible: 

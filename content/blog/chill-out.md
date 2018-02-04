@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-02-27T14:31:00Z"
 title = "Chill Out"
-date = 2012-02-27T14:31:00Z
-updated = 2012-02-27T14:45:11Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-02-27T14:45:11.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I do not usually involve myself with politics and bureaucracies, but they have a way of creeping into every facet of human experience in an almost parasitic manner. Even in my own profession of software engineering I have to deal with pointless language wars, followed by people being pissed off that I called them pointless. Well then, let me be perfectly clear here: Language wars are pointless. You know what else is pointless? Racism is pointless, sexism is pointless, rape culture is pointless, homophobia is pointless, religious dogma is pointless, and pretty much *every single topic in modern politics* is pointless, either by virtue of simply being ridiculous or by completely missing the point. 
 
 What bothers me about homophobia is twofold. One, obviously, is that it involves a religious person telling two people they can't fall in love with each other because whatever god they happen to worship says so, as if they actually have the authority to tell two adults what to do. If those two adults choose to go to hell, [your own goddamn bible](http://thedailybibleverse.blogspot.com/2009/07/ephesians-432-be-kind-and-compassionate.html) says you're supposed to be nice to them anyway. But what's really disturbing is the fact that anyone even gives a shit about any of this. A dude wants to marry a dude, and this supposedly destroys the sanctity of marriage. I think you people are a tad bit sheltered, because there are [teenage girls being sold into slavery](http://today.msnbc.msn.com/id/22083762/ns/today-today_people/t/sex-slaves-human-trafficking-america/#.T0wA_IcgehZ), in a sex-trafficking ring, *in America*. I think, just maybe, you need to **chill out**, because being *sold into slavery* seems a lot worse than two guys kissing. 

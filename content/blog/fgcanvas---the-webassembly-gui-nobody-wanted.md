@@ -1,15 +1,15 @@
 +++
-title = "fgCanvas - The WebAssembly GUI Nobody Wanted"
-date = 2016-03-29T04:21:00Z
-updated = 2016-03-29T04:21:30Z
+blogimport = true
+categories = ["blog"]
+date = "2016-03-29T04:21:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "fgCanvas - The WebAssembly GUI Nobody Wanted"
+updated = "2016-03-29T04:21:30.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 As the gospel of WebAssembly descends upon the earth, offering salvation to the weary web developers of old, many are understandably excited. I'm excited too, primarily because I hate javascript with the fury of a thousand suns, and wish nothing more than to strap its burning carcass on to the hood of my statically-compiled-language-with-actual-type-safety car as I drive into the infinite abyss that is web development, screaming incoherent obscenities while plummeting towards my inevitable demise.
 
 WebAssembly (or just wasm) answers the cry of app developers who really just want to treat the web as an abstract platform they can compile to, instead of compiling for desktop, mobile, and then erecting a shrine to satan inscribed with the runes of jQuery so you can summon the demons of HTML5 as you desperately try to create an interface that sorta-kinda looks like your desktop or mobile app. wasm turns the web browser into an abstract virtual machine, kind of like the JVM, except with fewer virgin sacrifices.

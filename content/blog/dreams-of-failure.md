@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-12-18T22:39:00Z"
 title = "Dreams of Failure"
-date = 2012-12-18T22:39:00Z
-updated = 2012-12-18T22:39:39Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-12-18T22:39:39.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I graduate college in 3 months. I filed the paperwork and started a company almost a year ago, but after getting hammered by homework, it is sitting in dilapidation. For *five years* I've fought to try and make my dreams a reality. For five years, I've failed, miserably. I am more fortunate than most in that my parents are perfectly willing to let me stay with them throughout college, so failure is relatively painless for me.
 
 I have failed at almost everything I have ever attempted to do. Be it a combination of foolish ambition or rash decisions, the only projects I ever actually completed were pathetically simplistic, and usually done for school. It started when I was 12, and tried to build a campaign for Age of Mythology, a real project I could call my own instead of simply tinkering and upgrading existing ideas. I made half of one mission and gave up. 

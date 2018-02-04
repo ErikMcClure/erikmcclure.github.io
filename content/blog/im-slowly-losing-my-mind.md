@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-02-10T04:20:00Z"
 title = "I'm Slowly Losing My Mind"
-date = 2013-02-10T04:20:00Z
-updated = 2013-02-10T17:14:01Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-02-10T17:14:01.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I say a lot of things. I avoid lying at all costs, and instead prefer to simply leave out a lot of... details. Like why I started a game development company that spends an awful lot of time developing tools instead of games. Or why I've spent 6 years chasing a dream, and instead of doing what any sane person would have done and used existing frameworks to achieve my supposed goal of creating the various game ideas I've had, I have stubbornly built my own framework of tools, giving myself control of everything from the high level game engine down to CPU specific SSE optimizations and how I allocate my arrays. 
 
 I extended std::string into my own string class and use my own replacement for std::vector. I built my own audio engine. I built my own graphics engine. I built my own game engine, state control system, box2D physics integration, and serialization. Now I've even built my own GUI framework, because CEGUI was such a load of crap. I resisted doing that one for a long time, until it became increasingly obvious to me that I had no choice. 

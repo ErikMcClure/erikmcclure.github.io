@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-04-15T23:40:00Z"
 title = "An evidence-based refutation of the Project Glass parodies"
-date = 2012-04-15T23:40:00Z
-updated = 2012-04-16T08:05:12Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-04-16T08:05:12.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*The following was written by [Saul Reynolds-Haertle](https://twitter.com/#!/saulrh), a close friend of mine who is too busy starting his PhD at Georgia Tech to run his own blog. It is posted here at his request.*{{%/blockquote%}}
 
 {{<html>}}<hr/>{{</html>}}

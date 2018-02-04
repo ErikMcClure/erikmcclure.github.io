@@ -1,15 +1,15 @@
 +++
-title = "Genjox: How A Game Almost Vanished From The Internet"
-date = 2015-03-28T13:26:00Z
-updated = 2015-03-28T13:26:57Z
+blogimport = true
+categories = ["blog"]
+date = "2015-03-28T13:26:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "Genjox: How A Game Almost Vanished From The Internet"
+updated = "2015-03-28T13:26:57.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*"Are you certain you want to do this?"*{{%/blockquote%}}
 
 14 years ago, a small group of students at DigiPen created a game called Genjox as part of their senior project. DigiPen had only just begun awarding diplomas to graduates of it's new R.T.I.S major, and was at the very beginning of it's meteoric rise in popularity. Each year, programming students were required to build basic game engines from scratch. They would team up with two or three other students to form a group capable of creating the art, level design, programming, and sound effects/music for each game.

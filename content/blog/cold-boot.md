@@ -1,15 +1,15 @@
 +++
-title = "Cold Boot"
-date = 2013-02-05T18:54:00Z
-updated = 2013-02-05T18:54:53Z
+blogimport = true
+categories = ["blog"]
+date = "2013-02-05T18:54:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "Cold Boot"
+updated = "2013-02-05T18:54:53.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 In a old, dusty, abandoned office, the last rays of sunlight shine through a cracked window. In a corner, there is a faint click and a whir, as an ancient server comes to life amidst the cobwebs.
 
 You wake up, and the world is fuzzy and out of focus. You can't think straight, and you're not sure where you are or what you're doing in an infinite field of grass. You have no access to any short-term memory and feel like someone put your brain inside a blender. It takes you a moment to correct yourself - you have no physical brain anymore, not since your consciousness was uploaded into a supercomputer, years ago. A sudden rush of simulated adrenaline surges through your simulated mind as you suddenly realize the implications of what just happened.

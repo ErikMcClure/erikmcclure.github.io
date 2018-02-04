@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2010-08-06T04:18:00Z"
 title = "Physics Networking"
-date = 2010-08-06T04:18:00Z
-updated = 2011-01-22T03:54:20Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T03:54:20.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I'm still working on integrating physics into my game, but at some point here I am going to hit on that one major hurdle: syncing one physics environment with another that could be halfway across the globe. There are a number of ways to do this; some of them are bad, and some of them are absolutely terrible. 
 
 If any of you have played Transformice, you will know what I mean by terrible. While I did decompile the game, I never bothered to examine their networking code, but I would speculate that they are simply mass-updating all the clients and not properly interpolating received packets. Consequently, when things get laggy, everyone doesn't just hop around, they completely clip through objects, even ones that they should never clip though *no matter what the other players are doing*.

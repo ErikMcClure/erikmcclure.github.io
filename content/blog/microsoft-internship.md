@@ -1,15 +1,15 @@
 +++
-title = "Microsoft Internship"
-date = 2012-07-21T07:56:00Z
-updated = 2013-12-19T17:16:00Z
+blogimport = true
+categories = ["blog"]
+date = "2012-07-21T07:56:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "Microsoft Internship"
+updated = "2013-12-19T17:16:00.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 For me, watching Microsoft for the past 5 years has been a lot like getting on a train, immediately getting off at the next stop, only to watch it explode 5 minutes later. You see, I was a high school intern there back in the summer of 2008, right before my senior year of high school. What I witnessed there I will never forget for the rest of my life, and continue to consider it the gold standard of how to not run a software development company. I live 10 minutes from Microsoft HQ in Redmond, Washington, and ever since I learned how to program I thought I wanted to work there. Until I actually did.
 
 **Bloatware**

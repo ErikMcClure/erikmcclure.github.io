@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-05-16T04:46:00Z"
 title = "Contact"
-date = 2013-05-16T04:46:00Z
-updated = 2013-05-16T15:16:50Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-05-16T15:16:50.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*"We must be the change we want to see in the world." - Mahatma Gandhi*{{%/blockquote%}} Given the enormous influence of The Matrix on a lot of what I make, many people assume that it is my favorite movie. My favorite movie of all time is actually [Contact](https://en.wikipedia.org/wiki/Contact_(film)). 
 
 Many people assume the message behind Contact is that Religion and Science aren't mutually exclusive, but this is only part of the equation. Contact is really about *faith*. It's about never losing faith in your own passion, regardless of what it is. It can be science, religion, art, music, it doesn't matter. All that matters is that you find your passion, and you have faith in it, and no matter what happens, no matter what stands in your way, you fight for it. 

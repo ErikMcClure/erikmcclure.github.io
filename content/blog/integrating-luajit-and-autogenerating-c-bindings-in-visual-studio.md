@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2017-07-24T23:15:00Z"
 title = "Integrating LuaJIT and Autogenerating C Bindings In Visual Studio"
-date = 2017-07-24T23:15:00Z
-updated = 2017-08-24T01:07:03Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2017-08-24T01:07:03.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 [Lua](https://www.lua.org/) is a popular scripting language due to its tight integration with C. [LuaJIT](http://luajit.org/) is an extremely fast JIT compiler for Lua that can be integrated into your game, which also provides an [FFI Library](http://luajit.org/ext_ffi.html) that directly interfaces with C functions, eliminating most overhead. However, the FFI library only accepts a subset of the C standard. Specifically, **"C declarations are not passed through a C pre-processor, yet. No pre-processor tokens are allowed, except for #pragma pack."** The website suggests running the header file through a preprocesser stage, but I have yet to find a LuaJIT tutorial that actually explains how to do this. Instead, all the examples simply copy+paste the function prototype into the Lua file itself. Doing this with makefiles and GCC is trivial, because you just have to add a compile step using <a href="https://gcc.gnu.org/onlinedocs/gcc-4.9.1/gcc/Preprocessor-Options.html">the {{<code>}}-E{{</code>}} option</a>, but integrating this with Visual Studio is more difficult. In addition, I'll show you how to properly load scripts and modify the PATH lookup variable so your game can have a proper {{<code>}}scripts{{</code>}} folder instead of dumping everything in {{<code>}}bin{{</code>}}.
 
 ##### Compilation

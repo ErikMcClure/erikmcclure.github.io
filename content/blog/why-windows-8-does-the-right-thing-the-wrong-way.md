@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-03-14T14:28:00Z"
 title = "Why Windows 8 Does The Right Thing The Wrong Way"
-date = 2012-03-14T14:28:00Z
-updated = 2012-03-15T00:28:33Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-03-15T00:28:33.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Yesterday, I saw a superb presentation called "[When The Consoles Die, What Comes Next?](http://www.slideshare.net/bcousins/when-the-consoles-die-what-comes-next)" by Ben Cousins. It demonstrates that mobile gaming is behaving as a disruptive technology, and is causing the same market decline in consoles that consoles themselves did to arcades in the 1990s. He also demonstrates how TV crushed cinema in a similar manner - we just don't think of it like that because we don't remember back when almost **60% of the population** was going to the movie theaters on a weekly basis. Today, most people tend to go to the movie theater as a special occasion, so the theaters didn't completely die out, they just lost their market dominance. The role the movie theater played changed as new technology was introduced.
 
 The game industry, and in fact the software industry as a whole, is in a similar situation. Due to the mass adoption of iPads and other tablets, we now have a mobile computing experience that is distinct from that of say, a console, or even a PC. Consequently, the role of consoles and PCs will shift in response to this new technology. However, while many people are eager to jump on the bandwagon (and it's a [very lucrative bandwagon](http://en.wikipedia.org/wiki/Angry_Birds)), we are already losing sight of what will happen to stabilize the market.

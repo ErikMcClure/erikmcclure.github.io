@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-05-27T06:06:00Z"
 title = "The Religion Problem: Perspectives"
-date = 2011-05-27T06:06:00Z
-updated = 2011-05-27T19:41:39Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-05-27T19:41:39.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I view religion as a symptom of humanity's inability to operate as a rational agent. This statement will usually validate itself by being misinterpreted as an attack on religion, despite the statement itself simply stating that religion is irrational, not that it is a bad thing. Furthermore, we don't know if irrationality is inherently bad or worse than rationality, although humanity in general seems to prefer thinking of itself as rational despite repeatedly acting in completely irrational ways, usually [without knowing it](http://www.cracked.com/article_18847_6-things-you-wont-believe-can-brainwash-you-election-day.html).
 
 Almost everyone nowadays has grown up with the advice that everyone is special. Most kids figured out around junior high that if everyone is special, no one is special, and some get all depressed over it (like I did). This is logically inconsistent if one examines people in terms of their unique perspectives. Every person on earth has a wholly unique outlook on life, and this is why a crowd of people will often have at least one person who can quickly and intuitively answer a question that stumps the rest of them. Their unique perspective allows them to arrive at a conclusion much faster and more accurately than the others, and so it is this perspective that makes everyone unique. This is also why perspectives are *valuable*: the more diverse a collection of perspectives, the more likely that one of them will figure out the solution to a given problem. This is especially important to society at large, because society by definition must confront an endless stream of problems from every imaginable background, including some backgrounds we don't have names for yet. 

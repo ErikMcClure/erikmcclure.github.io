@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2010-12-28T22:05:00Z"
 title = "Aquaria Hints"
-date = 2010-12-28T22:05:00Z
-updated = 2011-01-22T03:35:05Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T03:35:05.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I don't care how you get it, go play Aquaria. The only 2D game that's better then Aquaria is Braid, and yet very few people have played or even heard of it. It's quite simply one of the most incredible masterpieces in game design, music and art that I have ever seen. If you don't like all the exploring, then use a walkthrough, but somehow, just play the game and beat it, preferably finding the secret ending.
 
 [Lost to the Waves - Aquaria OST](http://infiniteammo.bandcamp.com/track/lost-to-the-waves)

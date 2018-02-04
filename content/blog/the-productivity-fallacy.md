@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-01-18T17:12:00Z"
 title = "The Productivity Fallacy"
-date = 2013-01-18T17:12:00Z
-updated = 2013-01-18T17:37:50Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-01-18T17:37:50.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Technology tends to serve one of two purposes - to make us more efficient at some task, or to entertain us in our resulting free time. However, when we fixate on productivity to the exclusion of everything else, we often forget about the big picture. Perhaps the best example of this are people insisting that real coders need to use Vim to be productive due to it's unmatched text editing powers.
 
 This is totally absurd. I spend maybe 10% of my time actually writing code, 30% debugging that code, and the remaining 60% trying to solve a problem. Even if I could write all my code instantly, I have only improved my productivity by 10%. I've found that changing my code patterns to let me catch bugs faster and earlier has had a much more significant impact on my coding speed, because taking a chunk out of 30% has a much greater effect on my overall productivity.

@@ -1,15 +1,15 @@
 +++
-title = "Life Is A Series Of Incredibly Unlikely Coincidences  "
-date = 2013-08-09T23:16:00Z
-updated = 2013-08-09T23:16:49Z
+blogimport = true
+categories = ["blog"]
+date = "2013-08-09T23:16:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "Life Is A Series Of Incredibly Unlikely Coincidences  "
+updated = "2013-08-09T23:16:49.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*“We must let go of the life we have planned, so as to accept the one that is waiting for us.” — Joseph Campbell*{{%/blockquote%}}
 When I was 5 years old, I had a toy piano. This was the only musical instrument in the entire house. I quickly became obsessed with it and demanded that my parents give me piano lessons. Because of this, they bought an upright piano for me to practice on. It was through this upright piano my improvisational skills became apparent, and eventually led to me asking about how I could compose my own music instead of simply performing it. Unfortunately, in response, my teacher simply dumped a bunch of bland music theory books in front of me.
 

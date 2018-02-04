@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-04-10T17:48:00Z"
 title = "Language Wars Are Pointless"
-date = 2012-04-10T17:48:00Z
-updated = 2015-08-29T03:19:07Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2015-08-29T03:19:07.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Sometimes it really amazes me when anyone actually takes language wars seriously. If I casually mention "pointless language wars" and someone leaves a comment ignoring my entire blog post, informing me that language wars are not pointless, I seriously question their priorities (and possibly their sanity).
 
 {{%blockquote%}}*As a veteran language warrior, I resent the claim that my efforts are "pointless". There's a lot of terrible software out there, and one of the reasons for this is that inappropriate choices were made on the outset.*{{%/blockquote%}}

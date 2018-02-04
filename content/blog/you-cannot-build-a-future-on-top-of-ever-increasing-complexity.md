@@ -1,15 +1,15 @@
 +++
-title = "You Cannot Build A Future On Top Of Ever-Increasing Complexity"
-date = 2014-05-10T20:19:00Z
-updated = 2014-05-10T20:19:49Z
+blogimport = true
+categories = ["blog"]
+date = "2014-05-10T20:19:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "You Cannot Build A Future On Top Of Ever-Increasing Complexity"
+updated = "2014-05-10T20:19:49.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Programmers love quoting Knuth out of context. "Premature optimization is the root of all evil." The keyword there being *premature*, not *all*. Too often this is used as an excuse to forgo optimization in lieu of new features, creating an endless deluge of terribly optimized programs that only run acceptably well on a grossly overpowered machine.
 
 Another egregiously misused proverb is "don't re-invent the wheel." This is hammered into young programmers over and over until everyone is using massively over-engineered libraries to send cat pictures to each other. 

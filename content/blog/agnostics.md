@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2009-11-17T11:00:00Z"
 title = "Agnostics"
-date = 2009-11-17T11:00:00Z
-updated = 2011-01-22T04:32:15Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T04:32:15.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 The philosophical definitions of people's various stances on the existence of God:
 
 **Athiest**: There is no god.

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2016-11-14T21:57:00Z"
 title = "The Answer Is Not More Censorship, It's More Information"
-date = 2016-11-14T21:57:00Z
-updated = 2016-11-16T04:39:25Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2016-11-16T04:39:25.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 After being accused of censoring conservative news, Facebook [fired all it's human editors](http://arstechnica.com/business/2016/08/facebook-fires-human-editors-algorithm-immediately-posts-fake-news/), which was shortly followed by the algorithm being inundated with fake news. It now appears to be [regretting that choice](http://www.nytimes.com/2016/11/14/technology/facebook-is-said-to-question-its-influence-in-election.html) as it came under fire for potentially contributing to the rise of Trump.
 
 This is consistent with a disturbing trend in liberal media, which is to outright censor any speech that is considered even remotely hurtful. Predictably, the definition of "hurtful" speech has gotten wider and wider to the [point of absurdity](http://www.washingtontimes.com/news/2016/aug/1/ben-shapiro-banned-from-depaul-university-over-sec/), because *that's what happens when you censor things!* What kind perversion of progressivism is this? We're supposed to stand for freedom of information, intellectual free thought, and above all, *free speech*. There is a [difference between free speech and harassment](http://blackhole12.blogspot.com/2016/03/the-right-to-ignore-difference-between.html). You can ask people to be respectful when debating you, but you *cannot ask them to censor their opinions*, even if you find those opinions morally reprehensible. If someone wants to respectfully debate the morality of eating babies, you can't censor them for harassment because their only crime is holding an opinion that you disapprove of.

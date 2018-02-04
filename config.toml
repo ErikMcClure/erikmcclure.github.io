@@ -2,13 +2,13 @@ author = "Erik McClure"
 baseURL = "https://blackhole12.github.io/"
 copyright = "Erik McClure"
 defaultLayout = "post"
+disableKinds = ["taxonomy"]
 languageCode = "en-us"
 layoutDir = "layouts"
 paginate = 5
 paginatePath = "page"
 theme = "erikm"
 title = "Erik McClure"
-disableKinds = [ "taxonomy" ]
 [[menu.main]]
 identifier = "book"
 name = "Blog"

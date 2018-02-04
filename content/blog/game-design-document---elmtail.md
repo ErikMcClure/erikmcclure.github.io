@@ -1,15 +1,15 @@
 +++
-title = "Game Design Document - Elmtail"
-date = 2012-10-09T18:25:00Z
-updated = 2012-10-16T16:46:45Z
+blogimport = true
+categories = ["blog"]
+date = "2012-10-09T18:25:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "Game Design Document - Elmtail"
+updated = "2012-10-16T16:46:45.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Copyright ©2008 Erik McClure
 
 <div style="color: #EE0000; font-style:oblique;">This is an old game design idea I had from 2008. I have changed very little aside from spelling corrections. I've added comments in **red**; these are either clarifications or apologies for my terrible writing.</div>

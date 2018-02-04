@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2017-02-12T19:19:00Z"
 title = "Owlboy And The Tragedy of Human Nature"
-date = 2017-02-12T19:19:00Z
-updated = 2017-02-12T19:19:18Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2017-02-12T19:19:18.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 [Owlboy](http://www.owlboygame.com/) is a game developed by [D-Pad studios](http://www.dpadstudio.com/) over a protracted 9 year development cycle. Every aspect of the game is a work of art, meticulously pieced together with delicate care. While it has mostly gotten well-deserved positive reviews from critics, some people have voiced disappointment at the story arc and how the game was eventually resolved. Note: I'm about to talk about how the game ends, so an obligatory warning that there are **massive spoilers ahead**. If you haven't already played it, [go buy it, right now](http://store.steampowered.com/app/115800/).
 
 <hr>

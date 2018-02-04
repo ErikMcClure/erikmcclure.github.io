@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-06-22T22:29:00Z"
 title = "How Joysticks Ruined My Graphics Engine"
-date = 2012-06-22T22:29:00Z
-updated = 2013-05-10T01:59:52Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-05-10T01:59:52.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 It's almost a tradition. 
 
 Every time my graphics engine has been stuck in maintenence mode for 6 months, I'll suddenly realize I need to push out an update or implement some new feature. I then realize that I haven't actually paid attention to any of my testing programs, or their speed, in months. This is followed by panic, as I discover my engine running at half speed, or worse. Having made an infinite number of tiny tweaks that all could have caused the problem, I am often thrown into temporary despair only to almost immediately find some incredibly stupid mistake that was causing it. One time it was because I left the profiler on. Another time it was caused by calling the Render function twice. I'm gearing up to release the [first public beta](http://blackspherestudios.com) of my graphics engine, and this time is no different. 

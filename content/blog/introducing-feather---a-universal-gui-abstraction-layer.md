@@ -1,15 +1,15 @@
 +++
-title = "Introducing Feather - A Universal GUI Abstraction Layer"
-date = 2013-12-17T23:03:00Z
-updated = 2013-12-17T23:03:56Z
+blogimport = true
+categories = ["blog"]
+date = "2013-12-17T23:03:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "Introducing Feather - A Universal GUI Abstraction Layer"
+updated = "2013-12-17T23:03:56.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Implement for:
 Windows/Mac/Linux
 Games (SDL/LÖVE/PlaneShader/Ogre3D/irrlicht)

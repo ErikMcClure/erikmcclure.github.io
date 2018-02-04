@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-05-23T15:27:00Z"
 title = "IP Law Makes You an Asshole"
-date = 2012-05-23T15:27:00Z
-updated = 2012-05-23T15:27:07Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-05-23T15:27:07.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I haven't had a very good relationship with IP law. My 2 favorite childhood game franchises - Descent and Freespace, were thrown into IP limbo after Interplay shot itself in the foot too many times and finally fell over. As a result, I have come to utterly despise the common practice of publishers simply taking the IP of the developers for themselves, and in a more broad sense, forcing artists to give up their ownership on everything they make for a company. This becomes especially painful when they aren't just making silly UI art, but creating a universe filled with lore and character and spirit, only to watch corporate meddling turn their idea into a wretched, free-to-play money-grubbing disaster.
 
 What can the artist do? Exactly nothing. Under current IP law, the company usually owns all rights to everything the artist does for them, no matter what. If it doesn't, it's because the company screwed up its legal contracts, which is dangerous for both you and the company. There is essentially no middle ground. That means an artist can't sue the company for screwing up their idea, because it isn't their idea anymore. They can't take it to another studio or even work on their own idea without permission from the company. It makes about as much sense as a company saying they own the rights to your startup idea because you came up with it at work one day and wrote a prototype during break. That isn't just hypothetical, either, it's a [disturbingly common problem](http://www.iplawforstartups.com/analyzing-the-risk-will-my-current-employer-claim-rights-to-my-startups-ip/).

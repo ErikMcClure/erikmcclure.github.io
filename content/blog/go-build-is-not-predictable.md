@@ -1,15 +1,15 @@
 +++
-title = "Go Build Is Not Predictable"
-date = 2017-09-28T03:11:00Z
-updated = 2017-09-28T03:11:00Z
+blogimport = true
+categories = ["blog"]
+date = "2017-09-28T03:11:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "Go Build Is Not Predictable"
+updated = "2017-09-28T03:11:00.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Go is cross-platform in the sense that I can compile a Go program on both Windows and Linux without having to change any code. Of course, since the operating system is different, we can expect some behavioral changes, but if I compile a Go program on two different Linux boxes, both with the exact same operating system and exact same Go installation path and exact same Go environment variables, one would expect the Go compiler to behave *deterministically*, such that the resulting programs would be identical.
 
 This is not the case.

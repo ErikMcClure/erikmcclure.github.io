@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-06-08T01:09:00Z"
 title = "My Mom Had a Heart Attack"
-date = 2011-06-08T01:09:00Z
-updated = 2011-06-08T01:09:25Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-06-08T01:09:25.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 She is fine and will make a full recovery.
 
 About 3 weeks ago, on Thursday, May 19{{<sup>}}th{{</sup>}}, at approximately 6 PM, my mom went into ventricular fibrillation and collapsed while walking on a nearby trail. She was found by two walkers who called 911 and initiated CPR. After almost a half hour of CPR and 3 defibrillator attempts, she was stabilized and taken to the nearby hospital. She had no identification, so we didn't know about it until after 2 hours of failed searching, at which point my dad called the local hospital.

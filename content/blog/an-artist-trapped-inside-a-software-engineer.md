@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-08-19T04:32:00Z"
 title = "An Artist Trapped Inside A Software Engineer"
-date = 2012-08-19T04:32:00Z
-updated = 2012-08-19T12:37:32Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-08-19T12:37:32.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Almost a decade ago, I thought I wanted to make games. I began building a graphics engine for that purpose, since back then, there were almost no open-source 2D graphics engines using 3D acceleration. It wasn't until later that I discovered I liked building the graphics engine more than I liked building games.
 
 Times have changed, but I continue to tinker away on my graphics engine while going to college and learning just how dumb the rest of the world is. In the most recent bout of astonishing stupidity, my country has decided it doesn't recognize political asylum for people it doesn't like. It wasn't until reality had begun a full-scale assault on my creativity and imagination that I truly understood why artists feel compelled to lose themselves in their imaginations.

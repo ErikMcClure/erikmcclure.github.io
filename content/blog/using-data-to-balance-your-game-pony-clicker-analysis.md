@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2015-05-30T10:36:00Z"
 title = "Using Data To Balance Your Game: Pony Clicker Analysis"
-date = 2015-05-30T10:36:00Z
-updated = 2015-10-08T23:21:38Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2015-10-08T23:21:38.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*The only thing more addicting than heroine are numbers that keep getting larger.*{{%/blockquote%}}
 
 Incrementer and idle games are seemingly simplistic games where you wait or click to increase a counter, then use that counter to buy things to make the counter go up faster. Because of the compounding effects involved, these types of games inevitably turn into a study of growth rates and how different functions interact. [Cookie Clicker](http://orteil.dashnet.org/cookieclicker/) is perhaps the most well-known, which employs an exponential growth curve for the costs of buildings that looks like this:

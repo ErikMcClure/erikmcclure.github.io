@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-03-13T16:43:00Z"
 title = "Well That Was Interesting"
-date = 2012-03-13T16:43:00Z
-updated = 2012-03-13T16:44:10Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-03-13T16:44:10.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 So today I go to an orthodontist appointment at 11:30 AM, and its bright and sunny out, but fairly breezy. Several hours later I leave for a final exam for CSE 373 at the UW. Still nice and sunny out, but also still very breezy. We start the exam, and 40 minutes in, the power cuts out and we're put into pitch blackness. A few seconds later, I can hear a generator hum to life and the power is suddenly back on.
 
 {{%blockquote%}}*"Just so you know, if that happens again, I don't have a Plan B"* - My professor{{%/blockquote%}}

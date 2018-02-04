@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-12-02T18:34:00Z"
 title = "The Irrationality of Idiots"
-date = 2011-12-02T18:34:00Z
-updated = 2011-12-14T19:18:31Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-12-14T19:18:31.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*If Everyone Else is Such an Idiot, How Come You're Not Rich?* - Megan McArdle{{%/blockquote%}}
 
 I run around calling a whole lot of people and/or things stupid, dump, moronic, or some other variation of idiot. As the above quote exemplifies, saying such things tends to be a bit dangerous, since if everyone else *was* an idiot, you should be rich as hell. My snarky reaction to that, of course, would be that I'm not rich *yet* (and even then, "rich" in the sense of the quote is really just a metaphor for success, depending on how you define it for yourself), but in truth there are very specific reasons I call someone an idiot, and they don't necessarily involve actual intelligence. 

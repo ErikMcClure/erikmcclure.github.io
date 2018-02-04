@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-07-25T01:06:00Z"
 title = "Coordinate Systems And Cascading Stupidity"
-date = 2012-07-25T01:06:00Z
-updated = 2012-07-25T01:17:34Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-07-25T01:17:34.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Today I learned that there are way too many coordinate systems, and that I'm an idiot (but that was already well-established). I have also learned to not trust graphics tutorials, but the reasons for that won't become apparent until the end of this article.
 
 There are [two types of coordinate systems](http://en.wikipedia.org/wiki/Cartesian_coordinate_system#Orientation_and_handedness): left-handed and right-handed coordinate systems. By convention, most everyone in math and science uses right-handed coordinate systems with positive x going to the right, positive y going up, and positive z coming out of the screen. A left-handed coordinate system is the same, but positive z instead points into the screen. Of course, there are many other possible coordinate system configurations, each either being right or left-handed; some modern CAD packages have y pointing into the screen and z pointing up, and screen-space in graphics traditionally has y pointing down and z pointing into the screen. 

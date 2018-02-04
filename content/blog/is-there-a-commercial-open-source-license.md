@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2015-03-16T03:25:00Z"
 title = "Is There A Commercial Open Source License?"
-date = 2015-03-16T03:25:00Z
-updated = 2015-03-16T03:44:58Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2015-03-16T03:44:58.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*"Any headline that ends in a question mark can be answered by the word 'No'."* - Davis' law{{%/blockquote%}}
 
 Putting *Commercial* and *Open-Source* together is often considered an oxymoron. Part of this is caused by constant confusion between the terms Open-Source and Free Software, which is made even worse by people who have more liberal interpretations of the phrase "Open-Source". In many cases, keeping the source code of a product proprietary serves no other purpose than to prevent people from stealing the product. Putting an application under the GPL and selling it is perfectly reasonable for software aimed at end-users, whom are unlikely to know how to compile the freely available source. Libraries aimed at developers, however, usually must resort to [Dual Licensing](http://en.wikipedia.org/wiki/Multi-licensing).

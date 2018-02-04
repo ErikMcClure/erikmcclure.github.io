@@ -1,15 +1,15 @@
 +++
-title = "A Wrinkle In Time For Millenials"
-date = 2017-12-24T11:39:00Z
-updated = 2017-12-24T11:39:23Z
+blogimport = true
+categories = ["blog"]
+date = "2017-12-24T11:39:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "A Wrinkle In Time For Millenials"
+updated = "2017-12-24T11:39:23.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}Ἄελπον οὐδὲν, πάντα δ’ ἐλπίζειν χρωεῖ. Euripedes. Nothing is hopeless; we must hope for everything.
  — *Mrs. Who*{{%/blockquote%}}
 

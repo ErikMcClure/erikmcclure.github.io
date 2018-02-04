@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-12-02T17:45:00Z"
 title = "Tile-Based Discrete Wavefront Propagation "
-date = 2013-12-02T17:45:00Z
-updated = 2013-12-02T22:59:43Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-12-02T22:59:43.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I'm currently building a very simplistic first-person shooter in WebGL. An example of this algorithm, with the debug code left in, [is available here](https://dl.dropboxusercontent.com/u/755994/s4game/s4game.htm). The map is represented by a grid - a cell is solid if its 0, and empty if its 1. This is trivial to render by using a standard recursive [4-direction flood fill algorithm](http://en.wikipedia.org/wiki/Flood_fill). Unfortunately, we can't simply render the entire level if our rooms contain high levels of detail or many objects, because we'll overload the GPU.
 
 Frustum culling is the obvious answer, but I need it to be highly efficient. This means adjusting the frustum to account for corners, so I only render the visible portions of the level. While a lot of the speed concerns I currently have can be alleviated using batch rendering, this will stop working the instant I put in details that can't be batch rendered. Consequently, I want the algorithm to be as close to perfect as possible, only rendering rooms that are visible and no others.

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-01-21T16:20:00Z"
 title = "Dreams Are Worth Fighting For"
-date = 2013-01-21T16:20:00Z
-updated = 2013-01-21T16:20:33Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-01-21T16:20:33.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 While I have never been suicidal, I've had to deal with suicidal friends more than I'd like. The hardest thing in the world is to get suicidal people to understand that, contrary to their entire life's experience, and contrary to every shred of evidence they have, things will get better. Eventually, they will have an experience they could never have imagined, they just have to hold on long enough. Sometimes it feels like our dreams are on the brink of suicide for similar reasons, and we must also convince ourselves that we just need to hold on to them for a little while longer.
 
 The death of Aaron Swartz affected me deeply even though I honestly didn't know who he was until he died. Unlike what many people seem to be writing about on Hacker News, however, it was not because he was some kind of brilliant programmer (although he clearly was), it was because he was fighting for many of the same things I am fighting for. We were both disillusioned about the massive corruption that underlies modern society, and we can both be considered idealists. That Aaron's dreams were so oppressed that he took his own life is deeply disturbing to me.

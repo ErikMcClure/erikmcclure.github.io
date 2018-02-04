@@ -2,9 +2,9 @@
 categories = ""
 date = "2016-09-12T00:00:00Z"
 description = "Erik McClure on the web"
+layout = "web"
 tags = ""
 title = "Websites"
-layout = "web"
 type = "page"
 
 +++

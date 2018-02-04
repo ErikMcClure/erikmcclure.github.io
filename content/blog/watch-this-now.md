@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2010-01-07T23:49:00Z"
 title = "Watch This Now"
-date = 2010-01-07T23:49:00Z
-updated = 2011-01-22T04:19:19Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T04:19:19.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 The following movie was made, in its entirety, by a single person. It is entirely CGI, and if you don't believe me, check out the [compositing breakdown](http://www.deviantart.com/users/outgoing?http://vimeo.com/8200251).
 
 <lj-embed id="6">

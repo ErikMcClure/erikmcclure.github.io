@@ -1,15 +1,15 @@
 +++
-title = "In A Lawsuit Against Google, Both Sides Could Be Wrong"
-date = 2018-01-10T12:51:00Z
-updated = 2018-01-10T12:51:08Z
+blogimport = true
+categories = ["blog"]
+date = "2018-01-10T12:51:00Z"
 draft = true
-blogimport = true 
-categories = [ "blog" ]
+title = "In A Lawsuit Against Google, Both Sides Could Be Wrong"
+updated = "2018-01-10T12:51:08.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 The [lawsuit against Google](https://www.scribd.com/document/368689407/Damore-vs-Google-Class-Action-Lawsuit#fullscreen&from_embed) is now available for public viewing, and while most of it is predictable nonsense, some of the evidence presented is very disturbing. Most people focus on the inherent absurdity of someone complaining that they are being oppressed because they want to oppress people. This is a level of mental gymnastics that is either breathtaking or horrifying. However, by riding this moral high horse into the sunset, they are glazing over some awfully concerning details:
 
  * "Not only was the numerical presence of women celebrated at Google solely due to their gender, but the presence of Caucasians and males was mocked with “boos” during company-wide weekly meetings."

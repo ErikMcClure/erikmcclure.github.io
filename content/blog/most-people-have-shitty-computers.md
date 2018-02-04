@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-09-02T21:29:00Z"
 title = "Most People Have Shitty Computers"
-date = 2013-09-02T21:29:00Z
-updated = 2013-09-03T16:54:53Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-09-03T16:54:53.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*Premature optimization is the root of all evil* - Donald Knuth{{%/blockquote%}}
 
 Ever since I started putting words on the internet, I have complained about the misinterpretation and overgeneralization of this Donald Knuth quote. Developers essentially use it as an excuse to never optimize anything, because they can always say they "aren't done yet" and then permanently render all optimizations as premature. The fact that "premature" is inherently a subjective term doesn't help. The quote was meant to target very low-level optimizations that are largely useless until you're positive everything else is working properly and you have no other low-hanging fruit to optimize.

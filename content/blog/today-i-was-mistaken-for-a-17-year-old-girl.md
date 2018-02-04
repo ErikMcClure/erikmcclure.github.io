@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-10-21T20:41:00Z"
 title = "Today I Was Mistaken For A 17-Year-Old Girl"
-date = 2012-10-21T20:41:00Z
-updated = 2012-10-21T20:41:05Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-10-21T20:41:05.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 This is what they had to say about me:
 <img src="http://imageshack.us/a/img100/2469/mysogany.png" alt="Crazy Misogynist Idiot" />
 This was in response to [an article](http://imperfectwriting.tumblr.com/post/33933007179/i-went-to-the-mall-and-a-little-girl-called-me-a) I posted [on reddit](http://www.reddit.com/r/politics/comments/11tqt5/i_went_to_the_mall_and_a_little_girl_called_me_a/) about a 17-year-old american girl who put on a hijab and went to a mall for 2 hours. She describes being completely ignored by everyone, save for a 4 year old girl who asked if she was a terrorist. All because she wore a scarf on her head.

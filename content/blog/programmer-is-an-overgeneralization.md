@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-02-05T20:59:00Z"
 title = "'Programmer' is an Overgeneralization"
-date = 2012-02-05T20:59:00Z
-updated = 2012-02-06T05:21:33Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-02-06T05:21:33.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*"Beware of bugs in the above code; I have only proved it correct, not tried it."* - Donald Knuth{{%/blockquote%}}
 
 Earlier today, I came across a post during a *google-fu* session that claimed that no one should use the C++ standard library function {{<code>}}make_heap{{</code>}}, because almost nobody uses it correctly. I immediately started mentally ranting about how utterly ridiculous this claim is, because anyone whose gone to a basic algorithm class would know how to properly use {{<code>}}make_heap{{</code>}}. Then I started thinking about all the programmers who *don't* know what a heap is, and furthermore probably don't even need to know. 

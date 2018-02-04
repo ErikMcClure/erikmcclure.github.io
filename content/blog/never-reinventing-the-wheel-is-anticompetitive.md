@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2014-11-22T00:15:00Z"
 title = "Never Reinventing The Wheel Is Anticompetitive "
-date = 2014-11-22T00:15:00Z
-updated = 2014-11-22T12:39:24Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2014-11-22T12:39:24.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*Reality is that which, when you stop believing in it, doesn't go away.*
  ― Philip K. Dick{{%/blockquote%}}
 

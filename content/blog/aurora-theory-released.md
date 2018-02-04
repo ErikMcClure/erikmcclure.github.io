@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2013-07-11T19:27:00Z"
 title = "Aurora Theory Released!"
-date = 2013-07-11T19:27:00Z
-updated = 2013-07-12T00:48:20Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2013-07-12T00:48:20.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Aurora Theory has been released! Buy it on [bandcamp](http://erikmcclure.bandcamp.com/album/aurora-theory) for $9, or $10 on [iTunes](https://itunes.apple.com/us/album/id672763525), [Amazon](http://www.amazon.com/gp/product/B00DVS2EDO/), and [Google Play](https://play.google.com/store/music/album/Erik_McClure_Aurora_Theory?id=Bcsjkg4chdqymqrpsxagjxvkm2i). The album is also available on Spotify, last.fm, other online radios, and can be previewed on [YouTube](http://www.youtube.com/watch?v=qD5zdsIOkqQ&list=PLo4BIkE52kLTO0Hh9ROqJUXy9OdtT5-rT).
 
 Aurora Theory has been 4 years in the making, a compilation of all the songs I managed to make in the middle of attending university. The earlier songs have been extensively improved, and all songs have been remastered for the album's release. This album represents nothing less than the highest quality work I can possibly manage at this point in my career. I've acquired a fair number of fans over the years, and I want to thank you for supporting my musical endeavors so far.

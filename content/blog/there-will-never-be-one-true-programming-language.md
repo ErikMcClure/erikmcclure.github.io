@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2015-09-28T03:07:00Z"
 title = "There Will Never Be One True Programming Language"
-date = 2015-09-28T03:07:00Z
-updated = 2015-09-28T05:13:08Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2015-09-28T05:13:08.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 A disturbing number of otherwise intelligent programmers seem to believe that, one day in the distant future, everyone will use the same magical programming language that solves everyone's problems at the same time. Often, this involves garbage collection, with lots of hand-waving about computers built with [Applied Phlebotinum](http://tvtropes.org/pmwiki/pmwiki.php/Main/AppliedPhlebotinum).
 
 For the sake of argument, let's assume it is the year 30XX, and we are a budding software developer on Mars. We have quantum computers that run on magic pixie dust and let us calculate almost anything we want as fast as we want so long as we don't break any laws of physics. Does everyone use the same programming language?

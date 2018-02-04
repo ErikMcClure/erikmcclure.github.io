@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2011-04-23T20:16:00Z"
 title = "Console vs PC War Makes No Sense"
-date = 2011-04-23T20:16:00Z
-updated = 2011-04-23T20:28:29Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-04-23T20:28:29.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 I'm a software engineer. Specifically, my specialty is writing all the code that makes games work. Every time I see someone say "I'm a console gamer" or "I'm a PC gamer" I want to punch them in the face.
 
 **THERE IS NO DIFFERENCE BETWEEN A CONSOLE AND A PC**.

@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2010-08-10T07:58:00Z"
 title = "8-bit color cycling"
-date = 2010-08-10T07:58:00Z
-updated = 2011-01-22T03:53:04Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T03:53:04.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Someone linked me to this awesome webpage that uses HTML5 to do 8-bit palette color cycling using Mark Ferrari's technique and art. I immediately wanted to implement it in my graphics engine, but soon realized that the technique is so damn old that no modern graphics card supports it anymore. So, I have come up with a pixel shader that creates the same functionality, either by having one image with an alpha channel containing the palette indices and a separate texture acting as the palette, or you can combine them into a single image. This is supposed to support variable palette sizes (up to 256) but I haven't had much ability to test the thing because its so damn hard to get the images formatted correctly. So while all of these variations i'm about to show you should work there is no guarantee they necessarily will.
 
 Video Link

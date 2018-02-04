@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-03-10T13:36:00Z"
 title = "Success Is Not What You Think It Is"
-date = 2012-03-10T13:36:00Z
-updated = 2012-03-10T13:40:54Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-03-10T13:40:54.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*"Successful people seem to have a long history of building bigger successes on top of smaller successes. In other words,  successful people are successful."* - [Daniel Tenner](http://swombat.com/2012/3/10/successful-people){{%/blockquote%}}
 
 The above quote has a lot more truth in it than I really want to admit. I strive to be a successful person, but I simply cannot escape the fact that I have to build all my successes on top of smaller successes, and why, while I continue to strive for what some would consider absurdly ambitious goals, I end up inserting more and more steps between each one. Sometimes I'm productive, and sometimes I'm not. Sometimes I feel like I could take on the world, and sometimes I curl into a fetal position. Some people wonder why I try so hard, and I wonder how those people *couldn't* try so hard - but there is always a catch.

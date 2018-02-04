@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2010-05-08T00:48:00Z"
 title = "Most Bizarre Error Ever"
-date = 2010-05-08T00:48:00Z
-updated = 2011-01-22T04:08:24Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2011-01-22T04:08:24.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 Ok probably not the most bizarre error *ever* but it's definitely the weirdest for me.
 
 My graphics engine has a Debug, a Release, and a special Release STD version that's compatible with CLI function requirements and other dependencies. These are organized as 3 separate configurations in my solution for compiling. Pretty normal stuff.

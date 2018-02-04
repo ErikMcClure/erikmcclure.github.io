@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2014-07-06T01:36:00Z"
 title = "I Don't Care Anymore"
-date = 2014-07-06T01:36:00Z
-updated = 2014-07-06T11:56:33Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2014-07-06T11:56:33.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 This weekend, I went to a convention and bought a ton of stuff. This was unusual for me, because I am not normally someone who invests in materialism. Having a lot of stuff is not something that is important to me. Two things changed this year: I now have an obscene amount of disposable income, and I stopped caring about what other people think is important, because they don't care about what I think is important.
 
 Respect is, inherently, a two-way street. When we are talking about things that are inherently *subjective*, like what kind of food I enjoy eating, or what books I like to read, I will not respect your opinion if you refuse to respect mine. There is absolutely no reason for me to care about what you think if you don't care about what I think. On the flipside, if you respect my opinion, but disagree with me, I will also respect your opinion, even if I disagree with it.

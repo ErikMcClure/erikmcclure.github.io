@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2012-05-26T05:56:00Z"
 title = "Properly Dreaming About Success"
-date = 2012-05-26T05:56:00Z
-updated = 2012-05-26T05:58:14Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2012-05-26T05:58:14.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 {{%blockquote%}}*"We are what and where we are because we have first imagined it."* - Donald Curtis{{%/blockquote%}}
 
 The wisdom of antiquity suggests that we must first imagine what we want to achieve if we are ever to succeed, but [science has other ideas](http://www.forbes.com/sites/daviddisalvo/2011/06/08/visualize-success-if-you-want-to-fail/). A study demonstrated that visualizing yourself reaching a goal tricks your brain into thinking you actually did it, causing a relaxation response, which in turn robs you of ambition and energy.

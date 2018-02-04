@@ -1,14 +1,14 @@
 +++
+blogimport = true
+categories = ["blog"]
+date = "2015-08-05T01:55:00Z"
 title = "Abortion Has No Moral High Ground"
-date = 2015-08-05T01:55:00Z
-updated = 2015-08-05T02:52:35Z
-blogimport = true 
-categories = [ "blog" ]
+updated = "2015-08-05T02:52:35.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://plus.google.com/104896885003230920472"
-+++
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
 
++++
 June 26, 2015 was a historic moment. That was the day the Supreme Court legalized gay marriage on a federal level in the United States. As far as I'm concerned, this victory was the inevitable result of a point of view that relied entirely on logical fallacies and irrational hatred. Yet, it was a battle that was fought for *centuries*, and continues on, as obstinate conservatives vow to continue fighting to the bitter end. The fact that gay rights was ever a political issue will be considered barbaric by future civilizations, because being gay is inherently harmless, and attempting to control who people are allowed to love is an egregious violation of individual rights.
 
 It was this innate emotional connection that won the battle. Every human being on this planet can empathize with the desire to love freely. We were united in our desire for love to win, just like it does in all of our fairy tales.
