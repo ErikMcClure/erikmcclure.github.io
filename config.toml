@@ -1,4 +1,3 @@
-author = "Erik McClure"
 baseURL = "https://blackhole12.github.io/"
 copyright = "Erik McClure"
 defaultLayout = "post"
@@ -9,6 +8,10 @@ paginate = 5
 paginatePath = "page"
 theme = "erikm"
 title = "Erik McClure"
+[author]
+name = "Erik McClure"
+uri = "https://plus.google.com/104896885003230920472"
+
 [[menu.main]]
 identifier = "book"
 name = "Blog"
