@@ -1,0 +1,18 @@
+  <section class="archive">
+    <article>
+    <img src="{{ .Site.BaseURL }}{{ .Site.Params.image }}" alt="Avatar" />
+    <h2>Archive</h2>
+    <ol>
+      {{ range (.Site.Taxonomies.categories.blog.Pages.GroupByDate "2006") }}
+      <li>
+        <details>
+          <summary>{{.Key}}</summary>
+          <ul>
+          {{ range .Pages }}
+            <li><a href="{{ .URL }}">{{ .Title }}</a></li>{{end}}
+          </ul>
+        </details>
+      </li>{{end}}
+    </ol>
+    </article>
+  </section>

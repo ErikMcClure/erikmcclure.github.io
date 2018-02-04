@@ -1,0 +1,313 @@
+<!doctype html>
+<html>
+<head>
+<title>Pony Typewriter</title>
+<style>
+#horse0 {
+  width:70px;
+  height:42px;
+  background:#f00;
+  position:absolute;
+  Left:60px;
+  Top:270px;
+  cursor:pointer;
+}
+#horse1 {
+  width:75px;
+  height:42px;
+  background:#00f;
+  position:absolute;
+  Left:140px;
+  Top:290px;
+  cursor:pointer;
+}
+.horsewrap {
+  width:300px;
+  text-align:center;
+  height:3em;
+}
+.harmony {
+  width:1024px;
+  margin:0 auto;
+  position:relative;
+}
+.thecane {
+float:right;
+width:664px;
+overflow:hidden;
+height:30em;
+position:relative;
+}
+#horsetree {
+  position:absolute;
+  overflow:visible;
+  transition: left 0.35s, top 0.35s;
+  -webkit-transition: left 0.35s, top 0.35s;
+}
+#horsemove {
+  position:absolute;
+  Left:300px;
+  Top:150px;
+  overflow:visible;
+}
+#horsetree div {
+  font-size:70%;
+  padding: 3px;
+  font-weight: 800;
+  /*border: 1px #000 solid;*/
+  display: inline-block;
+  position:absolute;
+  text-align: center;
+}
+#horsetree div b {
+  font-size:150%;
+}
+.line {
+  margin:0;
+  padding:0;
+  line-height:0;
+  width:100px;
+  height:1px;
+  position:absolute;
+  background:#aaa;
+  z-index:-10;
+  transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  transform: rotate(0deg);
+  -webkit-transform:rotate(0deg);
+  -moz-transform:rotate(0deg);
+}
+#treeinput {
+  position:absolute;
+  Left:500px;
+  Top: 550px;
+  display:inline-block;
+}
+</style>
+</head>
+<body>
+<div class="harmony">
+<div style="text-align:center;"><h1>Pony Typewriter</h1></div>
+<div class="thecane">
+<div id="horsemove">
+<div id="horsetree"></div>
+</div>
+</div>
+<form id="treeinput" action="javascript:evalinput()"><input id="treetext" type="text" value="e:12.702,t:9.056,a:8.167,o:7.507,i:6.9662,n:6.749,s:6.327,h:6.094,r:5.987,d:4.253,l:4.025,c:2.782,u:2.758,m:2.406,w:2.360,f:2.228,g:2.015,y:1.974,p:1.929,b:1.492,v:0.978,k:0.772,j:0.153,x:0.150,q:0.095,z:0.074"/><input type="submit" value="Build Tree"/></form>
+<div class="horsewrap"><h2 id="horsecode"></h2></div>
+<img src="http://i.imgur.com/Ca8MGzr.png" alt="Pony Typewriter" usemap="#ponymap"/>
+<map name="ponymap">
+<area shape="rect" coords="60,160,126,202" href="javascript:pushbutton(0);" alt="0">
+<area shape="rect" coords="140,180,214,222" href="javascript:pushbutton(1);" alt="1">
+<area shape="poly" coords="58,204,188,239,188,248,177,254,49,212," href="javascript:addspace();" alt="space">
+</map>
+<!--<div id="horse0" onclick="pushbutton(0);" onmousedown="swapbutton(0,false);" onmouseup="swapbutton(0,true);"></div>
+<div id="horse1" onclick="pushbutton(1);" onmousedown="swapbutton(1,false);" onmouseup="swapbutton(1,true);"></div>-->
+<br/><textarea id="horsewords" rows="7" cols="41"></textarea>
+<p style="padding: 0 10em;">In My Little Pony: Friendship Is Magic, the ponies are depicted using typewriters with only two buttons and a spacebar. While this is likely poking fun at the fact that ponies have no fingers to work with, a two-button typewriter is surprisingly functional. This example demonstrates how ponies could type reasonably efficiently by encoding their alphabet with a <a href="http://en.wikipedia.org/wiki/Huffman_coding">huffman tree</a>. The left button is 0, and the right button is 1. You can either push the keys on the typewriter (including the spacebar), or you can press the <b>F</b> key for 0, the <b>J</b> key for 1, and the <b>Spacebar</b> for 'space'. You can even build your own <del>huffman</del> hoofpony tree.
+</div>
+<script type="text/javascript">
+Array.prototype.swap = function (x,y) {
+  var b = this[x];
+  this[x] = this[y];
+  this[y] = b;
+  return this;
+}
+function realmod(i,m) { i=(i%m); return i+((i<0)*m); } // Mathematically correct modulo
+function Queue(sz) { // Circular array queue
+  this.array = new Array(!sz?1:sz);
+  this.cur=-1;
+  this.length=0;
+  this.push = function() {
+    for (var i = 0; i < arguments.length; i++) {
+      if(this.length>=this.array.length) {
+        this.resize(this.array.length*2);
+      }
+      this.cur=((this.cur+1)%this.array.length);
+      this.array[this.cur] = arguments[i];
+      this.length += 1;
+    }
+  }
+  this.pop = function() { return this.get(--this.length); }
+  this.peek = function() { return !this.length?null:this.get(this.length-1); }
+  this.get = function(i) { return this.array[this.modindex(i)]; }
+  this.clear = function() { this.cur=-1; this.length=0; }
+  this.resize = function(nsize) { 
+    var sz=this.array.length;
+    var c = this.cur+1;
+    this.array.length=nsize;
+    for(var i=sz-c; (i--)>0;) {
+      this.array[c+nsize-sz+i]=this.array[c+i];
+    }
+  }
+  this.modindex = function(i) { return realmod(this.cur-i,this.array.length); }
+}
+function swapbutton(b,up) {
+  var button = document.getElementById('horse'+b);
+  if(up) {
+    button.style.backgroundColor = '#000';
+  } else {
+    button.style.backgroundColor = '#fff';
+  }
+}
+function picklower(a,b) {
+  if(!a) return b;
+  if(!b) return a;
+  if(a[2]<b[2]) return a;
+  return b;
+}
+function partition(array, l, r, pivot, f) {
+  var value = array[pivot]
+  array.swap(pivot,r);
+  var index = l;
+  for(var i=l; i < r; ++i) {
+    if(f(array[i],value)<=0) {
+      array.swap(i,index++);
+    }
+  }
+  array.swap(index,r);
+  return index;
+}
+function quicksort(array, l, r, f) {
+  if(l >= r) return;
+  var pivot = l + (~~((r-l)/2));
+  var newpivot = partition(array, l, r, pivot, f);
+  quicksort(array, l, newpivot - 1, f)
+  quicksort(array, newpivot + 1, r, f)
+}
+function buildhoofpony(freqs) { // this is probably amazingly inefficient, but for our purposes, it doesn't matter.
+  var q1 = new Queue();
+  var q2 = new Queue();
+  for(var e in freqs) {
+    q1.push([null, e, freqs[e]]);
+  }
+  quicksort(q1.array, 0, q1.length-1, function(l,r) { return (l[2]>r[2]) - (l[2]<r[2]); });
+  
+  var func = function() { var r=picklower(q1.peek(),q2.peek()); if(r===q1.peek()) { return q1.pop(); } return q2.pop(); }
+  while(q1.length + q2.length > 1) {
+    var r1 = func();
+    var r2 = func();
+    q2.push([r1, r2, r1[2]+r2[2]]);
+  }
+  return q2.pop();
+}
+var TREE_WIDTH=150;
+var TREE_HEIGHT=35;
+var TREE_MIN=7;
+
+function createline(x,y,width,t,name) {
+  var line = document.createElement('p');
+  line.className='line';
+  line.id=name;
+  var length = Math.sqrt(width*width + TREE_HEIGHT*TREE_HEIGHT); //Pegasorean Theorem hur hur hur
+  line.style.width = length + 'px';
+  line.style.left = x + 'px';
+  line.style.top = y + 'px';
+  var angle = Math.atan2(TREE_HEIGHT,width);
+  line.style.webkitTransform='rotate('+angle+'rad)';
+  line.style.MozTransform='rotate('+angle+'rad)';
+  t.appendChild(line);
+}
+function rendertree(r,s,t) {
+  var q = new Queue();
+  q.push(r,s,t,0,0,0,0,0);
+  var l=-1;
+  var x=-9999;
+  var y=0;
+  var lx=0;
+  var ly=0;
+  var xoffset=0;
+  while(q.length>0) {
+    r=q.pop();
+    s=q.pop();
+    t=q.pop();
+    var tx = q.pop();
+    y=q.pop();
+    x=(l==q.peek() && ((tx-x)< TREE_MIN*q.peek()))?(x+TREE_MIN*q.peek()):tx;
+    l=q.pop();
+    lx=q.pop();
+    ly=q.pop();
+    x+=xoffset;
+    var iDiv = document.createElement('div');
+    iDiv.innerHTML = (s==='')?'(start)':s;
+    iDiv.style.left = String(x) + 'px';
+    iDiv.style.top = String(y) + 'px';
+    iDiv.id=(s==='')?'(start)':s;
+    t.appendChild(iDiv);
+    if(r[0]===null) {
+      iDiv.innerHTML += '<br/><b>' + r[1] + '</b>';
+    } else {
+      var dx = TREE_WIDTH/Math.pow(2,l);
+      q.push(r[0],s+'0',t,x-dx,y+TREE_HEIGHT,l+1,x,y);
+      q.push(r[1],s+'1',t,x+dx,y+TREE_HEIGHT,l+1,x,y);
+    }
+    var dx3 = (6*l)/2;
+    if(s) { createline(lx+dx3,ly,x-lx+3,t,s+'l'); }
+  }
+}
+
+var freqdefs = { e:12.702,t:9.056,a:8.167,o:7.507,i:6.9662,n:6.749,s:6.327,h:6.094,r:5.987,d:4.253,l:4.025,c:2.782,u:2.758,m:2.406,w:2.360,f:2.228,g:2.015,y:1.974,p:1.929,b:1.492,v:0.978,k:0.772,j:0.153,x:0.150,q:0.095,z:0.074 };
+var root=null;
+var cur=null;
+
+function evalinput() {
+  eval('freqdefs = { '+document.getElementById('treetext').value+'};');
+  root = buildhoofpony(freqdefs);
+  cur = root;
+  var t= document.getElementById('horsetree');
+  while(t.childNodes.length>0) {
+    t.removeChild(t.childNodes[0]);
+  }
+  t.style.left=0;
+  t.style.top=0;
+  rendertree(root,'',t);
+  document.getElementById('horsecode').innerHTML='';
+}
+
+function pushbutton(b) {
+  var code = document.getElementById('horsecode');
+  code.innerHTML += String(b);
+  cur=cur[b];
+  if(cur[0]===null) { //reached leaf so output letter
+    document.getElementById('horsewords').value += cur[1];
+    cur=root;
+    for(var i=code.innerHTML.length; i>0; --i) {
+      var s = code.innerHTML.slice(0,i);
+      document.getElementById(s).style.color="#000";
+      document.getElementById(s+'l').style.backgroundColor="#aaa";
+    }
+    code.innerHTML = '';
+  }
+  var r = document.getElementById('horsetree');
+  var t = document.getElementById((code.innerHTML==='')?'(start)':code.innerHTML);
+  r.style.left=String(-Number(t.style.left.slice(0,t.style.left.length-2)))+'px';
+  r.style.top=String(-Number(t.style.top.slice(0,t.style.top.length-2)))+'px';
+  t.style.color="#f00";
+  t=document.getElementById(code.innerHTML+'l');
+  if(t) { t.style.backgroundColor='#f77'; }
+}
+function addspace() {
+  document.getElementById('horsewords').value += ' ';
+}
+
+
+window.onkeydown=function(e) {
+  switch(e.keyCode)
+  {
+    case 70: // F
+      pushbutton(0);
+      break;
+    case 74: // J
+      pushbutton(1);
+      break;
+    case 32: // Space
+      addspace();
+      break;
+  }
+};
+evalinput();
+
+</script>
+</body>
+</html>

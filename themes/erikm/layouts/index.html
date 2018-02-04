@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+{{ partial "nav.html" . }}
+<main class="projects">
+  {{ range first 1 .Site.Taxonomies.categories.blog }}
+  <section>
+  <aside><h2><a href="/blog/">Latest Post</a></h2>
+  <img src="{{ .Site.BaseURL }}{{ .Site.Params.image }}" width="140" alt="" style="padding-bottom:0.75em"/>
+  </aside>
+  <article><h5><a href="{{ .URL }}">{{ .Title }}</a></h5>
+  {{ .Summary }}
+  <hr/>
+  <time><i class="fa fa-clock-o fa-fw"></i> Published on {{.Date.Format "January 2, 2006 at 3:04pm"}}</time></article>
+</section>
+  {{ end }}
+  {{ partial "projects.html" .Site.Taxonomies.categories.project }}
+</main>
+{{ partial "foot.html" . }}

@@ -1,0 +1,1 @@
+<span {{ if len .Params | eq 0 }}{{else}}{{ if isset .Params "style"}}style="{{ index .Params "style" | safeCSS }}"{{ end }} {{ if isset .Params "class"}}class="{{ index .Params "class" | safeHTMLAttr }}"{{ end }}{{ end }}>{{.Inner}}</span>
