@@ -317,6 +317,7 @@ main.blog section article aside {
   display: inline-block;
   color: #666564;
   margin: 1px 0 0 1.75em;
+  user-select: none;
 }
 main.blog section article i, main.blog section article em {
   font-style: italic;
