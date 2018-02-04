@@ -11,7 +11,6 @@ title = "Erik McClure"
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"
-
 [[menu.main]]
 identifier = "book"
 name = "Blog"
