@@ -479,6 +479,9 @@ footer a:visited, footer a:active {
 footer a:hover {
   color: #58b;
 }
+footer span:after {
+  content: ' |';
+}
 
 @media (max-width: 2802px) {
   html {
@@ -523,12 +526,16 @@ main.blog section.archive {
 }
 }
 @media (max-width: 650px) {
-main.projects section {
+main.projects .dim {
   display: block;
+}
+main.projects section aside h2 {
+  margin-top: 0.7rem;
 }
 main.projects section aside {
   border-right: 0;
   border-bottom: 1px solid #a0a5a9;
+  padding-top: 1px;
 }
 main.projects section article {
   border-left: 0;
@@ -551,6 +558,18 @@ nav ul li a {
   width: 100%;
 }
 main.blog section article time, main.blog section article aside {
-  margin-left: 0.25em;
+  margin-left: 0.75rem;
+}
+html, header, main.projects section, .links section {
+  background-position: top left;
+}
+footer span {
+  display: block;
+}
+footer span:after {
+  content: '';
+}
+main.blog section article .padding {
+  margin: 0 0.75rem 0 1rem;
 }
 }
