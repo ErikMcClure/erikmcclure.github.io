@@ -1,4 +1,4 @@
-baseURL = "https://blackhole12.github.io/"
+baseURL = "https://blackhole12.com/"
 copyright = "Erik McClure"
 defaultLayout = "post"
 disableKinds = ["taxonomy"]
