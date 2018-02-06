@@ -2,7 +2,7 @@ id = "8452847457571448250"
 date = 2013-02-11T10:00:22Z
 updated = 2013-02-11T10:00:22Z
 title = "I second that idea for the IRC, that would be fun...."
-content = "I second that idea for the IRC, that would be fun."
+content = '''I second that idea for the IRC, that would be fun.'''
 reply = 7281947955190631357
 [author]
 	name = "Vic Goldfeld"

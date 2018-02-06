@@ -2,7 +2,7 @@ id = "4751794893729442214"
 date = 2013-02-11T01:59:40Z
 updated = 2013-02-11T01:59:40Z
 title = "Remember, part of what i&#39;m building IS the whe..."
-content = "Remember, part of what i&#39;m building IS the wheel. In many cases, the end product is the wheel itself. The problem is that it&#39;s hard to sell a wheel without a bike, which is my current predicament. While I am aware of how unusual this is, I do not once think building my own tools is a mistake. The question is whether or not I can build a wheel that works well enough, fast enough for me to make a bike that pays my rent."
+content = '''Remember, part of what i&#39;m building IS the wheel. In many cases, the end product is the wheel itself. The problem is that it&#39;s hard to sell a wheel without a bike, which is my current predicament. While I am aware of how unusual this is, I do not once think building my own tools is a mistake. The question is whether or not I can build a wheel that works well enough, fast enough for me to make a bike that pays my rent.'''
 reply = 4083210107918969214
 [author]
 	name = "Erik McClure"

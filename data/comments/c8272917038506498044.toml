@@ -2,7 +2,7 @@ id = "8272917038506498044"
 date = 2013-07-14T21:15:37Z
 updated = 2013-07-14T21:15:37Z
 title = "I just wanted to say that I really enjoyed this."
-content = "I just wanted to say that I really enjoyed this."
+content = '''I just wanted to say that I really enjoyed this.'''
 [author]
 	name = "Damien Dry"
 	uri = "https://www.blogger.com/profile/07325870682459660703"

@@ -2,7 +2,7 @@ id = "9085081330358356594"
 date = 2012-09-19T08:41:09Z
 updated = 2012-09-19T08:41:09Z
 title = "Randall being insane wasn&#39;t a known fact?"
-content = "Randall being insane wasn&#39;t a known fact?"
+content = '''Randall being insane wasn&#39;t a known fact?'''
 [author]
 	name = "Renaud Lepage"
 	uri = "https://www.blogger.com/profile/06981758002732418966"

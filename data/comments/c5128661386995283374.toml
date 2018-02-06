@@ -2,7 +2,7 @@ id = "5128661386995283374"
 date = 2011-11-08T07:48:49Z
 updated = 2011-11-08T07:48:49Z
 title = "The other problem is the disproportionate attentio..."
-content = "The other problem is the disproportionate attention to standardized testing over some of those useless tasks. That not only holds them up, but gives a worthless benchmark against which they are measured. Furthermore, the teachers are under so much pressure to teach to the test, there&#39;s no way for even the creative teachers to branch out!"
+content = '''The other problem is the disproportionate attention to standardized testing over some of those useless tasks. That not only holds them up, but gives a worthless benchmark against which they are measured. Furthermore, the teachers are under so much pressure to teach to the test, there&#39;s no way for even the creative teachers to branch out!'''
 [author]
 	name = "Anna"
 	uri = "https://www.blogger.com/profile/06990924996424581477"

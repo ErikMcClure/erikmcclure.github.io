@@ -2,7 +2,7 @@ id = "5432176943026232542"
 date = 2013-02-12T20:20:23Z
 updated = 2013-02-12T20:20:23Z
 title = "I&#39;m not pirating the software for creating the..."
-content = "I&#39;m not pirating the software for creating the effects either. There&#39;s pirating software for fun and then there&#39;s pirating software for a commercial venture and I find that immoral and I will not compromise my morals for something stupid like that.<br /><br />I&#39;ve adjusted my approach multiple times. I have made progress, but in the wrong direction. I have recently gotten very good at making ambient music! The problem being I DON&#39;T WANT TO MAKE AMBIENT MUSIC. I have been trying to get better at drums but have made only incremental progress."
+content = '''I&#39;m not pirating the software for creating the effects either. There&#39;s pirating software for fun and then there&#39;s pirating software for a commercial venture and I find that immoral and I will not compromise my morals for something stupid like that.<br /><br />I&#39;ve adjusted my approach multiple times. I have made progress, but in the wrong direction. I have recently gotten very good at making ambient music! The problem being I DON&#39;T WANT TO MAKE AMBIENT MUSIC. I have been trying to get better at drums but have made only incremental progress.'''
 reply = 5494895905722671920
 [author]
 	name = "Erik McClure"

@@ -2,7 +2,7 @@ id = "9191781066202798934"
 date = 2013-02-10T23:16:56Z
 updated = 2014-10-04T11:25:57Z
 title = ""
-content = "This comment has been removed by the author."
+content = '''This comment has been removed by the author.'''
 [author]
 	name = "Grigory Dzhavadyan"
 	uri = "https://www.blogger.com/profile/15737379918382696815"

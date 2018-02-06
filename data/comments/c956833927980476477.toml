@@ -2,7 +2,7 @@ id = "956833927980476477"
 date = 2011-11-09T01:23:20Z
 updated = 2011-11-09T01:23:20Z
 title = "This was a rant. The only place I actually shared ..."
-content = "This was a rant. The only place I actually shared it was on HN where engineer profanity-laced rants are commonplace. It is not designed to be read by children, although any kid old enough to comment (13+) should know what&#39;s appropriate and what isn&#39;t (and are probably swearing out of earshot of their parents anyway)."
+content = '''This was a rant. The only place I actually shared it was on HN where engineer profanity-laced rants are commonplace. It is not designed to be read by children, although any kid old enough to comment (13+) should know what&#39;s appropriate and what isn&#39;t (and are probably swearing out of earshot of their parents anyway).'''
 [author]
 	name = "Erik McClure"
 	uri = "https://www.blogger.com/profile/13838708587730716493"

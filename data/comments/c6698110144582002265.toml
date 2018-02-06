@@ -2,7 +2,7 @@ id = "6698110144582002265"
 date = 2013-04-20T23:29:56Z
 updated = 2013-04-20T23:29:56Z
 title = "What the FUCK?!"
-content = "What the FUCK?!"
+content = '''What the FUCK?!'''
 reply = 4273755090256327004
 [author]
 	name = "Erik McClure"

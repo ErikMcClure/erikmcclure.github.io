@@ -2,7 +2,7 @@ id = "7089812103297005525"
 date = 2013-11-17T20:49:22Z
 updated = 2013-11-17T20:49:22Z
 title = "Obvious troll is obvious. Please go and enlight so..."
-content = "Obvious troll is obvious. Please go and enlight somebody somewhere else."
+content = '''Obvious troll is obvious. Please go and enlight somebody somewhere else.'''
 reply = 1450411780170112810
 [author]
 	name = "nek"

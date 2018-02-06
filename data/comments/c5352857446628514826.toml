@@ -2,7 +2,7 @@ id = "5352857446628514826"
 date = 2012-09-27T06:41:02Z
 updated = 2012-09-27T06:41:02Z
 title = "Of course nothing is coming from thin air but then..."
-content = "Of course nothing is coming from thin air but then what&#39;s the purpose of your first point?"
+content = '''Of course nothing is coming from thin air but then what&#39;s the purpose of your first point?'''
 [author]
 	name = "Thomas Mansencal"
 	uri = "https://www.blogger.com/profile/00074906410947000193"

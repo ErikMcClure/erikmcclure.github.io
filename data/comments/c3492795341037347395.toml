@@ -2,7 +2,7 @@ id = "3492795341037347395"
 date = 2013-06-14T19:36:41Z
 updated = 2013-06-14T19:36:41Z
 title = "It&#39;s totally ok with me for you to share this ..."
-content = "It&#39;s totally ok with me for you to share this with your calculus classes.<br /><br />I&#39;ve had professors and teachers who have worked against the system. I had one teacher in high school who got fired because of it. I don&#39;t believe that the teachers and professors can actually fix a system that is working against them when the system itself is so fundamentally broken. There are very deep, fundamental issues with society itself that must be addressed, and I fear those are things that teachers alone cannot fix."
+content = '''It&#39;s totally ok with me for you to share this with your calculus classes.<br /><br />I&#39;ve had professors and teachers who have worked against the system. I had one teacher in high school who got fired because of it. I don&#39;t believe that the teachers and professors can actually fix a system that is working against them when the system itself is so fundamentally broken. There are very deep, fundamental issues with society itself that must be addressed, and I fear those are things that teachers alone cannot fix.'''
 reply = 1183032431265227302
 [author]
 	name = "Erik McClure"

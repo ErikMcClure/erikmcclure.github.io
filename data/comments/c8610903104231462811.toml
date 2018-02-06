@@ -2,7 +2,7 @@ id = "8610903104231462811"
 date = 2017-09-05T16:27:17Z
 updated = 2017-09-05T16:27:17Z
 title = "OK. I missed the tone in your point. "
-content = "OK. I missed the tone in your point. "
+content = '''OK. I missed the tone in your point. '''
 [author]
 	name = "Responder12432"
 	uri = "https://www.blogger.com/profile/02692325667376464014"

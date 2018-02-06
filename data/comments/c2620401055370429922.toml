@@ -2,7 +2,7 @@ id = "2620401055370429922"
 date = 2012-09-27T17:24:10Z
 updated = 2012-09-27T17:24:10Z
 title = "Why thank you, I really need to finish my WIPs xD"
-content = "Why thank you, I really need to finish my WIPs xD"
+content = '''Why thank you, I really need to finish my WIPs xD'''
 reply = 630005678471881659
 [author]
 	name = "Erik McClure"

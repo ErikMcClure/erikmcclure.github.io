@@ -2,7 +2,7 @@ id = "7519587593406467380"
 date = 2013-02-11T00:59:07Z
 updated = 2013-02-11T00:59:07Z
 title = "Honestly if I can make enough to get by and still ..."
-content = "Honestly if I can make enough to get by and still be able to spend the majority of my time tinkering away on this stuff I&#39;d be happy."
+content = '''Honestly if I can make enough to get by and still be able to spend the majority of my time tinkering away on this stuff I&#39;d be happy.'''
 reply = 8560825170825901937
 [author]
 	name = "Erik McClure"

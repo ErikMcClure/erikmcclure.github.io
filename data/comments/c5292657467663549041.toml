@@ -2,7 +2,7 @@ id = "5292657467663549041"
 date = 2012-02-25T10:51:53Z
 updated = 2012-02-25T10:51:53Z
 title = "The real problem here is them trying to move the f..."
-content = "The real problem here is them trying to move the find window for you. Even then, you can still let the find window be dockable if you make mistakes easier to recover from."
+content = '''The real problem here is them trying to move the find window for you. Even then, you can still let the find window be dockable if you make mistakes easier to recover from.'''
 reply = 6098474805059520200
 [author]
 	name = "Erik McClure"

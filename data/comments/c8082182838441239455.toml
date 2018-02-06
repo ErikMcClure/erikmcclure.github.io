@@ -2,7 +2,7 @@ id = "8082182838441239455"
 date = 2013-11-17T19:03:52Z
 updated = 2013-11-17T19:03:52Z
 title = "Since you have a v-neck you obviously are an enlig..."
-content = "Since you have a v-neck you obviously are an enlightened hipster.  We shall bow to thee..."
+content = '''Since you have a v-neck you obviously are an enlightened hipster.  We shall bow to thee...'''
 reply = 1450411780170112810
 [author]
 	name = "Unknown"

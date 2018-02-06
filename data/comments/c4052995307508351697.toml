@@ -2,7 +2,7 @@ id = "4052995307508351697"
 date = 2016-03-14T00:01:22Z
 updated = 2016-03-14T00:01:22Z
 title = "I would be in favor of simply &quot;marking&quot; ..."
-content = "I would be in favor of simply &quot;marking&quot; accounts as being potentially offensive for kids, because everyone seems to think kids should be shielded from everything anyway so why not. As long as the sites do something other than outright ban people who say nasty things."
+content = '''I would be in favor of simply &quot;marking&quot; accounts as being potentially offensive for kids, because everyone seems to think kids should be shielded from everything anyway so why not. As long as the sites do something other than outright ban people who say nasty things.'''
 reply = 2345805599960304531
 [author]
 	name = "Erik McClure"

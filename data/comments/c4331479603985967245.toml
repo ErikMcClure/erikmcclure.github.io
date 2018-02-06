@@ -2,7 +2,7 @@ id = "4331479603985967245"
 date = 2011-08-05T13:56:38Z
 updated = 2011-08-05T13:56:38Z
 title = "The OSSAL looks promising, but is not an approved ..."
-content = "The OSSAL looks promising, but is not an approved open-source license, which causes its own problems for hosting and such."
+content = '''The OSSAL looks promising, but is not an approved open-source license, which causes its own problems for hosting and such.'''
 [author]
 	name = "Erik McClure"
 	uri = "https://www.blogger.com/profile/13838708587730716493"

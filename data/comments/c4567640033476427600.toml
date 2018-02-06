@@ -2,7 +2,7 @@ id = "4567640033476427600"
 date = 2015-01-21T22:47:56Z
 updated = 2015-01-21T22:47:56Z
 title = "Very funny.  I wrote about the exact opposite prob..."
-content = "Very funny.  I wrote about the exact opposite problem a few years ago where a student group would have their new webmaster tear down their entire site every year to rebuild from scratch.  Back-end, front-end, databases, and all.  Rebuilding the wheel every single time in the name of innovation.<br /><br />I think the point we can both agree on is there needs to be less if-then blanketing decisions and more thorough understanding of the situation.  To mirror your example, if all you&#39;re trying to do is make the website look prettier, you don&#39;t need erase your entire content management system (and records too for that matter)."
+content = '''Very funny.  I wrote about the exact opposite problem a few years ago where a student group would have their new webmaster tear down their entire site every year to rebuild from scratch.  Back-end, front-end, databases, and all.  Rebuilding the wheel every single time in the name of innovation.<br /><br />I think the point we can both agree on is there needs to be less if-then blanketing decisions and more thorough understanding of the situation.  To mirror your example, if all you&#39;re trying to do is make the website look prettier, you don&#39;t need erase your entire content management system (and records too for that matter).'''
 [author]
 	name = "pftq"
 	uri = "https://www.blogger.com/profile/15022821851361476272"

@@ -2,7 +2,7 @@ id = "1409835366267271567"
 date = 2013-02-11T09:04:36Z
 updated = 2013-02-11T09:04:36Z
 title = "Exactly, but isn&#39;t recalculating the reflectio..."
-content = "Exactly, but isn&#39;t recalculating the reflection at each pixel of the surface far less efficient than a smarter interpolation of edge values would be?"
+content = '''Exactly, but isn&#39;t recalculating the reflection at each pixel of the surface far less efficient than a smarter interpolation of edge values would be?'''
 reply = 8385004382040472649
 [author]
 	name = "Ta Kernc"

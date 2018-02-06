@@ -2,7 +2,7 @@ id = "8136782991325509920"
 date = 2012-08-25T16:44:32Z
 updated = 2012-08-25T16:44:32Z
 title = "The strange thing about this is that I believe tha..."
-content = "The strange thing about this is that I believe that everything is fixable, but I do not believe that there is going to be any particular optimal solution. In my case, society in general is just so completely broken that it isn&#39;t very hard to make things significantly better while still being light-years away from any &quot;optimal&quot; answer, and there are many different ways of doing so.<br /><br />I do agree that it seems to be a fundamental simplification that people desperately hang on to regardless of reality, though. It seems closely related to religion in that regard."
+content = '''The strange thing about this is that I believe that everything is fixable, but I do not believe that there is going to be any particular optimal solution. In my case, society in general is just so completely broken that it isn&#39;t very hard to make things significantly better while still being light-years away from any &quot;optimal&quot; answer, and there are many different ways of doing so.<br /><br />I do agree that it seems to be a fundamental simplification that people desperately hang on to regardless of reality, though. It seems closely related to religion in that regard.'''
 reply = 4505768231957787737
 [author]
 	name = "Erik McClure"

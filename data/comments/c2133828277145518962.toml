@@ -2,7 +2,7 @@ id = "2133828277145518962"
 date = 2013-02-11T00:59:51Z
 updated = 2013-02-11T00:59:51Z
 title = "I&#39;m really pushing to try and get a demo of so..."
-content = "I&#39;m really pushing to try and get a demo of something out but shit keeps happening. This is part of what&#39;s so frustrating."
+content = '''I&#39;m really pushing to try and get a demo of something out but shit keeps happening. This is part of what&#39;s so frustrating.'''
 reply = 109168782412100033
 [author]
 	name = "Erik McClure"

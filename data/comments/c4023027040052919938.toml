@@ -2,7 +2,7 @@ id = "4023027040052919938"
 date = 2012-09-28T07:57:05Z
 updated = 2012-09-28T07:57:05Z
 title = "I thought about that myself, actually, since, for ..."
-content = "I thought about that myself, actually, since, for example, the polarization of the light is what can cause the Newton&#39;s rings phenomenon due to microscopic separations of two materials."
+content = '''I thought about that myself, actually, since, for example, the polarization of the light is what can cause the Newton&#39;s rings phenomenon due to microscopic separations of two materials.'''
 reply = 1359343772970521671
 [author]
 	name = "Erik McClure"

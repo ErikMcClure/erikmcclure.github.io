@@ -2,7 +2,7 @@ id = "2286814720714260417"
 date = 2013-02-11T23:22:19Z
 updated = 2013-02-11T23:22:19Z
 title = "I&#39;m not particularly interested in funding, bu..."
-content = "I&#39;m not particularly interested in funding, but I hope to collect enough customers to sustain myself eventually."
+content = '''I&#39;m not particularly interested in funding, but I hope to collect enough customers to sustain myself eventually.'''
 reply = 7350524779103632522
 [author]
 	name = "Erik McClure"

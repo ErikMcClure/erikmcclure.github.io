@@ -2,7 +2,7 @@ id = "642171598474323802"
 date = 2011-11-08T07:43:54Z
 updated = 2011-11-08T07:43:54Z
 title = "Teaching basic set theory, compact sets etc. was t..."
-content = "Teaching basic set theory, compact sets etc. was tried in the 1960&#39;s, for elementary and middle school. It was called &quot;New Math&quot;. I had it in the 1970&#39;s in the south.<br /><br />I never understood why it was taught until I audited real analysis in graduate school. I think the math teachers had not studied enough math to understand why it was important and how it was used. Also, at least my high school math teachers presented theorems as the key useful tools for application, rather than the methods for proving the theorems."
+content = '''Teaching basic set theory, compact sets etc. was tried in the 1960&#39;s, for elementary and middle school. It was called &quot;New Math&quot;. I had it in the 1970&#39;s in the south.<br /><br />I never understood why it was taught until I audited real analysis in graduate school. I think the math teachers had not studied enough math to understand why it was important and how it was used. Also, at least my high school math teachers presented theorems as the key useful tools for application, rather than the methods for proving the theorems.'''
 [author]
 	name = "PB"
 	uri = "https://www.blogger.com/profile/08064894914609893451"

@@ -2,7 +2,7 @@ id = "8528568975955881869"
 date = 2012-05-07T11:55:01Z
 updated = 2012-05-07T11:55:01Z
 title = "Programming in the sense of modern software develo..."
-content = "Programming in the sense of modern software development did not. The mathematical foundations were there, but we had no idea how to practically apply them."
+content = '''Programming in the sense of modern software development did not. The mathematical foundations were there, but we had no idea how to practically apply them.'''
 reply = 5011332425221492280
 [author]
 	name = "Erik McClure"

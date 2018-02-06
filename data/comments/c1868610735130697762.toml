@@ -2,7 +2,7 @@ id = "1868610735130697762"
 date = 2013-02-10T19:52:12Z
 updated = 2013-02-10T19:52:12Z
 title = "One of the things that helped me with this was sim..."
-content = "One of the things that helped me with this was simple: setting aside a percentage of my time to work on smaller, profit-bearing projects which could support the larger, blue-sky efforts.<br /><br />It&#39;s actually pretty easy.  &quot;Out of every three personal days, one will go to commercializable work, and the other two will go to long vision work.&quot;<br /><br />You can get further, faster, if you blend pragmatism with vision."
+content = '''One of the things that helped me with this was simple: setting aside a percentage of my time to work on smaller, profit-bearing projects which could support the larger, blue-sky efforts.<br /><br />It&#39;s actually pretty easy.  &quot;Out of every three personal days, one will go to commercializable work, and the other two will go to long vision work.&quot;<br /><br />You can get further, faster, if you blend pragmatism with vision.'''
 reply = 7934106416354700397
 [author]
 	name = "John Haugeland"

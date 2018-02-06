@@ -2,7 +2,7 @@ id = "7414944870868395340"
 date = 2012-09-27T06:11:26Z
 updated = 2012-09-27T06:11:26Z
 title = "Of course. Raytracing is required to achieve photo..."
-content = "Of course. Raytracing is required to achieve photorealism, but it doesn&#39;t simply magically create it out of thin air, which is my entire point."
+content = '''Of course. Raytracing is required to achieve photorealism, but it doesn&#39;t simply magically create it out of thin air, which is my entire point.'''
 reply = 9204810339490398875
 [author]
 	name = "Erik McClure"

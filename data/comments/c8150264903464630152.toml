@@ -2,7 +2,7 @@ id = "8150264903464630152"
 date = 2016-06-19T10:47:24Z
 updated = 2016-06-19T10:47:24Z
 title = "Programming is very interesting and creative thing..."
-content = "Programming is very interesting and creative thing if you do it with love. Your blog code helps a lot to beginners to learn programming from basic to advance level. I really love this blog because I learn a lot from here and this process is still continuing. <br />Love from <a href="http://www.proprogrammer.net/" rel="nofollow"> Pro Programmer </a><br />"
+content = '''Programming is very interesting and creative thing if you do it with love. Your blog code helps a lot to beginners to learn programming from basic to advance level. I really love this blog because I learn a lot from here and this process is still continuing. <br />Love from <a href="http://www.proprogrammer.net/" rel="nofollow"> Pro Programmer </a><br />'''
 [author]
 	name = "akmal niazi khan"
 	uri = "https://www.blogger.com/profile/15398931973348843835"

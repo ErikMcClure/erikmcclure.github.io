@@ -2,7 +2,7 @@ id = "3444879637492430789"
 date = 2016-11-25T15:57:24Z
 updated = 2016-11-25T15:57:24Z
 title = "Looks like your course notes are bad.  That expres..."
-content = "Looks like your course notes are bad.  That expression for expected value doesn&#39;t make sense, a quick google search shows a wikipedia article with the correct definition: https://en.wikipedia.org/wiki/Expected_value#Univariate_discrete_random_variable.2C_countable_case"
+content = '''Looks like your course notes are bad.  That expression for expected value doesn&#39;t make sense, a quick google search shows a wikipedia article with the correct definition: https://en.wikipedia.org/wiki/Expected_value#Univariate_discrete_random_variable.2C_countable_case'''
 [author]
 	name = "Unknown"
 	uri = "https://www.blogger.com/profile/03393987050568498418"

@@ -2,7 +2,7 @@ id = "536145052596806163"
 date = 2012-11-26T16:23:42Z
 updated = 2012-11-26T16:23:42Z
 title = "My graphics engine is required to run entirely by ..."
-content = "My graphics engine is required to run entirely by itself. I use box2D, which is an encapsulated physics engine. I therefore consider the division of labor to be fairly well enforced. However, I discovered that there is such a thing as *too much* encapsulation in that it really starts to get in the way of more practical solutions. Consequently there are a few places where I deliberately tie things together very closely because doing it any other way has a tendency to create more problems than it solves. CEGUI is a great example of trying to do too much with too much isolation of functionality, rendering it a bloated, catastrophic mess."
+content = '''My graphics engine is required to run entirely by itself. I use box2D, which is an encapsulated physics engine. I therefore consider the division of labor to be fairly well enforced. However, I discovered that there is such a thing as *too much* encapsulation in that it really starts to get in the way of more practical solutions. Consequently there are a few places where I deliberately tie things together very closely because doing it any other way has a tendency to create more problems than it solves. CEGUI is a great example of trying to do too much with too much isolation of functionality, rendering it a bloated, catastrophic mess.'''
 reply = 8702335690771044604
 [author]
 	name = "Erik McClure"

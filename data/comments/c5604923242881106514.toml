@@ -2,7 +2,7 @@ id = "5604923242881106514"
 date = 2013-07-30T10:54:43Z
 updated = 2013-07-30T10:54:43Z
 title = "While I have ideas on how to teach math differentl..."
-content = "While I have ideas on how to teach math differently, I haven&#39;t had any opportunity to actually test them to see how effective they are."
+content = '''While I have ideas on how to teach math differently, I haven&#39;t had any opportunity to actually test them to see how effective they are.'''
 reply = 5482404156209024958
 [author]
 	name = "Erik McClure"

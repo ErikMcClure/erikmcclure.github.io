@@ -2,7 +2,7 @@ id = "2354368990789811243"
 date = 2011-06-03T21:28:53Z
 updated = 2011-06-03T21:28:53Z
 title = "You must be confused. The GPL license requires the..."
-content = "You must be confused. The GPL license requires the project its inside to be open-source. I spent this entire blog post arguing for a license that only requires modifications to the program to be released, which allows it to be compatible with proprietary programs. This isn&#39;t a moral equivalent to the GPL."
+content = '''You must be confused. The GPL license requires the project its inside to be open-source. I spent this entire blog post arguing for a license that only requires modifications to the program to be released, which allows it to be compatible with proprietary programs. This isn&#39;t a moral equivalent to the GPL.'''
 [author]
 	name = "Erik McClure"
 	uri = "https://www.blogger.com/profile/13838708587730716493"

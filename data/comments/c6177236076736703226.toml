@@ -2,7 +2,7 @@ id = "6177236076736703226"
 date = 2013-02-25T11:18:56Z
 updated = 2013-02-25T11:18:56Z
 title = "The issues with WebGL aren&#39;t as much getting t..."
-content = "The issues with WebGL aren&#39;t as much getting things to work, its getting things to work fast enough: http://codeflow.org/entries/2013/feb/22/how-to-write-portable-webgl/#why-portable"
+content = '''The issues with WebGL aren&#39;t as much getting things to work, its getting things to work fast enough: http://codeflow.org/entries/2013/feb/22/how-to-write-portable-webgl/#why-portable'''
 reply = 7164409929666312362
 [author]
 	name = "Erik McClure"

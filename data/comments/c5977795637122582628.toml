@@ -2,7 +2,7 @@ id = "5977795637122582628"
 date = 2013-07-14T18:59:38Z
 updated = 2013-07-14T18:59:38Z
 title = "I too would appreciate your ideas for a better edu..."
-content = "I too would appreciate your ideas for a better educational paradigm.<br /><br />We must bring great ideas into the forefront of our thoughts in order to begin navigating towards those ideals, however slowly they come to fruition. <br /><br />I am a recently graduated public high school refugee attempting to negate the negative aspects of my schooling. It really all comes down to curiosity, creativity and imagination. <br /><br />Great post."
+content = '''I too would appreciate your ideas for a better educational paradigm.<br /><br />We must bring great ideas into the forefront of our thoughts in order to begin navigating towards those ideals, however slowly they come to fruition. <br /><br />I am a recently graduated public high school refugee attempting to negate the negative aspects of my schooling. It really all comes down to curiosity, creativity and imagination. <br /><br />Great post.'''
 reply = 785141564017510239
 [author]
 	name = "ryan hunter"

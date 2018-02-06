@@ -2,7 +2,7 @@ id = "6750500124568624163"
 date = 2012-09-20T13:50:08Z
 updated = 2012-09-20T13:50:08Z
 title = "What? Why is spending 40+ hours on an artful web t..."
-content = "What? Why is spending 40+ hours on an artful web thingy &quot;insane&quot;? This is what art is about people!"
+content = '''What? Why is spending 40+ hours on an artful web thingy &quot;insane&quot;? This is what art is about people!'''
 [author]
 	name = "Ashley Meyer"
 	uri = "https://www.blogger.com/profile/05293492750223301153"

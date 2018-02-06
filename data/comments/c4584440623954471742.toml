@@ -2,7 +2,7 @@ id = "4584440623954471742"
 date = 2013-02-10T19:48:03Z
 updated = 2013-02-10T19:48:03Z
 title = "You remind me a bit of how I imagine Eskil Steenbe..."
-content = "You remind me a bit of how I imagine Eskil Steenberg to be. Have you met? He made Love (http://www.quelsolaar.com/about/index.html)"
+content = '''You remind me a bit of how I imagine Eskil Steenberg to be. Have you met? He made Love (http://www.quelsolaar.com/about/index.html)'''
 [author]
 	name = "stephen-brent"
 	uri = "http://stephen-brent.myopenid.com/"

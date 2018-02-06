@@ -2,7 +2,7 @@ id = "4472881356198965684"
 date = 2011-11-25T11:37:39Z
 updated = 2011-11-25T11:37:39Z
 title = "Actually its the other way around; unsigned intege..."
-content = "Actually its the other way around; unsigned integers really complicate things, introducing subtle bugs and have been responsible for a whole raft of real security vulnerabilities over the years.  I remember at Symbian we recommended against them and I presume its related to why Java went to far as to banish them."
+content = '''Actually its the other way around; unsigned integers really complicate things, introducing subtle bugs and have been responsible for a whole raft of real security vulnerabilities over the years.  I remember at Symbian we recommended against them and I presume its related to why Java went to far as to banish them.'''
 [author]
 	name = "Will"
 	uri = "https://www.blogger.com/profile/10665856385463640225"

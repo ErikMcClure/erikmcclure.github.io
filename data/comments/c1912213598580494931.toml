@@ -2,7 +2,7 @@ id = "1912213598580494931"
 date = 2013-02-11T20:38:49Z
 updated = 2013-02-11T20:38:49Z
 title = "Regarding the idea that going to work would someho..."
-content = "Regarding the idea that going to work would somehow force you to shut down development on your dream projects, consider how much time you are currently spending on college (attending classes, doing homework, studying, etc.).  If it adds up to more than 8 or so hours per day, then if you did take one of your employment options* you&#39;d still have roughly the same amount of time for working on your projects as you currently do.  Or is there some other aspect of getting a job that you think will destroy your ability to pursue these dreams?<br /><br />*Assuming it&#39;s not some crazy startup where you work 14 hours a day or something."
+content = '''Regarding the idea that going to work would somehow force you to shut down development on your dream projects, consider how much time you are currently spending on college (attending classes, doing homework, studying, etc.).  If it adds up to more than 8 or so hours per day, then if you did take one of your employment options* you&#39;d still have roughly the same amount of time for working on your projects as you currently do.  Or is there some other aspect of getting a job that you think will destroy your ability to pursue these dreams?<br /><br />*Assuming it&#39;s not some crazy startup where you work 14 hours a day or something.'''
 reply = 4716868347110884955
 [author]
 	name = "tcepsa"

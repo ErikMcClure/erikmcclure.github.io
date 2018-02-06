@@ -2,7 +2,7 @@ id = "3727860854622106555"
 date = 2013-02-12T20:03:55Z
 updated = 2013-02-12T20:03:55Z
 title = "Ok, but creating tones/effects is a skill in itsel..."
-content = "Ok, but creating tones/effects is a skill in itself. With practice you can get very good at thinking of a specific sound in your head and knowing exactly how to create it from scratch. You do&#39;t need to pay hundreds of dollars for libraries. You can pirate that all for free. You just need a digital piano/keyboard/synthesizer and you can create and upload all the effects you need."
+content = '''Ok, but creating tones/effects is a skill in itself. With practice you can get very good at thinking of a specific sound in your head and knowing exactly how to create it from scratch. You do&#39;t need to pay hundreds of dollars for libraries. You can pirate that all for free. You just need a digital piano/keyboard/synthesizer and you can create and upload all the effects you need.'''
 reply = 5494895905722671920
 [author]
 	name = "Luke A"

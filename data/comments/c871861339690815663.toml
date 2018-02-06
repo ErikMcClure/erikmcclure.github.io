@@ -2,7 +2,7 @@ id = "871861339690815663"
 date = 2017-09-05T17:57:26Z
 updated = 2017-09-05T17:57:26Z
 title = "&quot;Whenever I meet a programmer who insists on ..."
-content = "&quot;Whenever I meet a programmer who insists on doing everything a certain way, I make a mental note to never hire them, ever. &quot;<br /><br />sounds like a behavior you apply to every hire you make, interesting!"
+content = '''&quot;Whenever I meet a programmer who insists on doing everything a certain way, I make a mental note to never hire them, ever. &quot;<br /><br />sounds like a behavior you apply to every hire you make, interesting!'''
 [author]
 	name = "johnfn"
 	uri = "https://www.blogger.com/profile/18122591840236376305"

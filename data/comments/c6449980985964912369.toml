@@ -2,7 +2,7 @@ id = "6449980985964912369"
 date = 2013-07-31T12:26:39Z
 updated = 2013-07-31T12:26:39Z
 title = "I&#39;m far from the first person to observe this ..."
-content = "I&#39;m far from the first person to observe this problem and I&#39;m not entirely sure how you got that out of the essay. I&#39;m not the only one who &quot;gets it&quot;, I&#39;m just providing a perspective from inside the educational system itself. Everyone I know also &quot;gets it&quot;. The people who don&#39;t get it are the people in charge of the educational system, which is the problem I was trying to point out."
+content = '''I&#39;m far from the first person to observe this problem and I&#39;m not entirely sure how you got that out of the essay. I&#39;m not the only one who &quot;gets it&quot;, I&#39;m just providing a perspective from inside the educational system itself. Everyone I know also &quot;gets it&quot;. The people who don&#39;t get it are the people in charge of the educational system, which is the problem I was trying to point out.'''
 reply = 1131445799898928168
 [author]
 	name = "Erik McClure"

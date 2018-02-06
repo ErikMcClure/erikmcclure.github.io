@@ -2,7 +2,7 @@ id = "5116734238775644222"
 date = 2013-07-14T18:33:06Z
 updated = 2013-07-14T18:33:06Z
 title = "Erik,do you think you will write about your alte..."
-content = "Erik,<br /><br />do you think you will write about your alternative ideas later on ? I&#39;m deeply interested in the subject (although not knowledgeable) and would enjoy reading other people point of view. Maybe you know some references or essays too.<br /><br />Anyway thanks a lot"
+content = '''Erik,<br /><br />do you think you will write about your alternative ideas later on ? I&#39;m deeply interested in the subject (although not knowledgeable) and would enjoy reading other people point of view. Maybe you know some references or essays too.<br /><br />Anyway thanks a lot'''
 reply = 785141564017510239
 [author]
 	name = "agu monkey"

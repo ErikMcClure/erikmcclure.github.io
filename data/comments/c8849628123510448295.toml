@@ -2,7 +2,7 @@ id = "8849628123510448295"
 date = 2012-02-06T09:38:17Z
 updated = 2012-02-06T09:38:17Z
 title = "Holy crap I started writing an article about exact..."
-content = "Holy crap I started writing an article about exactly that last night.  People try so hard to avoid re-inventing the wheel that they will use monster truck wheels on a wagon and it drives me nuts.  And since the wheel has been around for so long and must have been invented by someone really smart, people get it in their heads that creating your own wheel must be an epic project requiring a team of PhD&#39;s when really, creating your own &quot;wheel&quot; may not be that difficult.  And guess what, you are allowed to use your existing knowledge of wheels to build your own version conforming to the wheel spec!  So you are not re-inventing it from scratch, just re-implementing it with specializations."
+content = '''Holy crap I started writing an article about exactly that last night.  People try so hard to avoid re-inventing the wheel that they will use monster truck wheels on a wagon and it drives me nuts.  And since the wheel has been around for so long and must have been invented by someone really smart, people get it in their heads that creating your own wheel must be an epic project requiring a team of PhD&#39;s when really, creating your own &quot;wheel&quot; may not be that difficult.  And guess what, you are allowed to use your existing knowledge of wheels to build your own version conforming to the wheel spec!  So you are not re-inventing it from scratch, just re-implementing it with specializations.'''
 reply = 441661518343893008
 [author]
 	name = "Graeme"

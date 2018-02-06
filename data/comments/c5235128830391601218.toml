@@ -2,7 +2,7 @@ id = "5235128830391601218"
 date = 2011-09-07T07:11:59Z
 updated = 2011-09-07T07:11:59Z
 title = "This is JUST what I&#39;ve been looking for! Thank..."
-content = "This is JUST what I&#39;ve been looking for! Thanks for taking the time to write this!"
+content = '''This is JUST what I&#39;ve been looking for! Thanks for taking the time to write this!'''
 [author]
 	name = "Jhott"
 	uri = "https://www.blogger.com/profile/04348743696627086264"

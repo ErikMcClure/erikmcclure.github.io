@@ -2,7 +2,7 @@ id = "4185905364944154851"
 date = 2013-02-12T21:00:54Z
 updated = 2013-02-12T21:00:54Z
 title = "I think pirating is fine if no one is making any m..."
-content = "I think pirating is fine if no one is making any money. The instant money becomes involved, however, it becomes a lot more questionable.<br /><br />In this case it&#39;s also a giant pain in the ass to pirate because everyone has been pirating it so now they&#39;ve introduced a bunch of insane iLok keychain crap. I also don&#39;t think it will solve all my problems, only a few."
+content = '''I think pirating is fine if no one is making any money. The instant money becomes involved, however, it becomes a lot more questionable.<br /><br />In this case it&#39;s also a giant pain in the ass to pirate because everyone has been pirating it so now they&#39;ve introduced a bunch of insane iLok keychain crap. I also don&#39;t think it will solve all my problems, only a few.'''
 reply = 5494895905722671920
 [author]
 	name = "Erik McClure"

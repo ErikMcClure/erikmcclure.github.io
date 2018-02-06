@@ -2,7 +2,7 @@ id = "7194633335323624107"
 date = 2017-06-24T09:58:26Z
 updated = 2017-06-24T09:58:26Z
 title = "Have you considered having multiple bot accounts t..."
-content = "Have you considered having multiple bot accounts to work around the rate limiting?"
+content = '''Have you considered having multiple bot accounts to work around the rate limiting?'''
 [author]
 	name = "Orphis"
 	uri = "https://www.blogger.com/profile/06043644419917173546"

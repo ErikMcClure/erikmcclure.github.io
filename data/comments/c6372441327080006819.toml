@@ -2,7 +2,7 @@ id = "6372441327080006819"
 date = 2012-09-27T06:46:10Z
 updated = 2012-09-27T06:46:10Z
 title = "My point is that its not instant photorealism, it ..."
-content = "My point is that its not instant photorealism, it is approaching photorealism. The entire point is to address the perception of the public that raytracing is equal to photorealism. Raytracing is a STEP towards photorealism, which is obvious to anyone who knows what they&#39;re talking about, but not the general public. You can have raytracing and not actually have very good photorealism."
+content = '''My point is that its not instant photorealism, it is approaching photorealism. The entire point is to address the perception of the public that raytracing is equal to photorealism. Raytracing is a STEP towards photorealism, which is obvious to anyone who knows what they&#39;re talking about, but not the general public. You can have raytracing and not actually have very good photorealism.'''
 reply = 5352857446628514826
 [author]
 	name = "Erik McClure"

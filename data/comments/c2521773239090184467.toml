@@ -2,7 +2,7 @@ id = "2521773239090184467"
 date = 2013-02-11T01:09:54Z
 updated = 2013-02-11T01:09:54Z
 title = "You should, make time for it, do not kill your dre..."
-content = "You should, make time for it, do not kill your dreams."
+content = '''You should, make time for it, do not kill your dreams.'''
 reply = 8560825170825901937
 [author]
 	name = "Adam Akbar"

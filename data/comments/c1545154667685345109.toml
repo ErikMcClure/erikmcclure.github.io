@@ -2,7 +2,7 @@ id = "1545154667685345109"
 date = 2015-12-03T23:05:27Z
 updated = 2015-12-03T23:07:04Z
 title = ""
-content = "This comment has been removed by a blog administrator."
+content = '''This comment has been removed by a blog administrator.'''
 [author]
 	name = "John"
 	uri = "https://me.yahoo.com/a/rtZ2rGZv0olGkITLEDDi7KDFJgZDqRtCLM8-"

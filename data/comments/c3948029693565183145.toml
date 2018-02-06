@@ -2,7 +2,7 @@ id = "3948029693565183145"
 date = 2013-02-10T23:55:16Z
 updated = 2013-02-10T23:55:16Z
 title = "While I keep iterating my engine it is coming very..."
-content = "While I keep iterating my engine it is coming very close to converging on something I am happy with. It actually converged for a while and I didn&#39;t work on it and focused on other things, but it ended up having a fatal flaw which I am now addressing (and using the opportunity to clean up the rest of the engine at the same time). "
+content = '''While I keep iterating my engine it is coming very close to converging on something I am happy with. It actually converged for a while and I didn&#39;t work on it and focused on other things, but it ended up having a fatal flaw which I am now addressing (and using the opportunity to clean up the rest of the engine at the same time). '''
 reply = 1888945783376891521
 [author]
 	name = "Erik McClure"

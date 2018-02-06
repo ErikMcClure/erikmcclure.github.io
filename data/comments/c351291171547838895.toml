@@ -2,7 +2,7 @@ id = "351291171547838895"
 date = 2012-09-27T07:07:00Z
 updated = 2012-09-27T07:07:00Z
 title = "Yeah but this is raytracing, an implementation of ..."
-content = "Yeah but this is raytracing, an implementation of it, and it does produce photorealistic results ( Along with other implementations ), that&#39;s why I don&#39;t get the &quot;7 Problems Raytracing Doesn&#39;t Solve: 1) Photorealism&quot;."
+content = '''Yeah but this is raytracing, an implementation of it, and it does produce photorealistic results ( Along with other implementations ), that&#39;s why I don&#39;t get the &quot;7 Problems Raytracing Doesn&#39;t Solve: 1) Photorealism&quot;.'''
 reply = 3501579533292216857
 [author]
 	name = "Thomas Mansencal"

@@ -2,7 +2,7 @@ id = "5094965280974084952"
 date = 2013-07-30T10:55:42Z
 updated = 2013-07-30T10:55:42Z
 title = "I think one important thing to take away from this..."
-content = "I think one important thing to take away from this is that no one method is going to work. There is no magic bullet. We need a multitude of solutions if we are going to effectively teach students."
+content = '''I think one important thing to take away from this is that no one method is going to work. There is no magic bullet. We need a multitude of solutions if we are going to effectively teach students.'''
 reply = 5470897169455035201
 [author]
 	name = "Erik McClure"
