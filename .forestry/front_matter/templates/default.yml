@@ -1,6 +1,6 @@
 ---
 pages:
-- blog/migrating-to-a-static-blog.md
+- blog/migrating-to-static-blog.md
 hide_body: false
 fields:
 - name: title
