@@ -1,7 +1,7 @@
 id = "3173736219480546550"
 date = 2012-05-24T08:54:13Z
 updated = 2012-05-24T08:54:13Z
-title = "Audio and networking are different - networking es..."
+title = '''Audio and networking are different - networking es...'''
 content = '''Audio and networking are different - networking especially lends itself to a deferred, multithreaded design. Audio can be multithreaded, but I have found this to be of limited use. The thing is that trying to effectively manage that kind of threading is extremely difficult due to complex interdependencies between graphics and physics, hence why I feel a separated encapsulated concurrency model is more appropriate.'''
 reply = 331938694313727808
 [author]

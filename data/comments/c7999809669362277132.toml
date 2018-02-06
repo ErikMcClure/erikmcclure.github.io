@@ -1,7 +1,7 @@
 id = "7999809669362277132"
 date = 2016-07-31T07:46:07Z
 updated = 2016-07-31T07:46:07Z
-title = "This is a recent very interesting article about th..."
+title = '''This is a recent very interesting article about th...'''
 content = '''This is a recent very interesting article about this: https://aeon.co/videos/maths-notation-is-needlessly-complex-it-can-and-should-be-better '''
 [author]
 	name = "Eustáquio Rangel"

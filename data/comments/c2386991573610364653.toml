@@ -1,7 +1,7 @@
 id = "2386991573610364653"
 date = 2011-09-07T06:54:36Z
 updated = 2011-09-07T06:54:36Z
-title = "Excellent article, I always used VSync because of ..."
+title = '''Excellent article, I always used VSync because of ...'''
 content = '''Excellent article, I always used VSync because of the tearing, but did never know how exactly it is implemented.<br /><br />But is it 33ms to much waiting? I mean, for sure our internet connection has a very small ping for long distances, but how fast is the human brain to process image input?<br />Think about the original cinema, the analogic old ones, the light that prints the current frame just &#39;blinks&#39; at 20~30fps, and we don&#39;t notice that when looking to the screen.<br /><br />I did never program directly at a game engine so please forgive me if I say something ridiculous, but I guess another option would be something like &quot;Best Effort&quot;; the render thread would be completely independent from the input pool, and would try render sync to the monitor but asynchronously from input; at the worst scenario the render would skip some input, something like when using console game emulators and use big skip values.'''
 [author]
 	name = "Willian"

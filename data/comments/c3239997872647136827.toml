@@ -1,7 +1,7 @@
 id = "3239997872647136827"
 date = 2011-11-25T12:30:30Z
 updated = 2011-11-25T12:30:30Z
-title = "Google say it way better than I.  Look at their st..."
+title = '''Google say it way better than I.  Look at their st...'''
 content = '''Google say it way better than I.  Look at their style-guide http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml#Integer_Types<br /><br />&quot;Some people, including some textbook authors, recommend using unsigned types to represent numbers that are never negative. This is intended as a form of self-documentation. However, in C, the advantages of such documentation are outweighed by the real bugs it can introduce. Consider:<br /><br />for (unsigned int i = foo.Length()-1; i &gt;= 0; --i) ...<br /><br />This code will never terminate! Sometimes gcc will notice this bug and warn you, but often it will not. Equally bad bugs can occur when comparing signed and unsigned variables. Basically, C&#39;s type-promotion scheme causes unsigned types to behave differently than one might expect.<br /><br />So, document that a variable is non-negative using assertions. Don&#39;t use an unsigned type.&quot;'''
 [author]
 	name = "Will"

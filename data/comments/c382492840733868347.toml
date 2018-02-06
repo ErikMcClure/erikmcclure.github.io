@@ -1,7 +1,7 @@
 id = "382492840733868347"
 date = 2013-12-02T23:01:15Z
 updated = 2013-12-02T23:01:15Z
-title = "A nice article; it&#39;d really help if you had pu..."
+title = '''A nice article; it&#39;d really help if you had pu...'''
 content = '''A nice article; it&#39;d really help if you had put the code on github gh-pages so we could see it run, or had put in an animated gif of it.  Its very hard to tell what you&#39;re trying to do from your description.<br /><br />Your webGL is naive, but by now you realise that.  You can optimise the webGL as Conor says, and batch render everything.  You can also speed up your Javascript.<br /><br />It&#39;ll be a fun project for you, and we&#39;d like to hear back when you&#39;re got a version two going!'''
 reply = 5198427124390091873
 [author]

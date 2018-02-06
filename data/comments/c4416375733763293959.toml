@@ -1,7 +1,7 @@
 id = "4416375733763293959"
 date = 2012-09-27T07:30:33Z
 updated = 2012-09-27T07:30:33Z
-title = "&quot;For those unfamiliar with the term, raytraci..."
+title = '''&quot;For those unfamiliar with the term, raytraci...'''
 content = '''&quot;For those unfamiliar with the term, raytracing is the process of rendering a 3D scene by tracing the path of a beam of light after it is emitted from a light source, calculating its properties as it bounces off various objects in the world until it finally hits the virtual camera. At least, you hope it hits the camera. You see, to be perfectly accurate, you have to cast a bajillion rays of light out from the light sources and then see which ones end up hitting the camera at some point.&quot;<br /><br />I thought it was the other way around, i.e. raytracers cast rays from the virtual camera through the scene all the way back to the lights?'''
 [author]
 	name = "Olivier Bruchez"

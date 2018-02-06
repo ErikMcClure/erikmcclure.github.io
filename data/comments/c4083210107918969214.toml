@@ -1,7 +1,7 @@
 id = "4083210107918969214"
 date = 2013-02-11T01:35:25Z
 updated = 2013-02-11T01:35:25Z
-title = "Don&#39;t try to reinvent the wheel until you have..."
+title = '''Don&#39;t try to reinvent the wheel until you have...'''
 content = '''Don&#39;t try to reinvent the wheel until you have built a working bike. While existing frameworks and libraries might be imperfect, bloated and not quite what you need if you look back, you will see that if you were using them you might have been much closer to the end goal now. The existing code is not only a good starting point, but also a good point for communication - other people have faced the same problems with OpenAL or Qt and they will be able to help you, but a problem with your own lib - you&#39;re on your own to fix that. Also people are working on those libraries, other people, and they are adding new features all the time. And you will be able to use them in the future, basically for free.<br />Focus on the endgame, ask for help, use the help, even if it is imperfect. Get something working, really working and *then* re-factor the rough parts.<br />Good luck!'''
 [author]
 	name = "Aigars Mahinovs"

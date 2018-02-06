@@ -1,7 +1,7 @@
 id = "7557298174961971984"
 date = 2012-06-23T11:52:32Z
 updated = 2012-06-23T11:52:32Z
-title = "This originally wasn&#39;t done because all my oth..."
+title = '''This originally wasn&#39;t done because all my oth...'''
 content = '''This originally wasn&#39;t done because all my other input processing relies on windows messages, whose processing cannot be in their own thread (doing so is explicitly forbidden by directX). After this little episode, I may end up doing joystick polls in their own thread, but at the moment there is little to gain from an input device I never use, and lots to lose from subtle threading issues. If this was a console game, obviously the situation would be different.'''
 reply = 4511252302585754852
 [author]

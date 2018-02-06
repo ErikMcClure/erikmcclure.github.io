@@ -1,7 +1,7 @@
 id = "8128619751229485911"
 date = 2011-12-24T19:49:44Z
 updated = 2011-12-24T19:49:44Z
-title = "There is value in using a language for what it&#39..."
+title = '''There is value in using a language for what it&#39...'''
 content = '''There is value in using a language for what it&#39;s designed to do, but if your program ends up being crap anyway, it doesn&#39;t matter. If your program is crap, then you should consider using a different language. If your program is really good, it doesn&#39;t matter what language you used because your program is *really good*, and critiquing a program based on what language was used to make it rather then the program itself is utter insanity, which is the main point here.'''
 [author]
 	name = "Erik McClure"

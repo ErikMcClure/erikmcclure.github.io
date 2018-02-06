@@ -1,7 +1,7 @@
 id = "2069849079060116426"
 date = 2012-05-24T08:58:28Z
 updated = 2012-05-24T08:58:28Z
-title = "That is a question of graphics engine design, and ..."
+title = '''That is a question of graphics engine design, and ...'''
 content = '''That is a question of graphics engine design, and is somewhat dependent on one&#39;s choice of API. The issue is that the GPU isn&#39;t the CPU and thus there is a memory barrier between information on the GPU and information on the CPU, which causes all sorts of strange bottlenecks. I personally am working on building a GPU-based particle engine and using DX10&#39;s geometry shader for speeding up certain sections of rendering, such as shadow calculation. However I have also found that some things are best left to the CPU, because the CPU already has access to the information instead of trying to shuttle it all the way to the GPU to perform the calculations.'''
 reply = 3289504635235399072
 [author]

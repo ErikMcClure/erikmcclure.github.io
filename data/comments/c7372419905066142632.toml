@@ -1,7 +1,7 @@
 id = "7372419905066142632"
 date = 2012-05-07T11:12:19Z
 updated = 2012-05-07T11:12:19Z
-title = "Scotts article that you linked to is confusing man..."
+title = '''Scotts article that you linked to is confusing man...'''
 content = '''Scotts article that you linked to is confusing manufacturing with design. See http://www.reddit.com/r/programming/comments/tawug/why_do_web_sites_and_software_take_so_long_to/c4l2rdc<br /><br />Also, the mutability of the software engineering field is an inherent extension of the mutability of software. As we create new things and tweak existing ones we develop new languages, APIs, and practices to suit the needs of whatever is being built. Since there will always be some new need brought on by a customer request or business requirement there will always be a new &quot;thing&quot; brought into the field.<br /><br />Chris Aitchison makes a good point that software engineering is not like any other form of engineering: http://chrisaitchison.com/2011/05/03/you-are-not-a-software-engineer<br />and I completely agree with it. If you show me a blueprint for a building and say &quot;this is what it will look like forever&quot; I will believe you 99% of the time. If you show me a software design and tell me &quot;this application will always function this way and never change&quot; I will walk away laughing.'''
 [author]
 	name = "Jon D"

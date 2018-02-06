@@ -1,7 +1,7 @@
 id = "6496606234821686303"
 date = 2012-09-28T08:08:04Z
 updated = 2012-09-28T08:08:04Z
-title = "Sorry, but none of these problems are really at th..."
+title = '''Sorry, but none of these problems are really at th...'''
 content = '''Sorry, but none of these problems are really at the doorstep of ray-tracing. These are common problems of game design and visualization. And you as a game designer have the choice to use one or another algorithm, depending on which solves your problems, or doesn&#39;t.<br /><br />Ray Tracing is an algorithm that constructs images based on a scientific model of cameras, lighting, a scene, and the optics involved. Depending on complexity of that model, Ray Tracing takes a very long time to compute, and modern hardware so far has been incapable to master that complexity in a sufficient degree to create real-time animations. That&#39;s all there is to say about it.<br /><br />That said, while ray tracing is horribly complex to compute, saying that &quot;ray tracing will never solve the problem of this complexity&quot; is just as silly as blaming the physicists for the complexity of quantum physics. It is what it is. If you cannot afford the complexity, go find another solution.<br /><br />I&#39;d suggest to check out Ray *casting*, and Octree, if simple polygonal rendering is not sufficient for you. But then I haven&#39;t been working in this area for 20 years, my advice may be outdated.'''
 [author]
 	name = "Stefan Lang"

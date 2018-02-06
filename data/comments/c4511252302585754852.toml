@@ -1,7 +1,7 @@
 id = "4511252302585754852"
 date = 2012-06-23T11:44:46Z
 updated = 2012-06-23T11:44:46Z
-title = "Maybe joysticks should be polled in their own thre..."
+title = '''Maybe joysticks should be polled in their own thre...'''
 content = '''Maybe joysticks should be polled in their own thread.<br /><br />W'''
 [author]
 	name = "Warren Postma"

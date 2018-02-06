@@ -1,7 +1,7 @@
 id = "762318873392527144"
 date = 2012-02-06T08:01:52Z
 updated = 2012-02-06T08:01:52Z
-title = "I definitely see your point, but I&#39;m not sure ..."
+title = '''I definitely see your point, but I&#39;m not sure ...'''
 content = '''I definitely see your point, but I&#39;m not sure I agree with your conclusions. There is definitely a distinct difference between an applications programmer and a systems programmer, both in what they are creating and also in the amount of rigor required to get their work correct. But I think it&#39;s not a good idea to break these differences down along domain lines, or by technology. That is, an AI programmer is working with sophisticated algorithms that happen to relate back to the world in the context of artificial intelligence. The underlying thing is the sophistication of the data-structures/algorithms, but there are many other areas in programming where that type of knowledge is applicable. If we fracture on domain or technology distinctions then we tend to silo ourselves away from each other. What I think would be better in the long run is for us to split along our own internal natural boundaries. For instance, a programmer could specialize in modeling and persistent technologies. The issues in both these areas tend to run vertically, you get the same basic problems with Relational Databases, that you get with NoSQL ones. The latter are more complex and require deeper thought, but all the issues with both are related. <br /><br />Paul.'''
 [author]
 	name = "Paul W. Homer"

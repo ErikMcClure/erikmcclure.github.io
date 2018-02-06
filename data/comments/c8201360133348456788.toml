@@ -1,7 +1,7 @@
 id = "8201360133348456788"
 date = 2012-02-06T03:41:27Z
 updated = 2012-02-06T03:41:27Z
-title = "I like this article its almost a summary of the en..."
+title = '''I like this article its almost a summary of the en...'''
 content = '''I like this article its almost a summary of the entire of philosophy ;)'''
 [author]
 	name = "MrTortoise"

@@ -1,7 +1,7 @@
 id = "153452771669338782"
 date = 2013-02-25T15:14:44Z
 updated = 2013-02-25T15:14:44Z
-title = "The primary purpose of this piece is to point out ..."
+title = '''The primary purpose of this piece is to point out ...'''
 content = '''The primary purpose of this piece is to point out that web development shares many of the same problems that people love to use to bash C++ as being a terrible language no one should use. It&#39;s mostly trying to point out blatant hypocrisy in criticisms of various languages.'''
 reply = 6186007343732626111
 [author]

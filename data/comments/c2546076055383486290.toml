@@ -1,7 +1,7 @@
 id = "2546076055383486290"
 date = 2011-09-29T16:55:51Z
 updated = 2011-09-29T16:55:51Z
-title = "Also your string doesn&#39;t have a null terminato..."
+title = '''Also your string doesn&#39;t have a null terminato...'''
 content = '''Also your string doesn&#39;t have a null terminator, either, which is an even more elementary problem. This is why you usually don&#39;t use an array on the stack to store strings, you just define a constant &quot;TEST\n&quot; and throw around a pointer to it, which the compiler does for you when you say const char* val=&quot;TEST\n&quot;;'''
 [author]
 	name = "Erik McClure"

@@ -1,7 +1,7 @@
 id = "3002407857882844374"
 date = 2012-09-28T08:42:47Z
 updated = 2012-09-28T08:42:47Z
-title = "Where did I say &quot;never&quot;? I simply said t..."
+title = '''Where did I say &quot;never&quot;? I simply said t...'''
 content = '''Where did I say &quot;never&quot;? I simply said that raytracing itself does not intrinsically solve photorealism. It CAN solve photorealism, but only if you are using an approximation that is sufficiently accurate. Please stop reading your own opinions into my text.'''
 reply = 6496606234821686303
 [author]

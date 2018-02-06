@@ -1,7 +1,7 @@
 id = "926341708329941056"
 date = 2012-02-06T10:43:08Z
 updated = 2012-02-06T10:43:08Z
-title = "This is kind of silly.  You sound like a statistic..."
+title = '''This is kind of silly.  You sound like a statistic...'''
 content = '''This is kind of silly.  You sound like a statistician arguing that because he&#39;s working for a pharmacological company and another statistician is doing modeling for an environmental bureau, it&#39;s &#39;insane&#39; for them to both be considered to be in the same field.<br /><br />It&#39;s a pretty big world, and programming, even if we take &#39;programming&#39; to mean every kind of programming possible, is a very small part of it.'''
 [author]
 	name = "Roger"

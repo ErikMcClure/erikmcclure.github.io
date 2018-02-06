@@ -1,7 +1,7 @@
 id = "1380747906436469291"
 date = 2013-07-16T03:53:47Z
 updated = 2013-07-16T03:53:47Z
-title = "Hello great article,I&#39;m really curious about..."
+title = '''Hello great article,I&#39;m really curious about...'''
 content = '''Hello great article,<br /><br />I&#39;m really curious about what of if the teachers see the wholes in the education and know about the problem but they are working for the university and they want to help but somehow they are afraid to lose they job or don&#39;t want to get to troubles.'''
 [author]
 	name = "Richard Bányi"

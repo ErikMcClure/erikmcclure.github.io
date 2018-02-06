@@ -1,7 +1,7 @@
 id = "8202230843368172625"
 date = 2013-02-11T03:49:55Z
 updated = 2013-02-11T03:49:55Z
-title = "It would be a fun excursion to make a website that..."
+title = '''It would be a fun excursion to make a website that...'''
 content = '''It would be a fun excursion to make a website that scrapes twitter for #crazyproject tags and then ranks them by how many retweets they have. If I was a web developer I might even do it! But I&#39;m not. If you do establish a chat room though, I wouldn&#39;t mind hanging out in it and dropping several of the more insane projects I&#39;ve never actually seriously considered.<br /><br />I did design my own programming language though. It was a compiled scripting language that functioned as a subset of the C++ syntax with some adjustments. I wrote a preliminary grammar tree for it but never actually tried to make it because boy that would be dumb. It used a concept of partial memory management and embedded pointer ownership that was a very nice concept.'''
 reply = 7281947955190631357
 [author]

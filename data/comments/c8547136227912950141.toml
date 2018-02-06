@@ -1,7 +1,7 @@
 id = "8547136227912950141"
 date = 2012-03-23T12:52:15Z
 updated = 2012-03-23T12:52:15Z
-title = "But you have missed the entire point of the blog. ..."
+title = '''But you have missed the entire point of the blog. ...'''
 content = '''But you have missed the entire point of the blog. I was arguing against the OVERUSE of signed integers, not that we should stop using them. I&#39;m arguing that both signed and unsigned have their places. I am arguing against using signed integers in places where you should very obviously use an unsigned integer. On a completely unrelated note, I do hope your aware that size_t is just an unsigned long (4 bytes on x86 and 8 bytes on x64). I am complaining about people not even considering using unsigned ints in places where they belong. I&#39;m complaining about there being obvious uses for unsigned ints, as you mentioned in your post, where people use signed integers anyway because unsigned is &quot;bad&quot; for a bunch of stupid reasons.<br /><br />Even then the ability for you to check ranges using an unsigned integer is very useful, because it requires only a single check against length to verify that an index is correct. If a value of more than -1 got in there, you have bigger problems.<br /><br />I&#39;m not saying we should only used unsigned, I&#39;m saying we should use unsigned integers where its sensible instead of only using signed integers because that&#39;s retarded.'''
 reply = 3095904484010271963
 [author]

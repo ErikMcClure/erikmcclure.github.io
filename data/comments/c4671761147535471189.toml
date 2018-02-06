@@ -1,7 +1,7 @@
 id = "4671761147535471189"
 date = 2015-06-15T15:58:08Z
 updated = 2015-06-15T15:58:08Z
-title = "I use boost in my current job, and it&#39;s actual..."
+title = '''I use boost in my current job, and it&#39;s actual...'''
 content = '''I use boost in my current job, and it&#39;s actually not bad at all.  The one downside is that it&#39;s huge - but it has a lot of good solutions to a lot of problems, it works on a wide range of C++ compilers, and the quality has generally been good, even though sometimes the interfaces are a little obscure.<br /><br />It&#39;s a particular winner if you need C++11 or C++14 features in an earlier compiler...'''
 [author]
 	name = "Tom Ritchford"

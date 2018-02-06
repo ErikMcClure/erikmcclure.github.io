@@ -1,7 +1,7 @@
 id = "2448750406165744475"
 date = 2015-02-19T13:32:11Z
 updated = 2015-02-19T13:32:11Z
-title = "Does anyone actually *write* good software?"
+title = '''Does anyone actually *write* good software?'''
 content = '''Does anyone actually *write* good software?'''
 [author]
 	name = "Michael Clayton"

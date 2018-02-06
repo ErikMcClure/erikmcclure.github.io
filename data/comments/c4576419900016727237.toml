@@ -1,7 +1,7 @@
 id = "4576419900016727237"
 date = 2014-04-21T03:18:17Z
 updated = 2014-04-21T03:18:17Z
-title = "Hi, I really like your blog"
+title = '''Hi, I really like your blog'''
 content = '''Hi, I really like your blog'''
 [author]
 	name = "Jafferey"

@@ -1,7 +1,7 @@
 id = "6098474805059520200"
 date = 2012-02-25T07:10:31Z
 updated = 2012-02-25T07:10:31Z
-title = "I always dock the find window when I&#39;m doing a..."
+title = '''I always dock the find window when I&#39;m doing a...'''
 content = '''I always dock the find window when I&#39;m doing a lot of find and replacing.   I have to because if I don&#39;t they move it to a new random location every 3rd find and I sometimes end up clicking the wrong button.'''
 [author]
 	name = "Dave Widel"

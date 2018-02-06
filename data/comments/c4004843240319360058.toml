@@ -1,7 +1,7 @@
 id = "4004843240319360058"
 date = 2015-06-11T05:39:20Z
 updated = 2015-06-11T05:39:20Z
-title = "&gt;intended to be a fun experimentWhen I first s..."
+title = '''&gt;intended to be a fun experimentWhen I first s...'''
 content = '''&gt;intended to be a fun experiment<br />When I first saw the game, I thought you must have been exceedingly interested to build such a thing based on my own experience doing graphics-heavy stuff in web browsers for work (I stepped through your code in F12).<br /><br />Thank you for writing up your experience; I&#39;m really curious to see your writeup of the Chrome issue. My most recent Chrome-only graphics issue was a map that would flash rapidly when zooming or panning even though the mammoth Javascript library was supposed to abstract away the browser differences (solved by hard coding a variable).'''
 [author]
 	name = "zianchoy"

@@ -1,7 +1,7 @@
 id = "3501579533292216857"
 date = 2012-09-27T06:55:33Z
 updated = 2012-09-27T06:55:33Z
-title = "Just reposted the deleted comment properly formatt..."
+title = '''Just reposted the deleted comment properly formatt...'''
 content = '''Just reposted the deleted comment properly formatted.<br /><br />I think it really depends what you call raytracing, renderers like Arnold or Maxwell using Bidirectional Path Tracing ( Which is raytracing )achieve easily a picture quality where you cannot distinguish the generated from the real.<br /><br />I guess your definition of raytracing is very restrictive.<br /><br />You should talk about a specific implementation instead of speaking about raytracing in general because for instance Photon Mapping is based on raytracing.'''
 [author]
 	name = "Thomas Mansencal"

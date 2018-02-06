@@ -1,7 +1,7 @@
 id = "945881680491670395"
 date = 2011-09-07T03:46:59Z
 updated = 2011-09-07T03:46:59Z
-title = "Unless you are rendering almost nothing on the scr..."
+title = '''Unless you are rendering almost nothing on the scr...'''
 content = '''Unless you are rendering almost nothing on the screen, it is highly likely to be closer to 200 frames, which means two out of three frames would be discarded, which is much more reasonable. But of course, when you turn off vsync, your card would render 200 frames anyway, it would just try throwing them on to the screen as fast as possible. The only difference with triple buffering is that it discards a portion of the frames. So, the only way to reduce the number of frames the card is rendering is to turn on vsync and suffer input lag.'''
 [author]
 	name = "Erik McClure"

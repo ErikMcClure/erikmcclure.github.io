@@ -1,7 +1,7 @@
 id = "8765227698552766978"
 date = 2013-07-21T14:12:14Z
 updated = 2013-07-21T14:12:14Z
-title = "Erik, what are you doing now? May I use this as a ..."
+title = '''Erik, what are you doing now? May I use this as a ...'''
 content = '''Erik, what are you doing now? May I use this as a guest blog post on my blog...great topic for a bigger discussion.'''
 [author]
 	name = "Linda Thomas"

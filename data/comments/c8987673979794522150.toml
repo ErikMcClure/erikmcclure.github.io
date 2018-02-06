@@ -1,7 +1,7 @@
 id = "8987673979794522150"
 date = 2013-09-12T12:52:05Z
 updated = 2013-09-12T12:52:05Z
-title = "Great, I like this article! I haven&#39;t finished..."
+title = '''Great, I like this article! I haven&#39;t finished...'''
 content = '''Great, I like this article! I haven&#39;t finished reading, but I already like it! :)'''
 [author]
 	name = "Alexander Churikov"
