@@ -1,12 +1,12 @@
-id = "9093853112276883240"
-date = 2013-04-20T23:58:36Z
-updated = 2013-04-20T23:58:36Z
-title = '''I&#39;ve tried to comment as a consequentialist; r...'''
-content = '''I&#39;ve tried to comment as a consequentialist; rereading, it does seem to have come out strangely. That post is, to a significant extent, addressed to a past version of myself who appears to my view to be similar to you, based on this post and the last few here. I followed the path of least resistance through college, then through two years of a regular programming job that didn&#39;t match my actual dreams. I was able to return to building the stuff I actually dreamed of and cared about; minor mind modifications and a bit of lifestyle engineering were, as it turns out, key. Now, maybe I&#39;ve projected traits of mine onto you, and said things that were off the mark. If so, feel free to ignore them. A few of the things I said were mere guesses, based only on patterns I&#39;ve seen.'''
+content = "I&#39;ve tried to comment as a consequentialist; rereading, it does seem to have come out strangely. That post is, to a significant extent, addressed to a past version of myself who appears to my view to be similar to you, based on this post and the last few here. I followed the path of least resistance through college, then through two years of a regular programming job that didn&#39;t match my actual dreams. I was able to return to building the stuff I actually dreamed of and cared about; minor mind modifications and a bit of lifestyle engineering were, as it turns out, key. Now, maybe I&#39;ve projected traits of mine onto you, and said things that were off the mark. If so, feel free to ignore them. A few of the things I said were mere guesses, based only on patterns I&#39;ve seen."
+date = "2013-04-20T23:58:36+00:00"
+id = 9093853112276883240
+title = "I&#39;ve tried to comment as a consequentialist; r..."
+updated = "2013-04-20T23:58:36.000+00:00"
 [author]
-	name = "jimrandomh"
-	uri = "https://www.blogger.com/profile/12840344000349576240"
+name = "jimrandomh"
+uri = "https://www.blogger.com/profile/12840344000349576240"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

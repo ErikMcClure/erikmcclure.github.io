@@ -1,13 +1,13 @@
-id = "129938107544110101"
-date = 2012-02-25T10:48:49Z
-updated = 2012-02-25T10:48:49Z
-title = '''&quot;I&#39;d be tempted to drag the tooltip aroun...'''
-content = '''&quot;I&#39;d be tempted to drag the tooltip around so I could see what was underneath, yet this would end up pinning it.&quot;<br /><br />But you can&#39;t drag around the tooltip without pinning it anyway. The problems you have cited are simply the consequence of taking an implicit UI design philosophy too far - and if you take ANYTHING too far, the results are never pretty.'''
+content = "&quot;I&#39;d be tempted to drag the tooltip around so I could see what was underneath, yet this would end up pinning it.&quot;<br /><br />But you can&#39;t drag around the tooltip without pinning it anyway. The problems you have cited are simply the consequence of taking an implicit UI design philosophy too far - and if you take ANYTHING too far, the results are never pretty."
+date = "2012-02-25T10:48:49+00:00"
+id = 129938107544110101
 reply = 2867827262814216771
+title = "&quot;I&#39;d be tempted to drag the tooltip aroun..."
+updated = "2012-02-25T10:48:49.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
+width = 32

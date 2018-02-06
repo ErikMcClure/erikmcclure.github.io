@@ -1,12 +1,12 @@
-id = "4576419900016727237"
-date = 2014-04-21T03:18:17Z
-updated = 2014-04-21T03:18:17Z
-title = '''Hi, I really like your blog'''
-content = '''Hi, I really like your blog'''
+content = "Hi, I really like your blog"
+date = "2014-04-21T03:18:17+00:00"
+id = 4576419900016727237
+title = "Hi, I really like your blog"
+updated = "2014-04-21T03:18:17.000+00:00"
 [author]
-	name = "Jafferey"
-	uri = "https://www.blogger.com/profile/16211707698556908837"
+name = "Jafferey"
+uri = "https://www.blogger.com/profile/16211707698556908837"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

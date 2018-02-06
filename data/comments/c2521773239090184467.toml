@@ -1,13 +1,13 @@
-id = "2521773239090184467"
-date = 2013-02-11T01:09:54Z
-updated = 2013-02-11T01:09:54Z
-title = '''You should, make time for it, do not kill your dre...'''
-content = '''You should, make time for it, do not kill your dreams.'''
+content = "You should, make time for it, do not kill your dreams."
+date = "2013-02-11T01:09:54+00:00"
+id = 2521773239090184467
 reply = 8560825170825901937
+title = "You should, make time for it, do not kill your dre..."
+updated = "2013-02-11T01:09:54.000+00:00"
 [author]
-	name = "Adam Akbar"
-	uri = "https://www.blogger.com/profile/14250122726985356980"
+name = "Adam Akbar"
+uri = "https://www.blogger.com/profile/14250122726985356980"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

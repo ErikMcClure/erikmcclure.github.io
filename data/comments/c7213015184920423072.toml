@@ -1,12 +1,12 @@
-id = "7213015184920423072"
-date = 2013-02-06T07:59:04Z
-updated = 2013-02-06T07:59:04Z
-title = '''Nice Story :) I think I&#39;m gonna use Right hand...'''
-content = '''Nice Story :) I think I&#39;m gonna use Right handed coords for my library. thanks for sharing this experience. cheers.. :)'''
+content = "Nice Story :) I think I&#39;m gonna use Right handed coords for my library. thanks for sharing this experience. cheers.. :)"
+date = "2013-02-06T07:59:04+00:00"
+id = 7213015184920423072
+title = "Nice Story :) I think I&#39;m gonna use Right hand..."
+updated = "2013-02-06T07:59:04.000+00:00"
 [author]
-	name = "Chathura Jeewaka Jayalath"
-	uri = "https://www.blogger.com/profile/03511038920947506067"
+name = "Chathura Jeewaka Jayalath"
+uri = "https://www.blogger.com/profile/03511038920947506067"
 [author.image]
-	source = "//3.bp.blogspot.com/_XGoGQ2eNO80/TKLR73Drg6I/AAAAAAAAAHo/-6Wvmapqxp4/S220-s32/swan+061.jpg"
-	width = "32"
-	height = "29"
+height = 29
+source = "//3.bp.blogspot.com/_XGoGQ2eNO80/TKLR73Drg6I/AAAAAAAAAHo/-6Wvmapqxp4/S220-s32/swan+061.jpg"
+width = 32

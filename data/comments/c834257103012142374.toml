@@ -1,13 +1,13 @@
-id = "834257103012142374"
-date = 2013-02-10T20:39:39Z
-updated = 2013-02-10T20:39:39Z
-title = '''I avoid skullcandy at all costs but I just got che...'''
-content = '''I avoid skullcandy at all costs but I just got cheap gummy earbuds and I&#39;m not sure if they&#39;re any better.'''
+content = "I avoid skullcandy at all costs but I just got cheap gummy earbuds and I&#39;m not sure if they&#39;re any better."
+date = "2013-02-10T20:39:39+00:00"
+id = 834257103012142374
 reply = 115394482688667244
+title = "I avoid skullcandy at all costs but I just got che..."
+updated = "2013-02-10T20:39:39.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
+width = 32

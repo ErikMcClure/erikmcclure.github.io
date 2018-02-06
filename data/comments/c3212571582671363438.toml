@@ -1,12 +1,12 @@
-id = "3212571582671363438"
-date = 2011-09-29T11:45:21Z
-updated = 2011-09-29T11:45:21Z
-title = '''What about pointers to functions? I&#39;m having t...'''
-content = '''What about pointers to functions? I&#39;m having trouble understanding why this doesn&#39;t work:<br /><br /><br />char* Test() <br />{<br /> char cstm[] = { &#39;T&#39;, &#39;E&#39;, &#39;S&#39;, &#39;T&#39;, &#39;\n&#39; }; <br /> return cstm;<br />}<br /><br />int _tmain(int argc, _TCHAR* argv[])<br />{<br /> char* (*funcP)() = &amp;Test;<br /> char* convPntr = (*funcP)();<br /><br />        //Why don&#39;t I see a &quot;T&quot; on the screen?<br /> ::printf(&quot;Character: %c&quot;, convPntr[0]);<br />}'''
+content = "What about pointers to functions? I&#39;m having trouble understanding why this doesn&#39;t work:<br /><br /><br />char* Test() <br />{<br /> char cstm[] = { &#39;T&#39;, &#39;E&#39;, &#39;S&#39;, &#39;T&#39;, &#39;\\n&#39; }; <br /> return cstm;<br />}<br /><br />int _tmain(int argc, _TCHAR* argv[])<br />{<br /> char* (*funcP)() = &amp;Test;<br /> char* convPntr = (*funcP)();<br /><br />        //Why don&#39;t I see a &quot;T&quot; on the screen?<br /> ::printf(&quot;Character: %c&quot;, convPntr[0]);<br />}"
+date = "2011-09-29T11:45:21+00:00"
+id = 3212571582671363438
+title = "What about pointers to functions? I&#39;m having t..."
+updated = "2011-09-29T11:45:21.000+00:00"
 [author]
-	name = "Jhott"
-	uri = "https://www.blogger.com/profile/04348743696627086264"
+name = "Jhott"
+uri = "https://www.blogger.com/profile/04348743696627086264"
 [author.image]
-	source = "//3.bp.blogspot.com/_8FNTTrcVylU/SR2vD1xQNHI/AAAAAAAAACU/9efOqRGDHiQ/S220-s32/jheatt+copy.jpg"
-	width = "32"
-	height = "23"
+height = 23
+source = "//3.bp.blogspot.com/_8FNTTrcVylU/SR2vD1xQNHI/AAAAAAAAACU/9efOqRGDHiQ/S220-s32/jheatt+copy.jpg"
+width = 32

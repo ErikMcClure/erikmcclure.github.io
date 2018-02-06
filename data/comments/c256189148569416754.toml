@@ -1,12 +1,12 @@
-id = "256189148569416754"
-date = 2011-09-07T03:42:08Z
-updated = 2011-09-07T03:42:08Z
-title = '''Interesting. As a hardcore gamer i&#39;ve always s...'''
-content = '''Interesting. As a hardcore gamer i&#39;ve always spent alot of time tweaking and trying to sync mouse input to the screen&#39;s refresh rate. It worked with Id&#39;s quake engines and the ps/2 rate utility back in the day..  but now we have &quot;cpu swallowing&quot; usb updating at 250/333hz .. <br /><br />About the cpu issue with vsync, i&#39;d rather have 1 cpu core at 100%, than my graphics card doing 2000 frames when i only get to see 60 of them. For the environments sake ;)'''
+content = "Interesting. As a hardcore gamer i&#39;ve always spent alot of time tweaking and trying to sync mouse input to the screen&#39;s refresh rate. It worked with Id&#39;s quake engines and the ps/2 rate utility back in the day..  but now we have &quot;cpu swallowing&quot; usb updating at 250/333hz .. <br /><br />About the cpu issue with vsync, i&#39;d rather have 1 cpu core at 100%, than my graphics card doing 2000 frames when i only get to see 60 of them. For the environments sake ;)"
+date = "2011-09-07T03:42:08+00:00"
+id = 256189148569416754
+title = "Interesting. As a hardcore gamer i&#39;ve always s..."
+updated = "2011-09-07T03:42:08.000+00:00"
 [author]
-	name = "Brunis"
-	uri = "https://www.blogger.com/profile/18086365520980083258"
+name = "Brunis"
+uri = "https://www.blogger.com/profile/18086365520980083258"
 [author.image]
-	source = "//2.bp.blogspot.com/__kQQoPG4ka0/SiZzx5VC9zI/AAAAAAAAALA/Uwf2MkDSdDY/S220-s32/golferportal-profil-billede.jpg"
-	width = "26"
-	height = "32"
+height = 32
+source = "//2.bp.blogspot.com/__kQQoPG4ka0/SiZzx5VC9zI/AAAAAAAAALA/Uwf2MkDSdDY/S220-s32/golferportal-profil-billede.jpg"
+width = 26

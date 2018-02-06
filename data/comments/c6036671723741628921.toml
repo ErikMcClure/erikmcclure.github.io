@@ -1,13 +1,13 @@
-id = "6036671723741628921"
-date = 2013-11-17T20:38:44Z
-updated = 2013-11-17T20:38:44Z
-title = '''Mr. Duke! You criticism strikes me as narrow and c...'''
-content = '''Mr. Duke! You criticism strikes me as narrow and cynical. Why should &quot;becoming mature&quot; mean the end of idealism? (and honestly, how does a blogger&#39;s avatar have any bearing on the matter?)'''
+content = "Mr. Duke! You criticism strikes me as narrow and cynical. Why should &quot;becoming mature&quot; mean the end of idealism? (and honestly, how does a blogger&#39;s avatar have any bearing on the matter?)"
+date = "2013-11-17T20:38:44+00:00"
+id = 6036671723741628921
 reply = 1450411780170112810
+title = "Mr. Duke! You criticism strikes me as narrow and c..."
+updated = "2013-11-17T20:38:44.000+00:00"
 [author]
-	name = "Zephyros"
-	uri = "https://www.blogger.com/profile/08918005418100546683"
+name = "Zephyros"
+uri = "https://www.blogger.com/profile/08918005418100546683"
 [author.image]
-	source = "//bp1.blogger.com/_9ZtO6Z6Zaxc/R7EtQ5oPdCI/AAAAAAAAAEE/pMuK8hn8Amw/S220-s32/Z50.7AEiar.jpg"
-	width = "30"
-	height = "32"
+height = 32
+source = "//bp1.blogger.com/_9ZtO6Z6Zaxc/R7EtQ5oPdCI/AAAAAAAAAEE/pMuK8hn8Amw/S220-s32/Z50.7AEiar.jpg"
+width = 30

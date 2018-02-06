@@ -1,13 +1,13 @@
-id = "1307933109525096918"
-date = 2012-03-01T23:01:47Z
-updated = 2012-03-01T23:01:47Z
-title = '''Still wrong. Games often have situation specific c...'''
-content = '''Still wrong. Games often have situation specific code that will be written, tested, and then never looked at again by another soul, because the game will be released and the code archived. Being standards complaint in that case isn&#39;t really helpful, because the code will very rarely need to be maintained for more than a few months, and almost always by the same programmers. It&#39;s more important to finish the game.<br /><br />Once again, programmers keep insisting that [x] applies to all programmers, and forgetting the age old adage &quot;never say never&quot;. Or in this case, never say always. Ever.'''
+content = "Still wrong. Games often have situation specific code that will be written, tested, and then never looked at again by another soul, because the game will be released and the code archived. Being standards complaint in that case isn&#39;t really helpful, because the code will very rarely need to be maintained for more than a few months, and almost always by the same programmers. It&#39;s more important to finish the game.<br /><br />Once again, programmers keep insisting that [x] applies to all programmers, and forgetting the age old adage &quot;never say never&quot;. Or in this case, never say always. Ever."
+date = "2012-03-01T23:01:47+00:00"
+id = 1307933109525096918
 reply = 258639356757501759
+title = "Still wrong. Games often have situation specific c..."
+updated = "2012-03-01T23:01:47.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
+width = 32

@@ -1,12 +1,12 @@
-id = "2702625009313981584"
-date = 2013-02-25T01:30:52Z
-updated = 2013-02-25T01:30:52Z
-title = '''No wonder a huge group of tools (precompilers, wha...'''
-content = '''No wonder a huge group of tools (precompilers, whatnot) have emerged. It can get pretty messy at times. :)<br /><br />As you said we&#39;re effectively trying to do things the tech wasn&#39;t originally designed for. The transition from documents to applications hasn&#39;t been seamless and we&#39;re still struggling to find ways to make it easier.'''
+content = "No wonder a huge group of tools (precompilers, whatnot) have emerged. It can get pretty messy at times. :)<br /><br />As you said we&#39;re effectively trying to do things the tech wasn&#39;t originally designed for. The transition from documents to applications hasn&#39;t been seamless and we&#39;re still struggling to find ways to make it easier."
+date = "2013-02-25T01:30:52+00:00"
+id = 2702625009313981584
+title = "No wonder a huge group of tools (precompilers, wha..."
+updated = "2013-02-25T01:30:52.000+00:00"
 [author]
-	name = "Juho Vepsäläinen"
-	uri = "https://www.blogger.com/profile/08481088432274153896"
+name = "Juho Vepsäläinen"
+uri = "https://www.blogger.com/profile/08481088432274153896"
 [author.image]
-	source = "//lh4.googleusercontent.com/-QuoPu7sBn8w/AAAAAAAAAAI/AAAAAAAABEo/Tb_vzsmZzs4/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh4.googleusercontent.com/-QuoPu7sBn8w/AAAAAAAAAAI/AAAAAAAABEo/Tb_vzsmZzs4/s32-c/photo.jpg"
+width = 32

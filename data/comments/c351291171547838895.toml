@@ -1,13 +1,13 @@
-id = "351291171547838895"
-date = 2012-09-27T07:07:00Z
-updated = 2012-09-27T07:07:00Z
-title = '''Yeah but this is raytracing, an implementation of ...'''
-content = '''Yeah but this is raytracing, an implementation of it, and it does produce photorealistic results ( Along with other implementations ), that&#39;s why I don&#39;t get the &quot;7 Problems Raytracing Doesn&#39;t Solve: 1) Photorealism&quot;.'''
+content = "Yeah but this is raytracing, an implementation of it, and it does produce photorealistic results ( Along with other implementations ), that&#39;s why I don&#39;t get the &quot;7 Problems Raytracing Doesn&#39;t Solve: 1) Photorealism&quot;."
+date = "2012-09-27T07:07:00+00:00"
+id = 351291171547838895
 reply = 3501579533292216857
+title = "Yeah but this is raytracing, an implementation of ..."
+updated = "2012-09-27T07:07:00.000+00:00"
 [author]
-	name = "Thomas Mansencal"
-	uri = "https://www.blogger.com/profile/00074906410947000193"
+name = "Thomas Mansencal"
+uri = "https://www.blogger.com/profile/00074906410947000193"
 [author.image]
-	source = "//lh6.googleusercontent.com/-vtEhrww0yd8/AAAAAAAAAAI/AAAAAAAAACY/DfNFIjfkwrI/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh6.googleusercontent.com/-vtEhrww0yd8/AAAAAAAAAAI/AAAAAAAAACY/DfNFIjfkwrI/s32-c/photo.jpg"
+width = 32

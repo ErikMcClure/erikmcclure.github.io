@@ -1,12 +1,12 @@
-id = "1888945783376891521"
-date = 2013-02-10T23:28:53Z
-updated = 2013-02-10T23:28:53Z
-title = '''I can relate to this.  I&#39;ve constantly written...'''
-content = '''I can relate to this.  I&#39;ve constantly written and re-written a 3D game engine completely from scratch multiple times since highschool (I&#39;m 24 now).  I too even do the UI from scratch (right down to writing an importer to parse a file containing character widths and one containing pictures of letters to render text letter by letter onto the screen).<br /><br />Each time my engine gets a lot better and usually involves some new technology or fundamental system of design I just learned about.  This latest iteration is the first I finally was able to admit to myself that I know I&#39;m going to end up starting over again because I&#39;ll learn something new.  So I&#39;m focusing on making it so that when I start over, I lose as little as possible.  Hopefully next time I start over (I have no idea when that will be, I can&#39;t control it at all), I&#39;ll be able to keep most of the code I wrote this iteration.<br /><br /><br />The closest I&#39;ve ever come to finishing an actual game was for a 30 hour hackathon competition where I made a game using my engine (and won 1st prize).  But the game wasn&#39;t quite complete, and I never bothered to finish it.'''
+content = "I can relate to this.  I&#39;ve constantly written and re-written a 3D game engine completely from scratch multiple times since highschool (I&#39;m 24 now).  I too even do the UI from scratch (right down to writing an importer to parse a file containing character widths and one containing pictures of letters to render text letter by letter onto the screen).<br /><br />Each time my engine gets a lot better and usually involves some new technology or fundamental system of design I just learned about.  This latest iteration is the first I finally was able to admit to myself that I know I&#39;m going to end up starting over again because I&#39;ll learn something new.  So I&#39;m focusing on making it so that when I start over, I lose as little as possible.  Hopefully next time I start over (I have no idea when that will be, I can&#39;t control it at all), I&#39;ll be able to keep most of the code I wrote this iteration.<br /><br /><br />The closest I&#39;ve ever come to finishing an actual game was for a 30 hour hackathon competition where I made a game using my engine (and won 1st prize).  But the game wasn&#39;t quite complete, and I never bothered to finish it."
+date = "2013-02-10T23:28:53+00:00"
+id = 1888945783376891521
+title = "I can relate to this.  I&#39;ve constantly written..."
+updated = "2013-02-10T23:28:53.000+00:00"
 [author]
-	name = "Vexal"
-	uri = "https://www.blogger.com/profile/13213213371335549152"
+name = "Vexal"
+uri = "https://www.blogger.com/profile/13213213371335549152"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

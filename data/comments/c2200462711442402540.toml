@@ -1,13 +1,13 @@
-id = "2200462711442402540"
-date = 2017-05-04T14:49:25Z
-updated = 2017-05-04T14:49:25Z
-title = '''Then Google sues you for copying the idea they now...'''
-content = '''Then Google sues you for copying the idea they now own. Oops.'''
+content = "Then Google sues you for copying the idea they now own. Oops."
+date = "2017-05-04T14:49:25+00:00"
+id = 2200462711442402540
 reply = 5438859504006362931
+title = "Then Google sues you for copying the idea they now..."
+updated = "2017-05-04T14:49:25.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAdo/4sbjcZsncwU/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAdo/4sbjcZsncwU/s32-c/photo.jpg"
+width = 32

@@ -1,12 +1,12 @@
-id = "3168240601048339393"
-date = 2013-11-17T22:21:49Z
-updated = 2013-11-17T22:21:49Z
-title = '''I think all companies follow the curve seen in the...'''
-content = '''I think all companies follow the curve seen in the lifecycle of products. In other words, what goes up always comes down!'''
+content = "I think all companies follow the curve seen in the lifecycle of products. In other words, what goes up always comes down!"
+date = "2013-11-17T22:21:49+00:00"
+id = 3168240601048339393
+title = "I think all companies follow the curve seen in the..."
+updated = "2013-11-17T22:21:49.000+00:00"
 [author]
-	name = "Sam"
-	uri = "https://www.blogger.com/profile/17287663242255586665"
+name = "Sam"
+uri = "https://www.blogger.com/profile/17287663242255586665"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

@@ -1,12 +1,12 @@
-id = "9063690518574474298"
-date = 2015-02-24T02:44:57Z
-updated = 2015-02-24T02:44:57Z
-title = '''I agree almost completely with a lot of what you&#...'''
-content = '''I agree almost completely with a lot of what you&#39;re saying and I&#39;m sure there is a large body of developers that want to make good quality software and are similarly disillusioned with trends in the industry. The fact is some software out there, churned out by large companies used by millions, is just awful. But if you go down that road of asking questions about why things are this way, well you could end up getting very depressed about the state of the world in general. I think there&#39;s so much at play driving a focus away from &#39;craftsmanship&#39; / &#39;mastery&#39; of a trade in this world. Politics, economics and society in general, things that in any industry are difficult to get away from.<br /><br />The only thing I would say is we shouldn&#39;t forget how lucky we are to have skills that are in huge demand - even if we have to work on some crap we&#39;re not proud of from time to time. I think the important thing that could bring about a change for the better is if more engineers spoke up about this and demanded more / better on principle, rather than the usual stupid cliches and perks demanded from an employer. To do this we also need to get a lot better at putting forward convincing arguments. Unfortunately this can become a game of manipulating other people which is just sad and probably most engineers don&#39;t want to do (if they did they&#39;d be managers instead).'''
+content = "I agree almost completely with a lot of what you&#39;re saying and I&#39;m sure there is a large body of developers that want to make good quality software and are similarly disillusioned with trends in the industry. The fact is some software out there, churned out by large companies used by millions, is just awful. But if you go down that road of asking questions about why things are this way, well you could end up getting very depressed about the state of the world in general. I think there&#39;s so much at play driving a focus away from &#39;craftsmanship&#39; / &#39;mastery&#39; of a trade in this world. Politics, economics and society in general, things that in any industry are difficult to get away from.<br /><br />The only thing I would say is we shouldn&#39;t forget how lucky we are to have skills that are in huge demand - even if we have to work on some crap we&#39;re not proud of from time to time. I think the important thing that could bring about a change for the better is if more engineers spoke up about this and demanded more / better on principle, rather than the usual stupid cliches and perks demanded from an employer. To do this we also need to get a lot better at putting forward convincing arguments. Unfortunately this can become a game of manipulating other people which is just sad and probably most engineers don&#39;t want to do (if they did they&#39;d be managers instead)."
+date = "2015-02-24T02:44:57+00:00"
+id = 9063690518574474298
+title = "I agree almost completely with a lot of what you&#..."
+updated = "2015-02-24T02:44:57.000+00:00"
 [author]
-	name = "Stewart Sims"
-	uri = "https://www.blogger.com/profile/04510773296728349319"
+name = "Stewart Sims"
+uri = "https://www.blogger.com/profile/04510773296728349319"
 [author.image]
-	source = "//lh3.googleusercontent.com/-J8kzE3H5Sl4/AAAAAAAAAAI/AAAAAAAAAHM/lMx-qyqGUW8/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh3.googleusercontent.com/-J8kzE3H5Sl4/AAAAAAAAAAI/AAAAAAAAAHM/lMx-qyqGUW8/s32-c/photo.jpg"
+width = 32

@@ -1,13 +1,13 @@
-id = "968810419750691958"
-date = 2013-02-10T22:33:47Z
-updated = 2013-02-10T22:33:47Z
-title = '''I am intrigued by your offer but you don&#39;t see...'''
-content = '''I am intrigued by your offer but you don&#39;t seem to have an address I can e-mail :('''
+content = "I am intrigued by your offer but you don&#39;t seem to have an address I can e-mail :("
+date = "2013-02-10T22:33:47+00:00"
+id = 968810419750691958
 reply = 1939342572021803295
+title = "I am intrigued by your offer but you don&#39;t see..."
+updated = "2013-02-10T22:33:47.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
+width = 32

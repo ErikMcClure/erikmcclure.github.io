@@ -1,13 +1,13 @@
-id = "4424752148178354861"
-date = 2012-11-26T21:01:25Z
-updated = 2012-11-26T21:01:25Z
-title = '''Our human-centric ways of thinking are endemic thr...'''
-content = '''Our human-centric ways of thinking are endemic through almost all philosophical discussion, for obvious reasons, including the ones you cited. This simply takes a look at things from a more general view to point out that, when you remove humans from the equation, everything does not automatically go to hell.'''
+content = "Our human-centric ways of thinking are endemic through almost all philosophical discussion, for obvious reasons, including the ones you cited. This simply takes a look at things from a more general view to point out that, when you remove humans from the equation, everything does not automatically go to hell."
+date = "2012-11-26T21:01:25+00:00"
+id = 4424752148178354861
 reply = 212943699630600086
+title = "Our human-centric ways of thinking are endemic thr..."
+updated = "2012-11-26T21:01:25.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
+width = 32

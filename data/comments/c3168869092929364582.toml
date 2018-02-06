@@ -1,12 +1,12 @@
-id = "3168869092929364582"
-date = 2012-02-11T12:35:07Z
-updated = 2012-02-11T12:35:07Z
-title = '''Who the hell would do &quot;for (unsigned int i = ...'''
-content = '''Who the hell would do &quot;for (unsigned int i = foo.Length()-1; i &gt;= 0; --i)&quot;?<br />That&#39;s just idiotic, because you are specifically saying that it has to be positive, and then giving a condition that says that it needs to be negative for it to end. You might as well say &quot;while(true)&quot;, because a non-negative number obviously cannot be negative.'''
+content = "Who the hell would do &quot;for (unsigned int i = foo.Length()-1; i &gt;= 0; --i)&quot;?<br />That&#39;s just idiotic, because you are specifically saying that it has to be positive, and then giving a condition that says that it needs to be negative for it to end. You might as well say &quot;while(true)&quot;, because a non-negative number obviously cannot be negative."
+date = "2012-02-11T12:35:07+00:00"
+id = 3168869092929364582
+title = "Who the hell would do &quot;for (unsigned int i = ..."
+updated = "2012-02-11T12:35:07.000+00:00"
 [author]
-	name = "Mikk"
-	uri = "https://www.blogger.com/profile/04909781992628594418"
+name = "Mikk"
+uri = "https://www.blogger.com/profile/04909781992628594418"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

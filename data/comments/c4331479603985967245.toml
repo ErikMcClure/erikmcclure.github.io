@@ -1,12 +1,12 @@
-id = "4331479603985967245"
-date = 2011-08-05T13:56:38Z
-updated = 2011-08-05T13:56:38Z
-title = '''The OSSAL looks promising, but is not an approved ...'''
-content = '''The OSSAL looks promising, but is not an approved open-source license, which causes its own problems for hosting and such.'''
+content = "The OSSAL looks promising, but is not an approved open-source license, which causes its own problems for hosting and such."
+date = "2011-08-05T13:56:38+00:00"
+id = 4331479603985967245
+title = "The OSSAL looks promising, but is not an approved ..."
+updated = "2011-08-05T13:56:38.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//1.bp.blogspot.com/-K3nGMEbXbqI/Tg5QXhNWUNI/AAAAAAAAAGA/OmzJ8Trn7ZI/s32/avvy7_5.png"
-	width = "32"
-	height = "32"
+height = 32
+source = "//1.bp.blogspot.com/-K3nGMEbXbqI/Tg5QXhNWUNI/AAAAAAAAAGA/OmzJ8Trn7ZI/s32/avvy7_5.png"
+width = 32

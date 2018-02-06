@@ -1,12 +1,12 @@
-id = "1803681051684268790"
-date = 2012-12-18T11:11:46Z
-updated = 2012-12-18T11:11:46Z
-title = '''A little slow on this one, 3 months down the line ...'''
-content = '''A little slow on this one, 3 months down the line though, but I had to reply:<br /><br />I was actually looking for an article I read on how rasterization (and various &quot;faking it&quot; shaders) is(are) effectively indistinguishable from raytracing when I came across this. Put in that light, I&#39;d say your points about not being able to trace to very deep depths, perfectly simulate the effects of distant stars, and provide adequade material descriptions are moot.<br /><br />But really, it seems to me when you wrote that you were just warming up, and the point you are trying to push home is something along the lines of &quot;rendering isn&#39;t everything&quot;. A point which I wholeheartedly agree on. I would love to see proper physicaly simulated materials in game, not just ghetto-destruction-algorithms [more accurate non-real time algorithms do exist, which excite me about future possibilities] but also chemical interaction. I want to see wood walls burn, and see acid eat through metal floors [i guess this would require voxel based rendering though?]<br /><br />What really made me want to reply though, was your point on game AI. IO think when you wrote &quot;rely on techniques from 1968&quot; you meant &quot;rely on A*&quot; because to see ANY other algorithm, even a dated one, is an absolute blessing. Not that i&#39;m knocking on A*, it&#39;s a great solution to path-finding, but it&#39;s roles are limited. I would LOVE to see more use of proper AI, machine learning, neural networks, computer vision (kinect was a godsend here). It seems every (nearly, there are exceptions) game &quot;AI&quot; I see though, is nothing but a simple precompiled script of &quot;actions to take&quot;. Not something that even deserves the title of &quot;AI&quot;.'''
+content = "A little slow on this one, 3 months down the line though, but I had to reply:<br /><br />I was actually looking for an article I read on how rasterization (and various &quot;faking it&quot; shaders) is(are) effectively indistinguishable from raytracing when I came across this. Put in that light, I&#39;d say your points about not being able to trace to very deep depths, perfectly simulate the effects of distant stars, and provide adequade material descriptions are moot.<br /><br />But really, it seems to me when you wrote that you were just warming up, and the point you are trying to push home is something along the lines of &quot;rendering isn&#39;t everything&quot;. A point which I wholeheartedly agree on. I would love to see proper physicaly simulated materials in game, not just ghetto-destruction-algorithms [more accurate non-real time algorithms do exist, which excite me about future possibilities] but also chemical interaction. I want to see wood walls burn, and see acid eat through metal floors [i guess this would require voxel based rendering though?]<br /><br />What really made me want to reply though, was your point on game AI. IO think when you wrote &quot;rely on techniques from 1968&quot; you meant &quot;rely on A*&quot; because to see ANY other algorithm, even a dated one, is an absolute blessing. Not that i&#39;m knocking on A*, it&#39;s a great solution to path-finding, but it&#39;s roles are limited. I would LOVE to see more use of proper AI, machine learning, neural networks, computer vision (kinect was a godsend here). It seems every (nearly, there are exceptions) game &quot;AI&quot; I see though, is nothing but a simple precompiled script of &quot;actions to take&quot;. Not something that even deserves the title of &quot;AI&quot;."
+date = "2012-12-18T11:11:46+00:00"
+id = 1803681051684268790
+title = "A little slow on this one, 3 months down the line ..."
+updated = "2012-12-18T11:11:46.000+00:00"
 [author]
-	name = "Cracky"
-	uri = "https://www.blogger.com/profile/11192014311958603067"
+name = "Cracky"
+uri = "https://www.blogger.com/profile/11192014311958603067"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

@@ -1,12 +1,12 @@
-id = "5045717989201743859"
-date = 2013-02-10T20:57:09Z
-updated = 2013-02-10T20:57:09Z
-title = '''Erik, if you haven&#39;t seen the HN discussion of...'''
-content = '''Erik, if you haven&#39;t seen the HN discussion of this post yet, please checkout this comment from it:<br /><br />http://news.ycombinator.com/item?id=5199042<br /><br />David'''
+content = "Erik, if you haven&#39;t seen the HN discussion of this post yet, please checkout this comment from it:<br /><br />http://news.ycombinator.com/item?id=5199042<br /><br />David"
+date = "2013-02-10T20:57:09+00:00"
+id = 5045717989201743859
+title = "Erik, if you haven&#39;t seen the HN discussion of..."
+updated = "2013-02-10T20:57:09.000+00:00"
 [author]
-	name = "David Lindsey"
-	uri = "https://www.blogger.com/profile/08210550116071338798"
+name = "David Lindsey"
+uri = "https://www.blogger.com/profile/08210550116071338798"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

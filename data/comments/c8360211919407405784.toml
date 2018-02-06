@@ -1,12 +1,12 @@
-id = "8360211919407405784"
-date = 2011-11-08T11:29:26Z
-updated = 2011-11-08T11:29:26Z
-title = '''While you are reforming topics and sequence, pleas...'''
-content = '''While you are reforming topics and sequence, please provide a foundation in descriptive and inferential statistics before leaving high school.<br /><br />Arguably, there is no post-arithmetic math more essential to citizenship.'''
+content = "While you are reforming topics and sequence, please provide a foundation in descriptive and inferential statistics before leaving high school.<br /><br />Arguably, there is no post-arithmetic math more essential to citizenship."
+date = "2011-11-08T11:29:26+00:00"
+id = 8360211919407405784
+title = "While you are reforming topics and sequence, pleas..."
+updated = "2011-11-08T11:29:26.000+00:00"
 [author]
-	name = "steele"
-	uri = "http://claimid.com/steele"
+name = "steele"
+uri = "http://claimid.com/steele"
 [author.image]
-	source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
+width = 35

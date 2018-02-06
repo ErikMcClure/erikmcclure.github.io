@@ -1,12 +1,12 @@
-id = "1835446767215486925"
-date = 2012-05-21T15:57:09Z
-updated = 2012-05-21T15:57:09Z
-title = '''Thanks for this. Just what I need. I went from str...'''
-content = '''Thanks for this. Just what I need. I went from straight C to C#, and now back to C++ and this is helping me bridge the gap between the two.'''
+content = "Thanks for this. Just what I need. I went from straight C to C#, and now back to C++ and this is helping me bridge the gap between the two."
+date = "2012-05-21T15:57:09+00:00"
+id = 1835446767215486925
+title = "Thanks for this. Just what I need. I went from str..."
+updated = "2012-05-21T15:57:09.000+00:00"
 [author]
-	name = "shimona"
-	uri = "http://shimona.myopenid.com/"
+name = "shimona"
+uri = "http://shimona.myopenid.com/"
 [author.image]
-	source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
+width = 35

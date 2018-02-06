@@ -1,13 +1,13 @@
-id = "2481811711999263159"
-date = 2013-02-11T18:48:19Z
-updated = 2013-02-11T18:48:19Z
-title = '''Not really. Theoretically maybe, but the interpola...'''
-content = '''Not really. Theoretically maybe, but the interpolation itself is almost as expensive as simply calculating the reflection, because by definition it would have to be at least a quadratic equation. Even then, this is incredibly pointless, because modern games no longer use such basic lighting curves anyway, they use curves like the Oren-Nayar reflectance model: http://en.wikipedia.org/wiki/Oren%E2%80%93Nayar_reflectance_model.'''
+content = "Not really. Theoretically maybe, but the interpolation itself is almost as expensive as simply calculating the reflection, because by definition it would have to be at least a quadratic equation. Even then, this is incredibly pointless, because modern games no longer use such basic lighting curves anyway, they use curves like the Oren-Nayar reflectance model: http://en.wikipedia.org/wiki/Oren%E2%80%93Nayar_reflectance_model."
+date = "2013-02-11T18:48:19+00:00"
+id = 2481811711999263159
 reply = 8385004382040472649
+title = "Not really. Theoretically maybe, but the interpola..."
+updated = "2013-02-11T18:48:19.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
+width = 32

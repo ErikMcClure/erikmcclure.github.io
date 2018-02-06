@@ -1,12 +1,12 @@
-id = "3912276613854549727"
-date = 2012-02-06T20:04:38Z
-updated = 2012-02-06T20:04:38Z
-title = '''Great post.I&#39;m slowly realizing this problem...'''
-content = '''Great post.<br /><br />I&#39;m slowly realizing this problem as I&#39;m pursuing my PhD. The amount of math my friends need to know for their machine learning research projects is absolutely insane, yet even they will describe their work as &quot;just coding&quot;.'''
+content = "Great post.<br /><br />I&#39;m slowly realizing this problem as I&#39;m pursuing my PhD. The amount of math my friends need to know for their machine learning research projects is absolutely insane, yet even they will describe their work as &quot;just coding&quot;."
+date = "2012-02-06T20:04:38+00:00"
+id = 3912276613854549727
+title = "Great post.I&#39;m slowly realizing this problem..."
+updated = "2012-02-06T20:04:38.000+00:00"
 [author]
-	name = "Yubin Kim"
-	uri = "https://www.blogger.com/profile/13710399161289214239"
+name = "Yubin Kim"
+uri = "https://www.blogger.com/profile/13710399161289214239"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

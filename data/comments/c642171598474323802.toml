@@ -1,12 +1,12 @@
-id = "642171598474323802"
-date = 2011-11-08T07:43:54Z
-updated = 2011-11-08T07:43:54Z
-title = '''Teaching basic set theory, compact sets etc. was t...'''
-content = '''Teaching basic set theory, compact sets etc. was tried in the 1960&#39;s, for elementary and middle school. It was called &quot;New Math&quot;. I had it in the 1970&#39;s in the south.<br /><br />I never understood why it was taught until I audited real analysis in graduate school. I think the math teachers had not studied enough math to understand why it was important and how it was used. Also, at least my high school math teachers presented theorems as the key useful tools for application, rather than the methods for proving the theorems.'''
+content = "Teaching basic set theory, compact sets etc. was tried in the 1960&#39;s, for elementary and middle school. It was called &quot;New Math&quot;. I had it in the 1970&#39;s in the south.<br /><br />I never understood why it was taught until I audited real analysis in graduate school. I think the math teachers had not studied enough math to understand why it was important and how it was used. Also, at least my high school math teachers presented theorems as the key useful tools for application, rather than the methods for proving the theorems."
+date = "2011-11-08T07:43:54+00:00"
+id = 642171598474323802
+title = "Teaching basic set theory, compact sets etc. was t..."
+updated = "2011-11-08T07:43:54.000+00:00"
 [author]
-	name = "PB"
-	uri = "https://www.blogger.com/profile/08064894914609893451"
+name = "PB"
+uri = "https://www.blogger.com/profile/08064894914609893451"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

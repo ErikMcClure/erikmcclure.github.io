@@ -1,12 +1,12 @@
-id = "4227793840259496466"
-date = 2014-09-23T15:00:48Z
-updated = 2014-09-23T15:00:48Z
-title = '''http://dlsso.wordpress.com/2013/09/22/you-cant-rol...'''
-content = '''http://dlsso.wordpress.com/2013/09/22/you-cant-rollerskate-in-a-buffalo-herd/<br /><br />I am the author of the above post. Long term happiness and your circumstances have virtually nothing to do with each other. You might not believe that yet but by my guess making this post is an important step. I&#39;d love to discuss with you or anyone who cares to. Figuring it out made my life way better so I&#39;m always looking to pay it forward.'''
+content = "http://dlsso.wordpress.com/2013/09/22/you-cant-rollerskate-in-a-buffalo-herd/<br /><br />I am the author of the above post. Long term happiness and your circumstances have virtually nothing to do with each other. You might not believe that yet but by my guess making this post is an important step. I&#39;d love to discuss with you or anyone who cares to. Figuring it out made my life way better so I&#39;m always looking to pay it forward."
+date = "2014-09-23T15:00:48+00:00"
+id = 4227793840259496466
+title = "http://dlsso.wordpress.com/2013/09/22/you-cant-rol..."
+updated = "2014-09-23T15:00:48.000+00:00"
 [author]
-	name = "dlsso"
-	uri = "http://dlsso.wordpress.com/"
+name = "dlsso"
+uri = "http://dlsso.wordpress.com/"
 [author.image]
-	source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
+width = 35

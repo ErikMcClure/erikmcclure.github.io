@@ -1,12 +1,12 @@
-id = "6073788887083519745"
-date = 2012-10-12T17:47:21Z
-updated = 2012-10-12T17:47:21Z
-title = '''rendering an invalid physics state when using extr...'''
-content = '''rendering an invalid physics state when using extrapolation is sporadic and if it happens it probably doesn&#39;t even take 10ms. So you are telling me that you are limiting your game to 60FPS just to be deterministic? Wow, gamers with a monitors with any other frequency than 60 Herz must be pretty disappointed with your engine. Wait, even if you do not want to be deterministic you are using fixed time steps? You are aware that it is possible to use dynamic length time steps so the physics keep up with the render FPS, right?<br /><br />Let me guess what you are going to say: &quot;If the player wants 120 Hz, I&#39;ll just crank up the physics to 120 FPS&quot;, showing that you still don&#39;t get what we are trying to achieve by ensuring determinism.<br /><br />I &#39;can&#39; render faster then the physics time step. If physics runs at a meager 20FPS, everything still runs smoothly (because of a render FPS of 1000+ FPS and extrapolation) I can&#39;t even see those nasty physics artifacts you seem to dislike so much. At an update of 60 FPS this becomes even less of a problem. If you can call it a problem, as it isn&#39;t even noticeable.'''
+content = "rendering an invalid physics state when using extrapolation is sporadic and if it happens it probably doesn&#39;t even take 10ms. So you are telling me that you are limiting your game to 60FPS just to be deterministic? Wow, gamers with a monitors with any other frequency than 60 Herz must be pretty disappointed with your engine. Wait, even if you do not want to be deterministic you are using fixed time steps? You are aware that it is possible to use dynamic length time steps so the physics keep up with the render FPS, right?<br /><br />Let me guess what you are going to say: &quot;If the player wants 120 Hz, I&#39;ll just crank up the physics to 120 FPS&quot;, showing that you still don&#39;t get what we are trying to achieve by ensuring determinism.<br /><br />I &#39;can&#39; render faster then the physics time step. If physics runs at a meager 20FPS, everything still runs smoothly (because of a render FPS of 1000+ FPS and extrapolation) I can&#39;t even see those nasty physics artifacts you seem to dislike so much. At an update of 60 FPS this becomes even less of a problem. If you can call it a problem, as it isn&#39;t even noticeable."
+date = "2012-10-12T17:47:21+00:00"
+id = 6073788887083519745
+title = "rendering an invalid physics state when using extr..."
+updated = "2012-10-12T17:47:21.000+00:00"
 [author]
-	name = "Alex de Vries"
-	uri = "https://www.blogger.com/profile/10014738507379308518"
+name = "Alex de Vries"
+uri = "https://www.blogger.com/profile/10014738507379308518"
 [author.image]
-	source = "//lh3.googleusercontent.com/-uwLhDcc6ze4/AAAAAAAAAAI/AAAAAAAAAAA/40Ra3RcSSfc/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh3.googleusercontent.com/-uwLhDcc6ze4/AAAAAAAAAAI/AAAAAAAAAAA/40Ra3RcSSfc/s32-c/photo.jpg"
+width = 32

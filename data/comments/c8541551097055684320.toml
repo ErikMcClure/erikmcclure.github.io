@@ -1,13 +1,13 @@
-id = "8541551097055684320"
-date = 2013-11-18T14:06:23Z
-updated = 2013-11-18T14:06:23Z
-title = '''@Maryland   Why is that?'''
-content = '''@Maryland   Why is that?'''
+content = "@Maryland   Why is that?"
+date = "2013-11-18T14:06:23+00:00"
+id = 8541551097055684320
 reply = 8821838394134736282
+title = "@Maryland   Why is that?"
+updated = "2013-11-18T14:06:23.000+00:00"
 [author]
-	name = "R"
-	uri = "https://www.blogger.com/profile/07220331362504408621"
+name = "R"
+uri = "https://www.blogger.com/profile/07220331362504408621"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

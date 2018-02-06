@@ -1,10 +1,10 @@
 +++
 blogimport = true
 categories = ["blog"]
+comments = [6636096682772118356, 1441360515070578014]
 date = "2013-05-30T16:54:00Z"
 title = "How To Complain About Men And Be Sexist At The Same Time"
 updated = "2013-05-30T16:59:31.000+00:00"
-comments = [ 6636096682772118356, 1441360515070578014 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

@@ -1,13 +1,13 @@
-id = "3420926682952019918"
-date = 2013-07-15T02:36:45Z
-updated = 2013-07-15T02:36:45Z
-title = '''I&#39;ve been working on ideas for teaching abstra...'''
-content = '''I&#39;ve been working on ideas for teaching abstract math concepts to very young children that introduces them to concepts in such a way that it builds a much better framework for things like algebra and calculus. I may detail them in a later blog post.'''
+content = "I&#39;ve been working on ideas for teaching abstract math concepts to very young children that introduces them to concepts in such a way that it builds a much better framework for things like algebra and calculus. I may detail them in a later blog post."
+date = "2013-07-15T02:36:45+00:00"
+id = 3420926682952019918
 reply = 1938315260331452353
+title = "I&#39;ve been working on ideas for teaching abstra..."
+updated = "2013-07-15T02:36:45.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAATg/MTUxLVTrHHo/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAATg/MTUxLVTrHHo/s32-c/photo.jpg"
+width = 32

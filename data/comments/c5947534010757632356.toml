@@ -1,12 +1,12 @@
-id = "5947534010757632356"
-date = 2017-09-26T05:58:45Z
-updated = 2017-09-26T05:58:45Z
-title = '''Great article with excellent idea!Thank you for su...'''
-content = '''Great article with excellent idea!Thank you for such a valuable article. I really appreciate for this great information..<br /><a href="https://www.lightingo.co.uk/40-pendant-lights" rel="nofollow">Pendant Lights</a><br />'''
+content = "Great article with excellent idea!Thank you for such a valuable article. I really appreciate for this great information..<br /><a href=\"https://www.lightingo.co.uk/40-pendant-lights\" rel=\"nofollow\">Pendant Lights</a><br />"
+date = "2017-09-26T05:58:45+00:00"
+id = 5947534010757632356
+title = "Great article with excellent idea!Thank you for su..."
+updated = "2017-09-26T05:58:45.000+00:00"
 [author]
-	name = "harry son"
-	uri = "https://www.blogger.com/profile/00954044657374632360"
+name = "harry son"
+uri = "https://www.blogger.com/profile/00954044657374632360"
 [author.image]
-	source = "//lh4.googleusercontent.com/-LtOiY8ToLW8/AAAAAAAAAAI/AAAAAAAAABo/1a6TplIgBNo/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh4.googleusercontent.com/-LtOiY8ToLW8/AAAAAAAAAAI/AAAAAAAAABo/1a6TplIgBNo/s32-c/photo.jpg"
+width = 32

@@ -1,13 +1,13 @@
-id = "1519567413567689557"
-date = 2013-01-19T18:16:27Z
-updated = 2013-01-19T18:16:27Z
-title = '''I&#39;ve spent some time thinking about that in te...'''
-content = '''I&#39;ve spent some time thinking about that in terms of what kind of futuristic technologies would actually be useful instead of just annoying, but I haven&#39;t gone very far with it because of school/work/life/etc.<br /><br />The problem with JSON over HTTP is that its all web based, and the problem with web based stuff is that its an amazingly inefficient platform for doing anything like office work. Javascript is a disaster and HTML was never even designed for user interfaces. The sheer amount of inefficiency going on belies a general complexity problem that is dragging down the entirety of software development, and must be addressed, or our future will be one that&#39;s stitched together with duct tape.<br /><br />Just as we need to reduce program complexity in general, we also need a simplistic universal API for transferring arbitrary data, preferably between both native programs and web apps.'''
+content = "I&#39;ve spent some time thinking about that in terms of what kind of futuristic technologies would actually be useful instead of just annoying, but I haven&#39;t gone very far with it because of school/work/life/etc.<br /><br />The problem with JSON over HTTP is that its all web based, and the problem with web based stuff is that its an amazingly inefficient platform for doing anything like office work. Javascript is a disaster and HTML was never even designed for user interfaces. The sheer amount of inefficiency going on belies a general complexity problem that is dragging down the entirety of software development, and must be addressed, or our future will be one that&#39;s stitched together with duct tape.<br /><br />Just as we need to reduce program complexity in general, we also need a simplistic universal API for transferring arbitrary data, preferably between both native programs and web apps."
+date = "2013-01-19T18:16:27+00:00"
+id = 1519567413567689557
 reply = 4697838093479141733
+title = "I&#39;ve spent some time thinking about that in te..."
+updated = "2013-01-19T18:16:27.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
+width = 32

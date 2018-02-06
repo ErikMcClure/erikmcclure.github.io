@@ -1,12 +1,12 @@
-id = "7194633335323624107"
-date = 2017-06-24T09:58:26Z
-updated = 2017-06-24T09:58:26Z
-title = '''Have you considered having multiple bot accounts t...'''
-content = '''Have you considered having multiple bot accounts to work around the rate limiting?'''
+content = "Have you considered having multiple bot accounts to work around the rate limiting?"
+date = "2017-06-24T09:58:26+00:00"
+id = 7194633335323624107
+title = "Have you considered having multiple bot accounts t..."
+updated = "2017-06-24T09:58:26.000+00:00"
 [author]
-	name = "Orphis"
-	uri = "https://www.blogger.com/profile/06043644419917173546"
+name = "Orphis"
+uri = "https://www.blogger.com/profile/06043644419917173546"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

@@ -1,13 +1,13 @@
-id = "1000716346256795819"
-date = 2012-10-02T01:08:54Z
-updated = 2012-10-02T01:08:54Z
-title = '''No I don&#39;t realize that, and if you&#39;re of ...'''
-content = '''No I don&#39;t realize that, and if you&#39;re of that opinion, then mine differs. There are lots of known problems that would be rewarding to solve. I&#39;m sure there are lots of unknown ones that would be rewarding to solve too, but I doubt they&#39;re as numerous, or, in general, equally rewarding.<br /><br />Steve Jobs had the rare quality of recognizing such problems and the courage to invest into them. I do not. If you you feel you&#39;re up to something then I wish you the best of luck in your project. I&#39;ve shared my piece of advice already. Maybe I&#39;m wrong and you&#39;re right to ignore it.'''
+content = "No I don&#39;t realize that, and if you&#39;re of that opinion, then mine differs. There are lots of known problems that would be rewarding to solve. I&#39;m sure there are lots of unknown ones that would be rewarding to solve too, but I doubt they&#39;re as numerous, or, in general, equally rewarding.<br /><br />Steve Jobs had the rare quality of recognizing such problems and the courage to invest into them. I do not. If you you feel you&#39;re up to something then I wish you the best of luck in your project. I&#39;ve shared my piece of advice already. Maybe I&#39;m wrong and you&#39;re right to ignore it."
+date = "2012-10-02T01:08:54+00:00"
+id = 1000716346256795819
 reply = 8613956414443496038
+title = "No I don&#39;t realize that, and if you&#39;re of ..."
+updated = "2012-10-02T01:08:54.000+00:00"
 [author]
-	name = "Stefan Lang"
-	uri = "https://www.blogger.com/profile/17091369106545713038"
+name = "Stefan Lang"
+uri = "https://www.blogger.com/profile/17091369106545713038"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

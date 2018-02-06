@@ -1,12 +1,12 @@
-id = "1454999213163312650"
-date = 2013-10-03T20:11:39Z
-updated = 2013-10-03T20:11:39Z
-title = '''F*** yeah!  You sir, are indeed a person who has b...'''
-content = '''F*** yeah!  You sir, are indeed a person who has balls.'''
+content = "F*** yeah!  You sir, are indeed a person who has balls."
+date = "2013-10-03T20:11:39+00:00"
+id = 1454999213163312650
+title = "F*** yeah!  You sir, are indeed a person who has b..."
+updated = "2013-10-03T20:11:39.000+00:00"
 [author]
-	name = "Robert Smith"
-	uri = "https://www.blogger.com/profile/12050702102681675581"
+name = "Robert Smith"
+uri = "https://www.blogger.com/profile/12050702102681675581"
 [author.image]
-	source = "//lh5.googleusercontent.com/-na7qDEEwVKk/AAAAAAAAAAI/AAAAAAAAAlY/wPVB9V-LU2M/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-na7qDEEwVKk/AAAAAAAAAAI/AAAAAAAAAlY/wPVB9V-LU2M/s32-c/photo.jpg"
+width = 32

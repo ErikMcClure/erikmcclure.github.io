@@ -1,12 +1,12 @@
-id = "5135375682110075769"
-date = 2011-09-20T15:54:23Z
-updated = 2011-09-20T15:54:23Z
-title = '''Third chapter is now up.'''
-content = '''Third chapter is now up.'''
+content = "Third chapter is now up."
+date = "2011-09-20T15:54:23+00:00"
+id = 5135375682110075769
+title = "Third chapter is now up."
+updated = "2011-09-20T15:54:23.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//1.bp.blogspot.com/-K3nGMEbXbqI/Tg5QXhNWUNI/AAAAAAAAAGA/OmzJ8Trn7ZI/s32/avvy7_5.png"
-	width = "32"
-	height = "32"
+height = 32
+source = "//1.bp.blogspot.com/-K3nGMEbXbqI/Tg5QXhNWUNI/AAAAAAAAAGA/OmzJ8Trn7ZI/s32/avvy7_5.png"
+width = 32

@@ -1,12 +1,12 @@
-id = "1183032431265227302"
-date = 2013-06-14T19:23:59Z
-updated = 2013-06-14T19:23:59Z
-title = '''Found your post on Reddit. I&#39;m a university ma...'''
-content = '''Found your post on Reddit. I&#39;m a university math professor and I would like to share this with my calculus classes this fall, if that&#39;s OK with you. Please know that there are a lot of us profs out here who totally agree with you and are trying to do something about it. '''
+content = "Found your post on Reddit. I&#39;m a university math professor and I would like to share this with my calculus classes this fall, if that&#39;s OK with you. Please know that there are a lot of us profs out here who totally agree with you and are trying to do something about it. "
+date = "2013-06-14T19:23:59+00:00"
+id = 1183032431265227302
+title = "Found your post on Reddit. I&#39;m a university ma..."
+updated = "2013-06-14T19:23:59.000+00:00"
 [author]
-	name = "Robert Talbert"
-	uri = "https://www.blogger.com/profile/00742845053131481875"
+name = "Robert Talbert"
+uri = "https://www.blogger.com/profile/00742845053131481875"
 [author.image]
-	source = "//bp3.blogger.com/_IaQj_JHd-JY/R1tTISdNhpI/AAAAAAAAAAM/d15PAAzewNU/S220-s32/RT+headshot+NLP+book.png"
-	width = "32"
-	height = "28"
+height = 28
+source = "//bp3.blogger.com/_IaQj_JHd-JY/R1tTISdNhpI/AAAAAAAAAAM/d15PAAzewNU/S220-s32/RT+headshot+NLP+book.png"
+width = 32

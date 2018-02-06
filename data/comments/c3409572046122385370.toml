@@ -1,13 +1,13 @@
-id = "3409572046122385370"
-date = 2012-10-01T06:58:11Z
-updated = 2012-10-01T06:58:11Z
-title = '''Well, your headline says &quot;raytracing doesn&#3...'''
-content = '''Well, your headline says &quot;raytracing doesn&#39;t solve&quot;. I may be reading too much into it, but as a mathematician I consider &quot;doesn&#39;t solve&quot; a pretty unambiguous and final statement. For me, this implies &quot;cannot be solved, ever&quot;, which equates to &quot;never&quot;. It is certainly not *my* opinion, just what I interpreted from your statements. Maybe I was wrong.<br /><br />In any case, IMHO you&#39;re extending the term photo-realism way too far. It only means an image that is sufficiently detailed that an uninformed observer couldn&#39;t tell if it&#39;s a photo or not. Pixar pretty much achieved this 20 years ago, or maybe 10, depending on the sharpness of the observer.<br /><br />The HDR is a problem of photos, not of ray-tracing.<br /><br />After reading Nathans comment below I have to agree: you&#39;re going into way too much detail for any practical purposes, and not for any good reason. Any object not in the focus of the viewer or too far away to be seen clearly can be handled with a simplified model of physics and graphics (and AI, if applicable). You can&#39;t simulate the entire unverse. Compromise!<br />'''
+content = "Well, your headline says &quot;raytracing doesn&#39;t solve&quot;. I may be reading too much into it, but as a mathematician I consider &quot;doesn&#39;t solve&quot; a pretty unambiguous and final statement. For me, this implies &quot;cannot be solved, ever&quot;, which equates to &quot;never&quot;. It is certainly not *my* opinion, just what I interpreted from your statements. Maybe I was wrong.<br /><br />In any case, IMHO you&#39;re extending the term photo-realism way too far. It only means an image that is sufficiently detailed that an uninformed observer couldn&#39;t tell if it&#39;s a photo or not. Pixar pretty much achieved this 20 years ago, or maybe 10, depending on the sharpness of the observer.<br /><br />The HDR is a problem of photos, not of ray-tracing.<br /><br />After reading Nathans comment below I have to agree: you&#39;re going into way too much detail for any practical purposes, and not for any good reason. Any object not in the focus of the viewer or too far away to be seen clearly can be handled with a simplified model of physics and graphics (and AI, if applicable). You can&#39;t simulate the entire unverse. Compromise!<br />"
+date = "2012-10-01T06:58:11+00:00"
+id = 3409572046122385370
 reply = 6496606234821686303
+title = "Well, your headline says &quot;raytracing doesn&#3..."
+updated = "2012-10-01T06:58:11.000+00:00"
 [author]
-	name = "Stefan Lang"
-	uri = "https://www.blogger.com/profile/17091369106545713038"
+name = "Stefan Lang"
+uri = "https://www.blogger.com/profile/17091369106545713038"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

@@ -1,12 +1,12 @@
-id = "6186007343732626111"
-date = 2013-02-25T15:13:20Z
-updated = 2013-02-25T15:13:20Z
-title = '''Every programming language has its own &quot;The D...'''
-content = '''Every programming language has its own &quot;The Dark Side of ...&quot;, even Python or Ruby deserves one. (selfness, tabs-spaces, endness, @#, ...)'''
+content = "Every programming language has its own &quot;The Dark Side of ...&quot;, even Python or Ruby deserves one. (selfness, tabs-spaces, endness, @#, ...)"
+date = "2013-02-25T15:13:20+00:00"
+id = 6186007343732626111
+title = "Every programming language has its own &quot;The D..."
+updated = "2013-02-25T15:13:20.000+00:00"
 [author]
-	name = "David García"
-	uri = "https://www.blogger.com/profile/01753766211888220969"
+name = "David García"
+uri = "https://www.blogger.com/profile/01753766211888220969"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

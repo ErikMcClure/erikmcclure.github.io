@@ -1,12 +1,12 @@
-id = "4751228645406544520"
-date = 2015-07-21T10:29:29Z
-updated = 2015-07-21T10:29:29Z
-title = '''You should stay away from spybuntu and try Arch Li...'''
-content = '''You should stay away from spybuntu and try Arch Linux instead.'''
+content = "You should stay away from spybuntu and try Arch Linux instead."
+date = "2015-07-21T10:29:29+00:00"
+id = 4751228645406544520
+title = "You should stay away from spybuntu and try Arch Li..."
+updated = "2015-07-21T10:29:29.000+00:00"
 [author]
-	name = "meli7"
-	uri = "https://www.blogger.com/profile/06551487624179954732"
+name = "meli7"
+uri = "https://www.blogger.com/profile/06551487624179954732"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

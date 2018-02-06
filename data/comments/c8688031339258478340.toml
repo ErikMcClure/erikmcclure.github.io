@@ -1,13 +1,13 @@
-id = "8688031339258478340"
-date = 2013-02-10T22:58:47Z
-updated = 2013-02-10T22:58:47Z
-title = '''I&#39;ve known what my ultimate goal is for a whil...'''
-content = '''I&#39;ve known what my ultimate goal is for a while. How I get there has constantly changed.'''
+content = "I&#39;ve known what my ultimate goal is for a while. How I get there has constantly changed."
+date = "2013-02-10T22:58:47+00:00"
+id = 8688031339258478340
 reply = 5403889791211499504
+title = "I&#39;ve known what my ultimate goal is for a whil..."
+updated = "2013-02-10T22:58:47.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
+width = 32

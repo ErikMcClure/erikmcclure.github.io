@@ -1,12 +1,12 @@
-id = "1733489175263833771"
-date = 2011-11-08T08:43:37Z
-updated = 2011-11-08T08:43:37Z
-title = '''Much radical change has been made to the way child...'''
-content = '''Much radical change has been made to the way children learn language; Math should follow suit. Children are receptive to wonder-ful things and math contains wonders aplenty. Learning math;however, can be a painful and dreary process.<br /><br />PS<br />Can you tutor my 12-year-old?  :)'''
+content = "Much radical change has been made to the way children learn language; Math should follow suit. Children are receptive to wonder-ful things and math contains wonders aplenty. Learning math;however, can be a painful and dreary process.<br /><br />PS<br />Can you tutor my 12-year-old?  :)"
+date = "2011-11-08T08:43:37+00:00"
+id = 1733489175263833771
+title = "Much radical change has been made to the way child..."
+updated = "2011-11-08T08:43:37.000+00:00"
 [author]
-	name = "Author:"
-	uri = "https://www.blogger.com/profile/17910251221542778255"
+name = "Author:"
+uri = "https://www.blogger.com/profile/17910251221542778255"
 [author.image]
-	source = "//3.bp.blogspot.com/-Q-gel7TH5Gs/TclIQ6a4d7I/AAAAAAAAAuo/IHRvk_6Wg3M/s32/profile.jpg"
-	width = "32"
-	height = "24"
+height = 24
+source = "//3.bp.blogspot.com/-Q-gel7TH5Gs/TclIQ6a4d7I/AAAAAAAAAuo/IHRvk_6Wg3M/s32/profile.jpg"
+width = 32

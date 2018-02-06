@@ -1,12 +1,12 @@
-id = "3835215067093425171"
-date = 2013-12-27T13:25:59Z
-updated = 2013-12-27T13:25:59Z
-title = '''You should probably throw in a link to JensenH&#39...'''
-content = '''You should probably throw in a link to JensenH&#39;s blog too because he covers this ground really well.'''
+content = "You should probably throw in a link to JensenH&#39;s blog too because he covers this ground really well."
+date = "2013-12-27T13:25:59+00:00"
+id = 3835215067093425171
+title = "You should probably throw in a link to JensenH&#39..."
+updated = "2013-12-27T13:25:59.000+00:00"
 [author]
-	name = "zianchoy"
-	uri = "http://zianchoy.livejournal.com/"
+name = "zianchoy"
+uri = "http://zianchoy.livejournal.com/"
 [author.image]
-	source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
+width = 35

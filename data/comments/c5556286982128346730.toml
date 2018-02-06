@@ -1,13 +1,13 @@
-id = "5556286982128346730"
-date = 2013-02-12T17:22:42Z
-updated = 2013-02-12T17:22:42Z
-title = '''No. A lot of people like to take that out of this ...'''
-content = '''No. A lot of people like to take that out of this post (which is perhaps why it&#39;s so popular, since people seem to read whatever they want out of it), but I have gotten very good at pinpointing my objectives. I only started working on the GUI toolkit, for example, after a week of deliberation and a lot of &quot;Ok are you seriously going to do this, yes ok I&#39;m seriously going to do this because I can&#39;t fucking get fucking CEGUI to fucking work jesus christ&quot;. The problem I run into is that, despite having well defined goals that I carefully trim to something reasonable, they often just require a fuckton of time, and my initial attempts are usually broken in some way that requires me to go back and fix them.'''
+content = "No. A lot of people like to take that out of this post (which is perhaps why it&#39;s so popular, since people seem to read whatever they want out of it), but I have gotten very good at pinpointing my objectives. I only started working on the GUI toolkit, for example, after a week of deliberation and a lot of &quot;Ok are you seriously going to do this, yes ok I&#39;m seriously going to do this because I can&#39;t fucking get fucking CEGUI to fucking work jesus christ&quot;. The problem I run into is that, despite having well defined goals that I carefully trim to something reasonable, they often just require a fuckton of time, and my initial attempts are usually broken in some way that requires me to go back and fix them."
+date = "2013-02-12T17:22:42+00:00"
+id = 5556286982128346730
 reply = 6120657810228329046
+title = "No. A lot of people like to take that out of this ..."
+updated = "2013-02-12T17:22:42.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
+width = 32

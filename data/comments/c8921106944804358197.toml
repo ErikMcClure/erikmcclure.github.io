@@ -1,13 +1,13 @@
-id = "8921106944804358197"
-date = 2013-02-25T03:08:41Z
-updated = 2013-02-25T03:08:41Z
-title = '''GCC is only consistent in that its consistently ba...'''
-content = '''GCC is only consistent in that its consistently bad. It&#39;s support for syntax is random and incoherent (you should have seen the insanely bizarre syntax bugs I was getting just because the calling convention was somewhere that GCC didn&#39;t like, despite the fact that in other contexts it didn&#39;t complain!), it has actual, documented bugs with blatant missing features in C++11 that even VC++ has supported since 2010 or earlier (stream objects don&#39;t have copy OR move constructors, which is INFURIATING), and the way it implements some things is truly questionable. For example, its va_arg implementation is done such that it&#39;s some kind of array instead of a simple pointer, which causes huge issues when you start sending it into functions and expect it to not change because it doesn&#39;t seem like it should behave like a pointer. Then of course, there are the laughably inaccurate and totally useless error messages it spits out on a constant basis.<br /><br />Clang is supposed to be better, but I&#39;ve never tried it. GCC, however, is nothing more than a different way to poison yourself. Also, if you try to use it on windows, you actually have to use it in MinGW, which has a completely different core library, and thus is completely and utterly inconsistent in every way possible. MinGW fails to implement many threadsafe functions that are otherwise available on Linux, and provides no alternative.<br /><br />So basically GCC isn&#39;t consistent at all. Mind you, microsoft&#39;s compiler sucks for a whole host of different reasons, but they both definitely suck equally badly.'''
+content = "GCC is only consistent in that its consistently bad. It&#39;s support for syntax is random and incoherent (you should have seen the insanely bizarre syntax bugs I was getting just because the calling convention was somewhere that GCC didn&#39;t like, despite the fact that in other contexts it didn&#39;t complain!), it has actual, documented bugs with blatant missing features in C++11 that even VC++ has supported since 2010 or earlier (stream objects don&#39;t have copy OR move constructors, which is INFURIATING), and the way it implements some things is truly questionable. For example, its va_arg implementation is done such that it&#39;s some kind of array instead of a simple pointer, which causes huge issues when you start sending it into functions and expect it to not change because it doesn&#39;t seem like it should behave like a pointer. Then of course, there are the laughably inaccurate and totally useless error messages it spits out on a constant basis.<br /><br />Clang is supposed to be better, but I&#39;ve never tried it. GCC, however, is nothing more than a different way to poison yourself. Also, if you try to use it on windows, you actually have to use it in MinGW, which has a completely different core library, and thus is completely and utterly inconsistent in every way possible. MinGW fails to implement many threadsafe functions that are otherwise available on Linux, and provides no alternative.<br /><br />So basically GCC isn&#39;t consistent at all. Mind you, microsoft&#39;s compiler sucks for a whole host of different reasons, but they both definitely suck equally badly."
+date = "2013-02-25T03:08:41+00:00"
+id = 8921106944804358197
 reply = 848576738587120552
+title = "GCC is only consistent in that its consistently ba..."
+updated = "2013-02-25T03:08:41.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAATg/MTUxLVTrHHo/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAATg/MTUxLVTrHHo/s32-c/photo.jpg"
+width = 32

@@ -1,13 +1,13 @@
-id = "5604923242881106514"
-date = 2013-07-30T10:54:43Z
-updated = 2013-07-30T10:54:43Z
-title = '''While I have ideas on how to teach math differentl...'''
-content = '''While I have ideas on how to teach math differently, I haven&#39;t had any opportunity to actually test them to see how effective they are.'''
+content = "While I have ideas on how to teach math differently, I haven&#39;t had any opportunity to actually test them to see how effective they are."
+date = "2013-07-30T10:54:43+00:00"
+id = 5604923242881106514
 reply = 5482404156209024958
+title = "While I have ideas on how to teach math differentl..."
+updated = "2013-07-30T10:54:43.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAaw/Ym0aio4SKV0/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAaw/Ym0aio4SKV0/s32-c/photo.jpg"
+width = 32

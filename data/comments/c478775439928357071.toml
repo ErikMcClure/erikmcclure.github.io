@@ -1,12 +1,12 @@
-id = "478775439928357071"
-date = 2013-11-18T03:58:18Z
-updated = 2013-11-18T03:58:18Z
-title = '''This happened even faster than I had predicted: ht...'''
-content = '''This happened even faster than I had predicted: http://future.jasonhanley.com/2010/08/google-becomes-microsoft.html'''
+content = "This happened even faster than I had predicted: http://future.jasonhanley.com/2010/08/google-becomes-microsoft.html"
+date = "2013-11-18T03:58:18+00:00"
+id = 478775439928357071
+title = "This happened even faster than I had predicted: ht..."
+updated = "2013-11-18T03:58:18.000+00:00"
 [author]
-	name = "Jason Hanley"
-	uri = "https://www.blogger.com/profile/13514025824859861317"
+name = "Jason Hanley"
+uri = "https://www.blogger.com/profile/13514025824859861317"
 [author.image]
-	source = "//lh5.googleusercontent.com/-QMS9VfP1cQ4/AAAAAAAAAAI/AAAAAAAAKr8/rNvkLF-AMnw/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-QMS9VfP1cQ4/AAAAAAAAAAI/AAAAAAAAKr8/rNvkLF-AMnw/s32-c/photo.jpg"
+width = 32

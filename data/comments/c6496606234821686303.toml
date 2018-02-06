@@ -1,12 +1,12 @@
-id = "6496606234821686303"
-date = 2012-09-28T08:08:04Z
-updated = 2012-09-28T08:08:04Z
-title = '''Sorry, but none of these problems are really at th...'''
-content = '''Sorry, but none of these problems are really at the doorstep of ray-tracing. These are common problems of game design and visualization. And you as a game designer have the choice to use one or another algorithm, depending on which solves your problems, or doesn&#39;t.<br /><br />Ray Tracing is an algorithm that constructs images based on a scientific model of cameras, lighting, a scene, and the optics involved. Depending on complexity of that model, Ray Tracing takes a very long time to compute, and modern hardware so far has been incapable to master that complexity in a sufficient degree to create real-time animations. That&#39;s all there is to say about it.<br /><br />That said, while ray tracing is horribly complex to compute, saying that &quot;ray tracing will never solve the problem of this complexity&quot; is just as silly as blaming the physicists for the complexity of quantum physics. It is what it is. If you cannot afford the complexity, go find another solution.<br /><br />I&#39;d suggest to check out Ray *casting*, and Octree, if simple polygonal rendering is not sufficient for you. But then I haven&#39;t been working in this area for 20 years, my advice may be outdated.'''
+content = "Sorry, but none of these problems are really at the doorstep of ray-tracing. These are common problems of game design and visualization. And you as a game designer have the choice to use one or another algorithm, depending on which solves your problems, or doesn&#39;t.<br /><br />Ray Tracing is an algorithm that constructs images based on a scientific model of cameras, lighting, a scene, and the optics involved. Depending on complexity of that model, Ray Tracing takes a very long time to compute, and modern hardware so far has been incapable to master that complexity in a sufficient degree to create real-time animations. That&#39;s all there is to say about it.<br /><br />That said, while ray tracing is horribly complex to compute, saying that &quot;ray tracing will never solve the problem of this complexity&quot; is just as silly as blaming the physicists for the complexity of quantum physics. It is what it is. If you cannot afford the complexity, go find another solution.<br /><br />I&#39;d suggest to check out Ray *casting*, and Octree, if simple polygonal rendering is not sufficient for you. But then I haven&#39;t been working in this area for 20 years, my advice may be outdated."
+date = "2012-09-28T08:08:04+00:00"
+id = 6496606234821686303
+title = "Sorry, but none of these problems are really at th..."
+updated = "2012-09-28T08:08:04.000+00:00"
 [author]
-	name = "Stefan Lang"
-	uri = "https://www.blogger.com/profile/17091369106545713038"
+name = "Stefan Lang"
+uri = "https://www.blogger.com/profile/17091369106545713038"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

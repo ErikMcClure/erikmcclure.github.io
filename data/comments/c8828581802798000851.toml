@@ -1,12 +1,12 @@
-id = "8828581802798000851"
-date = 2011-11-25T12:06:28Z
-updated = 2011-11-25T12:06:28Z
-title = '''I&#39;m not saying we should stop using signed int...'''
-content = '''I&#39;m not saying we should stop using signed integers. I just built a rational class that uses signed ints all over the place, including calling abs() on them. I&#39;m saying there are signed integers being used in places they do not belong, and its stupid, and it causes problems. Moving everything to signed does not solve the problems, because you have issues with abs() and two&#39;s complement to deal with. So either your dealing with potential negative numbers that are impossible to make positive, or you are dealing with unsigned/signed mismatches. Banishing unsigned integers only serves to force the programmer to deal with the problem one way. This doesn&#39;t even get into issues with pointers and the fact that they technically have an unsigned integral range which can cause serious problems when using pointer arithmetic. <br /><br />So either you can try to use only signed integers and deal with all the problems that introduces, or you can use unsigned integers where possible and deal with potential unsigned/signed mismatches. The real thing I&#39;m complaining about here are places people use signed integers when it serves only to cause problems. Ideally, one uses unsigned integers where using a signed integer introduces problems, and then use a signed integer where an unsigned integer causes problems. This insistence on using only signed integers is exactly what I am complaining about - both should be used where they belong.'''
+content = "I&#39;m not saying we should stop using signed integers. I just built a rational class that uses signed ints all over the place, including calling abs() on them. I&#39;m saying there are signed integers being used in places they do not belong, and its stupid, and it causes problems. Moving everything to signed does not solve the problems, because you have issues with abs() and two&#39;s complement to deal with. So either your dealing with potential negative numbers that are impossible to make positive, or you are dealing with unsigned/signed mismatches. Banishing unsigned integers only serves to force the programmer to deal with the problem one way. This doesn&#39;t even get into issues with pointers and the fact that they technically have an unsigned integral range which can cause serious problems when using pointer arithmetic. <br /><br />So either you can try to use only signed integers and deal with all the problems that introduces, or you can use unsigned integers where possible and deal with potential unsigned/signed mismatches. The real thing I&#39;m complaining about here are places people use signed integers when it serves only to cause problems. Ideally, one uses unsigned integers where using a signed integer introduces problems, and then use a signed integer where an unsigned integer causes problems. This insistence on using only signed integers is exactly what I am complaining about - both should be used where they belong."
+date = "2011-11-25T12:06:28+00:00"
+id = 8828581802798000851
+title = "I&#39;m not saying we should stop using signed int..."
+updated = "2011-11-25T12:06:28.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
+width = 32

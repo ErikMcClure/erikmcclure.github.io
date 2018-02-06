@@ -1,10 +1,10 @@
 +++
 blogimport = true
 categories = ["blog"]
+comments = [4877742090329074500, 5112339978362036945, 4227793840259496466]
 date = "2014-09-22T17:36:00Z"
 title = "What Use Is A Good Job?"
 updated = "2014-09-23T13:29:29.000+00:00"
-comments = [ 4877742090329074500, 5112339978362036945, 4227793840259496466 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

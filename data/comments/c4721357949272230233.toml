@@ -1,13 +1,13 @@
-id = "4721357949272230233"
-date = 2012-11-26T19:42:02Z
-updated = 2012-11-26T19:42:02Z
-title = '''Those questions are what I&#39;m waiting on to see...'''
-content = '''Those questions are what I&#39;m waiting on to see how Flow attempts to handle them. In this post I focused entirely on resolving the race conditions in a dependency graph where you know what each variable is dependent on in advance, which may actually be useful in implementing any highly concurrent language regardless of how it&#39;s actually done.'''
+content = "Those questions are what I&#39;m waiting on to see how Flow attempts to handle them. In this post I focused entirely on resolving the race conditions in a dependency graph where you know what each variable is dependent on in advance, which may actually be useful in implementing any highly concurrent language regardless of how it&#39;s actually done."
+date = "2012-11-26T19:42:02+00:00"
+id = 4721357949272230233
 reply = 4541202557533023376
+title = "Those questions are what I&#39;m waiting on to see..."
+updated = "2012-11-26T19:42:02.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
+width = 32

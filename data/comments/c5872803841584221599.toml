@@ -1,13 +1,13 @@
-id = "5872803841584221599"
-date = 2012-05-08T00:11:06Z
-updated = 2012-05-08T00:11:06Z
-title = '''The web seems to do a fairly good job of standardi...'''
-content = '''The web seems to do a fairly good job of standardizing things. The problem is that those standards have often been completely ignored.'''
+content = "The web seems to do a fairly good job of standardizing things. The problem is that those standards have often been completely ignored."
+date = "2012-05-08T00:11:06+00:00"
+id = 5872803841584221599
 reply = 5694020930163792211
+title = "The web seems to do a fairly good job of standardi..."
+updated = "2012-05-08T00:11:06.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
+width = 32

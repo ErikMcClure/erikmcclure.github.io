@@ -1,12 +1,12 @@
-id = "2483498689907460310"
-date = 2013-02-07T11:48:06Z
-updated = 2013-02-07T11:48:06Z
-title = '''Wow, that was interesting, thanks for sharing! Tha...'''
-content = '''Wow, that was interesting, thanks for sharing! That&#39;s the first fanfic I want to read :o '''
+content = "Wow, that was interesting, thanks for sharing! That&#39;s the first fanfic I want to read :o "
+date = "2013-02-07T11:48:06+00:00"
+id = 2483498689907460310
+title = "Wow, that was interesting, thanks for sharing! Tha..."
+updated = "2013-02-07T11:48:06.000+00:00"
 [author]
-	name = "Unknown"
-	uri = "https://www.blogger.com/profile/04246249235366020354"
+name = "Unknown"
+uri = "https://www.blogger.com/profile/04246249235366020354"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

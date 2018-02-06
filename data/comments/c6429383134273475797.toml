@@ -1,13 +1,13 @@
-id = "6429383134273475797"
-date = 2015-05-09T21:51:02Z
-updated = 2015-05-09T21:51:02Z
-title = '''This is probably the most insightful comment I&#39...'''
-content = '''This is probably the most insightful comment I&#39;ve ever gotten on one of my blog entries XD'''
+content = "This is probably the most insightful comment I&#39;ve ever gotten on one of my blog entries XD"
+date = "2015-05-09T21:51:02+00:00"
+id = 6429383134273475797
 reply = 1938605605834757472
+title = "This is probably the most insightful comment I&#39..."
+updated = "2015-05-09T21:51:02.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAdo/4sbjcZsncwU/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAdo/4sbjcZsncwU/s32-c/photo.jpg"
+width = 32

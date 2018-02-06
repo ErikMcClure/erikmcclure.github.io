@@ -1,12 +1,12 @@
-id = "8089392728415387586"
-date = 2012-04-10T22:09:02Z
-updated = 2012-04-10T22:09:02Z
-title = '''I think Eevee&#39;s post is copious evidence that ...'''
-content = '''I think Eevee&#39;s post is copious evidence that PHP isn&#39;t suitable for <em>any</em> purpose. Everything you can do with it can be done better, easier, faster, better looking, &lt;insert positive description here&gt; with some other language/tool. And given the state of the maintainers, it&#39;s going to stay that way. So yes, when you have a tool that isn&#39;t better than any of your other tools for anything -- that means it&#39;s a bad tool.'''
+content = "I think Eevee&#39;s post is copious evidence that PHP isn&#39;t suitable for <em>any</em> purpose. Everything you can do with it can be done better, easier, faster, better looking, &lt;insert positive description here&gt; with some other language/tool. And given the state of the maintainers, it&#39;s going to stay that way. So yes, when you have a tool that isn&#39;t better than any of your other tools for anything -- that means it&#39;s a bad tool."
+date = "2012-04-10T22:09:02+00:00"
+id = 8089392728415387586
+title = "I think Eevee&#39;s post is copious evidence that ..."
+updated = "2012-04-10T22:09:02.000+00:00"
 [author]
-	name = "Allen Short"
-	uri = "https://www.blogger.com/profile/02476178041186364808"
+name = "Allen Short"
+uri = "https://www.blogger.com/profile/02476178041186364808"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

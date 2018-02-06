@@ -1,12 +1,12 @@
-id = "5512906435975709125"
-date = 2013-02-10T23:43:13Z
-updated = 2013-02-10T23:43:13Z
-title = '''You&#39;re just unfocused. I&#39;ve checked out yo...'''
-content = '''You&#39;re just unfocused. I&#39;ve checked out your various profiles and you do everything from blogging to composing to writing code and constantly tweeting. That doesn&#39;t leave a lot of time to be truly productive.<br /><br />Here&#39;s what I mean: I got interested in your engine, so I checked out the Black Sphere site, and all the YouTube channels I could find - not a single video about Plane Shader, not a single video about Feather, not a single blog post here or a page on the BS site about bss-util. In other words, I can&#39;t see your productivity, but I can sure see a lot of activity. Black Sphere has profiles on every network, yet nothing that a customer, an investor, or a curious visitor can see.<br /><br />As far as your idealism and your &quot;mission,&quot; your invincibility will wear off (I think it&#39;s already started) in the coming years. You&#39;ll realize how important it is to prioritize your time and cut out the majority of socializing and dabbling in order to excel at the things you&#39;re talented at. You&#39;ll also realize that a corporate gig at a gaming shop or a GPU company is exponentially better than being a small fish in a huge pond, which is what a free game engine company in 2013 really is. Believe me, the problems you&#39;ll solve at nVidia will be more than enough of a challenge.<br /><br />Anyway, take a week off, hang out with friends and don&#39;t worry about your work. Hopefully you&#39;ll come back with renewed focus and energy. If not, give another field a try.'''
+content = "You&#39;re just unfocused. I&#39;ve checked out your various profiles and you do everything from blogging to composing to writing code and constantly tweeting. That doesn&#39;t leave a lot of time to be truly productive.<br /><br />Here&#39;s what I mean: I got interested in your engine, so I checked out the Black Sphere site, and all the YouTube channels I could find - not a single video about Plane Shader, not a single video about Feather, not a single blog post here or a page on the BS site about bss-util. In other words, I can&#39;t see your productivity, but I can sure see a lot of activity. Black Sphere has profiles on every network, yet nothing that a customer, an investor, or a curious visitor can see.<br /><br />As far as your idealism and your &quot;mission,&quot; your invincibility will wear off (I think it&#39;s already started) in the coming years. You&#39;ll realize how important it is to prioritize your time and cut out the majority of socializing and dabbling in order to excel at the things you&#39;re talented at. You&#39;ll also realize that a corporate gig at a gaming shop or a GPU company is exponentially better than being a small fish in a huge pond, which is what a free game engine company in 2013 really is. Believe me, the problems you&#39;ll solve at nVidia will be more than enough of a challenge.<br /><br />Anyway, take a week off, hang out with friends and don&#39;t worry about your work. Hopefully you&#39;ll come back with renewed focus and energy. If not, give another field a try."
+date = "2013-02-10T23:43:13+00:00"
+id = 5512906435975709125
+title = "You&#39;re just unfocused. I&#39;ve checked out yo..."
+updated = "2013-02-10T23:43:13.000+00:00"
 [author]
-	name = "Ivan M"
-	uri = "https://www.blogger.com/profile/02940434430554244627"
+name = "Ivan M"
+uri = "https://www.blogger.com/profile/02940434430554244627"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

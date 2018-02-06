@@ -1,13 +1,13 @@
-id = "7814067717559088715"
-date = 2012-02-29T00:27:22Z
-updated = 2012-02-29T00:27:22Z
-title = '''Have you read these articles http://blogs.msdn.com...'''
-content = '''Have you read these articles http://blogs.msdn.com/b/jensenh/archive/2006/03/28/563007.aspx about the ribbon design? Jensen Harris argues the ribbon occupies less screen real estate than the combination of other interface elements.<br /><br />Of course in an IDE, the interface should also need the &#39;status&#39; windows, but these could be tabs or collapsible or ...'''
+content = "Have you read these articles http://blogs.msdn.com/b/jensenh/archive/2006/03/28/563007.aspx about the ribbon design? Jensen Harris argues the ribbon occupies less screen real estate than the combination of other interface elements.<br /><br />Of course in an IDE, the interface should also need the &#39;status&#39; windows, but these could be tabs or collapsible or ..."
+date = "2012-02-29T00:27:22+00:00"
+id = 7814067717559088715
 reply = 3641431318452499209
+title = "Have you read these articles http://blogs.msdn.com..."
+updated = "2012-02-29T00:27:22.000+00:00"
 [author]
-	name = "Hans Polak"
-	uri = "https://www.blogger.com/profile/15576523594361994688"
+name = "Hans Polak"
+uri = "https://www.blogger.com/profile/15576523594361994688"
 [author.image]
-	source = "//lh3.googleusercontent.com/-R0kKiPEd6ZE/AAAAAAAAAAI/AAAAAAAAAEk/N9t02GYsy3s/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh3.googleusercontent.com/-R0kKiPEd6ZE/AAAAAAAAAAI/AAAAAAAAAEk/N9t02GYsy3s/s32-c/photo.jpg"
+width = 32

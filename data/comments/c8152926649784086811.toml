@@ -1,12 +1,12 @@
-id = "8152926649784086811"
-date = 2015-05-30T18:16:20Z
-updated = 2015-05-30T18:16:20Z
-title = '''This is probably worth a Master&#39;s thesis at le...'''
-content = '''This is probably worth a Master&#39;s thesis at least.'''
+content = "This is probably worth a Master&#39;s thesis at least."
+date = "2015-05-30T18:16:20+00:00"
+id = 8152926649784086811
+title = "This is probably worth a Master&#39;s thesis at le..."
+updated = "2015-05-30T18:16:20.000+00:00"
 [author]
-	name = "BlueNight"
-	uri = "https://www.blogger.com/profile/13059674637335099721"
+name = "BlueNight"
+uri = "https://www.blogger.com/profile/13059674637335099721"
 [author.image]
-	source = "//photos1.blogger.com/blogger/556/2376/1600/bnspbig.gif"
-	width = "32"
-	height = "32"
+height = 32
+source = "//photos1.blogger.com/blogger/556/2376/1600/bnspbig.gif"
+width = 32

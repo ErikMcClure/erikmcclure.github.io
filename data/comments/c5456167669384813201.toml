@@ -1,12 +1,12 @@
-id = "5456167669384813201"
-date = 2013-11-18T00:32:17Z
-updated = 2013-11-18T00:32:17Z
-title = '''Every single word you&#39;ve written is so true.A...'''
-content = '''Every single word you&#39;ve written is so true.<br />And I am happy to find that I am not alone who used to think so.<br />I was, and probably to some extent, was so much in love with them that I have participated HUGELY in their developer community efforts sometimes at my own expenses, just because our ideologies matched.<br /><br />But watching what&#39;s been happening since Larry became the CEO, I broke my heart again (first was when Sun got sold to Oracle).<br /><br />Although I am still attached to the developer community efforts, but only to an extent which helps the community and the new students.<br /><br />Thanks for writing, sharing it.'''
+content = "Every single word you&#39;ve written is so true.<br />And I am happy to find that I am not alone who used to think so.<br />I was, and probably to some extent, was so much in love with them that I have participated HUGELY in their developer community efforts sometimes at my own expenses, just because our ideologies matched.<br /><br />But watching what&#39;s been happening since Larry became the CEO, I broke my heart again (first was when Sun got sold to Oracle).<br /><br />Although I am still attached to the developer community efforts, but only to an extent which helps the community and the new students.<br /><br />Thanks for writing, sharing it."
+date = "2013-11-18T00:32:17+00:00"
+id = 5456167669384813201
+title = "Every single word you&#39;ve written is so true.A..."
+updated = "2013-11-18T00:32:17.000+00:00"
 [author]
-	name = "Aman Alam"
-	uri = "https://www.blogger.com/profile/17931919627657774532"
+name = "Aman Alam"
+uri = "https://www.blogger.com/profile/17931919627657774532"
 [author.image]
-	source = "//lh3.googleusercontent.com/-i2YE1b55RaU/AAAAAAAAAAI/AAAAAAAAG20/cWWgOUYz3x0/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh3.googleusercontent.com/-i2YE1b55RaU/AAAAAAAAAAI/AAAAAAAAG20/cWWgOUYz3x0/s32-c/photo.jpg"
+width = 32

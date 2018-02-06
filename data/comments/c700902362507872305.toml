@@ -1,13 +1,13 @@
-id = "700902362507872305"
-date = 2012-08-11T18:30:29Z
-updated = 2012-08-11T18:30:29Z
-title = '''That is an entire blog post all on its own. Someda...'''
-content = '''That is an entire blog post all on its own. Someday I will write it.'''
+content = "That is an entire blog post all on its own. Someday I will write it."
+date = "2012-08-11T18:30:29+00:00"
+id = 700902362507872305
 reply = 9430973821279572
+title = "That is an entire blog post all on its own. Someda..."
+updated = "2012-08-11T18:30:29.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
+width = 32

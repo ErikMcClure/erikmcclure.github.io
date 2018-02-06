@@ -1,12 +1,12 @@
-id = "7999809669362277132"
-date = 2016-07-31T07:46:07Z
-updated = 2016-07-31T07:46:07Z
-title = '''This is a recent very interesting article about th...'''
-content = '''This is a recent very interesting article about this: https://aeon.co/videos/maths-notation-is-needlessly-complex-it-can-and-should-be-better '''
+content = "This is a recent very interesting article about this: https://aeon.co/videos/maths-notation-is-needlessly-complex-it-can-and-should-be-better "
+date = "2016-07-31T07:46:07+00:00"
+id = 7999809669362277132
+title = "This is a recent very interesting article about th..."
+updated = "2016-07-31T07:46:07.000+00:00"
 [author]
-	name = "Eustáquio Rangel"
-	uri = "https://www.blogger.com/profile/03994475175549811924"
+name = "Eustáquio Rangel"
+uri = "https://www.blogger.com/profile/03994475175549811924"
 [author.image]
-	source = "//3.bp.blogspot.com/-JAvJcgfOOzY/VLUAikMVbgI/AAAAAAAAa-0/skN8Tbp2K8o/s32/*"
-	width = "32"
-	height = "24"
+height = 24
+source = "//3.bp.blogspot.com/-JAvJcgfOOzY/VLUAikMVbgI/AAAAAAAAa-0/skN8Tbp2K8o/s32/*"
+width = 32

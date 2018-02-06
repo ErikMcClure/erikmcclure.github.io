@@ -1,13 +1,13 @@
-id = "4611701509474751283"
-date = 2012-02-26T03:55:07Z
-updated = 2012-02-26T03:55:07Z
-title = '''The problem with such a rating is that there&#39;s...'''
-content = '''The problem with such a rating is that there&#39;s no way to quantify security. You can use SSL everywhere, enforce strong passwords, install a firewall, an IDS, an IPS and an AV and keep all your software up to date, then fall foul to an SQL injection attack. Whilst your security rating would be high due to all of the measures you took, your customer information still got stolen.'''
+content = "The problem with such a rating is that there&#39;s no way to quantify security. You can use SSL everywhere, enforce strong passwords, install a firewall, an IDS, an IPS and an AV and keep all your software up to date, then fall foul to an SQL injection attack. Whilst your security rating would be high due to all of the measures you took, your customer information still got stolen."
+date = "2012-02-26T03:55:07+00:00"
+id = 4611701509474751283
 reply = 5658694907934160975
+title = "The problem with such a rating is that there&#39;s..."
+updated = "2012-02-26T03:55:07.000+00:00"
 [author]
-	name = "Aether"
-	uri = "https://www.blogger.com/profile/11735143325786973316"
+name = "Aether"
+uri = "https://www.blogger.com/profile/11735143325786973316"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

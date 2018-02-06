@@ -1,13 +1,13 @@
-id = "1536351226815897987"
-date = 2013-02-11T02:42:14Z
-updated = 2013-02-11T02:42:14Z
-title = '''Discovery requires eliminating the obvious answers...'''
-content = '''Discovery requires eliminating the obvious answers, a process known as failure or making mistakes.<br /><br />I would try to figure (and you probably already know) which missing thing is the most valuable to the most number of people.  <br /><br />Elon Musk wants to build a colony on Mars.  Its a long term, hard goal that requires many innovations.  He determined which one is feasible and that someone will buy.  And he built that.<br /><br />Find out if there&#39;s an open source effort for it and contribute to it.  People that also care about it will be there.'''
+content = "Discovery requires eliminating the obvious answers, a process known as failure or making mistakes.<br /><br />I would try to figure (and you probably already know) which missing thing is the most valuable to the most number of people.  <br /><br />Elon Musk wants to build a colony on Mars.  Its a long term, hard goal that requires many innovations.  He determined which one is feasible and that someone will buy.  And he built that.<br /><br />Find out if there&#39;s an open source effort for it and contribute to it.  People that also care about it will be there."
+date = "2013-02-11T02:42:14+00:00"
+id = 1536351226815897987
 reply = 6651157694806954252
+title = "Discovery requires eliminating the obvious answers..."
+updated = "2013-02-11T02:42:14.000+00:00"
 [author]
-	name = "Alan Brown"
-	uri = "https://www.blogger.com/profile/06699067434810837273"
+name = "Alan Brown"
+uri = "https://www.blogger.com/profile/06699067434810837273"
 [author.image]
-	source = "//lh6.googleusercontent.com/-0e7Aekma-DM/AAAAAAAAAAI/AAAAAAAAACg/NpWP4CRZqAY/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh6.googleusercontent.com/-0e7Aekma-DM/AAAAAAAAAAI/AAAAAAAAACg/NpWP4CRZqAY/s32-c/photo.jpg"
+width = 32

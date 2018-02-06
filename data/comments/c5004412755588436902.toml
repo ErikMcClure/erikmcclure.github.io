@@ -1,12 +1,12 @@
-id = "5004412755588436902"
-date = 2014-03-19T01:54:57Z
-updated = 2014-03-19T01:54:57Z
-title = '''Can you elaborate on what you meant in this paragr...'''
-content = '''Can you elaborate on what you meant in this paragraph?<br /><br />&gt; If you want to go beyond simple photorealism and build a game that feels real, you have to deal with a lot of extremely difficult problems. Our best antialiasing methods are perceptual, because doing real antialiasing is prohibitively expensive. <br /><br />What do you mean by &quot;real antialiasing&quot;?'''
+content = "Can you elaborate on what you meant in this paragraph?<br /><br />&gt; If you want to go beyond simple photorealism and build a game that feels real, you have to deal with a lot of extremely difficult problems. Our best antialiasing methods are perceptual, because doing real antialiasing is prohibitively expensive. <br /><br />What do you mean by &quot;real antialiasing&quot;?"
+date = "2014-03-19T01:54:57+00:00"
+id = 5004412755588436902
+title = "Can you elaborate on what you meant in this paragr..."
+updated = "2014-03-19T01:54:57.000+00:00"
 [author]
-	name = "Jerome Leclanche"
-	uri = "https://www.blogger.com/profile/17945074471142174342"
+name = "Jerome Leclanche"
+uri = "https://www.blogger.com/profile/17945074471142174342"
 [author.image]
-	source = "//lh3.googleusercontent.com/-K8bI44JHNvs/AAAAAAAAAAI/AAAAAAAAChE/wCz2EmF4Dnk/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh3.googleusercontent.com/-K8bI44JHNvs/AAAAAAAAAAI/AAAAAAAAChE/wCz2EmF4Dnk/s32-c/photo.jpg"
+width = 32

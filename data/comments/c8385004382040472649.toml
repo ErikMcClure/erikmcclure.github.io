@@ -1,12 +1,12 @@
-id = "8385004382040472649"
-date = 2013-02-11T07:50:23Z
-updated = 2013-02-11T07:50:23Z
-title = '''If you can somehow &#39;fix&#39; the interpolation...'''
-content = '''If you can somehow &#39;fix&#39; the interpolation function (currently linear, AFAIK) in Gouraud shading so that it better &#39;matches the curvature&#39; of the shaded surface, that would make something of a new precedent in 3D graphics rendering. It&#39;s my idea, but since you seem more qualified, I generously let you keep it. :D (Or overthrow it for me.)'''
+content = "If you can somehow &#39;fix&#39; the interpolation function (currently linear, AFAIK) in Gouraud shading so that it better &#39;matches the curvature&#39; of the shaded surface, that would make something of a new precedent in 3D graphics rendering. It&#39;s my idea, but since you seem more qualified, I generously let you keep it. :D (Or overthrow it for me.)"
+date = "2013-02-11T07:50:23+00:00"
+id = 8385004382040472649
+title = "If you can somehow &#39;fix&#39; the interpolation..."
+updated = "2013-02-11T07:50:23.000+00:00"
 [author]
-	name = "Ta Kernc"
-	uri = "https://www.blogger.com/profile/16203472624139539085"
+name = "Ta Kernc"
+uri = "https://www.blogger.com/profile/16203472624139539085"
 [author.image]
-	source = "//lh6.googleusercontent.com/-PJsSE65nW14/AAAAAAAAAAI/AAAAAAAAAJI/8xTtD9gDx2k/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh6.googleusercontent.com/-PJsSE65nW14/AAAAAAAAAAI/AAAAAAAAAJI/8xTtD9gDx2k/s32-c/photo.jpg"
+width = 32

@@ -1,12 +1,12 @@
-id = "4357224406632415270"
-date = 2015-01-18T23:13:18Z
-updated = 2015-01-18T23:13:18Z
-title = '''More.....<a href="http://net-informations.com/faq/...'''
-content = '''More.....<a href="http://net-informations.com/faq/oops/pointers.htm" rel="nofollow">Is there pointer in C# like C or C++ ?</a><br /><br />Ling<br />'''
+content = "More.....<a href=\"http://net-informations.com/faq/oops/pointers.htm\" rel=\"nofollow\">Is there pointer in C# like C or C++ ?</a><br /><br />Ling<br />"
+date = "2015-01-18T23:13:18+00:00"
+id = 4357224406632415270
+title = "More.....<a href=\"http://net-informations.com/faq/..."
+updated = "2015-01-18T23:13:18.000+00:00"
 [author]
-	name = "lingmaaki"
-	uri = "https://www.blogger.com/profile/09477565569807599471"
+name = "lingmaaki"
+uri = "https://www.blogger.com/profile/09477565569807599471"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

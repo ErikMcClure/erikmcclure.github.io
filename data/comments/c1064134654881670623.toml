@@ -1,12 +1,12 @@
-id = "1064134654881670623"
-date = 2017-06-24T20:43:04Z
-updated = 2017-06-24T20:43:04Z
-title = '''you know you can just turn on phone verification a...'''
-content = '''you know you can just turn on phone verification and pretty much all your spam bot/raid problems will be gone, right? '''
+content = "you know you can just turn on phone verification and pretty much all your spam bot/raid problems will be gone, right? "
+date = "2017-06-24T20:43:04+00:00"
+id = 1064134654881670623
+title = "you know you can just turn on phone verification a..."
+updated = "2017-06-24T20:43:04.000+00:00"
 [author]
-	name = "Unknown"
-	uri = "https://www.blogger.com/profile/18350682898032462061"
+name = "Unknown"
+uri = "https://www.blogger.com/profile/18350682898032462061"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

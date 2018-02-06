@@ -1,13 +1,13 @@
-id = "4843744478368400447"
-date = 2012-10-02T01:40:34Z
-updated = 2012-10-02T01:40:34Z
-title = '''At this point I&#39;m already ignoring almost ever...'''
-content = '''At this point I&#39;m already ignoring almost everything anyone&#39;s said about this blog. So obviously either I&#39;m on to something, or I&#39;m just crazy.'''
+content = "At this point I&#39;m already ignoring almost everything anyone&#39;s said about this blog. So obviously either I&#39;m on to something, or I&#39;m just crazy."
+date = "2012-10-02T01:40:34+00:00"
+id = 4843744478368400447
 reply = 8613956414443496038
+title = "At this point I&#39;m already ignoring almost ever..."
+updated = "2012-10-02T01:40:34.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
+width = 32

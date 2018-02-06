@@ -1,12 +1,12 @@
-id = "4177825012379388199"
-date = 2014-01-02T03:57:34Z
-updated = 2014-01-02T03:57:34Z
-title = '''Good way of explaining, and fastidious article to ...'''
-content = '''Good way of explaining, and fastidious article to obtain information regarding my presentation subject...thank you..<br /><a href="http://www.tutorialoutlet.com/hrm-531/hrm-531-entire-course-uop/" rel="nofollow">HRM 531 Entire Course</a><br />'''
+content = "Good way of explaining, and fastidious article to obtain information regarding my presentation subject...thank you..<br /><a href=\"http://www.tutorialoutlet.com/hrm-531/hrm-531-entire-course-uop/\" rel=\"nofollow\">HRM 531 Entire Course</a><br />"
+date = "2014-01-02T03:57:34+00:00"
+id = 4177825012379388199
+title = "Good way of explaining, and fastidious article to ..."
+updated = "2014-01-02T03:57:34.000+00:00"
 [author]
-	name = "Tutorialoutlet"
-	uri = "https://www.blogger.com/profile/04432368095014077520"
+name = "Tutorialoutlet"
+uri = "https://www.blogger.com/profile/04432368095014077520"
 [author.image]
-	source = "//2.bp.blogspot.com/-3rBVrr9BhiE/Uq72O3ROOxI/AAAAAAAAACY/mXj2Q2I_dLI/s31/tutorial_outlet_l.png"
-	width = "31"
-	height = "6"
+height = 6
+source = "//2.bp.blogspot.com/-3rBVrr9BhiE/Uq72O3ROOxI/AAAAAAAAACY/mXj2Q2I_dLI/s31/tutorial_outlet_l.png"
+width = 31

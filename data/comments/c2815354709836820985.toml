@@ -1,13 +1,13 @@
-id = "2815354709836820985"
-date = 2012-02-11T20:58:01Z
-updated = 2012-02-11T20:58:01Z
-title = '''You can also avoid that entirely just by going f...'''
-content = '''You can also avoid that entirely just by going <br /><br />for(unsigned int i = foo.Length(); i-- &gt; 0;)<br /><br />which I think is more elegant anyway.'''
+content = "You can also avoid that entirely just by going <br /><br />for(unsigned int i = foo.Length(); i-- &gt; 0;)<br /><br />which I think is more elegant anyway."
+date = "2012-02-11T20:58:01+00:00"
+id = 2815354709836820985
 reply = 3168869092929364582
+title = "You can also avoid that entirely just by going f..."
+updated = "2012-02-11T20:58:01.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
+width = 32

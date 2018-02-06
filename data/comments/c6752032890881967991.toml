@@ -1,13 +1,13 @@
-id = "6752032890881967991"
-date = 2012-02-24T16:44:54Z
-updated = 2012-02-24T16:44:54Z
-title = '''The purpose of this is mostly to explain to people...'''
-content = '''The purpose of this is mostly to explain to people why its 2 pi and not just pi, which is a major stumbling block to some. I&#39;ve since reversed my opinion on whether or not it should be pi or tau, but it is still used here for the purposes of education.<br /><br />As for why we don&#39;t do everything in degrees, its usually because all the math works with radians. Even if you did things in degrees, at some level you would still have to convert to radians and back again, because radians is what the actual math works with. It&#39;s also a matter of personal preference - some people like degrees, others like radians. Sometimes the preference changes depending on the context. You can *actually do this* with C++11&#39;s new user-defined literals. You could define a degree literal and it would automatically convert degrees to radians for use in functions, so you could put in, say 90deg, and it would be converted to pi/2.'''
+content = "The purpose of this is mostly to explain to people why its 2 pi and not just pi, which is a major stumbling block to some. I&#39;ve since reversed my opinion on whether or not it should be pi or tau, but it is still used here for the purposes of education.<br /><br />As for why we don&#39;t do everything in degrees, its usually because all the math works with radians. Even if you did things in degrees, at some level you would still have to convert to radians and back again, because radians is what the actual math works with. It&#39;s also a matter of personal preference - some people like degrees, others like radians. Sometimes the preference changes depending on the context. You can *actually do this* with C++11&#39;s new user-defined literals. You could define a degree literal and it would automatically convert degrees to radians for use in functions, so you could put in, say 90deg, and it would be converted to pi/2."
+date = "2012-02-24T16:44:54+00:00"
+id = 6752032890881967991
 reply = 4190836184485292453
+title = "The purpose of this is mostly to explain to people..."
+updated = "2012-02-24T16:44:54.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
+width = 32

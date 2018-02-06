@@ -1,13 +1,13 @@
-id = "7550107290841279535"
-date = 2012-10-01T11:21:26Z
-updated = 2012-10-01T11:21:26Z
-title = '''You do realize that the most difficult and rewardi...'''
-content = '''You do realize that the most difficult and rewarding problems to solve are problems that people don&#39;t realize are actually problems?<br /><br />You can tell me I&#39;m wasting my time, but I&#39;m sure someone told Steve Jobs he was wasting his time too.'''
+content = "You do realize that the most difficult and rewarding problems to solve are problems that people don&#39;t realize are actually problems?<br /><br />You can tell me I&#39;m wasting my time, but I&#39;m sure someone told Steve Jobs he was wasting his time too."
+date = "2012-10-01T11:21:26+00:00"
+id = 7550107290841279535
 reply = 8613956414443496038
+title = "You do realize that the most difficult and rewardi..."
+updated = "2012-10-01T11:21:26.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
+width = 32

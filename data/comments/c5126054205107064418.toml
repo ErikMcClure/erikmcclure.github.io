@@ -1,13 +1,13 @@
-id = "5126054205107064418"
-date = 2013-02-11T00:03:21Z
-updated = 2013-02-11T00:03:21Z
-title = '''I... don&#39;t really spend that much time on soci...'''
-content = '''I... don&#39;t really spend that much time on social media. I do spend time on music. I HAVE to spend time on music - I tried not spending time on music and nearly went crazy.<br /><br />I will try to make a video for Feather when I get it working but that&#39;s all I can do right now.'''
+content = "I... don&#39;t really spend that much time on social media. I do spend time on music. I HAVE to spend time on music - I tried not spending time on music and nearly went crazy.<br /><br />I will try to make a video for Feather when I get it working but that&#39;s all I can do right now."
+date = "2013-02-11T00:03:21+00:00"
+id = 5126054205107064418
 reply = 5512906435975709125
+title = "I... don&#39;t really spend that much time on soci..."
+updated = "2013-02-11T00:03:21.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
+width = 32

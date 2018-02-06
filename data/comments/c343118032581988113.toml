@@ -1,12 +1,12 @@
-id = "343118032581988113"
-date = 2011-11-07T13:46:00Z
-updated = 2011-11-07T13:46:00Z
-title = '''My comment got deleted so fuck it.I agree with y...'''
-content = '''My comment got deleted so fuck it.<br /><br />I agree with you, don&#39;t know the difference between trig and geometry, blah blah blah, fuck the system.<br /><br />Double that last part because commenting on here is a broken piece of shit for anyone not on here.  Hooray!'''
+content = "My comment got deleted so fuck it.<br /><br />I agree with you, don&#39;t know the difference between trig and geometry, blah blah blah, fuck the system.<br /><br />Double that last part because commenting on here is a broken piece of shit for anyone not on here.  Hooray!"
+date = "2011-11-07T13:46:00+00:00"
+id = 343118032581988113
+title = "My comment got deleted so fuck it.I agree with y..."
+updated = "2011-11-07T13:46:00.000+00:00"
 [author]
-	name = "zaron"
-	uri = "http://zaron.livejournal.com/"
+name = "zaron"
+uri = "http://zaron.livejournal.com/"
 [author.image]
-	source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
+width = 35

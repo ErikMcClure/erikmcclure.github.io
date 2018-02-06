@@ -1,10 +1,10 @@
 +++
 blogimport = true
 categories = ["blog"]
+comments = [4855745114630632498, 8664841722574571485]
 date = "2012-03-10T13:36:00Z"
 title = "Success Is Not What You Think It Is"
 updated = "2012-03-10T13:40:54.000+00:00"
-comments = [ 4855745114630632498, 8664841722574571485 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

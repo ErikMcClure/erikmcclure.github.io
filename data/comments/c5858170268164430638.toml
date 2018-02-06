@@ -1,13 +1,13 @@
-id = "5858170268164430638"
-date = 2012-09-19T17:02:23Z
-updated = 2012-09-19T17:02:23Z
-title = '''one has feathers'''
-content = '''one has feathers'''
+content = "one has feathers"
+date = "2012-09-19T17:02:23+00:00"
+id = 5858170268164430638
 reply = 8652249131600652504
+title = "one has feathers"
+updated = "2012-09-19T17:02:23.000+00:00"
 [author]
-	name = "Unknown"
-	uri = "https://www.blogger.com/profile/12823136032436246387"
+name = "Unknown"
+uri = "https://www.blogger.com/profile/12823136032436246387"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

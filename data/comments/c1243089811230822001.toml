@@ -1,13 +1,13 @@
-id = "1243089811230822001"
-date = 2012-12-19T16:10:45Z
-updated = 2012-12-19T16:10:45Z
-title = '''What bugs me the most is that I have constantly to...'''
-content = '''What bugs me the most is that I have constantly toned down my projects in terms of ambition over and over and over and over and have still failed to complete any of them. At this point many of them are getting stupidly simplistic and yet I still have difficulty.'''
+content = "What bugs me the most is that I have constantly toned down my projects in terms of ambition over and over and over and over and have still failed to complete any of them. At this point many of them are getting stupidly simplistic and yet I still have difficulty."
+date = "2012-12-19T16:10:45+00:00"
+id = 1243089811230822001
 reply = 8919666420137016767
+title = "What bugs me the most is that I have constantly to..."
+updated = "2012-12-19T16:10:45.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
+width = 32

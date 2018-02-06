@@ -1,12 +1,12 @@
-id = "2825662655005333966"
-date = 2015-05-15T19:31:15Z
-updated = 2015-05-15T19:31:15Z
-title = '''Hi, I would like to know why your game isn&#39;t w...'''
-content = '''Hi, I would like to know why your game isn&#39;t working for me. I have a Windows 7 computer, and a few security settings that might be affecting it, I just don&#39;t know which. When you can, email me at aljonviray@gmail.com when you can. Thank you.'''
+content = "Hi, I would like to know why your game isn&#39;t working for me. I have a Windows 7 computer, and a few security settings that might be affecting it, I just don&#39;t know which. When you can, email me at aljonviray@gmail.com when you can. Thank you."
+date = "2015-05-15T19:31:15+00:00"
+id = 2825662655005333966
+title = "Hi, I would like to know why your game isn&#39;t w..."
+updated = "2015-05-15T19:31:15.000+00:00"
 [author]
-	name = "Aljon Viray"
-	uri = "https://www.blogger.com/profile/17110128349453486752"
+name = "Aljon Viray"
+uri = "https://www.blogger.com/profile/17110128349453486752"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

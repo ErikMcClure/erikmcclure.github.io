@@ -1,13 +1,13 @@
-id = "5141259038340859390"
-date = 2013-01-19T15:38:16Z
-updated = 2013-01-19T15:38:16Z
-title = '''I think you are definitely on to something. Have y...'''
-content = '''I think you are definitely on to something. Have you thought of what any of these higher level concepts might be and how we can leverage them? Or are they too specific a given domain to generalize?'''
+content = "I think you are definitely on to something. Have you thought of what any of these higher level concepts might be and how we can leverage them? Or are they too specific a given domain to generalize?"
+date = "2013-01-19T15:38:16+00:00"
+id = 5141259038340859390
 reply = 4697838093479141733
+title = "I think you are definitely on to something. Have y..."
+updated = "2013-01-19T15:38:16.000+00:00"
 [author]
-	name = "Blake La Pierre"
-	uri = "https://www.blogger.com/profile/04130247637850389230"
+name = "Blake La Pierre"
+uri = "https://www.blogger.com/profile/04130247637850389230"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

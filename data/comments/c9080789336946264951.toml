@@ -1,13 +1,13 @@
-id = "9080789336946264951"
-date = 2017-09-05T15:25:46Z
-updated = 2017-09-05T15:25:46Z
-title = '''The fact that we even need to fight over gay right...'''
-content = '''The fact that we even need to fight over gay rights is, in fact, stupid shit, because treating other human beings equally shouldn&#39;t be a matter of debate.'''
+content = "The fact that we even need to fight over gay rights is, in fact, stupid shit, because treating other human beings equally shouldn&#39;t be a matter of debate."
+date = "2017-09-05T15:25:46+00:00"
+id = 9080789336946264951
 reply = 8910023284287137503
+title = "The fact that we even need to fight over gay right..."
+updated = "2017-09-05T15:25:46.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAdo/4sbjcZsncwU/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAdo/4sbjcZsncwU/s32-c/photo.jpg"
+width = 32

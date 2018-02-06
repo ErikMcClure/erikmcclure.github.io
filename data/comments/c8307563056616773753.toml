@@ -1,13 +1,13 @@
-id = "8307563056616773753"
-date = 2013-02-11T19:03:06Z
-updated = 2013-02-11T19:03:06Z
-title = '''I do everything in C/C++. I know Python Java Javas...'''
-content = '''I do everything in C/C++. I know Python Java Javascript Ruby C# Lua Scheme C/C++ HLSL and Assembly. I still like C++ better than all of them. Just because everyone else hates C++ doesn&#39;t mean I do.'''
+content = "I do everything in C/C++. I know Python Java Javascript Ruby C# Lua Scheme C/C++ HLSL and Assembly. I still like C++ better than all of them. Just because everyone else hates C++ doesn&#39;t mean I do."
+date = "2013-02-11T19:03:06+00:00"
+id = 8307563056616773753
 reply = 5969971667042132606
+title = "I do everything in C/C++. I know Python Java Javas..."
+updated = "2013-02-11T19:03:06.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
+width = 32

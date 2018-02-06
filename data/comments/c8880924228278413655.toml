@@ -1,12 +1,12 @@
-id = "8880924228278413655"
-date = 2013-02-14T16:32:57Z
-updated = 2013-02-14T16:32:57Z
-title = '''Astonishingly useful. Thanks.'''
-content = '''Astonishingly useful. Thanks.'''
+content = "Astonishingly useful. Thanks."
+date = "2013-02-14T16:32:57+00:00"
+id = 8880924228278413655
+title = "Astonishingly useful. Thanks."
+updated = "2013-02-14T16:32:57.000+00:00"
 [author]
-	name = "johnfn"
-	uri = "https://www.blogger.com/profile/18122591840236376305"
+name = "johnfn"
+uri = "https://www.blogger.com/profile/18122591840236376305"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

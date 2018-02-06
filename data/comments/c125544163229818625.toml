@@ -1,12 +1,12 @@
-id = "125544163229818625"
-date = 2011-12-24T19:09:35Z
-updated = 2011-12-24T19:09:35Z
-title = '''You&#39;re definitely more right than you are wron...'''
-content = '''You&#39;re definitely more right than you are wrong; however, there is definite value in using the &quot;right&quot; (best) tool for the task at hand. People just tend to focus too much on deciding when they&#39;re better of picking if they don&#39;t inherently know which to use.'''
+content = "You&#39;re definitely more right than you are wrong; however, there is definite value in using the &quot;right&quot; (best) tool for the task at hand. People just tend to focus too much on deciding when they&#39;re better of picking if they don&#39;t inherently know which to use."
+date = "2011-12-24T19:09:35+00:00"
+id = 125544163229818625
+title = "You&#39;re definitely more right than you are wron..."
+updated = "2011-12-24T19:09:35.000+00:00"
 [author]
-	name = "Berdon"
-	uri = "https://www.blogger.com/profile/18279974645082136134"
+name = "Berdon"
+uri = "https://www.blogger.com/profile/18279974645082136134"
 [author.image]
-	source = "//2.bp.blogspot.com/_1UaSNa7Eb6s/Sl82Fa4fRCI/AAAAAAAAAC8/jtn_Kk3S8T0/S220-s32/Me.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//2.bp.blogspot.com/_1UaSNa7Eb6s/Sl82Fa4fRCI/AAAAAAAAAC8/jtn_Kk3S8T0/S220-s32/Me.jpg"
+width = 32

@@ -1,12 +1,12 @@
-id = "5272307772862325792"
-date = 2011-08-05T09:19:22Z
-updated = 2011-08-05T09:19:22Z
-title = '''I have great news! You can make your code GPL-proo...'''
-content = '''I have great news! You can make your code GPL-proof!  How? Well, there is a license meant specifically to prevent your code from being used with a GPL project: The OSSAL.<br />http://people.freebsd.org/~seanc/ossal/'''
+content = "I have great news! You can make your code GPL-proof!  How? Well, there is a license meant specifically to prevent your code from being used with a GPL project: The OSSAL.<br />http://people.freebsd.org/~seanc/ossal/"
+date = "2011-08-05T09:19:22+00:00"
+id = 5272307772862325792
+title = "I have great news! You can make your code GPL-proo..."
+updated = "2011-08-05T09:19:22.000+00:00"
 [author]
-	name = "Theodore R. Smith"
-	uri = "https://www.blogger.com/profile/06181000583310435221"
+name = "Theodore R. Smith"
+uri = "https://www.blogger.com/profile/06181000583310435221"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

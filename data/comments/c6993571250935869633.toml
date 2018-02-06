@@ -1,12 +1,12 @@
-id = "6993571250935869633"
-date = 2012-02-06T04:48:56Z
-updated = 2012-02-06T04:48:56Z
-title = '''Nice article.  Just one thought.  To follow the pa...'''
-content = '''Nice article.  Just one thought.  To follow the pattern, the four R&#39;s should have been - Reading, &#39;Riting, &#39;Rithematic, and &#39;Rogramming.  But very good points.'''
+content = "Nice article.  Just one thought.  To follow the pattern, the four R&#39;s should have been - Reading, &#39;Riting, &#39;Rithematic, and &#39;Rogramming.  But very good points."
+date = "2012-02-06T04:48:56+00:00"
+id = 6993571250935869633
+title = "Nice article.  Just one thought.  To follow the pa..."
+updated = "2012-02-06T04:48:56.000+00:00"
 [author]
-	name = "isifvs"
-	uri = "https://www.blogger.com/profile/07799415015622478743"
+name = "isifvs"
+uri = "https://www.blogger.com/profile/07799415015622478743"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

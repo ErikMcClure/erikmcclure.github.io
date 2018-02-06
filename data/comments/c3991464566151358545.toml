@@ -1,13 +1,13 @@
-id = "3991464566151358545"
-date = 2014-03-18T13:54:18Z
-updated = 2014-03-18T13:54:18Z
-title = '''&quot;I feel like I can heard you talking through ...'''
-content = '''&quot;I feel like I can heard you talking through your text.&quot;<br /><br />God. This is all I want someone to comment on something I write. High praise indeed, and well deserved.'''
+content = "&quot;I feel like I can heard you talking through your text.&quot;<br /><br />God. This is all I want someone to comment on something I write. High praise indeed, and well deserved."
+date = "2014-03-18T13:54:18+00:00"
+id = 3991464566151358545
 reply = 1754883999439933588
+title = "&quot;I feel like I can heard you talking through ..."
+updated = "2014-03-18T13:54:18.000+00:00"
 [author]
-	name = "Sam Lawrence"
-	uri = "https://www.blogger.com/profile/10106835931481730059"
+name = "Sam Lawrence"
+uri = "https://www.blogger.com/profile/10106835931481730059"
 [author.image]
-	source = "//lh5.googleusercontent.com/-hELVAgy2Xts/AAAAAAAAAAI/AAAAAAAAASo/y3zCrI3aMzE/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-hELVAgy2Xts/AAAAAAAAAAI/AAAAAAAAASo/y3zCrI3aMzE/s32-c/photo.jpg"
+width = 32

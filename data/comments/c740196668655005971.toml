@@ -1,13 +1,13 @@
-id = "740196668655005971"
-date = 2012-10-01T11:20:14Z
-updated = 2012-10-01T11:20:14Z
-title = '''By &quot;doesn&#39;t solve&quot; I meant that rayt...'''
-content = '''By &quot;doesn&#39;t solve&quot; I meant that raytracing, BY ITSELF, does NOT solve photorealism - and it doesn&#39;t, you need better materials no matter how fast your raytracing is, and if you consider better materials as part of raytracing, you are over-extending the term &quot;raytracing&quot;. Of course, you the proceed to say that *I* am overextending the word &quot;photorealistic&quot;, but what I&#39;m trying to do is point out that &quot;photorealism&quot; is actually *more* subjective than most people think. If you don&#39;t think this, good for you.<br /><br />If you think I am going into too much detail you simply don&#39;t realize how much those details contribute to the experience. I&#39;m sure someone would have said the same thing about parallax mapping and relief mapping years ago.'''
+content = "By &quot;doesn&#39;t solve&quot; I meant that raytracing, BY ITSELF, does NOT solve photorealism - and it doesn&#39;t, you need better materials no matter how fast your raytracing is, and if you consider better materials as part of raytracing, you are over-extending the term &quot;raytracing&quot;. Of course, you the proceed to say that *I* am overextending the word &quot;photorealistic&quot;, but what I&#39;m trying to do is point out that &quot;photorealism&quot; is actually *more* subjective than most people think. If you don&#39;t think this, good for you.<br /><br />If you think I am going into too much detail you simply don&#39;t realize how much those details contribute to the experience. I&#39;m sure someone would have said the same thing about parallax mapping and relief mapping years ago."
+date = "2012-10-01T11:20:14+00:00"
+id = 740196668655005971
 reply = 6496606234821686303
+title = "By &quot;doesn&#39;t solve&quot; I meant that rayt..."
+updated = "2012-10-01T11:20:14.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
+width = 32

@@ -1,13 +1,13 @@
-id = "7089812103297005525"
-date = 2013-11-17T20:49:22Z
-updated = 2013-11-17T20:49:22Z
-title = '''Obvious troll is obvious. Please go and enlight so...'''
-content = '''Obvious troll is obvious. Please go and enlight somebody somewhere else.'''
+content = "Obvious troll is obvious. Please go and enlight somebody somewhere else."
+date = "2013-11-17T20:49:22+00:00"
+id = 7089812103297005525
 reply = 1450411780170112810
+title = "Obvious troll is obvious. Please go and enlight so..."
+updated = "2013-11-17T20:49:22.000+00:00"
 [author]
-	name = "nek"
-	uri = "https://www.blogger.com/profile/17618702265623423602"
+name = "nek"
+uri = "https://www.blogger.com/profile/17618702265623423602"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

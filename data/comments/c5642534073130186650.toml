@@ -1,13 +1,13 @@
-id = "5642534073130186650"
-date = 2012-03-15T07:50:54Z
-updated = 2012-03-15T08:17:47Z
-title = ''''''
-content = '''This comment has been removed by the author.'''
+content = "This comment has been removed by the author."
+date = "2012-03-15T07:50:54+00:00"
+id = 5642534073130186650
 reply = 7388787372096245528
+title = ""
+updated = "2012-03-15T08:17:47.000+00:00"
 [author]
-	name = "datniceguy"
-	uri = "https://www.blogger.com/profile/13278078460760428477"
+name = "datniceguy"
+uri = "https://www.blogger.com/profile/13278078460760428477"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

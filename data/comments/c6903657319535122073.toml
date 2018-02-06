@@ -1,12 +1,12 @@
-id = "6903657319535122073"
-date = 2013-02-11T02:33:10Z
-updated = 2013-02-11T02:33:10Z
-title = '''Hi Erik,What you are going through is just one o...'''
-content = '''Hi Erik,<br /><br />What you are going through is just one of the ways in which people become senior programmers. See what you are doing as training. Trust that all this experience you have built up will be useful at some point in the future. I know that the driving force is to &#39;create new technology&#39; but more often than not should just be seen as training. Count yourself lucky to have built up so much experience and explored so much. As you already said this will serve you well in your future, either creating a new technology, doing a startup or even working somewhere. And yes, sometimes it helps a lot to keep &#39;not invented here&#39; at bay. There is a lot of value in being able to leverage other peoples&#39; search paths, and only decide to write your own after you learned about them. Makes finding real new value (and paying rent) a lot easier.'''
+content = "Hi Erik,<br /><br />What you are going through is just one of the ways in which people become senior programmers. See what you are doing as training. Trust that all this experience you have built up will be useful at some point in the future. I know that the driving force is to &#39;create new technology&#39; but more often than not should just be seen as training. Count yourself lucky to have built up so much experience and explored so much. As you already said this will serve you well in your future, either creating a new technology, doing a startup or even working somewhere. And yes, sometimes it helps a lot to keep &#39;not invented here&#39; at bay. There is a lot of value in being able to leverage other peoples&#39; search paths, and only decide to write your own after you learned about them. Makes finding real new value (and paying rent) a lot easier."
+date = "2013-02-11T02:33:10+00:00"
+id = 6903657319535122073
+title = "Hi Erik,What you are going through is just one o..."
+updated = "2013-02-11T02:33:10.000+00:00"
 [author]
-	name = "Rik Arends"
-	uri = "https://www.blogger.com/profile/15146944925314335887"
+name = "Rik Arends"
+uri = "https://www.blogger.com/profile/15146944925314335887"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

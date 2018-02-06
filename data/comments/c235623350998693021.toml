@@ -1,12 +1,12 @@
-id = "235623350998693021"
-date = 2012-02-09T01:29:15Z
-updated = 2012-02-09T01:29:15Z
-title = '''What it boils down to is &quot;horses for courses&...'''
-content = '''What it boils down to is &quot;horses for courses&quot;. We all have to deliver what the client wants so we choose the most appropriate language(s) and methodology and just get on with it.'''
+content = "What it boils down to is &quot;horses for courses&quot;. We all have to deliver what the client wants so we choose the most appropriate language(s) and methodology and just get on with it."
+date = "2012-02-09T01:29:15+00:00"
+id = 235623350998693021
+title = "What it boils down to is &quot;horses for courses&..."
+updated = "2012-02-09T01:29:15.000+00:00"
 [author]
-	name = "Roger"
-	uri = "https://www.blogger.com/profile/01240917045833027519"
+name = "Roger"
+uri = "https://www.blogger.com/profile/01240917045833027519"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

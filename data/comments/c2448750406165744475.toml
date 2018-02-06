@@ -1,12 +1,12 @@
-id = "2448750406165744475"
-date = 2015-02-19T13:32:11Z
-updated = 2015-02-19T13:32:11Z
-title = '''Does anyone actually *write* good software?'''
-content = '''Does anyone actually *write* good software?'''
+content = "Does anyone actually *write* good software?"
+date = "2015-02-19T13:32:11+00:00"
+id = 2448750406165744475
+title = "Does anyone actually *write* good software?"
+updated = "2015-02-19T13:32:11.000+00:00"
 [author]
-	name = "Michael Clayton"
-	uri = "https://www.blogger.com/profile/07266885349118572276"
+name = "Michael Clayton"
+uri = "https://www.blogger.com/profile/07266885349118572276"
 [author.image]
-	source = "//lh5.googleusercontent.com/-pj8jwLP9TIc/AAAAAAAAAAI/AAAAAAAAAhw/hszvISXw7C4/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-pj8jwLP9TIc/AAAAAAAAAAI/AAAAAAAAAhw/hszvISXw7C4/s32-c/photo.jpg"
+width = 32

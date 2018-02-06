@@ -1,12 +1,12 @@
-id = "5132932714160899000"
-date = 2015-07-31T13:15:54Z
-updated = 2015-07-31T13:15:54Z
-title = '''So many ironies and parallels in our experiences. ...'''
-content = '''So many ironies and parallels in our experiences. Good to see you coming to terms with the reality of the world and can&#39;t wait to see what you do with it.<br /><br />First one to building an empire wins. :D'''
+content = "So many ironies and parallels in our experiences. Good to see you coming to terms with the reality of the world and can&#39;t wait to see what you do with it.<br /><br />First one to building an empire wins. :D"
+date = "2015-07-31T13:15:54+00:00"
+id = 5132932714160899000
+title = "So many ironies and parallels in our experiences. ..."
+updated = "2015-07-31T13:15:54.000+00:00"
 [author]
-	name = "pftq"
-	uri = "https://www.blogger.com/profile/15022821851361476272"
+name = "pftq"
+uri = "https://www.blogger.com/profile/15022821851361476272"
 [author.image]
-	source = "//4.bp.blogspot.com/-yy24YV5O3UQ/VMCI2aFcRQI/AAAAAAAAAOY/uzOklffGdEs/s32/random212x159.jpg"
-	width = "32"
-	height = "24"
+height = 24
+source = "//4.bp.blogspot.com/-yy24YV5O3UQ/VMCI2aFcRQI/AAAAAAAAAOY/uzOklffGdEs/s32/random212x159.jpg"
+width = 32

@@ -1,12 +1,12 @@
-id = "852334959237660961"
-date = 2014-03-18T14:00:33Z
-updated = 2014-03-18T14:00:33Z
-title = '''I believe that a vast part of the problems you men...'''
-content = '''I believe that a vast part of the problems you mention could be solved by a very advanced AI and, probably, quantic computers.<br /><br />But i feel like it´s not a game anymore, it´s much more close to a simulation of reality, i don´t think that´s the point of games, you don´t have to interact with everything on the stage to get the most fun, quite the opposite i think.'''
+content = "I believe that a vast part of the problems you mention could be solved by a very advanced AI and, probably, quantic computers.<br /><br />But i feel like it´s not a game anymore, it´s much more close to a simulation of reality, i don´t think that´s the point of games, you don´t have to interact with everything on the stage to get the most fun, quite the opposite i think."
+date = "2014-03-18T14:00:33+00:00"
+id = 852334959237660961
+title = "I believe that a vast part of the problems you men..."
+updated = "2014-03-18T14:00:33.000+00:00"
 [author]
-	name = "Marco Floriano"
-	uri = "https://www.blogger.com/profile/07849536309627090763"
+name = "Marco Floriano"
+uri = "https://www.blogger.com/profile/07849536309627090763"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

@@ -1,13 +1,13 @@
-id = "2408576156470312122"
-date = 2012-02-25T10:45:45Z
-updated = 2012-02-25T10:45:45Z
-title = '''Thanks! I&#39;m very active on twitter, so I would...'''
-content = '''Thanks! I&#39;m very active on twitter, so I would encourage you to follow me there.'''
+content = "Thanks! I&#39;m very active on twitter, so I would encourage you to follow me there."
+date = "2012-02-25T10:45:45+00:00"
+id = 2408576156470312122
 reply = 5447565080881568559
+title = "Thanks! I&#39;m very active on twitter, so I would..."
+updated = "2012-02-25T10:45:45.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
+width = 32

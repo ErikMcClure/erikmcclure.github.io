@@ -1,10 +1,10 @@
 +++
 blogimport = true
 categories = ["blog"]
+comments = [7009978812193745355]
 date = "2016-11-14T21:57:00Z"
 title = "The Answer Is Not More Censorship, It's More Information"
 updated = "2016-11-16T04:39:25.000+00:00"
-comments = [ 7009978812193745355 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

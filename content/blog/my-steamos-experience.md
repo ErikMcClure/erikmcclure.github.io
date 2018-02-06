@@ -1,10 +1,10 @@
 +++
 blogimport = true
 categories = ["blog"]
+comments = [7312333325272052536]
 date = "2013-12-14T22:46:00Z"
 title = "My SteamOS Experience"
 updated = "2013-12-14T23:55:19.000+00:00"
-comments = [ 7312333325272052536 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

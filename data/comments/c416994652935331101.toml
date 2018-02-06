@@ -1,12 +1,12 @@
-id = "416994652935331101"
-date = 2014-05-11T07:10:08Z
-updated = 2014-05-11T07:10:08Z
-title = '''I need decline really bugs<a href="http://getrido...'''
-content = '''I need decline really bugs<br /><a href="http://getridofmypest.net/" rel="nofollow">bugs</a>'''
+content = "I need decline really bugs<br /><a href=\"http://getridofmypest.net/\" rel=\"nofollow\">bugs</a>"
+date = "2014-05-11T07:10:08+00:00"
+id = 416994652935331101
+title = "I need decline really bugs<a href=\"http://getrido..."
+updated = "2014-05-11T07:10:08.000+00:00"
 [author]
-	name = "motiur getridofmypest"
-	uri = "https://www.blogger.com/profile/05541051356507252279"
+name = "motiur getridofmypest"
+uri = "https://www.blogger.com/profile/05541051356507252279"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

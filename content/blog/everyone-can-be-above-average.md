@@ -1,10 +1,10 @@
 +++
 blogimport = true
 categories = ["blog"]
+comments = [9064210590133800351]
 date = "2014-10-18T01:13:00Z"
 title = "Everyone Can Be Above Average"
 updated = "2014-10-18T01:13:22.000+00:00"
-comments = [ 9064210590133800351 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

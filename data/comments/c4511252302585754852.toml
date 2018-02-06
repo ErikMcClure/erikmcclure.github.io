@@ -1,12 +1,12 @@
-id = "4511252302585754852"
-date = 2012-06-23T11:44:46Z
-updated = 2012-06-23T11:44:46Z
-title = '''Maybe joysticks should be polled in their own thre...'''
-content = '''Maybe joysticks should be polled in their own thread.<br /><br />W'''
+content = "Maybe joysticks should be polled in their own thread.<br /><br />W"
+date = "2012-06-23T11:44:46+00:00"
+id = 4511252302585754852
+title = "Maybe joysticks should be polled in their own thre..."
+updated = "2012-06-23T11:44:46.000+00:00"
 [author]
-	name = "Warren Postma"
-	uri = "https://www.blogger.com/profile/04053407632823479165"
+name = "Warren Postma"
+uri = "https://www.blogger.com/profile/04053407632823479165"
 [author.image]
-	source = "//lh6.googleusercontent.com/-dhjA7TyMuUI/AAAAAAAAAAI/AAAAAAAAC10/yI90xQQyPM4/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh6.googleusercontent.com/-dhjA7TyMuUI/AAAAAAAAAAI/AAAAAAAAC10/yI90xQQyPM4/s32-c/photo.jpg"
+width = 32

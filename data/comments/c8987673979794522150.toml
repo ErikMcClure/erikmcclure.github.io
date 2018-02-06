@@ -1,12 +1,12 @@
-id = "8987673979794522150"
-date = 2013-09-12T12:52:05Z
-updated = 2013-09-12T12:52:05Z
-title = '''Great, I like this article! I haven&#39;t finished...'''
-content = '''Great, I like this article! I haven&#39;t finished reading, but I already like it! :)'''
+content = "Great, I like this article! I haven&#39;t finished reading, but I already like it! :)"
+date = "2013-09-12T12:52:05+00:00"
+id = 8987673979794522150
+title = "Great, I like this article! I haven&#39;t finished..."
+updated = "2013-09-12T12:52:05.000+00:00"
 [author]
-	name = "Alexander Churikov"
-	uri = "https://www.blogger.com/profile/04777707158609641226"
+name = "Alexander Churikov"
+uri = "https://www.blogger.com/profile/04777707158609641226"
 [author.image]
-	source = "//lh6.googleusercontent.com/-MgqLg9Ez0kw/AAAAAAAAAAI/AAAAAAAAAD4/wp9k0gegrBc/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh6.googleusercontent.com/-MgqLg9Ez0kw/AAAAAAAAAAI/AAAAAAAAAD4/wp9k0gegrBc/s32-c/photo.jpg"
+width = 32

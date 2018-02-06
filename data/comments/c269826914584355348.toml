@@ -1,13 +1,13 @@
-id = "269826914584355348"
-date = 2013-02-10T21:17:25Z
-updated = 2013-02-10T21:17:25Z
-title = '''I am currently attempting to build something that ...'''
-content = '''I am currently attempting to build something that is specifically not supposed to be a magnum opus, and still having difficulty doing it. For approximately 3 years I&#39;ve tried to finish things only to repeatedly fail for various reasons, usually because the projects were too large. I have repeteadly shrunk them and have gotten to the point where one of my ideas is within reach, only to subsequently discover that I was still fucked because CEGUI is terrible and I can&#39;t build the GUI or tools necessary to make the game happen, even though I FINALLY have an engine and an idea that can actually be done. This is my current predicament. If I can&#39;t get this much smaller idea working, I&#39;m going to be close to giving up, because I&#39;ve reigned myself in so much there&#39;s not much left. I&#39;ve already met a lot of amazing people. Unfortunately we all have our own problems.'''
+content = "I am currently attempting to build something that is specifically not supposed to be a magnum opus, and still having difficulty doing it. For approximately 3 years I&#39;ve tried to finish things only to repeatedly fail for various reasons, usually because the projects were too large. I have repeteadly shrunk them and have gotten to the point where one of my ideas is within reach, only to subsequently discover that I was still fucked because CEGUI is terrible and I can&#39;t build the GUI or tools necessary to make the game happen, even though I FINALLY have an engine and an idea that can actually be done. This is my current predicament. If I can&#39;t get this much smaller idea working, I&#39;m going to be close to giving up, because I&#39;ve reigned myself in so much there&#39;s not much left. I&#39;ve already met a lot of amazing people. Unfortunately we all have our own problems."
+date = "2013-02-10T21:17:25+00:00"
+id = 269826914584355348
 reply = 1939342572021803295
+title = "I am currently attempting to build something that ..."
+updated = "2013-02-10T21:17:25.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
+width = 32
