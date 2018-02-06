@@ -1,6 +1,7 @@
 +++
 date = "2018-02-06T09:07:29+00:00"
 title = "Migrating To A Static Blog"
+categories = ["blog"]
 
 +++
 I've finished constructing a new personal website for myself using [hugo](https://gohugo.io/), and I'm moving my blog over there so I have more control over what gets loaded, and more importantly, so the page doesn't attempt to load Blogger's 5 MB worth of bloated javascript nonsense just to read some text. It also fixes math and code highlighting while reading on mobile. If you reached this post using Blogger, you'll be redirected or will soon be redirected to the corresponding post on my new website. 
