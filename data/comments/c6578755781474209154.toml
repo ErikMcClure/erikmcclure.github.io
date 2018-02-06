@@ -1,7 +1,7 @@
 id = "6578755781474209154"
 date = 2012-09-27T17:23:48Z
 updated = 2012-09-27T17:23:48Z
-title = "I&#39;ve seen many different ways of simulating fl..."
+title = '''I&#39;ve seen many different ways of simulating fl...'''
 content = '''I&#39;ve seen many different ways of simulating fluids, but most of them are using various particle methods. I&#39;d bet what they&#39;re doing there basically amounts to a whole bunch of tiny particles, plus some optimizations so that they can increase effective particle size for parts of the water that aren&#39;t moving much. Keep in mind that looking realistic and being realistic are vastly different things. There is no way they were actually calculating any PDEs or anything close to it, they&#39;re just treating it as an nbody problem.'''
 reply = 4278587866319617739
 [author]

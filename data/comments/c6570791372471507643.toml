@@ -1,7 +1,7 @@
 id = "6570791372471507643"
 date = 2012-02-06T14:45:45Z
 updated = 2012-02-06T14:45:45Z
-title = "I have done graphics, audio, tool, cross-platform ..."
+title = '''I have done graphics, audio, tool, cross-platform ...'''
 content = '''I have done graphics, audio, tool, cross-platform GUI, database, server-side web, client-side web, networking, and many other things. I call myself a graphics programmer because that is the only field where I have actually invented new techniques, and hence it is by a large factor my area of specialty and expertise. I also run a startup, its called Black Sphere Studios, and it makes games too! Luckily for you, I&#39;m focusing on traditional PC games, so I&#39;m not a competitor... yet :)<br /><br />Sadly most programmers still think that being pretty good at implementing an existing solution for something like networking makes them a network programmer, or because they can use XNA they&#39;re a graphics programmer. There is no end to the insane, misguided advice I get from people insisting that C# is just as fast as C++ and therefore I shouldn&#39;t be using C++, without actually knowing why I&#39;m using C++ or the problems with the garbage collector in C# and other latency issues. They just assume what works for them works for everyone else, and judging by the reaction to this post, this is a majority viewpoint that is deeply ingrained and unlikely to go away, so I am not optimistic about receiving less stupid advice in the future.<br /><br />Good luck with your startup!'''
 reply = 163431602343478113
 [author]

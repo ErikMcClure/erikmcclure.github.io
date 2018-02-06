@@ -1,7 +1,7 @@
 id = "7388787372096245528"
 date = 2012-03-15T06:11:21Z
 updated = 2012-03-15T06:11:21Z
-title = "&quot;If you buy a piece of software, it should ju..."
+title = '''&quot;If you buy a piece of software, it should ju...'''
 content = '''&quot;If you buy a piece of software, it should just work, no matter what you put it on.&quot;<br /><br />&quot;More importantly, you shouldn&#39;t have to buy a version for each of your devices...&quot;<br /><br />What about crossing between operating systems?  You have to do more work or could possibly get away by making sacrifices to support multiple platforms.  Is the latter less of a hit with Mono or other cross-compiled solutions?'''
 [author]
 	name = "plemdude"

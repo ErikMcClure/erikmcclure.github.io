@@ -1,7 +1,7 @@
 id = "5004412755588436902"
 date = 2014-03-19T01:54:57Z
 updated = 2014-03-19T01:54:57Z
-title = "Can you elaborate on what you meant in this paragr..."
+title = '''Can you elaborate on what you meant in this paragr...'''
 content = '''Can you elaborate on what you meant in this paragraph?<br /><br />&gt; If you want to go beyond simple photorealism and build a game that feels real, you have to deal with a lot of extremely difficult problems. Our best antialiasing methods are perceptual, because doing real antialiasing is prohibitively expensive. <br /><br />What do you mean by &quot;real antialiasing&quot;?'''
 [author]
 	name = "Jerome Leclanche"

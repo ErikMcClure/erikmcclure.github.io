@@ -1,7 +1,7 @@
 id = "4427490156681693766"
 date = 2012-12-21T21:11:15Z
 updated = 2012-12-21T21:11:15Z
-title = "&gt;rendering isn&#39;t everythingI got that sen..."
+title = '''&gt;rendering isn&#39;t everythingI got that sen...'''
 content = '''&gt;rendering isn&#39;t everything<br /><br />I got that sense too. It seems that the thesis of this blog post is that raytracing only helps do a few things, it presents its own computational and design challenges, and doesn&#39;t save the software designers from having to create actual content.'''
 reply = 1803681051684268790
 [author]

@@ -1,7 +1,7 @@
 id = "3168240601048339393"
 date = 2013-11-17T22:21:49Z
 updated = 2013-11-17T22:21:49Z
-title = "I think all companies follow the curve seen in the..."
+title = '''I think all companies follow the curve seen in the...'''
 content = '''I think all companies follow the curve seen in the lifecycle of products. In other words, what goes up always comes down!'''
 [author]
 	name = "Sam"

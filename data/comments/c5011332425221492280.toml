@@ -1,7 +1,7 @@
 id = "5011332425221492280"
 date = 2012-05-07T07:36:28Z
 updated = 2012-05-07T07:36:28Z
-title = "programming didn&#39;t exit 50 years ago? ignoring..."
+title = '''programming didn&#39;t exit 50 years ago? ignoring...'''
 content = '''programming didn&#39;t exit 50 years ago? ignoring everything about automatas are we?'''
 [author]
 	name = "Densu"

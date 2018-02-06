@@ -1,7 +1,7 @@
 id = "3784345854311631631"
 date = 2012-10-01T06:31:57Z
 updated = 2012-10-01T06:31:57Z
-title = "Sorry, I wasn&#39;t clear. What I meant is that yo..."
+title = '''Sorry, I wasn&#39;t clear. What I meant is that yo...'''
 content = '''Sorry, I wasn&#39;t clear. What I meant is that your article implies (whether you meant to or not) that Pixar used &#39;approximative algorithms&#39; - which they didn&#39;t. I mentioned ray-casting only because it was the most common algorithm originally used to approximate ray-tracing.<br /><br />Your article isn&#39;t clear about that, but Photon-mapping is not an approximation, nor an alternate algorithm - it is a refinement of one of the aspects of the ray-tracing model.'''
 reply = 4416375733763293959
 [author]

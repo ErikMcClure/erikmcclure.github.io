@@ -1,7 +1,7 @@
 id = "8152926649784086811"
 date = 2015-05-30T18:16:20Z
 updated = 2015-05-30T18:16:20Z
-title = "This is probably worth a Master&#39;s thesis at le..."
+title = '''This is probably worth a Master&#39;s thesis at le...'''
 content = '''This is probably worth a Master&#39;s thesis at least.'''
 [author]
 	name = "BlueNight"

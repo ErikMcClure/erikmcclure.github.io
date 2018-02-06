@@ -1,7 +1,7 @@
 id = "4858375859719921825"
 date = 2012-05-24T09:46:21Z
 updated = 2012-05-24T09:46:21Z
-title = "How do you manage rendering, when OpenGL for examp..."
+title = '''How do you manage rendering, when OpenGL for examp...'''
 content = '''How do you manage rendering, when OpenGL for example can only handle being rendered to from one thread?'''
 [author]
 	name = "Tanner Bruce"

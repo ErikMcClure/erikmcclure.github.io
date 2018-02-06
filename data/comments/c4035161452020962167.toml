@@ -1,7 +1,7 @@
 id = "4035161452020962167"
 date = 2013-02-11T02:38:44Z
 updated = 2013-02-11T02:38:44Z
-title = "I used SDL before writing my graphics engine. I at..."
+title = '''I used SDL before writing my graphics engine. I at...'''
 content = '''I used SDL before writing my graphics engine. I attempted to use XACT before writing my audio engine. I used CEGUI and GTK+ before writing my GUI abstraction.<br /><br />I don&#39;t just build things because I can, I build things because I have to.'''
 reply = 6903657319535122073
 [author]

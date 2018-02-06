@@ -1,7 +1,7 @@
 id = "353412928712053076"
 date = 2012-02-07T04:23:23Z
 updated = 2012-02-07T04:23:23Z
-title = "In fact the gamma curve rabbit hole goes deeper th..."
+title = '''In fact the gamma curve rabbit hole goes deeper th...'''
 content = '''In fact the gamma curve rabbit hole goes deeper than you can imagine. Think how many times (especially in the old days) a &quot;50% grey% would get displayed as a black and white checkerboard; or one resampled an image by averaging pixel values or interpolating; or alpha-blend by multiplying the pixel difference by the alpha; or antialias by mapping coverage to pixel value. :-(<br /><br />Software like Photoshop gets all this right (these days) of course... but SO MUCH does not.'''
 [author]
 	name = "nemo20000"

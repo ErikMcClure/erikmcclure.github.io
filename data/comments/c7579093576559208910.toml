@@ -1,7 +1,7 @@
 id = "7579093576559208910"
 date = 2012-09-20T06:35:38Z
 updated = 2012-09-20T06:35:38Z
-title = "It&#39;s not Photosynth, but I have done one using..."
+title = '''It&#39;s not Photosynth, but I have done one using...'''
 content = '''It&#39;s not Photosynth, but I have done one using deepzoom (seadragon for the pedants)<br /><br />http://clickanddrag.azurewebsites.net'''
 [author]
 	name = "Ross Dargan"

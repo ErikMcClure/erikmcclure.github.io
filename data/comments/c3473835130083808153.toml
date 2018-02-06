@@ -1,7 +1,7 @@
 id = "3473835130083808153"
 date = 2012-02-25T00:49:28Z
 updated = 2012-02-25T00:49:28Z
-title = "&gt; &quot;If you somehow manage to get the window..."
+title = '''&gt; &quot;If you somehow manage to get the window...'''
 content = '''&gt; &quot;If you somehow manage to get the window you want docked into a panel, it defaults to pinning the entire group of panels, regardless of whether they were pinned before or not. I just wanted to pin one!&quot;<br /><br />There is a way to do that, just not that obvious - drag the panel you want to pin out of the tab group, then dock it again - that will create a new docking group, separate from those that are in auto-hidden state.'''
 [author]
 	name = "Alin Constantin"

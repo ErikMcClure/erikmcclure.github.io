@@ -1,7 +1,7 @@
 id = "8173998252851989627"
 date = 2015-06-20T03:54:12Z
 updated = 2015-06-20T03:54:12Z
-title = "Hi! So I got to thinking about this article, and t..."
+title = '''Hi! So I got to thinking about this article, and t...'''
 content = '''Hi! So I got to thinking about this article, and thought of sharing a way I think it relates to me.<br />I&#39;ve been working on a game mod that, up until recently, was playing itself for the most part. It didn&#39;t account for the user at all, it just went about a perfect set of instructions and provided no challenge, depth, or hardly any time in the experience with all the events zooming by. I had to, in a way, dumb it down to wait for the player to progress or provide choices which I as a designer had to get creative with. The most meaningful or logical point of view I have can be biased by my view as the creator, and I have to remove myself from that perspective in order to improve the product. Or get some testers, that helps.<br />This might be seen as off-topic, since I delved into talking about a video game mod on a software design article, but I hope my points still came across. To me, I see it as an example of what you&#39;re talking about here, but I might be coming off as weird.'''
 [author]
 	name = "Tan Tan"

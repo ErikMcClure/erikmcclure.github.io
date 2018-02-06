@@ -1,7 +1,7 @@
 id = "1054417997365019257"
 date = 2011-09-27T15:16:02Z
 updated = 2011-09-27T15:16:02Z
-title = "Good point. I did start recently looking at the gr..."
+title = '''Good point. I did start recently looking at the gr...'''
 content = '''Good point. I did start recently looking at the graphics side of programming again. I enjoy it so much more than the web-apps I do at work, but that&#39;s what pays, not to mention school keeps me busy as well. <br /><br />However, I was proud just to get a little C# app going that would render 3D points using basic 3D projection formulas, haha! Going to try to learn about rasterization and drawing in the triangles next- getting them drawn so they don&#39;t overlap seems like a hard problem to me. Have been looking up some articles but if you know of any specific good ones I&#39;d be glad to check them out. :P'''
 [author]
 	name = "Jhott"

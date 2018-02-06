@@ -1,7 +1,7 @@
 id = "6731734577867089647"
 date = 2012-09-19T08:20:12Z
 updated = 2012-09-19T08:20:12Z
-title = "Here is a low-res version of the whole image:http..."
+title = '''Here is a low-res version of the whole image:http...'''
 content = '''Here is a low-res version of the whole image:<br />http://www.wickedglitch.com/2012/09/full-low-res-image-spoiler-map-xkcds-click-and-drag/'''
 [author]
 	name = "Unknown"

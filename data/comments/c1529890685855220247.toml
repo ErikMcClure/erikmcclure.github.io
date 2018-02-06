@@ -1,7 +1,7 @@
 id = "1529890685855220247"
 date = 2012-10-12T11:39:20Z
 updated = 2012-10-12T11:39:20Z
-title = "This discussion inspired me to type up some stuff ..."
+title = '''This discussion inspired me to type up some stuff ...'''
 content = '''This discussion inspired me to type up some stuff of why determinism is a nice thing to have.<br /><a href="http://blog.slapware.eu/game-engine/programming/deterministic-behavior/" rel="nofollow">http://blog.slapware.eu/game-engine/programming/deterministic-behavior/</a><br /><br />I&#39;ve also shown evidence that my engine is deterministic, so I assume this will convince you that determinism is indeed possible.<br /><br />P.S. this blog-page is not yet officially published so it is subject to change. I still in the process of creating a new version of the engine...'''
 reply = 6206156930516113659
 [author]

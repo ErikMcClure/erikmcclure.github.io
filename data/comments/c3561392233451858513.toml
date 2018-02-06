@@ -1,7 +1,7 @@
 id = "3561392233451858513"
 date = 2012-02-25T01:36:18Z
 updated = 2012-02-25T01:36:18Z
-title = "That&#39;s interesting. I tried that once and it d..."
+title = '''That&#39;s interesting. I tried that once and it d...'''
 content = '''That&#39;s interesting. I tried that once and it didn&#39;t seem to work, but on a second attempt it apparently does.'''
 reply = 3473835130083808153
 [author]

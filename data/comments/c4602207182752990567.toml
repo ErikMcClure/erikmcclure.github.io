@@ -1,7 +1,7 @@
 id = "4602207182752990567"
 date = 2011-09-06T14:20:07Z
 updated = 2011-09-06T14:20:07Z
-title = "Unfortunately I simply don&#39;t understand why th..."
+title = '''Unfortunately I simply don&#39;t understand why th...'''
 content = '''Unfortunately I simply don&#39;t understand why the compiler would generate that kind of dependency on instructions as a result of me attempting to remove branching.'''
 [author]
 	name = "Erik McClure"

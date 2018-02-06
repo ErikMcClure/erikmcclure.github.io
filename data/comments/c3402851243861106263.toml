@@ -1,7 +1,7 @@
 id = "3402851243861106263"
 date = 2016-11-25T11:20:04Z
 updated = 2016-11-25T11:20:04Z
-title = "Absolutely with you on this; Lately I&#39;m findin..."
+title = '''Absolutely with you on this; Lately I&#39;m findin...'''
 content = '''Absolutely with you on this; Lately I&#39;m finding myself thinking how cool it will be if scientific papers (specially discrete maths) will look more like jupyter notebooks. This is not necessarily the best example but I was quite excited to with how the ligo observations on gravitational waves were explained in this format  https://losc.ligo.org/s/events/GW150914/GW150914_tutorial.html'''
 [author]
 	name = "Carlos Manzanedo"
