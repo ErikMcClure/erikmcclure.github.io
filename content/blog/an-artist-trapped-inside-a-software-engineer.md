@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2012-08-19T04:32:00Z"
 title = "An Artist Trapped Inside A Software Engineer"
 updated = "2012-08-19T12:37:32.000+00:00"
+comments = [ 6451751688322886785 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

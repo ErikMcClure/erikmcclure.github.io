@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2011-06-03T07:25:00Z"
 title = "The Logical Basis of Ethics"
 updated = "2011-06-03T07:25:22.000+00:00"
+comments = [ 9104990211630854029, 7955083075710775548, 212943699630600086, 4424752148178354861 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

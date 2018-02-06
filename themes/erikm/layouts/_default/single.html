@@ -26,7 +26,26 @@
       <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}"><i class="fa fa-clock-o fa-fw"></i> Published on <a href="{{ .Permalink }}">{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "January 2, 2006 at 3:04pm" }}{{ end }}</a></time>
       {{ partial "share.html" . }}
     </article>
-    <article><a name="comments"></a>
+    <article><a name="comments"><h4>Comments</h4></a>
+    <hr/>
+    {{if .Params.Comments}}
+    <div class="comments">
+      {{ range $i, $e := .Params.Comments }}
+        {{if $i}}<hr/>{{end}}
+        {{ $id := print "c" $e }}
+        {{with index $.Site.Data.comments $id }}
+        <div {{with .reply }}class="reply"{{end}}>
+        <div class="reply-arrow"><i class="fa fa-level-up"></i></div>
+        <img src="{{.author.image.source}}" alt="" />
+        <b>{{.author.name}}</b>
+        <p>{{.content | safeHTML}}</p>
+        </div>
+        {{else}}
+        <p>error: {{$id}}</p>
+        {{end}}
+      {{ end }}
+    </div>
+    <hr/>{{end}}
     <h6>Comments are disabled</h6>
     </article>
   </section>

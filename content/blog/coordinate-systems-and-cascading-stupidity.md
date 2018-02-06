@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2012-07-25T01:06:00Z"
 title = "Coordinate Systems And Cascading Stupidity"
 updated = "2012-07-25T01:17:34.000+00:00"
+comments = [ 7213015184920423072 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

@@ -1,0 +1,13 @@
+id = "3240277000314779135"
+date = 2013-12-02T22:40:49Z
+updated = 2013-12-02T22:40:49Z
+title = "I was actually going to try and just batch render ..."
+content = "I was actually going to try and just batch render the whole thing to get rid of that, but I was mostly focused on trying to get the WebGL thing to work at all. Oddly enough, every single example of WebGL I could find calls those get functions every single draw frame. Because they have no analogy in DirectX, I wasn&#39;t entirely sure if I could save them in the first place.<br /><br />The state management is optimization I probably should have put in, but it&#39;s not actually that effective when you have a zillion objects all with different shaders running around, which is why I hadn&#39;t done it before. Obviously, it is much more effective when all you are rendering is a single map with one shader, but if you have a bunch of objects with the same shader, chances are you should be batch-rendering them in the first place, not issuing separate calls."
+reply = 5198427124390091873
+[author]
+	name = "Erik McClure"
+	uri = "https://www.blogger.com/profile/13838708587730716493"
+[author.image]
+	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAb8/g9Iz6rSFuBQ/s32-c/photo.jpg"
+	width = "32"
+	height = "32"

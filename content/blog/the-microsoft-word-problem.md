@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2013-09-18T22:34:00Z"
 title = "The Microsoft Word Problem "
 updated = "2013-09-28T07:12:36.000+00:00"
+comments = [ 3835215067093425171 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

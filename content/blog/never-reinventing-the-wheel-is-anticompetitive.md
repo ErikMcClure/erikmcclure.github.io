@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2014-11-22T00:15:00Z"
 title = "Never Reinventing The Wheel Is Anticompetitive "
 updated = "2014-11-22T12:39:24.000+00:00"
+comments = [ 2580492638773785216, 1465072138398960621, 1883344438890843204, 4981196591329632074, 4567640033476427600, 1918972859475533854 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

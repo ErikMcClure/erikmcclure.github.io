@@ -1,0 +1,13 @@
+id = "5071307509161584106"
+date = 2017-06-24T10:04:50Z
+updated = 2017-06-24T10:04:50Z
+title = "Yes, but this isn&#39;t scalable, because you&#39;..."
+content = "Yes, but this isn&#39;t scalable, because you&#39;d need 1 bot account for every 10 or 20 spammers, which would still require 50-100 antispam bots just to handle the possibility of a massive spambot attack. It probably also violates the discord bot guidelines."
+reply = 7194633335323624107
+[author]
+	name = "Erik McClure"
+	uri = "https://www.blogger.com/profile/13838708587730716493"
+[author.image]
+	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAdo/4sbjcZsncwU/s32-c/photo.jpg"
+	width = "32"
+	height = "32"

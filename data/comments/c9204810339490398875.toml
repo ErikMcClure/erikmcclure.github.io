@@ -1,0 +1,12 @@
+id = "9204810339490398875"
+date = 2012-09-27T06:10:44Z
+updated = 2012-09-27T06:10:44Z
+title = "You should know that most VFX productions nowadays..."
+content = "You should know that most VFX productions nowadays are using raytracing because it helps achieving photorealism.<br /><br />PRMan, Pixar&#39;s renderer is progressively increasing its raytracing capabilities especially since Prman 16 and 16.<br /><br />Arnold is getting used more and more, and guess what it&#39;s a raytracer.<br /><br />Mental Ray which is an hybrid renderer like PRMan has an enphasis on raytracing.<br /><br />VRay which is heavily used in commercial is a raytracer.<br /><br />Well in fact pretty much every renderer used in production is a raytracer, or hybrid in a few case.<br /><br />KS"
+[author]
+	name = "Thomas Mansencal"
+	uri = "https://www.blogger.com/profile/00074906410947000193"
+[author.image]
+	source = "//lh6.googleusercontent.com/-vtEhrww0yd8/AAAAAAAAAAI/AAAAAAAAACY/DfNFIjfkwrI/s32-c/photo.jpg"
+	width = "32"
+	height = "32"

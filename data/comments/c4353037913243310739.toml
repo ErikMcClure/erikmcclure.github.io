@@ -1,0 +1,12 @@
+id = "4353037913243310739"
+date = 2011-09-07T14:02:38Z
+updated = 2011-09-07T14:02:38Z
+title = "The input lag is very slightly noticeable when pre..."
+content = "The input lag is very slightly noticeable when pressing a button, but primarily noticeable when you are dragging things around on the screen with the mouse. A hardware rendered mouse will reveal a very large and very obvious input lag, which is one of the primary motivators for trying to eliminate as much of it as possible. The fact that many people turn off vsync to get rid of the input lag indicates that it is noticeable."
+[author]
+	name = "Erik McClure"
+	uri = "https://www.blogger.com/profile/13838708587730716493"
+[author.image]
+	source = "//1.bp.blogspot.com/-K3nGMEbXbqI/Tg5QXhNWUNI/AAAAAAAAAGA/OmzJ8Trn7ZI/s32/avvy7_5.png"
+	width = "32"
+	height = "32"

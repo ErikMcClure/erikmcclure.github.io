@@ -1,0 +1,12 @@
+id = "6040314195789511364"
+date = 2013-02-11T07:08:36Z
+updated = 2013-02-11T07:08:36Z
+title = "As with most of the previous commentators, this de..."
+content = "As with most of the previous commentators, this describes myself too Erik. I am also the kind of guy who will build a lot of things from scratch just because I have to have control and just because I am sure I will learn a whole damn lot by doing so. <br /><br />This is one of those projects, a library of tools I use in all of my other projects. Not product ready code yet but as is the case with you, I want this project to be a monolithic stand-alone system of programming tools and I just love working on it: http://refu.realintelligence.net/ <br /><br />From reading this post I think we could actually be best buddies due to all of the similarities :)<br /><br />If I have one piece of advice it&#39;s this. Go slower. I feel exactly like you do but I think that the best thing you could do right now is to put an order on things. Say I will do project X first, project Y second and project Z third. If in project X you also need to include functionality from project Y and Z too, first substitute them with some open-source alternative and then when project X has a working prototype start working on them again in order throwing away the 3rd party open source modules. This way you will gain a great insight on how to make projects Y and Z too.<br /><br />Having a plan and doing things in order you are always guaranteed to have something to show to others (including yourself!!! , makes you feel a lot better to see things working) and you are always proceeding slowly but steadily towards your goal.<br /><br />In conclusion, best of luck and keep hacking :)"
+[author]
+	name = "Lefteris Karapetsas"
+	uri = "https://www.blogger.com/profile/18098395548044595125"
+[author.image]
+	source = "//lh3.googleusercontent.com/-b68Y-zQt7XM/AAAAAAAAAAI/AAAAAAAAAFA/ls4BtFNYzuA/s32-c/photo.jpg"
+	width = "32"
+	height = "32"

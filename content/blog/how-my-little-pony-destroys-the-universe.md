@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2013-02-03T01:56:00Z"
 title = "How My Little Pony Destroys The Universe"
 updated = "2013-02-03T02:45:36.000+00:00"
+comments = [ 2483498689907460310, 1028434376741534344, 6031174375640540557 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

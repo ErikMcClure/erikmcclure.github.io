@@ -1,0 +1,12 @@
+id = "4951642764455670044"
+date = 2016-02-09T01:52:34Z
+updated = 2016-02-09T01:52:34Z
+title = "The gpus will be compiling SPIR down to the native..."
+content = "The gpus will be compiling SPIR down to the native machine code rather than executing it directly. So arguably the gpu model is closer to the specializer design proposed for the mill cpu, https://millcomputing.com/topic/compiler/, than having hardware execute SPIR directly."
+[author]
+	name = "Tycho Bickerstaff"
+	uri = "https://www.blogger.com/profile/05136550032742824726"
+[author.image]
+	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+	width = "35"
+	height = "35"

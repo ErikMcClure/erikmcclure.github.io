@@ -149,7 +149,7 @@ h6 {
 	font: 0.8rem "Lucida grande", Helvetica, Arial, sans-serif;
   text-align: center;
   color: #666564;
-  padding-top: 0.75rem;
+  padding-top: 0.25rem;
   font-style: italic;
 }
 code, pre {
@@ -441,6 +441,42 @@ main.blog section .pager ul li.disabled a:hover {
   border: 1px transparent solid;
   box-shadow: 0 0 1px transparent;
 }
+main.blog section .comments {
+  padding: 0.25rem 1.75rem 0.25rem 1.75rem;
+  overflow:hidden;
+}
+main.blog section .comments p {
+  margin-top: 0.25rem;
+  padding: 0 0.5rem;
+}
+main.blog section .comments b {
+  line-height: 34px;
+  vertical-align: top;
+}
+main.blog section .comments img {
+  height: 34px;
+}
+main.blog section .comments .reply {
+  position: relative;
+  margin-left: 2.5rem;
+}
+main.blog section .comments .reply-arrow {
+  display: none;
+}
+main.blog section .comments .reply-arrow .fa {
+  font-size: 24px;
+  font-style: normal;
+  transform: scaleX(-1);
+  filter: FlipH;
+  color: #666;
+  text-shadow: -1px 1px 0 #fff;
+}
+main.blog section .comments .reply .reply-arrow {
+  position: absolute;
+  display: block;
+  left: -16px;
+}
+
 
 nav ul li a:hover {
   color: #FFF;
@@ -571,5 +607,8 @@ footer span:after {
 }
 main.blog section article .padding {
   margin: 0 0.75rem 0 1rem;
+}
+h4 {
+  margin: 0 0.75rem 0 0.75rem;
 }
 }

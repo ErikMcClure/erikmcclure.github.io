@@ -1,0 +1,12 @@
+id = "9031213592527597570"
+date = 2013-02-24T23:10:05Z
+updated = 2013-02-24T23:10:05Z
+title = "I think C++ and HTML/CSS both fell into the same t..."
+content = "I think C++ and HTML/CSS both fell into the same trap: they became multi-vendor standards and picked up backwards-compatibility requirements before their design was properly sorted out. And since no one can unilaterally fix things that are broken about HTML/CSS or C++, bits of stupidity have been piling up through their whole histories. Technologies that start niche and stick to a canonical implementation seem to fare better."
+[author]
+	name = "jimrandomh"
+	uri = "https://www.blogger.com/profile/12840344000349576240"
+[author.image]
+	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+	width = "35"
+	height = "35"

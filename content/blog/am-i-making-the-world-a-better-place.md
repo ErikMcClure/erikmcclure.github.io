@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2015-05-08T21:53:00Z"
 title = "Am I Making The World A Better Place?"
 updated = "2015-05-09T14:26:51.000+00:00"
+comments = [ 1938605605834757472, 6429383134273475797, 138517794451585826, 1731483895927325729, 595980092582829619 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

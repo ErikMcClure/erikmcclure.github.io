@@ -1,0 +1,13 @@
+id = "2821259584975881087"
+date = 2017-01-08T14:46:58Z
+updated = 2017-01-08T14:46:58Z
+title = "The game is deterministic, which means the program..."
+content = "The game is deterministic, which means the program can instantly skip forward the precise amount of time it needs to buy the next item. Thus the algorithm only takes O(nk) steps, where n is the number of things that need to be purchased and k is the number of upgrades/buildings it needs to iterate through each step."
+reply = 211157025285730602
+[author]
+	name = "Erik McClure"
+	uri = "https://www.blogger.com/profile/13838708587730716493"
+[author.image]
+	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAdo/4sbjcZsncwU/s32-c/photo.jpg"
+	width = "32"
+	height = "32"

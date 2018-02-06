@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2017-05-04T14:06:00Z"
 title = "Why Bother Making An App?"
 updated = "2017-05-04T14:19:46.000+00:00"
+comments = [ 5438859504006362931, 2200462711442402540, 4210417037218069144 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

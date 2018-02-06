@@ -1,0 +1,12 @@
+id = "5552192573693996322"
+date = 2011-11-25T11:54:51Z
+updated = 2011-11-25T11:54:51Z
+title = "Signed and unsigned integers don&#39;t mix; when u..."
+content = "Signed and unsigned integers don&#39;t mix; when used in an expression, the signed integer is treated as unsigned.<br /><br />Its almost impossible to find some code that isn&#39;t littered with legitimate signed integers.  They are really hard to avoid.<br /><br />Whereas the only place that unsigned creeps in is sizeof and size_t.  And even then ptrdiff_t and so on are signed.<br /><br />As a consequence, its a real shame that sizeof and size_t etc weren&#39;t signed and unsigned were banished.<br /><br />If you have to pick one, try living without signed.  On the other hand, you can easily live without unsigned.<br /><br />In Java bitwise arithmetic works fine despite normal maths being signed.  And there&#39;s no-one struggling to write anything for lack of unsigned integers."
+[author]
+	name = "Will"
+	uri = "https://www.blogger.com/profile/10665856385463640225"
+[author.image]
+	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+	width = "35"
+	height = "35"

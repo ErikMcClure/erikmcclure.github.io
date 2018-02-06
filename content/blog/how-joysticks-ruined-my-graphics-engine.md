@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2012-06-22T22:29:00Z"
 title = "How Joysticks Ruined My Graphics Engine"
 updated = "2013-05-10T01:59:52.000+00:00"
+comments = [ 4511252302585754852, 7557298174961971984 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

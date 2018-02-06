@@ -1,0 +1,13 @@
+id = "1820172055925965399"
+date = 2014-03-19T07:05:37Z
+updated = 2014-03-19T07:05:37Z
+title = "Real antialiasing requires you to either calculate..."
+content = "Real antialiasing requires you to either calculate precise coverage over a given pixel for shadows, or sample the pixel a couple hundred times. This is obviously not actually *required* for the vast majority of antialiasing, which is why perceptual algorithms usually do the job. It becomes important for things like the sun shining through dense forest foliage - extremely tiny holes can let through a significant amount of light, and those holes are often MUCH smaller than a single pixel, which breaks a lot of our antialiasing algorithms."
+reply = 5004412755588436902
+[author]
+	name = "Erik McClure"
+	uri = "https://www.blogger.com/profile/13838708587730716493"
+[author.image]
+	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAb8/g9Iz6rSFuBQ/s32-c/photo.jpg"
+	width = "32"
+	height = "32"

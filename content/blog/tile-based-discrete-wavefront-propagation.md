@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2013-12-02T17:45:00Z"
 title = "Tile-Based Discrete Wavefront Propagation "
 updated = "2013-12-02T22:59:43.000+00:00"
+comments = [ 5198427124390091873, 3240277000314779135, 382492840733868347, 4034283011267259754 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

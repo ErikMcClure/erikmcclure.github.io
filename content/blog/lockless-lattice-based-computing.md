@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2012-10-15T14:24:00Z"
 title = "Lockless Lattice-Based Computing"
 updated = "2012-10-15T14:24:16.000+00:00"
+comments = [ 4541202557533023376, 4721357949272230233 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"
