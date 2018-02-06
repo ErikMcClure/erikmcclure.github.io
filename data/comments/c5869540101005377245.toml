@@ -1,12 +1,12 @@
-id = "5869540101005377245"
-date = 2011-09-29T16:51:57Z
-updated = 2011-09-29T16:51:57Z
-title = '''I have deliberately not covered pointers to functi...'''
-content = '''I have deliberately not covered pointers to functions yet. I intend to cover them by comparing them to C# delegates at a later point.<br /><br />As for why you don&#39;t see a &#39;T&#39; on the screen, it has nothing to do with function pointers - You are not thinking with the stack. You must remember that all functions are scopes. This is easy to remember because anything inside { } is a scope, and that includes a function. That means, like all other scopes, any variable declared on the stack inside a function ceases to exist outside of that function. Your code here is referencing a variable that no longer exists. You can&#39;t return a pointer to a variable declared on the stack inside a function because once the function exits, cstm[] no longer exists because it is now out of scope, so the pointer is pointing to garbage memory.'''
+content = "I have deliberately not covered pointers to functions yet. I intend to cover them by comparing them to C# delegates at a later point.<br /><br />As for why you don&#39;t see a &#39;T&#39; on the screen, it has nothing to do with function pointers - You are not thinking with the stack. You must remember that all functions are scopes. This is easy to remember because anything inside { } is a scope, and that includes a function. That means, like all other scopes, any variable declared on the stack inside a function ceases to exist outside of that function. Your code here is referencing a variable that no longer exists. You can&#39;t return a pointer to a variable declared on the stack inside a function because once the function exits, cstm[] no longer exists because it is now out of scope, so the pointer is pointing to garbage memory."
+date = "2011-09-29T16:51:57+00:00"
+id = 5869540101005377245
+title = "I have deliberately not covered pointers to functi..."
+updated = "2011-09-29T16:51:57.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//1.bp.blogspot.com/-K3nGMEbXbqI/Tg5QXhNWUNI/AAAAAAAAAGA/OmzJ8Trn7ZI/s32/avvy7_5.png"
-	width = "32"
-	height = "32"
+height = 32
+source = "//1.bp.blogspot.com/-K3nGMEbXbqI/Tg5QXhNWUNI/AAAAAAAAAGA/OmzJ8Trn7ZI/s32/avvy7_5.png"
+width = 32

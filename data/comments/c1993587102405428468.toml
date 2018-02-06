@@ -1,13 +1,13 @@
-id = "1993587102405428468"
-date = 2013-02-10T23:59:13Z
-updated = 2013-02-10T23:59:13Z
-title = '''I believe you&#39;re very productive, but you obvi...'''
-content = '''I believe you&#39;re very productive, but you obviously also spend a lot of time on non-game-engine things like social media and music. Try using that time to record demos of your latest code. It doesn&#39;t matter if it&#39;s &quot;meaningful,&quot; showing something off, no matter how small, is better than keeping the whole project hidden. People search for the weirdest things, and sometimes your random tech demo is exactly what they&#39;re looking for.'''
+content = "I believe you&#39;re very productive, but you obviously also spend a lot of time on non-game-engine things like social media and music. Try using that time to record demos of your latest code. It doesn&#39;t matter if it&#39;s &quot;meaningful,&quot; showing something off, no matter how small, is better than keeping the whole project hidden. People search for the weirdest things, and sometimes your random tech demo is exactly what they&#39;re looking for."
+date = "2013-02-10T23:59:13+00:00"
+id = 1993587102405428468
 reply = 5512906435975709125
+title = "I believe you&#39;re very productive, but you obvi..."
+updated = "2013-02-10T23:59:13.000+00:00"
 [author]
-	name = "Ivan M"
-	uri = "https://www.blogger.com/profile/02940434430554244627"
+name = "Ivan M"
+uri = "https://www.blogger.com/profile/02940434430554244627"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

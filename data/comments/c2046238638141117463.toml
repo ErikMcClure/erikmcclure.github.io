@@ -1,13 +1,13 @@
-id = "2046238638141117463"
-date = 2013-02-11T02:47:56Z
-updated = 2013-02-11T02:47:56Z
-title = '''The process of me figuring out which parts are the...'''
-content = '''The process of me figuring out which parts are the most important is what&#39;s driving my current refactoring of the engine. I currently have 2 things I&#39;m focusing on, both of which I believe maximize the potential value to the largest number of people (who matter to me, anyway).'''
+content = "The process of me figuring out which parts are the most important is what&#39;s driving my current refactoring of the engine. I currently have 2 things I&#39;m focusing on, both of which I believe maximize the potential value to the largest number of people (who matter to me, anyway)."
+date = "2013-02-11T02:47:56+00:00"
+id = 2046238638141117463
 reply = 6651157694806954252
+title = "The process of me figuring out which parts are the..."
+updated = "2013-02-11T02:47:56.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
+width = 32

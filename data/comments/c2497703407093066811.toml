@@ -1,12 +1,12 @@
-id = "2497703407093066811"
-date = 2013-09-03T04:54:18Z
-updated = 2013-09-03T04:54:18Z
-title = '''Great article! &quot;Instead of giving our childre...'''
-content = '''Great article! &quot;Instead of giving our children a brush and telling them to use their imagination, we give them a coloring book and grade them on how well they stay inside the lines&quot; represents the whole idea of the article, IMHO.'''
+content = "Great article! &quot;Instead of giving our children a brush and telling them to use their imagination, we give them a coloring book and grade them on how well they stay inside the lines&quot; represents the whole idea of the article, IMHO."
+date = "2013-09-03T04:54:18+00:00"
+id = 2497703407093066811
+title = "Great article! &quot;Instead of giving our childre..."
+updated = "2013-09-03T04:54:18.000+00:00"
 [author]
-	name = "Alexander Churikov"
-	uri = "https://www.blogger.com/profile/04777707158609641226"
+name = "Alexander Churikov"
+uri = "https://www.blogger.com/profile/04777707158609641226"
 [author.image]
-	source = "//lh6.googleusercontent.com/-MgqLg9Ez0kw/AAAAAAAAAAI/AAAAAAAAAD4/wp9k0gegrBc/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh6.googleusercontent.com/-MgqLg9Ez0kw/AAAAAAAAAAI/AAAAAAAAAD4/wp9k0gegrBc/s32-c/photo.jpg"
+width = 32

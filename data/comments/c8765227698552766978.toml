@@ -1,12 +1,12 @@
-id = "8765227698552766978"
-date = 2013-07-21T14:12:14Z
-updated = 2013-07-21T14:12:14Z
-title = '''Erik, what are you doing now? May I use this as a ...'''
-content = '''Erik, what are you doing now? May I use this as a guest blog post on my blog...great topic for a bigger discussion.'''
+content = "Erik, what are you doing now? May I use this as a guest blog post on my blog...great topic for a bigger discussion."
+date = "2013-07-21T14:12:14+00:00"
+id = 8765227698552766978
+title = "Erik, what are you doing now? May I use this as a ..."
+updated = "2013-07-21T14:12:14.000+00:00"
 [author]
-	name = "Linda Thomas"
-	uri = "https://www.blogger.com/profile/14028561262555931583"
+name = "Linda Thomas"
+uri = "https://www.blogger.com/profile/14028561262555931583"
 [author.image]
-	source = "//3.bp.blogspot.com/-bRCT-J5TwAc/TY_Qn2S2tuI/AAAAAAAAAE4/euuBfYjy_FY/s32/Linda_0325T.JPG"
-	width = "21"
-	height = "32"
+height = 32
+source = "//3.bp.blogspot.com/-bRCT-J5TwAc/TY_Qn2S2tuI/AAAAAAAAAE4/euuBfYjy_FY/s32/Linda_0325T.JPG"
+width = 21

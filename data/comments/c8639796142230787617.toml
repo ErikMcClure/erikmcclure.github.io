@@ -1,13 +1,13 @@
-id = "8639796142230787617"
-date = 2012-05-21T16:45:20Z
-updated = 2012-05-21T16:45:20Z
-title = '''I apologize in advance for not finishing the serie...'''
-content = '''I apologize in advance for not finishing the series &lt;_&lt;'''
+content = "I apologize in advance for not finishing the series &lt;_&lt;"
+date = "2012-05-21T16:45:20+00:00"
+id = 8639796142230787617
 reply = 1835446767215486925
+title = "I apologize in advance for not finishing the serie..."
+updated = "2012-05-21T16:45:20.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
+width = 32

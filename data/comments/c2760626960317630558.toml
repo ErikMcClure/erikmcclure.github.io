@@ -1,12 +1,12 @@
-id = "2760626960317630558"
-date = 2017-07-30T18:52:28Z
-updated = 2017-07-30T18:52:28Z
-title = '''No argument with most of your comments about the r...'''
-content = '''No argument with most of your comments about the rigged nature of the industry, but I&#39;m surprised you didn&#39;t at least comment on the DMCA side of the equation?'''
+content = "No argument with most of your comments about the rigged nature of the industry, but I&#39;m surprised you didn&#39;t at least comment on the DMCA side of the equation?"
+date = "2017-07-30T18:52:28+00:00"
+id = 2760626960317630558
+title = "No argument with most of your comments about the r..."
+updated = "2017-07-30T18:52:28.000+00:00"
 [author]
-	name = "Andy"
-	uri = "https://www.blogger.com/profile/17198417160336346934"
+name = "Andy"
+uri = "https://www.blogger.com/profile/17198417160336346934"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

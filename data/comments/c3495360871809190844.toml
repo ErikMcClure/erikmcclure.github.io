@@ -1,12 +1,12 @@
-id = "3495360871809190844"
-date = 2012-02-24T19:34:25Z
-updated = 2012-02-24T19:34:25Z
-title = '''Don&#39;t forget: muscle memory also has a great d...'''
-content = '''Don&#39;t forget: muscle memory also has a great deal to do with being able to find an item (ie, by position). And with a smaller set of items, your muscle memory can be just as effective without needing to identify by color. Then, color can be left for more important things to stand out, leaving the noise out of the way. <br /><br />With the ginormous 2010 toolbar, you&#39;re right, monotone is going too far.  But with the new simplified 19 item toolbar it sorta feels right.<br /><br />I think they are moving in the right direction.  Less toolbars and more emphasis on the known fact that developers are geeks and will seekout shortcut keys naturally (which as you mentioned is the appeal of systems like emacs and vim), thereby leaving the color to more contextually important needs, like to highlight something unusual or different.'''
+content = "Don&#39;t forget: muscle memory also has a great deal to do with being able to find an item (ie, by position). And with a smaller set of items, your muscle memory can be just as effective without needing to identify by color. Then, color can be left for more important things to stand out, leaving the noise out of the way. <br /><br />With the ginormous 2010 toolbar, you&#39;re right, monotone is going too far.  But with the new simplified 19 item toolbar it sorta feels right.<br /><br />I think they are moving in the right direction.  Less toolbars and more emphasis on the known fact that developers are geeks and will seekout shortcut keys naturally (which as you mentioned is the appeal of systems like emacs and vim), thereby leaving the color to more contextually important needs, like to highlight something unusual or different."
+date = "2012-02-24T19:34:25+00:00"
+id = 3495360871809190844
+title = "Don&#39;t forget: muscle memory also has a great d..."
+updated = "2012-02-24T19:34:25.000+00:00"
 [author]
-	name = "scott"
-	uri = "https://www.blogger.com/profile/02944167819772128314"
+name = "scott"
+uri = "https://www.blogger.com/profile/02944167819772128314"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

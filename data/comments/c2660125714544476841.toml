@@ -1,12 +1,12 @@
-id = "2660125714544476841"
-date = 2012-03-14T22:48:43Z
-updated = 2012-03-14T22:48:43Z
-title = '''uhh, dude, console gaming is not going anywhere. a...'''
-content = '''uhh, dude, console gaming is not going anywhere. and i don&#39;t want my console game partially designed with touchscreen tablets in mind. nor do i expect to pay $60 for a game that isn&#39;t optimized for my console and its controller.<br /><br />if you want to talk about computer software in general, then you should get the same version on desktop, laptop and tablet - but don&#39;t reduce functionality just to make it run on a tablet. that&#39;s balls deep insanity'''
+content = "uhh, dude, console gaming is not going anywhere. and i don&#39;t want my console game partially designed with touchscreen tablets in mind. nor do i expect to pay $60 for a game that isn&#39;t optimized for my console and its controller.<br /><br />if you want to talk about computer software in general, then you should get the same version on desktop, laptop and tablet - but don&#39;t reduce functionality just to make it run on a tablet. that&#39;s balls deep insanity"
+date = "2012-03-14T22:48:43+00:00"
+id = 2660125714544476841
+title = "uhh, dude, console gaming is not going anywhere. a..."
+updated = "2012-03-14T22:48:43.000+00:00"
 [author]
-	name = "Unknown"
-	uri = "https://www.blogger.com/profile/15518727851068698668"
+name = "Unknown"
+uri = "https://www.blogger.com/profile/15518727851068698668"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

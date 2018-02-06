@@ -1,12 +1,12 @@
-id = "8535660637981989807"
-date = 2015-02-20T01:18:16Z
-updated = 2015-02-20T01:18:16Z
-title = '''Thank you for this reminder and eye opener, readin...'''
-content = '''Thank you for this reminder and eye opener, reading this has changed how i view certain things. Your post is too good not be shared, i have shared the link with my friends and i hope it helps us learn to appreciate people more'''
+content = "Thank you for this reminder and eye opener, reading this has changed how i view certain things. Your post is too good not be shared, i have shared the link with my friends and i hope it helps us learn to appreciate people more"
+date = "2015-02-20T01:18:16+00:00"
+id = 8535660637981989807
+title = "Thank you for this reminder and eye opener, readin..."
+updated = "2015-02-20T01:18:16.000+00:00"
 [author]
-	name = "Nandipha Shiyani"
-	uri = "https://www.blogger.com/profile/04565693408002347118"
+name = "Nandipha Shiyani"
+uri = "https://www.blogger.com/profile/04565693408002347118"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

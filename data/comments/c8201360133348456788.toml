@@ -1,12 +1,12 @@
-id = "8201360133348456788"
-date = 2012-02-06T03:41:27Z
-updated = 2012-02-06T03:41:27Z
-title = '''I like this article its almost a summary of the en...'''
-content = '''I like this article its almost a summary of the entire of philosophy ;)'''
+content = "I like this article its almost a summary of the entire of philosophy ;)"
+date = "2012-02-06T03:41:27+00:00"
+id = 8201360133348456788
+title = "I like this article its almost a summary of the en..."
+updated = "2012-02-06T03:41:27.000+00:00"
 [author]
-	name = "MrTortoise"
-	uri = "https://www.blogger.com/profile/14637415762845843603"
+name = "MrTortoise"
+uri = "https://www.blogger.com/profile/14637415762845843603"
 [author.image]
-	source = "//2.bp.blogspot.com/_FAYVAat4xI8/SVC9Yd5Oi-I/AAAAAAAAAAM/VhHqsIe9Mso/S220-s32/tortoise.jpg"
-	width = "25"
-	height = "32"
+height = 32
+source = "//2.bp.blogspot.com/_FAYVAat4xI8/SVC9Yd5Oi-I/AAAAAAAAAAM/VhHqsIe9Mso/S220-s32/tortoise.jpg"
+width = 25

@@ -1,12 +1,12 @@
-id = "839901227346281014"
-date = 2012-04-10T22:11:24Z
-updated = 2012-04-10T22:11:24Z
-title = '''Oh, and C++ is still the best tool for some purpos...'''
-content = '''Oh, and C++ is still the best tool for some purposes, which makes your parallel incomplete. Various people are working on building languages that can successfully compete with C++ in its remaining niches, so in another decade or two that may no longer be true.'''
+content = "Oh, and C++ is still the best tool for some purposes, which makes your parallel incomplete. Various people are working on building languages that can successfully compete with C++ in its remaining niches, so in another decade or two that may no longer be true."
+date = "2012-04-10T22:11:24+00:00"
+id = 839901227346281014
+title = "Oh, and C++ is still the best tool for some purpos..."
+updated = "2012-04-10T22:11:24.000+00:00"
 [author]
-	name = "Allen Short"
-	uri = "https://www.blogger.com/profile/02476178041186364808"
+name = "Allen Short"
+uri = "https://www.blogger.com/profile/02476178041186364808"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

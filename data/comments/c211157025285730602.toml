@@ -1,12 +1,12 @@
-id = "211157025285730602"
-date = 2017-01-08T08:21:26Z
-updated = 2017-01-08T08:21:26Z
-title = '''I&#39;d like to know more about how you generated ...'''
-content = '''I&#39;d like to know more about how you generated these graphs.  If they&#39;re data-outputs of your program that played the game, what did you do to keep it from taking 2+ hours?'''
+content = "I&#39;d like to know more about how you generated these graphs.  If they&#39;re data-outputs of your program that played the game, what did you do to keep it from taking 2+ hours?"
+date = "2017-01-08T08:21:26+00:00"
+id = 211157025285730602
+title = "I&#39;d like to know more about how you generated ..."
+updated = "2017-01-08T08:21:26.000+00:00"
 [author]
-	name = "Draco18s"
-	uri = "https://www.blogger.com/profile/13643061478912936550"
+name = "Draco18s"
+uri = "https://www.blogger.com/profile/13643061478912936550"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

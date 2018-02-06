@@ -1,10 +1,10 @@
 +++
 blogimport = true
 categories = ["blog"]
+comments = [353412928712053076, 5947534010757632356]
 date = "2011-12-01T13:36:00Z"
 title = "The Great Mystery of Linear Gradient Lighting"
 updated = "2012-11-13T23:27:40.000+00:00"
-comments = [ 353412928712053076, 5947534010757632356 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

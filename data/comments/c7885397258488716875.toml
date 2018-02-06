@@ -1,12 +1,12 @@
-id = "7885397258488716875"
-date = 2017-02-08T05:26:29Z
-updated = 2017-02-08T05:26:29Z
-title = '''Did you abandon this tutorial project completely? ...'''
-content = '''Did you abandon this tutorial project completely? It has been quite brilliant for me since I found it, best text covering this topic Ive encountered so far.'''
+content = "Did you abandon this tutorial project completely? It has been quite brilliant for me since I found it, best text covering this topic Ive encountered so far."
+date = "2017-02-08T05:26:29+00:00"
+id = 7885397258488716875
+title = "Did you abandon this tutorial project completely? ..."
+updated = "2017-02-08T05:26:29.000+00:00"
 [author]
-	name = "NothingButFlower"
-	uri = "https://www.blogger.com/profile/01416275000754749947"
+name = "NothingButFlower"
+uri = "https://www.blogger.com/profile/01416275000754749947"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

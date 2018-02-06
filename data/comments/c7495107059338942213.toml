@@ -1,13 +1,13 @@
-id = "7495107059338942213"
-date = 2012-09-28T07:45:11Z
-updated = 2012-09-28T07:45:11Z
-title = '''Yes, that is simply another approximation. I never...'''
-content = '''Yes, that is simply another approximation. I never implied Pixar used that kind of raytracing, or raycasting, whatever you want to call it.'''
+content = "Yes, that is simply another approximation. I never implied Pixar used that kind of raytracing, or raycasting, whatever you want to call it."
+date = "2012-09-28T07:45:11+00:00"
+id = 7495107059338942213
 reply = 4416375733763293959
+title = "Yes, that is simply another approximation. I never..."
+updated = "2012-09-28T07:45:11.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
+width = 32

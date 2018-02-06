@@ -1,13 +1,13 @@
-id = "5116734238775644222"
-date = 2013-07-14T18:33:06Z
-updated = 2013-07-14T18:33:06Z
-title = '''Erik,do you think you will write about your alte...'''
-content = '''Erik,<br /><br />do you think you will write about your alternative ideas later on ? I&#39;m deeply interested in the subject (although not knowledgeable) and would enjoy reading other people point of view. Maybe you know some references or essays too.<br /><br />Anyway thanks a lot'''
+content = "Erik,<br /><br />do you think you will write about your alternative ideas later on ? I&#39;m deeply interested in the subject (although not knowledgeable) and would enjoy reading other people point of view. Maybe you know some references or essays too.<br /><br />Anyway thanks a lot"
+date = "2013-07-14T18:33:06+00:00"
+id = 5116734238775644222
 reply = 785141564017510239
+title = "Erik,do you think you will write about your alte..."
+updated = "2013-07-14T18:33:06.000+00:00"
 [author]
-	name = "agu monkey"
-	uri = "https://www.blogger.com/profile/17289627868369874637"
+name = "agu monkey"
+uri = "https://www.blogger.com/profile/17289627868369874637"
 [author.image]
-	source = "//lh5.googleusercontent.com/-3kzvwoa2UfA/AAAAAAAAAAI/AAAAAAAAAXY/x59mOuHg4Uk/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-3kzvwoa2UfA/AAAAAAAAAAI/AAAAAAAAAXY/x59mOuHg4Uk/s32-c/photo.jpg"
+width = 32

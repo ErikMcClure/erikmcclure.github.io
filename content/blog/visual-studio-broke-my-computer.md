@@ -1,10 +1,10 @@
 +++
 blogimport = true
 categories = ["blog"]
+comments = [2388425063295457664, 7255547481340553456]
 date = "2012-03-10T16:22:00Z"
 title = "Visual Studio Broke My Computer"
 updated = "2012-03-11T13:39:54.000+00:00"
-comments = [ 2388425063295457664, 7255547481340553456 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

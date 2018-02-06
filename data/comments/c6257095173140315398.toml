@@ -1,13 +1,13 @@
-id = "6257095173140315398"
-date = 2012-10-02T02:37:03Z
-updated = 2012-10-02T02:37:03Z
-title = '''Well, &#39;by itself&#39;, ray tracing is just a r...'''
-content = '''Well, &#39;by itself&#39;, ray tracing is just a rendering algorithm, and it is well known what it solves: the mathematically exact rendering of complex geometrical bodies with nonplanar surfaces, including hidden-surface problem, reflections and transparency. That&#39;s about it. Like you said it doesn&#39;t solve materials. And it doesn&#39;t solve shading, or highlighting. It doesn&#39;t care about movement, animation, or any kind of physics. Nor AI. <br /><br />Nor photo-realism! Ray tracing is no more about that than one artificial sweetener is about tasting the same as another artificial sweetener - the point is to emulate the real thing, not another artififcial one!<br /><br />Mapping is about glossing over the details. It can turn a smooth surface into an apparently gravelly path. Would you prefer to simulate each individual gravel stone? IMHO that is just a waste of effort, unless there is a very good reason why the players attention is even turned to that path (e. g. trying to follow a trace of footsteps, or digging in the dirt). It would be easier to just have a hailstorm and let each hail stone jump in random directions upon hitting the path, to give the impression of an uneven surface.'''
+content = "Well, &#39;by itself&#39;, ray tracing is just a rendering algorithm, and it is well known what it solves: the mathematically exact rendering of complex geometrical bodies with nonplanar surfaces, including hidden-surface problem, reflections and transparency. That&#39;s about it. Like you said it doesn&#39;t solve materials. And it doesn&#39;t solve shading, or highlighting. It doesn&#39;t care about movement, animation, or any kind of physics. Nor AI. <br /><br />Nor photo-realism! Ray tracing is no more about that than one artificial sweetener is about tasting the same as another artificial sweetener - the point is to emulate the real thing, not another artififcial one!<br /><br />Mapping is about glossing over the details. It can turn a smooth surface into an apparently gravelly path. Would you prefer to simulate each individual gravel stone? IMHO that is just a waste of effort, unless there is a very good reason why the players attention is even turned to that path (e. g. trying to follow a trace of footsteps, or digging in the dirt). It would be easier to just have a hailstorm and let each hail stone jump in random directions upon hitting the path, to give the impression of an uneven surface."
+date = "2012-10-02T02:37:03+00:00"
+id = 6257095173140315398
 reply = 6496606234821686303
+title = "Well, &#39;by itself&#39;, ray tracing is just a r..."
+updated = "2012-10-02T02:37:03.000+00:00"
 [author]
-	name = "Stefan Lang"
-	uri = "https://www.blogger.com/profile/17091369106545713038"
+name = "Stefan Lang"
+uri = "https://www.blogger.com/profile/17091369106545713038"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

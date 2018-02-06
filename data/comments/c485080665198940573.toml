@@ -1,12 +1,12 @@
-id = "485080665198940573"
-date = 2011-11-08T07:16:03Z
-updated = 2011-11-08T07:16:03Z
-title = '''Very good points.  I&#39;ve always thought the way...'''
-content = '''Very good points.  I&#39;ve always thought the way math was taught made it appear harder than it had to be.<br /><br />One of my gripes is that proofs in textbooks generally have MISSING STEPS.  Arrgh!  Instead of zooming through the logic, you spend hours trying to fill in the gaps, or give up.<br /><br />It&#39;s like speed bumps on the highway of learning!'''
+content = "Very good points.  I&#39;ve always thought the way math was taught made it appear harder than it had to be.<br /><br />One of my gripes is that proofs in textbooks generally have MISSING STEPS.  Arrgh!  Instead of zooming through the logic, you spend hours trying to fill in the gaps, or give up.<br /><br />It&#39;s like speed bumps on the highway of learning!"
+date = "2011-11-08T07:16:03+00:00"
+id = 485080665198940573
+title = "Very good points.  I&#39;ve always thought the way..."
+updated = "2011-11-08T07:16:03.000+00:00"
 [author]
-	name = "alankdkd"
-	uri = "http://openid.aol.com/alankdkd"
+name = "alankdkd"
+uri = "http://openid.aol.com/alankdkd"
 [author.image]
-	source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
+width = 35

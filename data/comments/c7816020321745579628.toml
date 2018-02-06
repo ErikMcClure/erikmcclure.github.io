@@ -1,13 +1,13 @@
-id = "7816020321745579628"
-date = 2013-02-10T23:54:04Z
-updated = 2013-02-10T23:54:04Z
-title = '''I am much more productive than you seem to think, ...'''
-content = '''I am much more productive than you seem to think, trust me, but the problem with videos is that there is nothing to show yet. Nothing meaningful, anyway, which is my problem and one I&#39;ve been trying to address but have so far failed to do so.'''
+content = "I am much more productive than you seem to think, trust me, but the problem with videos is that there is nothing to show yet. Nothing meaningful, anyway, which is my problem and one I&#39;ve been trying to address but have so far failed to do so."
+date = "2013-02-10T23:54:04+00:00"
+id = 7816020321745579628
 reply = 5512906435975709125
+title = "I am much more productive than you seem to think, ..."
+updated = "2013-02-10T23:54:04.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
+width = 32

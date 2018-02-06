@@ -1,13 +1,13 @@
-id = "7415384556541063364"
-date = 2012-02-24T20:22:31Z
-updated = 2012-02-24T20:22:31Z
-title = '''Smaller toolbar is good, but I am personally very ...'''
-content = '''Smaller toolbar is good, but I am personally very reliant on color. I have yet to see any option for changing icons, but as soon as they just let me have my colored icons back I will stop complaining about it. That, and the toolbar color simply doesn&#39;t bother me. I would say they went in the right direction, but way too far into it. This is too extreme for my tastes.'''
+content = "Smaller toolbar is good, but I am personally very reliant on color. I have yet to see any option for changing icons, but as soon as they just let me have my colored icons back I will stop complaining about it. That, and the toolbar color simply doesn&#39;t bother me. I would say they went in the right direction, but way too far into it. This is too extreme for my tastes."
+date = "2012-02-24T20:22:31+00:00"
+id = 7415384556541063364
 reply = 3495360871809190844
+title = "Smaller toolbar is good, but I am personally very ..."
+updated = "2012-02-24T20:22:31.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
+width = 32

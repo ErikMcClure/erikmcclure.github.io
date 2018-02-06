@@ -1,12 +1,12 @@
-id = "6244164602158730071"
-date = 2012-03-15T03:04:08Z
-updated = 2012-03-15T03:04:08Z
-title = '''I don&#39;t see the Win8 UI in that black&#39;n&#3...'''
-content = '''I don&#39;t see the Win8 UI in that black&#39;n&#39;white manner.<br /><br />What I think MS is doing, is that they correctly take advantage of the situation that in the current market it is expected to come up with a new user experience which fits mobile devices such as tablets, and that&#39;s what the Metro UI is for.<br /><br />But, MS has always valued backwards compatibility very high, so they keep supporting the old desktop UI for users who continue to use a desktop computer, are used to the traditional desktop PC experience, or just need to use legacy programs.<br /><br />For those users, there is no point to try forcibly make some mis-matched &quot;transition&quot; with the new UI. It is just reasonable to keep the &quot;old&quot; desktop stuff as is, to make as smooth as possible experience for backwards compatibility, and let the newer UI live on the side for apps designed for that.<br /><br />The backwards compatibility thing is a nice aspect of Windows. I&#39;ve lately started appreciating it a lot more, when I have realized how eagerly some device-hw or OS vendors deprecate their stuff, making things obsolete the minute you carry them out from the store.<br /><br />Sometimes I feel this even extends to the software side (APIs), where stuff can get deprecated faster than a developer buys new socks, basically needing rewrite/re-port of stuff every 1-2 years!'''
+content = "I don&#39;t see the Win8 UI in that black&#39;n&#39;white manner.<br /><br />What I think MS is doing, is that they correctly take advantage of the situation that in the current market it is expected to come up with a new user experience which fits mobile devices such as tablets, and that&#39;s what the Metro UI is for.<br /><br />But, MS has always valued backwards compatibility very high, so they keep supporting the old desktop UI for users who continue to use a desktop computer, are used to the traditional desktop PC experience, or just need to use legacy programs.<br /><br />For those users, there is no point to try forcibly make some mis-matched &quot;transition&quot; with the new UI. It is just reasonable to keep the &quot;old&quot; desktop stuff as is, to make as smooth as possible experience for backwards compatibility, and let the newer UI live on the side for apps designed for that.<br /><br />The backwards compatibility thing is a nice aspect of Windows. I&#39;ve lately started appreciating it a lot more, when I have realized how eagerly some device-hw or OS vendors deprecate their stuff, making things obsolete the minute you carry them out from the store.<br /><br />Sometimes I feel this even extends to the software side (APIs), where stuff can get deprecated faster than a developer buys new socks, basically needing rewrite/re-port of stuff every 1-2 years!"
+date = "2012-03-15T03:04:08+00:00"
+id = 6244164602158730071
+title = "I don&#39;t see the Win8 UI in that black&#39;n&#3..."
+updated = "2012-03-15T03:04:08.000+00:00"
 [author]
-	name = "jetro"
-	uri = "https://www.blogger.com/profile/07972081183663564158"
+name = "jetro"
+uri = "https://www.blogger.com/profile/07972081183663564158"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

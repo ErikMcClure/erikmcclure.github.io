@@ -1,12 +1,12 @@
-id = "4858375859719921825"
-date = 2012-05-24T09:46:21Z
-updated = 2012-05-24T09:46:21Z
-title = '''How do you manage rendering, when OpenGL for examp...'''
-content = '''How do you manage rendering, when OpenGL for example can only handle being rendered to from one thread?'''
+content = "How do you manage rendering, when OpenGL for example can only handle being rendered to from one thread?"
+date = "2012-05-24T09:46:21+00:00"
+id = 4858375859719921825
+title = "How do you manage rendering, when OpenGL for examp..."
+updated = "2012-05-24T09:46:21.000+00:00"
 [author]
-	name = "Tanner Bruce"
-	uri = "https://www.blogger.com/profile/15988103209738218188"
+name = "Tanner Bruce"
+uri = "https://www.blogger.com/profile/15988103209738218188"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

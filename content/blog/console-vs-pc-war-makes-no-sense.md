@@ -1,10 +1,10 @@
 +++
 blogimport = true
 categories = ["blog"]
+comments = [7171091385926323649, 4989085578820151619]
 date = "2011-04-23T20:16:00Z"
 title = "Console vs PC War Makes No Sense"
 updated = "2011-04-23T20:28:29.000+00:00"
-comments = [ 7171091385926323649, 4989085578820151619 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

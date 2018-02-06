@@ -1,12 +1,12 @@
-id = "2546076055383486290"
-date = 2011-09-29T16:55:51Z
-updated = 2011-09-29T16:55:51Z
-title = '''Also your string doesn&#39;t have a null terminato...'''
-content = '''Also your string doesn&#39;t have a null terminator, either, which is an even more elementary problem. This is why you usually don&#39;t use an array on the stack to store strings, you just define a constant &quot;TEST\n&quot; and throw around a pointer to it, which the compiler does for you when you say const char* val=&quot;TEST\n&quot;;'''
+content = "Also your string doesn&#39;t have a null terminator, either, which is an even more elementary problem. This is why you usually don&#39;t use an array on the stack to store strings, you just define a constant &quot;TEST\\n&quot; and throw around a pointer to it, which the compiler does for you when you say const char* val=&quot;TEST\\n&quot;;"
+date = "2011-09-29T16:55:51+00:00"
+id = 2546076055383486290
+title = "Also your string doesn&#39;t have a null terminato..."
+updated = "2011-09-29T16:55:51.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//1.bp.blogspot.com/-K3nGMEbXbqI/Tg5QXhNWUNI/AAAAAAAAAGA/OmzJ8Trn7ZI/s32/avvy7_5.png"
-	width = "32"
-	height = "32"
+height = 32
+source = "//1.bp.blogspot.com/-K3nGMEbXbqI/Tg5QXhNWUNI/AAAAAAAAAGA/OmzJ8Trn7ZI/s32/avvy7_5.png"
+width = 32

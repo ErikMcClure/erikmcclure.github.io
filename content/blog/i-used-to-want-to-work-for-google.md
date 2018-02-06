@@ -1,10 +1,10 @@
 +++
 blogimport = true
 categories = ["blog"]
+comments = [8910023284287137503, 9080789336946264951, 8610903104231462811]
 date = "2017-09-05T01:04:00Z"
 title = "I Used To Want To Work For Google"
 updated = "2017-09-06T12:07:38.000+00:00"
-comments = [ 8910023284287137503, 9080789336946264951, 8610903104231462811 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

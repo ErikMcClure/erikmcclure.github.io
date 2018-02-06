@@ -1,13 +1,13 @@
-id = "1529752811071689956"
-date = 2012-10-21T22:52:22Z
-updated = 2012-10-21T22:52:22Z
-title = '''Yes, but I see that problem in, well, everything, ...'''
-content = '''Yes, but I see that problem in, well, everything, including my articles. So I wanted to focus on the feminist consequences of that particular negative comment.'''
+content = "Yes, but I see that problem in, well, everything, including my articles. So I wanted to focus on the feminist consequences of that particular negative comment."
+date = "2012-10-21T22:52:22+00:00"
+id = 1529752811071689956
 reply = 8835010230743908689
+title = "Yes, but I see that problem in, well, everything, ..."
+updated = "2012-10-21T22:52:22.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
+width = 32

@@ -1,10 +1,10 @@
 +++
 blogimport = true
 categories = ["blog"]
+comments = [43073140725898600]
 date = "2018-01-01T11:37:00Z"
 title = "How To Avoid Memorizing Times Tables"
 updated = "2018-01-01T11:49:02.000+00:00"
-comments = [ 43073140725898600 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

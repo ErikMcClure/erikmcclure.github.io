@@ -1,13 +1,13 @@
-id = "3773408030370065045"
-date = 2012-03-15T06:48:06Z
-updated = 2012-03-15T06:48:06Z
-title = '''I&#39;ve structured my utility libraries such that...'''
-content = '''I&#39;ve structured my utility libraries such that when I get time, I will be able to do the vast majority of porting to various operating systems on a low-level. I have yet to solve the problem of &quot;all cross-platform GUI widget toolkits are absolutely terrible&quot;, however. This includes porting to mobile OSes or consoles. I have insisted for years that if you build a program, you should make it work on EVERYTHING, and I continue to work towards that goal (but it obviously isn&#39;t easy). The fact that people consider this to to be difficult is one of the problems I&#39;m trying to solve.'''
+content = "I&#39;ve structured my utility libraries such that when I get time, I will be able to do the vast majority of porting to various operating systems on a low-level. I have yet to solve the problem of &quot;all cross-platform GUI widget toolkits are absolutely terrible&quot;, however. This includes porting to mobile OSes or consoles. I have insisted for years that if you build a program, you should make it work on EVERYTHING, and I continue to work towards that goal (but it obviously isn&#39;t easy). The fact that people consider this to to be difficult is one of the problems I&#39;m trying to solve."
+date = "2012-03-15T06:48:06+00:00"
+id = 3773408030370065045
 reply = 7388787372096245528
+title = "I&#39;ve structured my utility libraries such that..."
+updated = "2012-03-15T06:48:06.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
+width = 32

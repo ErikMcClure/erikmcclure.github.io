@@ -1,13 +1,13 @@
-id = "5094965280974084952"
-date = 2013-07-30T10:55:42Z
-updated = 2013-07-30T10:55:42Z
-title = '''I think one important thing to take away from this...'''
-content = '''I think one important thing to take away from this is that no one method is going to work. There is no magic bullet. We need a multitude of solutions if we are going to effectively teach students.'''
+content = "I think one important thing to take away from this is that no one method is going to work. There is no magic bullet. We need a multitude of solutions if we are going to effectively teach students."
+date = "2013-07-30T10:55:42+00:00"
+id = 5094965280974084952
 reply = 5470897169455035201
+title = "I think one important thing to take away from this..."
+updated = "2013-07-30T10:55:42.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAaw/Ym0aio4SKV0/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAaw/Ym0aio4SKV0/s32-c/photo.jpg"
+width = 32

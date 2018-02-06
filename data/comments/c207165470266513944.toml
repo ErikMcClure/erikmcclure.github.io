@@ -1,12 +1,12 @@
-id = "207165470266513944"
-date = 2012-09-19T07:53:35Z
-updated = 2012-09-19T07:53:35Z
-title = '''Someone else had pointed out that the blank tiles ...'''
-content = '''Someone else had pointed out that the blank tiles actually return as an empty URL and that his &#39;viewer&#39; just interprets it as black, below the horizon, and white, above the horizon. So the overall number of tiles that contain art is a bit smaller than your estimate. That being said, its still a huge undertaking and Randall Munroe is still fucking insane.'''
+content = "Someone else had pointed out that the blank tiles actually return as an empty URL and that his &#39;viewer&#39; just interprets it as black, below the horizon, and white, above the horizon. So the overall number of tiles that contain art is a bit smaller than your estimate. That being said, its still a huge undertaking and Randall Munroe is still fucking insane."
+date = "2012-09-19T07:53:35+00:00"
+id = 207165470266513944
+title = "Someone else had pointed out that the blank tiles ..."
+updated = "2012-09-19T07:53:35.000+00:00"
 [author]
-	name = "JohnRyan"
-	uri = "https://www.blogger.com/profile/14819704152963984243"
+name = "JohnRyan"
+uri = "https://www.blogger.com/profile/14819704152963984243"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

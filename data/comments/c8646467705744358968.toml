@@ -1,12 +1,12 @@
-id = "8646467705744358968"
-date = 2011-09-24T07:03:24Z
-updated = 2011-09-24T07:03:41Z
-title = ''''''
-content = '''This comment has been removed by the author.'''
+content = "This comment has been removed by the author."
+date = "2011-09-24T07:03:24+00:00"
+id = 8646467705744358968
+title = ""
+updated = "2011-09-24T07:03:41.000+00:00"
 [author]
-	name = "Spartans of OT"
-	uri = "https://www.blogger.com/profile/10599950380674632630"
+name = "Spartans of OT"
+uri = "https://www.blogger.com/profile/10599950380674632630"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

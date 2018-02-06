@@ -1,13 +1,13 @@
-id = "8452847457571448250"
-date = 2013-02-11T10:00:22Z
-updated = 2013-02-11T10:00:22Z
-title = '''I second that idea for the IRC, that would be fun....'''
-content = '''I second that idea for the IRC, that would be fun.'''
+content = "I second that idea for the IRC, that would be fun."
+date = "2013-02-11T10:00:22+00:00"
+id = 8452847457571448250
 reply = 7281947955190631357
+title = "I second that idea for the IRC, that would be fun...."
+updated = "2013-02-11T10:00:22.000+00:00"
 [author]
-	name = "Vic Goldfeld"
-	uri = "https://www.blogger.com/profile/05950922479454615959"
+name = "Vic Goldfeld"
+uri = "https://www.blogger.com/profile/05950922479454615959"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

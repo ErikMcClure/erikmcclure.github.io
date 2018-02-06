@@ -1,10 +1,10 @@
 +++
 blogimport = true
 categories = ["blog"]
+comments = [2825662655005333966, 4004843240319360058]
 date = "2015-05-14T04:19:00Z"
 title = "Pony Clicker Postmortem"
 updated = "2015-10-08T23:20:48.000+00:00"
-comments = [ 2825662655005333966, 4004843240319360058 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

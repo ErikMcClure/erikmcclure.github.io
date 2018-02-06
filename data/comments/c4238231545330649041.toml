@@ -1,13 +1,13 @@
-id = "4238231545330649041"
-date = 2013-02-25T05:29:53Z
-updated = 2013-02-25T05:29:53Z
-title = '''Guess it&#39;s a case of &#39;choose your poison&#...'''
-content = '''Guess it&#39;s a case of &#39;choose your poison&#39; then. '''
+content = "Guess it&#39;s a case of &#39;choose your poison&#39; then. "
+date = "2013-02-25T05:29:53+00:00"
+id = 4238231545330649041
 reply = 848576738587120552
+title = "Guess it&#39;s a case of &#39;choose your poison&#..."
+updated = "2013-02-25T05:29:53.000+00:00"
 [author]
-	name = "Mega"
-	uri = "https://www.blogger.com/profile/14944090450789660711"
+name = "Mega"
+uri = "https://www.blogger.com/profile/14944090450789660711"
 [author.image]
-	source = "//3.bp.blogspot.com/-FNTDkKVTbBg/T3Am5oOK-HI/AAAAAAAAAEQ/KKrHXZbZBkQ/s32/newav_octave.png"
-	width = "32"
-	height = "22"
+height = 22
+source = "//3.bp.blogspot.com/-FNTDkKVTbBg/T3Am5oOK-HI/AAAAAAAAAEQ/KKrHXZbZBkQ/s32/newav_octave.png"
+width = 32

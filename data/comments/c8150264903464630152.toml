@@ -1,12 +1,12 @@
-id = "8150264903464630152"
-date = 2016-06-19T10:47:24Z
-updated = 2016-06-19T10:47:24Z
-title = '''Programming is very interesting and creative thing...'''
-content = '''Programming is very interesting and creative thing if you do it with love. Your blog code helps a lot to beginners to learn programming from basic to advance level. I really love this blog because I learn a lot from here and this process is still continuing. <br />Love from <a href="http://www.proprogrammer.net/" rel="nofollow"> Pro Programmer </a><br />'''
+content = "Programming is very interesting and creative thing if you do it with love. Your blog code helps a lot to beginners to learn programming from basic to advance level. I really love this blog because I learn a lot from here and this process is still continuing. <br />Love from <a href=\"http://www.proprogrammer.net/\" rel=\"nofollow\"> Pro Programmer </a><br />"
+date = "2016-06-19T10:47:24+00:00"
+id = 8150264903464630152
+title = "Programming is very interesting and creative thing..."
+updated = "2016-06-19T10:47:24.000+00:00"
 [author]
-	name = "akmal niazi khan"
-	uri = "https://www.blogger.com/profile/15398931973348843835"
+name = "akmal niazi khan"
+uri = "https://www.blogger.com/profile/15398931973348843835"
 [author.image]
-	source = "//lh5.googleusercontent.com/-KJHG4QHcld8/AAAAAAAAAAI/AAAAAAAAACo/HUf54iD1KjE/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-KJHG4QHcld8/AAAAAAAAAAI/AAAAAAAAACo/HUf54iD1KjE/s32-c/photo.jpg"
+width = 32

@@ -1,13 +1,13 @@
-id = "8673496274665161680"
-date = 2012-05-07T11:15:11Z
-updated = 2012-05-07T11:15:11Z
-title = '''...I guess my point is that the changing state of ...'''
-content = '''...I guess my point is that the changing state of software engineering and lack of standards is less because software engineering is immature and more because continual change is an integral part of the software engineering field.'''
+content = "...I guess my point is that the changing state of software engineering and lack of standards is less because software engineering is immature and more because continual change is an integral part of the software engineering field."
+date = "2012-05-07T11:15:11+00:00"
+id = 8673496274665161680
 reply = 7372419905066142632
+title = "...I guess my point is that the changing state of ..."
+updated = "2012-05-07T11:15:11.000+00:00"
 [author]
-	name = "Jon D"
-	uri = "https://www.blogger.com/profile/06651246356930525131"
+name = "Jon D"
+uri = "https://www.blogger.com/profile/06651246356930525131"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

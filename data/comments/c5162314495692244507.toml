@@ -1,13 +1,13 @@
-id = "5162314495692244507"
-date = 2012-10-10T21:09:06Z
-updated = 2012-10-10T21:09:06Z
-title = '''Your solution is unsuitable for a number of reason...'''
-content = '''Your solution is unsuitable for a number of reasons. First, its complicated as hell, and second, because of this complexity, it is extraordinarily difficult to properly merge with an existing physics engine.<br /><br />The primary issue, however, is that the most benefit does not come from separating CPU and GPU intensive tasks, but rather from processing as much information as possible concurrently. This is why it is more valuable to have a vastly simpler single-threaded pipeline where physics and graphics are individually parallelized to maximize CPU usage. This scales way better because now each added core will speed up the program, instead of the set increase in speed that a complex multithreading solution will involve.<br /><br />For that matter, if you are going to multithread something, doing something complicated like this is a bad way of doing it. If you require a custom physics engine in the first place, then you should package physics along with graphics and use a task-based package model that simply concurrently processes everything at the same time. Your method isn&#39;t worth the complexity because there are superior ways of handling it. A good example is Civ V&#39;s multithreaded pipeline that packages render calls up into a task manager as needed, which achieves truly astounding performance without a super complicated world state.<br /><br />Also, spinning on Sleep(0) for a thread is not recommended. It is usually a better idea, whenever possible, to simply put a thread to signaled sleep using SleepEx(INFINITE,true) and then using QueueUserAPC to wake it up. Windows can usually activate the thread in under 37 microseconds. Sleep(0) lets it wake up faster, but is not an effective way to relieve stress on the CPU.'''
+content = "Your solution is unsuitable for a number of reasons. First, its complicated as hell, and second, because of this complexity, it is extraordinarily difficult to properly merge with an existing physics engine.<br /><br />The primary issue, however, is that the most benefit does not come from separating CPU and GPU intensive tasks, but rather from processing as much information as possible concurrently. This is why it is more valuable to have a vastly simpler single-threaded pipeline where physics and graphics are individually parallelized to maximize CPU usage. This scales way better because now each added core will speed up the program, instead of the set increase in speed that a complex multithreading solution will involve.<br /><br />For that matter, if you are going to multithread something, doing something complicated like this is a bad way of doing it. If you require a custom physics engine in the first place, then you should package physics along with graphics and use a task-based package model that simply concurrently processes everything at the same time. Your method isn&#39;t worth the complexity because there are superior ways of handling it. A good example is Civ V&#39;s multithreaded pipeline that packages render calls up into a task manager as needed, which achieves truly astounding performance without a super complicated world state.<br /><br />Also, spinning on Sleep(0) for a thread is not recommended. It is usually a better idea, whenever possible, to simply put a thread to signaled sleep using SleepEx(INFINITE,true) and then using QueueUserAPC to wake it up. Windows can usually activate the thread in under 37 microseconds. Sleep(0) lets it wake up faster, but is not an effective way to relieve stress on the CPU."
+date = "2012-10-10T21:09:06+00:00"
+id = 5162314495692244507
 reply = 2899917955386844286
+title = "Your solution is unsuitable for a number of reason..."
+updated = "2012-10-10T21:09:06.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
+width = 32

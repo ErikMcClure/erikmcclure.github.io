@@ -1,10 +1,10 @@
 +++
 blogimport = true
 categories = ["blog"]
+comments = [5341753468792282147, 4633300800977247147]
 date = "2014-08-08T13:14:00Z"
 title = "Can We Choose What We Enjoy?"
 updated = "2014-08-08T13:28:20.000+00:00"
-comments = [ 5341753468792282147, 4633300800977247147 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

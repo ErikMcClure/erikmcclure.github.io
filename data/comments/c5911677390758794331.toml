@@ -1,13 +1,13 @@
-id = "5911677390758794331"
-date = 2015-07-22T10:11:13Z
-updated = 2015-07-22T10:11:13Z
-title = '''Yeah, suggesting Arch to a newbie is swell. Nothin...'''
-content = '''Yeah, suggesting Arch to a newbie is swell. Nothing could possibly go wrong with that idea. /s'''
+content = "Yeah, suggesting Arch to a newbie is swell. Nothing could possibly go wrong with that idea. /s"
+date = "2015-07-22T10:11:13+00:00"
+id = 5911677390758794331
 reply = 4751228645406544520
+title = "Yeah, suggesting Arch to a newbie is swell. Nothin..."
+updated = "2015-07-22T10:11:13.000+00:00"
 [author]
-	name = "Kevin Blackham"
-	uri = "https://www.blogger.com/profile/17075273239300746398"
+name = "Kevin Blackham"
+uri = "https://www.blogger.com/profile/17075273239300746398"
 [author.image]
-	source = "//lh4.googleusercontent.com/-143nr6Z2qgA/AAAAAAAAAAI/AAAAAAAAAE4/YFfWZ95xwL0/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh4.googleusercontent.com/-143nr6Z2qgA/AAAAAAAAAAI/AAAAAAAAAE4/YFfWZ95xwL0/s32-c/photo.jpg"
+width = 32

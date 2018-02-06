@@ -1,12 +1,12 @@
-id = "3637745481770565563"
-date = 2012-05-24T04:19:37Z
-updated = 2012-05-24T04:19:37Z
-title = '''Well-written and well-reasoned. Thank you for this...'''
-content = '''Well-written and well-reasoned. Thank you for this post.'''
+content = "Well-written and well-reasoned. Thank you for this post."
+date = "2012-05-24T04:19:37+00:00"
+id = 3637745481770565563
+title = "Well-written and well-reasoned. Thank you for this..."
+updated = "2012-05-24T04:19:37.000+00:00"
 [author]
-	name = "FeepingCreature"
-	uri = "https://www.blogger.com/profile/11949875328488880491"
+name = "FeepingCreature"
+uri = "https://www.blogger.com/profile/11949875328488880491"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

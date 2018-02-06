@@ -1,12 +1,12 @@
-id = "1515183556236225389"
-date = 2012-03-13T17:14:05Z
-updated = 2012-03-13T17:14:05Z
-title = '''It&#39;s simple really - all the hot air your gove...'''
-content = '''It&#39;s simple really - all the hot air your government produces creates a localised climate changing effect over the state. That&#39;s why you get bizarre things like blizzards in the middle of Spring.'''
+content = "It&#39;s simple really - all the hot air your government produces creates a localised climate changing effect over the state. That&#39;s why you get bizarre things like blizzards in the middle of Spring."
+date = "2012-03-13T17:14:05+00:00"
+id = 1515183556236225389
+title = "It&#39;s simple really - all the hot air your gove..."
+updated = "2012-03-13T17:14:05.000+00:00"
 [author]
-	name = "Phoenix"
-	uri = "https://www.blogger.com/profile/06491232542324084128"
+name = "Phoenix"
+uri = "https://www.blogger.com/profile/06491232542324084128"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

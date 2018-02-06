@@ -1,12 +1,12 @@
-id = "1938315260331452353"
-date = 2013-07-15T02:22:14Z
-updated = 2013-07-15T02:22:14Z
-title = '''I really enjoyed reading this piece.While it&#39...'''
-content = '''I really enjoyed reading this piece.<br /><br />While it&#39;s nowhere near a complete solution to the problem, I&#39;m going to rephrase something you brought up in your article as a possible improvement. Once students are made better aware of how relevant and useful mathematics and abstract science theory really is, they&#39;ll be willing (perhaps eager!) to slog through the material. Future classes (and evaluation) on these topics need to move away from rote memorization and regurgitation of facts, to creative uses of the theory in solving interesting practical problems.<br /><br />And as an applied mathematician by training myself, I&#39;m trying to follow through on this idea. I’ve started working seriously on an <a href="http://mechanicsacademy.com/" rel="nofollow">applied math and mechanics education resource</a> that tries to use interesting applications to motivate abstract theory. If anyone is interested in helping out or have ideas to share, I’d be delighted to hear from you.'''
+content = "I really enjoyed reading this piece.<br /><br />While it&#39;s nowhere near a complete solution to the problem, I&#39;m going to rephrase something you brought up in your article as a possible improvement. Once students are made better aware of how relevant and useful mathematics and abstract science theory really is, they&#39;ll be willing (perhaps eager!) to slog through the material. Future classes (and evaluation) on these topics need to move away from rote memorization and regurgitation of facts, to creative uses of the theory in solving interesting practical problems.<br /><br />And as an applied mathematician by training myself, I&#39;m trying to follow through on this idea. I’ve started working seriously on an <a href=\"http://mechanicsacademy.com/\" rel=\"nofollow\">applied math and mechanics education resource</a> that tries to use interesting applications to motivate abstract theory. If anyone is interested in helping out or have ideas to share, I’d be delighted to hear from you."
+date = "2013-07-15T02:22:14+00:00"
+id = 1938315260331452353
+title = "I really enjoyed reading this piece.While it&#39..."
+updated = "2013-07-15T02:22:14.000+00:00"
 [author]
-	name = "pundit"
-	uri = "https://www.blogger.com/profile/02806006910722975930"
+name = "pundit"
+uri = "https://www.blogger.com/profile/02806006910722975930"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

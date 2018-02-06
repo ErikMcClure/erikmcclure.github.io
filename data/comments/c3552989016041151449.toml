@@ -1,13 +1,13 @@
-id = "3552989016041151449"
-date = 2013-02-10T16:52:03Z
-updated = 2013-02-10T16:52:03Z
-title = '''The simplicity problem is one of the central drivi...'''
-content = '''The simplicity problem is one of the central driving forces in my construction of utility libraries. I have recently taken an even more concrete stance on the importance of simplicity and am in the middle of a massive rewrite of my graphics engine that tears out as much unnecessary complexity as possible through a series of algorithmic and structural changes to the code base.<br /><br />I have 2 ultimate projects, but I haven&#39;t started either. I&#39;m trying very hard to get to the point where I can start one of them, since I believe that will end up leading to my own personal magnum opus and I can use that as a stepping stone to team up with a bunch of other brilliant people and produce a second, collective magnum opus. I don&#39;t know if its going to work.'''
+content = "The simplicity problem is one of the central driving forces in my construction of utility libraries. I have recently taken an even more concrete stance on the importance of simplicity and am in the middle of a massive rewrite of my graphics engine that tears out as much unnecessary complexity as possible through a series of algorithmic and structural changes to the code base.<br /><br />I have 2 ultimate projects, but I haven&#39;t started either. I&#39;m trying very hard to get to the point where I can start one of them, since I believe that will end up leading to my own personal magnum opus and I can use that as a stepping stone to team up with a bunch of other brilliant people and produce a second, collective magnum opus. I don&#39;t know if its going to work."
+date = "2013-02-10T16:52:03+00:00"
+id = 3552989016041151449
 reply = 7934106416354700397
+title = "The simplicity problem is one of the central drivi..."
+updated = "2013-02-10T16:52:03.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
+width = 32

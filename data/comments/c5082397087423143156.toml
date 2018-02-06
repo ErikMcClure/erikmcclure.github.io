@@ -1,12 +1,12 @@
-id = "5082397087423143156"
-date = 2013-11-17T17:15:17Z
-updated = 2013-11-17T17:15:17Z
-title = '''&quot;The reports of my death are greatly exaggera...'''
-content = '''&quot;The reports of my death are greatly exaggerated&quot; -Mark Twain/Google'''
+content = "&quot;The reports of my death are greatly exaggerated&quot; -Mark Twain/Google"
+date = "2013-11-17T17:15:17+00:00"
+id = 5082397087423143156
+title = "&quot;The reports of my death are greatly exaggera..."
+updated = "2013-11-17T17:15:17.000+00:00"
 [author]
-	name = "tim peterson"
-	uri = "https://www.blogger.com/profile/15624344679885420449"
+name = "tim peterson"
+uri = "https://www.blogger.com/profile/15624344679885420449"
 [author.image]
-	source = "//lh3.googleusercontent.com/-_rQyLAc06ZA/AAAAAAAAAAI/AAAAAAAAAFE/Qm_SknTC9-Q/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh3.googleusercontent.com/-_rQyLAc06ZA/AAAAAAAAAAI/AAAAAAAAAFE/Qm_SknTC9-Q/s32-c/photo.jpg"
+width = 32

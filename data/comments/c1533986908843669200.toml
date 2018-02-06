@@ -1,12 +1,12 @@
-id = "1533986908843669200"
-date = 2011-11-09T01:03:04Z
-updated = 2011-11-09T01:03:04Z
-title = '''Erik, thank you for this topic. I find it useful....'''
-content = '''Erik, thank you for this topic. I find it useful.<br />At least we could correct the school system by some in-family activity...<br /><br />But I should note that it is not so funny to find coarse words as &quot;bul...it&quot; in the topic related to math and to kids. Is it common in your country? (Some comments use even more ugly words...) :((((('''
+content = "Erik, thank you for this topic. I find it useful.<br />At least we could correct the school system by some in-family activity...<br /><br />But I should note that it is not so funny to find coarse words as &quot;bul...it&quot; in the topic related to math and to kids. Is it common in your country? (Some comments use even more ugly words...) :((((("
+date = "2011-11-09T01:03:04+00:00"
+id = 1533986908843669200
+title = "Erik, thank you for this topic. I find it useful...."
+updated = "2011-11-09T01:03:04.000+00:00"
 [author]
-	name = "yurash"
-	uri = "http://yurash.livejournal.com/"
+name = "yurash"
+uri = "http://yurash.livejournal.com/"
 [author.image]
-	source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
+width = 35

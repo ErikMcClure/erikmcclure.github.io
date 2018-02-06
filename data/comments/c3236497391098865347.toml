@@ -1,13 +1,13 @@
-id = "3236497391098865347"
-date = 2013-07-30T13:30:34Z
-updated = 2013-07-30T13:30:34Z
-title = '''I did approach professors about doing research. Th...'''
-content = '''I did approach professors about doing research. They didn&#39;t want to research what I wanted to do. I decided to go do it on my own.<br /><br />I did take the hardest math courses I could. Sometimes I learned stuff from them, but the tests were always the same, banal, ridiculous tests.'''
+content = "I did approach professors about doing research. They didn&#39;t want to research what I wanted to do. I decided to go do it on my own.<br /><br />I did take the hardest math courses I could. Sometimes I learned stuff from them, but the tests were always the same, banal, ridiculous tests."
+date = "2013-07-30T13:30:34+00:00"
+id = 3236497391098865347
 reply = 2469803030484676462
+title = "I did approach professors about doing research. Th..."
+updated = "2013-07-30T13:30:34.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAaw/Ym0aio4SKV0/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAaw/Ym0aio4SKV0/s32-c/photo.jpg"
+width = 32

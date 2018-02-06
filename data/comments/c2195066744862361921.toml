@@ -1,13 +1,13 @@
-id = "2195066744862361921"
-date = 2012-10-12T04:09:45Z
-updated = 2012-10-12T04:09:45Z
-title = '''In my implementation, just like Civ V, I queue ren...'''
-content = '''In my implementation, just like Civ V, I queue rendering calls into a single thread that sends them to the GPU as fast as possible. You&#39;d do this no matter what technique you were using. The precalculations necessary are what the worker threads do. There are always as many worker threads as there are logical cores - for an i7 you&#39;d have 8.<br /><br />Triple buffering is a standard technique, but my technique implements something akin to it on a more distributed level. Each actor is, by itself, considered immutable, so a copy of it is made upon which calculations are done, and when this calculations are finished, the result is committed by flipping a pointer to ensure atomic usage of information across all actors. I feel like I should point out that your implementation is a particularly horrendous complication of triple buffering. Everyone uses something like that, its the only way to get anything done.<br /><br />You completely missed that last point I made on determinism - even if all floating point calculations are executed perfectly and all packets arrive as expected, lag ensures that inconsistent situations will always crop up, and those inconsistencies will be several orders of magnitude more severe than any inconsistency that would occur due to out-of-order processing of objects within a single frame. You are trying to solve a problem that isn&#39;t a problem. You seem to think that my approach significantly sacrifices determinism when it really doesn&#39;t. You should be more worried about what happens when one player shoots another as he blows himself up in an explosion large enough to kill the first, which is exactly what that article you linked to points out, and in turn this implies that any indeterminacy created by my technique is manageable! So by definition the insanity you have created here isn&#39;t even necessary!'''
+content = "In my implementation, just like Civ V, I queue rendering calls into a single thread that sends them to the GPU as fast as possible. You&#39;d do this no matter what technique you were using. The precalculations necessary are what the worker threads do. There are always as many worker threads as there are logical cores - for an i7 you&#39;d have 8.<br /><br />Triple buffering is a standard technique, but my technique implements something akin to it on a more distributed level. Each actor is, by itself, considered immutable, so a copy of it is made upon which calculations are done, and when this calculations are finished, the result is committed by flipping a pointer to ensure atomic usage of information across all actors. I feel like I should point out that your implementation is a particularly horrendous complication of triple buffering. Everyone uses something like that, its the only way to get anything done.<br /><br />You completely missed that last point I made on determinism - even if all floating point calculations are executed perfectly and all packets arrive as expected, lag ensures that inconsistent situations will always crop up, and those inconsistencies will be several orders of magnitude more severe than any inconsistency that would occur due to out-of-order processing of objects within a single frame. You are trying to solve a problem that isn&#39;t a problem. You seem to think that my approach significantly sacrifices determinism when it really doesn&#39;t. You should be more worried about what happens when one player shoots another as he blows himself up in an explosion large enough to kill the first, which is exactly what that article you linked to points out, and in turn this implies that any indeterminacy created by my technique is manageable! So by definition the insanity you have created here isn&#39;t even necessary!"
+date = "2012-10-12T04:09:45+00:00"
+id = 2195066744862361921
 reply = 6206156930516113659
+title = "In my implementation, just like Civ V, I queue ren..."
+updated = "2012-10-12T04:09:45.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
+width = 32

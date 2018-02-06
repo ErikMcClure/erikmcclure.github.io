@@ -1,13 +1,13 @@
-id = "6626776189541322507"
-date = 2013-08-04T15:06:24Z
-updated = 2013-08-04T15:06:24Z
-title = '''My entire point is that the number of situations w...'''
-content = '''My entire point is that the number of situations where there is only one right answer is shrinking because of modern technology. Maybe that used to be the case, but it won&#39;t be for much longer.'''
+content = "My entire point is that the number of situations where there is only one right answer is shrinking because of modern technology. Maybe that used to be the case, but it won&#39;t be for much longer."
+date = "2013-08-04T15:06:24+00:00"
+id = 6626776189541322507
 reply = 5242727175120284878
+title = "My entire point is that the number of situations w..."
+updated = "2013-08-04T15:06:24.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAaw/Ym0aio4SKV0/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAaw/Ym0aio4SKV0/s32-c/photo.jpg"
+width = 32

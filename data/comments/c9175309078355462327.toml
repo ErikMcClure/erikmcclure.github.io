@@ -1,13 +1,13 @@
-id = "9175309078355462327"
-date = 2013-02-12T16:16:38Z
-updated = 2013-02-12T16:16:38Z
-title = '''Take rough notes. The purpose is not to get EVERYT...'''
-content = '''Take rough notes. The purpose is not to get EVERYTHING down. The purpose is to write down enough so that when you read it at some point in the future your words will evoke the memories you are trying to recall.<br /><br />The problem with memory is not capacity, it&#39;s recall. To make an analogy use C, all the memories are there somewhere, but when you fail to recall something it is because you do not have enough pointers pointing to the memory. It is almost as if you have a hard drive with everything you&#39;ve experienced stored in it, but with inadequate indexes pointing into the memories you wish to recall. They are all there, just hard to access sometimes.<br /><br />By taking basic notes, it is like creating a pointer to that memory. At some point in the future you may read that note, and if done right that memory will be evoked.<br /><br />Let me know if I haven&#39;t explained it well enough and I will try again.<br /><br />You&#39;re going to have to let go of your perfectionist tendencies. This world will never allow you to be perfect so don&#39;t stress yourself out by trying. Artists know this. A piece of art is never finished, only abandoned.'''
+content = "Take rough notes. The purpose is not to get EVERYTHING down. The purpose is to write down enough so that when you read it at some point in the future your words will evoke the memories you are trying to recall.<br /><br />The problem with memory is not capacity, it&#39;s recall. To make an analogy use C, all the memories are there somewhere, but when you fail to recall something it is because you do not have enough pointers pointing to the memory. It is almost as if you have a hard drive with everything you&#39;ve experienced stored in it, but with inadequate indexes pointing into the memories you wish to recall. They are all there, just hard to access sometimes.<br /><br />By taking basic notes, it is like creating a pointer to that memory. At some point in the future you may read that note, and if done right that memory will be evoked.<br /><br />Let me know if I haven&#39;t explained it well enough and I will try again.<br /><br />You&#39;re going to have to let go of your perfectionist tendencies. This world will never allow you to be perfect so don&#39;t stress yourself out by trying. Artists know this. A piece of art is never finished, only abandoned."
+date = "2013-02-12T16:16:38+00:00"
+id = 9175309078355462327
 reply = 1444551694590518601
+title = "Take rough notes. The purpose is not to get EVERYT..."
+updated = "2013-02-12T16:16:38.000+00:00"
 [author]
-	name = "Luke A"
-	uri = "https://www.blogger.com/profile/05243398357944929659"
+name = "Luke A"
+uri = "https://www.blogger.com/profile/05243398357944929659"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

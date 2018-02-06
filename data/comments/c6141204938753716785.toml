@@ -1,13 +1,13 @@
-id = "6141204938753716785"
-date = 2013-02-12T16:30:02Z
-updated = 2013-02-12T16:30:02Z
-title = '''Take fewer classes and prolong your degree. You ha...'''
-content = '''Take fewer classes and prolong your degree. You have a smaller workload, better marks and you buy more time. '''
+content = "Take fewer classes and prolong your degree. You have a smaller workload, better marks and you buy more time. "
+date = "2013-02-12T16:30:02+00:00"
+id = 6141204938753716785
 reply = 4716868347110884955
+title = "Take fewer classes and prolong your degree. You ha..."
+updated = "2013-02-12T16:30:02.000+00:00"
 [author]
-	name = "Luke A"
-	uri = "https://www.blogger.com/profile/05243398357944929659"
+name = "Luke A"
+uri = "https://www.blogger.com/profile/05243398357944929659"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

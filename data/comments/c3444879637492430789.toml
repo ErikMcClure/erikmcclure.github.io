@@ -1,12 +1,12 @@
-id = "3444879637492430789"
-date = 2016-11-25T15:57:24Z
-updated = 2016-11-25T15:57:24Z
-title = '''Looks like your course notes are bad.  That expres...'''
-content = '''Looks like your course notes are bad.  That expression for expected value doesn&#39;t make sense, a quick google search shows a wikipedia article with the correct definition: https://en.wikipedia.org/wiki/Expected_value#Univariate_discrete_random_variable.2C_countable_case'''
+content = "Looks like your course notes are bad.  That expression for expected value doesn&#39;t make sense, a quick google search shows a wikipedia article with the correct definition: https://en.wikipedia.org/wiki/Expected_value#Univariate_discrete_random_variable.2C_countable_case"
+date = "2016-11-25T15:57:24+00:00"
+id = 3444879637492430789
+title = "Looks like your course notes are bad.  That expres..."
+updated = "2016-11-25T15:57:24.000+00:00"
 [author]
-	name = "Unknown"
-	uri = "https://www.blogger.com/profile/03393987050568498418"
+name = "Unknown"
+uri = "https://www.blogger.com/profile/03393987050568498418"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

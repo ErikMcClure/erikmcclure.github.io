@@ -1,12 +1,12 @@
-id = "258639356757501759"
-date = 2012-03-01T22:49:18Z
-updated = 2012-03-01T22:49:18Z
-title = '''I like your argument but no matter what kind of pr...'''
-content = '''I like your argument but no matter what kind of programmer one is some things will always apply across the whole industry,eg well commented code,clear syntax,standards compliant code etc etc infact the more complex the code the more one needs to adhere to acceptable standards and style to avoid those who will inherit that code banging their heads on their keyboards trying to maintain that code'''
+content = "I like your argument but no matter what kind of programmer one is some things will always apply across the whole industry,eg well commented code,clear syntax,standards compliant code etc etc infact the more complex the code the more one needs to adhere to acceptable standards and style to avoid those who will inherit that code banging their heads on their keyboards trying to maintain that code"
+date = "2012-03-01T22:49:18+00:00"
+id = 258639356757501759
+title = "I like your argument but no matter what kind of pr..."
+updated = "2012-03-01T22:49:18.000+00:00"
 [author]
-	name = "ondari90"
-	uri = "https://www.blogger.com/profile/15490136525296443263"
+name = "ondari90"
+uri = "https://www.blogger.com/profile/15490136525296443263"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

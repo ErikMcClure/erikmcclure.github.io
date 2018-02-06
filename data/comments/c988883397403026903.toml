@@ -1,13 +1,13 @@
-id = "988883397403026903"
-date = 2013-01-19T18:09:57Z
-updated = 2013-01-19T18:09:57Z
-title = '''It seems like we are already going down that road....'''
-content = '''It seems like we are already going down that road. Currently JSON over HTTP is being used widely as an API for transferring data between applications as well as to initiate user requests. <br /><br />One question I think we should take time to consider: &quot;What is it that we want to be able to do?&quot;<br /><br />'''
+content = "It seems like we are already going down that road. Currently JSON over HTTP is being used widely as an API for transferring data between applications as well as to initiate user requests. <br /><br />One question I think we should take time to consider: &quot;What is it that we want to be able to do?&quot;<br /><br />"
+date = "2013-01-19T18:09:57+00:00"
+id = 988883397403026903
 reply = 4697838093479141733
+title = "It seems like we are already going down that road...."
+updated = "2013-01-19T18:09:57.000+00:00"
 [author]
-	name = "Blake La Pierre"
-	uri = "https://www.blogger.com/profile/04130247637850389230"
+name = "Blake La Pierre"
+uri = "https://www.blogger.com/profile/04130247637850389230"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

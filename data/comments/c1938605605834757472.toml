@@ -1,12 +1,12 @@
-id = "1938605605834757472"
-date = 2015-05-09T20:20:11Z
-updated = 2015-05-09T20:20:11Z
-title = '''Maybe it&#39;s only a small effect when compared w...'''
-content = '''Maybe it&#39;s only a small effect when compared with the greater things you&#39;re driven to accomplish, but even in simply communicating your values to the world, you begin to motivate other like-minded people to realize those values in their own lives and build upon them. After all, ideas are infectious, and your long-term legacy need not consist entirely of <em>your own</em> direct impacts echoing through time.<br /><br />Granted, I get the impression that spreading your views also tends to draw an endless slew of backlash and vitriol from opposing crowds. And yet somehow a dedication to defending your ideals against that onslaught, rather than sacrificing them for an easier walk through life, is what sets you apart from the majority in this respect.'''
+content = "Maybe it&#39;s only a small effect when compared with the greater things you&#39;re driven to accomplish, but even in simply communicating your values to the world, you begin to motivate other like-minded people to realize those values in their own lives and build upon them. After all, ideas are infectious, and your long-term legacy need not consist entirely of <em>your own</em> direct impacts echoing through time.<br /><br />Granted, I get the impression that spreading your views also tends to draw an endless slew of backlash and vitriol from opposing crowds. And yet somehow a dedication to defending your ideals against that onslaught, rather than sacrificing them for an easier walk through life, is what sets you apart from the majority in this respect."
+date = "2015-05-09T20:20:11+00:00"
+id = 1938605605834757472
+title = "Maybe it&#39;s only a small effect when compared w..."
+updated = "2015-05-09T20:20:11.000+00:00"
 [author]
-	name = "Laton"
-	uri = "https://www.blogger.com/profile/00515684941673498860"
+name = "Laton"
+uri = "https://www.blogger.com/profile/00515684941673498860"
 [author.image]
-	source = "//images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http://4.bp.blogspot.com/-QLZcvdIhqJ0/VU3D6QJTrcI/AAAAAAAAD9U/ANMbz5sL6nY/s150/kaworu2.png&container=blogger&gadget=a&rewriteMime=image/*"
-	width = "32"
-	height = "21"
+height = 21
+source = "//images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http://4.bp.blogspot.com/-QLZcvdIhqJ0/VU3D6QJTrcI/AAAAAAAAD9U/ANMbz5sL6nY/s150/kaworu2.png&container=blogger&gadget=a&rewriteMime=image/*"
+width = 32

@@ -1,12 +1,12 @@
-id = "4175993813379830750"
-date = 2011-11-08T09:20:43Z
-updated = 2011-11-08T09:20:43Z
-title = '''Concept quantity. Have you paged through a 4th gra...'''
-content = '''Concept quantity. Have you paged through a 4th grade or 9th grade math book? The shear number of topics is overwhelming. Every week is a new topic with sometimes fragmentary association with prior topics. Bam, bam, bam with no application, no point to the topics with regards to real life. It&#39;s just this glut of content the teacher HAS to get through in the school year - dictated by the school district/state/fed. <br /><br />Teachers are great - the school system sucks.'''
+content = "Concept quantity. Have you paged through a 4th grade or 9th grade math book? The shear number of topics is overwhelming. Every week is a new topic with sometimes fragmentary association with prior topics. Bam, bam, bam with no application, no point to the topics with regards to real life. It&#39;s just this glut of content the teacher HAS to get through in the school year - dictated by the school district/state/fed. <br /><br />Teachers are great - the school system sucks."
+date = "2011-11-08T09:20:43+00:00"
+id = 4175993813379830750
+title = "Concept quantity. Have you paged through a 4th gra..."
+updated = "2011-11-08T09:20:43.000+00:00"
 [author]
-	name = "Dave Cline"
-	uri = "https://www.blogger.com/profile/10723925328649290981"
+name = "Dave Cline"
+uri = "https://www.blogger.com/profile/10723925328649290981"
 [author.image]
-	source = "//www.davecline.com/Images/Photo_082705_007.jpg"
-	width = "32"
-	height = "24"
+height = 24
+source = "//www.davecline.com/Images/Photo_082705_007.jpg"
+width = 32

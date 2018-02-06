@@ -1,13 +1,13 @@
-id = "1918972859475533854"
-date = 2015-01-21T22:53:09Z
-updated = 2015-01-21T22:53:09Z
-title = '''The common thread I find in almost all of these th...'''
-content = '''The common thread I find in almost all of these things is that there is no one way to do everything. Every situation has to be taken on a case-to-case basis and you will never be able to prescribe a single best way to solve a problem. This is why it is critical to have lots of different perspectives on a problem.'''
+content = "The common thread I find in almost all of these things is that there is no one way to do everything. Every situation has to be taken on a case-to-case basis and you will never be able to prescribe a single best way to solve a problem. This is why it is critical to have lots of different perspectives on a problem."
+date = "2015-01-21T22:53:09+00:00"
+id = 1918972859475533854
 reply = 4567640033476427600
+title = "The common thread I find in almost all of these th..."
+updated = "2015-01-21T22:53:09.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAdo/4sbjcZsncwU/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAdo/4sbjcZsncwU/s32-c/photo.jpg"
+width = 32

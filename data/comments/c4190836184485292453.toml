@@ -1,12 +1,12 @@
-id = "4190836184485292453"
-date = 2012-02-24T15:08:35Z
-updated = 2012-02-24T15:08:35Z
-title = '''&quot;When was the last time you thought of a circ...'''
-content = '''&quot;When was the last time you thought of a circle using its diameter for crying out loud?&quot;<br /><br />Only ALL THE TIME - every time I drill a hole, or buy some pipe or tubing, or use a nut or a bolt, etc, etc, etc<br /><br />So I have a little problem with your basic premise... ;-)<br /><br />Nice animation, however.<br /><br />Since I&#39;m currently working on someone else&#39;s C# code that has stupid degree-to-radian conversions all through it - I&#39;d like to know why modern languages don&#39;t just do everything in degrees.<br /><br />-Tom Bushell'''
+content = "&quot;When was the last time you thought of a circle using its diameter for crying out loud?&quot;<br /><br />Only ALL THE TIME - every time I drill a hole, or buy some pipe or tubing, or use a nut or a bolt, etc, etc, etc<br /><br />So I have a little problem with your basic premise... ;-)<br /><br />Nice animation, however.<br /><br />Since I&#39;m currently working on someone else&#39;s C# code that has stupid degree-to-radian conversions all through it - I&#39;d like to know why modern languages don&#39;t just do everything in degrees.<br /><br />-Tom Bushell"
+date = "2012-02-24T15:08:35+00:00"
+id = 4190836184485292453
+title = "&quot;When was the last time you thought of a circ..."
+updated = "2012-02-24T15:08:35.000+00:00"
 [author]
-	name = "tbushell"
-	uri = "https://www.blogger.com/profile/06527162220790869863"
+name = "tbushell"
+uri = "https://www.blogger.com/profile/06527162220790869863"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

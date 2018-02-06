@@ -1,12 +1,12 @@
-id = "7164409929666312362"
-date = 2013-02-25T09:31:37Z
-updated = 2013-02-25T09:31:37Z
-title = '''&quot;WebGL will become exceedingly important in t...'''
-content = '''&quot;WebGL will become exceedingly important in the next 5 years, and its standardization is an absolute mess almost to the point of it being unusable.&quot;<br /><br />Citation needed??<br /><br />I&#39;ve made a number of WebGL applications now and I&#39;m not really sure what your getting at here. Yes, we have the 16 bit limitation on drawElements and as always you have to stay the hell away from Microsoft. But if you only consider Chrome and Firefox because supporting MS anything is simply not an option for prototyping web apps then webGL provides the tools to rapidly put together some pretty awesome stuff with substantially less effort then in C++ (assuming an equal level of C++ and JS newbism).'''
+content = "&quot;WebGL will become exceedingly important in the next 5 years, and its standardization is an absolute mess almost to the point of it being unusable.&quot;<br /><br />Citation needed??<br /><br />I&#39;ve made a number of WebGL applications now and I&#39;m not really sure what your getting at here. Yes, we have the 16 bit limitation on drawElements and as always you have to stay the hell away from Microsoft. But if you only consider Chrome and Firefox because supporting MS anything is simply not an option for prototyping web apps then webGL provides the tools to rapidly put together some pretty awesome stuff with substantially less effort then in C++ (assuming an equal level of C++ and JS newbism)."
+date = "2013-02-25T09:31:37+00:00"
+id = 7164409929666312362
+title = "&quot;WebGL will become exceedingly important in t..."
+updated = "2013-02-25T09:31:37.000+00:00"
 [author]
-	name = "d1plo1d"
-	uri = "https://www.blogger.com/profile/14660839561746889186"
+name = "d1plo1d"
+uri = "https://www.blogger.com/profile/14660839561746889186"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

@@ -1,12 +1,12 @@
-id = "8599676099757838759"
-date = 2012-09-19T11:00:09Z
-updated = 2012-09-19T11:00:09Z
-title = '''The best version I&#39;ve seen allows you to <a hr...'''
-content = '''The best version I&#39;ve seen allows you to <a href="http://xkcd-map.rent-a-geek.de/" rel="nofollow">zoom in and out</a>. A more efficient waste of time!'''
+content = "The best version I&#39;ve seen allows you to <a href=\"http://xkcd-map.rent-a-geek.de/\" rel=\"nofollow\">zoom in and out</a>. A more efficient waste of time!"
+date = "2012-09-19T11:00:09+00:00"
+id = 8599676099757838759
+title = "The best version I&#39;ve seen allows you to <a hr..."
+updated = "2012-09-19T11:00:09.000+00:00"
 [author]
-	name = "Todd"
-	uri = "https://www.blogger.com/profile/09776880728053758542"
+name = "Todd"
+uri = "https://www.blogger.com/profile/09776880728053758542"
 [author.image]
-	source = "//1.bp.blogspot.com/_UL-bcMC5VW8/SNJv3y-VCsI/AAAAAAAAAAU/5KA3_bPtLlk/S220-s32/todd+avatar+nose-mouth.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//1.bp.blogspot.com/_UL-bcMC5VW8/SNJv3y-VCsI/AAAAAAAAAAU/5KA3_bPtLlk/S220-s32/todd+avatar+nose-mouth.jpg"
+width = 32

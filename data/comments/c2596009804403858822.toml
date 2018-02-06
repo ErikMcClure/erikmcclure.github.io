@@ -1,12 +1,12 @@
-id = "2596009804403858822"
-date = 2015-01-21T23:20:20Z
-updated = 2015-01-21T23:21:19Z
-title = ''''''
-content = '''This comment has been removed by the author.'''
+content = "This comment has been removed by the author."
+date = "2015-01-21T23:20:20+00:00"
+id = 2596009804403858822
+title = ""
+updated = "2015-01-21T23:21:19.000+00:00"
 [author]
-	name = "pftq"
-	uri = "https://www.blogger.com/profile/15022821851361476272"
+name = "pftq"
+uri = "https://www.blogger.com/profile/15022821851361476272"
 [author.image]
-	source = "//4.bp.blogspot.com/-yy24YV5O3UQ/VMCI2aFcRQI/AAAAAAAAAOY/uzOklffGdEs/s32/random212x159.jpg"
-	width = "32"
-	height = "24"
+height = 24
+source = "//4.bp.blogspot.com/-yy24YV5O3UQ/VMCI2aFcRQI/AAAAAAAAAOY/uzOklffGdEs/s32/random212x159.jpg"
+width = 32

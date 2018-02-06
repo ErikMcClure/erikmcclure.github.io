@@ -1,12 +1,12 @@
-id = "7945212519349040180"
-date = 2011-11-09T14:50:45Z
-updated = 2011-11-09T14:50:45Z
-title = '''We can argue about whether or not this will work a...'''
-content = '''We can argue about whether or not this will work all day long and it won&#39;t mean anything until we try it and see what happens.'''
+content = "We can argue about whether or not this will work all day long and it won&#39;t mean anything until we try it and see what happens."
+date = "2011-11-09T14:50:45+00:00"
+id = 7945212519349040180
+title = "We can argue about whether or not this will work a..."
+updated = "2011-11-09T14:50:45.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32/photo.jpg"
+width = 32

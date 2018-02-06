@@ -1,13 +1,13 @@
-id = "7614858476674191579"
-date = 2013-02-12T21:02:38Z
-updated = 2013-02-12T21:02:38Z
-title = '''But that&#39;s exactly my point. I&#39;m saying it...'''
-content = '''But that&#39;s exactly my point. I&#39;m saying its taking too damn long.'''
+content = "But that&#39;s exactly my point. I&#39;m saying its taking too damn long."
+date = "2013-02-12T21:02:38+00:00"
+id = 7614858476674191579
 reply = 5581243871916199913
+title = "But that&#39;s exactly my point. I&#39;m saying it..."
+updated = "2013-02-12T21:02:38.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
+width = 32

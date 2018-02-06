@@ -1,13 +1,13 @@
-id = "6497956272397683229"
-date = 2013-02-12T19:50:59Z
-updated = 2013-02-12T19:50:59Z
-title = '''I&#39;ve played the piano since I was 6. I can dis...'''
-content = '''I&#39;ve played the piano since I was 6. I can dissect and recreate any melody I want on the electric piano I have sitting in my room. I can play Fur Elise by heart. That is NOT the problem. The problem is the sound design, synth design, and quality of samples I have to work with. It&#39;s hard to write orchestral music without a decent orchestra sample library, all of which costs hundreds of dollars. I have gotten extremely adept at recreating the melodies I hear in my head. The problem is that the digital instruments I have available to me are woefully inadequate.'''
+content = "I&#39;ve played the piano since I was 6. I can dissect and recreate any melody I want on the electric piano I have sitting in my room. I can play Fur Elise by heart. That is NOT the problem. The problem is the sound design, synth design, and quality of samples I have to work with. It&#39;s hard to write orchestral music without a decent orchestra sample library, all of which costs hundreds of dollars. I have gotten extremely adept at recreating the melodies I hear in my head. The problem is that the digital instruments I have available to me are woefully inadequate."
+date = "2013-02-12T19:50:59+00:00"
+id = 6497956272397683229
 reply = 5494895905722671920
+title = "I&#39;ve played the piano since I was 6. I can dis..."
+updated = "2013-02-12T19:50:59.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
+width = 32

@@ -1,12 +1,12 @@
-id = "3289504635235399072"
-date = 2012-05-24T07:37:36Z
-updated = 2012-05-24T07:37:36Z
-title = '''Modern gaming design would be well served making u...'''
-content = '''Modern gaming design would be well served making use of the vastly superior floating point operations of the GPU.  I know many of the newer video cards are increasing in cores, memory, and speed all the time.  How much work have you done leveraging the GPU vs CPU?'''
+content = "Modern gaming design would be well served making use of the vastly superior floating point operations of the GPU.  I know many of the newer video cards are increasing in cores, memory, and speed all the time.  How much work have you done leveraging the GPU vs CPU?"
+date = "2012-05-24T07:37:36+00:00"
+id = 3289504635235399072
+title = "Modern gaming design would be well served making u..."
+updated = "2012-05-24T07:37:36.000+00:00"
 [author]
-	name = "Christian"
-	uri = "https://www.blogger.com/profile/05513931813929278030"
+name = "Christian"
+uri = "https://www.blogger.com/profile/05513931813929278030"
 [author.image]
-	source = "//1.bp.blogspot.com/_YL1LCjTe740/SbazRok2aBI/AAAAAAAAAAM/AMmtgEzGWT0/S220-s32/32533-148-030f.jpg"
-	width = "21"
-	height = "32"
+height = 32
+source = "//1.bp.blogspot.com/_YL1LCjTe740/SbazRok2aBI/AAAAAAAAAAM/AMmtgEzGWT0/S220-s32/32533-148-030f.jpg"
+width = 21

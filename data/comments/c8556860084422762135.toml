@@ -1,12 +1,12 @@
-id = "8556860084422762135"
-date = 2012-05-23T16:17:01Z
-updated = 2012-05-23T16:17:01Z
-title = '''Well there&#39;s already a solution : tt&#39;s cal...'''
-content = '''Well there&#39;s already a solution : tt&#39;s called moral rights in France and in other european countries - something that can not be purchased from the author by any contract. Try to google for it.'''
+content = "Well there&#39;s already a solution : tt&#39;s called moral rights in France and in other european countries - something that can not be purchased from the author by any contract. Try to google for it."
+date = "2012-05-23T16:17:01+00:00"
+id = 8556860084422762135
+title = "Well there&#39;s already a solution : tt&#39;s cal..."
+updated = "2012-05-23T16:17:01.000+00:00"
 [author]
-	name = "guylhem"
-	uri = "http://guylhem.wordpress.com/"
+name = "guylhem"
+uri = "http://guylhem.wordpress.com/"
 [author.image]
-	source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
+width = 35

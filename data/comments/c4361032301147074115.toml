@@ -1,13 +1,13 @@
-id = "4361032301147074115"
-date = 2013-04-06T23:24:09Z
-updated = 2013-04-06T23:24:09Z
-title = '''That is actually exactly why I wrote this in the f...'''
-content = '''That is actually exactly why I wrote this in the first place, in case anyone else was out there consistently failing at everything they try to do.'''
+content = "That is actually exactly why I wrote this in the first place, in case anyone else was out there consistently failing at everything they try to do."
+date = "2013-04-06T23:24:09+00:00"
+id = 4361032301147074115
 reply = 8964407593544915748
+title = "That is actually exactly why I wrote this in the f..."
+updated = "2013-04-06T23:24:09.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAATg/MTUxLVTrHHo/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAATg/MTUxLVTrHHo/s32-c/photo.jpg"
+width = 32

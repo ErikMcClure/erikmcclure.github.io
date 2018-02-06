@@ -1,12 +1,12 @@
-id = "5198427124390091873"
-date = 2013-12-02T22:01:17Z
-updated = 2013-12-02T22:01:17Z
-title = '''While this is a good article, your intro paragraph...'''
-content = '''While this is a good article, your intro paragraph left me scratching my head; especially this sentence: &quot;WebGL starts choking the instant I try to make more than 50 or so draw calls&quot;. I can easily make a thousand draw calls per frame using WebGL and maintain 60 fps, so I immediately thought you must be doing something wrong.<br /><br />I took a quick look at the code in TinyWGL.js and sure enough there are a couple of problems with the way you are issuing your draw calls. The first is that you are not doing any state management yourself; ie if two consecutive draw calls use the same shader you are rebinding it every time. That&#39;s an expensive operation that you want to minimize as much as possible. Second, and probably far more importantly, you are calling gl.getAttribLocation and gl.getUniformLocation multiple times per draw call. These functions (like all gl.get* function) stall the entire rendering pipeline and should NEVER be called during rendering. Instead, call them during shader loading and store the results for use during rendering. Fixing these two issues should get you very good performance with WebGL.<br /><br />Hope this helps!'''
+content = "While this is a good article, your intro paragraph left me scratching my head; especially this sentence: &quot;WebGL starts choking the instant I try to make more than 50 or so draw calls&quot;. I can easily make a thousand draw calls per frame using WebGL and maintain 60 fps, so I immediately thought you must be doing something wrong.<br /><br />I took a quick look at the code in TinyWGL.js and sure enough there are a couple of problems with the way you are issuing your draw calls. The first is that you are not doing any state management yourself; ie if two consecutive draw calls use the same shader you are rebinding it every time. That&#39;s an expensive operation that you want to minimize as much as possible. Second, and probably far more importantly, you are calling gl.getAttribLocation and gl.getUniformLocation multiple times per draw call. These functions (like all gl.get* function) stall the entire rendering pipeline and should NEVER be called during rendering. Instead, call them during shader loading and store the results for use during rendering. Fixing these two issues should get you very good performance with WebGL.<br /><br />Hope this helps!"
+date = "2013-12-02T22:01:17+00:00"
+id = 5198427124390091873
+title = "While this is a good article, your intro paragraph..."
+updated = "2013-12-02T22:01:17.000+00:00"
 [author]
-	name = "Conor Dickinson"
-	uri = "https://www.blogger.com/profile/07151768478225194243"
+name = "Conor Dickinson"
+uri = "https://www.blogger.com/profile/07151768478225194243"
 [author.image]
-	source = "//lh4.googleusercontent.com/-5jVNhBwcnFo/AAAAAAAAAAI/AAAAAAAAABU/SPan7tsQHa0/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh4.googleusercontent.com/-5jVNhBwcnFo/AAAAAAAAAAI/AAAAAAAAABU/SPan7tsQHa0/s32-c/photo.jpg"
+width = 32

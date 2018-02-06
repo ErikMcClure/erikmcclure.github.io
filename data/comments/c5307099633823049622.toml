@@ -1,12 +1,12 @@
-id = "5307099633823049622"
-date = 2012-02-25T05:06:18Z
-updated = 2012-02-25T05:06:18Z
-title = '''Thanks for that :) And for your other posts too, r...'''
-content = '''Thanks for that :) And for your other posts too, reading your post backlog is fun (turns out I&#39;ve been on this blog before).<br /><br />Added to my reader. Keep writing.'''
+content = "Thanks for that :) And for your other posts too, reading your post backlog is fun (turns out I&#39;ve been on this blog before).<br /><br />Added to my reader. Keep writing."
+date = "2012-02-25T05:06:18+00:00"
+id = 5307099633823049622
+title = "Thanks for that :) And for your other posts too, r..."
+updated = "2012-02-25T05:06:18.000+00:00"
 [author]
-	name = "Jerome Leclanche"
-	uri = "https://www.blogger.com/profile/17945074471142174342"
+name = "Jerome Leclanche"
+uri = "https://www.blogger.com/profile/17945074471142174342"
 [author.image]
-	source = "//lh3.googleusercontent.com/-K8bI44JHNvs/AAAAAAAAAAI/AAAAAAAABBg/jRRznI5Uxdc/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh3.googleusercontent.com/-K8bI44JHNvs/AAAAAAAAAAI/AAAAAAAABBg/jRRznI5Uxdc/s32-c/photo.jpg"
+width = 32

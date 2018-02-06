@@ -1,12 +1,12 @@
-id = "5272323225821099503"
-date = 2014-09-21T14:31:49Z
-updated = 2014-09-21T14:31:49Z
-title = '''I really like what you say about complexity. One o...'''
-content = '''I really like what you say about complexity. One of the things my employer does is build software that enforces contracts between cities/counties/regional governments and ambulance companies. You would think that the contract would be insanely long (they are), detailed (yep!), and handle just about every contingency (oops). The problem is hard enough that my company has about 3 fulltime employees working on it all the time and every single new customer is a new set of difficulties. We often end up digging out the &quot;obvious&quot; details that never got written down.<br /><br />For extra irony, we&#39;ve tried to standardize the process. It&#39;s working out pretty well except...some customers need to so many bits of data to determine if you get a big fine or not that we run out of fields in our existing database tables.'''
+content = "I really like what you say about complexity. One of the things my employer does is build software that enforces contracts between cities/counties/regional governments and ambulance companies. You would think that the contract would be insanely long (they are), detailed (yep!), and handle just about every contingency (oops). The problem is hard enough that my company has about 3 fulltime employees working on it all the time and every single new customer is a new set of difficulties. We often end up digging out the &quot;obvious&quot; details that never got written down.<br /><br />For extra irony, we&#39;ve tried to standardize the process. It&#39;s working out pretty well except...some customers need to so many bits of data to determine if you get a big fine or not that we run out of fields in our existing database tables."
+date = "2014-09-21T14:31:49+00:00"
+id = 5272323225821099503
+title = "I really like what you say about complexity. One o..."
+updated = "2014-09-21T14:31:49.000+00:00"
 [author]
-	name = "zianchoy"
-	uri = "http://zianchoy.livejournal.com/"
+name = "zianchoy"
+uri = "http://zianchoy.livejournal.com/"
 [author.image]
-	source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
+width = 35

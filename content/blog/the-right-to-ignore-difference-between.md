@@ -1,10 +1,10 @@
 +++
 blogimport = true
 categories = ["blog"]
+comments = [2345805599960304531, 4052995307508351697, 3685024702500587560, 313015523868401862]
 date = "2016-03-13T21:27:00Z"
 title = "The Right To Ignore: The Difference Between Free Speech And Harassment"
 updated = "2016-03-13T21:27:47.000+00:00"
-comments = [ 2345805599960304531, 4052995307508351697, 3685024702500587560, 313015523868401862 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

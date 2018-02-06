@@ -1,10 +1,10 @@
 +++
 blogimport = true
 categories = ["blog"]
+comments = [8835010230743908689, 1529752811071689956]
 date = "2012-10-21T20:41:00Z"
 title = "Today I Was Mistaken For A 17-Year-Old Girl"
 updated = "2012-10-21T20:41:05.000+00:00"
-comments = [ 8835010230743908689, 1529752811071689956 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

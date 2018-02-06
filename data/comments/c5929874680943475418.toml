@@ -1,12 +1,12 @@
-id = "5929874680943475418"
-date = 2015-06-15T16:18:10Z
-updated = 2015-06-15T16:18:10Z
-title = '''I wonder how your design compares to YAGNI? Two ...'''
-content = '''I wonder how your design compares to YAGNI? <br /><br />Two customers could have differing opinions on multiple features of a program. With M customers and N features you might want to prune their options drastically to what can be tested and maintained - is this the restriction you see as trying to impose one&#39;s own workflow?'''
+content = "I wonder how your design compares to YAGNI? <br /><br />Two customers could have differing opinions on multiple features of a program. With M customers and N features you might want to prune their options drastically to what can be tested and maintained - is this the restriction you see as trying to impose one&#39;s own workflow?"
+date = "2015-06-15T16:18:10+00:00"
+id = 5929874680943475418
+title = "I wonder how your design compares to YAGNI? Two ..."
+updated = "2015-06-15T16:18:10.000+00:00"
 [author]
-	name = "Paddy3118"
-	uri = "https://www.blogger.com/profile/06899509753521482267"
+name = "Paddy3118"
+uri = "https://www.blogger.com/profile/06899509753521482267"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

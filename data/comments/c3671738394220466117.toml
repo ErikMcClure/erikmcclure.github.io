@@ -1,13 +1,13 @@
-id = "3671738394220466117"
-date = 2012-03-15T00:06:07Z
-updated = 2012-03-15T00:06:07Z
-title = '''Sony is already doing this with VITA'''
-content = '''Sony is already doing this with VITA'''
+content = "Sony is already doing this with VITA"
+date = "2012-03-15T00:06:07+00:00"
+id = 3671738394220466117
 reply = 2660125714544476841
+title = "Sony is already doing this with VITA"
+updated = "2012-03-15T00:06:07.000+00:00"
 [author]
-	name = "Unknown"
-	uri = "https://www.blogger.com/profile/14609429881118108054"
+name = "Unknown"
+uri = "https://www.blogger.com/profile/14609429881118108054"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

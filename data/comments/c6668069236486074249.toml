@@ -1,13 +1,13 @@
-id = "6668069236486074249"
-date = 2017-03-10T18:24:24Z
-updated = 2017-03-10T18:24:24Z
-title = '''Got it - that&#39;s very tough.  I would never hav...'''
-content = '''Got it - that&#39;s very tough.  I would never have guessed from your music (even if some help from others on the lower end).  All the more respect for what you&#39;ve been able to do and accomplish there.'''
+content = "Got it - that&#39;s very tough.  I would never have guessed from your music (even if some help from others on the lower end).  All the more respect for what you&#39;ve been able to do and accomplish there."
+date = "2017-03-10T18:24:24+00:00"
+id = 6668069236486074249
 reply = 5770789685172286302
+title = "Got it - that&#39;s very tough.  I would never hav..."
+updated = "2017-03-10T18:24:24.000+00:00"
 [author]
-	name = "pftq"
-	uri = "https://www.blogger.com/profile/15022821851361476272"
+name = "pftq"
+uri = "https://www.blogger.com/profile/15022821851361476272"
 [author.image]
-	source = "//4.bp.blogspot.com/-yy24YV5O3UQ/VMCI2aFcRQI/AAAAAAAAAOY/uzOklffGdEs/s32/random212x159.jpg"
-	width = "32"
-	height = "24"
+height = 24
+source = "//4.bp.blogspot.com/-yy24YV5O3UQ/VMCI2aFcRQI/AAAAAAAAAOY/uzOklffGdEs/s32/random212x159.jpg"
+width = 32

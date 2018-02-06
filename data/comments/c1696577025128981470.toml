@@ -1,12 +1,12 @@
-id = "1696577025128981470"
-date = 2012-02-06T16:40:41Z
-updated = 2012-02-06T16:40:41Z
-title = '''This article (rant) is similar to my favorite rant...'''
-content = '''This article (rant) is similar to my favorite rant on the profession.  I tell people I&#39;m a &quot;programmer&quot; or worse &quot;software engineer&quot; and the clever ones who think they know something immediately ask me &quot;What language do you use?&quot;  Since they will never have heard of several of the languages I&#39;m familiar with (Jovial J/73 anyone?) or understand the differences between PHP and Prolog, what useful answer can I give them?  These days I usually just sigh, or smile, depending on my mood, and tell them I know more than 20, and use the one that makes the most sense.<br /><br />Of course, that answer completely belies the fact that programming language choice is most often a matter of religious dogma, not a selection process.  The same is true of my current day job, where after serious consideration we concluded that the only platform that makes sense to create v2.0 of our current Linux/C++ application server is... Wait for it... Linux and C++!  Please allow me to point out that this a database-driven micropayment platform (primarily) that remains a PERFECT candidate for being implemented as Java EE Servlets.  But never mind, we&#39;re going to re-implement it in C++ so we can load/unload code modules (built into JEE) because the C++ version &quot;will be faster&quot; and &quot;the garbage collector would kill us.&quot;<br /><br />And I am NOT a Java fanboy.  I&#39;m a working programmer who&#39;s done everything from embedded work in C, C++, and assemblers even YOU educated readers have never heard of, to BSD kernel work, to lots and lots and lots of application code in Fortran, C, C++, Perl, and PHP.  Oh, and a little bit in Java.  The Java code was some of the best I&#39;ve ever written, or managed (because Tim actually wrote most of it.)<br /><br /><br />Never ever ever confuse &quot;programmers&quot;'''
+content = "This article (rant) is similar to my favorite rant on the profession.  I tell people I&#39;m a &quot;programmer&quot; or worse &quot;software engineer&quot; and the clever ones who think they know something immediately ask me &quot;What language do you use?&quot;  Since they will never have heard of several of the languages I&#39;m familiar with (Jovial J/73 anyone?) or understand the differences between PHP and Prolog, what useful answer can I give them?  These days I usually just sigh, or smile, depending on my mood, and tell them I know more than 20, and use the one that makes the most sense.<br /><br />Of course, that answer completely belies the fact that programming language choice is most often a matter of religious dogma, not a selection process.  The same is true of my current day job, where after serious consideration we concluded that the only platform that makes sense to create v2.0 of our current Linux/C++ application server is... Wait for it... Linux and C++!  Please allow me to point out that this a database-driven micropayment platform (primarily) that remains a PERFECT candidate for being implemented as Java EE Servlets.  But never mind, we&#39;re going to re-implement it in C++ so we can load/unload code modules (built into JEE) because the C++ version &quot;will be faster&quot; and &quot;the garbage collector would kill us.&quot;<br /><br />And I am NOT a Java fanboy.  I&#39;m a working programmer who&#39;s done everything from embedded work in C, C++, and assemblers even YOU educated readers have never heard of, to BSD kernel work, to lots and lots and lots of application code in Fortran, C, C++, Perl, and PHP.  Oh, and a little bit in Java.  The Java code was some of the best I&#39;ve ever written, or managed (because Tim actually wrote most of it.)<br /><br /><br />Never ever ever confuse &quot;programmers&quot;"
+date = "2012-02-06T16:40:41+00:00"
+id = 1696577025128981470
+title = "This article (rant) is similar to my favorite rant..."
+updated = "2012-02-06T16:40:41.000+00:00"
 [author]
-	name = "Wes Peters"
-	uri = "https://www.blogger.com/profile/17409869550789483060"
+name = "Wes Peters"
+uri = "https://www.blogger.com/profile/17409869550789483060"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

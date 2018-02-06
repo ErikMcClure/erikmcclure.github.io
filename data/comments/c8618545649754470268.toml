@@ -1,12 +1,12 @@
-id = "8618545649754470268"
-date = 2017-03-27T22:33:20Z
-updated = 2017-03-27T22:33:20Z
-title = '''Given so much information in it. its very useful ....'''
-content = '''Given so much information in it. its very useful .perfect explanation about Dot net framework.Thanks for your valuable information. <a href="http://www.credosystemz.com/training-in-chennai/best-dotnet-training-in-chennai/" rel="nofollow"> dot net training  in velachery  </a> | <a href="http://www.credosystemz.com/training-in-chennai/best-dotnet-training-in-chennai/" rel="nofollow">dot net training in chennai </a>'''
+content = "Given so much information in it. its very useful .perfect explanation about Dot net framework.Thanks for your valuable information. <a href=\"http://www.credosystemz.com/training-in-chennai/best-dotnet-training-in-chennai/\" rel=\"nofollow\"> dot net training  in velachery  </a> | <a href=\"http://www.credosystemz.com/training-in-chennai/best-dotnet-training-in-chennai/\" rel=\"nofollow\">dot net training in chennai </a>"
+date = "2017-03-27T22:33:20+00:00"
+id = 8618545649754470268
+title = "Given so much information in it. its very useful ...."
+updated = "2017-03-27T22:33:20.000+00:00"
 [author]
-	name = "Mithun Mithun"
-	uri = "https://www.blogger.com/profile/05835943090042751187"
+name = "Mithun Mithun"
+uri = "https://www.blogger.com/profile/05835943090042751187"
 [author.image]
-	source = "//lh3.googleusercontent.com/-0bn0k8RcxiI/AAAAAAAAAAI/AAAAAAAAACI/arft8Q3Nno4/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh3.googleusercontent.com/-0bn0k8RcxiI/AAAAAAAAAAI/AAAAAAAAACI/arft8Q3Nno4/s32-c/photo.jpg"
+width = 32

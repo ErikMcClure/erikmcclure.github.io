@@ -1,12 +1,12 @@
-id = "8919666420137016767"
-date = 2012-12-19T15:59:15Z
-updated = 2012-12-19T15:59:15Z
-title = '''Hey man. I feel for you and I can relate to that f...'''
-content = '''Hey man. I feel for you and I can relate to that feeling greatly. My lesson would be to take life at smaller chunks. <br />What worked for me is being both more realistic about my abilities as a programmer and what I&#39;m capable of developing as a single person. As well as making more concrete and realistic plans.'''
+content = "Hey man. I feel for you and I can relate to that feeling greatly. My lesson would be to take life at smaller chunks. <br />What worked for me is being both more realistic about my abilities as a programmer and what I&#39;m capable of developing as a single person. As well as making more concrete and realistic plans."
+date = "2012-12-19T15:59:15+00:00"
+id = 8919666420137016767
+title = "Hey man. I feel for you and I can relate to that f..."
+updated = "2012-12-19T15:59:15.000+00:00"
 [author]
-	name = "Siro"
-	uri = "https://www.blogger.com/profile/17855416150334619531"
+name = "Siro"
+uri = "https://www.blogger.com/profile/17855416150334619531"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

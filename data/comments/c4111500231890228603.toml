@@ -1,12 +1,12 @@
-id = "4111500231890228603"
-date = 2016-07-31T23:11:19Z
-updated = 2016-07-31T23:11:19Z
-title = '''You have stated your reasoning very well, and I co...'''
-content = '''You have stated your reasoning very well, and I couldn&#39;t agree with you more.  '''
+content = "You have stated your reasoning very well, and I couldn&#39;t agree with you more.  "
+date = "2016-07-31T23:11:19+00:00"
+id = 4111500231890228603
+title = "You have stated your reasoning very well, and I co..."
+updated = "2016-07-31T23:11:19.000+00:00"
 [author]
-	name = "Indranil"
-	uri = "https://www.blogger.com/profile/09941525650019271478"
+name = "Indranil"
+uri = "https://www.blogger.com/profile/09941525650019271478"
 [author.image]
-	source = "//4.bp.blogspot.com/-NEjCp4nBpFA/TakO2JV05_I/AAAAAAAAAfs/enDl7crhU2Q/s32/TheRedFist.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//4.bp.blogspot.com/-NEjCp4nBpFA/TakO2JV05_I/AAAAAAAAAfs/enDl7crhU2Q/s32/TheRedFist.jpg"
+width = 32

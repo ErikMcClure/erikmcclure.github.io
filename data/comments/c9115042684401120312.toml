@@ -1,13 +1,13 @@
-id = "9115042684401120312"
-date = 2017-03-12T18:53:43Z
-updated = 2017-03-12T18:53:43Z
-title = '''I confirmed the results of this experiment with so...'''
-content = '''I confirmed the results of this experiment with someone who was physically next to me during the test. See the edited prelude I added to the article.'''
+content = "I confirmed the results of this experiment with someone who was physically next to me during the test. See the edited prelude I added to the article."
+date = "2017-03-12T18:53:43+00:00"
+id = 9115042684401120312
 reply = 5770789685172286302
+title = "I confirmed the results of this experiment with so..."
+updated = "2017-03-12T18:53:43.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAdo/4sbjcZsncwU/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAdo/4sbjcZsncwU/s32-c/photo.jpg"
+width = 32

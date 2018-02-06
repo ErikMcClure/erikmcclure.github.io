@@ -1,12 +1,12 @@
-id = "8731297200876975365"
-date = 2013-01-11T22:21:36Z
-updated = 2013-01-11T22:21:36Z
-title = '''You probably need something like this...http://w...'''
-content = '''You probably need something like this...<br /><br />http://www.amazon.co.uk/Volume-Control-Cable-Stereo-Headphones/dp/B000TLUUAU<br /><br />So drop the volume on the cable and up the volume on the Zune.  At least then you might be able to put the Zune volume at about 10 and have more volume adjustability than just 1 up or down.<br />'''
+content = "You probably need something like this...<br /><br />http://www.amazon.co.uk/Volume-Control-Cable-Stereo-Headphones/dp/B000TLUUAU<br /><br />So drop the volume on the cable and up the volume on the Zune.  At least then you might be able to put the Zune volume at about 10 and have more volume adjustability than just 1 up or down.<br />"
+date = "2013-01-11T22:21:36+00:00"
+id = 8731297200876975365
+title = "You probably need something like this...http://w..."
+updated = "2013-01-11T22:21:36.000+00:00"
 [author]
-	name = "Zekaric"
-	uri = "https://www.blogger.com/profile/14209717942263262010"
+name = "Zekaric"
+uri = "https://www.blogger.com/profile/14209717942263262010"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

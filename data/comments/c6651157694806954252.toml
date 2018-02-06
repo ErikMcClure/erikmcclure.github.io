@@ -1,12 +1,12 @@
-id = "6651157694806954252"
-date = 2013-02-10T19:19:29Z
-updated = 2013-02-10T19:19:29Z
-title = '''after reading this all I could think was &quot;we ...'''
-content = '''after reading this all I could think was &quot;we can be friends&quot;<br />you just described my life, except I can&#39;t program (just a designer that keeps trying to learn how to code but keeps failing at it too lol) I have a book full of diagrams, ideas and scribbles of things I wished existed, most have had to be sidelined due to the fact that programming comes so unnaturally to me (I&#39;ll get it someday). <br />The worst part though of having an unrelenting torrent of ideas is that most remain unfinished since your always so eager to move onto the next one, DaVinci was infamous for doing this in his day, for not finishing things because he got too excited about his next endeavor. <br />as for the going crazy part it&#39;s sort of like that quote from alice in wonderland about having gone mad, but all the best people are.<br /><br />Stick to it, maybe get a day job in the meantime, maybe not (that&#39;s a rather personal choice to make) but your not alone in stuff like this. <br /><br />hit me up on twitter @themichaelbrave maybe I can help you out with some future project or something<br />'''
+content = "after reading this all I could think was &quot;we can be friends&quot;<br />you just described my life, except I can&#39;t program (just a designer that keeps trying to learn how to code but keeps failing at it too lol) I have a book full of diagrams, ideas and scribbles of things I wished existed, most have had to be sidelined due to the fact that programming comes so unnaturally to me (I&#39;ll get it someday). <br />The worst part though of having an unrelenting torrent of ideas is that most remain unfinished since your always so eager to move onto the next one, DaVinci was infamous for doing this in his day, for not finishing things because he got too excited about his next endeavor. <br />as for the going crazy part it&#39;s sort of like that quote from alice in wonderland about having gone mad, but all the best people are.<br /><br />Stick to it, maybe get a day job in the meantime, maybe not (that&#39;s a rather personal choice to make) but your not alone in stuff like this. <br /><br />hit me up on twitter @themichaelbrave maybe I can help you out with some future project or something<br />"
+date = "2013-02-10T19:19:29+00:00"
+id = 6651157694806954252
+title = "after reading this all I could think was &quot;we ..."
+updated = "2013-02-10T19:19:29.000+00:00"
 [author]
-	name = "Michael Brave"
-	uri = "https://www.blogger.com/profile/11169054628972715195"
+name = "Michael Brave"
+uri = "https://www.blogger.com/profile/11169054628972715195"
 [author.image]
-	source = "//lh5.googleusercontent.com/-GDKttcW8I9c/AAAAAAAAAAI/AAAAAAAAADg/Yq1kJf6muds/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-GDKttcW8I9c/AAAAAAAAAAI/AAAAAAAAADg/Yq1kJf6muds/s32-c/photo.jpg"
+width = 32

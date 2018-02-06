@@ -1,12 +1,12 @@
-id = "5461301986499690036"
-date = 2016-07-31T19:19:11Z
-updated = 2016-07-31T19:19:11Z
-title = '''Well, the good thing is that people define their n...'''
-content = '''Well, the good thing is that people define their notation in papers, due to overlap. The different styles in some sense prepare you to, eh, different styles. Finance on the other hand, is witchcraft - all letters have been defined to mean exactly the same thing all the time, and you&#39;re just supposed to know what they mean. Then they invented a bunch of more letters, that sound greek, just for fun, but then, since it is hard to typeset new letters, they use existing greek letters... yeah, f*ck finance..'''
+content = "Well, the good thing is that people define their notation in papers, due to overlap. The different styles in some sense prepare you to, eh, different styles. Finance on the other hand, is witchcraft - all letters have been defined to mean exactly the same thing all the time, and you&#39;re just supposed to know what they mean. Then they invented a bunch of more letters, that sound greek, just for fun, but then, since it is hard to typeset new letters, they use existing greek letters... yeah, f*ck finance.."
+date = "2016-07-31T19:19:11+00:00"
+id = 5461301986499690036
+title = "Well, the good thing is that people define their n..."
+updated = "2016-07-31T19:19:11.000+00:00"
 [author]
-	name = "Unknown"
-	uri = "https://www.blogger.com/profile/05856662302261034716"
+name = "Unknown"
+uri = "https://www.blogger.com/profile/05856662302261034716"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

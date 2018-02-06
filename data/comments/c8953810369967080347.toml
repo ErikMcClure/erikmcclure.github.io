@@ -1,12 +1,12 @@
-id = "8953810369967080347"
-date = 2013-02-11T04:48:27Z
-updated = 2013-02-11T04:48:27Z
-title = '''Not sure if it&#39;s been said before, I would adv...'''
-content = '''Not sure if it&#39;s been said before, I would advise you to team up with someone you trust, you respect professionally and has complementary skills to build something meaningful for starters.<br />It&#39;s working for me. :)'''
+content = "Not sure if it&#39;s been said before, I would advise you to team up with someone you trust, you respect professionally and has complementary skills to build something meaningful for starters.<br />It&#39;s working for me. :)"
+date = "2013-02-11T04:48:27+00:00"
+id = 8953810369967080347
+title = "Not sure if it&#39;s been said before, I would adv..."
+updated = "2013-02-11T04:48:27.000+00:00"
 [author]
-	name = "Luc1an"
-	uri = "https://www.blogger.com/profile/13730835633919170677"
+name = "Luc1an"
+uri = "https://www.blogger.com/profile/13730835633919170677"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

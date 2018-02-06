@@ -1,12 +1,12 @@
-id = "4836811509298647323"
-date = 2012-03-15T07:38:50Z
-updated = 2012-03-15T07:38:50Z
-title = '''The dream of one software running on different dev...'''
-content = '''The dream of one software running on different devices should die already. We&#39;ve been there first with Java, then with Flash, then with HTML mobile apps and what not. Every time it turns out you have to rewrite the app or at the very least the UI (but more often everything). The interface will never resize itself because it is easier to simply rewrite it than make such an interface work. If it works for Angry Birds this is because Angry Birds is really simple game (and insultingly stupid but I digress). StarCraft will never make sense with touch controls.'''
+content = "The dream of one software running on different devices should die already. We&#39;ve been there first with Java, then with Flash, then with HTML mobile apps and what not. Every time it turns out you have to rewrite the app or at the very least the UI (but more often everything). The interface will never resize itself because it is easier to simply rewrite it than make such an interface work. If it works for Angry Birds this is because Angry Birds is really simple game (and insultingly stupid but I digress). StarCraft will never make sense with touch controls."
+date = "2012-03-15T07:38:50+00:00"
+id = 4836811509298647323
+title = "The dream of one software running on different dev..."
+updated = "2012-03-15T07:38:50.000+00:00"
 [author]
-	name = "Stilgar"
-	uri = "https://me.yahoo.com/stilgarad"
+name = "Stilgar"
+uri = "https://me.yahoo.com/stilgarad"
 [author.image]
-	source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
+width = 35

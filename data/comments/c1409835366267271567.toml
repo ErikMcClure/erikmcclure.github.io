@@ -1,13 +1,13 @@
-id = "1409835366267271567"
-date = 2013-02-11T09:04:36Z
-updated = 2013-02-11T09:04:36Z
-title = '''Exactly, but isn&#39;t recalculating the reflectio...'''
-content = '''Exactly, but isn&#39;t recalculating the reflection at each pixel of the surface far less efficient than a smarter interpolation of edge values would be?'''
+content = "Exactly, but isn&#39;t recalculating the reflection at each pixel of the surface far less efficient than a smarter interpolation of edge values would be?"
+date = "2013-02-11T09:04:36+00:00"
+id = 1409835366267271567
 reply = 8385004382040472649
+title = "Exactly, but isn&#39;t recalculating the reflectio..."
+updated = "2013-02-11T09:04:36.000+00:00"
 [author]
-	name = "Ta Kernc"
-	uri = "https://www.blogger.com/profile/16203472624139539085"
+name = "Ta Kernc"
+uri = "https://www.blogger.com/profile/16203472624139539085"
 [author.image]
-	source = "//lh6.googleusercontent.com/-PJsSE65nW14/AAAAAAAAAAI/AAAAAAAAAJI/8xTtD9gDx2k/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh6.googleusercontent.com/-PJsSE65nW14/AAAAAAAAAAI/AAAAAAAAAJI/8xTtD9gDx2k/s32-c/photo.jpg"
+width = 32

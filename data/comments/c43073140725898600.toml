@@ -1,12 +1,12 @@
-id = "43073140725898600"
-date = 2018-01-01T15:04:07Z
-updated = 2018-01-01T15:04:07Z
-title = '''To be fair, I think having anything in the single-...'''
-content = '''To be fair, I think having anything in the single-digits drilled into your head is actually pretty worthwhile, in that it helps speed the process along once things get more complicated to just kind of *know* things like what seven times three comes out to.  It&#39;d be the natural result of doing the math routinely anyway, but it seems almost daft to break multiplication of simple numbers into addition in your head any time they come along.  You&#39;ll learn it by repetition anyway, so they subject you to that repetition to try and get on with it.  It&#39;s not perfect for everybody, and the way they&#39;ll time kids and set benchmarks really misses the point, but the core notion of &quot;learning the times tables&quot; isn&#39;t terrible.<br /><br />As for nines, you missed my go-to rule with those:<br />In any given case of 9*x (where x is a single digit, at least), the result in the tens digit will be x-1. You refer to it in reference to the pattern in a column of all possible results, but that seems less useful if your goal is &quot;memorization bad,&quot; since that kind of implies knowing the column to begin with.  Tens place will always be one less than what nine is being multiplied by, both digits of the result added together come out to nine, so the second digit is whatever difference you need.  Most kids can count to ten pretty easy, so I think they could suss that one out.'''
+content = "To be fair, I think having anything in the single-digits drilled into your head is actually pretty worthwhile, in that it helps speed the process along once things get more complicated to just kind of *know* things like what seven times three comes out to.  It&#39;d be the natural result of doing the math routinely anyway, but it seems almost daft to break multiplication of simple numbers into addition in your head any time they come along.  You&#39;ll learn it by repetition anyway, so they subject you to that repetition to try and get on with it.  It&#39;s not perfect for everybody, and the way they&#39;ll time kids and set benchmarks really misses the point, but the core notion of &quot;learning the times tables&quot; isn&#39;t terrible.<br /><br />As for nines, you missed my go-to rule with those:<br />In any given case of 9*x (where x is a single digit, at least), the result in the tens digit will be x-1. You refer to it in reference to the pattern in a column of all possible results, but that seems less useful if your goal is &quot;memorization bad,&quot; since that kind of implies knowing the column to begin with.  Tens place will always be one less than what nine is being multiplied by, both digits of the result added together come out to nine, so the second digit is whatever difference you need.  Most kids can count to ten pretty easy, so I think they could suss that one out."
+date = "2018-01-01T15:04:07+00:00"
+id = 43073140725898600
+title = "To be fair, I think having anything in the single-..."
+updated = "2018-01-01T15:04:07.000+00:00"
 [author]
-	name = "Sam Boyd"
-	uri = "https://www.blogger.com/profile/01685312948526367174"
+name = "Sam Boyd"
+uri = "https://www.blogger.com/profile/01685312948526367174"
 [author.image]
-	source = "//lh4.googleusercontent.com/-HlByBWTwSBo/AAAAAAAAAAI/AAAAAAAAAq4/T_TOnAsylrY/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh4.googleusercontent.com/-HlByBWTwSBo/AAAAAAAAAAI/AAAAAAAAAq4/T_TOnAsylrY/s32-c/photo.jpg"
+width = 32

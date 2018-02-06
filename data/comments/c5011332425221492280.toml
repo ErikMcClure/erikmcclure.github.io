@@ -1,12 +1,12 @@
-id = "5011332425221492280"
-date = 2012-05-07T07:36:28Z
-updated = 2012-05-07T07:36:28Z
-title = '''programming didn&#39;t exit 50 years ago? ignoring...'''
-content = '''programming didn&#39;t exit 50 years ago? ignoring everything about automatas are we?'''
+content = "programming didn&#39;t exit 50 years ago? ignoring everything about automatas are we?"
+date = "2012-05-07T07:36:28+00:00"
+id = 5011332425221492280
+title = "programming didn&#39;t exit 50 years ago? ignoring..."
+updated = "2012-05-07T07:36:28.000+00:00"
 [author]
-	name = "Densu"
-	uri = "https://www.blogger.com/profile/05530831205111071203"
+name = "Densu"
+uri = "https://www.blogger.com/profile/05530831205111071203"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

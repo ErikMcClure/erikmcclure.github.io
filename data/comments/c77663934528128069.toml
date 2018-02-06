@@ -1,13 +1,13 @@
-id = "77663934528128069"
-date = 2012-07-27T17:53:15Z
-updated = 2012-07-27T17:53:15Z
-title = '''I am ranting. This is a rant. In rants, you yell a...'''
-content = '''I am ranting. This is a rant. In rants, you yell about things that you hate. I apologize if &quot;yelling about things I hate&quot; was somehow mistranslated into &quot;immature victimization&quot; because nowhere do I even imply I give a flying fuck about what happened to ME, only the various ways Microsoft was a complete disaster through my own experiences. I was simply stating what happened and noting how unbelievably badly this reflected on Microsoft from my own comically not-objective viewpoint. It&#39;s supposed to be a peek into how Microsoft operated back in 2008, preferably in an amusing way, but apparently you were born without a sense of humor, and I can assure you I feel very sorry for you and might even donate to the Incapable-Of-Laughing charity for your sake.'''
+content = "I am ranting. This is a rant. In rants, you yell about things that you hate. I apologize if &quot;yelling about things I hate&quot; was somehow mistranslated into &quot;immature victimization&quot; because nowhere do I even imply I give a flying fuck about what happened to ME, only the various ways Microsoft was a complete disaster through my own experiences. I was simply stating what happened and noting how unbelievably badly this reflected on Microsoft from my own comically not-objective viewpoint. It&#39;s supposed to be a peek into how Microsoft operated back in 2008, preferably in an amusing way, but apparently you were born without a sense of humor, and I can assure you I feel very sorry for you and might even donate to the Incapable-Of-Laughing charity for your sake."
+date = "2012-07-27T17:53:15+00:00"
+id = 77663934528128069
 reply = 7163000576809669412
+title = "I am ranting. This is a rant. In rants, you yell a..."
+updated = "2012-07-27T17:53:15.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
+width = 32

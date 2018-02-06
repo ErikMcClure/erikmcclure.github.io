@@ -1,13 +1,13 @@
-id = "7897533833584106685"
-date = 2013-01-22T10:53:32Z
-updated = 2013-01-22T10:53:32Z
-title = '''A large number of people attack dreams because the...'''
-content = '''A large number of people attack dreams because their own dreams were shattered. Others just attack dreams they don&#39;t like. It&#39;s a sad world.'''
+content = "A large number of people attack dreams because their own dreams were shattered. Others just attack dreams they don&#39;t like. It&#39;s a sad world."
+date = "2013-01-22T10:53:32+00:00"
+id = 7897533833584106685
 reply = 5321267677346341511
+title = "A large number of people attack dreams because the..."
+updated = "2013-01-22T10:53:32.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAARg/WaAUcdFGSrM/s32-c/photo.jpg"
+width = 32

@@ -1,13 +1,13 @@
-id = "817742549216697183"
-date = 2013-06-13T18:16:35Z
-updated = 2013-06-13T18:16:35Z
-title = '''I&#39;m flattered :D'''
-content = '''I&#39;m flattered :D'''
+content = "I&#39;m flattered :D"
+date = "2013-06-13T18:16:35+00:00"
+id = 817742549216697183
 reply = 4530785422537198048
+title = "I&#39;m flattered :D"
+updated = "2013-06-13T18:16:35.000+00:00"
 [author]
-	name = "Erik McClure"
-	uri = "https://www.blogger.com/profile/13838708587730716493"
+name = "Erik McClure"
+uri = "https://www.blogger.com/profile/13838708587730716493"
 [author.image]
-	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAATg/MTUxLVTrHHo/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAATg/MTUxLVTrHHo/s32-c/photo.jpg"
+width = 32

@@ -1,12 +1,12 @@
-id = "8702335690771044604"
-date = 2012-11-26T13:11:13Z
-updated = 2012-11-26T13:11:13Z
-title = '''Besides the &#39;flame-war&#39; going on.There a...'''
-content = '''Besides the &#39;flame-war&#39; going on.<br /><br />There are actually many disadvantages from such a multithreaded architecture, but I currently still like it. <br /><br />The need of conceptually dividing the functionality turns out to be positive for maintainability in my case. The borders between the modules are hard to overcome and therefore you can&#39;t take the lazy path of just hacking something in between. A lot of trouble comes from adding fast features that are not separated enough. So in general I found that it makes it easier to work on individual problems. Still the overhead is large.<br /><br />The general problem is that writing a multithreaded game engine isn&#39;t just a work of a few days, therefore the actual performance differences are hard to measure. My current architecture runs with 4 different modules which are basically communicating via double-buffering. And I would also encourage others to pursue a similar path, if they can live with a steep curve of getting things together in the first place. I blieve that separating really pays off when going further along the road. Currently I wouldn&#39;t go back to a single threaded/module approach. Still it is possible that my opinion may change in the future.'''
+content = "Besides the &#39;flame-war&#39; going on.<br /><br />There are actually many disadvantages from such a multithreaded architecture, but I currently still like it. <br /><br />The need of conceptually dividing the functionality turns out to be positive for maintainability in my case. The borders between the modules are hard to overcome and therefore you can&#39;t take the lazy path of just hacking something in between. A lot of trouble comes from adding fast features that are not separated enough. So in general I found that it makes it easier to work on individual problems. Still the overhead is large.<br /><br />The general problem is that writing a multithreaded game engine isn&#39;t just a work of a few days, therefore the actual performance differences are hard to measure. My current architecture runs with 4 different modules which are basically communicating via double-buffering. And I would also encourage others to pursue a similar path, if they can live with a steep curve of getting things together in the first place. I blieve that separating really pays off when going further along the road. Currently I wouldn&#39;t go back to a single threaded/module approach. Still it is possible that my opinion may change in the future."
+date = "2012-11-26T13:11:13+00:00"
+id = 8702335690771044604
+title = "Besides the &#39;flame-war&#39; going on.There a..."
+updated = "2012-11-26T13:11:13.000+00:00"
 [author]
-	name = "Necrowizzard"
-	uri = "https://www.blogger.com/profile/07586121129592601367"
+name = "Necrowizzard"
+uri = "https://www.blogger.com/profile/07586121129592601367"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

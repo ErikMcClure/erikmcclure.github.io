@@ -1,13 +1,13 @@
-id = "1677002934142461327"
-date = 2012-09-28T07:10:10Z
-updated = 2012-09-28T07:10:10Z
-title = '''Olivier is correct. Please check wikipedia: http:/...'''
-content = '''Olivier is correct. Please check wikipedia: http://en.wikipedia.org/wiki/Ray_tracing_%28graphics%29<br /><br />Early raytracers were in fact ray*casters*, i. e. they stopped the trace when hitting an object, and used that info just to calculate shading, assuming no obstructions of light sources (that is, no shadows). You could call that an approximation, but it is not not the kind of ray tracing Pixar does or ever did.<br /><br />Check http://en.wikipedia.org/wiki/Ray_casting'''
+content = "Olivier is correct. Please check wikipedia: http://en.wikipedia.org/wiki/Ray_tracing_%28graphics%29<br /><br />Early raytracers were in fact ray*casters*, i. e. they stopped the trace when hitting an object, and used that info just to calculate shading, assuming no obstructions of light sources (that is, no shadows). You could call that an approximation, but it is not not the kind of ray tracing Pixar does or ever did.<br /><br />Check http://en.wikipedia.org/wiki/Ray_casting"
+date = "2012-09-28T07:10:10+00:00"
+id = 1677002934142461327
 reply = 4416375733763293959
+title = "Olivier is correct. Please check wikipedia: http:/..."
+updated = "2012-09-28T07:10:10.000+00:00"
 [author]
-	name = "Stefan Lang"
-	uri = "https://www.blogger.com/profile/17091369106545713038"
+name = "Stefan Lang"
+uri = "https://www.blogger.com/profile/17091369106545713038"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

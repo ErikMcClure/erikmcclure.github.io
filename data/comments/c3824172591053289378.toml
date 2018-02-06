@@ -1,12 +1,12 @@
-id = "3824172591053289378"
-date = 2013-02-10T21:48:34Z
-updated = 2013-02-10T21:48:34Z
-title = '''I feel similar sometimes...thanks for sharing your...'''
-content = '''I feel similar sometimes...thanks for sharing your story<br />Here&#39;s a favorite song of mine<br />http://www.youtube.com/watch?v=5LHA5YCWEAs<br />&quot;there&#39;s no map to guide our way...it just takes time&quot;'''
+content = "I feel similar sometimes...thanks for sharing your story<br />Here&#39;s a favorite song of mine<br />http://www.youtube.com/watch?v=5LHA5YCWEAs<br />&quot;there&#39;s no map to guide our way...it just takes time&quot;"
+date = "2013-02-10T21:48:34+00:00"
+id = 3824172591053289378
+title = "I feel similar sometimes...thanks for sharing your..."
+updated = "2013-02-10T21:48:34.000+00:00"
 [author]
-	name = "Unknown"
-	uri = "https://www.blogger.com/profile/15565119781890101570"
+name = "Unknown"
+uri = "https://www.blogger.com/profile/15565119781890101570"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

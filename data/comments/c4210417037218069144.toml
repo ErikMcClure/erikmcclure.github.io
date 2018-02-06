@@ -1,12 +1,12 @@
-id = "4210417037218069144"
-date = 2017-06-01T06:01:02Z
-updated = 2017-06-01T06:01:02Z
-title = '''Hi Blogger, Blogs are competing for awards.A tot...'''
-content = '''Hi Blogger, <br />Blogs are competing for awards.<br />A total of $30,000 cash prize-winning inter-blog competition has started. You have a great blog! So join you now. We will be honored to welcome you to this beautiful web-activity, which will be awarded to many bloggers. You are invited to the blog writers competition for May-June 2017. You have absolutely visited to get detailed information and to apply.<br /><br />Web  : http://www.bloggercontest.com<br />Mail : contact@bloggercontest.com<br />Pbx  : +441012950166<br />'''
+content = "Hi Blogger, <br />Blogs are competing for awards.<br />A total of $30,000 cash prize-winning inter-blog competition has started. You have a great blog! So join you now. We will be honored to welcome you to this beautiful web-activity, which will be awarded to many bloggers. You are invited to the blog writers competition for May-June 2017. You have absolutely visited to get detailed information and to apply.<br /><br />Web  : http://www.bloggercontest.com<br />Mail : contact@bloggercontest.com<br />Pbx  : +441012950166<br />"
+date = "2017-06-01T06:01:02+00:00"
+id = 4210417037218069144
+title = "Hi Blogger, Blogs are competing for awards.A tot..."
+updated = "2017-06-01T06:01:02.000+00:00"
 [author]
-	name = "Blogger Contest for Awards - You Can Join"
-	uri = "https://www.blogger.com/profile/02592767655186131979"
+name = "Blogger Contest for Awards - You Can Join"
+uri = "https://www.blogger.com/profile/02592767655186131979"
 [author.image]
-	source = "//4.bp.blogspot.com/-fSEpY71mvLU/WQps6xksyVI/AAAAAAAAAGY/AYmRNwKFBqAcLFVTPk1G9ozdd-gY6Z8kwCK4B/s32/blogger-contest.png"
-	width = "32"
-	height = "32"
+height = 32
+source = "//4.bp.blogspot.com/-fSEpY71mvLU/WQps6xksyVI/AAAAAAAAAGY/AYmRNwKFBqAcLFVTPk1G9ozdd-gY6Z8kwCK4B/s32/blogger-contest.png"
+width = 32

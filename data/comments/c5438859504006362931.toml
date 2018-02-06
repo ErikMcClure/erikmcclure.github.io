@@ -1,12 +1,12 @@
-id = "5438859504006362931"
-date = 2017-05-04T14:27:17Z
-updated = 2017-05-04T14:27:17Z
-title = '''Now that I&#39;m rich, I do it again, but out of p...'''
-content = '''Now that I&#39;m rich, I do it again, but out of pocket this time. Victory achieved.'''
+content = "Now that I&#39;m rich, I do it again, but out of pocket this time. Victory achieved."
+date = "2017-05-04T14:27:17+00:00"
+id = 5438859504006362931
+title = "Now that I&#39;m rich, I do it again, but out of p..."
+updated = "2017-05-04T14:27:17.000+00:00"
 [author]
-	name = "Ansis Māliņš"
-	uri = "https://www.blogger.com/profile/11669734184529855460"
+name = "Ansis Māliņš"
+uri = "https://www.blogger.com/profile/11669734184529855460"
 [author.image]
-	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
-	width = "35"
-	height = "35"
+height = 35
+source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+width = 35

@@ -1,12 +1,12 @@
-id = "1380747906436469291"
-date = 2013-07-16T03:53:47Z
-updated = 2013-07-16T03:53:47Z
-title = '''Hello great article,I&#39;m really curious about...'''
-content = '''Hello great article,<br /><br />I&#39;m really curious about what of if the teachers see the wholes in the education and know about the problem but they are working for the university and they want to help but somehow they are afraid to lose they job or don&#39;t want to get to troubles.'''
+content = "Hello great article,<br /><br />I&#39;m really curious about what of if the teachers see the wholes in the education and know about the problem but they are working for the university and they want to help but somehow they are afraid to lose they job or don&#39;t want to get to troubles."
+date = "2013-07-16T03:53:47+00:00"
+id = 1380747906436469291
+title = "Hello great article,I&#39;m really curious about..."
+updated = "2013-07-16T03:53:47.000+00:00"
 [author]
-	name = "Richard Bányi"
-	uri = "https://www.blogger.com/profile/16706530832038940212"
+name = "Richard Bányi"
+uri = "https://www.blogger.com/profile/16706530832038940212"
 [author.image]
-	source = "//lh4.googleusercontent.com/-zizjRLj0XiY/AAAAAAAAAAI/AAAAAAAAACs/NtnFNNaHYWM/s32-c/photo.jpg"
-	width = "32"
-	height = "32"
+height = 32
+source = "//lh4.googleusercontent.com/-zizjRLj0XiY/AAAAAAAAAAI/AAAAAAAAACs/NtnFNNaHYWM/s32-c/photo.jpg"
+width = 32
