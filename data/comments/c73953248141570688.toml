@@ -2,7 +2,7 @@ id = "73953248141570688"
 date = 2013-07-15T06:45:44Z
 updated = 2013-07-15T06:45:44Z
 title = "I could never work in that environment. I&#39;d ra..."
-content = "I could never work in that environment. I&#39;d rather live in poverty than put myself through that."
+content = '''I could never work in that environment. I&#39;d rather live in poverty than put myself through that.'''
 reply = 4195938912606361247
 [author]
 	name = "Erik McClure"

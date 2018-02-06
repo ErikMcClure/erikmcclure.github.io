@@ -2,7 +2,7 @@ id = "485080665198940573"
 date = 2011-11-08T07:16:03Z
 updated = 2011-11-08T07:16:03Z
 title = "Very good points.  I&#39;ve always thought the way..."
-content = "Very good points.  I&#39;ve always thought the way math was taught made it appear harder than it had to be.<br /><br />One of my gripes is that proofs in textbooks generally have MISSING STEPS.  Arrgh!  Instead of zooming through the logic, you spend hours trying to fill in the gaps, or give up.<br /><br />It&#39;s like speed bumps on the highway of learning!"
+content = '''Very good points.  I&#39;ve always thought the way math was taught made it appear harder than it had to be.<br /><br />One of my gripes is that proofs in textbooks generally have MISSING STEPS.  Arrgh!  Instead of zooming through the logic, you spend hours trying to fill in the gaps, or give up.<br /><br />It&#39;s like speed bumps on the highway of learning!'''
 [author]
 	name = "alankdkd"
 	uri = "http://openid.aol.com/alankdkd"

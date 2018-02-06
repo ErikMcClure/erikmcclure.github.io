@@ -2,7 +2,7 @@ id = "7773959336197553448"
 date = 2012-02-23T21:39:27Z
 updated = 2012-02-23T21:39:27Z
 title = "Code::Blocks sucks. That&#39;s an entire blog post..."
-content = "Code::Blocks sucks. That&#39;s an entire blog post on its own. Ubuntu doesn&#39;t actually fix the problem because ubuntu has the same driver issues."
+content = '''Code::Blocks sucks. That&#39;s an entire blog post on its own. Ubuntu doesn&#39;t actually fix the problem because ubuntu has the same driver issues.'''
 reply = 584819104167607600
 [author]
 	name = "Erik McClure"

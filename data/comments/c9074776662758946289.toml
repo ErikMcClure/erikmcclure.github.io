@@ -2,7 +2,7 @@ id = "9074776662758946289"
 date = 2011-09-27T14:37:34Z
 updated = 2011-09-27T14:37:34Z
 title = "Thanks! I just have looked over your blog some mor..."
-content = "Thanks! I just have looked over your blog some more and I&#39;m pretty impressed. You do pretty much everything I&#39;ve wanted to learn, Erik. <br /><br />Graphics programming with an efficient mindset. Mostly all I&#39;ve done is high-level business apps and very few graphics programming. I would LOVE to write a 3D engine, but I&#39;ve always felt the maths behind it and the resources to learn are way out of my reach. Hopefully one day I can exercise half the skill set you have! Ha!"
+content = '''Thanks! I just have looked over your blog some more and I&#39;m pretty impressed. You do pretty much everything I&#39;ve wanted to learn, Erik. <br /><br />Graphics programming with an efficient mindset. Mostly all I&#39;ve done is high-level business apps and very few graphics programming. I would LOVE to write a 3D engine, but I&#39;ve always felt the maths behind it and the resources to learn are way out of my reach. Hopefully one day I can exercise half the skill set you have! Ha!'''
 [author]
 	name = "Jhott"
 	uri = "https://www.blogger.com/profile/04348743696627086264"

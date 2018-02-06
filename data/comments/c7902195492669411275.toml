@@ -2,7 +2,7 @@ id = "7902195492669411275"
 date = 2014-05-23T18:59:50Z
 updated = 2014-05-23T18:59:50Z
 title = "Noo where is the rest of the tutorial?"
-content = "Noo where is the rest of the tutorial?"
+content = '''Noo where is the rest of the tutorial?'''
 [author]
 	name = "Orestis125"
 	uri = "https://www.blogger.com/profile/04709896439263013299"

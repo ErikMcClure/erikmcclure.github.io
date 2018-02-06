@@ -2,7 +2,7 @@ id = "6993571250935869633"
 date = 2012-02-06T04:48:56Z
 updated = 2012-02-06T04:48:56Z
 title = "Nice article.  Just one thought.  To follow the pa..."
-content = "Nice article.  Just one thought.  To follow the pattern, the four R&#39;s should have been - Reading, &#39;Riting, &#39;Rithematic, and &#39;Rogramming.  But very good points."
+content = '''Nice article.  Just one thought.  To follow the pattern, the four R&#39;s should have been - Reading, &#39;Riting, &#39;Rithematic, and &#39;Rogramming.  But very good points.'''
 [author]
 	name = "isifvs"
 	uri = "https://www.blogger.com/profile/07799415015622478743"

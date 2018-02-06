@@ -2,7 +2,7 @@ id = "5724529338739166429"
 date = 2012-09-27T05:25:18Z
 updated = 2012-09-27T05:25:18Z
 title = "Oh look, a rendering method doesn&#39;t &quot;solv..."
-content = "Oh look, a rendering method doesn&#39;t &quot;solve&quot; an ill-defined term which means &quot;looks substantially better than today,&quot; it doesn&#39;t unlock rendering at the galactic scale, and it doesn&#39;t solve five topics that have nothing to do with graphics.<br /><br />It is difficult to waste space on blogspot, but..."
+content = '''Oh look, a rendering method doesn&#39;t &quot;solve&quot; an ill-defined term which means &quot;looks substantially better than today,&quot; it doesn&#39;t unlock rendering at the galactic scale, and it doesn&#39;t solve five topics that have nothing to do with graphics.<br /><br />It is difficult to waste space on blogspot, but...'''
 [author]
 	name = "John Haugeland"
 	uri = "https://www.blogger.com/profile/07701245705928548668"

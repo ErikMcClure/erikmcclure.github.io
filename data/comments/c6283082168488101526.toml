@@ -2,7 +2,7 @@ id = "6283082168488101526"
 date = 2013-02-10T20:38:35Z
 updated = 2013-02-10T20:38:35Z
 title = "I already try to release as much as possible. Usua..."
-content = "I already try to release as much as possible. Usually no one notices, although I have a large following on newgrounds for my misguided musical attempts."
+content = '''I already try to release as much as possible. Usually no one notices, although I have a large following on newgrounds for my misguided musical attempts.'''
 reply = 1382527802200254541
 [author]
 	name = "Erik McClure"

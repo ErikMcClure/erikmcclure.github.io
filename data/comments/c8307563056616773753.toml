@@ -2,7 +2,7 @@ id = "8307563056616773753"
 date = 2013-02-11T19:03:06Z
 updated = 2013-02-11T19:03:06Z
 title = "I do everything in C/C++. I know Python Java Javas..."
-content = "I do everything in C/C++. I know Python Java Javascript Ruby C# Lua Scheme C/C++ HLSL and Assembly. I still like C++ better than all of them. Just because everyone else hates C++ doesn&#39;t mean I do."
+content = '''I do everything in C/C++. I know Python Java Javascript Ruby C# Lua Scheme C/C++ HLSL and Assembly. I still like C++ better than all of them. Just because everyone else hates C++ doesn&#39;t mean I do.'''
 reply = 5969971667042132606
 [author]
 	name = "Erik McClure"

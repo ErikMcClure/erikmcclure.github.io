@@ -2,7 +2,7 @@ id = "8440339813181717894"
 date = 2011-11-11T16:14:14Z
 updated = 2011-11-11T16:14:14Z
 title = "You might enjoy my blogoldpoliticaljunkie.com I ..."
-content = "You might enjoy my blog<br />oldpoliticaljunkie.com <br />I am a retired mathematician and a veteran of the &quot;math wars&quot;"
+content = '''You might enjoy my blog<br />oldpoliticaljunkie.com <br />I am a retired mathematician and a veteran of the &quot;math wars&quot;'''
 [author]
 	name = "greg bachelis"
 	uri = "https://www.blogger.com/profile/08314121183246219312"

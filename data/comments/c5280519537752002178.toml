@@ -2,7 +2,7 @@ id = "5280519537752002178"
 date = 2011-11-09T03:24:35Z
 updated = 2011-11-09T03:24:35Z
 title = "I&#39;m reminded of the claim I&#39;ve seen a few ..."
-content = "I&#39;m reminded of the claim I&#39;ve seen a few times that although Sudoku is a number puzzle game it &quot;doesn&#39;t need you to do any maths&quot;. But of course it does! It&#39;s just that it&#39;s all set theory and logic, and no arithmetic.<br /><br />The thing is that that claim is generally offered as a positive aspect of Sudoku, which supports your idea that people who find arithmetic tedious can be perfectly happy with set theory."
+content = '''I&#39;m reminded of the claim I&#39;ve seen a few times that although Sudoku is a number puzzle game it &quot;doesn&#39;t need you to do any maths&quot;. But of course it does! It&#39;s just that it&#39;s all set theory and logic, and no arithmetic.<br /><br />The thing is that that claim is generally offered as a positive aspect of Sudoku, which supports your idea that people who find arithmetic tedious can be perfectly happy with set theory.'''
 [author]
 	name = "simont"
 	uri = "http://simont.livejournal.com/"

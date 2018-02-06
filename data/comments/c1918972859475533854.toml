@@ -2,7 +2,7 @@ id = "1918972859475533854"
 date = 2015-01-21T22:53:09Z
 updated = 2015-01-21T22:53:09Z
 title = "The common thread I find in almost all of these th..."
-content = "The common thread I find in almost all of these things is that there is no one way to do everything. Every situation has to be taken on a case-to-case basis and you will never be able to prescribe a single best way to solve a problem. This is why it is critical to have lots of different perspectives on a problem."
+content = '''The common thread I find in almost all of these things is that there is no one way to do everything. Every situation has to be taken on a case-to-case basis and you will never be able to prescribe a single best way to solve a problem. This is why it is critical to have lots of different perspectives on a problem.'''
 reply = 4567640033476427600
 [author]
 	name = "Erik McClure"

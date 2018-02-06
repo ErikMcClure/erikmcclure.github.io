@@ -2,7 +2,7 @@ id = "138517794451585826"
 date = 2015-05-09T23:21:36Z
 updated = 2015-05-09T23:21:36Z
 title = "Mission accomplished :P"
-content = "Mission accomplished :P"
+content = '''Mission accomplished :P'''
 reply = 1938605605834757472
 [author]
 	name = "Laton"

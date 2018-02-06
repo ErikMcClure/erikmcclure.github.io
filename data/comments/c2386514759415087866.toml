@@ -2,7 +2,7 @@ id = "2386514759415087866"
 date = 2012-02-06T08:41:26Z
 updated = 2012-02-06T08:41:26Z
 title = "Peter Denning wrote some great articles about the ..."
-content = "Peter Denning wrote some great articles about the &quot;profession of IT&quot;, you can find them here:<br />https://docs.google.com/open?id=0B47_wC01E6EQN2M3YTliNzQtMDUzMy00M2U2LWFiZDYtNmViOTdmNTdmYzNm<br /><br />He felt that IT professionals should be licensed like Doctors, Lawyers and Electrical Engineers.  He has some interesting thoughts on careers in IT overall.  I think that everyone in the profession should read this series of articles."
+content = '''Peter Denning wrote some great articles about the &quot;profession of IT&quot;, you can find them here:<br />https://docs.google.com/open?id=0B47_wC01E6EQN2M3YTliNzQtMDUzMy00M2U2LWFiZDYtNmViOTdmNTdmYzNm<br /><br />He felt that IT professionals should be licensed like Doctors, Lawyers and Electrical Engineers.  He has some interesting thoughts on careers in IT overall.  I think that everyone in the profession should read this series of articles.'''
 [author]
 	name = "Unknown"
 	uri = "https://www.blogger.com/profile/11246999186883904757"

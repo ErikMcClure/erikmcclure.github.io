@@ -2,7 +2,7 @@ id = "3340116895267339414"
 date = 2012-05-07T11:57:07Z
 updated = 2012-05-07T11:57:07Z
 title = "Continual change IS an integral part of the softwa..."
-content = "Continual change IS an integral part of the software field, be we can&#39;t know if this, itself, is what&#39;s making it impossible to standardize because the field is so immature."
+content = '''Continual change IS an integral part of the software field, be we can&#39;t know if this, itself, is what&#39;s making it impossible to standardize because the field is so immature.'''
 reply = 7372419905066142632
 [author]
 	name = "Erik McClure"

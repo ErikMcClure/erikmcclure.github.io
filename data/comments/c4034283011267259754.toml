@@ -2,7 +2,7 @@ id = "4034283011267259754"
 date = 2013-12-02T23:07:58Z
 updated = 2013-12-02T23:07:58Z
 title = "Now that you mention it, I do remember the documen..."
-content = "Now that you mention it, I do remember the documentation being very unclear about whether you could save off the attrib and uniform locations back when I was first implementing our WebGL engine (2.5 years ago), but I assumed things had improved since then! I guess not though... =)<br /><br />Batch rendering in WebGL is done via the ANGLE_instanced_arrays extension, which is not fully ratified yet so I haven&#39;t integrated it into our engine. I&#39;m not sure what the support for that extension is like right now with it being in community-approved status, so while it makes sense to use it, it may not be available to you on all computers."
+content = '''Now that you mention it, I do remember the documentation being very unclear about whether you could save off the attrib and uniform locations back when I was first implementing our WebGL engine (2.5 years ago), but I assumed things had improved since then! I guess not though... =)<br /><br />Batch rendering in WebGL is done via the ANGLE_instanced_arrays extension, which is not fully ratified yet so I haven&#39;t integrated it into our engine. I&#39;m not sure what the support for that extension is like right now with it being in community-approved status, so while it makes sense to use it, it may not be available to you on all computers.'''
 reply = 5198427124390091873
 [author]
 	name = "Conor Dickinson"

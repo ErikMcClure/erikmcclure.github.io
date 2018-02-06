@@ -2,7 +2,7 @@ id = "7945212519349040180"
 date = 2011-11-09T14:50:45Z
 updated = 2011-11-09T14:50:45Z
 title = "We can argue about whether or not this will work a..."
-content = "We can argue about whether or not this will work all day long and it won&#39;t mean anything until we try it and see what happens."
+content = '''We can argue about whether or not this will work all day long and it won&#39;t mean anything until we try it and see what happens.'''
 [author]
 	name = "Erik McClure"
 	uri = "https://www.blogger.com/profile/13838708587730716493"

@@ -2,7 +2,7 @@ id = "8673496274665161680"
 date = 2012-05-07T11:15:11Z
 updated = 2012-05-07T11:15:11Z
 title = "...I guess my point is that the changing state of ..."
-content = "...I guess my point is that the changing state of software engineering and lack of standards is less because software engineering is immature and more because continual change is an integral part of the software engineering field."
+content = '''...I guess my point is that the changing state of software engineering and lack of standards is less because software engineering is immature and more because continual change is an integral part of the software engineering field.'''
 reply = 7372419905066142632
 [author]
 	name = "Jon D"

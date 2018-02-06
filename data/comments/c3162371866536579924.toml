@@ -2,7 +2,7 @@ id = "3162371866536579924"
 date = 2011-11-25T03:05:33Z
 updated = 2011-11-25T03:05:33Z
 title = "Yeah, I always use &quot;unsigned&quot; despite th..."
-content = "Yeah, I always use &quot;unsigned&quot; despite the extra space.<br /><br />http://googleresearch.blogspot.com/2006/06/extra-extra-read-all-about-it-nearly.html"
+content = '''Yeah, I always use &quot;unsigned&quot; despite the extra space.<br /><br />http://googleresearch.blogspot.com/2006/06/extra-extra-read-all-about-it-nearly.html'''
 [author]
 	name = "mgsloan"
 	uri = "https://www.blogger.com/profile/07658332964455477237"

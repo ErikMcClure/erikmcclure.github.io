@@ -2,7 +2,7 @@ id = "8821838394134736282"
 date = 2013-11-17T16:25:04Z
 updated = 2013-11-17T16:25:04Z
 title = "I think it&#39;s inevitable. All companies get too..."
-content = "I think it&#39;s inevitable. All companies get too big and they turn into Google or Facebook or Apple or they hold true to their values until they sell out and get bought by one of the larger companies or have to shutdown by the government because they won&#39;t give up their values. Either way it makes it impossible for any company to continue to succeed but to hold true to their original values of doing no evil. It&#39;s going to get a lot worse before it gets better, and we&#39;ll probably all be dead before that happens."
+content = '''I think it&#39;s inevitable. All companies get too big and they turn into Google or Facebook or Apple or they hold true to their values until they sell out and get bought by one of the larger companies or have to shutdown by the government because they won&#39;t give up their values. Either way it makes it impossible for any company to continue to succeed but to hold true to their original values of doing no evil. It&#39;s going to get a lot worse before it gets better, and we&#39;ll probably all be dead before that happens.'''
 [author]
 	name = "heavymark"
 	uri = "https://www.blogger.com/profile/11438617925220242981"

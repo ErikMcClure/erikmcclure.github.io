@@ -2,7 +2,7 @@ id = "8591867749242728655"
 date = 2011-12-13T10:51:04Z
 updated = 2011-12-13T10:51:04Z
 title = "Made some great progress! Thanks for the encourage..."
-content = "Made some great progress! Thanks for the encouragement.... send you a message."
+content = '''Made some great progress! Thanks for the encouragement.... send you a message.'''
 [author]
 	name = "Jhott"
 	uri = "https://www.blogger.com/profile/04348743696627086264"

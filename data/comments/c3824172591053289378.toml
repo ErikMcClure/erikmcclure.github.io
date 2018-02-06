@@ -2,7 +2,7 @@ id = "3824172591053289378"
 date = 2013-02-10T21:48:34Z
 updated = 2013-02-10T21:48:34Z
 title = "I feel similar sometimes...thanks for sharing your..."
-content = "I feel similar sometimes...thanks for sharing your story<br />Here&#39;s a favorite song of mine<br />http://www.youtube.com/watch?v=5LHA5YCWEAs<br />&quot;there&#39;s no map to guide our way...it just takes time&quot;"
+content = '''I feel similar sometimes...thanks for sharing your story<br />Here&#39;s a favorite song of mine<br />http://www.youtube.com/watch?v=5LHA5YCWEAs<br />&quot;there&#39;s no map to guide our way...it just takes time&quot;'''
 [author]
 	name = "Unknown"
 	uri = "https://www.blogger.com/profile/15565119781890101570"

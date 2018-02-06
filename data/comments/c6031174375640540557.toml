@@ -2,7 +2,7 @@ id = "6031174375640540557"
 date = 2017-07-06T14:12:52Z
 updated = 2017-07-06T14:12:52Z
 title = "If there is, I want it to happen. Living forever a..."
-content = "If there is, I want it to happen. Living forever as a pony in the best life possible, watched over by a mostly-benevolent sun goddess AI who wants nothing more than for your values to be satisfied? I&#39;m down."
+content = '''If there is, I want it to happen. Living forever as a pony in the best life possible, watched over by a mostly-benevolent sun goddess AI who wants nothing more than for your values to be satisfied? I&#39;m down.'''
 reply = 1028434376741534344
 [author]
 	name = "Korben B"

@@ -2,7 +2,7 @@ id = "3297418448319511209"
 date = 2012-09-19T16:08:43Z
 updated = 2012-09-19T16:09:09Z
 title = ""
-content = "This comment has been removed by the author."
+content = '''This comment has been removed by the author.'''
 reply = 3578656417029319459
 [author]
 	name = "bsidhipong"

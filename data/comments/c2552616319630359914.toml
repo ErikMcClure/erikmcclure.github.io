@@ -2,7 +2,7 @@ id = "2552616319630359914"
 date = 2013-02-11T00:11:32Z
 updated = 2013-02-11T00:11:32Z
 title = "Actually you have a ton of tweets, more than a lot..."
-content = "Actually you have a ton of tweets, more than a lot of high-profile hackers I follow. Anyway, I look forward to checking out your demos, possibly with your own music as a soundtrack. Cheers."
+content = '''Actually you have a ton of tweets, more than a lot of high-profile hackers I follow. Anyway, I look forward to checking out your demos, possibly with your own music as a soundtrack. Cheers.'''
 reply = 5512906435975709125
 [author]
 	name = "Ivan M"

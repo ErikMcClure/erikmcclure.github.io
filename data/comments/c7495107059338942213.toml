@@ -2,7 +2,7 @@ id = "7495107059338942213"
 date = 2012-09-28T07:45:11Z
 updated = 2012-09-28T07:45:11Z
 title = "Yes, that is simply another approximation. I never..."
-content = "Yes, that is simply another approximation. I never implied Pixar used that kind of raytracing, or raycasting, whatever you want to call it."
+content = '''Yes, that is simply another approximation. I never implied Pixar used that kind of raytracing, or raycasting, whatever you want to call it.'''
 reply = 4416375733763293959
 [author]
 	name = "Erik McClure"

@@ -2,7 +2,7 @@ id = "3420926682952019918"
 date = 2013-07-15T02:36:45Z
 updated = 2013-07-15T02:36:45Z
 title = "I&#39;ve been working on ideas for teaching abstra..."
-content = "I&#39;ve been working on ideas for teaching abstract math concepts to very young children that introduces them to concepts in such a way that it builds a much better framework for things like algebra and calculus. I may detail them in a later blog post."
+content = '''I&#39;ve been working on ideas for teaching abstract math concepts to very young children that introduces them to concepts in such a way that it builds a much better framework for things like algebra and calculus. I may detail them in a later blog post.'''
 reply = 1938315260331452353
 [author]
 	name = "Erik McClure"

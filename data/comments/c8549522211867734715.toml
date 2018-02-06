@@ -2,7 +2,7 @@ id = "8549522211867734715"
 date = 2013-12-08T08:08:34Z
 updated = 2013-12-08T08:08:34Z
 title = "At the core, though...look at what Google&#39;s bu..."
-content = "At the core, though...look at what Google&#39;s business model has always been--about as low an ideal is possible--selling advertising.  Search, etc is all in support of pushing advertising. "
+content = '''At the core, though...look at what Google&#39;s business model has always been--about as low an ideal is possible--selling advertising.  Search, etc is all in support of pushing advertising. '''
 reply = 8062570760200542085
 [author]
 	name = "Robert Hall"

@@ -2,7 +2,7 @@ id = "2720253401106571770"
 date = 2016-11-25T19:33:04Z
 updated = 2016-11-25T19:33:04Z
 title = "My statistics class did not give that definition, ..."
-content = "My statistics class did not give that definition, it was provided as a function in all cases, consistently, despite being a discrete value. Perhaps I had a terrible statistics teacher?"
+content = '''My statistics class did not give that definition, it was provided as a function in all cases, consistently, despite being a discrete value. Perhaps I had a terrible statistics teacher?'''
 reply = 3444879637492430789
 [author]
 	name = "Erik McClure"

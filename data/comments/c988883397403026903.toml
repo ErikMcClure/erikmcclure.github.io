@@ -2,7 +2,7 @@ id = "988883397403026903"
 date = 2013-01-19T18:09:57Z
 updated = 2013-01-19T18:09:57Z
 title = "It seems like we are already going down that road...."
-content = "It seems like we are already going down that road. Currently JSON over HTTP is being used widely as an API for transferring data between applications as well as to initiate user requests. <br /><br />One question I think we should take time to consider: &quot;What is it that we want to be able to do?&quot;<br /><br />"
+content = '''It seems like we are already going down that road. Currently JSON over HTTP is being used widely as an API for transferring data between applications as well as to initiate user requests. <br /><br />One question I think we should take time to consider: &quot;What is it that we want to be able to do?&quot;<br /><br />'''
 reply = 4697838093479141733
 [author]
 	name = "Blake La Pierre"

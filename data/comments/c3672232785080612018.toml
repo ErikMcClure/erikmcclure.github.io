@@ -2,7 +2,7 @@ id = "3672232785080612018"
 date = 2012-02-29T00:31:46Z
 updated = 2012-02-29T00:31:46Z
 title = "Seeing as a lot of people are arguing that you sho..."
-content = "Seeing as a lot of people are arguing that you should get rid of the entire toolbar, I&#39;m pretty sure the screen real estate taken up by the ribbon is pretty much unacceptable, since said other interface elements shouldn&#39;t be in the IDE anyway."
+content = '''Seeing as a lot of people are arguing that you should get rid of the entire toolbar, I&#39;m pretty sure the screen real estate taken up by the ribbon is pretty much unacceptable, since said other interface elements shouldn&#39;t be in the IDE anyway.'''
 reply = 3641431318452499209
 [author]
 	name = "Erik McClure"

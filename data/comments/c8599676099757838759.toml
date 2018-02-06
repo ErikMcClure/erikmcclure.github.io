@@ -2,7 +2,7 @@ id = "8599676099757838759"
 date = 2012-09-19T11:00:09Z
 updated = 2012-09-19T11:00:09Z
 title = "The best version I&#39;ve seen allows you to <a hr..."
-content = "The best version I&#39;ve seen allows you to <a href="http://xkcd-map.rent-a-geek.de/" rel="nofollow">zoom in and out</a>. A more efficient waste of time!"
+content = '''The best version I&#39;ve seen allows you to <a href="http://xkcd-map.rent-a-geek.de/" rel="nofollow">zoom in and out</a>. A more efficient waste of time!'''
 [author]
 	name = "Todd"
 	uri = "https://www.blogger.com/profile/09776880728053758542"

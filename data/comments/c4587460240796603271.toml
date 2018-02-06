@@ -2,7 +2,7 @@ id = "4587460240796603271"
 date = 2012-02-07T11:36:38Z
 updated = 2012-02-07T11:36:38Z
 title = "I think you could basically say the opposite thing..."
-content = "I think you could basically say the opposite thing and make an equally compelling argument. Back when I started programming, most programmers really were doing the same things as everyone else, because we were limited in what we could do. You either programmed in assembly language, or you suffered with BASIC, or you spent a lot of money on a Mini or Mainframe so you could do Fortran - wooo hooo! Back then, we were making programs out of raw(er) materials, and today we are making applications by putting together pre-packaged widgets. So, you could make the point that today, almost nobody is a programmer - we are assemblers of parts. We used to be farmers, now we are chefs."
+content = '''I think you could basically say the opposite thing and make an equally compelling argument. Back when I started programming, most programmers really were doing the same things as everyone else, because we were limited in what we could do. You either programmed in assembly language, or you suffered with BASIC, or you spent a lot of money on a Mini or Mainframe so you could do Fortran - wooo hooo! Back then, we were making programs out of raw(er) materials, and today we are making applications by putting together pre-packaged widgets. So, you could make the point that today, almost nobody is a programmer - we are assemblers of parts. We used to be farmers, now we are chefs.'''
 [author]
 	name = "Jasmine"
 	uri = "https://www.blogger.com/profile/09618734526176282409"

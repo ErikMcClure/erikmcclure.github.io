@@ -2,7 +2,7 @@ id = "1677002934142461327"
 date = 2012-09-28T07:10:10Z
 updated = 2012-09-28T07:10:10Z
 title = "Olivier is correct. Please check wikipedia: http:/..."
-content = "Olivier is correct. Please check wikipedia: http://en.wikipedia.org/wiki/Ray_tracing_%28graphics%29<br /><br />Early raytracers were in fact ray*casters*, i. e. they stopped the trace when hitting an object, and used that info just to calculate shading, assuming no obstructions of light sources (that is, no shadows). You could call that an approximation, but it is not not the kind of ray tracing Pixar does or ever did.<br /><br />Check http://en.wikipedia.org/wiki/Ray_casting"
+content = '''Olivier is correct. Please check wikipedia: http://en.wikipedia.org/wiki/Ray_tracing_%28graphics%29<br /><br />Early raytracers were in fact ray*casters*, i. e. they stopped the trace when hitting an object, and used that info just to calculate shading, assuming no obstructions of light sources (that is, no shadows). You could call that an approximation, but it is not not the kind of ray tracing Pixar does or ever did.<br /><br />Check http://en.wikipedia.org/wiki/Ray_casting'''
 reply = 4416375733763293959
 [author]
 	name = "Stefan Lang"

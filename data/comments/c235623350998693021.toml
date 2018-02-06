@@ -2,7 +2,7 @@ id = "235623350998693021"
 date = 2012-02-09T01:29:15Z
 updated = 2012-02-09T01:29:15Z
 title = "What it boils down to is &quot;horses for courses&..."
-content = "What it boils down to is &quot;horses for courses&quot;. We all have to deliver what the client wants so we choose the most appropriate language(s) and methodology and just get on with it."
+content = '''What it boils down to is &quot;horses for courses&quot;. We all have to deliver what the client wants so we choose the most appropriate language(s) and methodology and just get on with it.'''
 [author]
 	name = "Roger"
 	uri = "https://www.blogger.com/profile/01240917045833027519"

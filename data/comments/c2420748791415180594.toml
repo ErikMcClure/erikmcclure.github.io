@@ -2,7 +2,7 @@ id = "2420748791415180594"
 date = 2016-07-31T06:07:22Z
 updated = 2016-07-31T06:07:22Z
 title = "Mathemeticians should give up on algebraic notatio..."
-content = "Mathemeticians should give up on algebraic notation as a mess; instead go with prefix s-expressions the way our new AI overlords will eventually (sensibly) insist upon. :-) I do wonder if we are making a mistake as fundamental as the Roman-conditioned Europe ignoring Arabic numerals."
+content = '''Mathemeticians should give up on algebraic notation as a mess; instead go with prefix s-expressions the way our new AI overlords will eventually (sensibly) insist upon. :-) I do wonder if we are making a mistake as fundamental as the Roman-conditioned Europe ignoring Arabic numerals.'''
 [author]
 	name = "John Connors"
 	uri = "https://www.blogger.com/profile/01102954516659291106"

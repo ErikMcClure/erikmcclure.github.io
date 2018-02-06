@@ -2,7 +2,7 @@ id = "7010915116411068482"
 date = 2013-07-15T05:14:47Z
 updated = 2013-07-15T05:14:47Z
 title = "My parents wanted me to get a degree so I would ha..."
-content = "My parents wanted me to get a degree so I would have something to fall back on, and were willing to pay my tuition."
+content = '''My parents wanted me to get a degree so I would have something to fall back on, and were willing to pay my tuition.'''
 reply = 6437429981678421425
 [author]
 	name = "Erik McClure"

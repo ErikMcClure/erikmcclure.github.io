@@ -2,7 +2,7 @@ id = "7816020321745579628"
 date = 2013-02-10T23:54:04Z
 updated = 2013-02-10T23:54:04Z
 title = "I am much more productive than you seem to think, ..."
-content = "I am much more productive than you seem to think, trust me, but the problem with videos is that there is nothing to show yet. Nothing meaningful, anyway, which is my problem and one I&#39;ve been trying to address but have so far failed to do so."
+content = '''I am much more productive than you seem to think, trust me, but the problem with videos is that there is nothing to show yet. Nothing meaningful, anyway, which is my problem and one I&#39;ve been trying to address but have so far failed to do so.'''
 reply = 5512906435975709125
 [author]
 	name = "Erik McClure"

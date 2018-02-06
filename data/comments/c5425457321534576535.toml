@@ -2,7 +2,7 @@ id = "5425457321534576535"
 date = 2013-02-11T07:56:40Z
 updated = 2013-02-11T07:56:40Z
 title = "That&#39;s part of the point of using Phong shadin..."
-content = "That&#39;s part of the point of using Phong shading: http://en.wikipedia.org/wiki/Phong_shading"
+content = '''That&#39;s part of the point of using Phong shading: http://en.wikipedia.org/wiki/Phong_shading'''
 reply = 8385004382040472649
 [author]
 	name = "Erik McClure"

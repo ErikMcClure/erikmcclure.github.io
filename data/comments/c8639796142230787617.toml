@@ -2,7 +2,7 @@ id = "8639796142230787617"
 date = 2012-05-21T16:45:20Z
 updated = 2012-05-21T16:45:20Z
 title = "I apologize in advance for not finishing the serie..."
-content = "I apologize in advance for not finishing the series &lt;_&lt;"
+content = '''I apologize in advance for not finishing the series &lt;_&lt;'''
 reply = 1835446767215486925
 [author]
 	name = "Erik McClure"

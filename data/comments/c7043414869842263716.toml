@@ -2,7 +2,7 @@ id = "7043414869842263716"
 date = 2013-02-12T20:09:41Z
 updated = 2013-02-12T20:09:41Z
 title = "I understand that, but isn&#39;t the problem that ..."
-content = "I understand that, but isn&#39;t the problem that having to invest time in working to pay your rent will detract from your other goals, what you&#39;re currently wanting to work on?"
+content = '''I understand that, but isn&#39;t the problem that having to invest time in working to pay your rent will detract from your other goals, what you&#39;re currently wanting to work on?'''
 reply = 5581243871916199913
 [author]
 	name = "Luke A"

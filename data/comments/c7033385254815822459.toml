@@ -2,7 +2,7 @@ id = "7033385254815822459"
 date = 2017-07-02T01:24:10Z
 updated = 2017-07-02T01:24:10Z
 title = "Thanks for your informative articel .its very usef..."
-content = " Thanks for your informative articel .its very useful<br /><a href="http://www.credosystemz.com/training-in-chennai/best-dotnet-training-in-chennai/" rel="nofollow">dot net training in velachery </a> | <a href="http://www.credosystemz.com/training-in-chennai/best-dotnet-training-in-chennai/" rel="nofollow"> dot net training  in chennai  </a>"
+content = ''' Thanks for your informative articel .its very useful<br /><a href="http://www.credosystemz.com/training-in-chennai/best-dotnet-training-in-chennai/" rel="nofollow">dot net training in velachery </a> | <a href="http://www.credosystemz.com/training-in-chennai/best-dotnet-training-in-chennai/" rel="nofollow"> dot net training  in chennai  </a>'''
 [author]
 	name = "Mithun Mithun"
 	uri = "https://www.blogger.com/profile/05835943090042751187"

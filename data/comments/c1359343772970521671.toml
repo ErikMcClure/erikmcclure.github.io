@@ -2,7 +2,7 @@ id = "1359343772970521671"
 date = 2012-09-28T05:42:49Z
 updated = 2012-09-28T05:42:49Z
 title = "Great article!  Your point about physics reminded ..."
-content = "Great article!  Your point about physics reminded me of what might eventually be recognized as another limitation in current rendering technology: the physics of photons themselves, such as interference patterns.  Modeling the optical behaviors of, say a several-micron-thick oil sheen on a puddle isn&#39;t just about statistical reflecting properties of surfaces, it&#39;s also about the colors produced when the photons reflected from the surface itself interfere positively and negatively with those reflected from the oil/water interface producing vivid color.  And I think this is not just a &quot;photo-realism&quot; nit, but a whole different aspect of the physics of light that might become important with simulations and machine sensing."
+content = '''Great article!  Your point about physics reminded me of what might eventually be recognized as another limitation in current rendering technology: the physics of photons themselves, such as interference patterns.  Modeling the optical behaviors of, say a several-micron-thick oil sheen on a puddle isn&#39;t just about statistical reflecting properties of surfaces, it&#39;s also about the colors produced when the photons reflected from the surface itself interfere positively and negatively with those reflected from the oil/water interface producing vivid color.  And I think this is not just a &quot;photo-realism&quot; nit, but a whole different aspect of the physics of light that might become important with simulations and machine sensing.'''
 [author]
 	name = "Alan Witmer"
 	uri = "https://www.blogger.com/profile/16402481672198779151"

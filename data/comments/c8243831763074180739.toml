@@ -2,7 +2,7 @@ id = "8243831763074180739"
 date = 2013-01-18T20:33:12Z
 updated = 2013-01-18T20:33:12Z
 title = "As I outlined in the post, designers need to stop ..."
-content = "As I outlined in the post, designers need to stop being obsessed with squeezing every ounce of productivity out of all their tools, and instead focus on designing higher level concepts that increase your productivity by giving you more power instead of simply performing tasks faster."
+content = '''As I outlined in the post, designers need to stop being obsessed with squeezing every ounce of productivity out of all their tools, and instead focus on designing higher level concepts that increase your productivity by giving you more power instead of simply performing tasks faster.'''
 reply = 4697838093479141733
 [author]
 	name = "Erik McClure"

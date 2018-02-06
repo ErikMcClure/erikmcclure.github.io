@@ -2,7 +2,7 @@ id = "3061050851717728287"
 date = 2013-01-19T17:58:34Z
 updated = 2013-01-19T17:58:34Z
 title = "I can&#39;t give you generalized UI for everything..."
-content = "I can&#39;t give you generalized UI for everything, but I have been designing higher level concepts for game design and artistic work, which is what I specialize in. I CAN say that in the future, applications will need to talk to each other using an agreed upon universal API or we won&#39;t be able to get anything done."
+content = '''I can&#39;t give you generalized UI for everything, but I have been designing higher level concepts for game design and artistic work, which is what I specialize in. I CAN say that in the future, applications will need to talk to each other using an agreed upon universal API or we won&#39;t be able to get anything done.'''
 reply = 4697838093479141733
 [author]
 	name = "Erik McClure"

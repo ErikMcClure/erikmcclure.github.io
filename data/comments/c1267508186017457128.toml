@@ -2,7 +2,7 @@ id = "1267508186017457128"
 date = 2011-09-07T16:08:23Z
 updated = 2011-09-07T16:08:23Z
 title = "So then I am seriously underestimating just how fa..."
-content = "So then I am seriously underestimating just how fast the branch prediction is, and that the branching code is actually faster due to an unfavorable set of dependencies required to eliminate the branching taking longer than the branch prediction itself. It is amusing that I immediately disregarded that idea, but I don&#39;t claim to be an expert on the intricacies of x86 assembly."
+content = '''So then I am seriously underestimating just how fast the branch prediction is, and that the branching code is actually faster due to an unfavorable set of dependencies required to eliminate the branching taking longer than the branch prediction itself. It is amusing that I immediately disregarded that idea, but I don&#39;t claim to be an expert on the intricacies of x86 assembly.'''
 [author]
 	name = "Erik McClure"
 	uri = "https://www.blogger.com/profile/13838708587730716493"

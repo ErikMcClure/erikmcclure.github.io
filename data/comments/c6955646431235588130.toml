@@ -2,7 +2,7 @@ id = "6955646431235588130"
 date = 2013-02-12T20:17:25Z
 updated = 2013-02-12T20:17:25Z
 title = "Yes. But what i&#39;m concerned about is the fact ..."
-content = "Yes. But what i&#39;m concerned about is the fact that after all this time I&#39;ve invested I still haven&#39;t come out with something that can pay my rent. I am frustrated with unsatisfactory progress towards my goals and don&#39;t want to leech off my parents or anyone else, because it usually means i&#39;m doing something fundamentally wrong."
+content = '''Yes. But what i&#39;m concerned about is the fact that after all this time I&#39;ve invested I still haven&#39;t come out with something that can pay my rent. I am frustrated with unsatisfactory progress towards my goals and don&#39;t want to leech off my parents or anyone else, because it usually means i&#39;m doing something fundamentally wrong.'''
 reply = 5581243871916199913
 [author]
 	name = "Erik McClure"

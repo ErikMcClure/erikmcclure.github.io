@@ -2,7 +2,7 @@ id = "3047749507202598480"
 date = 2013-03-29T08:55:34Z
 updated = 2013-03-29T08:55:34Z
 title = "I strongly disagree! I&#39;m a high school freshma..."
-content = "I strongly disagree! I&#39;m a high school freshman and the reason I abhor math is because of the constant problems and practice sheets teachers assign. I have never feared the subject but I don&#39;t want to do it. I don&#39;t want to sit and do 30 freaking problems on something I probably will never use unless I become a scientist or mathematician. They need to come out and show us why it matters how much distance Tom covered when he walked to and from the store."
+content = '''I strongly disagree! I&#39;m a high school freshman and the reason I abhor math is because of the constant problems and practice sheets teachers assign. I have never feared the subject but I don&#39;t want to do it. I don&#39;t want to sit and do 30 freaking problems on something I probably will never use unless I become a scientist or mathematician. They need to come out and show us why it matters how much distance Tom covered when he walked to and from the store.'''
 reply = 8822023530261428376
 [author]
 	name = "Not so Wise Girl [Erin ;)]"

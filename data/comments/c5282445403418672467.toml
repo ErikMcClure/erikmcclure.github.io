@@ -2,7 +2,7 @@ id = "5282445403418672467"
 date = 2012-02-13T23:24:10Z
 updated = 2012-02-13T23:24:10Z
 title = "I guess that even when any disciplinary definition..."
-content = "I guess that even when any disciplinary definition is arbitrary, most of the existing fields of knowledge-practise can make the same claim you make just to feel special... physics has many -almost independent- domains; medicin, and so on. HTML, AJAX or C++, you usually saying a computer what to do. It&#39;s the same kind of generality for a physic, a medical doctor, etc."
+content = '''I guess that even when any disciplinary definition is arbitrary, most of the existing fields of knowledge-practise can make the same claim you make just to feel special... physics has many -almost independent- domains; medicin, and so on. HTML, AJAX or C++, you usually saying a computer what to do. It&#39;s the same kind of generality for a physic, a medical doctor, etc.'''
 [author]
 	name = "PabloDG"
 	uri = "https://www.blogger.com/profile/08972079454991707673"

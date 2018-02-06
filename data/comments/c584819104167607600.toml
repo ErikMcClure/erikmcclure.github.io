@@ -2,7 +2,7 @@ id = "584819104167607600"
 date = 2012-02-19T22:53:39Z
 updated = 2012-02-19T22:53:39Z
 title = "Good Morning.IMHO, you should use Ubuntu instead..."
-content = "Good Morning.<br /><br />IMHO, you should use Ubuntu instead of Mint. It&#39;s more polished and has a much larger user community, thus you&#39;re likely to find someone who&#39;s run up against the same problem and posted it on the Ubuntu community forums.<br /><br />Additionally, in Linux, it&#39;s better to use the traditional tools (e.g.: Emacs) and it&#39;s actually far more productive to read the manual (or a good tutorial) _before_ one starts using the software. This guarantees a much smoother experience."
+content = '''Good Morning.<br /><br />IMHO, you should use Ubuntu instead of Mint. It&#39;s more polished and has a much larger user community, thus you&#39;re likely to find someone who&#39;s run up against the same problem and posted it on the Ubuntu community forums.<br /><br />Additionally, in Linux, it&#39;s better to use the traditional tools (e.g.: Emacs) and it&#39;s actually far more productive to read the manual (or a good tutorial) _before_ one starts using the software. This guarantees a much smoother experience.'''
 [author]
 	name = "ahnaqsh"
 	uri = "https://www.blogger.com/profile/17977774212885609643"

@@ -2,7 +2,7 @@ id = "2804579119682011905"
 date = 2012-09-27T10:33:45Z
 updated = 2012-09-27T10:33:45Z
 title = "It only produces photorealistic results if you hav..."
-content = "It only produces photorealistic results if you have photorealistic materials and your approximation isn&#39;t too approximate."
+content = '''It only produces photorealistic results if you have photorealistic materials and your approximation isn&#39;t too approximate.'''
 reply = 3501579533292216857
 [author]
 	name = "Erik McClure"

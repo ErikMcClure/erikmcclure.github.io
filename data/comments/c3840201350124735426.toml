@@ -2,7 +2,7 @@ id = "3840201350124735426"
 date = 2011-11-25T12:48:51Z
 updated = 2011-11-25T12:48:51Z
 title = "I like a lot of what Google does, but not that. If..."
-content = "I like a lot of what Google does, but not that. If you try to use an unsigned type and do not understand the implications of overflowing, you won&#39;t understand the OPPOSITE problem of abs(INT_MIN) returning a negative number either, and so you have simply traded one problem for another. If you are going to insist on using signed integers, you have no excuse for introducing a stupid security hole in your application. Enforcing the use of signed integers succeeds only in replacing more obvious bugs with even more subtle but equally as deadly bugs. I am dead set against this retarded mentality of using signed integers everywhere, especially when they simply replace one kind of bug with another kind of bug."
+content = '''I like a lot of what Google does, but not that. If you try to use an unsigned type and do not understand the implications of overflowing, you won&#39;t understand the OPPOSITE problem of abs(INT_MIN) returning a negative number either, and so you have simply traded one problem for another. If you are going to insist on using signed integers, you have no excuse for introducing a stupid security hole in your application. Enforcing the use of signed integers succeeds only in replacing more obvious bugs with even more subtle but equally as deadly bugs. I am dead set against this retarded mentality of using signed integers everywhere, especially when they simply replace one kind of bug with another kind of bug.'''
 [author]
 	name = "Erik McClure"
 	uri = "https://www.blogger.com/profile/13838708587730716493"

@@ -2,7 +2,7 @@ id = "5223449273748836327"
 date = 2012-02-06T02:47:34Z
 updated = 2012-02-06T02:47:34Z
 title = "Very well written. I especially like your comparis..."
-content = "Very well written. I especially like your comparisons with other fields."
+content = '''Very well written. I especially like your comparisons with other fields.'''
 [author]
 	name = "Jason"
 	uri = "https://www.blogger.com/profile/11109284081077590259"

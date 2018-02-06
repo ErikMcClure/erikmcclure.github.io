@@ -2,7 +2,7 @@ id = "4697838093479141733"
 date = 2013-01-18T20:24:24Z
 updated = 2013-01-18T20:24:24Z
 title = "Have you thought of any possible solutions to this..."
-content = "Have you thought of any possible solutions to this problem?"
+content = '''Have you thought of any possible solutions to this problem?'''
 [author]
 	name = "Blake La Pierre"
 	uri = "https://www.blogger.com/profile/04130247637850389230"

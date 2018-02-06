@@ -2,7 +2,7 @@ id = "555327925223435485"
 date = 2011-09-07T16:10:04Z
 updated = 2011-09-07T16:10:04Z
 title = "I am far overdue for my third chapter here..."
-content = "I am far overdue for my third chapter here..."
+content = '''I am far overdue for my third chapter here...'''
 [author]
 	name = "Erik McClure"
 	uri = "https://www.blogger.com/profile/13838708587730716493"

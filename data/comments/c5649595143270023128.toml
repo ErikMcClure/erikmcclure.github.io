@@ -2,7 +2,7 @@ id = "5649595143270023128"
 date = 2017-06-24T09:41:57Z
 updated = 2017-06-24T09:41:57Z
 title = "I have Discord Nitro, but that doesn&#39;t affect ..."
-content = "I have Discord Nitro, but that doesn&#39;t affect the server. There is no paid server model."
+content = '''I have Discord Nitro, but that doesn&#39;t affect the server. There is no paid server model.'''
 reply = 2542080324277835042
 [author]
 	name = "Erik McClure"

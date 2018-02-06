@@ -2,7 +2,7 @@ id = "4862435661967305292"
 date = 2012-09-19T09:55:33Z
 updated = 2012-09-19T09:55:33Z
 title = "I made a fullscreen version similar to the HTML fi..."
-content = "I made a fullscreen version similar to the HTML file you created. <a href="http://dev.hejnoah.com/xkcdfullscreenmap/" rel="nofollow">Take a look.</a>"
+content = '''I made a fullscreen version similar to the HTML file you created. <a href="http://dev.hejnoah.com/xkcdfullscreenmap/" rel="nofollow">Take a look.</a>'''
 [author]
 	name = "Noah Doersing"
 	uri = "https://www.blogger.com/profile/07556512750939121641"

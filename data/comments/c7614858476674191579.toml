@@ -2,7 +2,7 @@ id = "7614858476674191579"
 date = 2013-02-12T21:02:38Z
 updated = 2013-02-12T21:02:38Z
 title = "But that&#39;s exactly my point. I&#39;m saying it..."
-content = "But that&#39;s exactly my point. I&#39;m saying its taking too damn long."
+content = '''But that&#39;s exactly my point. I&#39;m saying its taking too damn long.'''
 reply = 5581243871916199913
 [author]
 	name = "Erik McClure"
