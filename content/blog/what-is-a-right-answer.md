@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2012-08-22T18:40:00Z"
 title = "What Is A Right Answer?"
 updated = "2012-08-22T18:40:19.000+00:00"
+comments = [ 3147044171597563222, 5484818375220808234, 4505768231957787737, 8136782991325509920 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

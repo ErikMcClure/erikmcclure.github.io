@@ -1,0 +1,12 @@
+id = "845834464275820721"
+date = 2011-09-06T06:13:08Z
+updated = 2011-09-06T06:13:08Z
+title = "The LEA here is essentially a nop, either left by ..."
+content = "The LEA here is essentially a nop, either left by a mediocre optimizer or added in an attempt to improve performance by aligning code.<br /><br />The real problem IMO is the introduction of dependencies between instructions :<br />inc -&gt; sar -&gt; mov<br /><br />The second dependency is the worst one : a so-called Address Generation Interlock which causes pipeline stall that no amount of clever hardware bypass can really mitigate (the inc -&gt; sar dependency will cause a small slowdown but not a complete pipeline stall).<br /><br />Other details worth noting :<br /> * most optimizers tend to favor add 1 over inc these days as the partial flag update cause slowdowns on some cpus<br /> * shift are not always as fast as you would expect. The P4 for instance lacks a high-speed barrel-shifter"
+[author]
+	name = "Hugues Bruant"
+	uri = "https://www.blogger.com/profile/13539048398463049743"
+[author.image]
+	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+	width = "35"
+	height = "35"

@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2012-04-10T17:48:00Z"
 title = "Language Wars Are Pointless"
 updated = "2015-08-29T03:19:07.000+00:00"
+comments = [ 8089392728415387586, 839901227346281014 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

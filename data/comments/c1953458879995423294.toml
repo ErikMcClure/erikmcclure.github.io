@@ -1,0 +1,12 @@
+id = "1953458879995423294"
+date = 2011-06-03T20:56:14Z
+updated = 2011-06-03T20:56:14Z
+title = "I think you&#39;re confused.  You say that a compa..."
+content = "I think you&#39;re confused.  You say that a company has zero motivation to improve GPL software because they can&#39;t benefit, but that is simply not true.  Many companies can *and do* benefit from such improvements, at the very least by using those improvements themselves and almost always in other ways.  In your &quot;ideal&quot; non-GPL universe you claim that people would be required to release their improvements back to the community.  Required how?  The lack of such a requirement is *exactly* what differentiates the licenses you prefer from GPL.  If you add such a requirement, you&#39;ve invented an ad-hoc, bug-ridden, inferior version of GPL.  Good job.  If you don&#39;t, then people can *and will* take your code, improve it, and *not* contribute back.  Good job again.<br /><br />I don&#39;t think everyone should use GPL.  In some ways I dislike it.  However, blaming it alone for license Balkanization is *absurd*.  If you want to preclude people from using your non-GPL code in a GPL project, because you&#39;re afraid that you won&#39;t get changes back, then &quot;anyone for any purpose&quot; and &quot;share with anyone&quot; ring more than a little hollow.  Your preference for a license that&#39;s morally equivalent to GPL but incompatible with the actual GPL will only increase license fragmentation, not resolve it."
+[author]
+	name = "Platypus"
+	uri = "https://www.blogger.com/profile/12600972328387892940"
+[author.image]
+	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+	width = "35"
+	height = "35"

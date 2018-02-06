@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2015-08-05T01:55:00Z"
 title = "Abortion Has No Moral High Ground"
 updated = "2015-08-05T02:52:35.000+00:00"
+comments = [ 652224280818393073, 8150264903464630152, 961484047273369053, 4111500231890228603 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

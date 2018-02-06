@@ -1,0 +1,13 @@
+id = "4094067807939958102"
+date = 2017-06-24T13:51:26Z
+updated = 2017-06-24T13:51:26Z
+title = "It turns out this option doesn&#39;t work at all, ..."
+content = "It turns out this option doesn&#39;t work at all, because you&#39;d have to manually add each individual bot to the server, since rate-limits are done per-token."
+reply = 7194633335323624107
+[author]
+	name = "Erik McClure"
+	uri = "https://www.blogger.com/profile/13838708587730716493"
+[author.image]
+	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAdo/4sbjcZsncwU/s32-c/photo.jpg"
+	width = "32"
+	height = "32"

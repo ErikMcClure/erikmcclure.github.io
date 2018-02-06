@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2011-04-10T17:06:00Z"
 title = "Investigating Low-level CPU Performance"
 updated = "2011-04-10T17:18:39.000+00:00"
+comments = [ 845834464275820721, 4602207182752990567, 4044932015689581430, 1267508186017457128 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

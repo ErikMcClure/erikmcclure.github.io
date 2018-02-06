@@ -1,0 +1,13 @@
+id = "2772447385637243743"
+date = 2012-03-15T10:52:49Z
+updated = 2012-03-15T10:52:49Z
+title = "That is because people write bad software, not tha..."
+content = "That is because people write bad software, not that it is impossible or even too difficult to ever do correctly. The point isn&#39;t to avoid rewriting the interface - the point is to rewrite the interface without touching the rest of the application. If most of your program IS the interface, you are either doing something wrong or you are an edge case."
+reply = 4836811509298647323
+[author]
+	name = "Erik McClure"
+	uri = "https://www.blogger.com/profile/13838708587730716493"
+[author.image]
+	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAEs/UdovQFogllg/s32-c/photo.jpg"
+	width = "32"
+	height = "32"

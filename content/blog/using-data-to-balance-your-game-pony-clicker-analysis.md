@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2015-05-30T10:36:00Z"
 title = "Using Data To Balance Your Game: Pony Clicker Analysis"
 updated = "2015-10-08T23:21:38.000+00:00"
+comments = [ 8152926649784086811, 211157025285730602, 2821259584975881087 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

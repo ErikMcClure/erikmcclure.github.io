@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2012-05-23T15:27:00Z"
 title = "IP Law Makes You an Asshole"
 updated = "2012-05-23T15:27:07.000+00:00"
+comments = [ 8556860084422762135, 7485715719660035069 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

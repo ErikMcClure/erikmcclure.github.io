@@ -1,0 +1,13 @@
+id = "8841807446567812772"
+date = 2017-06-24T20:58:15Z
+updated = 2017-06-24T20:58:15Z
+title = "(it&#39;s in server settings -&gt; moderation -&gt..."
+content = "(it&#39;s in server settings -&gt; moderation -&gt; verification level.)<br /><br />It&#39;s actually embarrassing that you hadn&#39;t tried this first before making a misinformed blog post. <br /><br />Also the global rate limit is 50 req/sec. In your hypothetical, it&#39;d take 20 whole seconds to ban 1000 bots, not 5-10 minutes. :P <br /><br />Discord Phone Verification requires a legit mobile number, and detects SiP/VoIP numbers. This means that you have to have a physical phone with a legit phone number to talk on the server. This makes it pretty much impossible for &quot;mass created spam bots&quot; to come into your server and do harm. It also makes ban evasion (via changing IP/making new account) practically impossible, because bans are by phone number as well.<br /><br />And of course, if someone doesn&#39;t have a phone, you can just add a role to them to bypass the verification requirement.<br /><br />This may have been an issue a month ago, but since Discord launched this feature, every public server that I know of that has had this problem just turned on phone verification, and the attacks pretty much stopped. "
+reply = 1064134654881670623
+[author]
+	name = "Henry South"
+	uri = "https://www.blogger.com/profile/18350682898032462061"
+[author.image]
+	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+	width = "35"
+	height = "35"

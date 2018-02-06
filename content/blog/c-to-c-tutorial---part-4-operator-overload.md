@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2012-10-20T11:16:00Z"
 title = "C# to C++ Tutorial - Part 4: Operator Overload"
 updated = "2013-05-10T01:57:58.000+00:00"
+comments = [ 7902195492669411275, 7885397258488716875, 8618545649754470268 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

@@ -1,0 +1,12 @@
+id = "3641431318452499209"
+date = 2012-02-25T03:07:04Z
+updated = 2012-02-25T03:07:04Z
+title = "Interesting post. I haven&#39;t worked with VS in ..."
+content = "Interesting post. I haven&#39;t worked with VS in a while, so I can&#39;t get into the fine detail. But the question that enters my mind is: why is this not a &#39;ribbon&#39; type interface?<br /><br />The ribbon interface was invented at MS and has a number of benefits. 1. It&#39;s always the same size. 2. Every command can be executed with the keyboard. 3. Icons are grouped and the most important ones (by frequency) are bigger.<br /><br />I&#39;m in favor of docking windows, but it&#39;s always hard to get it right. Your suggestion to make a collapsible panel is pretty good. I hate it when the docked windows pop up and eat sceen space from other docked windows."
+[author]
+	name = "Hans Polak"
+	uri = "https://www.blogger.com/profile/15576523594361994688"
+[author.image]
+	source = "//lh3.googleusercontent.com/-R0kKiPEd6ZE/AAAAAAAAAAI/AAAAAAAAAEk/N9t02GYsy3s/s32-c/photo.jpg"
+	width = "32"
+	height = "32"

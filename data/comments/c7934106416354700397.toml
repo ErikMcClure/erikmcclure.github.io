@@ -1,0 +1,12 @@
+id = "7934106416354700397"
+date = 2013-02-10T07:50:14Z
+updated = 2013-02-10T07:50:14Z
+title = "I can understand the &quot;not wanting to use exis..."
+content = "I can understand the &quot;not wanting to use existing libs&quot; and such.  I have to use a graphics lib at work, while it was a great lib to get us off the ground and release a product, it is now holding us back a bit in that certain features we want to put in can&#39;t be realized by that lib.  Or will require a serious refactor of our code base.  <br /><br />On my personal projects, I was building up my own set of libs and routines because I find the available libs our there are not always simple enough.  I.E. they include the kitchen sink when all I wanted is something that simple does X.  Some just have a sad API.  From some of the crap I go through at work with libs out of our control and then finding bugs we can&#39;t get around, I, on my own projects, just do it myself.  <br /><br />I have to keep myself in check though.  &quot;It doesn&#39;t need to be perfect, just good enough and get on with it!&quot;  I fuss too much on something sometimes and that delays my ultimate project.  Lately though I&#39;ve started my ultimate project.  At least step one is done.  Now to keep stepping in that direction even if all the foundation hasn&#39;t been completed."
+[author]
+	name = "Zekaric"
+	uri = "https://www.blogger.com/profile/14209717942263262010"
+[author.image]
+	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+	width = "35"
+	height = "35"

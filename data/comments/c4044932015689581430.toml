@@ -1,0 +1,12 @@
+id = "4044932015689581430"
+date = 2011-09-07T06:06:47Z
+updated = 2011-09-07T06:06:47Z
+title = "Because it doesn&#39;t have much of a choice reall..."
+content = "Because it doesn&#39;t have much of a choice really... It translates your code as best as it can into the available instructions and if these instructions come with dependencies that cause pipeline stalls in the host cpu the only thing it can do is try to interleave instructions but that&#39;s hardly a solution in such a dense piece of code and any recent out-of-order cpu wouldn&#39;t really notice the difference (it would still matter for an Atom and other in-order cores though).<br /><br />inc ecx<br />sar ecx,1<br />mov esi,dword ptr [esi+ecx*4+18h] <br /><br />is a direct translation of <br /><br />y=y-&gt;_children[(++c)&gt;&gt;1];<br /><br />whereas <br /><br />mov edi,dword ptr [edi+18h]<br />mov edi,dword ptr [edi+1Ch] <br /><br />are direct translations of <br /><br />y=y-&gt;_left;<br />y=y-&gt;_right;<br /><br />A simple member access generate a simple memory read with a compile-time-calculated offset whereas a dynamic table access requires some extra arithmetic which causes the AGI. One way to mitigate this would be to compute the array offset earlier but this comes with its own drawbacks :<br /> * both code path would do the calculation while its only useful to one<br /> * increased register pressure<br /><br />The only way out I can see is to take advantage of the &quot;structure&quot; of the variable c (i.e the set of value it can take), possibly altering it, to come up with a simpler index calculation that can be directly expressed in some x86 addressing mode."
+[author]
+	name = "Hugues Bruant"
+	uri = "https://www.blogger.com/profile/13539048398463049743"
+[author.image]
+	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+	width = "35"
+	height = "35"

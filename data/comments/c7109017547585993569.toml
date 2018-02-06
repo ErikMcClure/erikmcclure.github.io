@@ -1,0 +1,13 @@
+id = "7109017547585993569"
+date = 2012-10-12T12:00:20Z
+updated = 2012-10-12T12:00:20Z
+title = "IF that is your definition of determinism, then ev..."
+content = "IF that is your definition of determinism, then every single solution I have ever built for this, including every single solution I will ever build, will be deterministic, and therefore I have absolutely no idea how ensuring that your engine was deterministic had any effect on your engine design.<br /><br />Extrapolation on render thread == things go through walls before you realize they hit them. This is one of the reasons I abandoned several of my previous attempts, because of the potentially invalid physics state that would be rendered, even if the physics state itself was always consistent. Rather than solve that problem, you simply make it worse.<br /><br />I keep pointing out problems your solution has, yet you continue to insist they are not problems.<br /><br />Here&#39;s how you guarantee determinism in my model: Make all calculations depend on the previous frames&#39; stale data. Ensure data gathering is done on the frame start sync step. Poof, its now deterministic. Of course, it now has a frame of lag, too, just like your solution does, even with extrapolation of positions because it is physically impossible for it to account for input it doesn&#39;t know about.<br /><br />Civ V link: http://developer.amd.com/gpu_assets/Firaxis%20LORE.pps"
+reply = 6206156930516113659
+[author]
+	name = "Erik McClure"
+	uri = "https://www.blogger.com/profile/13838708587730716493"
+[author.image]
+	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAAQI/rkWVell_uxQ/s32-c/photo.jpg"
+	width = "32"
+	height = "32"

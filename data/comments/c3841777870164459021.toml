@@ -1,0 +1,12 @@
+id = "3841777870164459021"
+date = 2012-02-24T15:32:20Z
+updated = 2012-02-24T15:32:20Z
+title = "Bad code can be written in any language, of course..."
+content = "Bad code can be written in any language, of course. And a powerful language might even happily help you precisely express your bad ideas. <br /><br />But <a href="http://schneide.wordpress.com/2009/12/21/the-fallacy-of-the-right-tool/" rel="nofollow">languages are materials, not tools.</a> Programs have a maintenance cycle, and the original author might not be around to maintain it. We&#39;ll often want to extend programs, reuse them. Languages are also maintained - new optimizations, bugfixes, portability, updates to libraries. <br /><br />It is often reasonable to critique a program based on what language was used. But it is also quite reasonable to critique a program based on other qualities, such as end-user experience. Which qualities you&#39;ll weigh as most important probably depend on what you&#39;re doing with the program."
+[author]
+	name = "dmbarbour"
+	uri = "https://www.blogger.com/profile/12370605342201490009"
+[author.image]
+	source = "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+	width = "35"
+	height = "35"

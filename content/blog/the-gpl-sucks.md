@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2011-06-03T19:19:00Z"
 title = "The GPL Sucks"
 updated = "2011-06-03T22:05:03.000+00:00"
+comments = [ 1953458879995423294, 2354368990789811243, 5272307772862325792, 4331479603985967245 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

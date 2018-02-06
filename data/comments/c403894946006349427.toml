@@ -1,0 +1,12 @@
+id = "403894946006349427"
+date = 2013-02-11T06:25:58Z
+updated = 2013-02-11T06:25:58Z
+title = "Hello Erik,here is the advice I can give you. I ..."
+content = "Hello Erik,<br /><br />here is the advice I can give you. I don&#39;t know how it will work for you, but for me it did.<br /><br />1) Early when you learn to program, if you are good, there is a point where you realize that you can do anything. You need to un-learn that. It is not true. You can not make an AAA quality game all by yourself, not even just the programming part. If you want to do that you will have to work with a team.<br /><br />2) If you work alone you need to embrace constraints. The more creative you are, the more constraints you need to ship. Write games in fixed timeframes (e.g. 48 hour jams), with a maximum number of lines of code, etc. Time is the best one I found personally, but I also do things like coding in nano in a single 80x24 terminal.<br /><br />3) I am not sure creating your company is the best way to achieve your dreams. It is tempting but I feel like maybe you should try to get hired at an existing small game studio instead. It would be a reasonable middle ground between achieving your dreams right now and that dreadful 6-figures job, and also a good stepping stone for the next step in your career.<br /><br />I hope you will find out a way, I want a chance to play your games ;)"
+[author]
+	name = "catwell"
+	uri = "http://catwell.info/"
+[author.image]
+	source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
+	width = "35"
+	height = "35"

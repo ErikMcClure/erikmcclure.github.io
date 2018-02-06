@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2015-02-11T01:32:00Z"
 title = "Why Don't You Just Fire Them?"
 updated = "2015-02-11T01:32:31.000+00:00"
+comments = [ 4671761147535471189 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

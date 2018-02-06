@@ -1,0 +1,13 @@
+id = "1589038650396070651"
+date = 2013-02-24T23:18:51Z
+updated = 2013-02-24T23:18:51Z
+title = "I think any popular technology invariably falls in..."
+content = "I think any popular technology invariably falls into this trap (just look at windows), but what needs to happen are clearly defined breaks in the standard. Instead of trying to backwards support everything, the standard needs to simply throw the entire language out the window and rebuild everything from scratch in a sensible way, and then clearly mark it as a new version. Then, you can have your old parsing engines for people using the old version, and new parsing engines for people using the new version - the old version is still available and supported so it can be rendered properly, but the new version simply uses an entire new parsing engine so its not kicked in the balls by old compatibility issues."
+reply = 9031213592527597570
+[author]
+	name = "Erik McClure"
+	uri = "https://www.blogger.com/profile/13838708587730716493"
+[author.image]
+	source = "//lh5.googleusercontent.com/-4ezLtYpHa-E/AAAAAAAAAAI/AAAAAAAAATg/MTUxLVTrHHo/s32-c/photo.jpg"
+	width = "32"
+	height = "32"

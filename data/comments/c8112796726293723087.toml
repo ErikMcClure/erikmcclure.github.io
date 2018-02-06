@@ -1,0 +1,12 @@
+id = "8112796726293723087"
+date = 2011-09-30T06:35:44Z
+updated = 2011-09-30T06:35:44Z
+title = "Thanks for the explanation... I see my problem now..."
+content = "Thanks for the explanation... I see my problem now. If I would have placed the return value of Test() in a character var instead of a pointer, that would have worked, right? Because then it would take the return value of the Test() function and copy it to the character var before &quot;cstm&quot; itself goes out of scope. <br /><br />I didn&#39;t understand why you said my string doesn&#39;t have a null terminator though...?<br /><br />char cstm[] = { &#39;T&#39;, &#39;E&#39;, &#39;S&#39;, &#39;T&#39;, &#39;\n&#39; }; <br /><br />I defined the last character as a null terminator?"
+[author]
+	name = "Jhott"
+	uri = "https://www.blogger.com/profile/04348743696627086264"
+[author.image]
+	source = "//3.bp.blogspot.com/_8FNTTrcVylU/SR2vD1xQNHI/AAAAAAAAACU/9efOqRGDHiQ/S220-s32/jheatt+copy.jpg"
+	width = "32"
+	height = "23"

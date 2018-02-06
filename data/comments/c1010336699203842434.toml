@@ -1,0 +1,12 @@
+id = "1010336699203842434"
+date = 2015-02-20T17:04:00Z
+updated = 2015-02-20T17:04:00Z
+title = "at the minimum console is great for basic tasks......"
+content = "at the minimum console is great for basic tasks... git pull, node server.js, cat error.log | grep something, im not good at vim so i still rely on visual studio/notepad++/sublime/xcode<br /><br /><br />i expect everything for free, and i expect it to work perfectly. i have a free ide from microsoft, free dedicated server hosting from online.net, free online repository from github + bitbucket, free operating system, free open source libraries for everything<br /><br /><br />flat design is amazing and readable... look at mdn for example of good flat design. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce<br /><br /><br />i don&#39;t get how anyone can shit talk modern javascript. My javascript looks amazing, runs fast, runs on every os/device. yeah javascript is fast. rendering the dom is slow. if you are going slow with javascript, youre probably allocating too much and getting owned by the gc....<br /><br /><br />which invalidates another of your points cause i think we all know lots of allocations puts pressure on the gc. if you need the performance you can create a single typedarray and manage memory yourself in javascript and get native performance (or let asm.js do it for you). in node you have access to an even higher performance memory option with buffer. <br /><br /><br />skype is terrible, dont use skype. the call quality has always been shit for no reason (why do you need to restart calls to fix this) and they route people&#39;s calls through your internet connection. i dont use python, but i do enjoy the convenience of python -m SimpleHTTPServer 1234, which brings us back to my first point"
+[author]
+	name = "7b9a0eea-b965-11e4-b865-67f71fe920ec"
+	uri = "https://openid.aol.com/opaque/7b9a0eea-b965-11e4-b865-67f71fe920ec"
+[author.image]
+	source = "//lh3.googleusercontent.com/Rw_wdkZHfDXh8tDEBFF1Q3aSS_nDE-gMVWNfOHb7a2nIp2XuWAmJyGISHv9akZE=s35"
+	width = "35"
+	height = "35"

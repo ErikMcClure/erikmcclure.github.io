@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2013-09-12T10:36:00Z"
 title = "Write Less Code  "
 updated = "2013-09-12T10:36:56.000+00:00"
+comments = [ 8987673979794522150 ]
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"
