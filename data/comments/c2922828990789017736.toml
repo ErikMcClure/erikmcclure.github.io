@@ -2,7 +2,7 @@ content = "&#39;\\n&#39; is a newline character. &#39;\\0&#39; or simply 0 is a 
 date = "2011-09-30T11:58:29+00:00"
 id = 2922828990789017736
 title = "&#39;\\n&#39; is a newline character. &#39;\\0&#39; ..."
-updated = "2011-09-30T11:58:29.000+00:00"
+updated = "2011-09-30T11:58:29+00:00"
 [author]
 name = "Erik McClure"
 uri = "https://www.blogger.com/profile/13838708587730716493"

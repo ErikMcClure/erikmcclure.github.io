@@ -2,7 +2,7 @@ content = "Hello Erik,<br /><br />here is the advice I can give you. I don&#39;t
 date = "2013-02-11T06:25:58+00:00"
 id = 403894946006349427
 title = "Hello Erik,here is the advice I can give you. I ..."
-updated = "2013-02-11T06:25:58.000+00:00"
+updated = "2013-02-11T06:25:58+00:00"
 [author]
 name = "catwell"
 uri = "http://catwell.info/"

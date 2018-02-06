@@ -2,7 +2,7 @@ content = "Hello great article,<br /><br />I&#39;m really curious about what of 
 date = "2013-07-16T03:53:47+00:00"
 id = 1380747906436469291
 title = "Hello great article,I&#39;m really curious about..."
-updated = "2013-07-16T03:53:47.000+00:00"
+updated = "2013-07-16T03:53:47+00:00"
 [author]
 name = "Richard Bányi"
 uri = "https://www.blogger.com/profile/16706530832038940212"
