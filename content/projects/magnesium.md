@@ -2,8 +2,8 @@
 categories = ["project"]
 date = "2018-02-07T00:00:00Z"
 description = "Modular Entity Component System based game engine."
-links = [["github", "Github", "https://github.com/Black-Sphere-Studios/magnesium"]]
 image = "img/magnesium.png"
+links = [["github", "Github", "https://github.com/Black-Sphere-Studios/magnesium"]]
 tags = ""
 title = "Magnesium"
 
