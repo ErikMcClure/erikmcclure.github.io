@@ -1,6 +1,6 @@
 +++
 categories = ["blog"]
-date = "2018-02-10T18:01:40Z"
+date = "2018-02-10T18:01:40+00:00"
 title = "Software Optimizes to Single Points of Failure"
 
 +++
@@ -27,3 +27,5 @@ The reason this is so insidious is that it runs counter to sane software develop
 Soon, our world will be consumed by automation, one way or another. [Cory Doctorow suggests](https://boingboing.net/2012/01/10/lockdown.html) that hardware should only run software the user trusts, but what if I end up trusting buggy software? If all our self-driving cars run the same software, what happens when it has a bug? Even worse, what if all the different self-driving car companies have their own software, custom built by highly paid engineers... that all use OpenSSL to securely download updates?
 
 [What if OpenSSL has a bug?](https://en.wikipedia.org/wiki/Heartbleed)
+
+It's not clear what can be done about this. Obviously we shouldn't go around introducing unnecessary complexity that creates even more bugs, but at the same time we shouldn't delude ourselves into thinking our distributed systems have no single point of failure. They may be robust to hardware failures, but the software they run on will continue to be a single point of failure for the foreseeable future.
