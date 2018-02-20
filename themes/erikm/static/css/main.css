@@ -41,7 +41,7 @@ table {
 }
 
 html {
-  background: url('/img/bg.jpg') no-repeat bottom left fixed;
+  background: #666 url('/img/bg.jpg') no-repeat bottom left fixed;
   background-size: 100% auto;
   height:100%;
 }
