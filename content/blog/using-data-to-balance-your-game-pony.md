@@ -1,8 +1,9 @@
 +++
 blogimport = true
 categories = ["blog"]
-comments = [8152926649784086811, 211157025285730602, 2821259584975881087]
+comments = [8152926649784087000, 211157025285730600, 2821259584975881000]
 date = "2015-05-30T10:36:00Z"
+draft = true
 title = "Using Data To Balance Your Game: Pony Clicker Analysis"
 updated = "2015-10-08T23:21:38.000+00:00"
 [author]
