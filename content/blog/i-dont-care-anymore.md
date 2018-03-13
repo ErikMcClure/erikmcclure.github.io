@@ -2,6 +2,7 @@
 blogimport = true
 categories = ["blog"]
 date = "2014-07-06T01:36:00Z"
+draft = true
 title = "I Don't Care Anymore"
 updated = "2014-07-06T11:56:33.000+00:00"
 [author]
