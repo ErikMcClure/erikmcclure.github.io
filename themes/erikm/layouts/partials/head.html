@@ -17,9 +17,9 @@
   <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}favicon.ico" />
   <link rel="shortcut icon" type="image/x-icon" href="{{ .Site.BaseURL }}favicon.ico" />
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css" />
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/prism.css" rel="stylesheet" />
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/katex.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css" />
   <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} - RSS" href="{{ .Site.BaseURL }}index.xml" />
   {{ if or (eq .URL "/blog/") (eq .URL "/projects/") (eq .URL "/web/") (eq .URL "/") }}
   <meta property="og:type" content="website">
@@ -71,6 +71,10 @@
   
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63026815-3"></script>
+  <script defer src="{{ .Site.BaseURL }}prism.js"></script>
+  <script defer src="{{ .Site.BaseURL }}katex.min.js"></script>
+  <script defer src="{{ .Site.BaseURL }}mathtex-script-type.min.js"></script>
+  <script defer src="{{ .Site.BaseURL }}auto-render.min.js"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}

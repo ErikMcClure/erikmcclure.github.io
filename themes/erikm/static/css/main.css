@@ -598,6 +598,7 @@ main.blog section article time, main.blog section article aside {
 }
 html, header, main.projects section, .links section {
   background-position: top left;
+  background: #666 url('/img/bg.th.jpg') no-repeat bottom left fixed;
 }
 footer span {
   display: block;
