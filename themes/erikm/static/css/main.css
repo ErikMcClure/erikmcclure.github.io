@@ -39,7 +39,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+img {
+  -ms-interpolation-mode: bicubic;
+}
 html {
   background: #666 url('/img/bg.jpg') no-repeat bottom left fixed;
   background-size: 100% auto;
@@ -267,7 +269,6 @@ main.blog {
 
 main.blog section {
   margin: 0 0.75em 0 0.75em;
-  max-width:840px;
 }
 
 main.blog section article {
@@ -525,7 +526,7 @@ background-size: auto auto;
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1140px) {
 nav .fa {
     display: none;
 }
@@ -536,7 +537,7 @@ main.projects section {
   border-right: 0;
 }
 }
-@media (max-width: 850px) {
+@media (max-width: 885px) {
 nav .fa {
   display:inline-block;
   padding-top: 0.25em;
@@ -544,6 +545,15 @@ nav .fa {
 }
 nav ul {
   padding: 0.1em 0;
+  display: flex;
+}
+nav ul li {
+  flex-grow: 1;
+  padding-left:0.15em;
+}
+nav ul li a {
+  padding: 0.4em 0;
+  width: 100%;
 }
 nav p {
   display: none;
@@ -582,23 +592,11 @@ main.projects section ul {
   min-width: 180px;
   vertical-align: top;
 }
-nav ul {
-  display: flex;
-}
-nav ul li {
-  flex-grow: 1;
-  padding-left:0.15em;
-}
-nav ul li a {
-  padding: 0.4em 0;
-  width: 100%;
-}
 main.blog section article time, main.blog section article aside {
   margin-left: 0.75rem;
 }
 html, header, main.projects section, .links section {
-  background-position: top left;
-  background: #666 url('/img/bg.th.jpg') no-repeat bottom left fixed;
+  background: #666 url('/img/bg.th.jpg') no-repeat top left fixed;
 }
 footer span {
   display: block;
