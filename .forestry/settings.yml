@@ -11,4 +11,4 @@ sections:
     default_front_matter_template: projects
   blog:
     default_front_matter_template: blog
-version: 0.31.1
+version: 0.38.1
