@@ -46,6 +46,7 @@ weight = 6
 description = "Applied mathematician and software architect who makes games and music."
 googleanalytics = "Oxb2ia8HjcHLXlvstA8xPpQO3BO_y15Ds2Ia-feq1MQ"
 image = "img/avatar.png"
+imagesm = "img/avatar.th.png"
 keywords = "games, music, code, blackhole, blackhole12, blackhole0173, erik mcclure, aurora theory, sweetie bot, discord, feathergui, black sphere studios, tinyoal, upatch"
 [taxonomies]
 category = "categories"
