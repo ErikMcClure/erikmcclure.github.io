@@ -1,6 +1,6 @@
   <section class="archive">
     <article>
-    <img src="{{ .Site.BaseURL }}{{ .Site.Params.image }}" alt="Avatar" />
+    <img src="{{ .Site.BaseURL }}{{ .Site.Params.imagesm }}" alt="Avatar" width="180" height="180" />
     <h2>Archive</h2>
     <ol>
       {{ range (.Site.Taxonomies.categories.blog.Pages.GroupByDate "2006") }}
