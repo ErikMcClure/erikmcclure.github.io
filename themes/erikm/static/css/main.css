@@ -264,11 +264,12 @@ main.blog {
   display:flex;
   align-items: stretch;
   margin: 0 auto;
-  max-width:1108px;
+  max-width:1156px;
 }
 
 main.blog section {
   margin: 0 0.75em 0 0.75em;
+  max-width: 888px;
 }
 
 main.blog section article {
@@ -349,9 +350,15 @@ main.blog section article aside ul li a:link, main.blog section article aside ul
 main.blog section article aside ul li a:hover, main.blog section article aside ul li a:active {
   opacity: 1;
 }
+main.blog section article pre {
+  max-width:800px;
+}
 
 main.blog section article img {
-  margin: 0 0.75rem;
+}
+main.blog section article .imgwrap {
+  margin: 0 auto;
+  width: 100%;
 }
 main.blog section.archive {
   user-select: none;
@@ -388,6 +395,7 @@ main.blog section.archive summary:focus {
 main.blog section.archive img {
   margin: 20px 20px 0 20px;
   box-shadow: 0 2px 3px #333;
+  border-radius: 2px;
 }
 
 main.blog section aside a:link, main.blog section aside a:visited, main.blog section aside a:active, main.blog section time a:link, main.blog section time a:visited, main.blog section time a:active {
@@ -535,6 +543,12 @@ main.projects section {
   border-left: 0;
   border-right: 0;
 }
+main.blog {
+  display: block;
+}
+main.blog section {
+  margin: 0 auto;
+}
 }
 @media (max-width: 885px) {
 nav .fa {
@@ -556,9 +570,6 @@ nav ul li a {
 }
 nav p {
   display: none;
-}
-main.blog {
-  display: block;
 }
 main.blog section {
   margin: 0;

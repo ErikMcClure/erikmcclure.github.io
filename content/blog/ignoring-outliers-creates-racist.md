@@ -12,8 +12,8 @@ uri = "https://plus.google.com/104896885003230920472"
 Have you built an algorithm that *mostly* works? Does it account for *almost* everyone's needs, save for a few weird outliers that you ignore because they make up 0.0001% of the population? Congratulations, your algorithm is racist! To illustrate how this happens, let's take a recent example from Facebook. My friend's message was removed for "violating community standards". Now, my friend has had all sorts of ridiculous problems with Facebook, so to test my theory, I posted the exact same message on my page, and then had him report it.
 
 {{< img src="/img/fb1.png" alt="" width="637" >}}
-{{< img src="/img/fb2.png" alt="" >}}
-{{< img src="/img/fb3.png" alt="" >}}
+{{< img src="/img/fb2.png" alt="" width="512" >}}
+{{< img src="/img/fb3.png" alt="" width="689" >}}
 
 Golly gee, look at that, Facebook confirmed the message I sent does **not** violate community guidelines, but he's still banned for 12 hours for posting *the exact same thing*. What I suspect happened is this: Facebook has gotten mad at my friend for having a weird name multiple times, but he can't prove what his name is because he doesn't have access to his birth certificate because of family problems, *and* he thinks someone's been falsely reporting a bunch of his messages. The algorithm for determining whether or not something is "bad" probably took these misleading inputs, combined it with a short list of so-called "dangerous" topics like "terrorism", and then decided that if anyone reported one of his messages, it was *probably* bad. On the other hand, I have a very western name and nobody reports anything I post, so either the report actually made it to a human being, or the algorithm simply decided it was probably fine.
 

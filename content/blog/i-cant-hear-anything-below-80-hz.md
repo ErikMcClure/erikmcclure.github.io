@@ -44,7 +44,7 @@ Incidentally, this is probably why I hate dubstep.
 
 For testing purposes, I've used the results of my sensitivity testing to create an EQ filter that mimics my hearing problems as best I can. I can't tell if the filter is on or off. For those of you that use FL Studio, the preset can be [downloaded here](https://drive.google.com/file/d/0B_2aDNVL_NGmZEFkcFdlNmVxN1U/view?usp=sharing).
 
-{{<img src="/img/EQ_demo.png" alt="EQ Curve">}}
+{{<img src="/img/EQ_demo.png" alt="EQ Curve" width="646">}}
 
 Below is a song I wrote some time ago that was mastered by a friend who can actually hear bass, so hopefully the bass frequencies in this are relatively normal. I actually have a bass synth in this song I can only *barely* hear, and had to rely almost entirely on the sequencer to know which notes were which.
 

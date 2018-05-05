@@ -44,7 +44,7 @@ Technically speaking, this is done because Discord assigns snowflake IDs server-
 ##### Discord Doesn't Care
 Sadly, Discord doesn't seem to care. The general advice in response to "how do I defend against a large scale spam attack" is "just report them to us", so we did exactly that, and then got what has to be one of the dumbest customer service e-mails I've ever seen in my life:
 
-{{<img src="/img/res4.PNG" alt="Discord Being Stupid" >}}
+{{<img src="/img/res4.PNG" alt="Discord Being Stupid" width="571">}}
 
 Excuse me, ***WHAT?!*** Sorry about somebody spamming your service with horrifying gore images, but please don't delete them! What happens if the spammers just delete the messages themselves? What happens if they send *child porn?* "Sorry guys, please ignore the images that are literally illegal to even look at, but we can't delete them because Discord is fucking stupid." Does Discord understand the concept of *marking messages for deletion* so they are viewable for a short time as evidence for law enforcement?! My anti-spam bot's database currently has more information than *Discord's own servers!* If this had involved child porn, the FBI would have had to ask **me** for **my records** because Discord would have deleted them all!
 
