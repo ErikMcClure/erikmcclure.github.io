@@ -29,7 +29,8 @@ Instead of a future with one true programming language, perhaps we should be foc
 
 A universal standard for low-level assembly would **solve everyth&mdash;**
 
-{{<img src="https://imgs.xkcd.com/comics/standards.png" alt="mandatory xkcd" title="Mars insisted on making semicolons optional, which rendered their code completely incompatible with Earth's code. The resulting Great Semicolon War left the entire northern hemisphere of Earth uninhabitable." >}}
+{{<img src="https://imgs.xkcd.com/comics/standards.png" alt="mandatory xkcd" width="500" title="Mars insisted on making semicolons optional, which rendered their code completely incompatible with Earth's code. The resulting Great Semicolon War left the entire northern hemisphere of Earth uninhabitable." >}}
+
 ... Actually, nevermind{{<sup>}}<a href="#foot3">[3]</a>{{</sup>}}.
 
 <hr>

@@ -177,11 +177,11 @@ This is known as a **safe deletion**. It ensures that you only delete a pointer 
 
 Since pointers are just integers, we can do **pointer arithmetic**. What happens if you add 1 to a pointer? If you think of pointers as just integers, one would assume it would simply move the pointer forward a single byte.
 
-{{<img src="/img/tut2.png" alt="Moving a Pointer 1 byte" >}}
+{{<img src="/img/tut2.png" alt="Moving a Pointer 1 byte" width="486">}}
 
 This isn't what happens. Adding 1 to a pointer of type {{<code>}}integer{{</code>}} results in the pointer moving forward 4 bytes.
 
-{{<img src="/img/tut3.png" alt="Moving a Pointer 4 bytes" >}}
+{{<img src="/img/tut3.png" alt="Moving a Pointer 4 bytes" width="486" >}}
 
 **Adding or subtracting an integer $i$ from a pointer moves that pointer $i\cdot n$ bytes, where $n$ is the size, in bytes, of the pointer's type**. This results in an interesting parallel - adding or subtracting from a pointer is the same as treating the pointer as an array and accessing it via an index.
 
@@ -262,17 +262,17 @@ Why isn't the multidimensional array here just an {{<code>}}int**{{</code>}}? Cl
 
 Let's look at how one would go about allocating a 3x5 square array. We can't allocate a 3x5 chunk out of our computer's memory, because memory isn't 2-dimensional, its 1-dimensional. Its just freaking huge line of bytes. Here is how you squeeze a 2-dimensional array into a 1-dimensional line:
 
-{{<img src="/img/tut4.png" alt="Allocating a 3x5 array" >}}
+{{<img src="/img/tut4.png" alt="Allocating a 3x5 array" width="727">}}
 
 As you can see, we just allocate each row right after the other to create a 15-element array ($5\cdot 3 = 15$). But then, how do we access it? Well, if it has a width of 5, to access another "row" we'd just skip forward by 5. In general, if we have an $n$ by $m$ multidimensional array being represented as a one-dimensional array, the proper index for a coordinate $(x,y)$ is given by: {{<code>}}array[x + (y*n)]{{</code>}}. This can be extended to 3D and beyond but it gets a little messy. This is all the compiler is really doing with multidimensional array syntax - just automating this for you.
 
 Now, if this is a **square** array (as evidenced by it being a square in 2D or a cube in 3D), a jagged array is one where each array is a different size, resulting in a "jagged" appearance:
 
-{{<img src="/img/tut5.png" alt="Jagged array visualization" >}}
+{{<img src="/img/tut5.png" alt="Jagged array visualization" width="320" >}}
 
 We can't possibly allocate this in a single block of memory unless we did a lot of crazy ridiculous stuff that is totally unnecessary.  However, given that arrays in C++ are just pointers to a block of memory, what if you had a pointer to a block of memory that was an array of pointers to more blocks of memory?
 
-{{<img src="/img/tut6.png" alt="Jagged array pointers" >}}
+{{<img src="/img/tut6.png" alt="Jagged array pointers" width="400" >}}
 
 Suddenly we have our jagged array that can be accessed just like our previous arrays. It should be pointed out that with this format, each inner-array can be in a totally random chunk of memory, so the last element could be at position 200 and the first at position 5 billion. Consequently, pointer arithmetic only makes sense within each column. Because this is an array of arrays, we declare it by creating an array of pointers. This, however, does **not** initialize the entire array; all we have now is an array of *illegal pointers*. Since each array could be a different size than the other arrays (this being the entire point of having a jagged array in the first place), the only possible way of initializing these arrays is individually, often by using a {{<code>}}for loop{{</code>}}. Luckily, the syntax for accessing jagged arrays is the exact same as with square arrays.
 

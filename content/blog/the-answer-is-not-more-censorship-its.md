@@ -16,7 +16,7 @@ This is consistent with a disturbing trend in liberal media, which is to outrigh
 
 Fake news is yet another problem that is not going to be solved by more censorship. If a platform censors information that people want, no matter how wrong it is, they will simply *find another platform* that lets them share it. This is why Fox News exists. Instead of outright censoring fake stories, websites need to *bring attention to falsehoods*. A handy warning message prominently displayed on the article linking to an appropriate Snopes page would be a good step. This way, people are still free to share their fake news stories, but because they're doing it on your platform, you can use this opportunity to give anyone who sees it additional information that allows them to recognize the story as false. If you just censor the story, people will *use another platform* that you have no control over.
 
-<a href="http://www.snopes.com/media/notnews/tsarnaev.asp">{{<img src="/img/3q7FsJV.png" alt="Example of flagged news story">}}</a>
+<a href="http://www.snopes.com/media/notnews/tsarnaev.asp">{{<img src="/img/3q7FsJV.png" alt="Example of flagged news story" width="505">}}</a>
 
 The answer to filter bubbles is not to simply crush the filter bubble you don't agree with. The fact that this notion is even being entertained is frightening. Culture wars are not won by suffocation, they are won by *changing minds*, and the only way to do that is to respect free speech and be willing to debate people who have views that are wildly and totally incompatible with yours, so long as they are respectful. Otherwise, all we will do is scream at each other, and President Trump may only be the beginning of a catastrophic chasm in America.
 

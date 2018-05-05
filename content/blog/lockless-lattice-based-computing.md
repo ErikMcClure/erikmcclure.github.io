@@ -14,7 +14,7 @@ The **[Flow Programming Language](http://www.flowlang.net/p/solving-multicore-di
 
 Naturally, this new methodology is not without its flaws. In particular, it currently has no way of addressing the issue of what to do when one variable depends on the values of multiple other variables, which can give rise to race conditions.
 
-{{<img style="text-align:center;" src="/img/Flow-DAG.png" alt="Flow DAG" >}}
+{{<img style="text-align:center;" src="/img/Flow-DAG.png" alt="Flow DAG" width="107">}}
 
 In the above diagram, both {{<code>}}e{{</code>}} and {{<code>}}f{{</code>}} depend on multiple previous results. This is a potential race condition, and the only current proposed solution is using traditional locks, which would incur contention issues{{<sup>}}<a href="#f3">3</a>{{</sup>}}. This, however, is not actually necessary. 
 
