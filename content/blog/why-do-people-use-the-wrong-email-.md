@@ -4,7 +4,7 @@ date = "2018-07-12T10:57:26-07:00"
 title = "Why Do People Use The Wrong Email?"
 
 +++
-Ever since 2013, I've consistently started getting registration e-mails in foreign languages from sites I definitely did not sign up on. 
+Ever since 2013, I've consistently started getting registration e-mails in foreign languages from sites I definitely did not sign up for.
 
 It started with Instagram, on which a bizarrely determined young boy from somewhere around Denmark was trying to register using my e-mail address. Instragram lets you remove an e-mail from an account, which is what I did, repeatedly, but the kid _kept adding the non-functional e-mail back on to the account_. Eventually I forced a password reset and forcibly deleted his account, in an attempt to dissuade him from using someone else's e-mail in the future. Astonishingly, this did not work, and I was forced to register on Instagram just to prevent my e-mail from being used.
 
