@@ -1,14 +1,23 @@
 ---
-upload_path: "/static/img"
-frontmatter_file_url_template: "/uploads/:year:/:month:/:day:"
-body_file_url_template: "/uploads/:year:/:month:/:day:"
 new_page_extension: md
 auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
-  projects:
-    default_front_matter_template: projects
-  blog:
-    default_front_matter_template: blog
+- path: content/projects
+  label: Projects
+  create: all
+  default_front_matter_template: projects
+- path: content/web
+  label: Web
+  create: all
+- path: content/blog
+  label: Blog
+  create: all
+  default_front_matter_template: blog
+upload_dir: static/img
+public_path: "/uploads"
+front_matter_path: "/uploads"
+use_front_matter_path: false
+file_template: ":filename:"
 version: 0.38.1

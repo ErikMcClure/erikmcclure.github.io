@@ -1,6 +1,5 @@
 ---
-pages:
-- blog/migrating-to-static-blog.md
+label: default
 hide_body: false
 is_partial: false
 fields:
@@ -19,3 +18,5 @@ fields:
   type: boolean
   hidden: false
   default: true
+pages:
+- content/blog/migrating-to-static-blog.md
