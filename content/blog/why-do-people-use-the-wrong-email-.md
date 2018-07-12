@@ -51,5 +51,5 @@ Still, the list of wrong e-mails I've gotten is pretty ridiculous. So far, I've 
 * Animoto (English) - Erik
 * Geometry Dash (English) - erikivan1235
 * Club Penguin (Spanish)
-* LEGO ID (English) - szar2003  
+* LEGO ID (English) - szar3000  
 * Seejaykay.com
