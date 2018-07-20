@@ -4,17 +4,18 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
+- path: content
+  label: Pages
+  create: all
 - path: content/projects
   label: Projects
   create: all
-  default_front_matter_template: projects
 - path: content/web
   label: Web
   create: all
 - path: content/blog
   label: Blog
   create: all
-  default_front_matter_template: blog
 upload_dir: static/img
 public_path: "/uploads"
 front_matter_path: "/uploads"
