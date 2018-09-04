@@ -64,3 +64,5 @@ While the `:=` operator is cleaner, the `shadow` keyword would be easier to embe
     }
 
 Which method would depend on the idiomatic constructions in the language syntax, but by making name-shadowing an explicit, rather than an implicit action, this allows you to get the benefits of name-shadowing while eliminating most of the dangerous situations it can create.
+
+Unfortunately, most modern language design seems hostile to any feature that even slightly inconveniences a developer for the sake of code safety and reliability. Perhaps a new language in the future will take these lessons to heart, but in the meantime, people will continue complaining about unstable software, at least until we put the "engineering" back into "software engineering".
