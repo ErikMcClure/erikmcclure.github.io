@@ -18,7 +18,7 @@ Or this:
     vec.push("b");
     let vec = vec; /* vec is immutable now */  
 
-This is a particularly permissive form of **name-shadowing**, which allows you to re-declare a variable in an inner scope that _shadows_ the name of a variable in an outer scope, making the outer variable inaccessible. Almost every single programming language in common use allows you to do this in some form or another. Rust goes a step further and lets you redeclare a variable _inside the same scope_ as another variable.
+This is a particularly permissive form of **name-shadowing**, which allows you to re-declare a variable in an inner scope that _shadows_ the name of a variable in an outer scope, making the outer variable inaccessible. Almost every single programming language in common use allows you to do this in some form or another. Rust goes a step further and lets you re-declare a variable _inside the same scope_ as another variable.
 
 This, to me, is pretty terrifying, because name-shadowing itself is often a dangerous operation. 90% of the time, name-shadowing causes problems with either temporary or index variables, such as `i`. These are all cases where almost you never want to name-shadow anything and doing so is probably a mistake.
 
@@ -65,4 +65,4 @@ While the `:=` operator is cleaner, the `shadow` keyword would be easier to embe
 
 Which method would depend on the idiomatic constructions in the language syntax, but by making name-shadowing an explicit, rather than an implicit action, this allows you to get the benefits of name-shadowing while eliminating most of the dangerous situations it can create.
 
-Unfortunately, most modern language design seems hostile to any feature that even slightly inconveniences a developer for the sake of code safety and reliability. Perhaps a new language in the future will take these lessons to heart, but in the meantime, people will continue complaining about unstable software, at least until we put the "engineering" back into "software engineering".
+Unfortunately, most modern language design seems hostile to any feature that even slightly inconveniences a developer for the sake of code safety and reliability. Perhaps a new language in the future will take these lessons to heart, but in the meantime, people will continue complaining about unstable software, at least until we put the "engineer" back in "software engineering".
