@@ -5,7 +5,7 @@ draft = true
 title = "Software Engineering Is Bad, But It's Not That Bad"
 
 +++
-I've been writing code for over 12 years, and for a while I've been disgusted by the sorry state of programming. This is why I felt a deep kinship with Nikita Prokopov's article, [Software Disenchantment](http://tonsky.me/blog/disenchantment/ "Software Disenchantment"). It captures the intense feelings of frustration I have with the software industry as a whole and the inability of modern programmers to write anything even remotely resembling efficient systems.
+I've been writing code for over 12 years, and for a while I've been disgusted by the sorry state of programming. That's why I felt a deep kinship with Nikita Prokopov's article, [Software Disenchantment](http://tonsky.me/blog/disenchantment/ "Software Disenchantment"). It captures the intense feeling of frustration I have with the software industry as a whole and the inability of modern programmers to write anything even remotely resembling efficient systems.
 
 **Unfortunately, most of it is wrong.**
 
@@ -25,8 +25,18 @@ Latency has to be one of the least understood values in computer electronics tod
 
 The reason this is a problem is that you cannot put anything on top of a system without increasing its latency, and you can't decrease the latency. At all. That 42-year-old emacs system was basically operating at its theoretical maximum because there was barely anything between the terminal and the keyboard. It is simply physically impossible to make that system more responsive, no matter how fast the CPU gets. Saying it's surprising that a modern text editor is somehow slower than a system _operating at the minimum possible latency_ makes absolutely no sense, because if you start putting more and more things between the keyboard and the screen, it _has_ to make the latency go up.
 
-It's actually much worse, because old computers didn't have to worry about silly things like _composition_. They'd do v-sync themselves, manually, drawing the cursor or text in between vertical blanks of the monitor. Modern graphics draw to a seperate buffer, which is then flipped to the screen on it's next refresh. The _consequence_, however, is that if you start drawing a new frame right after a vertical blank, [you ignore all the input you got that frame!](https://xteljavhqmxo9w.preview.forestry.io/blog/problem-of-vsync/) You can only start drawing things after you've processed all of the user input, which means once you start drawing, it's game over. This means that if a vertical blank happens every 16 ms, and you start drawing at the beginning of this frame, you have to wait 16 ms to process the user input, then draw the frame and _wait an additional 16 ms for the new buffer to get flipped to the screen!_
+It's actually much worse, because old computers didn't have to worry about silly things like _composition_. They'd do v-sync themselves, manually, drawing the cursor or text in between vertical blanks of the monitor. Modern graphics draw to a separate buffer, which is then flipped to the screen on it's next refresh. The _consequence_, however, is that if you start drawing a new frame right after a vertical blank, [you ignore all the input you got that frame!](https://blackhole12.com/blog/problem-of-vsync/) You can only start drawing things after you've processed all of the user input, which means once you start drawing, it's game over. This means that if a vertical blank happens every 16 ms, and you start drawing at the beginning of this frame, you have to wait 16 ms to process the user input, then draw the frame and _wait an additional 16 ms for the new buffer to get flipped to the screen!_
 
-That's 32ms of latency right there, and that's if you don't screw anything up. As modern hardware connections get more and more complex to the point where your USB jacks have drivers, they introduce more latency. Wireless systems introduce _even more_ latency.
+That's 32ms of latency right there, and that's if you don't screw anything up. As modern hardware connections get more and more complex to the point where your USB jacks have drivers, they introduce more latency. Wireless systems introduce _even more_ latency. Hardware abstraction layers, badly written drivers, and even the motherboard BIOS can all negatively impact the latency and _we haven't even gotten to the application yet_. But again, nothing can remove latency from a system. At best, perfectly written software would add negligible latency and aspire to approach the latency of your emacs terminal, but could never surpass it (unless we start using graphene).
 
-Years ago, I wrote my own article on this, and I feel it is still relevant today. I asked [if anyone actually wants good software](https://xteljavhqmxo9w.preview.forestry.io/blog/does-anyone-actually-want-good-software/). At least now, I know some people do.
+We should all be pushing for low-latency systems, but bloated apps are hardly the only culprit here. This is something everyone, from the hardware to the OS to the libraries, has to cooperate on if we want responsive computers.
+
+3\.Features
+
+I find it kind of silly to try and argue that computers today have almost no new features. Of course they have new features. A lot of the features are ones I don't use or care about, but they do in fact get new features and occasionally they are actually nice. What I think the real problem is that each new feature, for some inexplicable reason, requires exponentially more resources than the feature before it, often for no apparent reason. Other times, basic features that are trivial to implement are left out, also for no apparent reason.
+
+4\.Compilers
+
+Now, this is one I really don't understand. Any language other than C++ or Rust basically compiles instantly for anything that's less than 100000 lines of code. At work, we have a C# monstrosity that's 
+
+Years ago, I wrote my own article on this, and I feel it is still relevant today. I asked [if anyone actually wants good software](https://blackhole12.com/blog/does-anyone-actually-want-good-software/). At least now, I know some people do.
