@@ -11,7 +11,7 @@ I've been writing code for over 12 years, and for a while I've been disgusted by
 
 While I wholeheartedly agree with what Nikita is saying, I am afraid that he doesn't seem to understand how modern computers work. This is unfortunate, because a misinformed article like this weakens both our positions and makes it more difficult to convince people that software bloat is a problem. Most of the time, his frustrations are valid, but his reasoning is misdirected. So, in this article, I'm going to write counterpoints to some of the more problematic claims.
 
-**1.Smooth Scroll**
+**1. Smooth Scroll**
 
 One of my hobbies is game development, and I can assure you that doing anything at 4K resolution at 60 FPS on a laptop is _insanely hard_. Most games struggle to render at 4K 60 FPS with powerful GPUs, and 2D games are usually graphically simplistic, in that they can have lots of fancy drawings, but drawing 200 fancy images on the screen with hardly any blending is not very difficult. A video is just a single 4K image rendered 60 times a second (plus interpolation), which is trivial. Web renderers can't do that, because HTML has extremely specific composition rules that will break a naïve graphics pipeline. There is also another crucial difference between a 4K video, a video game, and a webpage: **text**.
 
@@ -19,7 +19,7 @@ High quality anti-aliased and sometimes sub-pixel hinted text at 10 different si
 
 I think the real issue here, and perhaps what Nikita was getting at, is that the _design_ of modern webpages is so bloated that the web browsers can't keep up. They're getting inundated with `&lt;div&;gt;` trees the size of Mount Everest and 10 megs worth of useless javascript bootstrapping ad campaigns that load entire miniature videos. However, none of this has anything to do with the resolution or refresh rate of your screen. Useless crap is going to be slow no matter what your GPU is. Inbox taking 13 seconds to load anything is completely unacceptable, but animating anything other than a white box in HTML is far more expensive than you think, and totally unrelated.
 
-**2.Latency**
+**2. Latency**
 
 Latency is one of the least understood values in computer science. It is true that many text editors have abysmal response times caused by terrible code, but it's a lot easier to screw this up than people realize. While CPUs have gotten faster, the latency between hardware components hasn't improved at all, and in many cases _cannot possibly improve_. This is because latency is dominated by physical separation and connective material. The speed of light hasn't changed in the past 48 years, so why would the latency? 
 
@@ -31,7 +31,7 @@ That's 33ms of latency right there, and that's if you don't screw anything up. A
 
 We should all be pushing for low-latency systems, but bloated apps are hardly the only culprit here. This is something everyone, from the hardware to the OS to the libraries, has to cooperate on if we want responsive computers.
 
-**3.Features**
+**3. Features**
 
 It seems silly to argue that computers today have no new features. Of course they have new features. A lot of the features are ones I don't use, but they do get new features and _occasionally_ they are actually nice. I think the real problem here that each new feature, for some inexplicable reason, requires exponentially more resources than the feature before it, often for no apparent reason. Other times, basic features that are trivial to implement are left out, also for no apparent reason. 
 
@@ -39,7 +39,7 @@ For example, [Discord](https://discordapp.com/) still doesn't know how to de-dup
 
 However, a few other comparisons in here really don't make any sense. For example, an installation of Windows 10 is only 4 GB because of extreme amounts of compression, yet the article compares this with a 6 GB uncompressed basic install of android. Windows 10 is actually something like 10 gigs or more once it's actually installed. While software bloat is a very real problem, these kinds of comparisons are just nonsense.
 
-**4.Compilers**
+**4. Compilers**
 
 Now, this one I really don't understand. Any language other than C++ or Rust basically compiles instantly until you hit 100k lines of code. At work, we have a C# monstrosity that's half a million lines of code and compiles in 20 seconds. That's pretty fast. Most other languages are JIT-compiled, so you can just run them instantly. Even then, you don't really want to optimize for compile time on Release mode unless you're just removing unnecessary bloat, and many modern compilers take a long time to compile things because they're doing ridiculously complex optimizations that may or may not require solving NP-hard optimization problems, [which some of them actually do](https://github.com/google/souper) for small functions.
 
