@@ -57,6 +57,6 @@ Efficient code, fast compilation and memory safety. Pick two. If you feel that c
 
 **Conclusion**
 
-I care very deeply about the quality of code that our industry is putting out, and I love the Better World Manifesto that Nikita has proposed. However, it is painful for me to read an article criticizing bad engineering that gets the technical details wrong. If we truly want to be better engineers, we need to understand the problems we face and what we can do to fix them. We need to understand how our computers work and fundamental algorithmic trade-offs we make when we compare problem-solving approaches.
+I care very deeply about the quality of code that our industry is putting out, and I love the Better World Manifesto that Nikita has proposed. However, it is painful for me to read an article criticizing bad engineering that gets the technical details wrong. A good engineer makes sure he understands what he's doing, that's the whole point of the article! If we truly want to be better engineers, we need to understand the problems we face and what we can do to fix them. We need to understand how our computers work and fundamental algorithmic trade-offs we make when we compare problem-solving approaches.
 
 Years ago, I wrote my own article on this, and I feel it is still relevant today. I asked [if anyone actually wants good software](https://blackhole12.com/blog/does-anyone-actually-want-good-software/). At least now, I know some people do. Maybe together, we can do something about it.
