@@ -1,0 +1,19 @@
+comments:
+  allowedFields: ["name", "message", "reply", "id"]
+  branch: "gh-pages"
+  commitMessage: "Add Staticman comment"
+  filename: "c{@timestamp}"
+  format: "yaml"
+
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp-seconds"
+
+  moderation: false
+  name: "blackhole12.com"
+  path: "data/dynamic"
+  requiredFields: ["name", "message", "id"]
+  transforms:
+    email: md5

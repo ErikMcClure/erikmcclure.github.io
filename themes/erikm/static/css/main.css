@@ -485,12 +485,36 @@ main.blog section .comments .reply .reply-arrow {
   left: -16px;
 }
 
+main.blog section .commentbox {
+  position:relative;
+  width:100%;
+  padding: 0 2.2em 0 2em;
+  box-sizing:border-box;
+}
+main.blog section .commentbox textarea {
+  display:block;
+  width:100%;
+  height: 10em;
+  margin: 0.75em 0;
+  overflow:hidden;
+}
+main.blog section .commentbox label {
+  margin-bottom: 0.5em;
+  display:block;
+	font: 0.8rem "Lucida grande", Helvetica, Arial, sans-serif;
+  color: #666564;
+}
+main.blog section .commentbox button {
+  display: block;
+  margin: 0 auto;
+}
 
 nav ul li a:hover {
   color: #FFF;
   border: 1px #55AAFF solid;
   box-shadow: 0 0 1px #000;
   background: #3585c0;
+  font: 1rem;
 }
 
 footer {

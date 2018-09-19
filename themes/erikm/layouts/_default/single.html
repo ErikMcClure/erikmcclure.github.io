@@ -28,13 +28,15 @@
     </article>
     <article><a name="comments"><h4>Comments</h4></a>
     <hr/>
-    {{if .Params.Comments}}
+    {{ $.Scratch.Add "count" 0 }}
     <div class="comments">
+    {{if .Params.Comments}}
       {{ range $i, $e := .Params.Comments }}
         {{if $i}}<hr/>{{end}}
+        {{ $.Scratch.Add "count" 1 }}
         {{ $id := print "c" $e }}
         {{with index $.Site.Data.comments $id }}
-        <div {{with .reply }}class="reply"{{end}}>
+        <div {{with .reply }}class="reply"{{end}} id="{{ $id }}">
         <div class="reply-arrow"><i class="fa fa-level-up"></i></div>
         <img src="{{.author.image.source}}" alt="" />
         <b>{{.author.name}}</b>
@@ -44,9 +46,34 @@
         <p>error: {{$id}}</p>
         {{end}}
       {{ end }}
+    {{end}}
     </div>
-    <hr/>{{end}}
-    <h6>Comments are disabled</h6>
+    
+    <div class="comments">
+      {{ range $i, $e := .Site.Data.dynamic }}
+        {{if eq $e.id $.UniqueID }}
+        {{if $.Scratch.Get "count" }}<hr/>{{end}}
+        {{ $.Scratch.Add "count" 1 }}
+        <div {{with .reply }}class="reply"{{end}} id="c{{$i}}">
+        <div class="reply-arrow"><i class="fa fa-level-up"></i></div>
+        <img src="http://lh3.googleusercontent.com/-W4_zl1uSJ10/AAAAAAAAAAI/AAAAAAAABuk/kg-M6T6xPag/s32-c/photo.jpg" alt="" />
+        <b>{{$e.name}}</b>
+        <p>{{$e.message | safeHTML}}</p>
+        </div>
+      {{ end }}
+      {{ end }}
+    </div>
+    
+        {{if $.Scratch.Get "count" }}<hr/>{{end}}
+    <!--<form class="commentbox" method="POST" action="https://api.staticman.net/v2/entry/blackhole12/blackhole12.github.io/gh-pages/comments">
+      <input name="options[redirect]" type="hidden" value="{{ .Permalink }}">
+      <input name="fields[id]" type="hidden" value="{{ .UniqueID }}">
+      <input name="fields[reply]" type="hidden" value="">
+      <label>Name: <input name="fields[name]" type="text"></label>
+      <label><textarea name="fields[message]"></textarea></label>
+      <button type="submit">Add Comment ✔️</button>-->
+      <h6>Comments are disabled</h6>
+    </form>
     </article>
   </section>
   {{ partial "archive.html" . }}
