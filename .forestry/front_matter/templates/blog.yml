@@ -25,6 +25,7 @@ fields:
   default:
   - blog
 pages:
+- content/blog/the-modern-spectacle.md
 - content/blog/i-tried-to-install-linux-and-now-i.md
 - content/blog/7-problems-raytracing-doesnt-solve.md
 - content/blog/aurora-theory-released.md
