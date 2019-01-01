@@ -1,8 +1,9 @@
 +++
 blogimport = true
 categories = ["blog"]
-comments = [7171091385926323649, 4989085578820151619]
+comments = [7171091385926323000, 4989085578820151000]
 date = "2011-04-23T20:16:00Z"
+draft = true
 title = "Console vs PC War Makes No Sense"
 updated = "2011-04-23T20:28:29.000+00:00"
 [author]
