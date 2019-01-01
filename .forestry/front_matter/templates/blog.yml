@@ -36,7 +36,6 @@ pages:
 - content/blog/bad-timing.md
 - content/blog/p-np.md
 - content/blog/dealing-with-discord-spam-doomsday.md
-- content/blog/im-popular.md
 - content/blog/the-future-of-welfare.md
 - content/blog/why-would-i-ever-trust-microsoft-ai.md
 - content/blog/aurora-theory-released.md
@@ -45,6 +44,7 @@ pages:
 - content/blog/name-shadowing-should-be-an-operator.md
 - content/blog/18-problems-for-a-new-generation.md
 - content/blog/why-do-people-use-the-wrong-email-.md
+- content/blog/im-popular.md
 - content/blog/a-wrinkle-in-time-for-millenials.md
 - content/blog/coordinate-systems-and-cascading.md
 - content/blog/use-email-verification-not-recovery.md
