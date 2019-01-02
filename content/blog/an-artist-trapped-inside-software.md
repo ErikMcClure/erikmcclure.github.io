@@ -1,8 +1,9 @@
 +++
 blogimport = true
 categories = ["blog"]
-comments = [6451751688322886785]
+comments = [6451751688322887000]
 date = "2012-08-19T04:32:00Z"
+draft = true
 title = "An Artist Trapped Inside A Software Engineer"
 updated = "2012-08-19T12:37:32.000+00:00"
 [author]
