@@ -12,7 +12,7 @@ uri = "https://plus.google.com/104896885003230920472"
 Frustrated with C profilers that are either so minimal as to be useless, or giant behemoths that require you to install device drivers, I started writing a lightweight profiler for my [utility library](http://bss-util.blackspherestudios.com). I already had a high precision timer class, so it was just a matter of using a radix trie that didn't blow up the cache. I was very careful about minimizing the impact the profiler had on the code, even going so far as to check if extended precision floating point calculations were slowing it down.
 
 Of course, since I was writing a profiler, I could use the profiler to profile itself. By pretending to profile a random number added to a cache-murdering int stuck in the middle of an array, I could do a fairly good simulation of profiling a function, while also profiling the act of profiling the function. The difference between the two measurements is how much overhead the profiler has. Unfortunately, my initial results were... *unfavorable*, to say the least.
-{{<pre>}}BSS Profiler Heat Output: 
+{{<pre cil>}}BSS Profiler Heat Output: 
 [main.cpp:3851] test_PROFILE: 1370173 µs   [##########
   [code]: 545902.7 µs   [##########
   [main.cpp:3866] outer: 5530.022 ns   [....      
@@ -21,7 +21,7 @@ Of course, since I was writing a profiler, I could use the profiler to profile i
   [main.cpp:3856] control: 1661.779 ns   [.         
   [main.cpp:3876] beginend: 1645.466 ns   [.         
 {{</pre>}}The profiler had an overhead of almost *4 microseconds*. When you're dealing with functions that are called thousands of times a second, you need to be aware of code speed on the scale of *nanoseconds*, and this profiler would *completely ruin* the code. At first, I thought it was my fault, but none of my tweaks seemed to have any measureable effect on the speed whatsoever. On a whim, I decided to comment out the actual _querytime function that was calling QueryPerformanceCounter, then run an external profiler on it.
-{{<pre>}}Average control: 35 ns{{</pre>}}*What?!* Well no wonder my tweaks weren't doing anything, all *my* code was taking a scant *35 nanoseconds* to run. The other **99.9%** of the time was spent on that single, stupid call, which also happened to be the one call I couldn't get rid of. However, that isn't the end of the story; _querytime() looks like this:
+{{<pre cil>}}Average control: 35 ns{{</pre>}}*What?!* Well no wonder my tweaks weren't doing anything, all *my* code was taking a scant *35 nanoseconds* to run. The other **99.9%** of the time was spent on that single, stupid call, which also happened to be the one call I couldn't get rid of. However, that isn't the end of the story; _querytime() looks like this:
 {{<pre cpp>}}void cHighPrecisionTimer::_querytime(unsigned __int64* _pval)
 {
   DWORD procmask=_getaffinity(); 
@@ -42,7 +42,7 @@ No. For more info, see Guidance for acquiring time stamps. This scenario is neit
 
 I couldn't get rid of the QueryPerformanceCounter call itself, but I could get rid of all that other crap it was doing. I commented it out, and *voilà!* The overhead had been reduced to a scant *340 nanoseconds*, only a tenth of what it had been before. I'm still spending 90% of my calculation time calling that stupid function, but there isn't much I can do about that. Either way, it was a good reminder about the entire reason for using a profiler - bottlenecks tend to crop up in the most unexpected places.
 
-{{<pre>}}BSS Profiler Heat Output: 
+{{<pre cil>}}BSS Profiler Heat Output: 
 [main.cpp:3851] test_PROFILE: 142416 µs   [##########
   [code]: 56575.4 µs   [##########
   [main.cpp:3866] outer: 515.43 ns   [....      

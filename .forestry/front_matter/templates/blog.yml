@@ -103,7 +103,6 @@ pages:
 - content/blog/cold-boot.md
 - content/blog/directx-is-terrifying.md
 - content/blog/go-build-is-not-predictable.md
-- content/blog/how-to-make-your-profiler-10x-faster.md
 - content/blog/how-to-train-your-dragon.md
 - content/blog/im-slowly-losing-my-mind.md
 - content/blog/updated-to-do-list.md
@@ -154,6 +153,7 @@ pages:
 - content/blog/dreams-of-failure.md
 - content/blog/everyone-can-be-above-average.md
 - content/blog/the-educational-imbroglio.md
+- content/blog/how-to-make-your-profiler-10x-faster.md
 - content/blog/dreams-are-worth-fighting-for.md
 - content/blog/abortion-has-no-moral-high-ground.md
 - content/blog/why-i-never-built-my-soundcloud-killer.md
