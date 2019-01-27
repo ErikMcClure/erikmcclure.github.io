@@ -134,7 +134,6 @@ pages:
 - content/blog/fgcanvas-webassembly-gui-nobody-wanted.md
 - content/blog/most-people-have-shitty-computers.md
 - content/blog/physics-oriented-network-interpolation.md
-- content/blog/pixel-perfect-hit-testing.md
 - content/blog/volumetric-rendering-in-realtime.md
 - content/blog/why-ill-never-get-life-i-wanted.md
 - content/blog/bullying-never-stops.md
@@ -154,6 +153,7 @@ pages:
 - content/blog/everyone-can-be-above-average.md
 - content/blog/the-educational-imbroglio.md
 - content/blog/how-to-make-your-profiler-10x-faster.md
+- content/blog/pixel-perfect-hit-testing.md
 - content/blog/dreams-are-worth-fighting-for.md
 - content/blog/abortion-has-no-moral-high-ground.md
 - content/blog/why-i-never-built-my-soundcloud-killer.md

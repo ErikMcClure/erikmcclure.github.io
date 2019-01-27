@@ -15,14 +15,14 @@ Basically, he did not run into the window event issues that I was having because
 
 Hence, once you have utilized {{<code>}}WS_EX_TRANSPARENT|WS_EX_COMPOSITED|WS_EX_LAYERED{{</code>}} to make your window click-through-able, you then simply do a hit test on a given pixel after everything has been drawn, and swap out {{<code>}}WS_EX_TRANSPARENT{{</code>}} depending on the value. {{<code>}}GetCursorPos{{</code>}} and {{<code>}}ScreenToClient{{</code>}} will get the mouse coordinates you need, although they can be off your app window entirely so check for that too.
 
-{{<pre>}}if(_dxDriver->MouseHitTest(GetMouseExact()))
+{{<pre cpp>}}if(_dxDriver->MouseHitTest(GetMouseExact()))
   SetWindowLong(_window,GWL_EXSTYLE,((GetWindowLong(_window,GWL_EXSTYLE))&(~WS_EX_TRANSPARENT)));
 else
   SetWindowLong(_window,GWL_EXSTYLE,((GetWindowLong(_window,GWL_EXSTYLE))|WS_EX_TRANSPARENT));{{</pre>}}
   
 To get the pixel value, its a bit trickier. You have two options - you can make a lockable render target, or you can copy the render target to a temporary texture and lock that instead. The DirectX docs said that locking a render target is so expensive you should just copy it over, but after GearGOD went and yelled at me I tested the lockable render target method, and it turns out to be significantly faster. Futher speed gains can be achieved by making a 1x1 lockable render target and simply copying a single pixel from the backbuffer into the lockable render target and testing that.
 
-{{<pre>}}void cDirectX_real::ActivateMouseCheck()
+{{<pre cpp>}}void cDirectX_real::ActivateMouseCheck()
 {
   if(_mousehittest) _mousehittest->Release();
   DX3D_device->CreateRenderTarget(1,1,_holdparams.BackBufferFormat,D3DMULTISAMPLE_NONE,0,TRUE,&_mousehittest,NULL);
