@@ -1,7 +1,7 @@
 +++
 blogimport = true
 categories = ["blog"]
-comments = [845834464275820721, 4602207182752990567, 4044932015689581430, 1267508186017457128]
+comments = [845834464275820700, 4602207182752990700, 4044932015689581600, 1267508186017457200]
 date = "2011-04-10T17:06:00Z"
 title = "Investigating Low-level CPU Performance"
 updated = "2011-04-10T17:18:39.000+00:00"
@@ -15,7 +15,7 @@ While reconstructing my threaded Red-Black tree data structure, I naturally assu
 Old: 626699 ticks
 New: 674000 ticks
 
-{{<pre>}}//Old
+{{<pre cpp>}}//Old
 c = C(key, y->_key);
 if(c==0) return y;
 if(c<0) y=y->_left;
@@ -90,7 +90,7 @@ Now, those of you familiar with CPU branching and other low-level optimizations 
 I have no real explanation for this behavior, but I do have a hypothesis: The important instruction is the extra *LEA* in my new method that appears to be before the branch itself. As a result, it may be possible for the CPU to be doing branch prediction in such a way it shaves off one instruction, which gives it a significant advantage. It may also be that the branching is just *faster* then my increment and bitshift, although I find this highly unlikely. At this point I was wondering if anything I knew about optimization held any meaning in the real world, or if everything was just a lot of guesswork and profiling because *what the fuck?!* However, it then occurred to me that there was an optimization possible for the old version - Move the if(c==0) statement to the bottom so the CPU does the (c<0) and (c>0) comparisons first, since the c==0 comparison only happens once in the traversal. Naturally I was a bit skeptical of this having any effect on the assembly-rewriting, branch-predicting, impulsive teenage bitch that my CPU was at this point, but I tried it anyway.
 
 It worked. There was a small but noticeable improvement in running time by using the old technique and rewriting the if statements as such:
-{{<pre>}}c = C(key, y->_key);
+{{<pre cpp>}}c = C(key, y->_key);
 if (c < 0)  y = y->_left;
 else if(c > 0) y = y->_right;
 else return y;
