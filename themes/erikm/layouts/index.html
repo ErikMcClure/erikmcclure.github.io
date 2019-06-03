@@ -7,7 +7,7 @@
   <aside><h2><a href="/blog/">Latest Post</a></h2>
   <img src="{{ .Site.BaseURL }}{{ .Site.Params.imagesm }}" width="140" height="140" alt="" style="margin-bottom:0.75em"/>
   </aside>
-  <article><h5><a href="{{ .URL }}">{{ .Title }}</a></h5>
+  <article><h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
   {{ .Summary }}
   <hr/>
   <time><i class="fa fa-clock-o fa-fw"></i> Published on {{.Date.Format "January 2, 2006 at 3:04pm"}}</time></article>

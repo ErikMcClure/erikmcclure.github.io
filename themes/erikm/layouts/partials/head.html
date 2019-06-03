@@ -11,7 +11,7 @@
   <meta name="robots" content="index,follow">
   <meta name="googlebot" content="index,follow">
   <meta name="google-site-verification" content="{{ .Site.Params.googleAnalytics }}">
-  {{ .Hugo.Generator }}
+  {{ hugo.Generator }}
   
   <link rel="canonical" href="{{ .Page.Permalink }}"/>
   <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}favicon.ico" />
@@ -21,12 +21,12 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/katex.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css" />
   <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} - RSS" href="{{ .Site.BaseURL }}index.xml" />
-  {{ if or (eq .URL "/blog/") (eq .URL "/projects/") (eq .URL "/web/") (eq .URL "/") }}
+  {{ if or (eq .RelPermalink "/blog/") (eq .RelPermalink "/projects/") (eq .RelPermalink "/web/") (eq .RelPermalink "/") }}
   <meta property="og:type" content="website">
   {{ else }}
   <meta property="og:type" content="article">
   {{ end }}
-  {{ if or (eq .URL "/blog/") (eq .URL "/projects/") (eq .URL "/web/") }}
+  {{ if or (eq .RelPermalink "/blog/") (eq .RelPermalink "/projects/") (eq .RelPermalink "/web/") }}
   <title>{{ .Title }} - {{ .Site.Title }}</title>
   <meta property='og:title' content="{{ .Title }} - {{ .Site.Title }}">
   <meta name="twitter:title" content="{{ .Title }} - {{ .Site.Title }}" />
