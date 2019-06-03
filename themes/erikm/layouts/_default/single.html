@@ -51,7 +51,7 @@
     
     <div class="comments">
       {{ range $i, $e := .Site.Data.dynamic }}
-        {{if eq $e.id $.UniqueID }}
+        {{if eq $e.id .File.UniqueID }}
         {{if $.Scratch.Get "count" }}<hr/>{{end}}
         {{ $.Scratch.Add "count" 1 }}
         <div {{with .reply }}class="reply"{{end}} id="c{{$i}}">
@@ -67,7 +67,7 @@
         {{if $.Scratch.Get "count" }}<hr/>{{end}}
     <!--<form class="commentbox" method="POST" action="https://api.staticman.net/v2/entry/blackhole12/blackhole12.github.io/gh-pages/comments">
       <input name="options[redirect]" type="hidden" value="{{ .Permalink }}">
-      <input name="fields[id]" type="hidden" value="{{ .UniqueID }}">
+      <input name="fields[id]" type="hidden" value="{{ .File.UniqueID }}">
       <input name="fields[reply]" type="hidden" value="">
       <label>Name: <input name="fields[name]" type="text"></label>
       <label><textarea name="fields[message]"></textarea></label>

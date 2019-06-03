@@ -2,15 +2,15 @@
 <div class="pager">
   <ul>
     {{ if .Paginator.HasPrev }}
-    <li><a href="{{ .URL }}page/{{ .Paginator.Prev.PageNumber }}">Newer</a></li>
+    <li><a href="{{ .RelPermalink }}page/{{ .Paginator.Prev.PageNumber }}">Newer</a></li>
     {{ else }}
     <li class="disabled"><a title="No newer posts">Newer</a></li>
     {{ end }}
 
-    <li style="text-align: center;"><a href="{{ .URL }}">Home</a></li>
+    <li style="text-align: center;"><a href="{{ .RelPermalink }}">Home</a></li>
     
     {{ if .Paginator.HasNext }}
-    <li style="text-align: right;"><a href="{{ .URL }}page/{{ .Paginator.Next.PageNumber }}">Older</a></li>
+    <li style="text-align: right;"><a href="{{ .RelPermalink }}page/{{ .Paginator.Next.PageNumber }}">Older</a></li>
     {{ else }}
     <li style="text-align: right;" class="disabled"><a title="No older posts">Older</a></li>
     {{ end }}
