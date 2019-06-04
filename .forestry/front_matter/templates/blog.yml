@@ -24,6 +24,7 @@ fields:
   default:
   - blog
 pages:
+- content/blog/locks-lights-out-of-sight.md
 - content/blog/i-tried-to-install-linux-and-now-i.md
 - content/blog/c-to-c-tutorial-part-3-classes-and.md
 - content/blog/standards-problem.md
@@ -247,4 +248,3 @@ pages:
 - content/blog/nearest-neighbor-algorithms-for-2d-and.md
 - content/blog/planeshader-v097.md
 - content/blog/test.md
-- content/blog/locks-lights-out-of-sight.md
