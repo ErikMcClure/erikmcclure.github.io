@@ -43,7 +43,7 @@ name = "Websites"
 url = "/web/"
 weight = 6
 [params]
-description = "Applied mathematician and software architect who makes games and music."
+description = "Applied mathematician and software architect who occasionally writes music."
 googleanalytics = "Oxb2ia8HjcHLXlvstA8xPpQO3BO_y15Ds2Ia-feq1MQ"
 image = "img/avatar.png"
 imagesm = "img/avatar.th.png"
