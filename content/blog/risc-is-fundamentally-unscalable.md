@@ -1,6 +1,6 @@
 +++
 categories = ["blog"]
-date = "7-27-2019"
+date = "2019-07-27T20:09:00Z"
 title = "RISC Is Fundamentally Unscalable"
 
 +++
