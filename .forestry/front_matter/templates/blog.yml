@@ -24,6 +24,7 @@ fields:
   default:
   - blog
 pages:
+- content/blog/risc-is-fundamentally-unscalable.md
 - content/blog/locks-lights-out-of-sight.md
 - content/blog/test.md
 - content/blog/stop-following-rules.md
