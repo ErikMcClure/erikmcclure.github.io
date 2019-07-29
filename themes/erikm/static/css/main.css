@@ -484,6 +484,9 @@ main.blog section .comments .reply .reply-arrow {
   display: block;
   left: -16px;
 }
+main.blog section article .wrapcommento {
+  padding: 0 1em;
+}
 
 main.blog section .commentbox {
   position:relative;
