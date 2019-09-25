@@ -25,6 +25,10 @@ I am here to warn you, traveler, that **Terra sits on a throne of lies**. I was 
 
 The Bracket Syntax Problem
 
+Terra exists as a syntax extension to Lua. This means it adds additional syntax on top of Lua's existing syntax. Most languages, when extending an existing syntax, would go to great lengths to ensure the new syntax does not create any ambiguities or otherwise interfere with the original syntax, treating it like a delicate flower that mustn't be disturbed, lest it lose a single petal.  
+  
+Terra takes the flower, gently places it on the ground, and then stomps on it, repeatedly, until the flower is nothing but a pile of rubbish on the ground, as dead as the dirt it grew from. Then it sets the remains of the flower on fire, collects the ashes that once knew beauty, drives to a nearby cliffside, and throws them into the uncaring ocean. It probably took a piss too, but I can't prove that.
+
 But, wait, that means it's... the same as the array indexing operator? You don't mean you just put it inside like--
 
 What.
