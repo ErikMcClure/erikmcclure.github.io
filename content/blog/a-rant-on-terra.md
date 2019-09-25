@@ -15,21 +15,21 @@ One particular place where metaprogramming is particularly useful is low-level, 
 >
 > Features of other languages such as conditional compilation and templating simply fall out of the combination of using Lua to meta-program Terra
 
-Terra even claims you can implement Java-like OOP inheritance models as libraries and drop them into your program. It may also cure cancer, but the documentation wasn't clear.
+Terra even claims you can implement Java-like OOP inheritance models as libraries and drop them into your program. It may also cure cancer, the documentation wasn't clear about that part.
 
 > As shown in the templating example, Terra allows you to define methods on struct types but does not provide any built-in mechanism for inheritance or polymorphism. Instead, normal class systems can be written as libraries. More information is available in our PLDI Paper.
 >
 > The file lib/javalike.t has one possible implementation of a Java-like class system, while the file lib/golike.t is more similar to Google’s Go language.
 
-I am here to warn you, traveler, that **Terra sits on a throne of lies**. I was foolish. I was taken in by their audacious claims and fake jewels. It is only when I finally sat down to dine with them that I realized I was surrounded by nothing but cheap plastic and fed slightly burnt toast.
+I am here to warn you, traveler, that **Terra sits on a throne of lies**. I was foolish. I was taken in by their audacious claims and fake jewels. It is only when I finally sat down to dine with them that I realized I was surrounded by nothing but cheap plastic and slightly burnt toast.
 
-The \[\] terra syntax problem
+The Bracket Syntax Problem
 
 But, wait, that means it's... the same as the array indexing operator? You don't mean you just put it inside like--
 
 What.
 
-WHAT?!
+**_WHAT?!_**
 
 You were supposed to banish the syntax demons, not summon them!
 
