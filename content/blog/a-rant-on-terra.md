@@ -15,7 +15,7 @@ One particular place where metaprogramming is particularly useful is low-level, 
 >
 > Features of other languages such as conditional compilation and templating simply fall out of the combination of using Lua to meta-program Terra
 
-Terra even claims you can implement Java-like OOP inheritance models as libraries and drop them into your program. It may also cure cancer, the documentation wasn't clear about that part.
+Terra even claims you can implement Java-like OOP inheritance models as libraries and drop them into your program. It may also cure cancer (the documentation wasn't clear).
 
 > As shown in the templating example, Terra allows you to define methods on struct types but does not provide any built-in mechanism for inheritance or polymorphism. Instead, normal class systems can be written as libraries. More information is available in our PLDI Paper.
 >
@@ -55,11 +55,23 @@ What.
 
 **_WHAT?!_**
 
-You were supposed to banish the syntax demons, not summon them! This is an abomination! It is an insult to God's creations, and His ultimate plan. It is the very foundation that Satan himself would use to unleash Evil upon the world. Behold, mortals, for I come as a harbinger of _despair_:
+You were supposed to banish the syntax demons, not summon them! This is an abomination! It is an insult to God's creations, and His ultimate plan. It is the very foundation that Satan himself would use to unleash Evil upon the world. Behold, mortals, for I come as the harbinger of _despair_:
 ```
+import "regent"
 
+local function genStatement(alpha, beta)
+  return rquote
+    alpha = beta + 3
+  end
+end
+
+task toplevel()
+  var a = 1
+  var b = 2
+  [genStatement(a, b)][genStatement(b, a)]
+end
 ```
-For those of you joining us (probably because you heard a blood-curdling scream from down the hall), this syntax is exactly as ambiguous as you might think. The most obvious problem is multi-dimensional arrays, because you no longer know if a splice operator is supposed to index the array or act as a splice operator, as detailed in this issue. However, because this is Lua, whose syntax is very much like a delicate flower that cannot be disturbed, there is a much worse ambiguity possible.
+For those of you joining us (probably because you heard a blood-curdling scream from down the hall), this syntax is exactly as ambiguous as you might think. The most obvious problem is multi-dimensional arrays, because you no longer know if a splice operator is supposed to index the array or act as a splice operator, as [mentioned in this issue](https://github.com/StanfordLegion/legion/issues/522). However, because this is Lua, whose syntax is very much like a delicate flower that cannot be disturbed, there is a much worse ambiguity possible.
 ```
 
 ```
@@ -81,7 +93,27 @@ All The Documentation Is Wrong
 
 Terra's documentation is so wrong that it somehow manages to be wrong in both directions. That is, some of the documentation is out-of-date, while some of the documentation refers to concepts that never made it out of the develop branch. I can only assume that a time-traveling gremlin was hired to write the documentation, who promptly got lost admist the diverging timelines. It is a quantum document, both right and wrong at the same time, yet somehow always useless, a puzzle beyond the grasp of modern physics.
 
+Terra Doesn't Actually Work On Windows
+
+Saying that Terra supports Windows is a statement fraught with danger. It is a statement so full of holes that an entire screen door could try to sell you car insurance and it would have fewer caveats.
+
+
+
+
+For those of you who actually wish to try Terra, but do not want to wait for 
+
 The terra symbol operator as a C preprocessor replacement instead of a template
+
+"Aha!" says our observant student, "a reference to a variable from an outside context!" While this construct *does* let you access a variable from an outside context, and if you attempt to use it like this will mostly work exactly as you expect, what it's actually doing is much ~~worse~~ more subtle. You see, grasshopper, a symbol is not a reference to a variable node in the AST, it is a reference to an *identifier*.
+
+
+
+Yes, that is valid Terra, and yes, the people who built this language did this on purpose. Why any human being still capable of love would ever design such a catastrophe is simply beyond me. These aren't symbol references, they're **typed preprocessor macros**. They are literally C preprocesor macros, capable of causing just as much woe and suffering as one, except that they are typed and they can't redefine existing terms. This is, admittedly, *slightly* better than a normal C macro. However, seeing as there have been entire books written about humanity's collective hatred of C macros, this is equivilent to being a slightly more usable programming language than Brainfuck. It's not a very high bar. The bar probably exists somewhere inside the Earth's mantle.
+
+Yes, yes, you may pick your jaw up from the floor now. You see, Terra is not a replacement for C++. Or Java. Or pretty much any other remotely complex language. Terra isn't even really capable of re-implementing these languages. The slow, horrifying realization of what our kind has wrought 
+
+
+
 
 How terra is literally C but the preprocessor is lua
 
