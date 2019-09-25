@@ -30,14 +30,50 @@ Terra exists as a syntax extension to Lua. This means it adds additional syntax 
 Terra takes the flower, gently places it on the ground, and then stomps on it, repeatedly, until the flower is nothing but a pile of rubbish on the ground, as dead as the dirt it grew from. Then it sets the remains of the flower on fire, collects the ashes that once knew beauty, drives to a nearby cliffside, and throws them into the uncaring ocean. It probably took a piss too, but I can't prove that.
 
 To understand why, one must understand what the escape operator is. It allows you to splice an abstract AST generated from a lua expression directly into Terra code. Here is an example from Terra's website:
-
+```
+function get5()
+	return 5
+end
+terra foobar()
+	return [ get5() + 1 ]
+end
+foobar:printpretty()
+> output:
+> foobar0 = terra() : {int32}
+> 	return 6
+> end
+```
 But, wait, that means it's... the same as the array indexing operator? You don't mean you just put it inside like--
+```
+local rest = {symbol(int),symbol(int)}
 
+terra doit(first : int, [rest])
+    return first + [rest[1]] + [rest[2]]
+end
+```
 What.
 
 **_WHAT?!_**
 
-You were supposed to banish the syntax demons, not summon them!
+You were supposed to banish the syntax demons, not summon them! This is an abomination! It is an insult to God's creations, and His ultimate plan. It is the very foundation that Satan himself would use to unleash Evil upon the world. Behold, mortals, for I come as a harbinger of _despair_:
+```
+
+```
+For those of you just joining us (probably because you heard a blood-curdling scream from across the hallway), this syntax is exactly as ambiguous as you might think. The most obvious problem is multi-dimensional arrays, because you no longer know if a splice operator is supposed to index the array or act as a splice operator, as detailed in this issue. However, because this is Lua, whose syntax is very much like a delicate flower that cannot be disturbed, there is a much worse ambiguity possible.
+```
+
+```
+The intent here is shown in the comments. We want to use a spliced lua expression as the array index. However, if no spaces are used, do you know what happens?
+
+It turns into a string, because `[[string]]` is the lua syntax for an unescaped string. Now, those of you who still possess functioning brains may believe that this would result in a syntax error, as we have now placed a string next to a variable. **Not so!** Lua, in it's infinite wisdom, converts anything of the form `symbol"string"` or `symbol[[string]]` into a **function call** with the string as the only parameter. That means we literally attempt to *call our variable as a function with our expression as a string*:
+```
+
+```
+As a result, you get a *runtime error*, not a syntax error, and a very bizarre one too, because it's going to complain about trying to call a function. This is like trying to bake pancakes for breakfast and accidentally shipping your cat to Abu Dhabi instead. It's not a sequence of events that should ever be related in any universe that obeys causality.
+
+
+
+
 
 It should be noted that, after a friend of mine heard my screams of agony, [an issue was raised]() to change the syntax to something that involved less self-mutilation. Unfortunately, this is a breaking change, and as a result will probably require performing an exorcism.
 
