@@ -100,6 +100,8 @@ Saying that Terra supports Windows is a statement fraught with danger. It is a s
 
 
 
+Eventually, I intend to perform the holy incantations required to invoke the almighty powers of COM, so that it may find what fifth-dimensional hyperplane Visual Studio is located on for me. You see, children, programming for Windows is easy! All you have to do is **s͏̷E͏l͏̢҉l̷ ̸̕͡Y͏o҉u͝R̨͘ ̶͝sơ̷͟Ul̴**
+
 For those of you who actually wish to try Terra, but don't want to wait for ~~me to fix everything~~ a new release, you can embed the following code at the top of your root terra script:
 ```
 
