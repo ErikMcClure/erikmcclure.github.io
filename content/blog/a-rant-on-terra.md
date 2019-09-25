@@ -7,7 +7,7 @@ title = "A Rant On Terra"
 +++
 Metaprogramming, or the ability to inspect, modify and generate code at compile-time (as opposed to reflection, which is runtime introspection of code), has slowly been gaining momentum. Programmers are finally admitting that, after [accidentally inventing turing complete template systems](https://en.wikipedia.org/wiki/Template_metaprogramming), maybe we should just have proper first-class support for generating code. [Rust has macros](https://doc.rust-lang.org/1.2.0/book/macros.html), Zig has [built-in compile time expressions](https://ziglang.org/documentation/master/#Compile-Time-Expressions), Nim lets you [rewrite the AST](https://nim-lang.org/docs/macros.html) however you please, and [dependent types](https://en.wikipedia.org/wiki/Dependent_type) have been cropping up all over the place. However, with great power comes ~~great responsibility~~ undecidable type systems, whose undefined behavior may involve summoning eldritch abominations from the Black Abyss of Rěgne Ūt.
 
-One particular place where metaprogramming is particularly useful is low-level, high-performance code, which is what [Terra](http://terralang.org/) was created for. The idea behind Terra is that, instead of crafting ancient runes inscribed with infinitely nested variadic templates, just replace the whole thing with an actual turing-complete language, like say, [Lua](https://www.lua.org/) (technically including [LuaJIT](http://luajit.org/) extensions for FFI). This all sounds nice, and no longer requires a circle of salt to ward off demonic syntax, which Terra's website is quick to point out, espousing the magical wonders of replacing your metaprogramming system with an actual scripting language:
+One particular place where metaprogramming is particularly useful is low-level, high-performance code, which is what [Terra](http://terralang.org/) was created for. The idea behind Terra is that, instead of crafting ancient runes inscribed with infinitely nested variadic templates, just replace the whole thing with an actual turing-complete language, like say, [Lua](https://www.lua.org/) (technically including [LuaJIT](http://luajit.org/) extensions for FFI). This all sounds nice, and no longer requires a circle of salt to ward off demonic syntax. Terra's website is quick to point this out, espousing the magical wonders of replacing your metaprogramming system with an actual scripting language:
 
 > In Terra, we just gave in to the trend of making the meta-language of C/C++ more powerful and replaced it with a real programming language, Lua.
 >
@@ -34,6 +34,10 @@ WHAT?!
 You were supposed to banish the syntax demons, not summon them!
 
 It should be noted that, after a friend of mine heard my screams of agony, [an issue was raised]() to change the syntax to something that involved less self-mutilation. Unfortunately, this is a breaking change, and as a result will probably require performing an exorcism.
+
+All The Documentation Is Wrong
+
+Terra's documentation is so wrong that it somehow manages to be wrong in both directions. That is, some of the documentation is out-of-date, while some of the documentation refers to concepts that never made it out of the develop branch.
 
 The terra symbol operator as a C preprocessor replacement instead of a template
 
