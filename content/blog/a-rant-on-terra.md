@@ -93,13 +93,16 @@ It should be noted that, after a friend of mine heard my screams of agony, [an i
 
 Terra's documentation is so wrong that it somehow manages to be wrong in both directions. That is, some of the documentation is out-of-date, while some of it refers to concepts that never made it into `master`. I can only assume that a time-traveling gremlin was hired to write the documentation, who promptly got lost admist the diverging timelines. It is a quantum document, both right and wrong at the same time, yet somehow always useless, a puzzle beyond the grasp of modern physics.
 
-* The first thing talked about in the [API Reference](http://terralang.org/api.html#lua-api) is a List object. None of the functions, aside from `map()`, actually exist, because they were never merged from the develop branch. Almost the entire section is completely wrong for the `1.0.0-beta1` release. 
+* The first thing talked about in the [API Reference](http://terralang.org/api.html#lua-api) is a List object. It does not actually exist. A primitive incarnation of it does exist , but it only implements `map()` Almost the entire section is completely wrong for the `1.0.0-beta1` release. The actual List object being described [sits alone and forgotten](https://github.com/zdevito/terra/blob/develop/src/terralist.lua) in the develop branch, dust already beginning to collect on it's API calls, despite those API calls being the ones in the documentation... somehow.
 
 * `:printpretty()` is a function that prints out a pretty string representation of a given piece of terra code, by parsing the AST representation. On it's face, it does do exactly what is advertised: it prints a string. However, one might assume that it *returns* the string, or otherwise allows you to do something with it. This doesn't happen. It literally calls the `print()` function, throwing the string out the window and straight into the `stdout` buffer without a care in the world. If you want the *actual string*, you must call either `layoutstring()` (for types) or `prettystring()` (for quotes). Neither function is documented, anywhere.
 
-* Macros can only be called from inside terra code. Unless you give the constructor two parameters, the second parameter being a function that should be called from inside a lua context. This behavior is not mentioned in any documentation anywhere, which makes it even more confusing when someone defines a macro as `macro(myfunction, myfunction)` and then calls it from a lua context, which, according to the documentation, should be impossible.
+* Macros can only be called from inside terra code. Unless you give the constructor two parameters, where the second parameter is a function called from inside a lua context. This behavior is not mentioned in any documentation. anywhere, which makes it even more confusing when someone defines a macro as `macro(myfunction, myfunction)` and then calls it from a lua context, which, according to the documentation, should be impossible.
 
-* 
+* The documentation often doesn't specify which parts of the syntax should be run in a lua context or not. For example, a terra function prototype is given as follows:
+  ```
+  [local] terra myfunctionname :: {int,bool} -> {int}
+  ```
 
 ## Terra Doesn't Actually Work On Windows
 
