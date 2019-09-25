@@ -27,7 +27,7 @@ The Bracket Syntax Problem
 
 Terra exists as a syntax extension to Lua. This means it adds additional syntax on top of Lua's existing syntax. Most languages, when extending an existing syntax, would go to great lengths to ensure the new syntax does not create any ambiguities or otherwise interfere with the original syntax, treating it like a delicate flower that mustn't be disturbed, lest it lose a single petal.  
   
-Terra takes the flower, gently places it on the ground, and then stomps on it, repeatedly, until the flower is nothing but a pile of rubbish on the ground, as dead as the dirt it grew from. Then it sets the remains of the flower on fire, collects the ashes that once knew beauty, drives to a nearby cliffside, and throws them into the uncaring ocean. It probably took a piss too, but I can't prove that.
+Terra takes the flower, gently places it on the ground, and then stomps on it, repeatedly, until the flower is nothing but a pile of rubbish, as dead as the dirt it grew from. Then it sets the remains of the flower on fire, collects the ashes that once knew beauty, drives to a nearby cliffside, and throws them into the uncaring ocean. It probably took a piss too, but I can't prove that.
 
 To understand why, one must understand what the escape operator is. It allows you to splice an abstract AST generated from a lua expression directly into Terra code. Here is an example from Terra's website:
 ```
@@ -59,7 +59,7 @@ You were supposed to banish the syntax demons, not summon them! This is an abomi
 ```
 
 ```
-For those of you just joining us (probably because you heard a blood-curdling scream from across the hallway), this syntax is exactly as ambiguous as you might think. The most obvious problem is multi-dimensional arrays, because you no longer know if a splice operator is supposed to index the array or act as a splice operator, as detailed in this issue. However, because this is Lua, whose syntax is very much like a delicate flower that cannot be disturbed, there is a much worse ambiguity possible.
+For those of you joining us (probably because you heard a blood-curdling scream from down the hall), this syntax is exactly as ambiguous as you might think. The most obvious problem is multi-dimensional arrays, because you no longer know if a splice operator is supposed to index the array or act as a splice operator, as detailed in this issue. However, because this is Lua, whose syntax is very much like a delicate flower that cannot be disturbed, there is a much worse ambiguity possible.
 ```
 
 ```
@@ -75,11 +75,11 @@ As a result, you get a *runtime error*, not a syntax error, and a very bizarre o
 
 
 
-It should be noted that, after a friend of mine heard my screams of agony, [an issue was raised]() to change the syntax to something that involved less self-mutilation. Unfortunately, this is a breaking change, and as a result will probably require performing an exorcism.
+It should be noted that, after a friend of mine heard my screams of agony, [an issue was raised]() to change the syntax to a summoning ritual that involved less self-mutilation. Unfortunately, this is a breaking change, and will probably require an exorcism.
 
 All The Documentation Is Wrong
 
-Terra's documentation is so wrong that it somehow manages to be wrong in both directions. That is, some of the documentation is out-of-date, while some of the documentation refers to concepts that never made it out of the develop branch. I can only assume that a time-traveling gremlin was hired to write the documentation for it to have gotten into this state.
+Terra's documentation is so wrong that it somehow manages to be wrong in both directions. That is, some of the documentation is out-of-date, while some of the documentation refers to concepts that never made it out of the develop branch. I can only assume that a time-traveling gremlin was hired to write the documentation, who promptly got lost admist the diverging timelines. It is a quantum document, both right and wrong at the same time, yet somehow always useless, a puzzle beyond the grasp of modern physics.
 
 The terra symbol operator as a C preprocessor replacement instead of a template
 
