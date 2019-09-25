@@ -29,6 +29,8 @@ Terra exists as a syntax extension to Lua. This means it adds additional syntax 
   
 Terra takes the flower, gently places it on the ground, and then stomps on it, repeatedly, until the flower is nothing but a pile of rubbish on the ground, as dead as the dirt it grew from. Then it sets the remains of the flower on fire, collects the ashes that once knew beauty, drives to a nearby cliffside, and throws them into the uncaring ocean. It probably took a piss too, but I can't prove that.
 
+To understand why, one must understand what the escape operator is. It allows you to splice an abstract AST generated from a lua expression directly into Terra code. Here is an example from Terra's website:
+
 But, wait, that means it's... the same as the array indexing operator? You don't mean you just put it inside like--
 
 What.
@@ -41,7 +43,7 @@ It should be noted that, after a friend of mine heard my screams of agony, [an i
 
 All The Documentation Is Wrong
 
-Terra's documentation is so wrong that it somehow manages to be wrong in both directions. That is, some of the documentation is out-of-date, while some of the documentation refers to concepts that never made it out of the develop branch.
+Terra's documentation is so wrong that it somehow manages to be wrong in both directions. That is, some of the documentation is out-of-date, while some of the documentation refers to concepts that never made it out of the develop branch. I can only assume that a time-traveling gremlin was hired to write the documentation for it to have gotten into this state.
 
 The terra symbol operator as a C preprocessor replacement instead of a template
 
