@@ -106,7 +106,7 @@ For those of you who actually wish to try Terra, but don't want to wait for ~~me
 ```
 Yes, we are literally overwriting parts of the compiler itself, at runtime, from our script. **Welcome to Lua!** Enjoy your stay, and don't let the fact that any script you run could completely rewrite the compiler keep you up at night!
 
-
+## The Existential Horror of Terra Symbols
 
 The terra symbol operator as a C preprocessor replacement instead of a template
 
@@ -119,12 +119,16 @@ Yes, that is valid Terra, and yes, the people who built this language did this o
 Yes, yes, you may pick your jaw up from the floor now. You see, Terra is not a replacement for C++. Or Java. Or pretty much any other remotely complex language. Terra isn't even really capable of re-implementing these languages. The slow, horrifying realization of what our kind has wrought 
 
 
-
+## Terra is C but the Preprocessor is Lua
 
 How terra is literally C but the preprocessor is lua
 
 This means that implementing objects is almost impossible because terra has no scoping mechanisms - it's C, so you just implement vtables without being able to do constructors or destructors easily. It does have "defer" but you have to invoke it yourself
 
 If terra was actually trying to build a metaprogramming equivilent to templates, it would have an actual type system. These languages already exist - Idris, etc. etc. etc., but none of them are interested in using their dependent type systems to actually metaprogram low-level code. The problem is that building a recursively metaprogrammable type system requires building a proof assistant, and everyone is so proud of the fact they built a proof assistant they forget that dependent type systems can do other things too, like build really fast memcpy implementations.
+
+
+Alas, such beauty can only exist in the minds of Mathematicians and small kittens, 
+
 
 In conclusion, everything is terrible and I want to die.
