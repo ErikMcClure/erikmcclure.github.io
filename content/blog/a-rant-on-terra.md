@@ -101,7 +101,9 @@ Terra's documentation is so wrong that it somehow manages to be wrong in both di
 
 * Struct fields are not specified by their name, but rather just held in a numbered list of {name, type} pairs. This *is* documented, but a consequence of this system is not: Struct field names do not have to be unique. They can all be the same thing. Terra doesn't actually care. You can't actually be sure that any given field name lookup will result in, y'know, *one field*. Nothing mentions this.
 
-* The documentation for saveobj is a special kind of infuriating, because everything is *technically* correct, yet it does not give you any examples and instead simply lists a function with 2 arguments and 4 interwoven optional arguments, In reality it's absolutely trivial to use becuase you can ignore almost all the parameters. Just write `terralib.saveobj("blah", {main = main})` and you're done. But there isn't a *single example of this* anywhere on the entire website. Only a paragraph and two sentences explaining in the briefest way possible how to use the function, followed by a highly technical example of how to initialize a custom target parameter, which doesn't actually compile because it has errant semicolons. This is literally *the most important function* in the entire language, because it's what actually compiles an executable!
+* The documentation for saveobj is a special kind of infuriating, because everything is *technically* correct, yet it does not give you any examples and instead simply lists a function with 2 arguments and 4 interwoven optional arguments, In reality it's absolutely trivial to use becuase you can ignore almost all the parameters. Just write `terralib.saveobj("blah", {main = main})` and you're done. But there isn't a *single example of this* anywhere on the entire website. Only a paragraph and two sentences explaining in the briefest way possible how to use the function, followed by a highly technical example of how to initialize a custom target parameter, which *doesn't actually compile* because it has errant semicolons. This is literally *the most important function* in the entire language, because it's what actually compiles an executable!
+
+* The `defer` keyword is critical to being able to do proper error cleanup, because it functions similar to Go's defer by performing a function call at the end of a lexical scope. It is not documented, anywhere, or even mentioned anywhere on the website.
 
 Perhaps there are more tragedies hidden inside this baleful document, but I cannot know, as I have yet to unearth the true depths of the madness lurking within. I am, at most, on the third or fourth circle of hell.
   
@@ -121,7 +123,7 @@ I know the words of Black Speech that must be spoken to reveal the true nature o
 
 For those of you who actually wish to try Terra, but don't want to wait for ~~me to fix everything~~ a new release, you can embed the following code at the top of your root terra script:
 ```
-if os.getenv("VCINSTALLDIR") ~= nil then -- If terra is being run inside the developer console, use those environment variables instead
+if os.getenv("VCINSTALLDIR") ~= nil then
   terralib.vshome = os.getenv("VCToolsInstallDir")
   if not terralib.vshome then
       terralib.vshome = os.getenv("VCINSTALLDIR")
@@ -143,21 +145,24 @@ Yes, we are literally overwriting parts of the compiler itself, at runtime, from
 
 ## The Existential Horror of Terra Symbols
 
-The terra symbol operator as a C preprocessor replacement instead of a template
 
+  
 "Aha!" says our observant student, "a reference to a variable from an outside context!" While this construct *does* let you access a variable from an outside context, and if you attempt to use it like this will mostly work exactly as you expect, what it's actually doing is much ~~worse~~ more subtle. You see, grasshopper, a symbol is not a reference to a variable node in the AST, it is a reference to an *identifier*.
 ```
 
 ```
-Yes, that is valid Terra, and yes, the people who built this language did this on purpose. Why any human being still capable of love would ever design such a catastrophe is simply beyond me. These aren't symbol references, they're **typed preprocessor macros**. They are literally C preprocesor macros, capable of causing just as much woe and suffering as one, except that they are typed and they can't redefine existing terms. This is, admittedly, *slightly* better than a normal C macro. However, seeing as there have been entire books written about humanity's collective hatred of C macros, this is equivilent to being a slightly more usable programming language than Brainfuck. It's not a very high bar. The bar probably exists somewhere inside the Earth's mantle.
-
-Yes, yes, you may pick your jaw up from the floor now. You see, Terra is not a replacement for C++. Or Java. Or pretty much any other remotely complex language. Terra isn't even really capable of re-implementing these languages. The slow, horrifying realization of what our kind has wrought 
-
+Yes, that is valid Terra, and yes, the people who built this language did this on purpose. Why any human being still capable of love would ever design such a catastrophe is simply beyond me. These aren't symbol references, they're **typed preprocessor macros**. They are literally C preprocesor macros, capable of causing just as much woe and suffering as one, except that they are typed and they can't redefine existing terms. This is, admittedly, *slightly* better than a normal C macro. However, seeing as there have been entire books written about humanity's collective hatred of C macros, this is equivilent to being a slightly more usable programming language than Brainfuck. This is such a low bar it's probably buried somewhere in the Mariana Trench.
 
 ## Terra is C but the Preprocessor is Lua
 
-How terra is literally C but the preprocessor is lua
+You realize now, what monstrosity has been wraught? The sin that Terra has committed now lies naked before us, exposed in all it's horrifying guilt.
 
+**Terra is C if you replaced the preprocessor with Lua.**
+
+Remember how Terra says you can implement Java-like and Go-like class systems? You can't. Or rather, you can only hope to create a pathetic imitation, a facsimile of a real class system, bereft of any useful mechanisms and striped down to the bone. It is nothing more than an implementation of vtables, just like you would make in C. Because Terra is C.
+  
+There can be no constructors, or destructors, or automatic initialization, or any sort of borrow checking analysis, because Terra has no scoping mechanisms. The only thing it provides is `defer`, which **isn't documented anywhere**
+  
 This means that implementing objects is almost impossible because terra has no scoping mechanisms - it's C, so you just implement vtables without being able to do constructors or destructors easily. It does have "defer" but you have to invoke it yourself
 
 If terra was actually trying to build a metaprogramming equivilent to templates, it would have an actual type system. These languages already exist - Idris, etc. etc. etc., but none of them are interested in using their dependent type systems to actually metaprogram low-level code. The problem is that building a recursively metaprogrammable type system requires building a proof assistant, and everyone is so proud of the fact they built a proof assistant they forget that dependent type systems can do other things too, like build really fast memcpy implementations.
