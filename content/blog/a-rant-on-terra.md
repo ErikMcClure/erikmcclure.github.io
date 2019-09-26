@@ -57,18 +57,13 @@ What.
 
 You were supposed to banish the syntax demons, not join them! This *abomination* is an insult to God's creations, and makes every living being in the cosmos beg for the sweet release of death! It is the very foundation that Satan himself would use to unleash Evil upon the world. Behold, mortals, for I come as the harbinger of _despair_:
 ```
-import "regent"
+function idx(x) return `x end
+function gen(a, b) return array(a, b) end
 
-local function genStatement(alpha, beta)
-  return rquote
-    alpha = beta + 3
-  end
-end
-
-task toplevel()
+terra test()
   var a = 1
   var b = 2
-  [genStatement(a, b)][genStatement(b, a)]
+  [genStatement(a, b)][idx(4)]
 end
 ```
 For those of you joining us (probably because you heard a blood-curdling scream from down the hall), this syntax is exactly as ambiguous as you might think. Is it two splice statements put next to each other, or is a splice statement with an array index? You no longer know if a splice operator is supposed to index the array or act as a splice operator, as [mentioned in this issue](https://github.com/StanfordLegion/legion/issues/522). However, because this is Lua, whose syntax is very much like a delicate flower that cannot be disturbed, there is a much worse ambiguity possible.
