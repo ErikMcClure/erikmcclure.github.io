@@ -103,7 +103,7 @@ Terra's documentation is so wrong that it somehow manages to be wrong in both di
 
 * The documentation for saveobj is a special kind of infuriating, because everything is *technically* correct, yet it does not give you any examples and instead simply lists a function with 2 arguments and 4 interwoven optional arguments, In reality it's absolutely trivial to use becuase you can ignore almost all the parameters. Just write `terralib.saveobj("blah", {main = main})` and you're done. But there isn't a *single example of this* anywhere on the entire website. Only a paragraph and two sentences explaining in the briefest way possible how to use the function, followed by a highly technical example of how to initialize a custom target parameter, which *doesn't actually compile* because it has errant semicolons. This is literally *the most important function* in the entire language, because it's what actually compiles an executable!
 
-* The `defer` keyword is critical to being able to do proper error cleanup, because it functions similar to Go's defer by performing a function call at the end of a lexical scope. It is not documented, anywhere, or even mentioned anywhere on the website.
+* The `defer` keyword is critical to being able to do proper error cleanup, because it functions similar to Go's defer by performing a function call at the end of a lexical scope. It is not documented, anywhere, or even mentioned at all on the website.
 
 Perhaps there are more tragedies hidden inside this baleful document, but I cannot know, as I have yet to unearth the true depths of the madness lurking within. I am, at most, on the third or fourth circle of hell.
   
@@ -159,11 +159,16 @@ You realize now, what monstrosity has been wraught? The sin that Terra has commi
 
 **Terra is C if you replaced the preprocessor with Lua.**
 
-Remember how Terra says you can implement Java-like and Go-like class systems? You can't. Or rather, you can only hope to create a pathetic imitation, a facsimile of a real class system, bereft of any useful mechanisms and striped down to the bone. It is nothing more than an implementation of vtables, just like you would make in C. Because Terra is C.
+Remember how Terra says you can implement Java-like and Go-like class systems? You can't. Or rather, you will end up with a pathetic imitation, a facsimile of a real class system, striped down to the bone and bereft of any useful mechanisms. It is nothing more than an implementation of vtables, just like you would make in C. Because Terra is C. It's metaprogrammable C.
   
-There can be no constructors, or destructors, or automatic initialization, or any sort of borrow checking analysis, because Terra has no scoping mechanisms. The only thing it provides is `defer`, which only operates inside lua lexical blocks (`do` and `end`) sometimes, if you get lucky. The exact behavior is a bit confusing, and of course can only be divined by random experimenation because **isn't documented anywhere!**
-  
+There can be no constructors, or destructors, or automatic initialization, or any sort of borrow checking analysis, because Terra has no scoping mechanisms. The only thing it provides is `defer`, which only operates inside lua lexical blocks (`do` and `end`)... sometimes, if you get lucky. The exact behavior is a bit confusing, and of course can only be divined by random experimentation because it **isn't documented anywhere!** Terra's only saving grace, the *singular keyword* that allows you to attempt to build some sort of pretend object system, **isn't actually mentioned anywhere**.
+
+Of course, Terra's metaprogramming *is* turing complete, and it is *technically possible* to implement some of these mechanisms, but only if you either wrap absolutely every single variable declaration in a function, or you introspect the AST and annotate every single variable 
 This means that implementing objects is almost impossible because terra has no scoping mechanisms - it's C, so you just implement vtables without being able to do constructors or destructors easily. It does have "defer" but you have to invoke it yourself
+
+
+# There Is No Type System
+
 
 If terra was actually trying to build a metaprogramming equivilent to templates, it would have an actual type system. These languages already exist - Idris, etc. etc. etc., but none of them are interested in using their dependent type systems to actually metaprogram low-level code. The problem is that building a recursively metaprogrammable type system requires building a proof assistant, and everyone is so proud of the fact they built a proof assistant they forget that dependent type systems can do other things too, like build really fast memcpy implementations.
 
