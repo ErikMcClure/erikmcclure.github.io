@@ -89,7 +89,7 @@ As a result, you get a *runtime error*, not a syntax error, and a very bizarre o
 
 It should be noted that, after a friend of mine heard my screams of agony, [an issue was raised]() to change the syntax to a summoning ritual that involves less self-mutilation. Unfortunately, this is a breaking change, and will probably require an exorcism.
 
-## All The Documentation Is Wrong
+## The Documentation Is Wrong
 
 Terra's documentation is so wrong that it somehow manages to be wrong in both directions. That is, some of the documentation is out-of-date, while some of it refers to concepts that never made it into `master`. I can only assume that a time-traveling gremlin was hired to write the documentation, who promptly got lost admist the diverging timelines. It is a quantum document, both right and wrong at the same time, yet somehow always useless, a puzzle beyond the grasp of modern physics.
 
@@ -99,11 +99,12 @@ Terra's documentation is so wrong that it somehow manages to be wrong in both di
 
 * Macros can only be called from inside terra code. Unless you give the constructor two parameters, where the second parameter is a function called from inside a lua context. This behavior is not mentioned in any documentation. anywhere, which makes it even more confusing when someone defines a macro as `macro(myfunction, myfunction)` and then calls it from a lua context, which, according to the documentation, should be impossible.
 
-* The documentation often doesn't specify which parts of the syntax should be run in a lua context or not. For example, a terra function prototype is given as follows:
-  ```
-  [local] terra myfunctionname :: {int,bool} -> {int}
-  ```
+* Struct fields are not specified by their name, but rather just held in a numbered list of {name, type} pairs. This *is* documented, but a consequence of this system is not: Struct field names do not have to be unique. They can all be the same thing. Terra doesn't actually care. You can't actually be sure that any given field name lookup will result in, y'know, *one field*. Nothing mentions this.
 
+* The documentation for saveobj is a special kind of infuriating, because everything is *technically* correct, yet it does not give you any examples and instead simply lists a function with 2 arguments and 4 interwoven optional arguments, In reality it's absolutely trivial to use becuase you can ignore almost all the parameters. Just write `terralib.saveobj("blah", {main = main})` and you're done. But there isn't a *single example of this* anywhere on the entire website. Only a paragraph and two sentences explaining in the briefest way possible how to use the function, followed by a highly technical example of how to initialize a custom target parameter, which doesn't actually compile because it has unnecessary semicolons. This is literally *the most important function* in the entire language, because it's what actually compiles an executable!
+
+Perhaps there are more tragedies hidden within this baleful document, but I cannot know, as I have yet to unearth the true depths of the madness behind Terra. I am, at most, on the third or fourth circle of hell. There will be many more trials ahead, I am sure.
+  
 ## Terra Doesn't Actually Work On Windows
 
 Saying that Terra supports Windows is a statement fraught with danger. It is a statement so full of holes that an entire screen door could try to sell you car insurance and it'd still be a safer bet than running Terra on Windows. Attempting to use Terra on Windows will work if you have Visual Studio 2015 installed. It *might* work if you have Visual Studio 2013 installed. No other scenarios are supported, espiecally not ones that involve being productive. Actually *compiling* Terra on Windows is a hellish endeavor comparable to climbing Mount Everest in a bathing suit, which requires either having Visual Studio 2015 installed *to the default location*, or manually modifying a Makefile with the exact absolute paths of all the relevent dependencies. At least up until last week, when I [submitted a pull request](https://github.com/zdevito/terra/pull/400) to minimize the amount of mountain climbing required.
