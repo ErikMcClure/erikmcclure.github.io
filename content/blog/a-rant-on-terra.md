@@ -119,7 +119,7 @@ Terra code can only call functions that have *concrete symbols*, because it's ac
 
 Luckily for the Terra project, I am the demonic presence they need to fix all of this, for I was once a Microsoftie. Long ago, I walked the halls of the Operating Systems Group and helped craft black magic to sate the monster's unending hunger for code. I saw True Evil blossom in those dark rooms, like having only three flavors of sparkling water and a pasta station only open on Tuesdays.
 
-I know the words of Black Speech that must be spoken to reveal the true nature of Windows. I know how to bend the rules of our prison, to craft a mighty workspace from the bowels within. After [I fix the cmake implementation](https://github.com/zdevito/terra/pull/322) to function correctly on Windows, I intend to perform the unholy incantations required to invoke the almighty powers of COM, so that it may find on which fifth-dimensional hyperplane Visual Studio exists. You see, children, programming for Windows is easy! All you have to do is **s͏̷E͏l͏̢҉l̷ ̸̕͡Y͏o҉u͝R̨͘ ̶͝sơ̷͟Ul̴**
+I know the words of Black Speech that must be spoken to reveal the true nature of Windows. I know how to bend the rules of our prison, to craft a mighty workspace from the bowels within. After [I fix the cmake implementation](https://github.com/zdevito/terra/pull/322) to function correctly on Windows, I intend to perform [the unholy incantations](https://gist.github.com/tonetheman/522b623d00e64cb5feda5d68252fa68a) required to invoke the almighty powers of COM, so that it may find on which fifth-dimensional hyperplane Visual Studio exists. You see, children, programming for Windows is easy! All you have to do is **s͏̷E͏l͏̢҉l̷ ̸̕͡Y͏o҉u͝R̨͘ ̶͝sơ̷͟Ul̴**
 
 For those of you who actually wish to try Terra, but don't want to wait for ~~me to fix everything~~ a new release, you can embed the following code at the top of your root terra script:
 ```
@@ -167,7 +167,7 @@ Of course, Terra's metaprogramming *is* turing complete, and it is *technically 
 This means that implementing objects is almost impossible because terra has no scoping mechanisms - it's C, so you just implement vtables without being able to do constructors or destructors easily. It does have "defer" but you have to invoke it yourself
 
 
-# There Is No Type System
+## There Is No Type System
 
 
 If terra was actually trying to build a metaprogramming equivilent to templates, it would have an actual type system. These languages already exist - Idris, etc. etc. etc., but none of them are interested in using their dependent type systems to actually metaprogram low-level code. The problem is that building a recursively metaprogrammable type system requires building a proof assistant, and everyone is so proud of the fact they built a proof assistant they forget that dependent type systems can do other things too, like build really fast memcpy implementations.
