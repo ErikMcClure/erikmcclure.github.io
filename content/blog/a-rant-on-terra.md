@@ -161,7 +161,7 @@ You realize now, what monstrosity has been wraught? The sin that Terra has commi
 
 Remember how Terra says you can implement Java-like and Go-like class systems? You can't. Or rather, you can only hope to create a pathetic imitation, a facsimile of a real class system, bereft of any useful mechanisms and striped down to the bone. It is nothing more than an implementation of vtables, just like you would make in C. Because Terra is C.
   
-There can be no constructors, or destructors, or automatic initialization, or any sort of borrow checking analysis, because Terra has no scoping mechanisms. The only thing it provides is `defer`, which **isn't documented anywhere**
+There can be no constructors, or destructors, or automatic initialization, or any sort of borrow checking analysis, because Terra has no scoping mechanisms. The only thing it provides is `defer`, which only operates inside lua lexical blocks (`do` and `end`) sometimes, if you get lucky. The exact behavior is a bit confusing, and of course can only be divined by random experimenation because **isn't documented anywhere!**
   
 This means that implementing objects is almost impossible because terra has no scoping mechanisms - it's C, so you just implement vtables without being able to do constructors or destructors easily. It does have "defer" but you have to invoke it yourself
 
