@@ -87,7 +87,7 @@ As a result, you get a *runtime error*, not a syntax error, and a very bizarre o
 
 
 
-It should be noted that, after a friend of mine heard my screams of agony, [an issue was raised]() to change the syntax to a summoning ritual that involves less self-mutilation. Unfortunately, this is a breaking change, and will probably require an exorcism.
+It should be noted that, after a friend of mine heard my screams of agony, [an issue was raised](https://github.com/zdevito/terra/issues/385) to change the syntax to a summoning ritual that involves less self-mutilation. Unfortunately, this is a breaking change, and will probably require an exorcism.
 
 ## The Documentation Is Wrong
 
@@ -101,15 +101,15 @@ Terra's documentation is so wrong that it somehow manages to be wrong in both di
 
 * Struct fields are not specified by their name, but rather just held in a numbered list of {name, type} pairs. This *is* documented, but a consequence of this system is not: Struct field names do not have to be unique. They can all be the same thing. Terra doesn't actually care. You can't actually be sure that any given field name lookup will result in, y'know, *one field*. Nothing mentions this.
 
-* The documentation for saveobj is a special kind of infuriating, because everything is *technically* correct, yet it does not give you any examples and instead simply lists a function with 2 arguments and 4 interwoven optional arguments, In reality it's absolutely trivial to use becuase you can ignore almost all the parameters. Just write `terralib.saveobj("blah", {main = main})` and you're done. But there isn't a *single example of this* anywhere on the entire website. Only a paragraph and two sentences explaining in the briefest way possible how to use the function, followed by a highly technical example of how to initialize a custom target parameter, which doesn't actually compile because it has unnecessary semicolons. This is literally *the most important function* in the entire language, because it's what actually compiles an executable!
+* The documentation for saveobj is a special kind of infuriating, because everything is *technically* correct, yet it does not give you any examples and instead simply lists a function with 2 arguments and 4 interwoven optional arguments, In reality it's absolutely trivial to use becuase you can ignore almost all the parameters. Just write `terralib.saveobj("blah", {main = main})` and you're done. But there isn't a *single example of this* anywhere on the entire website. Only a paragraph and two sentences explaining in the briefest way possible how to use the function, followed by a highly technical example of how to initialize a custom target parameter, which doesn't actually compile because it has errant semicolons. This is literally *the most important function* in the entire language, because it's what actually compiles an executable!
 
-Perhaps there are more tragedies hidden within this baleful document, but I cannot know, as I have yet to unearth the true depths of the madness behind Terra. I am, at most, on the third or fourth circle of hell. There will be many more trials ahead, I am sure.
+Perhaps there are more tragedies hidden inside this baleful document, but I cannot know, as I have yet to unearth the true depths of the madness lurking within. I am, at most, on the third or fourth circle of hell.
   
 ## Terra Doesn't Actually Work On Windows
 
 Saying that Terra supports Windows is a statement fraught with danger. It is a statement so full of holes that an entire screen door could try to sell you car insurance and it'd still be a safer bet than running Terra on Windows. Attempting to use Terra on Windows will work if you have Visual Studio 2015 installed. It *might* work if you have Visual Studio 2013 installed. No other scenarios are supported, espiecally not ones that involve being productive. Actually *compiling* Terra on Windows is a hellish endeavor comparable to climbing Mount Everest in a bathing suit, which requires either having Visual Studio 2015 installed *to the default location*, or manually modifying a Makefile with the exact absolute paths of all the relevent dependencies. At least up until last week, when I [submitted a pull request](https://github.com/zdevito/terra/pull/400) to minimize the amount of mountain climbing required.
 
-The problem Terra runs into is that it tries to use a registry value to find the location of Visual Studio and then find `link.exe` and include directories for the C runtime. This hasn't worked since Visual Studio 2017 and also requires custom handling for each version because compiling an iteration of Visual Studio apparently involves throwing the directory structure into the air, watching it land on the floor in a disorganized mess, and drawing lines between vaguely related concepts. Good for divining the true nature of the C library, bad for building directory structures. Unfortunately, should you somehow manage to compile Terra, it will abruptly stop working the moment you try to call `printf`, claiming that `printf` does not actually exist, even after importing `stdio.h`.
+The problem Terra runs into is that it tries to use a registry value to find the location of Visual Studio and then work out where `link.exe` is from there, then finds the include directories for the C runtime. This hasn't worked since Visual Studio 2017 and also requires custom handling for each version because compiling an iteration of Visual Studio apparently involves throwing the directory structure into the air, watching it land on the floor in a disorganized mess, and drawing lines between vaguely related concepts. Good for divining the true nature of the C library, bad for building directory structures. Unfortunately, should you somehow manage to compile Terra, it will abruptly stop working the moment you try to call `printf`, claiming that `printf` does not actually exist, even after importing `stdio.h`.
 
 My poor, poor friend, Terra made a bad assumption. It assumed that every single function in the C standard library actually produces a symbol in the resulting binary. [This is not true](https://social.msdn.microsoft.com/Forums/vstudio/en-US/5150eeec-4427-440f-ab19-aecb26113d31/updated-to-vs-2015-and-now-get-unresolved-external-errors?forum=vcgeneral) and hasn't been true since Visual Studio 2015, which turned several `stdio.h` functions into inline-only implementations. In general, the C standard library is under no obligation to produce an actual concrete symbol for any function - or to make sense to a mere mortal, for that matter. In fact, it might be more productive to assume that the C standard was wrought from the unholy, broiling chaos of the void by Cthulhu himself, who saw fit to punish any being foolish enough to make reasonable assumptions about how C works.
 
@@ -117,11 +117,27 @@ Terra code can only call functions that have *concrete symbols*, because it's ac
 
 Luckily for the Terra project, I am the demonic presence they need to fix all of this, for I was once a Microsoftie. Long ago, I walked the halls of the Operating Systems Group and helped craft black magic to sate the monster's unending hunger for code. I saw True Evil blossom in those dark rooms, like having only three flavors of sparkling water and a pasta station only open on Tuesdays.
 
-I know the words of Black Speech that must be spoken to reveal the true nature of Windows. I know how to bend the rules of our prison, to craft a mighty workspace from the bowels within. Eventually, I intend to perform the unholy incantations required to invoke the almighty powers of COM, so that it may find on which fifth-dimensional hyperplane Visual Studio exists. You see, children, programming for Windows is easy! All you have to do is **s͏̷E͏l͏̢҉l̷ ̸̕͡Y͏o҉u͝R̨͘ ̶͝sơ̷͟Ul̴**
+I know the words of Black Speech that must be spoken to reveal the true nature of Windows. I know how to bend the rules of our prison, to craft a mighty workspace from the bowels within. After [I fix the cmake implementation](https://github.com/zdevito/terra/pull/322) to function correctly on Windows, I intend to perform the unholy incantations required to invoke the almighty powers of COM, so that it may find on which fifth-dimensional hyperplane Visual Studio exists. You see, children, programming for Windows is easy! All you have to do is **s͏̷E͏l͏̢҉l̷ ̸̕͡Y͏o҉u͝R̨͘ ̶͝sơ̷͟Ul̴**
 
 For those of you who actually wish to try Terra, but don't want to wait for ~~me to fix everything~~ a new release, you can embed the following code at the top of your root terra script:
 ```
+if os.getenv("VCINSTALLDIR") ~= nil then -- If terra is being run inside the developer console, use those environment variables instead
+  terralib.vshome = os.getenv("VCToolsInstallDir")
+  if not terralib.vshome then
+      terralib.vshome = os.getenv("VCINSTALLDIR")
+      terralib.vclinker = terralib.vshome..[[BIN\x86_amd64\link.exe]]
+  else
+      terralib.vclinker = ([[%sbin\Host%s\%s\link.exe]]):format(terralib.vshome, os.getenv("VSCMD_ARG_HOST_ARCH"), os.getenv("VSCMD_ARG_TGT_ARCH"))
+  end
+  terralib.includepath = os.getenv("INCLUDE")
 
+  function terralib.getvclinker()
+    local vclib = os.getenv("LIB")
+    local vcpath = terralib.vcpath or os.getenv("Path")
+    vclib,vcpath = "LIB="..vclib,"Path="..vcpath
+    return terralib.vclinker,vclib,vcpath
+  end
+end
 ```
 Yes, we are literally overwriting parts of the compiler itself, at runtime, from our script. **Welcome to Lua!** Enjoy your stay, and don't let the fact that any script you run could completely rewrite the compiler keep you up at night!
 
