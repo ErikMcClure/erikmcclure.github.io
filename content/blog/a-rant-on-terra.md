@@ -150,7 +150,7 @@ Yes, that is valid Terra, and yes, the people who built this language did this o
 
 ## Terra is C but the Preprocessor is Lua
 
-You realize now, what monstrosity has been wrought? The sin that Terra has committed now lies naked before us, exposed in all it's horrifying guilt.
+You realize now, what monstrosity has been unleashed upon the world? The sin that Terra has committed now lies naked before us.
 
 **Terra is C if you replaced the preprocessor with Lua.**
 
