@@ -32,10 +32,10 @@ Terra takes the flower, gently places it on the ground, and then stomps on it, r
 To understand why, one must understand what the escape operator is. It allows you to splice an abstract AST generated from a Lua expression directly into Terra code. Here is an example from Terra's website:
 
     function get5()
-    	return 5
+      return 5
     end
     terra foobar()
-    	return [ get5() + 1 ]
+	  return [ get5() + 1 ]
     end
     foobar:printpretty()
     > output:
@@ -48,14 +48,14 @@ But, wait, that means it's... the same as the array indexing operator? You don't
     local rest = {symbol(int),symbol(int)}
     
     terra doit(first : int, [rest])
-        return first + [rest[1]] + [rest[2]]
+      return first + [rest[1]] + [rest[2]]
     end
 
 What.
 
 **_WHAT?!_**
 
-You were supposed to banish the syntax demons, not join them! This _abomination_ is an insult to God's creations, and makes every living being in the cosmos beg for the sweet release of death! It is the very foundation that Satan himself would use to unleash Evil upon the world. Behold, mortals, for I come as the harbinger of _despair_:
+You were supposed to banish the syntax demons, not join them! This _abomination_ is an insult to the fabric of reality itself! It is the very foundation that Satan himself would use to unleash Evil upon the world. Behold, mortals, for I come as the harbinger of _despair_:
 
     function idx(x) return `x end
     function gen(a, b) return `array(a, b) end
@@ -65,11 +65,18 @@ You were supposed to banish the syntax demons, not join them! This _abomination_
     end
 
 For those of you joining us (probably because you heard a blood-curdling scream from down the hall), this syntax is exactly as ambiguous as you might think. Is it two splice statements put next to each other, or is a splice statement with an array index? You no longer know if a splice operator is supposed to index the array or act as a splice operator, as [mentioned in this issue](https://github.com/StanfordLegion/legion/issues/522). However, because this is Lua, whose syntax is very much like a delicate flower that cannot be disturbed, there is a much worse ambiguity possible.
-
+```
+  local lookups = {x = 0, y = 1, z = 2, w = 3 };
+  vec.metamethods.__entrymissing = macro(function(entryname, expr)
+    return `expr.v[lookups.entryname]
+  end)
+```
 The intent here is shown in the comments. We want to use a spliced Lua expression as the array index. However, if no spaces are used, do you know what happens?
 
 It turns into a string, because `[[string]]` is the Lua syntax for an unescaped string. Now, those of you who still possess functioning brains may believe that this would result in a syntax error, as we have now placed a string next to a variable. **Not so!** Lua, in it's infinite wisdom, converts anything of the form `symbol"string"` or `symbol[[string]]` into a **function call** with the string as the only parameter. That means we literally attempt to _call our variable as a function with our expression as a string_:
+```
 
+```
 As a result, you get a _runtime error_, not a syntax error, and a very bizarre one too, because it's going to complain about trying to call a function. This is like trying to bake pancakes for breakfast and accidentally going scuba diving instead. It's not a sequence of events that should ever be related in any universe that obeys causality.
 
 It should be noted that, after a friend of mine heard my screams of agony, [an issue was raised](https://github.com/zdevito/terra/issues/385) to change the syntax to a summoning ritual that involves less self-mutilation. Unfortunately, this is a breaking change, and will probably require an exorcism.
@@ -107,10 +114,10 @@ For those of you who actually wish to try Terra, but don't want to wait for ~~me
     if os.getenv("VCINSTALLDIR") ~= nil then
       terralib.vshome = os.getenv("VCToolsInstallDir")
       if not terralib.vshome then
-          terralib.vshome = os.getenv("VCINSTALLDIR")
-          terralib.vclinker = terralib.vshome..[[BIN\x86_amd64\link.exe]]
+        terralib.vshome = os.getenv("VCINSTALLDIR")
+        terralib.vclinker = terralib.vshome..[[BIN\x86_amd64\link.exe]]
       else
-          terralib.vclinker = ([[%sbin\Host%s\%s\link.exe]]):format(terralib.vshome, os.getenv("VSCMD_ARG_HOST_ARCH"), os.getenv("VSCMD_ARG_TGT_ARCH"))
+        terralib.vclinker = ([[%sbin\Host%s\%s\link.exe]]):format(terralib.vshome, os.getenv("VSCMD_ARG_HOST_ARCH"), os.getenv("VSCMD_ARG_TGT_ARCH"))
       end
       terralib.includepath = os.getenv("INCLUDE")
     
@@ -141,18 +148,18 @@ Where `selfsym` is a symbol that was set elsewhere.
     local inc = quote [sym] = [sym] + 1 end
     
     terra foo()
-        var [sym] = 0
-        inc
-        inc
-        return [sym]
+      var [sym] = 0
+      inc
+      inc
+      return [sym]
     end
     
     terra bar()
-        var[sym] = 0
-        inc
-        inc
-        inc
-        return [sym]
+      var[sym] = 0
+      inc
+      inc
+      inc
+      return [sym]
     end
 
 Yes, that is valid Terra, and yes, the people who built this language did this on purpose. Why any human being still capable of love would ever design such a catastrophe is simply beyond me. Each symbol literally represents not a reference to a variable, but a `unique variable name` that will refer to any variable that has been initialized in the current Terra scope with that particular identifier. You aren't passing around variable _references_, you're passing around variable _names_.
