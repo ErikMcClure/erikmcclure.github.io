@@ -35,7 +35,7 @@ To understand why, one must understand what the escape operator is. It allows yo
       return 5
     end
     terra foobar()
-	  return [ get5() + 1 ]
+      return [ get5() + 1 ]
     end
     foobar:printpretty()
     > output:
@@ -65,36 +65,36 @@ You were supposed to banish the syntax demons, not join them! This _abomination_
       return [gen(1, 2)][idx(0)]
     end
 
-For those of you joining us (probably because you heard a blood-curdling scream from down the hall), this syntax is exactly as ambiguous as you might think. Is it two splice statements put next to each other, or is a splice statement with an array index? You no longer know if a splice operator is supposed to index the array or act as a splice operator, as [mentioned in this issue](https://github.com/StanfordLegion/legion/issues/522). Terra "resolves this" by just assuming that any two bracketed expressions put next to each other are *always* an array indexing operation, which is a lot like fixing your server overheating issue by running the fire suppression system 24/7. However, because this is Lua, whose syntax is very much like a delicate flower that cannot be disturbed, a much worse ambiguity comes up when we try to fix this.
+For those of you joining us (probably because you heard a blood-curdling scream from down the hall), this syntax is exactly as ambiguous as you might think. Is it two splice statements put next to each other, or is a splice statement with an array index? You no longer know if a splice operator is supposed to index the array or act as a splice operator, as [mentioned in this issue](https://github.com/StanfordLegion/legion/issues/522). Terra "resolves this" by just assuming that any two bracketed expressions put next to each other are _always_ an array indexing operation, which is a lot like fixing your server overheating issue by running the fire suppression system 24/7. However, because this is Lua, whose syntax is very much like a delicate flower that cannot be disturbed, a much worse ambiguity comes up when we try to fix this.
 
     function idx(x) return `x end
     function gen(a, b) return `array(a, b) end
-
+    
     terra test()
       -- This is required to make it evaluate to array(1,2)[0]
-	  -- return [gen(1, 2)][ [idx(0)] ]
+      -- return [gen(1, 2)][ [idx(0)] ]
       -- This doesn't work:
       return [gen(1, 2)][[idx(0)]]
       -- This is equivalent to:
       -- return [gen(1, 2)] "idx(0)"
     end
 
-We want to use a spliced Lua expression as the array index, but if we don't use any spaces, *it turns into a string* because `[[string]]` is the Lua syntax for an unescaped string! Now, those of you who still possess functioning brains may believe that this would always result in a syntax error, as we have now placed a string next to a variable. **Not so!** Lua, in it's infinite wisdom, converts anything of the form `symbol"string"` or `symbol[[string]]` into a **function call** with the string as the only parameter. That means that, in certain circumstances, we literally attempt to _call our variable as a function with our expression as a string_:
-```
-local lookups = {x = 0, y = 1, z = 2, w = 3 };
-  vec.metamethods.__entrymissing = macro(function(entryname, expr)
-    if lookups[entryname] then
-      -- This doesn't work
-      return `expr.v[[lookups[entryname]]]
-      -- This is equivalent to
-      -- return `expr.v "lookups[entryname]"
-      -- But it doesn't result in a syntax error, becase it's equivalent to:
-      -- return `extr.v("lookups[entryname]")
-    else
-      error "That is not a valid field."
-    end
-  end)
-```
+We want to use a spliced Lua expression as the array index, but if we don't use any spaces, _it turns into a string_ because `[[string]]` is the Lua syntax for an unescaped string! Now, those of you who still possess functioning brains may believe that this would always result in a syntax error, as we have now placed a string next to a variable. **Not so!** Lua, in it's infinite wisdom, converts anything of the form `symbol"string"` or `symbol[[string]]` into a **function call** with the string as the only parameter. That means that, in certain circumstances, we literally attempt to _call our variable as a function with our expression as a string_:
+
+    local lookups = {x = 0, y = 1, z = 2, w = 3 };
+      vec.metamethods.__entrymissing = macro(function(entryname, expr)
+        if lookups[entryname] then
+          -- This doesn't work
+          return `expr.v[[lookups[entryname]]]
+          -- This is equivalent to
+          -- return `expr.v "lookups[entryname]"
+          -- But it doesn't result in a syntax error, becase it's equivalent to:
+          -- return `extr.v("lookups[entryname]")
+        else
+          error "That is not a valid field."
+        end
+      end)
+
 As a result, you get a _type error_, not a syntax error, and a very bizarre one too, because it's going to complain that `v` isn't a function. This is like trying to bake pancakes for breakfast and accidentally going scuba diving instead. It's not a sequence of events that should ever be related in any universe that obeys causality.
 
 It should be noted that, after a friend of mine heard my screams of agony, [an issue was raised](https://github.com/zdevito/terra/issues/385) to change the syntax to a summoning ritual that involves less self-mutilation. Unfortunately, this is a breaking change, and will probably require an exorcism.
@@ -121,13 +121,13 @@ The problem Terra runs into is that it tries to use a registry value to find the
 
 Many Terra tests assume that `printf` actually resolves to a concrete symbol. [This is not true](https://social.msdn.microsoft.com/Forums/vstudio/en-US/5150eeec-4427-440f-ab19-aecb26113d31/updated-to-vs-2015-and-now-get-unresolved-external-errors?forum=vcgeneral) and hasn't been true since Visual Studio 2015, which turned several `stdio.h` functions into inline-only implementations. In general, the C standard library is under no obligation to produce an actual concrete symbol for any function - or to make sense to a mere mortal, for that matter. In fact, it might be more productive to assume that the C standard was wrought from the unholy, broiling chaos of the void by Cthulhu himself, who saw fit to punish any being foolish enough to make reasonable assumptions about how C works.
 
-Unfortunately, importing `stdio.h` does not fix this problem, for two reasons. One, Terra did not understand inline functions on windows. They were ephemeral wisps, [vanishing like a mote of dust on the wind](https://github.com/zdevito/terra/issues/401) the moment a C module was optimized. A [pull request fixed this](https://github.com/zdevito/terra/pull/405), but it can't fix the fact that the Windows SDK was wrought from the innocent blood of a thousand vivisected COMDAT objects. Microsoft's version of `stdio.h` can only be described as an extra-dimensional object, a meta-stable fragment of a past universe that can only be seen in brief fragments, never all at once. 
+Unfortunately, importing `stdio.h` does not fix this problem, for two reasons. One, Terra did not understand inline functions on windows. They were ephemeral wisps, [vanishing like a mote of dust on the wind](https://github.com/zdevito/terra/issues/401) the moment a C module was optimized. A [pull request fixed this](https://github.com/zdevito/terra/pull/405), but it can't fix the fact that the Windows SDK was wrought from the innocent blood of a thousand vivisected COMDAT objects. Microsoft's version of `stdio.h` can only be described as an extra-dimensional object, a meta-stable fragment of a past universe that can only be seen in brief fragments, never all at once.
 
 Luckily for the Terra project, I am the demonic presence they need, for I was once a Microsoftie. Long ago, I walked the halls of the Operating Systems Group and helped craft black magic to sate the monster's unending hunger. I saw True Evil blossom in those dark rooms, like having only three flavors of sparkling water and a pasta station only open on Tuesdays.
 
-I know the words of Black Speech that must be spoken to reveal the true nature of Windows. I know how to bend the rules of our prison, to craft a mighty workspace from the bowels within. After [fixing the cmake implementation](https://github.com/zdevito/terra/pull/322) to function correctly on Windows, I intend to perform [the unholy incantations](https://gist.github.com/tonetheman/522b623d00e64cb5feda5d68252fa68a) required to invoke the almighty powers of COM, so that it may find on which fifth-dimensional hyperplane Visual Studio exists. Only then can I disassociate myself from the mortal plane for long enough to [tackle the `stdio.h` problem](https://github.com/zdevito/terra/issues/401#issuecomment-537245442). You see, children, programming for Windows is easy! All you have to do is **s͏̷E͏l͏̢҉l̷ ̸̕͡Y͏o҉u͝R̨͘ ̶͝sơ̷͟Ul̴**
+I know the words of Black Speech that must be spoken to reveal the true nature of Windows. I know how to bend the rules of our prison, to craft a mighty workspace from the bowels within. After [fixing the cmake implementation](https://github.com/zdevito/terra/pull/322) to function correctly on Windows, I intend to perform [the unholy incantations](https://gist.github.com/tonetheman/522b623d00e64cb5feda5d68252fa68a) required to invoke the almighty powers of COM, so that it may find on which fifth-dimensional hyperplane Visual Studio exists. Only then can I disassociate myself from the mortal plane for long enough to [tackle the ](https://github.com/zdevito/terra/issues/401#issuecomment-537245442)`[stdio.h](https://github.com/zdevito/terra/issues/401#issuecomment-537245442)`[ problem](https://github.com/zdevito/terra/issues/401#issuecomment-537245442). You see, children, programming for Windows is easy! All you have to do is **s͏̷E͏l͏̢҉l̷ ̸̕͡Y͏o҉u͝R̨͘ ̶͝sơ̷͟Ul̴**
 
-For those of you who actually wish to try Terra, but don't want to wait for ~~me to fix everything~~ a new release, you can embed the following code at the top of your root terra script:
+For those of you who actually wish to try Terra, but don't want to wait for ~~me to fix everything~~ a new release, you can embed the following code at the top of your root Terra script:
 
     if os.getenv("VCINSTALLDIR") ~= nil then
       terralib.vshome = os.getenv("VCToolsInstallDir")
@@ -150,14 +150,15 @@ For those of you who actually wish to try Terra, but don't want to wait for ~~me
 Yes, we are literally overwriting parts of the compiler itself, at runtime, from our script. **Welcome to Lua!** Enjoy your stay, and don't let the fact that any script you run could completely rewrite the compiler keep you up at night!
 
 ## The Existential Horror of Terra Symbols
+
 Symbols are one of the most slippery concepts introduced in Terra, despite their relative simplicity. When encountering a Terra Symbol, one usually finds it in a function that looks like this:
-```
-TkImpl.generate = function(skip, finish) return quote
-    if [TkImpl.selfsym].count == 0 then goto [finish] end 
-    [TkImpl.selfsym].count = [TkImpl.selfsym].count - 1
-    [stype.generate(skip, finish)]
-end end
-```
+
+    TkImpl.generate = function(skip, finish) return quote
+        if [TkImpl.selfsym].count == 0 then goto [finish] end 
+        [TkImpl.selfsym].count = [TkImpl.selfsym].count - 1
+        [stype.generate(skip, finish)]
+    end end
+
 Where `selfsym` is a symbol that was set elsewhere.
 
 "Aha!" says our observant student, "a reference to a variable from an outside context!" This construct _does_ let you access a variable from another area of the same function, and using it to accomplish that will generally work as you expect, but what it's actually doing is much ~~worse~~ more subtle. You see, grasshopper, a symbol is not a reference to a variable node in the AST, it is a reference to an _identifier_.
@@ -198,8 +199,14 @@ Of course, Terra's metaprogramming _is_ turing complete, and it is _technically 
 
 ## There Is No Type System
 
-If Terra was actually trying to build a metaprogramming equivalent to templates, it would have an actual type system. These languages already exist - Idris, etc. etc. etc., but none of them are interested in using their dependent type systems to actually metaprogram low-level code. The problem is that building a recursively metaprogrammable type system requires building a proof assistant, and everyone is so proud of the fact they built a proof assistant they forget that dependent type systems can do other things too, like build really fast memcpy implementations.
+If Terra was actually trying to build a metaprogramming equivalent to templates, it would have an actual type system. These languages already exist - [Idris](https://www.idris-lang.org/), [Omega](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.121.4251), [F*](https://www.fstar-lang.org/), [Ada](https://en.wikipedia.org/wiki/Ada_(programming_language)), [Sage](https://sage.soe.ucsc.edu/), etc. but none of them are interested in using their dependent type systems to actually metaprogram low-level code (except [ATS](https://en.wikipedia.org/wiki/ATS_(programming_language)), which unfortunately still wants you to prove the correctness of your code). The problem is that building a recursively metaprogrammable type system requires building a proof assistant, and everyone is so proud of the fact they built a proof assistant they forget that dependent type systems can do other things too, like build really fast memcpy implementations.
 
-Alas, such beauty can only exist in the minds of Mathematicians and small kittens,
+This is the impasse I find myself at, and it is the answer to the question I know everyone wants to know the answer to. For the love of heaven and earth and all that lies between, **why am I still using Terra?**
+
+The truth is that the project I'm working on requires highly complex metaprogramming techniques in order to properly generate type-safe mappings for arbitrary data structures. Explaining _why_ would be an entire blog post on it's own, but suffice to say, it's a complex user interface library that's intended to run on tiny embedded devices, which means I can't simply give up and use Idris, or indeed anything that involves garbage collection.
+
+What I really want is a low-level, recursively metaprogrammable language that is also recursively type-safe, in that any type strata can safely manipulate the code of any layer beneath it, preferably via [algebriac subtyping](https://www.cl.cam.ac.uk/\~sd601/thesis.pdf) that ensures all types are recursively a subset of types that contain them, ad nauseam. This would then allow you to move from a "low-level" language to a "high-level" language by simply walking up the tower of abstraction, building meta-meta-programs that manipulate meta-programs that generate low-level programs.
+
+Alas, such beauty can only exist in the minds of mathematicians and small kittens. While I may one day attempt to build such a language, it will be nothing more than a poor imitation, forever striving for an ideal it cannot reach, cursed with a vision of a pristine language of the gods that no mortal can ever possess. 
 
 In conclusion, everything is terrible and I want to die.
