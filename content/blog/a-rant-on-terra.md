@@ -86,9 +86,9 @@ local lookups = {x = 0, y = 1, z = 2, w = 3 };
     if lookups[entryname] then
       -- This doesn't work
       return `expr.v[[lookups[entryname]]]
-      -- This is equivilent to
+      -- This is equivalent to
       -- return `expr.v "lookups[entryname]"
-      -- But it doesn't result in a syntax error, becase it's equivilent to:
+      -- But it doesn't result in a syntax error, becase it's equivalent to:
       -- return `extr.v("lookups[entryname]")
     else
       error "That is not a valid field."
@@ -198,7 +198,7 @@ Of course, Terra's metaprogramming _is_ turing complete, and it is _technically 
 
 ## There Is No Type System
 
-If Terra was actually trying to build a metaprogramming equivilent to templates, it would have an actual type system. These languages already exist - Idris, etc. etc. etc., but none of them are interested in using their dependent type systems to actually metaprogram low-level code. The problem is that building a recursively metaprogrammable type system requires building a proof assistant, and everyone is so proud of the fact they built a proof assistant they forget that dependent type systems can do other things too, like build really fast memcpy implementations.
+If Terra was actually trying to build a metaprogramming equivalent to templates, it would have an actual type system. These languages already exist - Idris, etc. etc. etc., but none of them are interested in using their dependent type systems to actually metaprogram low-level code. The problem is that building a recursively metaprogrammable type system requires building a proof assistant, and everyone is so proud of the fact they built a proof assistant they forget that dependent type systems can do other things too, like build really fast memcpy implementations.
 
 Alas, such beauty can only exist in the minds of Mathematicians and small kittens,
 
