@@ -125,20 +125,17 @@ For those of you who actually wish to try Terra, but don't want to wait for ~~me
 Yes, we are literally overwriting parts of the compiler itself, at runtime, from our script. **Welcome to Lua!** Enjoy your stay, and don't let the fact that any script you run could completely rewrite the compiler keep you up at night!
 
 ## The Existential Horror of Terra Symbols
-    local a = symbol()
+Symbols are one of the most slippery concepts introduced in Terra, despite their relative simplicity. When encountering a Terra Symbol, one usually finds it in a function that looks like this:
+```
+TkImpl.generate = function(skip, finish) return quote
+    if [TkImpl.selfsym].count == 0 then goto [finish] end 
+    [TkImpl.selfsym].count = [TkImpl.selfsym].count - 1
+    [stype.generate(skip, finish)]
+end end
+```
+Where `selfsym` is a symbol that was set elsewhere.
 
-    defineA = quote
-            var [a] = 3
-        end
-
-    twiceA = `2*a
-
-    terra doit()
-        defineA
-        return twiceA
-    end
-
-"Aha!" says our observant student, "a reference to a variable from an outside context!" While this construct _does_ let you access a variable from an outside context, and if you attempt to use it like this will mostly work exactly as you expect, what it's actually doing is much ~~worse~~ more subtle. You see, grasshopper, a symbol is not a reference to a variable node in the AST, it is a reference to an _identifier_.
+"Aha!" says our observant student, "a reference to a variable from an outside context!" This construct _does_ let you access a variable from another area of the same function, and using it to accomplish that will generally work as you expect, but what it's actually doing is much ~~worse~~ more subtle. You see, grasshopper, a symbol is not a reference to a variable node in the AST, it is a reference to an _identifier_.
 
     local sym = symbol(int)
     local inc = quote [sym] = [sym] + 1 end
@@ -158,7 +155,9 @@ Yes, we are literally overwriting parts of the compiler itself, at runtime, from
         return [sym]
     end
 
-Yes, that is valid Terra, and yes, the people who built this language did this on purpose. Why any human being still capable of love would ever design such a catastrophe is simply beyond me. These aren't symbol references, they're **typed preprocessor macros**. They are literally C preprocesor macros, capable of causing just as much woe and suffering as one, except that they are typed and they can't redefine existing terms. This is, admittedly, _slightly_ better than a normal C macro. However, seeing as there have been entire books written about humanity's collective hatred of C macros, this is equivalent to being a slightly more usable programming language than Brainfuck. This is such a low bar it's probably buried somewhere in the Mariana Trench.
+Yes, that is valid Terra, and yes, the people who built this language did this on purpose. Why any human being still capable of love would ever design such a catastrophe is simply beyond me. Each symbol literally represents not a reference to a variable, but a `unique variable name` that will refer to any variable that has been initialized in the current Terra scope with that particular identifier. You aren't passing around variable _references_, you're passing around variable _names_.
+
+These aren't just symbols, they're **typed preprocessor macros**. They are literally C preprocesor macros, capable of causing just as much woe and suffering as one, except that they are typed and they can't redefine existing terms. This is, admittedly, _slightly_ better than a normal C macro. However, seeing as there have been entire books written about humanity's collective hatred of C macros, this is equivalent to being a slightly more usable programming language than Brainfuck. This is such a low bar it's probably buried somewhere in the Mariana Trench.
 
 ## Terra is C but the Preprocessor is Lua
 
