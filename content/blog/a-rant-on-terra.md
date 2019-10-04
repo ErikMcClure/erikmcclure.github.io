@@ -207,6 +207,8 @@ The truth is that the project I'm working on requires highly complex metaprogram
 
 What I really want is a low-level, recursively metaprogrammable language that is also recursively type-safe, in that any type strata can safely manipulate the code of any layer beneath it, preferably via [algebriac subtyping](https://www.cl.cam.ac.uk/\~sd601/thesis.pdf) that ensures all types are recursively a subset of types that contain them, ad nauseam. This would then allow you to move from a "low-level" language to a "high-level" language by simply walking up the tower of abstraction, building meta-meta-programs that manipulate meta-programs that generate low-level programs.
 
-Alas, such beauty can only exist in the minds of mathematicians and small kittens. While I may one day attempt to build such a language, it will be nothing more than a poor imitation, forever striving for an ideal it cannot reach, cursed with a vision of a pristine language of the gods that no mortal can ever possess. 
+Alas, such beauty can only exist in the minds of mathematicians and small kittens. While I may one day attempt to build such a language, it will be nothing more than a poor imitation, forever striving for an ideal it cannot reach, cursed with a vision from the gods of a pristine language no mortal can ever possess.
+
+I wish to forge galaxies, to wield the power of computation and sail the cosmos upon an infinite wave of creativity. Instead, I spend untold hours toiling inside LLVM, wondering why it won't print "Hello World".
 
 In conclusion, everything is terrible and I want to die.
