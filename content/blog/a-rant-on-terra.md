@@ -59,11 +59,11 @@ You were supposed to banish the syntax demons, not join them! This _abomination_
 function gen(a, b) return `array(a, b) end
 
 terra test()
-  -- Evaluates to array(1, 2) 0
+  -- Intended to evaluate to array(1, 2) 0
   return [gen(1, 2)][idx(0)]
 end{{</pre>}}
 
-For those of you joining us (probably because you heard a blood-curdling scream from down the hall), this syntax is exactly as ambiguous as you might think. Is it two splice statements put next to each other, or is a splice statement with an array index? You no longer know if a splice operator is supposed to index the array or act as a splice operator, as [mentioned in this issue](https://github.com/StanfordLegion/legion/issues/522). Terra "resolves this" by just assuming that any two bracketed expressions put next to each other are _always_ an array indexing operation, which is a lot like fixing your server overheating issue by running the fire suppression system 24/7. However, because this is Lua, whose syntax is very much like a delicate flower that cannot be disturbed, a much worse ambiguity comes up when we try to fix this.
+For those of you joining us (probably because you heard a blood-curdling scream from down the hall), this syntax is exactly as ambiguous as you might think. Is it two splice statements put next to each other, or is a splice statement with an array index? You no longer know if a splice operator is supposed to index the array or act as a splice operator, as [mentioned in this issue](https://github.com/StanfordLegion/legion/issues/522). Terra "resolves this" by just assuming that any two bracketed expressions put next to each other are _always_ an array indexing operation, which is a lot like fixing your server overheating issue by running the fire suppression system all day. However, because this is Lua, whose syntax is very much like a delicate flower that cannot be disturbed, a much worse ambiguity comes up when we try to fix this.
 
 {{<pre lua>}}function idx(x) return `x end
 function gen(a, b) return `array(a, b) end
