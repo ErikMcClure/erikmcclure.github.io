@@ -68,16 +68,24 @@ For those of you joining us (probably because you heard a blood-curdling scream 
 ```
   local lookups = {x = 0, y = 1, z = 2, w = 3 };
   vec.metamethods.__entrymissing = macro(function(entryname, expr)
-    return `expr.v[lookups.entryname]
+  	-- Should instead be: `expr.v[ [lookups[entryname] ] ]
+    -- which should evaluate to `expr.v[0] if entryname is "x"
+    return `expr.v[[lookups[entryname]]]
   end)
 ```
 The intent here is shown in the comments. We want to use a spliced Lua expression as the array index. However, if no spaces are used, do you know what happens?
-
+```
+return `expr.v[[lookups[entryname]]]
+-- This is equivalent to
+return `expr.v "looksup[entryname]"
+```
 It turns into a string, because `[[string]]` is the Lua syntax for an unescaped string. Now, those of you who still possess functioning brains may believe that this would result in a syntax error, as we have now placed a string next to a variable. **Not so!** Lua, in it's infinite wisdom, converts anything of the form `symbol"string"` or `symbol[[string]]` into a **function call** with the string as the only parameter. That means we literally attempt to _call our variable as a function with our expression as a string_:
 ```
-
+return `expr.v "lookups[entryname]"
+-- This is equivalent to
+return `expr.v("lookups[entryname]")
 ```
-As a result, you get a _runtime error_, not a syntax error, and a very bizarre one too, because it's going to complain about trying to call a function. This is like trying to bake pancakes for breakfast and accidentally going scuba diving instead. It's not a sequence of events that should ever be related in any universe that obeys causality.
+As a result, you get a _runtime error_, not a syntax error, and a very bizarre one too, because it's going to complain about trying to call `v` as a function. This is like trying to bake pancakes for breakfast and accidentally going scuba diving instead. It's not a sequence of events that should ever be related in any universe that obeys causality.
 
 It should be noted that, after a friend of mine heard my screams of agony, [an issue was raised](https://github.com/zdevito/terra/issues/385) to change the syntax to a summoning ritual that involves less self-mutilation. Unfortunately, this is a breaking change, and will probably require an exorcism.
 
