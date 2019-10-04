@@ -1,7 +1,7 @@
 +++
 categories = ["blog"]
-date = ""
-draft = true
+date = "2019-10-04T17:08:00Z"
+draft = false
 title = "A Rant On Terra"
 
 +++
@@ -30,26 +30,24 @@ Terra exists as a syntax extension to Lua. This means it adds additional keyword
 Terra takes the flower, gently places it on the ground, and then stomps on it, repeatedly, until the flower is nothing but a pile of rubbish, as dead as the dirt it grew from. Then it sets the remains of the flower on fire, collects the ashes that once knew beauty, drives to a nearby cliffside, and throws them into the uncaring ocean. It probably took a piss too, but I can't prove that.
 
 To understand why, one must understand what the escape operator is. It allows you to splice an abstract AST generated from a Lua expression directly into Terra code. Here is an example from Terra's website:
-
-    function get5()
-      return 5
-    end
-    terra foobar()
-      return [ get5() + 1 ]
-    end
-    foobar:printpretty()
-    > output:
-    > foobar0 = terra() : {int32}
-    > 	return 6
-    > end
-
+{{<pre lua>}}function get5()
+  return 5
+end
+terra foobar()
+  return [ get5() + 1 ]
+end
+foobar:printpretty()
+> output:
+> foobar0 = terra() : {int32}
+> 	return 6
+> end{{</pre>}}
 But, wait, that means it's... the same as the array indexing operator? You don't mean you just put it inside like--
 
-    local rest = {symbol(int),symbol(int)}
-    
-    terra doit(first : int, [rest])
-      return first + [rest[1]] + [rest[2]]
-    end
+{{<pre lua>}}local rest = {symbol(int),symbol(int)}
+
+terra doit(first : int, [rest])
+  return first + [rest[1]] + [rest[2]]
+end{{</pre>}}
 
 What.
 
@@ -57,43 +55,43 @@ What.
 
 You were supposed to banish the syntax demons, not join them! This _abomination_ is an insult to the fabric of reality itself! It is the very foundation that Satan himself would use to unleash Evil upon the world. Behold, mortals, for I come as the harbinger of _despair_:
 
-    function idx(x) return `x end
-    function gen(a, b) return `array(a, b) end
-    
-    terra test()
-      -- Evaluates to array(1, 2) 0
-      return [gen(1, 2)][idx(0)]
-    end
+{{<pre lua>}}function idx(x) return `x end
+function gen(a, b) return `array(a, b) end
+
+terra test()
+  -- Evaluates to array(1, 2) 0
+  return [gen(1, 2)][idx(0)]
+end{{</pre>}}
 
 For those of you joining us (probably because you heard a blood-curdling scream from down the hall), this syntax is exactly as ambiguous as you might think. Is it two splice statements put next to each other, or is a splice statement with an array index? You no longer know if a splice operator is supposed to index the array or act as a splice operator, as [mentioned in this issue](https://github.com/StanfordLegion/legion/issues/522). Terra "resolves this" by just assuming that any two bracketed expressions put next to each other are _always_ an array indexing operation, which is a lot like fixing your server overheating issue by running the fire suppression system 24/7. However, because this is Lua, whose syntax is very much like a delicate flower that cannot be disturbed, a much worse ambiguity comes up when we try to fix this.
 
-    function idx(x) return `x end
-    function gen(a, b) return `array(a, b) end
-    
-    terra test()
-      -- This is required to make it evaluate to array(1,2)[0]
-      -- return [gen(1, 2)][ [idx(0)] ]
-      -- This doesn't work:
-      return [gen(1, 2)][[idx(0)]]
-      -- This is equivalent to:
-      -- return [gen(1, 2)] "idx(0)"
-    end
+{{<pre lua>}}function idx(x) return `x end
+function gen(a, b) return `array(a, b) end
+
+terra test()
+  -- This is required to make it evaluate to array(1,2)[0]
+  -- return [gen(1, 2)][ [idx(0)] ]
+  -- This doesn't work:
+  return [gen(1, 2)][[idx(0)]]
+  -- This is equivalent to:
+  -- return [gen(1, 2)] "idx(0)"
+end{{</pre>}}
 
 We want to use a spliced Lua expression as the array index, but if we don't use any spaces, _it turns into a string_ because `[[string]]` is the Lua syntax for an unescaped string! Now, those of you who still possess functioning brains may believe that this would always result in a syntax error, as we have now placed a string next to a variable. **Not so!** Lua, in it's infinite wisdom, converts anything of the form `symbol"string"` or `symbol[[string]]` into a **function call** with the string as the only parameter. That means that, in certain circumstances, we literally attempt to _call our variable as a function with our expression as a string_:
 
-    local lookups = {x = 0, y = 1, z = 2, w = 3 };
-      vec.metamethods.__entrymissing = macro(function(entryname, expr)
-        if lookups[entryname] then
-          -- This doesn't work
-          return `expr.v[[lookups[entryname]]]
-          -- This is equivalent to
-          -- return `expr.v "lookups[entryname]"
-          -- But it doesn't result in a syntax error, becase it's equivalent to:
-          -- return `extr.v("lookups[entryname]")
-        else
-          error "That is not a valid field."
-        end
-      end)
+{{<pre lua>}}local lookups = {x = 0, y = 1, z = 2, w = 3 };
+  vec.metamethods.__entrymissing = macro(function(entryname, expr)
+    if lookups[entryname] then
+      -- This doesn't work
+      return `expr.v[[lookups[entryname]]]
+      -- This is equivalent to
+      -- return `expr.v "lookups[entryname]"
+      -- But it doesn't result in a syntax error, becase it's equivalent to:
+      -- return `extr.v("lookups[entryname]")
+    else
+      error "That is not a valid field."
+    end
+  end){{</pre>}}
 
 As a result, you get a _type error_, not a syntax error, and a very bizarre one too, because it's going to complain that `v` isn't a function. This is like trying to bake pancakes for breakfast and accidentally going scuba diving instead. It's not a sequence of events that should ever be related in any universe that obeys causality.
 
@@ -125,27 +123,27 @@ Unfortunately, importing `stdio.h` does not fix this problem, for two reasons. O
 
 Luckily for the Terra project, I am the demonic presence they need, for I was once a Microsoftie. Long ago, I walked the halls of the Operating Systems Group and helped craft black magic to sate the monster's unending hunger. I saw True Evil blossom in those dark rooms, like having only three flavors of sparkling water and a pasta station only open on Tuesdays.
 
-I know the words of Black Speech that must be spoken to reveal the true nature of Windows. I know how to bend the rules of our prison, to craft a mighty workspace from the bowels within. After [fixing the cmake implementation](https://github.com/zdevito/terra/pull/322) to function correctly on Windows, I intend to perform [the unholy incantations](https://gist.github.com/tonetheman/522b623d00e64cb5feda5d68252fa68a) required to invoke the almighty powers of COM, so that it may find on which fifth-dimensional hyperplane Visual Studio exists. Only then can I disassociate myself from the mortal plane for long enough to [tackle the ](https://github.com/zdevito/terra/issues/401#issuecomment-537245442)`[stdio.h](https://github.com/zdevito/terra/issues/401#issuecomment-537245442)`[ problem](https://github.com/zdevito/terra/issues/401#issuecomment-537245442). You see, children, programming for Windows is easy! All you have to do is **s͏̷E͏l͏̢҉l̷ ̸̕͡Y͏o҉u͝R̨͘ ̶͝sơ̷͟Ul̴**
+I know the words of Black Speech that must be spoken to reveal the true nature of Windows. I know how to bend the rules of our prison, to craft a mighty workspace from the bowels within. After [fixing the cmake implementation](https://github.com/zdevito/terra/pull/322) to function correctly on Windows, I intend to perform [the unholy incantations](https://gist.github.com/tonetheman/522b623d00e64cb5feda5d68252fa68a) required to invoke the almighty powers of COM, so that it may find on which fifth-dimensional hyperplane Visual Studio exists. Only then can I disassociate myself from the mortal plane for long enough to [tackle the `stdio.h` problem](https://github.com/zdevito/terra/issues/401#issuecomment-537245442). You see, children, programming for Windows is easy! All you have to do is **s͏̷E͏l͏̢҉l̷ ̸̕͡Y͏o҉u͝R̨͘ ̶͝sơ̷͟Ul̴**
 
 For those of you who actually wish to try Terra, but don't want to wait for ~~me to fix everything~~ a new release, you can embed the following code at the top of your root Terra script:
 
-    if os.getenv("VCINSTALLDIR") ~= nil then
-      terralib.vshome = os.getenv("VCToolsInstallDir")
-      if not terralib.vshome then
-        terralib.vshome = os.getenv("VCINSTALLDIR")
-        terralib.vclinker = terralib.vshome..[[BIN\x86_amd64\link.exe]]
-      else
-        terralib.vclinker = ([[%sbin\Host%s\%s\link.exe]]):format(terralib.vshome, os.getenv("VSCMD_ARG_HOST_ARCH"), os.getenv("VSCMD_ARG_TGT_ARCH"))
-      end
-      terralib.includepath = os.getenv("INCLUDE")
-    
-      function terralib.getvclinker()
-        local vclib = os.getenv("LIB")
-        local vcpath = terralib.vcpath or os.getenv("Path")
-        vclib,vcpath = "LIB="..vclib,"Path="..vcpath
-        return terralib.vclinker,vclib,vcpath
-      end
-    end
+{{<pre lua>}}if os.getenv("VCINSTALLDIR") ~= nil then
+  terralib.vshome = os.getenv("VCToolsInstallDir")
+  if not terralib.vshome then
+    terralib.vshome = os.getenv("VCINSTALLDIR")
+    terralib.vclinker = terralib.vshome..[[BIN\x86_amd64\link.exe]]
+  else
+    terralib.vclinker = ([[%sbin\Host%s\%s\link.exe]]):format(terralib.vshome, os.getenv("VSCMD_ARG_HOST_ARCH"), os.getenv("VSCMD_ARG_TGT_ARCH"))
+  end
+  terralib.includepath = os.getenv("INCLUDE")
+
+  function terralib.getvclinker()
+    local vclib = os.getenv("LIB")
+    local vcpath = terralib.vcpath or os.getenv("Path")
+    vclib,vcpath = "LIB="..vclib,"Path="..vcpath
+    return terralib.vclinker,vclib,vcpath
+  end
+end{{</pre>}}
 
 Yes, we are literally overwriting parts of the compiler itself, at runtime, from our script. **Welcome to Lua!** Enjoy your stay, and don't let the fact that any script you run could completely rewrite the compiler keep you up at night!
 
@@ -153,33 +151,33 @@ Yes, we are literally overwriting parts of the compiler itself, at runtime, from
 
 Symbols are one of the most slippery concepts introduced in Terra, despite their relative simplicity. When encountering a Terra Symbol, one usually finds it in a function that looks like this:
 
-    TkImpl.generate = function(skip, finish) return quote
-        if [TkImpl.selfsym].count == 0 then goto [finish] end 
-        [TkImpl.selfsym].count = [TkImpl.selfsym].count - 1
-        [stype.generate(skip, finish)]
-    end end
+{{<pre lua>}}TkImpl.generate = function(skip, finish) return quote
+    if [TkImpl.selfsym].count == 0 then goto [finish] end 
+    [TkImpl.selfsym].count = [TkImpl.selfsym].count - 1
+    [stype.generate(skip, finish)]
+end end{{</pre>}}
 
 Where `selfsym` is a symbol that was set elsewhere.
 
 "Aha!" says our observant student, "a reference to a variable from an outside context!" This construct _does_ let you access a variable from another area of the same function, and using it to accomplish that will generally work as you expect, but what it's actually doing is much ~~worse~~ more subtle. You see, grasshopper, a symbol is not a reference to a variable node in the AST, it is a reference to an _identifier_.
 
-    local sym = symbol(int)
-    local inc = quote [sym] = [sym] + 1 end
-    
-    terra foo()
-      var [sym] = 0
-      inc
-      inc
-      return [sym]
-    end
-    
-    terra bar()
-      var[sym] = 0
-      inc
-      inc
-      inc
-      return [sym]
-    end
+{{<pre lua>}}local sym = symbol(int)
+local inc = quote [sym] = [sym] + 1 end
+
+terra foo()
+  var [sym] = 0
+  inc
+  inc
+  return [sym]
+end
+
+terra bar()
+  var[sym] = 0
+  inc
+  inc
+  inc
+  return [sym]
+end{{</pre>}}
 
 Yes, that is valid Terra, and yes, the people who built this language did this on purpose. Why any human being still capable of love would ever design such a catastrophe is simply beyond me. Each symbol literally represents not a reference to a variable, but a `unique variable name` that will refer to any variable that has been initialized in the current Terra scope with that particular identifier. You aren't passing around variable _references_, you're passing around variable _names_.
 
