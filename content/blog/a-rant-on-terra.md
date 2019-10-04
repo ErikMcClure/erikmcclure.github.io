@@ -94,12 +94,8 @@ local lookups = {x = 0, y = 1, z = 2, w = 3 };
       error "That is not a valid field."
     end
   end)
-  
-return `expr.v "lookups[entryname]"
--- This is equivalent to
-return `expr.v("lookups[entryname]")
 ```
-As a result, you get a _runtime error_, not a syntax error, and a very bizarre one too, because it's going to complain about trying to call `v` as a function. This is like trying to bake pancakes for breakfast and accidentally going scuba diving instead. It's not a sequence of events that should ever be related in any universe that obeys causality.
+As a result, you get a _type error_, not a syntax error, and a very bizarre one too, because it's going to complain that `v` isn't a function. This is like trying to bake pancakes for breakfast and accidentally going scuba diving instead. It's not a sequence of events that should ever be related in any universe that obeys causality.
 
 It should be noted that, after a friend of mine heard my screams of agony, [an issue was raised](https://github.com/zdevito/terra/issues/385) to change the syntax to a summoning ritual that involves less self-mutilation. Unfortunately, this is a breaking change, and will probably require an exorcism.
 
