@@ -28,7 +28,9 @@ ol, ul {
 }
 blockquote, q {
 	quotes: none;
-  margin: 0.5em 3em 0.5em 3em;
+  margin: 0.5em 3em 0.5em 2em;
+  padding-left: 1em;
+  border-left: 5px #aaa solid;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -181,14 +183,15 @@ main section ul li {
 }
 main section a:link {
   text-decoration: none;
-  color: #248;
+  color: #24a;
   text-shadow: 1px 1px 0 #e5e9ef;
 }
 main section a:visited, main section a:active {
-  color: #235;
+  color: #509;
 }
 main section a:hover {
-  color: #47a;
+  color: #2266d9;
+  text-decoration:underline;
 }
 main.projects section p {
   padding-top: 0.75em;
