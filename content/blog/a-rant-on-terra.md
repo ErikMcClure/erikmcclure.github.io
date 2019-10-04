@@ -61,26 +61,40 @@ You were supposed to banish the syntax demons, not join them! This _abomination_
     function gen(a, b) return `array(a, b) end
     
     terra test()
-      [gen(1, 2)][idx(4)]
+      -- Evaluates to array(1, 2) 0
+      return [gen(1, 2)][idx(0)]
     end
 
-For those of you joining us (probably because you heard a blood-curdling scream from down the hall), this syntax is exactly as ambiguous as you might think. Is it two splice statements put next to each other, or is a splice statement with an array index? You no longer know if a splice operator is supposed to index the array or act as a splice operator, as [mentioned in this issue](https://github.com/StanfordLegion/legion/issues/522). However, because this is Lua, whose syntax is very much like a delicate flower that cannot be disturbed, there is a much worse ambiguity possible.
+For those of you joining us (probably because you heard a blood-curdling scream from down the hall), this syntax is exactly as ambiguous as you might think. Is it two splice statements put next to each other, or is a splice statement with an array index? You no longer know if a splice operator is supposed to index the array or act as a splice operator, as [mentioned in this issue](https://github.com/StanfordLegion/legion/issues/522). Terra "resolves this" by just assuming that any two bracketed expressions put next to each other are *always* an array indexing operation, which is a lot like fixing your server overheating issue by running the fire suppression system 24/7. However, because this is Lua, whose syntax is very much like a delicate flower that cannot be disturbed, a much worse ambiguity comes up when we try to fix this.
+
+    function idx(x) return `x end
+    function gen(a, b) return `array(a, b) end
+
+    terra test()
+      -- This is required to make it evaluate to array(1,2)[0]
+	  -- return [gen(1, 2)][ [idx(0)] ]
+      -- This doesn't work:
+      return [gen(1, 2)][[idx(0)]]
+      -- This is equivalent to:
+      -- return [gen(1, 2)] "idx(0)"
+    end
+
+We want to use a spliced Lua expression as the array index, but if we don't use any spaces, *it turns into a string* because `[[string]]` is the Lua syntax for an unescaped string! Now, those of you who still possess functioning brains may believe that this would always result in a syntax error, as we have now placed a string next to a variable. **Not so!** Lua, in it's infinite wisdom, converts anything of the form `symbol"string"` or `symbol[[string]]` into a **function call** with the string as the only parameter. That means that, in certain circumstances, we literally attempt to _call our variable as a function with our expression as a string_:
 ```
-  local lookups = {x = 0, y = 1, z = 2, w = 3 };
+local lookups = {x = 0, y = 1, z = 2, w = 3 };
   vec.metamethods.__entrymissing = macro(function(entryname, expr)
-  	-- Should instead be: `expr.v[ [lookups[entryname] ] ]
-    -- which should evaluate to `expr.v[0] if entryname is "x"
-    return `expr.v[[lookups[entryname]]]
+    if lookups[entryname] then
+      -- This doesn't work
+      return `expr.v[[lookups[entryname]]]
+      -- This is equivilent to
+      -- return `expr.v "lookups[entryname]"
+      -- But it doesn't result in a syntax error, becase it's equivilent to:
+      -- return `extr.v("lookups[entryname]")
+    else
+      error "That is not a valid field."
+    end
   end)
-```
-The intent here is shown in the comments. We want to use a spliced Lua expression as the array index. However, if no spaces are used, do you know what happens?
-```
-return `expr.v[[lookups[entryname]]]
--- This is equivalent to
-return `expr.v "looksup[entryname]"
-```
-It turns into a string, because `[[string]]` is the Lua syntax for an unescaped string. Now, those of you who still possess functioning brains may believe that this would result in a syntax error, as we have now placed a string next to a variable. **Not so!** Lua, in it's infinite wisdom, converts anything of the form `symbol"string"` or `symbol[[string]]` into a **function call** with the string as the only parameter. That means we literally attempt to _call our variable as a function with our expression as a string_:
-```
+  
 return `expr.v "lookups[entryname]"
 -- This is equivalent to
 return `expr.v("lookups[entryname]")
