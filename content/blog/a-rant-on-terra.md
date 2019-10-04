@@ -125,6 +125,18 @@ For those of you who actually wish to try Terra, but don't want to wait for ~~me
 Yes, we are literally overwriting parts of the compiler itself, at runtime, from our script. **Welcome to Lua!** Enjoy your stay, and don't let the fact that any script you run could completely rewrite the compiler keep you up at night!
 
 ## The Existential Horror of Terra Symbols
+    local a = symbol()
+
+    defineA = quote
+            var [a] = 3
+        end
+
+    twiceA = `2*a
+
+    terra doit()
+        defineA
+        return twiceA
+    end
 
 "Aha!" says our observant student, "a reference to a variable from an outside context!" While this construct _does_ let you access a variable from an outside context, and if you attempt to use it like this will mostly work exactly as you expect, what it's actually doing is much ~~worse~~ more subtle. You see, grasshopper, a symbol is not a reference to a variable node in the AST, it is a reference to an _identifier_.
 
@@ -150,7 +162,7 @@ Yes, that is valid Terra, and yes, the people who built this language did this o
 
 ## Terra is C but the Preprocessor is Lua
 
-You realize now, what monstrosity has been unleashed upon the world? The sin that Terra has committed now lies naked before us.
+You realize now, the monstrosity we unleashed upon the world? The sin that Terra has committed now lies naked before us.
 
 **Terra is C if you replaced the preprocessor with Lua.**
 
@@ -162,7 +174,7 @@ Of course, Terra's metaprogramming _is_ turing complete, and it is _technically 
 
 ## There Is No Type System
 
-If terra was actually trying to build a metaprogramming equivilent to templates, it would have an actual type system. These languages already exist - Idris, etc. etc. etc., but none of them are interested in using their dependent type systems to actually metaprogram low-level code. The problem is that building a recursively metaprogrammable type system requires building a proof assistant, and everyone is so proud of the fact they built a proof assistant they forget that dependent type systems can do other things too, like build really fast memcpy implementations.
+If Terra was actually trying to build a metaprogramming equivilent to templates, it would have an actual type system. These languages already exist - Idris, etc. etc. etc., but none of them are interested in using their dependent type systems to actually metaprogram low-level code. The problem is that building a recursively metaprogrammable type system requires building a proof assistant, and everyone is so proud of the fact they built a proof assistant they forget that dependent type systems can do other things too, like build really fast memcpy implementations.
 
 Alas, such beauty can only exist in the minds of Mathematicians and small kittens,
 
