@@ -211,4 +211,4 @@ Alas, such beauty can only exist in the minds of mathematicians and small kitten
 
 I wish to forge galaxies, to wield the power of computation and sail the cosmos upon an infinite wave of creativity. Instead, I spend untold hours toiling inside LLVM, wondering why it won't print "Hello World".
 
-In conclusion, everything is terrible and I want to die.
+In conclusion, everything is terrible and the universe is on fire.
