@@ -24,6 +24,7 @@ fields:
   default:
   - blog
 pages:
+- content/blog/a-rant-on-terra.md
 - content/blog/how-not-to-sell-software.md
 - content/blog/what-is-right-answer.md
 - content/blog/outside-perspective-on-psn-fiasco.md
@@ -227,7 +228,6 @@ pages:
 - content/blog/hiring-wrong-people.md
 - content/blog/why-i-never-built-my-soundcloud-killer.md
 - content/blog/locks-lights-out-of-sight.md
-- content/blog/a-rant-on-terra.md
 - content/blog/why-would-i-ever-trust-microsoft-ai.md
 - content/blog/help-order-my-album.md
 - content/blog/capitalism-rewards-immoral-behavior.md
