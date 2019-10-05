@@ -53,7 +53,7 @@ What.
 
 **_WHAT?!_**
 
-You were supposed to banish the syntax demons, not join them! This _abomination_ is an insult to the fabric of reality itself! It is the very foundation that Satan himself would use to unleash Evil upon the world. Behold, mortals, for I come as the harbinger of _despair_:
+You were supposed to banish the syntax demons, not join them! This _abomination_ is an insult to Nine Kingdoms of Asgard! It is the very foundation that Satan himself would use to unleash Evil upon the world. Behold, mortals, for I come as the harbinger of _despair_:
 
 {{<pre lua>}}function idx(x) return `x end
 function gen(a, b) return `array(a, b) end
@@ -198,6 +198,8 @@ Of course, Terra's metaprogramming _is_ turing complete, and it is _technically 
 ## There Is No Type System
 
 If Terra was actually trying to build a metaprogramming equivalent to templates, it would have an actual type system. These languages already exist - [Idris](https://www.idris-lang.org/), [Omega](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.121.4251), [F*](https://www.fstar-lang.org/), [Ada](https://en.wikipedia.org/wiki/Ada_(programming_language)), [Sage](https://sage.soe.ucsc.edu/), etc. but none of them are interested in using their dependent type systems to actually metaprogram low-level code (except [ATS](https://en.wikipedia.org/wiki/ATS_(programming_language)), which unfortunately still wants you to prove the correctness of your code). The problem is that building a recursively metaprogrammable type system requires building a proof assistant, and everyone is so proud of the fact they built a proof assistant they forget that dependent type systems can do other things too, like build really fast memcpy implementations.
+
+Terra, on the other hand, provides only the briefest glimpse of a type system. Terra functions enjoy what is essentially a slightly more complex C type system. However, the higher-level Lua context is, well, Lua, which has exactly four types: Tables, Functions, Strings, and Numbers. That's it. Also, it's dynamic, not static, so everything is a syntax or a runtime error, because it's a scripting language. This means all your metaprogramming is sprinkled with type-verification calls like `:istype()` or `:isstruct()`, except the top came off the shaker and now the entire program is just sprinkles, everywhere. This is fine for when your metaprograms are, themselves, relatively simple. It is not fine when you are returning meta-programs out of meta-meta-functions.
 
 This is the impasse I find myself at, and it is the answer to the question I know everyone wants to know the answer to. For the love of heaven and earth and all that lies between, **why am I still using Terra?**
 
