@@ -17,11 +17,11 @@ Over the years, I've been frustrated with how difficult it is to find good free 
 ##### Instrumental
 [000_Florestan_Piano](http://nando.oui.com.br/_static/sf2/000_Florestan_Piano.zip)
 
-[198-StratocasterVS](https://googledrive.com/host/0B_2aDNVL_NGmOUZ0WnJhQ3lxWnc)
+[198-StratocasterVS](https://drive.google.com/file/d/0B_2aDNVL_NGmOUZ0WnJhQ3lxWnc)
 
-MIS Stereo Piano [ [SoundFont](https://googledrive.com/host/0B_2aDNVL_NGmMktaZEpZaUlLdVk) | [Directwave](https://googledrive.com/host/0B_2aDNVL_NGmOHgtM0RTTlFIZnM) ]
+MIS Stereo Piano [ [SoundFont](https://drive.google.com/file/d/0B_2aDNVL_NGmMktaZEpZaUlLdVk) | [Directwave](https://drive.google.com/file/d/0B_2aDNVL_NGmOHgtM0RTTlFIZnM) ]
 
-[MIS Orchestra Samples](https://googledrive.com/host/0B_2aDNVL_NGmMzVkWmo2LXg0cUk) [Requires Directwave]
+[MIS Orchestra Samples](https://drive.google.com/file/d/0B_2aDNVL_NGmMzVkWmo2LXg0cUk) [Requires Directwave]
 
 [SGM-V2.01](http://www.mediafire.com/?zo8l3dgf2989266)
 
@@ -41,7 +41,7 @@ MIS Stereo Piano [ [SoundFont](https://googledrive.com/host/0B_2aDNVL_NGmMktaZEp
  * [Bank 1](http://www.mediafire.com/download.php?5r9j3aoyewa5b3x)
  * [Bank 2](http://www.mediafire.com/download.php?m2lw5d3bbyfn0uo)
  * [Bank 3](http://www.mediafire.com/download.php?nbcrmw9bg49xk51)
-[Vowel Ensemble](https://googledrive.com/host/0B_2aDNVL_NGmUjd5enVWLTZNTEE)
+[Vowel Ensemble](https://drive.google.com/file/d/0B_2aDNVL_NGmUjd5enVWLTZNTEE)
 
 [070 Bassoon Ethan Nando](http://nando.oui.com.br/_static/sf2/070_Bassoon_Ethan-Nando.zip)
 
@@ -49,14 +49,14 @@ MIS Stereo Piano [ [SoundFont](https://googledrive.com/host/0B_2aDNVL_NGmMktaZEp
 
 [Tubular Bells](http://soundfonts.darkesword.com/fonts/tubular_bells.sfpack)
 
-[Maestro Concert Piano (SFZ)](https://googledrive.com/host/0B_2aDNVL_NGmdW5fc29RUFg4OVk)
+[Maestro Concert Piano (SFZ)](https://drive.google.com/file/d/0B_2aDNVL_NGmdW5fc29RUFg4OVk)
 
 ##### Percussion
-[SAMPLES - 5000 DRUMHITS](https://googledrive.com/host/0B_2aDNVL_NGmUnJPN3pyNTFnRk0)
+[SAMPLES - 5000 DRUMHITS](https://drive.google.com/file/d/0B_2aDNVL_NGmUnJPN3pyNTFnRk0)
 
-[1400 Samples Drum Kit](https://googledrive.com/host/0B_2aDNVL_NGmWWVCU281ZTE5Qjg)
+[1400 Samples Drum Kit](https://drive.google.com/file/d/0B_2aDNVL_NGmWWVCU281ZTE5Qjg)
 
-[mhak kicks](https://googledrive.com/host/0B_2aDNVL_NGmUVF2VWFvVDY3UEE)
+[mhak kicks](https://drive.google.com/file/d/0B_2aDNVL_NGmUVF2VWFvVDY3UEE)
 
 [drums_industrial](http://soundfonts.darkesword.com/fonts/drums_industrial.sfpack)
 
@@ -68,7 +68,7 @@ MIS Stereo Piano [ [SoundFont](https://googledrive.com/host/0B_2aDNVL_NGmMktaZEp
 
 [Ellade Drums](http://soundfonts.darkesword.com/fonts/ellade.sfpack)
 
-[The Freq's Glitch Hop Sample Pack](https://googledrive.com/host/0B_2aDNVL_NGmN3V4dTF5aXFlMFU)
+[The Freq's Glitch Hop Sample Pack](https://drive.google.com/file/d/0B_2aDNVL_NGmN3V4dTF5aXFlMFU/)
 
 ##### VSTi
 
