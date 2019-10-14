@@ -25,6 +25,7 @@ fields:
   - blog
 pages:
 - content/blog/name-shadowing-should-be-an-operator.md
+- content/blog/giant-list-of-free-samples.md
 - content/blog/a-rant-on-terra.md
 - content/blog/how-not-to-sell-software.md
 - content/blog/what-is-right-answer.md
@@ -37,7 +38,6 @@ pages:
 - content/blog/religion-problem-perspectives.md
 - content/blog/when-everyones-political-extremist-no.md
 - content/blog/the-polymaths-are-in-denial.md
-- content/blog/fgcanvas-webassembly-gui-nobody-wanted.md
 - content/blog/physics-oriented-network-interpolation.md
 - content/blog/the-splinter-in-my-mind.md
 - content/blog/i-now-have-lj.md
@@ -48,7 +48,6 @@ pages:
 - content/blog/physics-networking.md
 - content/blog/linux-mint-12-kde.md
 - content/blog/programming-is-like.md
-- content/blog/texas-fucks-everyone.md
 - content/blog/musical-genres.md
 - content/blog/leap-motion-impressions-input.md
 - content/blog/nearest-neighbor-algorithms-for-2d-and.md
@@ -57,7 +56,6 @@ pages:
 - content/blog/lockless-lattice-based-computing.md
 - content/blog/test.md
 - content/blog/risc-is-fundamentally-unscalable.md
-- content/blog/always-answer-question-first.md
 - content/blog/the-dark-side-of-htmlcss.md
 - content/blog/how-to-make-your-profiler-10x-faster.md
 - content/blog/i-tried-to-install-linux-and-now-i.md
@@ -70,10 +68,7 @@ pages:
 - content/blog/life-is-series-of-incredibly-unlikely.md
 - content/blog/i-hate-this-place.md
 - content/blog/microsoft-internship.md
-- content/blog/dealing-with-discord-spam-doomsday.md
-- content/blog/agnostics.md
 - content/blog/there-will-never-be-one-true.md
-- content/blog/holy-crap.md
 - content/blog/investigating-low-level-cpu-performance.md
 - content/blog/save-rss.md
 - content/blog/language-wars-are-pointless.md
@@ -90,7 +85,6 @@ pages:
 - content/blog/visual-studio-broke-my-computer.md
 - content/blog/how-to-avoid-memorizing-times-tables.md
 - content/blog/sexist-programmers-are-awful-engineers.md
-- content/blog/language-paradigm-wars-suck.md
 - content/blog/extraordinary.md
 - content/blog/how-my-little-pony-destroys-universe.md
 - content/blog/windows-breaks-assert-inside.md
@@ -103,7 +97,6 @@ pages:
 - content/blog/googles-decline-really-bugs-me.md
 - content/blog/most-downloaded-artist-on-ctg-music.md
 - content/blog/turning-3d-animation-into-2d-animation.md
-- content/blog/console-vs-pc-war-makes-no-sense.md
 - content/blog/c-to-c-tutorial-part-2-pointers.md
 - content/blog/discrete-wavefront-propagation.md
 - content/blog/most-people-have-shitty-computers.md
@@ -114,7 +107,6 @@ pages:
 - content/blog/posted-while-on-bus.md
 - content/blog/multithreading-problems-in-game-design.md
 - content/blog/on-hackers.md
-- content/blog/progress-comes-from-compromise-not-abuse.md
 - content/blog/the-right-to-ignore-difference-between.md
 - content/blog/function-pointer-speed.md
 - content/blog/abortion-has-no-moral-high-ground.md
@@ -125,14 +117,10 @@ pages:
 - content/blog/the-earbud-loudness-wars.md
 - content/blog/pony-clicker-postmortem.md
 - content/blog/the-magic.md
-- content/blog/fucking-hdr.md
 - content/blog/implicit-ui-design.md
 - content/blog/the-productivity-fallacy.md
 - content/blog/write-less-code.md
-- content/blog/gpl-sucks.md
-- content/blog/bill-bryant-blaming-inslee-for.md
 - content/blog/using-data-to-balance-your-game-pony.md
-- content/blog/how-creativity-could-survive-automation.md
 - content/blog/does-anyone-actually-want-good-software.md
 - content/blog/aurora-theory-released.md
 - content/blog/floating-point-preformance.md
@@ -145,8 +133,6 @@ pages:
 - content/blog/the-gpl-is-usually-overkill.md
 - content/blog/assembly-cas-implementation.md
 - content/blog/an-artist-trapped-inside-software.md
-- content/blog/in-lawsuit-against-google-both-sides.md
-- content/blog/secret-of-nimh.md
 - content/blog/signed-integers-considered-stupid-like.md
 - content/blog/programmers-should-take-linguistics.md
 - content/blog/use-email-verification-not-recovery.md
@@ -155,7 +141,6 @@ pages:
 - content/blog/an-unexpected-high-school-career.md
 - content/blog/ignoring-outliers-creates-racist.md
 - content/blog/you-cannot-build-future-on-top-of-ever.md
-- content/blog/bad-programs-come-from-bad-management.md
 - content/blog/bullying-never-stops.md
 - content/blog/how-to-train-your-dragon.md
 - content/blog/self-driving-cars-can-solve-world-hunger.md
@@ -164,8 +149,6 @@ pages:
 - content/blog/why-ill-never-get-life-i-wanted.md
 - content/blog/my-mom-had-heart-attack.md
 - content/blog/today-is-best-day-in-world.md
-- content/blog/the-future-of-welfare.md
-- content/blog/does-microsoft-ruin-everything-it-buys.md
 - content/blog/my-point-of-view.md
 - content/blog/my-steamos-experience.md
 - content/blog/fiction.md
@@ -173,15 +156,12 @@ pages:
 - content/blog/ninth-circle-of-bugs.md
 - content/blog/contact.md
 - content/blog/the-modern-spectacle.md
-- content/blog/name-shadowing-is-evil.md
 - content/blog/dreams-are-worth-fighting-for.md
 - content/blog/cold-boot.md
 - content/blog/8-bit-color-cycling.md
 - content/blog/teenage-rebellion-as-failure-of-society.md
-- content/blog/im-popular.md
 - content/blog/a-trip-through-directxs-deranged-matrix.md
 - content/blog/the-ladder-climbing-generation.md
-- content/blog/the-illusion-of-perfection.md
 - content/blog/the-answer-is-not-more-censorship-its.md
 - content/blog/no-more-econ.md
 - content/blog/your-esoteric-language-is-useless.md
@@ -198,7 +178,6 @@ pages:
 - content/blog/wavsaver.md
 - content/blog/aquaria-hints.md
 - content/blog/programmers-are-overgeneralized.md
-- content/blog/p-np.md
 - content/blog/future-predictions.md
 - content/blog/course-notes.md
 - content/blog/not-reinventing-wheel-is-anticompetitive.md
@@ -208,30 +187,21 @@ pages:
 - content/blog/what-use-is-good-job.md
 - content/blog/most-bizarre-error-ever.md
 - content/blog/i-cant-hear-anything-below-80-hz.md
-- content/blog/making-binaural-recordings-with.md
 - content/blog/dreams-of-failure.md
-- content/blog/multiple-choice-and-cult-of-perfection.md
-- content/blog/go-build-is-not-predictable.md
 - content/blog/deriving-moral-framework-from-logic.md
 - content/blog/ip-law-makes-you-asshole.md
-- content/blog/name-search.md
 - content/blog/you-arent-designing-software-for-robots.md
 - content/blog/windows-wont-let-my-program-crash.md
 - content/blog/desktop-composition.md
 - content/blog/properly-dreaming-about-success.md
 - content/blog/problem-of-vsync.md
 - content/blog/proving-strong-ai.md
-- content/blog/i-dont-care-anymore.md
-- content/blog/giant-list-of-free-samples.md
 - content/blog/the-microsoft-word-problem.md
 - content/blog/answers-to-all-questions-i-asked-as-kid.md
 - content/blog/make-it-easy-to-do-right-thing.md
 - content/blog/hiring-wrong-people.md
 - content/blog/why-i-never-built-my-soundcloud-killer.md
 - content/blog/locks-lights-out-of-sight.md
-- content/blog/why-would-i-ever-trust-microsoft-ai.md
-- content/blog/help-order-my-album.md
-- content/blog/capitalism-rewards-immoral-behavior.md
 - content/blog/well-that-was-interesting.md
 - content/blog/the-price-we-pay-for-progress.md
 - content/blog/album-for-sale-renascent.md
