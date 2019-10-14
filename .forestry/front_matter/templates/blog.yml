@@ -24,6 +24,7 @@ fields:
   default:
   - blog
 pages:
+- content/blog/name-shadowing-should-be-an-operator.md
 - content/blog/a-rant-on-terra.md
 - content/blog/how-not-to-sell-software.md
 - content/blog/what-is-right-answer.md
@@ -237,7 +238,6 @@ pages:
 - content/blog/introducing-feather-universal-gui.md
 - content/blog/how-joysticks-ruined-my-graphics-engine.md
 - content/blog/bad-timing.md
-- content/blog/name-shadowing-should-be-an-operator.md
 - content/blog/18-problems-for-a-new-generation.md
 - content/blog/why-do-people-use-the-wrong-email-.md
 - content/blog/a-wrinkle-in-time-for-millenials.md

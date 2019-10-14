@@ -1,7 +1,6 @@
 +++
 categories = ["blog"]
-date = "2018-09-04T13:23:58-07:00"
-draft = true
+date = "2019-10-13T13:23:58-07:00"
 title = "Name Shadowing Should Be An Operator"
 
 +++
