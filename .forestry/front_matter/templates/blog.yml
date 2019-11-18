@@ -24,6 +24,7 @@ fields:
   default:
   - blog
 pages:
+- content/blog/democrats-don-t-understand-statistics.md
 - content/blog/lld-is-broken-because-it-s-obsessed-with-global-state.md
 - content/blog/name-shadowing-should-be-an-operator.md
 - content/blog/giant-list-of-free-samples.md
