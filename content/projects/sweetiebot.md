@@ -3,7 +3,7 @@ categories = ["project"]
 date = "2017-01-13T00:00:00Z"
 description = "An anti-spam bot for Discord."
 image = "img/sweetiebot.svg"
-links = [["github", "Github", "https://github.com/blackhole12/sweetiebot"], ["globe", "Website", "https://sweetiebot.io/"], ["comments", "Support Channel", "https://discord.gg/t2gVQvN"]]
+links = [["github", "Github", "https://github.com/erikmcclure/sweetiebot"], ["globe", "Website", "https://sweetiebot.io/"], ["comments", "Support Channel", "https://discord.gg/t2gVQvN"]]
 tags = ""
 title = "Sweetie Bot"
 
