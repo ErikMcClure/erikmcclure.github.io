@@ -1,4 +1,4 @@
-baseURL = "https://blackhole12.com/"
+baseURL = "https://erikmcclure.com/"
 copyright = "Erik McClure"
 defaultLayout = "post"
 disableKinds = ["taxonomy"]
@@ -30,7 +30,7 @@ weight = 3
 [[menu.main]]
 identifier = "github"
 name = "Github"
-url = "https://github.com/blackhole12"
+url = "https://github.com/erikmcclure"
 weight = 4
 [[menu.main]]
 identifier = "linkedin"
