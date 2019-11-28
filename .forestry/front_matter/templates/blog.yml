@@ -24,6 +24,7 @@ fields:
   default:
   - blog
 pages:
+- content/blog/software-engineering-is-bad-but-it-s-not-that-bad.md
 - content/blog/complexity-is-irreversible.md
 - content/blog/what-i-learned-in-college.md
 - content/blog/watch-this-now.md
@@ -117,7 +118,6 @@ pages:
 - content/blog/the-problem-with-photorealism.md
 - content/blog/i-used-to-want-to-work-for-google.md
 - content/blog/is-there-commercial-open-source-license.md
-- content/blog/software-engineering-is-bad-but-it-s-not-that-bad.md
 - content/blog/pixel-perfect-hit-testing.md
 - content/blog/why-i-am-screaming-in-rage.md
 - content/blog/floating-point-preformance.md
