@@ -1,6 +1,6 @@
 +++
 categories = ["blog"]
-date = "2020-01-12T021:51:00Z"
+date = "2020-01-12T21:51:00Z"
 title = "Debugging Through WebAssembly Is Impossible"
 
 +++
@@ -12,7 +12,7 @@ The problem is that no debugger understands a webassembly pointer. WebAssembly u
 
 {{<pre>}}base_memory + offset{{</pre>}}
 
-Now, unlike LLVM{{<sup>}}<a href="#footnote1">\[1\]</a>{{</sup>}}, DWARF is actually [very well documented](http://www.dwarfstd.org/doc/DWARF5.pdf). The problem is that the documentation makes it clear that you get exactly one "custom" value to work with - whatever is pushed on top of the DWARF location expression. Any other values must exist in hardware registers (which are architecture and ABI-dependent), as built-in values, or as constants. LLVM makes it extremely hard to actually gaurantee than a specific hardware register get assigned anything, and it's even harder to make sure it doesn't get clobbered, so this is wildly impractical, even if we were only targeting x86-64. We still have built-in values like `DW_AT_FRAME_BASE` that might help, but we have a problem.
+Now, unlike LLVM{{<sup>}}<a href="#footnote1">&#91;1&#93;</a>{{</sup>}}, DWARF is actually [very well documented](http://www.dwarfstd.org/doc/DWARF5.pdf). The problem is that the documentation makes it clear that you get exactly one "custom" value to work with - whatever is pushed on top of the DWARF location expression. Any other values must exist in hardware registers (which are architecture and ABI-dependent), as built-in values, or as constants. LLVM makes it extremely hard to actually gaurantee than a specific hardware register get assigned anything, and it's even harder to make sure it doesn't get clobbered, so this is wildly impractical, even if we were only targeting x86-64. We still have built-in values like `DW_AT_FRAME_BASE` that might help, but we have a problem.
 
 We can't just redirect `DW_AT_frame_base` somewhere else becuase it's currently pointing to the very real function framebase of our compiled function, which has it's own entirely valid stack that we still need to be able to find. We can't use `DW_AT_static_link` because it's coupled to the frame base, which itself still needs to exist. We would need some value at a specific, hardcoded address which could be accessed via `DW_OP_addr` in order to acquire the memory base pointer inside the expression, but that's totally incompatible with relocatable binaries. There is simply no way to have access to both an offset and a global base memory pointer in a DWARF expression without loading the global base memory pointer into a register.
 
@@ -28,9 +28,9 @@ Unfortunately, while the bit offset of struct members is stored as a 64-bit valu
 
 Normally, when doing a hardcoded offset like this, one would reserve 4 gigabytes of memory (the maximum amount a 32-bit wasm binary can utilize) for every single module. This would all work out fine because most of them wouldn't actually use this much memory, but their layout in virtual address space ensures that they won't run into each other. Being limited to 31-bits means that you can only load a single module that has no maximum memory size, or you have to require maximum memory sizes for all loaded modules so they can be tightly packed.
 
-The second problem is that, even though DWARF lets you specify the size of the pointer you are loading, Visual Studio doesn't care and will always assume a pointer is 64-bits. As a result, in order to make this technique work, you have to compile in the nonstandard `wasm64` mode so that all offsets are stored in 64-bit integers. Technically, this does work, but the result is horrid:
+The second problem is that, even though DWARF lets you specify the size of the pointer you are loading, Visual Studio doesn't care and will always assume a pointer is 64-bits on a 64-bit architecture. As a result, in order to make this technique work, you have to compile in the nonstandard `wasm64` mode so that all offsets are stored in 64-bit integers. Technically, this does work, but the result is horrid:
 
-{{<img src="/img/wasm-debug.png" alt="WASM debugging prototype" width="1071">}}
+{{<img src="/img/wasm_debug.png" alt="WASM debugging prototype" width="1071">}}
 
 Now, if we consider the constraints we already have, there are some much more farfetched ideas that come to mind, but unfortunately none of them are viable. One idea would be to allocate the lowest addressable page in Windows using `VirtualAlloc`, which is `0x10000`, and then convince clang to compile an executable whose low address boundary is `65536` instead of `1024`. Then the allocate memory command could allocate memory starting from `0x10000` but actually return `0` as the offset, which then turns all the webassembly offsets into true addressable pointers.
 
@@ -46,6 +46,6 @@ Until that happens, debugging a language through WebAssembly is impossible.
 
 ***
 
-{{<sup>}}<a name="footnote1">\[1\]</a>{{</sup>}}: In order to convince LLVM to generate PDBs in the first place, you must add a module flag with the magic string "CodeView". This string does not exist as a constant anywhere outside of the LLVM function that checks for it's existence. There is no documentation anywhere that explains how to do this. I found it by digging through clang's source code. This is probably the only page on the entire internet that tells you how to do this.
+{{<sup>}}<a name="footnote1">&#91;1&#93;</a>{{</sup>}} In order to convince LLVM to generate PDBs in the first place, you must add a module flag with the magic string "CodeView". This string does not exist as a constant anywhere outside of the LLVM function that checks for it's existence. There is no documentation anywhere that explains how to do this. I found it by digging through clang's source code. This is probably the only page on the entire internet that tells you how to do this.
 
 For bonus points, LLVM also mentions that `llvm.dbg.declare()` is deprecated, but it won't use `llvm.dbg.addr()` unless you set a hidden command line parameter - the function directly checks this command line parameter, making it almost impossible to set programmatically.
