@@ -1,7 +1,6 @@
 +++
 categories = ["blog"]
-date = ""
-draft = true
+date = "2020-01-12T021:51:00Z"
 title = "Debugging Through WebAssembly Is Impossible"
 
 +++
