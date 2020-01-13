@@ -24,10 +24,10 @@ fields:
   default:
   - project
 pages:
-- content/projects/sweetiebot.md
 - content/projects/_index.md
 - content/projects/aurora-theory.md
-- content/projects/magnesium.md
-- content/projects/planeshader.md
 - content/projects/bss-util.md
 - content/projects/feathergui.md
+- content/projects/magnesium.md
+- content/projects/planeshader.md
+- content/projects/sweetiebot.md
