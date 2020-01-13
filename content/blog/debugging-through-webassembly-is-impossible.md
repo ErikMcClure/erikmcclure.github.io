@@ -1,0 +1,52 @@
++++
+categories = ["blog"]
+date = ""
+draft = true
+title = "Debugging Through WebAssembly Is Impossible"
+
++++
+I recently added some very primitive debugging support to [inNative](https://github.com/innative-sdk/innative/releases) to allow you to step through the original source code during execution via [sourcemaps](https://sourcemaps.info/spec.html). My client, however, has expressed the need for proper variable inspection in the original C++ code. They are using WebAssembly as a plugin system, which makes sense, and they want to have a toolchain that allows debugging the compiled WebAssembly as if one was stepping through the original C++ source code.
+
+It turns out this is basically impossible without modifying LLVM, and making it work with PDB files might actually be impossible given the format's constraints. None of this is because of a lack of debugging information, at least in debug mode (LLVM 10 is necessary for using the new [DWARF webassembly standard](https://yurydelendik.github.io/webassembly-dwarf/) to debug optimized webassembly). All of the type information is included. All of the stack offsets are there. All the variable names and source files and line information is all there with all the information you need.
+
+The problem is that no debugger understands a webassembly pointer. WebAssembly uses linear memory sections and encodes load/store operations as 32-bit zero-based _offsets_ from the beginning of the memory section, which could be anywhere. This means that there are _two values_ required to calculate the actual location in memory:
+
+{{<pre>}}base_memory + offset{{</pre>}}
+
+Now, unlike LLVM{{<sup>}}[1]{{</sup>}}, DWARF is actually [very well documented](http://www.dwarfstd.org/doc/DWARF5.pdf). The problem is that the documentation makes it clear that you get exactly one "custom" value to work with - whatever is pushed on top of the DWARF location expression. Any other values must exist in hardware registers (which are architecture and ABI-dependent), as built-in values, or as constants. LLVM makes it extremely hard to actually gaurantee than a specific hardware register get assigned anything, and it's even harder to make sure it doesn't get clobbered, so this is wildly impractical, even if we were only targeting x86-64. We still have built-in values like `DW_AT_FRAME_BASE` that might help, but we have a problem.
+
+We can't just redirect `DW_AT_frame_base` somewhere else becuase it's currently pointing to the very real function framebase of our compiled function, which has it's own entirely valid stack that we still need to be able to find. We can't use `DW_AT_static_link` because it's coupled to the frame base, which itself still needs to exist. We would need some value at a specific, hardcoded address which could be accessed via `DW_OP_addr` in order to acquire the memory base pointer inside the expression, but that's totally incompatible with relocatable binaries. There is simply no way to have access to both an offset and a global base memory pointer in a DWARF expression without loading the global base memory pointer into a register.
+
+Okay, fine, what if we nail our base memory location to a single hardcoded location? Since we're compiling the WebAssembly binary on the user's machine, we can dynamically pick a location in memory we know is free and hardcode it into the binary. Now we only need one custom value, the offset itself. The rest is just convincing the debugger to add `X` bytes to the memory location.
+
+DWARF provides several ways of doing this. The cleanest would likely be to use `DW_AT_data_location`, which is intended for just this situation, but the problem is that it can't be applied to raw pointer types. We could try to use `DW_TAG_ptr_to_member_type`, but this is trying to perform the wrong operation. Okay, fine, how about we convert all our "pointers" to struct types that contain the type that is being pointed to? Then we can either use `DW_AT_data_location` on the struct type itself to derive the correct location, or we can use `DW_AT_data_member_location` on the contained type.
+
+Unfortunately for us, LLVM can't emit `DW_AT_data_location`, and it hardcodes `DW_AT_data_member_location` as a simple byte offset from the start of a structure. In fact almost every useful data location parameter that we might be able to encode a location expression in isn't actually supported by LLVM, or is hardcoded to a specific operation. LLVM doesn't even consider `DW_OP_addr` to be a valid operator (probably because of binary relocation). Given these constraints, we'll have to get creative.
+
+What if we tell the debugger our offset is a pointer, let it dereference the "pointer" to an obviously invalid memory location near the beginning of memory, but then offset the type contained inside the struct by the base memory location? The end result would be the contained "struct member" that just so happened to be offset by 2 billion bytes lands on the correct part in memory, and this would work with PDB files!
+
+Unfortunately, while the bit offset of struct members is stored as a 64-bit value in both DWARF and PDB files, Visual Studio's debugger appears to use a signed 32-bit integer during the offset calculation. As a result, this technique only works if all memory addresses fit inside 31 bits.
+
+Normally, when doing a hardcoded offset like this, one would reserve 4 gigabytes of memory (the maximum amount a 32-bit wasm binary can utilize) for every single module. This would all work out fine because most of them wouldn't actually use this much memory, but their layout in virtual address space ensures that they won't run into each other. Being limited to 31-bits means that you can only load a single module that has no maximum memory size, or you have to require maximum memory sizes for all loaded modules so they can be tightly packed. 
+
+The second problem is that, even though DWARF lets you specify the size of the pointer you are loading, Visual Studio doesn't care and will always assume a pointer is 64-bits. As a result, in order to make this technique work, you have to compile in the nonstandard `wasm64` mode so that all offsets are stored in 64-bit integers. Technically, this does work, but the result is horrid:
+
+{{<img src="/img/wasm-debug.png" alt="WASM debugging prototype" width="1071">}}
+
+Now, if we consider the constraints we already have, there are some much more farfetched ideas that come to mind, but unfortunately none of them are viable. One idea would be to allocate the lowest addressable page in Windows using `VirtualAlloc`, which is `0x10000`, and then convince clang to compile an executable whose low address boundary is `65536` instead of `1024`. Then the allocate memory command could allocate memory starting from `0x10000` but actually return `0` as the offset, which then turns all the webassembly offsets into true addressable pointers.
+
+At minimum, this idea requires modifying clang, because there is no parameter to do this (or it's hidden). However, it also doesn't solve the function pointer problem. In WebAssembly, functions also are referenced by offset, but this offset is relative to a completely seperate function table. You can't have both of these at address 0, so one of them would need to be offset past the end of the other. At the moment, the function table can't grow, so sticking it in front of the actual linear memory region might work, but this immediately falls apart when [reference types](https://github.com/WebAssembly/reference-types/blob/master/proposals/reference-types/Overview.md) are added. You would also have to then convince clang to skip 16384 function indices when generating webassembly.
+
+Another option would be to take advantage of how C++ programs are compiled into WebAssembly. Clang maintains a global variable that stores the current stack frame of the program. If you had a constant offset, you could add that to the initial value of the stack frame and have the custom `malloc()` implementation return offsets that include the base memory offset, then simply change the `memory.load` wasm operation to not add the base memory offset. This has the same effect of turning the webassembly offsets into true pointers (but still requires compiling as Wasm64). Unfortunately, the C++ model also stores globals that are referred to by hardcoded values in the linear memory space, which would be extremely difficult to differentiate from normal integer constants. 
+
+All of these ideas are extremely fragile and will immediately break upon trying to support multiple memory spaces and extensible function tables. The simple fact is, even if you were to modify LLVM to support all these DWARF operations, at minimum you would have to nail your memory locations to hardcoded addresses. In addition, any such solution would only work with GDB, forcing you to use Visual Studio's [remote gdb debugger](https://docs.microsoft.com/en-us/cpp/linux/deploy-run-and-debug-your-linux-project?view=vs-2019) on Windows. The suggested WebAssembly DWARF extensions won't even be sufficient to deal with multiple linear memories or tables, because you need to encode which linear memory or table a given value is supposed to belong to.
+
+I will be discussing these issues at the [next WebAssembly meeting](https://github.com/WebAssembly/meetings/issues/474), but I'm posting this article now in the vain hope that I am actually completely wrong, and that by invoking Cunningham's Law, perhaps someone in a comment section somewhere will miraculously provide a solution that I have overlooked.
+
+Until that happens, debugging a language through WebAssembly is impossible.
+
+***
+
+[1]: In order to convince LLVM to generate PDBs in the first place, you must add a module flag with the magic string "CodeView". This string does not exist as a constant anywhere outside of the LLVM function that checks for it's existence. There is no documentation anywhere that explains how to do this. I found it by digging through clang's source code. This is probably the only page on the entire internet that tells you how to do this.
+
+For bonus points, LLVM also mentions that `llvm.dbg.declare()` is deprecated, but it won't use `llvm.dbg.addr()` unless you set a hidden command line parameter - the function directly checks this command line parameter, making it almost impossible to set programmatically.
