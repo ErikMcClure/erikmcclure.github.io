@@ -19,3 +19,4 @@ fields:
   default: true
 pages:
 - content/blog/migrating-to-static-blog.md
+- content/blog/pressure-based-anti-spam-for-discord-bots.md
