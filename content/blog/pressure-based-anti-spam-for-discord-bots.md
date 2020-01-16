@@ -101,7 +101,7 @@ if track.pressure < 0 {
 }{{</pre>}}
 In essence, this entire system is a superset of the more simplistic "`N` messages in `M` seconds". If you only use base pressure and maximum pressure, then these determine the absolute upper limit of how many messages can be send in a given time period, regardless of their content. You then tweak the rest of the pressure values to more quickly catch obvious instances of spamming. The maximum pressure can be altered on a per-channel basis, which allows meme channels to spam messages without triggering anti-spam. Here's what a user's pressure value looks like over time:
 
-{{<img src="https://cdn.discordapp.com/attachments/308275612265480193/479858371579609093/unknown.png" alt="Pressure Graph" width="480">}}
+{{<img src="/img/pressure.png" alt="Pressure Graph" width="481">}}
 
 Because this whole pressure system is integrated into the Regex filtering module, servers can essentially create their own bad-word filters by assigning a huge pressure value to a certain match, which instantly creates a silence. These regexes can be used to look for other things that the bot doesn't currently track, like all-caps messages, or for links to specific websites. The pressure system allows integrating all of these checks in a unified way that represents the total "disruptiveness" of an individual user's behavior.
 
