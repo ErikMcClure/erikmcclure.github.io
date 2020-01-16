@@ -34,7 +34,7 @@ The `@Member` role being added can also short-circuit Discord's own verification
 
 ## Operation
 
-The bot has two distinct modes of operation. Under normal operation, when a new member joins the server, they are automatically given `@Member` (and `@New` if it's been enabled) and are immediately allowed to speak. If they trigger the anti-spam, or a moderator uses the `!silence` command, they will have the `@Silence` role added and they'll be restricted to speaking in `#Silence Containment`. By default, silences that happen automatically are never rescinded until a moderator manually unsilences someone. However, some server admins are lazy, so an automatic expiration can be added. A manual silence can also be configured to expire after a set period of time.
+The bot has two distinct modes of operation. Under normal operation, when a new member joins the server, they are automatically given `@Member` (and `@New` if it's been enabled) and are immediately allowed to speak. If they trigger the anti-spam, or a moderator uses the `!silence` command, they will have the `@Silence` role added, any messages sent in the last 5 seconds (by default) will be deleted, and they'll be restricted to speaking in `#Silence Containment`. By default, silences that happen automatically are never rescinded until a moderator manually unsilences someone. However, some server admins are lazy, so an automatic expiration can be added. A manual silence can also be configured to expire after a set period of time.
 
 It's important to note that when silenced, users have **both** the `@Member` and the `@Silence` role. The reason is because many servers have opt-in channels that are only accessible if you add a role to yourself. Simply removing `@Member` would not suffice to keep them from talking in these channels, but `@Silence` can override these permissions and ensure they can't speak in any channel without having to mess up anyone's assigned roles.
 
@@ -50,4 +50,30 @@ Each message a user sends is assigned a "pressure score". This is calculated fro
 
 My bot looks at the following values:
 
-Once we've calculated how disruptive a given message is, we can add it to the user's total pressure score, which is a measure of how disruptive a user is currently being. However, we need to recognize that sending a wall of text everyone 10 minutes probably isn't disruptive, but sending 10 short messages saying "ROFLCOPTER" in 10 seconds is spamming. 
+And here is the implementation I use:  
+{{<pre>}}{{</pre>}}
+
+Once we've calculated how disruptive a given message is, we can add it to the user's total pressure score, which is a measure of how disruptive a user is currently being. However, we need to recognize that sending a wall of text every 10 minutes probably isn't an issue, but sending 10 short messages saying "ROFLCOPTER" in 10 seconds is definitely spamming. So, before we add the message pressure to the user's pressure, we check how long it's been since that user last sent a message, and _decrease their pressure accordingly_. If it's only been a second, the pressure shouldn't decrease very much, but if it's been 3 minutes or so, any pressure they used to have should probably be gone by now. Most heat algorithms do this non-linearly, but my experiments showed that a linear drop-off tends to produce better results (and is simpler to implement).
+
+My bot implements this by simply decreasing the amount of pressure a user has by a set amount for every `N` seconds. So if it's been 2 seconds, they will lose `4` pressure, until it reaches zero. Here is the implementation for my bot:  
+{{<pre>}}{{</pre>}}
+
+In essence, this entire system is a superset of the more simplistic "N messages in M seconds". If you only use base pressure and maximum pressure, then these determine the absolute upper limit of how many messages can be send in a given time period, regardless of their content. You then tweak the rest of the pressure values to more quickly catch obvious instances of spamming. The maximum pressure can be altered on a per-channel basis, which allows meme channels to spam messages without triggering anti-spam. Here's what a user's pressure value looks like over time:  
+  
+{{<img>}}
+
+Because this whole pressure system is integrated into the Regex filtering module, servers can essentially create their own bad-word filters by assigning a huge pressure value to a certain match, which instantly creates a silence. These regexes can be used to look for other things that the bot doesn't currently track, like all-caps messages, or for links to specific websites. The pressure system allows integrating all of these checks in a unified way that represents the total "disruptiveness" of an individual user's behavior.
+
+## Worst Case Scenario
+
+A special mention should go to the uncommon but possible worst-case scenario for spamming. This happens when a dedicated attacker really, really wants to fuck up your server for some reason. They can do this by creating 1000+ fake accounts with randomized names, and wait until they've all been on discord for long enough that the "new to discord" message doesn't show up. Then, they have the bots join the server _extremely slowly_, at the pace of maybe 1 per hour. Then they wait another week or so, before they unleash a spam attack that has each account send exactly 1 message, followed by a different accout sending another message.
+
+If they do this fast enough, you can detect it simply by the sheer volume of messages being sent in the channel, and automatically put the channel in slow mode. However, in principle, it is completely impossible to automatically deal with this attack. Banning everyone who happens to be sending messages during the spam event will ban innocent bystanders, and if the individual accounts aren't sending messages that fast (maybe one per second), this is indistinguishable from a normal conversation.
+
+My bot has an emergency method for dealing with this where it tracks when a given user sent their first message in the server. You can then use a command to ban everyone who sent their first message in the past `N` seconds. This is very effective when it works, but it is trivial for spammers to get past once they realize what's going on - all they need to do is have their fake accounts say "hi" once while they're trickling in. Of course, a bunch of accounts all saying "hi" and then nothing else may raise enough suspicion to catch the attack before it happens.
+
+## Conclusion
+
+Hopefully this article demonstrates how to make a reliable, extensible anti-spam bot that can deal with pretty much any imaginable spam attack. The code for my deprecated spam bot is [available here](https://github.com/ErikMcClure/sweetiebot) for reference, but the code is terrible and most of it was a bad idea. You cannot add the bot itself to a server anymore, and the support channel is no longer accessible.
+
+My hope is that someone can take these guidelines and make a much more effective, generalized anti-spam bot so I don't have to. I hate web development and i'd rather spend my time building a native webassembly compiler instead of worrying about [weird intermittent cloudflare errors](https://github.com/bwmarrin/discordgo/issues/659) that temporarily break everything, or [badly designed lock systems](https://github.com/bwmarrin/discordgo/issues/513) that deadlock under rare edge cases.
