@@ -59,13 +59,50 @@ My bot looks at the following values:
 * **Repeat Pressure**: If the message being sent is the _exact_ same as the previous message sent by this user (copy+pasted), it generates 10 additional pressure, effectively doubling the base pressure cost for the message. This means a user copy and pasting the same message more than twice in rapid succession will be silenced.
 * **Filter Pressure**: Any filter set by the admins can add an arbitrary amount of additional pressure if a message triggers that filter regex. The amount is user-configurable.
 
-And here is the implementation I use:  
-{{<pre>}}{{</pre>}}
+And here a simplified version of my implementation. Note that I am adding the pressure piecewise, so that I can alert the moderators and tell them exactly which pressure trigger broke the limit, which helps moderators tell if someone just posted too many pictures at once, or was spamming the same message over and over:
+{{<pre>}}if w.AddPressure(info, m, track, info.Config.Spam.BasePressure) {
+	return true
+}
+if w.AddPressure(info, m, track, info.Config.Spam.EmbedPressure*float32(len(m.Attachments))) {
+	return true
+}
+if w.AddPressure(info, m, track, info.Config.Spam.EmbedPressure*float32(len(m.Embeds))) {
+	return true
+}
+if w.AddPressure(info, m, track, info.Config.Spam.LengthPressure*float32(len(m.Content))) {
+	return true
+}
+if w.AddPressure(info, m, track, info.Config.Spam.LinePressure*float32(strings.Count(m.Content, "\n"))) {
+	return true
+}
+if w.AddPressure(info, m, track, info.Config.Spam.PingPressure*float32(len(m.Mentions))) {
+	return true
+}
+if len(m.Content) > 0 && m.Content == track.lastcache {
+	if w.AddPressure(info, m, track, info.Config.Spam.RepeatPressure) {
+		return true
+	}
+}{{</pre>}}
 
 Once we've calculated how disruptive a given message is, we can add it to the user's total pressure score, which is a measure of how disruptive a user is currently being. However, we need to recognize that sending a wall of text every 10 minutes probably isn't an issue, but sending 10 short messages saying "ROFLCOPTER" in 10 seconds is definitely spamming. So, before we add the message pressure to the user's pressure, we check how long it's been since that user last sent a message, and _decrease their pressure accordingly_. If it's only been a second, the pressure shouldn't decrease very much, but if it's been 3 minutes or so, any pressure they used to have should probably be gone by now. Most heat algorithms do this non-linearly, but my experiments showed that a linear drop-off tends to produce better results (and is simpler to implement).
 
-My bot implements this by simply decreasing the amount of pressure a user has by a set amount for every `N` seconds. So if it's been 2 seconds, they will lose `4` pressure, until it reaches zero. Here is the implementation for my bot:  
-{{<pre>}}{{</pre>}}
+My bot implements this by simply decreasing the amount of pressure a user has by a set amount for every `N` seconds. So if it's been 2 seconds, they will lose `4` pressure, until it reaches zero. Here is the implementation for my bot, which is done before any pressure is added:  
+{{<pre>}}
+timestamp := bot.GetTimestamp(m)
+track := w.TrackUser(author, timestamp)
+last := track.lastmessage
+track.lastmessage = timestamp.Unix()*1000 + int64(timestamp.Nanosecond()/1000000)
+if track.lastmessage < last { // This can happen because discord has a bad habit of re-sending timestamps if anything so much as touches a message
+	track.lastmessage = last
+	return false // An invalid timestamp is never spam
+}
+interval := track.lastmessage - last
+
+track.pressure -= info.Config.Spam.BasePressure * (float32(interval) / (info.Config.Spam.PressureDecay * 1000.0))
+if track.pressure < 0 {
+	track.pressure = 0
+}
+{{</pre>}}
 
 In essence, this entire system is a superset of the more simplistic "`N` messages in `M` seconds". If you only use base pressure and maximum pressure, then these determine the absolute upper limit of how many messages can be send in a given time period, regardless of their content. You then tweak the rest of the pressure values to more quickly catch obvious instances of spamming. The maximum pressure can be altered on a per-channel basis, which allows meme channels to spam messages without triggering anti-spam. Here's what a user's pressure value looks like over time:  
   
@@ -75,7 +112,7 @@ Because this whole pressure system is integrated into the Regex filtering module
 
 ## Worst Case Scenario
 
-A special mention should go to the uncommon but possible worst-case scenario for spamming. This happens when a dedicated attacker really, really wants to fuck up your server for some reason. They can do this by creating 1000+ fake accounts with randomized names, and wait until they've all been on discord for long enough that the "new to discord" message doesn't show up. Then, they have the bots join the server _extremely slowly_, at the pace of maybe 1 per hour. Then they wait another week or so, before they unleash a spam attack that has each account send exactly 1 message, followed by a different accout sending another message.
+A special mention should go to the uncommon but possible worst-case scenario for spamming. This happens when a dedicated attacker really, really wants to fuck up your server for some reason. They can do this by creating 1000+ fake accounts with randomized names, and wait until they've all been on discord for long enough that the "new to discord" message doesn't show up. Then, they have the bots join the server _extremely slowly_, at the pace of maybe 1 per hour. Then they wait another week or so, before they unleash a spam attack that has each account send exactly 1 message, followed by a different account sending another message.
 
 If they do this fast enough, you can detect it simply by the sheer volume of messages being sent in the channel, and automatically put the channel in slow mode. However, in principle, it is completely impossible to automatically deal with this attack. Banning everyone who happens to be sending messages during the spam event will ban innocent bystanders, and if the individual accounts aren't sending messages that fast (maybe one per second), this is indistinguishable from a normal conversation.
 
