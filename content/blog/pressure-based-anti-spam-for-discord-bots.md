@@ -50,6 +50,15 @@ Each message a user sends is assigned a "pressure score". This is calculated fro
 
 My bot looks at the following values:
 
+* **Max Pressure**: The default maximum pressure is 60.
+* **Base Pressure**: All messages generate 10 pressure by default, so at most 6 messages can be sent at once.
+* **Embed Pressure**: Each image, link, or attachment in a message generates 8.3 additional pressure, which limits users to 5 images or links in a single message.
+* **Length Pressure**: Each individual character in a message generates 0.00625 additional pressure, which limits you to sending 2 maximum length messages at once.
+* **Line Pressure**: Each newline in a message generates 0.714 additional pressure, which limits you to 70 newlines in a single message.
+* **Ping Pressure**: Every single _unique_ ping in a message generates 2.5 additional pressure, which limits users to 20 pings in a single message.
+* **Repeat Pressure**: If the message being sent is the _exact_ same as the previous message sent by this user (copy+pasted), it generates 10 additional pressure, effectively doubling the base pressure cost for the message. This means a user copy and pasting the same message more than twice in rapid succession will be silenced.
+* **Filter Pressure**: Any filter set by the admins can add an arbitrary amount of additional pressure if a message triggers that filter regex. The amount is user-configurable.
+
 And here is the implementation I use:  
 {{<pre>}}{{</pre>}}
 
@@ -58,7 +67,7 @@ Once we've calculated how disruptive a given message is, we can add it to the us
 My bot implements this by simply decreasing the amount of pressure a user has by a set amount for every `N` seconds. So if it's been 2 seconds, they will lose `4` pressure, until it reaches zero. Here is the implementation for my bot:  
 {{<pre>}}{{</pre>}}
 
-In essence, this entire system is a superset of the more simplistic "N messages in M seconds". If you only use base pressure and maximum pressure, then these determine the absolute upper limit of how many messages can be send in a given time period, regardless of their content. You then tweak the rest of the pressure values to more quickly catch obvious instances of spamming. The maximum pressure can be altered on a per-channel basis, which allows meme channels to spam messages without triggering anti-spam. Here's what a user's pressure value looks like over time:  
+In essence, this entire system is a superset of the more simplistic "`N` messages in `M` seconds". If you only use base pressure and maximum pressure, then these determine the absolute upper limit of how many messages can be send in a given time period, regardless of their content. You then tweak the rest of the pressure values to more quickly catch obvious instances of spamming. The maximum pressure can be altered on a per-channel basis, which allows meme channels to spam messages without triggering anti-spam. Here's what a user's pressure value looks like over time:  
   
 {{<img>}}
 
