@@ -1,5 +1,6 @@
 +++
-date = "2020-01-15T19:00:00Z"
+categories = ["blog"]
+date = "2020-01-15T21:45:00Z"
 title = "Pressure Based Anti-Spam for Discord Bots"
 +++
 Back when Discord was a wee little chat platform with no rate limiting whatsoever, it's API had already been reverse-engineered by a bunch of bot developers who then went around spamming random servers with so many messages it would crash the client. My friends and I were determined to keep our discord server public, so I went about creating the first anti-spam bot for Discord.
