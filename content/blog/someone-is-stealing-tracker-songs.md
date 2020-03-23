@@ -1,7 +1,7 @@
 +++
 categories = ["blog"]
 date = "2020-03-22T12:08:00Z"
-title = "Someone Is Stealing Demoscene Songs And Selling Them"
+title = "Someone Is Stealing Tracker Songs And Selling Them"
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"
