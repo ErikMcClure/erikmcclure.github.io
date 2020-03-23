@@ -1,0 +1,8 @@
+content = "Scopes may be up your alley – it's a Scheme-wrapped-around-LLVM contraption that bootstraps itself  into a higher-level language from a set of small primitives and LLVM bindings.<br><br> http://scopes.rocks"
+date = "2019-10-06T21:27:19.71638Z"
+id = 19
+[author]
+name = "Matt Keeter"
+uri = "https://github.com/mkeeter"
+[author.image]
+source = "//avatars1.githubusercontent.com/u/745333?v=4"

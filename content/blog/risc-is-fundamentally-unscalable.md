@@ -2,7 +2,7 @@
 categories = ["blog"]
 date = "2019-07-27T20:09:00Z"
 title = "RISC Is Fundamentally Unscalable"
-
+comments = [1, 2, 3, 4, 5, 6, 7, 8, 9, 21]
 +++
 Today, there was an announcement about [a new RISC-V chip](https://twitter.com/Calista_Redmond/status/1154278392344305664), which has got a lot of people excited. I wish I could also be excited, but to me, this is just a reminder that RISC architectures are fundamentally unscalable, and inevitably stop being RISC as soon as they need to be fast. People still call ARM a "RISC" architecture despite [ARMv8.3-A adding a `FJCVTZS` instruction](https://en.wikipedia.org/wiki/ARM_architecture#ARMv8.3-A), which is "Floating-point Javascript Convert to Signed fixed-point, rounding toward Zero". Reduced instruction set, my ass.
 

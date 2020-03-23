@@ -1,0 +1,6 @@
+content = "You mischaracterize RISC: if you go to the original Hennesy Patterson papers it's the idea that ISA design should quantify performance and only include instructions that help fast execution. This was done in reaction to ISAs that included very complicated instructions that were actually slower in practice than syimilar functionality compiled from simple instructions---EVEN ON THE SAME CHIP WHICH DIDN&quot;T OPTIMIZE THOSE SIMPLE INSTRUCTIONS. H-P realized that you can then simplify the ISA and make the simple instructions faster.<br>There's nothing in the original RISC that prohibits complex instructions, if they can be shown to be fast---examples include floating point, encryption, SIMD, and even crazy Javascript conversion if it indeed is faster as a dedicated instruction. <br>Note, finally, that complicated architecture, such as a humongous register set or large caches, incurs performance cost due to e.g. decoding complexity that slows down the critical path present in every instruction. The implementation tricks such as register renaming and multilevel caches are just practical ways of dealing with this problem.<br>"
+date = "2019-07-30T16:37:31.351847Z"
+id = 7
+[author]
+name = "przemek klosowski"
+uri = "https://przemek.klosowski+blackhole@gmail.com"

@@ -1,0 +1,5 @@
+content = "1. RISC has long lost its meaning you're still operating under -- 'reduced instruction set' has little to do with instruction count or complexity these days (or for the past 20 years, for that matter). Instead  RISC has much to with instruction *decoding* complexity and the load/store paradigm (thoroughly adopted by CISC uarchs, naturally).<br>2. There's a good reason VLIW was phased out even from GPUs, where conditions were most beneficial for that paradigm. We don't have compilers that can solve run-time problems ahead of time -- I doubt we ever will. A 'defer count' solves nothing when you don't know how much to defer at the time you generate the instruction."
+date = "2019-07-29T18:10:46.557648Z"
+id = 8
+[author]
+name = "martin krastev"
