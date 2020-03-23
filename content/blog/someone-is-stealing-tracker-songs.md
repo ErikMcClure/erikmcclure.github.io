@@ -15,7 +15,7 @@ Now, some random person uploading an old song on youtube and trying to take cred
 
 The point is that **someone has stolen 11 classic demoscene tracker songs and is selling them on every major online music store.** The album is called "H4x0r R007z" and it consists entirely of blatantly stolen tracker songs lazily renamed using 1337 text, which usually means finding the original song is pretty easy. Because it was published via DistroKid, you can find it on [Spotify](https://open.spotify.com/album/5FX3bM1XqCMtWxmRl7F89K), [Google Play](https://play.google.com/music/preview/Bthmoz2r45ruexekqsvvrbto3au?play=1), [iTunes](https://music.apple.com/us/album/h4x0r-r007z-hacker-roots/1450759001), [Amazon](https://www.amazon.com/H4x0r-R007z-Hacker-Roots-H4X0r/dp/B07N675DCN), [Deezer](https://www.deezer.com/album/85630742?autoplay=true), [iHeartRadio](https://www.iheart.com/artist/H4X0r-32755715/albums/H4x0r+R007z+%28Hacker+Roots%29-68519698?autoplay=true) and it's been registered into the automatically populated copyrighted songs databases! That means the artist "H4x0r" could **legally issue copyright takedowns for every other legitimate upload of the actual songs**, or abuse Google's automatic fingerprinting system to force monetization on all of the videos and take all the income.
 
-The songs that were stolen were often used in keygen cracking software that was popular in the 2000s to pirate software. Many people have noted that this was often their first introduction to tracker music, and this is likely the source of the name "H4x0r R007z", even though the songs themselves usually had nothing to do with the hacker groups. The original tracker files are still available in the scene archives, and other Youtube channels have uploaded MP3 recordings of the songs *with proper attribution*. I was able to source 8 out of the 11 songs from the album, with the real name and artist, plus a Youtube or Soundcloud recording (if you'd like to play the original files yourself, you can use [XMPlay](https://www.un4seen.com/)).
+The songs that were stolen were often used in keygen cracking software that was popular in the 2000s to pirate software. Many people have noted that this was often their first introduction to tracker music, and this is likely the source of the name "H4x0r R007z", even though the songs themselves usually had nothing to do with the hacker groups. The original tracker files are still available in the scene archives, and other Youtube channels have uploaded MP3 recordings of the songs *with proper attribution*. I was able to source 9 out of the 11 songs from the album, with the real name and artist, plus a Youtube or Soundcloud recording (if you'd like to play the original files yourself, you can use [XMPlay](https://www.un4seen.com/)).
 
   1. **0 Pr1m4ry**
   {{<html>}}<br>{{</html>}}Real Name: "primary" by Ramosa
@@ -46,7 +46,9 @@ The songs that were stolen were often used in keygen cracking software that was 
   {{<html>}}<br>{{</html>}}Original file: [sineiste.mod](https://modarchive.org/index.php?request=view_by_moduleid&query=67503)
   {{<html>}}<br>{{</html>}}[Youtube](https://www.youtube.com/watch?v=7x93cD6zvww) (Some recordings seem to have more clarity than XMPlay provides, but it's not clear if this was intended)
   8. **Au70ma71k**
-  {{<html>}}<br>{{</html>}}I found several songs with closely related names to this, but no sadly no matches.
+  {{<html>}}<br>{{</html>}}Real Name: "Automatik" by Rez
+  {{<html>}}<br>{{</html>}}Original file: [rez-automatik.mod](https://files.scene.org/view/music/artists/rez/rez-automatik.zip)
+  {{<html>}}<br>{{</html>}}[Youtube](https://www.youtube.com/watch?v=h9yfqCDreDc)
   9. **S3rV1l**
   {{<html>}}<br>{{</html>}}I was also unable to source this song, possibly due to spelling errors.
   10. **S0 C1os3**
