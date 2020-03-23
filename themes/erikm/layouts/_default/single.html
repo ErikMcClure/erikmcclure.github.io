@@ -38,7 +38,11 @@
         {{with index $.Site.Data.comments $id }}
         <div {{with .reply }}class="reply"{{end}} id="{{ $id }}">
         <div class="reply-arrow"><i class="fa fa-level-up"></i></div>
+        {{if .author.image }}
         <img src="{{.author.image.source}}" alt="" />
+        {{else}}
+        <div style="display:inline-block;width:32px;height:32px;"></div>
+        {{end}}
         <b>{{.author.name}}</b>
         <p>{{.content | safeHTML}}</p>
         </div>

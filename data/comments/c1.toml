@@ -1,0 +1,5 @@
+content = "No, VLIW is not the solution to the problem. There's a good reason why industry moved away from it.<br><br>And there's also no reason why RISC-V cant scale. RISC/CISC distinction in 2019 is dumb as neither popular designs are either one of those. "
+date = "2019-07-29T16:30:09.964762Z"
+id = 1
+[author]
+name = "Benjamin Hojnik"
