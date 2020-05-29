@@ -27,7 +27,7 @@ file_template: ":filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.55.6
+  - HUGO_VERSION=0.62.2
   preview_output_directory: public
   preview_docker_image: forestryio/build:latest
   mount_path: "/opt/buildhome/repo"
