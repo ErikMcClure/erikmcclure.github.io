@@ -10,7 +10,7 @@ name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"
 
 +++
-Today, a friend asked me for help figuring out how to calculate the standard deviation over a discrete probability distribution. I pulled up [my notes from college](http://blackhole12.blogspot.com/2013/05/course-notes.html) and was able to correctly calculate the standard deviation they had been unable to derive after hours upon hours of searching the internet and trying to piece together poor explanations from questionable sources. The crux of the problem was, as I had suspected, the astonishingly bad notation involved with this particular calculation. You see, the expected value of a given distribution {{<math>}}X{{</math>}} is expressed as {{<math>}}E[X]{{</math>}}, which is calculated using the following formula:
+Today, a friend asked me for help figuring out how to calculate the standard deviation over a discrete probability distribution. I pulled up [my notes from college]({{< ref "course-notes.md" >}}) and was able to correctly calculate the standard deviation they had been unable to derive after hours upon hours of searching the internet and trying to piece together poor explanations from questionable sources. The crux of the problem was, as I had suspected, the astonishingly bad notation involved with this particular calculation. You see, the expected value of a given distribution {{<math>}}X{{</math>}} is expressed as {{<math>}}E[X]{{</math>}}, which is calculated using the following formula:
 {{<bmath>}} E[X] = \sum_{i=1}^{\infty} x_i p(x_i) {{</bmath>}}
 The standard deviation is the square root of the variance, and the variance is given in terms of the expected value.
 {{<bmath>}} Var(X) = E[X^2] - (E[X])^2  {{</bmath>}}

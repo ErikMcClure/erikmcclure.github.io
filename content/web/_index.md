@@ -10,8 +10,8 @@ type = "page"
 +++
 ### Personal
  * [{{<icon home fa-lg>}}Homepage](/)
- * [{{<icon twitter fa-lg>}}Twitter](https://twitter.com/blackhole0173)
- * [{{<icon key fa-lg>}}Keybase](https://keybase.io/blackhole)
+ * [{{<icon twitter fa-lg>}}Twitter](https://twitter.com/erikmcclure0173)
+ * [{{<icon key fa-lg>}}Keybase](https://keybase.io/erikmcclure)
  * [{{<icon linkedin fa-lg>}}LinkedIn](https://www.linkedin.com/in/erikmcclure/)
  * [{{<icon paypal fa-lg>}}Patreon](https://www.patreon.com/erikmcclure)
  
@@ -24,7 +24,7 @@ type = "page"
 ### Music
   * [{{<icon bandcamp fa-lg>}}Bandcamp](https://erikmcclure.bandcamp.com/)
   * [{{<icon globe fa-lg>}}Newgrounds](https://erikmcclure.newgrounds.com/)
-  * [{{<icon soundcloud fa-lg>}}Soundcloud](https://soundcloud.com/blackhole12)
+  * [{{<icon soundcloud fa-lg>}}Soundcloud](https://soundcloud.com/erik_mcclure)
   * [{{<icon music fa-lg>}}Clyp.it](https://clyp.it/user/0xgutex4)
   
 ### Photography

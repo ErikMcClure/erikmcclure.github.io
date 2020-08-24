@@ -10,7 +10,7 @@ name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"
 
 +++
-[ [1](http://blackhole12.blogspot.com/2011/07/c-to-c-tutorial-part-1-basics-of-syntax.html) &middot; [2](http://blackhole12.blogspot.com/2011/07/c-to-c-tutorial-part-2-pointers.html) &middot; [3](http://blackhole12.blogspot.com/2011/09/c-to-c-tutorial-part-3-classes-and.html) &middot; **4** &middot; <span style="color:#aaa;">5 &middot; 6 &middot; 7</span> ]
+[ [1]({{< ref "c-to-c-tutorial-part-1-basics-of-syntax.md" >}}) &middot; [2]({{< ref "c-to-c-tutorial-part-2-pointers.md" >}}) &middot; [3]({{< ref "c-to-c-tutorial-part-3-classes-and.md" >}}) &middot; **4** &middot; <span style="color:#aaa;">5 &middot; 6 &middot; 7</span> ]
 
 If you are familiar with C#, you should be familiar with the difference between C#'s {{<code>}}struct{{</code>}} and {{<code>}}class{{</code>}} declarations. Namely, a {{<code>}}struct{{</code>}} is a value type and a {{<code>}}class{{</code>}} is a reference type, meaning that if you pass a struct to a function, its default behavior is for the entire struct to be **copied** into the function's parameter, so any modifications made to it won't affect whatever was passed in. On the flip side, a class is a reference value, so a **reference** is passed into the function, and any changes made to that reference will be reflected in the object that was originally passed into the function.
 
