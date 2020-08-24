@@ -14,6 +14,7 @@ type = "page"
  * [{{<icon key fa-lg>}}Keybase](https://keybase.io/erikmcclure)
  * [{{<icon linkedin fa-lg>}}LinkedIn](https://www.linkedin.com/in/erikmcclure/)
  * [{{<icon paypal fa-lg>}}Patreon](https://www.patreon.com/erikmcclure)
+ * [{{<icon twitch fa-lg>}}Twitch](https://www.twitch.tv/erikmcclure)
  
 ### Code
  * [{{<icon globe fa-lg>}}Company Website](http://fundament.software/)
@@ -25,6 +26,7 @@ type = "page"
   * [{{<icon bandcamp fa-lg>}}Bandcamp](https://erikmcclure.bandcamp.com/)
   * [{{<icon globe fa-lg>}}Newgrounds](https://erikmcclure.newgrounds.com/)
   * [{{<icon soundcloud fa-lg>}}Soundcloud](https://soundcloud.com/erik_mcclure)
+  * [{{<icon youtube fa-lg>}}Youtube](https://www.youtube.com/c/erikmcclure)
   * [{{<icon music fa-lg>}}Clyp.it](https://clyp.it/user/0xgutex4)
   
 ### Photography
