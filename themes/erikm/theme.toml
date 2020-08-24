@@ -1,12 +1,12 @@
 name = "erikm"
 license = "Apache"
-licenselink = "https://github.com/blackhole12/blackhole12.github.io/blob/master/LICENSE"
+licenselink = "https://github.com/erikmcclure/erikmcclure.github.io/blob/master/LICENSE"
 description = "A theme for Erik McClure's website"
-homepage = "https://github.com/blackhole12/blackhole12.github.io"
-tags = ["blackhole", "erik mcclure", "cloud hop"]
+homepage = "https://github.com/erikmcclure/erikmcclure.github.io"
+tags = ["erik mcclure", "cloud hop"]
 features = ["blog"]
 min_version = 0.30
 
 [author]
   name = "Erik McClure"
-  homepage = "https://github.com/blackhole12"
+  homepage = "https://github.com/erikmcclure"

@@ -3,7 +3,7 @@ categories = ["project"]
 date = "2020-05-24T00:00:00Z"
 description = "A 6 year journey of musical development, moving towards a hybrid orchestral sound."
 image = "img/dreams_of_distant_stars.th.jpg"
-links = [["bandcamp", "Bandcamp", "https://erikmcclure.bandcamp.com/album/dreams-of-distant-stars"], ["soundcloud", "SoundCloud", "https://soundcloud.com/blackhole12/sets/dreams-of-distant-stars"]]
+links = [["bandcamp", "Bandcamp", "https://erikmcclure.bandcamp.com/album/dreams-of-distant-stars"], ["soundcloud", "SoundCloud", "https://soundcloud.com/erik_mcclure/sets/dreams-of-distant-stars"]]
 tags = ""
 title = "Dreams of Distant Stars"
 

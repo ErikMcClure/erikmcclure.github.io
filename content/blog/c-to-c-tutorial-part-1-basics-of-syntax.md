@@ -10,7 +10,7 @@ name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"
 
 +++
-[ **1** &middot; [2](http://blackhole12.blogspot.com/2011/07/c-to-c-tutorial-part-2-pointers.html) &middot; [3](http://blackhole12.blogspot.com/2011/09/c-to-c-tutorial-part-3-classes-and.html) &middot; [4](http://blackhole12.blogspot.com/2012/10/c-to-c-tutorial-part-4-operator-overload.html) <span style="color:#aaa;">&middot; 5 &middot; 6 &middot; 7</span> ]
+[ **1** &middot; [2]({{< ref "c-to-c-tutorial-part-2-pointers.md" >}}) &middot; [3]({{< ref "c-to-c-tutorial-part-3-classes-and.md" >}}) &middot; [4]({{< ref "c-to-c-tutorial-part-4-operator-overload.md" >}}) <span style="color:#aaa;">&middot; 5 &middot; 6 &middot; 7</span> ]
 
 When moving from C# to C++, one must have a very deep knowledge of what C# is actually doing when you run your program. Doing so allows you to recognize the close parallels between both languages, and why and how they are different. This tutorial will assume you have a fairly strong grasp of C#, but may not be familiar with some of its more arcane attributes.
 
@@ -270,4 +270,4 @@ So C++ arrays are just like C# arrays, except they are pointers to the first ele
 
 There's a lot of stuff about pointers that this tutorial hasn't covered, like function pointers and pointer arithmetic, which we'll get to next time.
 
-[Part 2: Pointers To Everything](http://blackhole12.blogspot.com/2011/07/c-to-c-tutorial-part-2-pointers.html)
+[Part 2: Pointers To Everything]({{< ref "c-to-c-tutorial-part-2-pointers.md" >}})

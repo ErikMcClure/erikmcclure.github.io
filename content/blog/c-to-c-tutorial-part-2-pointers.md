@@ -10,7 +10,7 @@ name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"
 
 +++
-[ [1](http://blackhole12.blogspot.com/2011/07/c-to-c-tutorial-part-1-basics-of-syntax.html) &middot; **2** &middot; [3](http://blackhole12.blogspot.com/2011/09/c-to-c-tutorial-part-3-classes-and.html) &middot; [4](http://blackhole12.blogspot.com/2012/10/c-to-c-tutorial-part-4-operator-overload.html) <span style="color:#aaa;">&middot; 5 &middot; 6 &middot; 7</span> ]
+[ [1]({{< ref "c-to-c-tutorial-part-1-basics-of-syntax.md" >}}) &middot; **2** &middot; [3]({{< ref "c-to-c-tutorial-part-3-classes-and.md" >}}) &middot; [4]({{< ref "c-to-c-tutorial-part-4-operator-overload.md" >}}) <span style="color:#aaa;">&middot; 5 &middot; 6 &middot; 7</span> ]
 
 We still have a lot of ground to cover on pointers, but before we do, we need to address certain conceptual frameworks missing from C# that one must be intimately familiar with when moving to C++.
 
@@ -69,7 +69,7 @@ Not only that, but you can declare class instances and other objects on the stac
 Class instance; //Used if there are no arguments for the constructor
 //Class instance(); //Causes a compiler error! The compiler will think its a function.
 {{</pre>}}
-<a id="struct-init">In fact</a>, if you have a very simple data structure that uses only default constructors, you can use a shortcut for initializing its members. I haven't gone over classes and structs in C++ yet (See [Part 3](http://blackhole12.blogspot.com/2011/09/c-to-c-tutorial-part-3-classes-and.html)), but here is the syntax anyway:
+<a id="struct-init">In fact</a>, if you have a very simple data structure that uses only default constructors, you can use a shortcut for initializing its members. I haven't gone over classes and structs in C++ yet (See [Part 3]({{< ref "c-to-c-tutorial-part-3-classes-and.md" >}})), but here is the syntax anyway:
 
 {{<pre cpp>}}struct Simple
 {
@@ -301,4 +301,4 @@ bunnyref = value; // This does the same exact thing as below.
 *pbunny = value;
 
 // bunny is now equal to value
-{{</pre>}}This also demonstrates the other use of a pointer-to-pointer data type, allowing you to remotely manipulate a pointer just like a pointer allows you to remotely manipulate an integer or other value type. So obviously you can do pointers to pointers to pointers to pointers to an absurd degree of lunacy, but this is *exceedingly rare* so you shouldn't need to worry about it.  Now you should be strong in the art of pointer-fu, so our next tutorial will finally get into object-oriented techniques in C++ in comparison to C#.   [Part 3: Classes and Structs and Inheritance OH MY!](http://blackhole12.blogspot.com/2011/09/c-to-c-tutorial-part-3-classes-and.html)
+{{</pre>}}This also demonstrates the other use of a pointer-to-pointer data type, allowing you to remotely manipulate a pointer just like a pointer allows you to remotely manipulate an integer or other value type. So obviously you can do pointers to pointers to pointers to pointers to an absurd degree of lunacy, but this is *exceedingly rare* so you shouldn't need to worry about it.  Now you should be strong in the art of pointer-fu, so our next tutorial will finally get into object-oriented techniques in C++ in comparison to C#.   [Part 3: Classes and Structs and Inheritance OH MY!]({{< ref "c-to-c-tutorial-part-3-classes-and.md" >}})

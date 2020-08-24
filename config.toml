@@ -10,7 +10,7 @@ theme = "erikm"
 title = "Erik McClure"
 [author]
 name = "Erik McClure"
-twitter = "blackhole0173"
+twitter = "erikmcclure0173"
 uri = "https://plus.google.com/104896885003230920472"
 [[menu.main]]
 identifier = "book"
@@ -47,7 +47,7 @@ description = "Applied mathematician and software architect who occasionally wri
 googleanalytics = "Oxb2ia8HjcHLXlvstA8xPpQO3BO_y15Ds2Ia-feq1MQ"
 image = "img/avatar.png"
 imagesm = "img/avatar.th.png"
-keywords = "games, music, code, blackhole, blackhole12, blackhole0173, erik mcclure, aurora theory, sweetie bot, discord, feathergui, black sphere studios, tinyoal, upatch"
+keywords = "games, music, code, erik mcclure, erikmcclure, aurora theory, sweetie bot, discord, feathergui, black sphere studios, tinyoal, upatch"
 [taxonomies]
 category = "categories"
 tag = "tags"
