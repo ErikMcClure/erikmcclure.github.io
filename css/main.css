@@ -1,0 +1,653 @@
+/* HTML Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+  margin: 0.5em 3em 0.5em 2em;
+  padding-left: 1em;
+  border-left: 5px #aaa solid;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+  -ms-interpolation-mode: bicubic;
+}
+html {
+  background: #666 url('/img/bg.jpg') no-repeat bottom left fixed;
+  background-size: 100% auto;
+  height:100%;
+}
+body {
+  min-width: 300px;
+  font-size: 16px;
+  height: 100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+  background: url('/img/grid.png') repeat fixed;
+}
+nav {
+  position:relative;
+  background: #2b7bb5;
+	font: 700 small-caps 1.07rem Helvetica, Arial, sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  box-shadow: 0 0 3px #000;
+  z-index: 10;
+  user-select: none;
+}
+nav p {
+  display: inline;
+}
+nav ul {
+  margin: 0 auto;
+  padding: 0.35em 0;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  border-left: 1px #0b5b95 solid;
+  padding: 0 0.25em;
+}
+nav ul li:first-child {
+  border-left: 0;
+}
+nav ul li a {
+  display: inline-block;
+  color: #F0F0FF;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 0.4em 0.75em;
+  border: 1px transparent solid;
+  box-shadow: 0 0 1px transparent;
+  text-transform: uppercase;
+}
+nav ul li a:hover {
+  color: #FFF;
+  border: 1px #55AAFF solid;
+  box-shadow: 0 0 1px #000;
+  background: #3585c0;
+}
+
+header {
+  background: url('/img/bg.jpg') no-repeat bottom left fixed;
+}
+header .dim {
+  background: rgba(0,0,0,0.45);
+}
+
+h1 {
+  display:block;
+	font: 700 2.6rem "Lucida grande", Helvetica, Arial, sans-serif;
+  letter-spacing: 3px;
+  color: #405060;
+  background: rgb(240,245,250);
+  background: rgba(240,245,250,0.7);
+  padding: 0.2em 0;
+  border: 1px solid #fff 0 1px solid #fff 0;
+  text-shadow: 1px 1px #eeeef0;
+  box-shadow: 0 0 8px #111;
+  margin: 0;
+  cursor: default;
+  text-align: center;
+}
+main {
+  padding-bottom: 3em;
+}
+h2, h3, h4 {
+	font: 700 small-caps 1.7rem Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 0.6em 0 0 0;
+  color: #33373f;
+  text-shadow: 1px 1px 0 #f5f9ff;
+}
+h3 {
+  text-align: left;
+  margin-left: 1em;
+}
+h4 {
+  display: block;
+  text-align: left;
+  margin-left: 1em;
+  padding-top: 0.5em;
+}
+h5 {
+	font: 700 small-caps 1.4rem Helvetica, Arial, sans-serif;
+  color: #33373f;
+  margin: 0.5em 0 0.5em 0;
+}
+h6 {
+	font: 0.8rem "Lucida grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #666564;
+  padding-top: 0.25rem;
+  font-style: italic;
+}
+code, pre {
+  font-family: monospace;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+.blog section h4 a:link {
+  color: #333435;
+}
+.blog section h4 a:hover {
+  color: #369;
+}
+main section ul {
+  text-align: left;
+  margin: 0.5em 0 0.75em 1.5em;
+}
+main section ul li {
+  line-height: 1.75em;
+  list-style: none;
+}
+main section a:link {
+  text-decoration: none;
+  color: #24a;
+  text-shadow: 1px 1px 0 #e5e9ef;
+}
+main section a:visited, main section a:active {
+  color: #509;
+}
+main section a:hover {
+  color: #2266d9;
+  text-decoration:underline;
+}
+main.projects section p {
+  padding-top: 0.75em;
+}
+main.projects section, .links section {
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  max-width: 1000px;
+  box-shadow: 0 3px 8px #303030;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.7);
+  background: url('/img/bg.jpg') no-repeat bottom left fixed;
+  color: #000;
+  margin: 3em auto 0 auto;
+  overflow:hidden;
+}
+main.projects .dim {
+  display: flex;
+  align-items: stretch;
+  background: rgba(0,0,0,0.45);
+  border-radius: 9px;
+}
+
+main.projects section aside {
+  border-right: 1px solid #a0a5a9;
+  min-width: 250px;
+  text-align: center;
+  user-select: none;
+  background: rgb(220,223,225);
+  background: rgba(240,243,245,0.85);
+}
+
+main.projects section article {
+  font: 1rem "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  padding: 0 0.75em 0.75em 1em;
+  text-shadow: 1px 1px 0 #f0f3f5;
+  border-left: 1px solid #f5f9ff;
+  background: rgb(220,223,225);
+  background: rgba(240,243,245,0.85);
+}
+main.projects section article time {
+  display:block;
+  color: #666564;
+  text-align:right;
+  margin-right: 0.75em;
+}
+
+main.projects section aside img {
+  max-width: 226px;
+  border-radius: 6px;
+  margin-top: 0.5em;
+}
+
+main.links {
+  text-align: center;
+}
+
+main.links section {
+  position: relative;
+  display: inline-block;
+}
+main.links .dim {
+  background: rgba(0,0,0,0.45);
+  border-radius: 9px;
+}
+main.links .dim .color {
+  background: rgb(220,223,225);
+  background: rgba(240,243,245,0.85);
+  padding: 0.1em 1.3em 0.1em 0;
+}
+
+main.blog {
+  display:flex;
+  align-items: stretch;
+  margin: 0 auto;
+  max-width:1156px;
+}
+
+main.blog section {
+  margin: 0 0.75em 0 0.75em;
+  max-width: 888px;
+}
+
+main.blog section article {
+  font: normal normal 16px/1.57 Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+  position: relative;
+  border-radius: 6px;
+  box-shadow: 0 5px 16px #0a0a0a;
+  background: rgb(243,244,245);
+  color: #333231;  
+  margin-top: 2.5em;
+  padding: 0 0 0.75rem 0;
+}
+main.blog section article .padding {
+  margin: 0 1.75rem 0 1.75rem;
+  overflow-x:hidden;
+}
+main.blog section article hr, main.projects section article hr {
+  opacity: 0.3;
+}
+main.blog section article p, main.blog section article ol, main.blog section article ul {
+  margin: 1.35em 0 1.35em 0;
+}
+main.blog section article p:nth-child(1) {
+  margin-top: 0.4em;
+}
+main.blog section article p:nth-last-child(1) {
+  margin-bottom: 0.4em;
+}
+main.blog section article ol li {
+  list-style: decimal;
+  margin-left: 1.5em;
+}
+
+main.blog section article ul li {
+  list-style: disc;
+  margin-left: 1.5em;
+}
+main.blog section article ul li p, main.blog section article ol li p {
+  margin: 0.8em 0 0.8em 0;
+}
+
+main.blog section article time {
+  color: #666564;
+  margin: 0.25em 0 0 2em;
+}
+main.blog section article aside {
+  display: inline-block;
+  color: #666564;
+  margin: 1px 0 0 1.75em;
+  user-select: none;
+}
+main.blog section article i, main.blog section article em {
+  font-style: italic;
+}
+main.blog section article b, main.blog section article strong {
+  font-weight: 700;
+}
+main.blog section article aside i, main.blog section article time i {
+  font-style: normal;
+}
+main.blog section article aside ul {
+  display: inline-block;
+  margin: 0;
+  height: 26px;
+  overflow: hidden;
+  vertical-align:bottom;
+}
+main.blog section article aside ul li {
+  display: inline;
+  list-style: none;
+  margin: 0 0 0 2px;
+}
+
+main.blog section article aside ul li a:link, main.blog section article aside ul li a:visited {
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+main.blog section article aside ul li a:hover, main.blog section article aside ul li a:active {
+  opacity: 1;
+}
+main.blog section article pre {
+  max-width:800px;
+}
+
+main.blog section article img {
+}
+main.blog section article .imgwrap {
+  margin: 0 auto;
+  width: 100%;
+}
+main.blog section.archive {
+  user-select: none;
+  max-width: 220px;
+}
+main.blog section.archive ol {
+  padding: 0 0.75em 0 1em;
+}
+main.blog section.archive ol li {
+  list-style: none;
+  line-height: 1.5em;
+  margin-left: 0.5em;
+}
+main.blog section.archive ol li ul {
+  margin: 0.25em 0 0 1.75em;
+}
+main.blog section.archive ol li ul li {
+  list-style: disc;
+  line-height: 1.2em;
+  padding-bottom: 0.5em;
+  margin-left: 0;
+}
+main.blog section.archive details {
+  margin: 0;
+}
+main.blog section.archive summary {
+  cursor: pointer;
+}
+
+main.blog section.archive summary:focus {
+  outline: 0;
+}
+
+main.blog section.archive img {
+  margin: 20px 20px 0 20px;
+  box-shadow: 0 2px 3px #333;
+  border-radius: 2px;
+}
+
+main.blog section aside a:link, main.blog section aside a:visited, main.blog section aside a:active, main.blog section time a:link, main.blog section time a:visited, main.blog section time a:active {
+  text-decoration: none;
+  color: #666564;
+}
+
+main.blog section aside a:hover, main.blog section time a:hover {
+  color: #444695;
+}
+
+main.blog section .pager {
+  font: 700 small-caps 18px/1.4 Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+  position: relative;
+  border-radius: 6px;
+  box-shadow: 0 5px 16px #0a0a0a;
+  background: rgb(243,244,245);
+  color: #333231;  
+  margin-top: 1.5em;
+}
+
+main.blog section .pager ul {
+  display: flex;
+  margin: 0 1em;
+  padding: 0.25em 0;
+}
+main.blog section .pager ul li {
+  display: inline;
+  flex-grow: 1;
+}
+main.blog section .pager ul li a {
+  display: inline-block;
+  color:#333231;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 0.25em 0.65em 0.15em 0.7em;
+  border: 1px transparent solid;
+  box-shadow: 0 0 1px transparent;
+  letter-spacing: 1px;
+}
+main.blog section .pager ul li a:hover {
+  border: 1px #666 solid;
+  box-shadow: 0 0 1px #333;
+}
+
+main.blog section .pager ul li.disabled a, main.blog section .pager ul li.disabled a:link, main.blog section .pager ul li.disabled a:visited {
+  color: #999;
+  cursor: default;
+}
+main.blog section .pager ul li.disabled a:hover {
+  border: 1px transparent solid;
+  box-shadow: 0 0 1px transparent;
+}
+main.blog section .comments {
+  padding: 0.25rem 1.75rem 0.25rem 1.75rem;
+  overflow:hidden;
+}
+main.blog section .comments p {
+  margin-top: 0.25rem;
+  padding: 0 0.5rem;
+}
+main.blog section .comments b {
+  line-height: 34px;
+  vertical-align: top;
+}
+main.blog section .comments img {
+  height: 34px;
+}
+main.blog section .comments .reply {
+  position: relative;
+  margin-left: 2.5rem;
+}
+main.blog section .comments .reply-arrow {
+  display: none;
+}
+main.blog section .comments .reply-arrow .fa {
+  font-size: 24px;
+  font-style: normal;
+  transform: scaleX(-1);
+  filter: FlipH;
+  color: #666;
+  text-shadow: -1px 1px 0 #fff;
+}
+main.blog section .comments .reply .reply-arrow {
+  position: absolute;
+  display: block;
+  left: -16px;
+}
+main.blog section article .wrapcommento {
+  padding: 0 1em;
+}
+
+main.blog section .commentbox {
+  position:relative;
+  width:100%;
+  padding: 0 2.2em 0 2em;
+  box-sizing:border-box;
+}
+main.blog section .commentbox textarea {
+  display:block;
+  width:100%;
+  height: 10em;
+  margin: 0.75em 0;
+  overflow:hidden;
+}
+main.blog section .commentbox label {
+  margin-bottom: 0.5em;
+  display:block;
+	font: 0.8rem "Lucida grande", Helvetica, Arial, sans-serif;
+  color: #666564;
+}
+main.blog section .commentbox button {
+  display: block;
+  margin: 0 auto;
+}
+
+nav ul li a:hover {
+  color: #FFF;
+  border: 1px #55AAFF solid;
+  box-shadow: 0 0 1px #000;
+  background: #3585c0;
+  font: 1rem;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  position:absolute;
+  Bottom: 0;
+  border-top: 1px solid #000;
+  color: #c0c3c5;
+	font: 700 small-caps 0.8rem Helvetica, Arial, sans-serif;
+  letter-spacing:2px;
+  margin: 0 0 0 0;
+  text-align: center;
+}
+footer p {
+  background: #303030;
+  background: rgba(0,0,0,0.7);
+  display: block;
+  margin: 0;
+  padding: 0.25em 0.75em;
+}
+footer a:link {
+  text-decoration: none;
+  color: #479;
+  display: inline-block;
+}
+footer a:visited, footer a:active {
+  color: #357;
+}
+footer a:hover {
+  color: #58b;
+}
+footer span:after {
+  content: ' |';
+}
+
+@media (max-width: 2802px) {
+  html {
+background-size: auto auto;
+  }
+}
+
+@media (max-width: 1140px) {
+nav .fa {
+    display: none;
+}
+main.projects section {
+  max-width: inherit;
+  border-radius: 0;
+  border-left: 0;
+  border-right: 0;
+}
+main.blog {
+  display: block;
+}
+main.blog section {
+  margin: 0 auto;
+}
+}
+@media (max-width: 885px) {
+nav .fa {
+  display:inline-block;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+nav ul {
+  padding: 0.1em 0;
+  display: flex;
+}
+nav ul li {
+  flex-grow: 1;
+  padding-left:0.15em;
+}
+nav ul li a {
+  padding: 0.4em 0;
+  width: 100%;
+}
+nav p {
+  display: none;
+}
+main.blog section {
+  margin: 0;
+}
+main.blog section article, main.blog section .pager  {
+  border-radius: 0;
+}
+main.blog section.archive {
+  margin: 0 auto;
+}
+}
+@media (max-width: 650px) {
+main.projects .dim {
+  display: block;
+}
+main.projects section aside h2 {
+  margin-top: 0.7rem;
+}
+main.projects section aside {
+  border-right: 0;
+  border-bottom: 1px solid #a0a5a9;
+  padding-top: 1px;
+}
+main.projects section article {
+  border-left: 0;
+  border-top: 1px solid #f5f9ff;
+}
+main.projects section ul {
+  display: inline-block;
+  min-width: 180px;
+  vertical-align: top;
+}
+main.blog section article time, main.blog section article aside {
+  margin-left: 0.75rem;
+}
+html, header, main.projects section, .links section {
+  background: #666 url('/img/bg.th.jpg') no-repeat top left fixed;
+}
+footer span {
+  display: block;
+}
+footer span:after {
+  content: '';
+}
+main.blog section article .padding {
+  margin: 0 0.75rem 0 1rem;
+}
+h4 {
+  margin: 0 0.75rem 0 0.75rem;
+}
+}

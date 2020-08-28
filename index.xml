@@ -1,0 +1,28 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Erik McClure</title><link>https://erikmcclure.com/</link><description>Applied mathematician and software architect who occasionally writes music.</description><generator><meta name="generator" content="Hugo 0.62.2"/></generator><language>en-us</language><copyright>Copyright (c)2020 Erik McClure</copyright><lastBuildDate>Thu, 09 Jul 2020 02:50:00 +0000</lastBuildDate><atom:link href="https://erikmcclure.com/" rel="self" type="application/rss+xml"/><item><title>Blogs</title><link>https://erikmcclure.com/blog/</link><pubDate>Thu, 09 Jul 2020 02:50:00 +0000</pubDate><guid>https://erikmcclure.com/blog/</guid><description/></item><item><title>Projects</title><link>https://erikmcclure.com/projects/</link><pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate><guid>https://erikmcclure.com/projects/</guid><description/></item><item><title>Websites</title><link>https://erikmcclure.com/web/</link><pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate><guid>https://erikmcclure.com/web/</guid><description>&lt;h3 id="personal">Personal&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://erikmcclure.com/">&lt;i class="fa fa-home fa-fw fa-lg">&lt;/i>&amp;nbsp;Homepage&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/erikmcclure0173">&lt;i class="fa fa-twitter fa-fw fa-lg">&lt;/i>&amp;nbsp;Twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://keybase.io/erikmcclure">&lt;i class="fa fa-key fa-fw fa-lg">&lt;/i>&amp;nbsp;Keybase&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/in/erikmcclure/">&lt;i class="fa fa-linkedin fa-fw fa-lg">&lt;/i>&amp;nbsp;LinkedIn&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.patreon.com/erikmcclure">&lt;i class="fa fa-paypal fa-fw fa-lg">&lt;/i>&amp;nbsp;Patreon&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.twitch.tv/erikmcclure">&lt;i class="fa fa-twitch fa-fw fa-lg">&lt;/i>&amp;nbsp;Twitch&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="code">Code&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="http://fundament.software/">&lt;i class="fa fa-globe fa-fw fa-lg">&lt;/i>&amp;nbsp;Company Website&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/erikmcclure">&lt;i class="fa fa-github fa-fw fa-lg">&lt;/i>&amp;nbsp;Github&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gitlab.com/erikmcclure">&lt;i class="fa fa-gitlab fa-fw fa-lg">&lt;/i>&amp;nbsp;Gitlab&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://news.ycombinator.com/user?id=blackhole">&lt;i class="fa fa-hacker-news fa-fw fa-lg">&lt;/i>&amp;nbsp;Hacker News&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="music">Music&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://erikmcclure.bandcamp.com/">&lt;i class="fa fa-bandcamp fa-fw fa-lg">&lt;/i>&amp;nbsp;Bandcamp&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://erikmcclure.newgrounds.com/">&lt;i class="fa fa-globe fa-fw fa-lg">&lt;/i>&amp;nbsp;Newgrounds&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://soundcloud.com/erik_mcclure">&lt;i class="fa fa-soundcloud fa-fw fa-lg">&lt;/i>&amp;nbsp;Soundcloud&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/c/erikmcclure">&lt;i class="fa fa-youtube fa-fw fa-lg">&lt;/i>&amp;nbsp;Youtube&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://clyp.it/user/0xgutex4">&lt;i class="fa fa-music fa-fw fa-lg">&lt;/i>&amp;nbsp;Clyp.it&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="photography">Photography&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://erikmcclure.deviantart.com/">&lt;i class="fa fa-deviantart fa-fw fa-lg">&lt;/i>&amp;nbsp;DeviantART&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
