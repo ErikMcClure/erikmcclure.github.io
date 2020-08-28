@@ -3,7 +3,6 @@ blogimport = true
 categories = ["blog"]
 comments = [7312333325272053000]
 date = "2013-12-14T22:46:00Z"
-draft = true
 title = "My SteamOS Experience"
 updated = "2013-12-14T23:55:19.000+00:00"
 [author]
