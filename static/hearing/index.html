@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <title>Actual Proper Hearing Test</title>
+  <style>body {max-width:40em;}</style>
+</html>
+<body>
+<p>Performing a hearing test outside of ideal conditions with unknown hardware is usually useless, because what you're likely doing is measuring the frequency response range of your <b>speakers</b>, not your ears. If, however, you have studio monitor speakers that are rated to go up to 20kHz, you can at least test up to there. Even then, a lot of online "hearing tests" use MP3 files, which invalidates everything because compression could introduce tonal distortions or remove the frequency entirely due to a low pass, and MP3s are usually encoded at 44.1kHz, which has a nyquist frequency of 22050Hz, which itself can introduce potential weirdness at 22kHz, so this test uses 24-bit .wav at a 48kHz sampling rate. Note that this can <i>still</i> introduce problems depending on your sound hardware if the hardware itself does not want to go above a 41.1kHz limit, so it may get resampled down to 44.1kHz by your OS, and thus under most circumstances the highest meaningful result from this test is at 20kHz.
+<br/>
+<br/><b>14000:</b> <audio controls><source src="14000.wav" type="audio/wav"/></audio>
+<br/><b>15000:</b> <audio controls><source src="15000.wav" type="audio/wav"/></audio>
+<br/><b>16000:</b> <audio controls><source src="16000.wav" type="audio/wav"/></audio>
+<br/><b>17000:</b> <audio controls><source src="17000.wav" type="audio/wav" /></audio>
+<br/><b>18000:</b> <audio controls><source src="18000.wav" type="audio/wav" /></audio>
+<br/><b>19000:</b> <audio controls><source src="19000.wav" type="audio/wav" /></audio>
+<br/><b>20000:</b> <audio controls><source src="20000.wav" type="audio/wav" /></audio>
+<br/><b>21000:</b> <audio controls><source src="21000.wav" type="audio/wav" /></audio>
+<br/><b>22000:</b> <audio controls><source src="22000.wav" type="audio/wav" /></audio>
+<br/><b>23000:</b> <audio controls><source src="23000.wav" type="audio/wav" /></audio>
+</body>
