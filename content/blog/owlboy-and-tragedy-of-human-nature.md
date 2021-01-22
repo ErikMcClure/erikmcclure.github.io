@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2017-02-12T19:19:00Z"
 title = "Owlboy And The Tragedy of Human Nature"
 updated = "2017-02-12T19:19:18.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"
