@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2010-01-02T14:22:00Z"
 title = "Extraordinary"
 updated = "2011-01-22T04:22:03.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"
