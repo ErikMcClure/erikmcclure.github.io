@@ -24,7 +24,7 @@ Here, we are declaring a function `foobar` that takes an `int` and returns an `i
 
 The answer is that the integer was allocated on the *stack*. If you aren't familiar with the [computer science data structure](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) of the same name, your program is given a chunk of memory by the operating system that is organized into a stack structure, hence the name. It's like a stack of plates - you can push items on top of the stack, or you can remove items from the top of the stack, but you can't remove things from the middle of the stack or all the plates will come crashing down. So if we push something on top of the stack, we're stuck with it until we get rid of everything on top of it.
 
-When we declared our function, the parameter `int b` was pushed on to the stack. Parameters take up memory, so on to the stack they go. Hence, before we ever reach the statement `int a`, 4 bytes of memory were already pushed onto our stack. Here's what our stack looks like at the beginning of the function if we call it with the number `90` (assuming little-endian):
+When we called our function, the parameter `int b` was pushed on to the stack. Parameters take up memory, so on to the stack they go. Hence, before we ever reach the statement `int a`, 4 bytes of memory were already pushed onto our stack. Here's what our stack looks like at the beginning of the function if we call it with the number `90` (assuming little-endian):
 
 {{<img src="/img/stack1.svg" alt="Stack for b" width="450">}}
 
