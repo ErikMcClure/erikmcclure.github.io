@@ -9,7 +9,7 @@ uri = "https://plus.google.com/104896885003230920472"
 +++
 {{<img src="/img/cpp_init_forest.gif" alt="C++ Initialization Hell" width="400">}}
 
-What exactly happens when you write `{{<code cpp>}}Foo* foo = new Foo();{{</code>}}`? A lot is packed into this one statement, so lets try to break it down. First, this example is allocating new memory on the heap, but in order to understand everything that's going on, we're going to have to explain what it means to declare a variable *on the stack*. If you already have a good understanding of how the stack works, and how functions do cleanup before returning, feel free to skip to the [new statement](#new).
+What exactly happens when you write `{{<code cpp>}}Foo* foo = new Foo();{{</code>}}`? A lot is packed into this one statement, so lets try to break it down. First, this example is allocating new memory on the heap, but in order to understand everything that's going on, we're going to have to explain what it means to declare a variable *on the stack*. If you already have a good understanding of how the stack works, and how functions do cleanup before returning, feel free to skip to the [new statement](#new-statements).
 
 ### Stack Lifetimes
 Describing the stack is very often glossed over in many other imperative languages, despite the fact that those languages still have one (functional languages are an entirely different level of weird). Let's start with something very simple:
@@ -102,7 +102,7 @@ Here we have allocated a pointer to an integer on the stack (which will be 8 byt
   return *a;
 }
 {{</pre>}}
-This is the same as our [first example](#first), except now we allocate `a` on the heap instead of the stack. So, it never goes out of scope. It's just there, sitting in memory, forever, until the process is terminated. The `new` operator looks at the type we passed it (which is `int` in this case) and calls `malloc` for us with the appropriate number of bytes. Because `int` has no constructors or destructors, it's actually equivelent to this:
+This is the same as our [first example](#stack-lifetimes), except now we allocate `a` on the heap instead of the stack. So, it never goes out of scope. It's just there, sitting in memory, forever, until the process is terminated. The `new` operator looks at the type we passed it (which is `int` in this case) and calls `malloc` for us with the appropriate number of bytes. Because `int` has no constructors or destructors, it's actually equivelent to this:
 {{<pre cpp>}}int bar(int b)
 {
   int* a = (int*)malloc(sizeof(int));
