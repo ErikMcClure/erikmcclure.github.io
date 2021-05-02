@@ -91,7 +91,7 @@ When we reach `return z - max`, the compiler evaluates the statement and copies 
 
 ### `new` Statements
 
-Okay, now we know how lifetime work and where variables live when they aren't allocated, but what happens when you *do* allocate memory? What's going on with the `new` statement? To look at this, let's use a simplified example:
+Okay, now we know how lifetimes work and where variables live when they aren't allocated, but what happens when you *do* allocate memory? What's going on with the `new` statement? To look at this, let's use a simplified example:
 {{<pre cpp>}}int* foo = new int();
 {{</pre>}}
 Here we have allocated a pointer to an integer on the stack (which will be 8 bytes if you're on a 64-bit system), and assigned the result of `new int()` to it. What happens when we call `new int()`? In C++, the `new` operator is an extension of `malloc()` from C. This means it allocates memory from the *heap*, named after the [heap data structure](https://en.wikipedia.org/wiki/Heap_(data_structure)). When you allocate memory on the heap, it never goes out of scope. This is what most programmers are familiar with in other languages, except that most other languages handle figuring out when to deallocate it and C++ forces you to delete it yourself. Memory allocated on the heap is just there, floating around, forever, or until you deallocate it. So this function has a memory leak:
@@ -164,7 +164,7 @@ In this code, we still haven't solved the return problem, but we are now using c
   return a; // Still can't return foo->a
 }
 {{</pre>}}
-This uses a special new syntax that doesn't allocate anything and simply lets us call the constructor function directly on our already allocated memory. This is what the `new` operator is doing for you under the hood. We then call the destructor manually (which you *can* do) and free our memory. Of course, this is all still useless, becaus we can't return the integer we allocated on the heap!
+This uses a special new syntax that doesn't allocate anything and simply lets us call the constructor function directly on our already allocated memory. This is what the `new` operator is doing for you under the hood. We then call the destructor manually (which you *can* do) and free our memory. Of course, this is all still useless, because we can't return the integer we allocated on the heap!
 
 ### Destructors and lifetimes
 
