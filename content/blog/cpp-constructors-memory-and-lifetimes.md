@@ -56,7 +56,7 @@ Let's take a look at a more complex example:
       int max;
       
       max = 999;
-      z = a + b;
+      z = x + b;
       
       if(z > max)
       {
@@ -77,7 +77,7 @@ Let's take a look at a more complex example:
   return a;
 }
 {{</pre>}}
-Let's look at the lifetimes of all our parameters and variables in this function. First, before calling the function, we push `int b` on to the stack with the value of whatever we're calling the function with - say, `900`. Then, we call the function, which immediately pushes `int a` on to the stack. Then, we *enter a new block* using the character `{`, which does not consume any memory, but instead acts as a marker for the compiler - we'll see what it's used for later. Then, we push `int x` on to the stack. We now have 3 integers on the stack. We set `int x` to `3`, but `int a` is still undefined. Then, we *enter another new block*. Nothing interesting has happened yet. We then push both `int z` and `int max` on to the stack. Then we assign `999` to `int max` and assign `int z` the value `a + b` - if we passed in `900`, this means `z` is now equal to `903`, which is less than the value of `int max` (`999`), so we skip the if statement for now. Then we assign `x` to `x + z`, which will be `906`. 
+Let's look at the lifetimes of all our parameters and variables in this function. First, before calling the function, we push `int b` on to the stack with the value of whatever we're calling the function with - say, `900`. Then, we call the function, which immediately pushes `int a` on to the stack. Then, we *enter a new block* using the character `{`, which does not consume any memory, but instead acts as a marker for the compiler - we'll see what it's used for later. Then, we push `int x` on to the stack. We now have 3 integers on the stack. We set `int x` to `3`, but `int a` is still undefined. Then, we *enter another new block*. Nothing interesting has happened yet. We then push both `int z` and `int max` on to the stack. Then we assign `999` to `int max` and assign `int z` the value `x + b` - if we passed in `900`, this means `z` is now equal to `903`, which is less than the value of `int max` (`999`), so we skip the if statement for now. Then we assign `x` to `x + z`, which will be `906`. 
 
 Now things get interesting. Our topmost block **ends** with a `}` character. This tells the compiler to *pop all variables declared inside that block*. We pushed `int z` on to the stack inside this block, so it's gone now. We cannot refer to `int z` anymore, and doing so will be a compiler error. `int z` is said to have *gone out of scope*. However, we also pushed `int max` on to the stack, and we pushed it after `int z`. This means that the compiler will **first pop `int max` off the stack**, and only afterwards will it then pop `int z` off the stack. The order in which this happens will be critical for understanding how lifetimes work with constructors and destructors, so keep it in mind.
 
