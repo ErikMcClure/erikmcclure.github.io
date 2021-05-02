@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="272.83mm" height="165.99mm" version="1.1" viewBox="0 0 272.83 165.99" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-78.15 -156.39)">
+  <g fill="none" stroke="#000">
+   <g stroke-linecap="square">
+    <rect x="102.05" y="165.55" width="87.69" height="37.042" style="paint-order:markers stroke fill"/>
+    <rect x="102.05" y="202.6" width="87.69" height="37.042" style="paint-order:markers stroke fill"/>
+    <rect x="102.05" y="239.64" width="87.69" height="37.042" style="paint-order:markers stroke fill"/>
+    <rect x="102.05" y="276.68" width="87.69" height="37.042" style="paint-order:markers stroke fill"/>
+   </g>
+   <path d="m198.46 177h8.8281v124.43h-7.223"/>
+  </g>
+  <path d="m208.28 165.56 10.654-6.1512v6.1512 6.1512l-5.3271-3.0756z" style="paint-order:markers stroke fill"/>
+  <path d="m216.72 165.56h42.496" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="m208.39 313.77 10.654-6.1512v6.1512 6.1512l-5.3271-3.0756z" style="paint-order:markers stroke fill"/>
+  <path d="m216.83 313.77h39.289" fill="none" stroke="#000" stroke-width="2"/>
+  <g fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
+   <text x="228.3119" y="244.81888" font-size="19.756px" style="line-height:1.25" xml:space="preserve"><tspan x="228.3119" y="244.81888" font-size="19.756px" stroke-width=".26458">int b</tspan></text>
+   <g font-size="22.578px">
+    <text x="273.79437" y="172.80095" style="line-height:1.25" xml:space="preserve"><tspan x="273.79437" y="172.80095" font-size="22.578px" stroke-width=".26458">Top</tspan></text>
+    <text x="270.25296" y="322.03568" style="line-height:1.25" xml:space="preserve"><tspan x="270.25296" y="322.03568" font-size="22.578px" stroke-width=".26458">Bottom</tspan></text>
+    <text x="138.59523" y="191.53752" style="line-height:1.25" xml:space="preserve"><tspan x="138.59523" y="191.53752" font-size="22.578px" stroke-width=".26458">0</tspan></text>
+    <text x="138.58891" y="230.35568" style="line-height:1.25" xml:space="preserve"><tspan x="138.58891" y="230.35568" font-size="22.578px" stroke-width=".26458">0</tspan></text>
+    <text x="138.58893" y="267.39737" style="line-height:1.25" xml:space="preserve"><tspan x="138.58893" y="267.39737" font-size="22.578px" stroke-width=".26458">0</tspan></text>
+    <text x="131.78535" y="304.06107" style="line-height:1.25" xml:space="preserve"><tspan x="131.78535" y="304.06107" font-size="22.578px" stroke-width=".26458">90</tspan></text>
+   </g>
+  </g>
+  <path transform="rotate(90 58.41 191.45)" d="m51.118 165.55 10.654-6.1512v6.1512l1e-6 6.1512-5.3271-3.0756z" style="paint-order:markers stroke fill"/>
+  <path d="m84.302 192.59v108.26" fill="none" stroke="#000" stroke-width="2"/>
+ </g>
+</svg>
