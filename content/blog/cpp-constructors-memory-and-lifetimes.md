@@ -87,7 +87,7 @@ Finally, we reach `return a`, which copies `a` to our return value memory segmen
 
 Everything is the same until we reach the `if` statement, whose condition is now satisfied, which results in the function terminating early and returning `z - max`. What happens to the stack?
 
-When we reach `return z - max`, the compiler evaluates the statement and copies the result (`8004`) out. Then it starts *unwinding the stack*, which is a fancy way of saying it starts popping everything off the stack (once again, in the reverse order that things were pushed). The last thing we pushed on to the stack was `int max`, so it gets popped first. Then `int z` is popped. Then `int x` is popped. Then `int a` is popped, the function returns, and finally `int b` is popped by the caller. This behavior is critical to how C++ uses lifetimes to implement things like smart pointers and automatic memory management. Rust actually uses a similar concept, but it uses it for a lot more than C++ does.
+When we reach `return z - max`, the compiler evaluates the statement and copies the result (`8004`) out. Then it starts popping everything off the stack (once again, in the reverse order that things were pushed). The last thing we pushed on to the stack was `int max`, so it gets popped first. Then `int z` is popped. Then `int x` is popped. Then `int a` is popped, the function returns, and finally `int b` is popped by the caller. This behavior is critical to how C++ uses lifetimes to implement things like smart pointers and automatic memory management. Rust actually uses a similar concept, but it uses it for a lot more than C++ does.
 
 ### `new` Statements
 
@@ -120,6 +120,8 @@ Now, people who are familiar with C will recognize that any call to `malloc` sho
   return r;
 }
 {{</pre>}}
+**IMPORTANT:** Never mix `new` and `free` or `malloc` and `delete`. The `new`/`delete` operators can use a different allocator than `malloc`/`free`, so things will violently explode if you treat them as interchangeable. Always `free` something from `malloc` and always `delete` something created with `new`.
+
 Now we aren't leaking memory, but we also can't do `return *a` anymore, because it's impossible for us to do the necessary cleanup. If we were allocating on the stack, C++ would clean up our variable for us after the `return` statement, but we can't put anything after the return statement, so there's no way to tell C++ to copy the value of `*a` and *then* manually delete `a` without introducing a new variable `r`. Of course, if we could run arbitrary code when our variable went out of scope, we could solve this problem! This sounds like a job for constructors and destructors!
 
 ### Constructors and `delete`
@@ -166,7 +168,7 @@ This uses a special new syntax that doesn't allocate anything and simply lets us
 
 ### Destructors and lifetimes
 
-Now, the magical part of C++ is that constructors and destructors are run *when things are pushed or popped from the stack*. The fact that constructors and destructors respect variable lifetimes allows us to solve our problem of cleaning up a heap allocation upon returning from a function. Let's see how that works:
+Now, the magical part of C++ is that constructors and destructors are run *when things are pushed or popped from the stack* {{<sup>}}<a href="#f1">[1]</a>{{</sup>}}. The fact that constructors and destructors respect variable lifetimes allows us to solve our problem of cleaning up a heap allocation upon returning from a function. Let's see how that works:
 {{<pre cpp>}}struct Foo
 {
   // Default constructor for Foo
@@ -190,7 +192,7 @@ int bar(int b)
   return *foo.a; // Doesn't leak memory!
 }
 {{</pre>}}
-How does this avoid leaking memory? Let's walk through what happens: First, we declare `Foo foo` on the stack, which pushes 4 bytes on to the stack, and then C++ calls our default constructor. Inside our default constructor, we use `new` to allocate a new integer and store it in `int* a`. Returning to our function, we then set our integer pointer `foo.a` to `b`. Then, we return the value stored in `foo.a` from the function. This copies the value out of `foo.a` first by dereferencing the pointer, and *then* C++ calls our destructor `~Foo` before `Foo foo` is popped off the stack. This destructor deletes `int* a`, ensuring we don't leak any memory. Then we pop off `int b` from the stack and the function returns. If we could somehow do this without constructors or destructors, it would look like this:
+How does this avoid leaking memory? Let's walk through what happens: First, we declare `Foo foo` on the stack, which pushes 4 bytes on to the stack, and then C++ calls our default constructor. Inside our default constructor, we use `new` to allocate a new integer and store it in `int* a`. Returning to our function, we then set our integer pointer `foo.a` to `b`. Then, we return the value stored in `foo.a` from the function{{<sup>}}<a href="#f2">[2]</a>{{</sup>}}. This copies the value out of `foo.a` first by dereferencing the pointer, and *then* C++ calls our destructor `~Foo` before `Foo foo` is popped off the stack. This destructor deletes `int* a`, ensuring we don't leak any memory. Then we pop off `int b` from the stack and the function returns. If we could somehow do this without constructors or destructors, it would look like this:
 {{<pre cpp>}}int bar(int b)
 {
   Foo foo;
@@ -201,7 +203,7 @@ How does this avoid leaking memory? Let's walk through what happens: First, we d
   return retval;
 }
 {{</pre>}}
-The ability to run a destructor when something goes out of scope is an incredibly important part of writing good C++ code, becuase when a function returns, *all* your variables go out of scope when the stack unwinds. Thus, all cleanup that is done during destructors is gauranteed to run no matter when you return from a function. Destructors are gauranteed to run **even when you throw an exception!** This means that if you throw an exception that gets caught farther up in the program, you won't leak memory, because C++ ensures that the stack unwinds correctly when processing exception handling, so all destructors are run in the same order they normally are.
+The ability to run a destructor when something goes out of scope is an incredibly important part of writing good C++ code, becuase when a function returns, *all* your variables go out of scope when the stack is popped. Thus, all cleanup that is done during destructors is gauranteed to run no matter when you return from a function. Destructors are gauranteed to run **even when you throw an exception!** This means that if you throw an exception that gets caught farther up in the program, you won't leak memory, because C++ ensures that everything on the stack is correctly destroyed when processing exception handling, so all destructors are run in the same order they normally are.
 
 This is the core idea behind smart pointers - if a pointer is stored inside an object, and that object deletes the pointer in the destructor, then you will never leak the pointer because C++ ensures that the destructor will eventually get called when the object goes out of scope. Now, if implemented naively there is no way to pass the pointer into different functions, so the utility is limited, but C++11 introduced **move semantics** to help solve this issue. We'll talk about those later. For now, let's talk about different kinds of lifetimes and what they mean for when constructors and destructors are called.
 
@@ -288,8 +290,7 @@ So, once all expressions inside the parameteres have been evaluated, we then pus
 }
 {{</pre>}}
 This same logic works for all expressions - if you construct a temporary object inside an expression, it exists for the duration of the expression. However, the exact order that C++ evaluates expressions is [extremely complicated and not always defined](https://en.cppreference.com/w/cpp/language/eval_order), so this is a bit harder to nail down. Generally speaking, an object gets constructed right before it's needed to evaluate the expression, and gets deconstructed afterwards. These are "temporary lifetimes", because the object only briefly exists inside the expression, and is deconstructed once the expression is evaluated. Because C++ expressions are not always ordered, you should not attempt to rely on any sort of constructor order for arbitrary expressions. As an example, we can inline our previous `get()` function:
-{{<pre cpp>}}
-int main()
+{{<pre cpp>}}int main()
 {
   return Foo(3).a;
 }
@@ -392,3 +393,9 @@ int main()
 By using `std::move`, we *transfer ownership* of our unique_ptr to the function parameter. Now the `get()` function owns our integer pointer, so as long as we don't move it around again, it will go out of scope once `get()` returns, which will delete it. Our previous `unique_ptr` variable `p` is now empty, and when it goes out of scope, nothing happens, because it gave up ownership of the pointer it contained. This is how you can implement automatic memory management in C++ without needing to use a garbage collector, and Rust actually uses a more sophisticated version of this built into the compiler. 
 
 Move semantics can get very complex and have a lot of rules surrounding how temporary values work, but we're not going to get into all that right now. I also haven't gone into the many different ways that constructors can be invoked, and how those constructors interact with the [different ways you can initialize objects](https://blog.tartanllama.xyz/initialization-is-bonkers/). Hopefully, however, you now have a grasp of what lifetimes are in C++, which is a good jumping off point for learning about more advanced concepts.
+
+---
+
+{{<sup>}}<a name="f1">[1]</a>{{</sup>}} Pedantic assembly-code analysts will remind us that the stack allocations usually happen exactly once, at the beginning of the function, and then are popped off at the very end of the function, but the standard technically doesn't even require a stack to exist in the first place, so we're really talking about pushing and popping off the abstract stack concept that the language uses, not what the actual compiled assembly code really does.
+
+{{<sup>}}<a name="f2">[2]</a>{{</sup>}} We're *dereferencing* the pointer here because we want to return the *value* of the pointer, not the pointer itself! If you tried to return the pointer itself from the function, it would point to freed memory and crash after the function returned. Trying to return pointers from functions is a common mistake, so be careful if you find yourself returning a pointer to something. It's better to use `unique_ptr` to manage lifetimes of pointers for you.
