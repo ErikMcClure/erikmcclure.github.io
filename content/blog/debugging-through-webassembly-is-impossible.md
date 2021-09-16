@@ -2,7 +2,7 @@
 categories = ["blog"]
 date = "2020-01-12T21:51:00Z"
 title = "Debugging Through WebAssembly Is Impossible"
-
+draft = true
 +++
 I recently added some very primitive debugging support to [inNative](https://github.com/innative-sdk/innative/releases) to allow you to step through the original source code during execution via [sourcemaps](https://sourcemaps.info/spec.html). My client, however, has expressed the need for proper variable inspection in the original C++ code. This is distinct from current debugging methods [available in Chrome](https://developers.google.com/web/updates/2019/12/webassembly) and Firefox that let you examine the current _WebAssembly_ locals, not the original language. They are using WebAssembly as a plugin system, which makes sense, and they want to have a toolchain that allows debugging the compiled WebAssembly as if one was stepping through the original C++ source code.
 
