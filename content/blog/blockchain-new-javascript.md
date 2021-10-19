@@ -3,7 +3,7 @@ categories = ["blog"]
 comments = []
 date = "2021-10-18T01:06:00Z"
 title = "Blockchain Is The New JavaScript"
-updated = "2012-07-25T01:17:34.000+00:00"
+updated = "2012-07-25T20:01:34.000+00:00"
 [author]
 name = "Erik McClure"
 
@@ -21,7 +21,7 @@ This is what drives the entire internet, and in turn, Amazon's trillion dollar e
 
 In 2009, Satoshi Nakamoto unleashed Bitcoin upon an unsuspecting world. Most people ignored it, for good reason - it was completely impractical for any sort of global transaction system, capable of processing a whopping [7 transaction per second](https://en.wikipedia.org/wiki/Bitcoin_scalability_problem). Then the first bubble happened and Bitcoin skyrocketed to $1000 USD in late 2013. It then promptly crashed to $300 in 2014, after which most people thought it had simply been a passing fad, and ignored it for the next 3 years, until the second bubble of 2017.
 
-But not everyone. After his favorite World of Warcraft spell got nerfed by Blizzard, [some maniac](https://en.wikipedia.org/wiki/Vitalik_Buterin) argued that the Bitcoin network should support programmable smart contracts, at the peak of the 2013 bubble. Here, we almost had a repeat of JavaScript, nearly bolting on smart contracts to a blockchain algorithm that was never designed for it. However, history thankfully granted us a reprieve, because the Bitcoin developers told Vitalik to take a hike. So, he invented Ethereum, which is like Bitcoin except slightly less stupid. Unfortunately, it still ran on Proof-of-Work, which means [burning coal to solve sudokus](https://abcnews.go.com/US/wireStory/bitcoin-mining-power-plant-raises-ire-environmentalists-80618790).
+But not everyone. After his favorite World of Warcraft spell got nerfed by Blizzard, ~~some maniac~~ [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin) argued that the Bitcoin network should support programmable smart contracts, at the peak of the 2013 bubble. Here, we almost had a repeat of JavaScript, nearly bolting on smart contracts to a blockchain algorithm that was never designed for it. However, history thankfully granted us a reprieve, because the Bitcoin developers told Vitalik to take a hike. So, he invented Ethereum, which is like Bitcoin except slightly less stupid. Unfortunately, it still ran on Proof-of-Work, which means [burning coal to solve sudokus](https://abcnews.go.com/US/wireStory/bitcoin-mining-power-plant-raises-ire-environmentalists-80618790).
 
 At this point, you may be expecting me to draw a parallel from Google's V8 JavaScript engine to [Proof-of-Stake](https://ethereum.org/en/eth2/beacon-chain/), but that actually isn't correct. Proof-of-Stake doesn't make the network faster, it just lets the network run without wasting astronomical amounts of energy. Proof-of-Stake is more analogous to the introduction of AJAX in 1999, the foundational JavaScript extension that allowed for asynchronous websites, and in turn, the entire modern web. Proof-of-Stake is a change that finally makes Ethereum *usable* for large scale smart contracts without burning ludicrous amounts of electricity to run the network. This, however, isn't enough, because Ethereum's network is still *painfully slow*. Granted, at [14 transactions per second](https://etherchain.org/), it's at least twice as fast as Bitcoin, but that doesn't really count for much when you need to be several orders of magnitude faster.
 
