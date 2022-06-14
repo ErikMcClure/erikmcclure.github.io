@@ -33,9 +33,9 @@ name = "Github"
 url = "https://github.com/erikmcclure"
 weight = 4
 [[menu.main]]
-identifier = "linkedin"
-name = "LinkedIn"
-url = "https://linkedin.com/in/erikmcclure/"
+identifier = "twitter"
+name = "Twitter"
+url = "https://twitter.com/erikmcclure0173"
 weight = 5
 [[menu.main]]
 identifier = "globe"
