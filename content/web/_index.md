@@ -12,7 +12,6 @@ type = "page"
  * [{{<icon home fa-lg>}}Homepage](/)
  * [{{<icon twitter fa-lg>}}Twitter](https://twitter.com/erikmcclure0173)
  * [{{<icon key fa-lg>}}Keybase](https://keybase.io/erikmcclure)
- * [{{<icon linkedin fa-lg>}}LinkedIn](https://www.linkedin.com/in/erikmcclure/)
  * [{{<icon paypal fa-lg>}}Patreon](https://www.patreon.com/erikmcclure)
  * [{{<icon twitch fa-lg>}}Twitch](https://www.twitch.tv/erikmcclure)
  
