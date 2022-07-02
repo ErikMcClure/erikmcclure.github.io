@@ -2,7 +2,7 @@
 categories = ["blog"]
 comments = []
 date = "2022-07-02T02:36:00Z"
-title = "The Windows malloc() Implementation Is A War Crime"
+title = "The Windows malloc() Implementation Is A Trash Fire"
 draft = false
 [author]
 name = "Erik McClure"
@@ -35,6 +35,6 @@ So, instead, I did the worst hack of my entire life by replacing the efficient `
 
 This actually worked, and instantly made the startup time on windows approximately **1.4 seconds**, now within the realm of the Linux start times. The **fucking Windows allocator** was the source of all of my performance problems *the entire time*. [aganea](https://reviews.llvm.org/p/aganea/), who has my undying gratitude for taking over the task of [unfucking the catastrophic trainwreck that was LLD](https://reviews.llvm.org/D70378), happens to also be the one who [introduced the method of patching LLVM's allocator](https://reviews.llvm.org/D71786). Sadly, it seems whatever they were using LLVM for did not involve JITing code, or may have used a different method, as nobody seems to have run into this problem except me.
 
-So, at this point, we have learned two things: the Windows allocator is a complete trashfire, and there's clearly some kind of race condition in LLVM's JIT in certain edge cases related to the usage of mutexes on Windows. If someone wants to try to reproduce this and file a proper bug on LLVM, go ahead, but it would take days to distill a minimal example for this and I honestly have better things to do right now. The inefficient spinlock doesn't matter when threading is disabled because it has no contention, and having threading enabled does not appear to actually make my use-case go any faster anyway, for whatever reason.
+So, at this point, we have learned two things: the Windows allocator is a complete trash fire, and there's clearly some kind of race condition in LLVM's JIT in certain edge cases related to the usage of mutexes on Windows. If someone wants to try to reproduce this and file a proper bug on LLVM, go ahead, but it would take days to distill a minimal example for this and I honestly have better things to do right now. The inefficient spinlock doesn't matter when threading is disabled because it has no contention, and having threading enabled does not appear to actually make my use-case go any faster anyway, for whatever reason.
 
 Everything is broken and I am too tired to do anything but contribute another obscene hack on top of this pile of cards we have built modern civilization on.
