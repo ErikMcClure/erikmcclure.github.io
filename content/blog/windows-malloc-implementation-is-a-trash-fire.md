@@ -3,7 +3,7 @@ categories = ["blog"]
 comments = []
 date = "2022-07-02T02:36:00Z"
 title = "The Windows malloc() Implementation Is A Trash Fire"
-draft = false
+draft = true
 [author]
 name = "Erik McClure"
 
