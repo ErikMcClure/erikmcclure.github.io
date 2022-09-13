@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/prism.css" rel="stylesheet" />
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/katex.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css" />
-  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} - RSS" href="{{ .Site.BaseURL }}index.xml" />
+  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} - RSS" href="{{ .Site.BaseURL }}blog/index.xml" />
   {{ if or (eq .RelPermalink "/blog/") (eq .RelPermalink "/projects/") (eq .RelPermalink "/web/") (eq .RelPermalink "/") }}
   <meta property="og:type" content="website">
   {{ else }}
