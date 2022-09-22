@@ -20,7 +20,7 @@ A 4080 series card will demand a whopping 450 W, which dwarfs the Ryzen 9 5900X 
 
 Look, I'm not a hardware guy. I just write all the shader code that makes GPUs cry. I don't actually know how we should fix this problem, because I don't know what designs are actually thermally efficient or not. I do know, however, that something has to change. Maybe we can make motherboards with a GPU slot next to the CPU slot and have a unified massive radiator sitting on top of them - or maybe it's a better idea to put the two processor units on opposite ends of the board. I don't know, **just *do* something** so I can use a cooling solution that is actually *screwed into the fucking motherboard* instead of requiring a "GPU Support Stick" so gravity doesn't rip it out of the PCIe slot.
 
-As an example of alternative solutions, we use MXM slots for laptops that allow them to provide custom cooling solutions appropriate for the laptop.
+As an example of alternative solutions, [here is an MXM form-factor](https://www.amazon.com/Original-Graphics-Alienware-N14E-GS-A1-Replacement/dp/B081L3KH3T/ref=sr_1_35?keywords=mxm+graphics+card&qid=1663887964&sr=8-35) for laptops that allow them to provide custom cooling solutions appropriate for the laptop.
 
 {{<img src="https://m.media-amazon.com/images/I/71QOqoCJ3WL._AC_SX466_.jpg" width="466" >}}
 
