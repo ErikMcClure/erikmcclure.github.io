@@ -22,23 +22,23 @@ Pony Clicker is based off Cookie Clicker, but takes a different approach. Instea
 
 Using this, I could analyze a game of pony clicker in terms of what the SPS looked like over time. My first graph was not very promising:
 
-{{<img src="https://cloud.githubusercontent.com/assets/3387013/7786493/21b10990-0188-11e5-86de-7eaa7d5e07d5.png" width="700px" >}}
+{{<img src="https://cloud.githubusercontent.com/assets/3387013/7786493/21b10990-0188-11e5-86de-7eaa7d5e07d5.png" width="700" >}}
 
 The SPS completely exploded and it was obviously terrible. To help me figure out what was going on, I included a graph of the optimal store purchases and the time until the next optimal purchase. My goal in terms of game experience was that no building would be left behind, and that there shouldn't be enormous gaps between purchases. I also wanted to make sure that the late game or the early game didn't take too long to get through.
 
-{{<img src="https://cloud.githubusercontent.com/assets/3387013/7786492/1ccd4ac4-0188-11e5-840b-d3a47f4a898a.png" width="700px" >}}
+{{<img src="https://cloud.githubusercontent.com/assets/3387013/7786492/1ccd4ac4-0188-11e5-840b-d3a47f4a898a.png" width="700" >}}
 
 In addition to this, I created a graph of the estimate SPS generation of each individual building, on a per-friendship basis. This helped compensate for the fact that the SPS changed as the game state itself changed, allowing me to ensure the SPS generation of any one building wasn't drastically out of whack with the others, and that it increased on a roughly linear scale.
 
-{{<img src="https://cloud.githubusercontent.com/assets/3387013/7787681/f5c01296-01cc-11e5-829e-a0e9e1f89334.png" width="700px" >}}
+{{<img src="https://cloud.githubusercontent.com/assets/3387013/7787681/f5c01296-01cc-11e5-829e-a0e9e1f89334.png" width="700" >}}
 
 This information was used to balance the game into a much more sane curve:
 
-{{<img src="https://cloud.githubusercontent.com/assets/3387013/7899795/3bb8210c-06e7-11e5-9514-1b66669631dc.png" width="700px">}}
+{{<img src="https://cloud.githubusercontent.com/assets/3387013/7899795/3bb8210c-06e7-11e5-9514-1b66669631dc.png" width="700">}}
 
 I then added upgrades to the main graph, and quickly learned that I was giving the player certain upgrades way too fast:
 
-{{<img src="https://cloud.githubusercontent.com/assets/3387013/7806412/491fa6cc-0335-11e5-8e2e-6e6903d94240.png" width="700px">}}
+{{<img src="https://cloud.githubusercontent.com/assets/3387013/7806412/491fa6cc-0335-11e5-8e2e-6e6903d94240.png" width="700">}}
 
 This was used to balance the upgrades and ensure they only gave a significant SPS increase when it was really needed (between expensive buildings, usually). The analysis page itself is [available here](https://erikmcclure.github.io/PonyClicker/utilities/analysis.html), so you can look at the current state of pony clicker's growth curve.
 
