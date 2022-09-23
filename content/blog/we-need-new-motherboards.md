@@ -28,6 +28,6 @@ In fact, the PCIe spec itself actually contains a rear-bracket mount that, if an
 
 {{<img src="/img/pci_standard.png" width="1440" >}}
 
- See that funky looking metal thing labeled "2" on the diagram? That sure looks like a good alternative to a "support stick" if anyone ever actually paid attention to the spec. Or maybe this second bracket doesn't work very well and we need to rethink how motherboards work entirely. Should we have GPU VRAM slots alongside CPU RAM slots? Is that even possible? Or maybe we can come up with an alternative form factor for GPU cards that you can actually attach to the motherboard with screws?
+ See that funky looking metal thing labeled "2" on the diagram? That sure looks like a good alternative to a "support stick" if anyone ever actually paid attention to the spec. Or maybe this second bracket doesn't work very well and we need to rethink how motherboards work entirely. Should we have GPU VRAM slots alongside CPU RAM slots? Is that even possible? ([Nope.](https://news.ycombinator.com/item?id=32946816)) Or maybe we can come up with an alternative form factor for GPU cards that you can actually attach to the motherboard with screws?
  
  I have no idea what is or isn't practical, but please, just do something before the GPUs collapse under their own gravity and create strange new forms of matter inside my PC case.
