@@ -4,7 +4,7 @@ categories = ["blog"]
 date = "2022-12-17T17:16:00.000+00:00"
 draft = false
 title = "Money Is Fake. It's Not Real. It's Made Up."
-updated = "2022-12-17T17:16:00.000+00:00"
+updated = "2022-12-30T22:20:00.000+00:00"
 [author]
 name = "Erik McClure"
 
@@ -31,7 +31,7 @@ To start, #1 and #2 don't work for a very simple reason: A stock's value represe
 
 **Money does not represent physical assets.** Money is supposed to represent human labor, and there is a fixed amount of human labor available on the planet. When someone dies or is incapacitated, it goes down. When someone graduates into the labor force, or becomes more skilled, it goes up. In ancient times, "human labor" was heavily correlated to how much physical activity someone could do, like lifting things or harvesting food. However, our modern economy is dominated by specialist jobs done by highly skilled laborers. So for the sake of analysis, we can say that the GDP of the entire planet should *ideally* represent the maximum amount of labor the entire human race could do, if we assigned everyone to the job they are most qualified for. We could then increase the total amount of labor we can do by either building machines or improving our skills.
 
-This leads into why point #4 is complete nonsense. It reminds me of when Ben Shapiro, when talking about climate change, asked "you think that people aren't going to just sell their homes and move?"
+This leads into why point #3 is complete nonsense. It reminds me of when Ben Shapiro, when talking about climate change, asked "you think that people aren't going to just sell their homes and move?"
 
 {{<html>}}<iframe width="560" height="315" src="https://www.youtube.com/embed/X9FGRkqUdf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{{</html>}}
 
