@@ -1,0 +1,30 @@
++++
+categories = ["blog"]
+date = "2023-02-13T15:35:00Z"
+title = "Welcome to the Age of Bullshit"
+[author]
+name = "Erik McClure"
+
++++
+
+We are ***fucked***.
+
+In fact, we are so fucked that Tom Scott conveniently released a new video talking about [how fucked we are](https://www.youtube.com/watch?v=jPhJbKBuNnA). Of course, he didn't actually say that we're fucked, because he's much nicer than I am. He uses soft and gentle words that disguise the raging maelstrom beneath us. His video talks about how "everything is about to change", and he's right. I think he's more right than he wants to be, he knows it, and he's terrified.
+
+Google's new AI chatbot produced a factual error in it's demo, and [their stock dropped by $100 billion](https://www.npr.org/2023/02/09/1155650909/google-chatbot--error-bard-shares#:~:text=Kitwood%2FGetty%20Images-,Shares%20for%20Google's%20parent%20company%2C%20Alphabet%2C%20dropped%209%25%20Wednesday,Bard%2C%20gave%20an%20incorrect%20answer.&text=Google's%20parent%20company%2C%20Alphabet%2C%20lost,error%20in%20its%20first%20demo). Meanwhile, Bing's AI chatbot produced a [ton of errors](https://dkb.blog/p/bing-ai-cant-be-trusted) during their presentation, and nobody noticed. People *are* noticing when the Bing AI chatbot [goes completely bonkers](https://twitter.com/vladquant/status/1624996869654056960), though, and this is precisely the problem.
+
+We can tell when an AI goes completely off the rails and start spewing word salad, but most of the time the AI will confidently hallucinate completely nonsense and *nobody can tell the difference*. We already have the [citogenesis problem](https://en.wikipedia.org/wiki/Wikipedia:List_of_citogenesis_incidents), and then we had the social media "fake news" problem, and now we have AIs that can reliably gaslight anyone into believing almost anything they don't already know about. Just wait until this starts making the [replication crisis](https://en.wikipedia.org/wiki/Replication_crisis) even worse.
+
+Linus Tech Tips [did an episode of WAN](https://www.youtube.com/watch?v=TXsw_92Y2e0&t=3340s) recently where they gave Linus three articles, and told him that at least one of those articles had been mostly written by an AI (with some minor fixups by a human), and he had to guess which ones were AI-written and which ones were written by a human. His answers were, one was probably human, one could be either human or AI, and one was probably AI. The two AI articles were actually the one he thought was human, and the one he thought was AI. The one that was written by a human was the one Linus wasn't sure about. 
+
+We used to be worried about DeepFake videos, but now we already have people using AI to [create fake images](https://twitter.com/WebCrooner/status/1623595551341088774) of a French cop hugging a protestor, while [real artists are getting banned from /r/art](https://www.pcgamer.com/artist-banned-from-art-subreddit-because-their-work-looked-ai-generated/) because their art "looks ai-generated". Meanwhile, [CNET has been writing hundreds of articles using an AI](https://futurism.com/the-byte/cnet-publishing-articles-by-ai) for almost a year. [Time has an article](https://time.com/6255162/big-tech-ai-misinformation-trust/?utm_medium=social&utm_term=ideas_technology&linkId=201343435) about how Big Tech needs to fix the "AI misinformation problem", but nobody seems to know how. Who decides what is "misinformation"? If we already had the Wikipedia Citogenesis problem *before* ChatGPT, how can we possibly figure out what a trustworthy source is? 
+
+What's really happening is that AI is amplifying a much more fundamental problem: Search Engine Optimization. We're exposed to so much information on a daily basis that we don't know what's real, and Google can't help us. As [SEO makes Google searches progressively more useless](https://www.youtube.com/watch?v=48AOOynnmqU), the web has become a morass of nonsensical data, blurring the line between fact and fiction. AI is now allowing us to generate even more information at an accelerating rate, with no regard to accuracy. We have absolutely no way to deal with this, because we've invented the informational equivalent of gunpowder and decided it would be a good idea to give it to everyone.
+
+**Welcome to the Age of Bullshit.**
+
+What's amazing is that almost all of this started just six years ago, with [a paper from Google in 2017](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf). The last time anything like this happened was when we invented the world wide web in 1994, which then exploded into the dot-com crash of 2001. Back then, the problem with the internet was *finding things*, which is what Google solved. The problem we now face, which is being made much worse by AI, is *filtering things*, as we get blasted by thousands of "relevent" search results. The successor to Google will be whoever invents a **filter engine**, to shield ourselves from the infinite amount of bullshit that we now have to wade through just to find high quality answers instead of ai-generated copies of translations of summaries of articles. Ironically, this is almost exactly the kind of fictional technology that [Tom Scott talked about](https://www.youtube.com/watch?v=_kBlH-DQsEg) in 2014, almost 9 years ago.
+
+We should be thankful that the current transformer based models are not sufficient to implement AGI, at least not in their current form, so we don't have to worry about accidentally destroying the world with ChatGPT. This means AI researchers still have time to [solve the alignment problem](https://www.youtube.com/watch?v=hEUO6pjwFOo) before someone figures out how to create a self-improving transformer model that no longer requires curated training data and [promptly eradicates humanity](https://www.youtube.com/watch?v=3K25VPdbAjU&themeRefresh=1). But who knows, maybe Google will publish a paper on this topic next year...?
+
+Given our track record, maybe we should be spending more money on this alignment problem before we *really* fuck things up.
