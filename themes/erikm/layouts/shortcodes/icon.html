@@ -1,1 +1,1 @@
-<i class="fa fa-{{ .Get 0 }} fa-fw {{ with .Get 1 }}{{.}}{{ end }}"></i>&nbsp;
+<i class="{{ .Get 0 }} {{ with .Get 1 }}{{.}}{{ end }} {{ with .Get 2 }}{{.}}{{ end }} fa-fw"></i>&nbsp;

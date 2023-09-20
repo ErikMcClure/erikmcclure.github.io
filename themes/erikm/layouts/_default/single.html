@@ -23,7 +23,7 @@
       <hr/>
       <div class="padding">{{ .Content }}</div>
       <hr/>
-      <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}"><i class="fa fa-clock-o fa-fw"></i>&nbsp;Published on <a href="{{ .Permalink }}">{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "January 2, 2006 at 3:04pm" }}{{ end }}</a></time>
+      <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}"><i class="fa-regular fa-clock fa-fw"></i>&nbsp;Published on <a href="{{ .Permalink }}">{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "January 2, 2006 at 3:04pm" }}{{ end }}</a></time>
       {{ partial "share.html" . }}
     </article>
     <article><a name="comments"><h4>Comments</h4></a>
@@ -37,7 +37,7 @@
         {{ $id := print "c" $e }}
         {{with index $.Site.Data.comments $id }}
         <div {{with .reply }}class="reply"{{end}} id="{{ $id }}">
-        <div class="reply-arrow"><i class="fa fa-level-up"></i></div>
+        <div class="reply-arrow"><i class="fa-solid fa-level-up"></i></div>
         {{if .author.image }}
         <img src="{{.author.image.source}}" alt="" />
         {{else}}
@@ -59,7 +59,7 @@
         {{if $.Scratch.Get "count" }}<hr/>{{end}}
         {{ $.Scratch.Add "count" 1 }}
         <div {{with .reply }}class="reply"{{end}} id="c{{$i}}">
-        <div class="reply-arrow"><i class="fa fa-level-up"></i></div>
+        <div class="reply-arrow"><i class="fa-solid fa-level-up"></i></div>
         <img src="http://lh3.googleusercontent.com/-W4_zl1uSJ10/AAAAAAAAAAI/AAAAAAAABuk/kg-M6T6xPag/s32-c/photo.jpg" alt="" />
         <b>{{$e.name}}</b>
         <p>{{$e.message | safeHTML}}</p>

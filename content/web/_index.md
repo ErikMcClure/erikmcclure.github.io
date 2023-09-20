@@ -8,20 +8,29 @@ title = "Websites"
 type = "page"
 
 +++
-### Personal
- * [{{<icon home fa-lg>}}Homepage](/)
- * [{{<icon twitter fa-lg>}}Twitter](https://twitter.com/erikmcclure0173)
- * [{{<icon key fa-lg>}}Keybase](https://keybase.io/erikmcclure)
- 
+### Social
+ * [{{<icon fa-solid fa-home fa-lg>}}Homepage](/)
+ * [{{<icon fa-solid fa-cloud fa-lg>}}BlueSky](https://bsky.app/profile/erikmcclure.com)
+ * [{{<icon fa-brands fa-mastodon fa-lg>}}Mastodon](https://equestria.social/@cloudhop)
+ * [{{<icon fa-brands fa-twitter fa-lg>}}Twitter](https://twitter.com/erikmcclure0173)
+ * [{{<icon fa-brands fa-keybase fa-lg>}}Keybase](https://keybase.io/erikmcclure)
+
 ### Code
- * [{{<icon github fa-lg>}}Github](https://github.com/erikmcclure)
- * [{{<icon gitlab fa-lg>}}Gitlab](https://gitlab.com/erikmcclure)
+ * [{{<icon fa-brands fa-github fa-lg>}}Github](https://github.com/erikmcclure)
+ * [{{<icon fa-brands fa-gitlab fa-lg>}}Gitlab](https://gitlab.com/erikmcclure)
  
 ### Music
-  * [{{<icon bandcamp fa-lg>}}Bandcamp](https://erikmcclure.bandcamp.com/)
-  * [{{<icon globe fa-lg>}}Newgrounds](https://erikmcclure.newgrounds.com/)
-  * [{{<icon soundcloud fa-lg>}}Soundcloud](https://soundcloud.com/erik_mcclure)
-  * [{{<icon youtube fa-lg>}}Youtube](https://www.youtube.com/c/erikmcclure)
+  * [{{<icon fa-brands fa-bandcamp fa-lg>}}Bandcamp](https://erikmcclure.bandcamp.com/)
+  * [{{<icon fa-solid fa-globe fa-lg>}}Newgrounds](https://erikmcclure.newgrounds.com/)
+  * [{{<icon fa-brands fa-soundcloud fa-lg>}}Soundcloud](https://soundcloud.com/erik_mcclure)
+  * [{{<icon fa-brands fa-youtube fa-lg>}}Youtube](https://www.youtube.com/c/erikmcclure)
+ 
+### Streaming
+ * [{{<icon fa-brands fa-twitch fa-lg>}}Twitch](https://www.twitch.tv/cloudhop)
+ * [{{<icon fa-brands fa-youtube fa-lg>}}Archive](https://www.youtube.com/c/CloudHop)
+ * [{{<icon fa-brands fa-discord fa-lg>}}Discord](https://discord.gg/nFczp8J)
+ * [{{<icon fa-brands fa-steam fa-lg>}}Steam](https://steamcommunity.com/id/erikmcclure/)
   
 ### Photography
-  * [{{<icon deviantart fa-lg>}}DeviantART](https://erikmcclure.deviantart.com/)
+  * [{{<icon fa-brands fa-deviantart fa-lg>}}DeviantART](https://erikmcclure.deviantart.com/)
+  * [{{<icon fa-brands fa-instagram fa-lg>}}Instagram](https://www.instagram.com/blackhole0173/)

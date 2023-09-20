@@ -13,41 +13,36 @@ name = "Erik McClure"
 twitter = "erikmcclure0173"
 uri = "https://plus.google.com/104896885003230920472"
 [[menu.main]]
-identifier = "book"
+identifier = "fa-solid fa-book"
 name = "Blog"
 url = "/blog/"
 weight = 1
 [[menu.main]]
-identifier = "briefcase"
+identifier = "fa-solid fa-briefcase"
 name = "Projects"
 url = "/projects/"
 weight = 2
 [[menu.main]]
-identifier = "bandcamp"
+identifier = "fa-brands fa-bandcamp"
 name = "Bandcamp"
 url = "https://erikmcclure.bandcamp.com"
 weight = 3
 [[menu.main]]
-identifier = "github"
+identifier = "fa-brands fa-github"
 name = "Github"
 url = "https://github.com/erikmcclure"
 weight = 4
 [[menu.main]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com/erikmcclure0173"
-weight = 5
-[[menu.main]]
-identifier = "globe"
+identifier = "fa-solid fa-globe"
 name = "Websites"
 url = "/web/"
-weight = 6
+weight = 5
 [params]
 description = "Applied mathematician and software architect who occasionally writes music."
 googleanalytics = "Oxb2ia8HjcHLXlvstA8xPpQO3BO_y15Ds2Ia-feq1MQ"
 image = "img/avatar.png"
 imagesm = "img/avatar.th.png"
-keywords = "games, music, code, erik mcclure, erikmcclure, aurora theory, sweetie bot, discord, feathergui, black sphere studios, tinyoal, upatch"
+keywords = "games, music, code, erik mcclure, erikmcclure, aurora theory, sweetie bot, discord, feathergui, fading light, tinyoal, cloud hop"
 [taxonomies]
 category = "categories"
 tag = "tags"
