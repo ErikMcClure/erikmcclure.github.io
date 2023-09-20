@@ -3,7 +3,7 @@ categories = ["project"]
 date = "2013-07-11T00:00:00Z"
 description = "A compilation of the songs I managed to make while attending university."
 image = "img/AuroraTheory2013_sm2.jpg"
-links = [["bandcamp", "Bandcamp", "https://erikmcclure.bandcamp.com/album/aurora-theory"], ["soundcloud", "SoundCloud", "https://soundcloud.com/erik_mcclure/sets/aurora-theory"]]
+links = [["fa-brands fa-bandcamp", "Bandcamp", "https://erikmcclure.bandcamp.com/album/aurora-theory"], ["fa-brands fa-soundcloud", "SoundCloud", "https://soundcloud.com/erik_mcclure/sets/aurora-theory"]]
 tags = ""
 title = "Aurora Theory"
 

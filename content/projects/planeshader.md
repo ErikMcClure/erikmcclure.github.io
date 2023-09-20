@@ -3,7 +3,7 @@ categories = ["project"]
 date = "2018-02-06T00:00:00Z"
 description = "Advanced hybrid 2D graphics engine."
 image = "img/psicon.png"
-links = [["github", "Github", "https://github.com/Black-Sphere-Studios/planeshader"]]
+links = [["fa-brands fa-github", "Github", "https://github.com/ErikMcClure/planeshader"]]
 tags = ""
 title = "PlaneShader"
 

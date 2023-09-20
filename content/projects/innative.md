@@ -3,7 +3,7 @@ categories = ["project"]
 date = "2019-07-07T00:00:00Z"
 description = "A native, non-web embedding of WebAssembly for Windows/Linux."
 image = "img/innative.png"
-links = [["github", "Github", "https://github.com/innative-sdk/innative"]]
+links = [["fa-brands fa-github", "Github", "https://github.com/innative-sdk/innative"]]
 tags = ""
 title = "inNative"
 
