@@ -1,22 +1,32 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Erik McClure</title><link>https://erikmcclure.com/</link><description>Applied mathematician and software architect who occasionally writes music.</description><generator><meta name="generator" content="Hugo 0.62.2"/></generator><language>en-us</language><copyright>Copyright (c)2023 Erik McClure</copyright><lastBuildDate>Fri, 05 May 2023 13:02:00 +0000</lastBuildDate><atom:link href="https://erikmcclure.com/" rel="self" type="application/rss+xml"/><item><title>Blogs</title><link>https://erikmcclure.com/blog/</link><pubDate>Fri, 05 May 2023 13:02:00 +0000</pubDate><guid>https://erikmcclure.com/blog/</guid><description/></item><item><title>Projects</title><link>https://erikmcclure.com/projects/</link><pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate><guid>https://erikmcclure.com/projects/</guid><description/></item><item><title>Websites</title><link>https://erikmcclure.com/web/</link><pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate><guid>https://erikmcclure.com/web/</guid><description>&lt;h3 id="personal">Personal&lt;/h3>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Erik McClure</title><link>https://erikmcclure.com/</link><description>Applied mathematician and software architect who occasionally writes music.</description><generator><meta name="generator" content="Hugo 0.62.2"/></generator><language>en-us</language><copyright>Copyright (c)2023 Erik McClure</copyright><lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://erikmcclure.com/" rel="self" type="application/rss+xml"/><item><title>Blogs</title><link>https://erikmcclure.com/blog/</link><pubDate>Fri, 05 May 2023 13:02:00 +0000</pubDate><guid>https://erikmcclure.com/blog/</guid><description/></item><item><title>Projects</title><link>https://erikmcclure.com/projects/</link><pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate><guid>https://erikmcclure.com/projects/</guid><description/></item><item><title>Websites</title><link>https://erikmcclure.com/web/</link><pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate><guid>https://erikmcclure.com/web/</guid><description>&lt;h3 id="social">Social&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="https://erikmcclure.com/">&lt;i class="fa fa-home fa-fw fa-lg">&lt;/i>&amp;nbsp;Homepage&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://twitter.com/erikmcclure0173">&lt;i class="fa fa-twitter fa-fw fa-lg">&lt;/i>&amp;nbsp;Twitter&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://keybase.io/erikmcclure">&lt;i class="fa fa-key fa-fw fa-lg">&lt;/i>&amp;nbsp;Keybase&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://erikmcclure.com/">&lt;i class="fa-solid fa-home fa-lg fa-fw">&lt;/i>&amp;nbsp;Homepage&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bsky.app/profile/erikmcclure.com">&lt;i class="fa-solid fa-cloud fa-lg fa-fw">&lt;/i>&amp;nbsp;BlueSky&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://equestria.social/@cloudhop">&lt;i class="fa-brands fa-mastodon fa-lg fa-fw">&lt;/i>&amp;nbsp;Mastodon&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/erikmcclure0173">&lt;i class="fa-brands fa-twitter fa-lg fa-fw">&lt;/i>&amp;nbsp;Twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://keybase.io/erikmcclure">&lt;i class="fa-brands fa-keybase fa-lg fa-fw">&lt;/i>&amp;nbsp;Keybase&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="code">Code&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/erikmcclure">&lt;i class="fa fa-github fa-fw fa-lg">&lt;/i>&amp;nbsp;Github&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://gitlab.com/erikmcclure">&lt;i class="fa fa-gitlab fa-fw fa-lg">&lt;/i>&amp;nbsp;Gitlab&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/erikmcclure">&lt;i class="fa-brands fa-github fa-lg fa-fw">&lt;/i>&amp;nbsp;Github&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gitlab.com/erikmcclure">&lt;i class="fa-brands fa-gitlab fa-lg fa-fw">&lt;/i>&amp;nbsp;Gitlab&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="music">Music&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="https://erikmcclure.bandcamp.com/">&lt;i class="fa fa-bandcamp fa-fw fa-lg">&lt;/i>&amp;nbsp;Bandcamp&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://erikmcclure.newgrounds.com/">&lt;i class="fa fa-globe fa-fw fa-lg">&lt;/i>&amp;nbsp;Newgrounds&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://soundcloud.com/erik_mcclure">&lt;i class="fa fa-soundcloud fa-fw fa-lg">&lt;/i>&amp;nbsp;Soundcloud&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.youtube.com/c/erikmcclure">&lt;i class="fa fa-youtube fa-fw fa-lg">&lt;/i>&amp;nbsp;Youtube&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://erikmcclure.bandcamp.com/">&lt;i class="fa-brands fa-bandcamp fa-lg fa-fw">&lt;/i>&amp;nbsp;Bandcamp&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://erikmcclure.newgrounds.com/">&lt;i class="fa-solid fa-globe fa-lg fa-fw">&lt;/i>&amp;nbsp;Newgrounds&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://soundcloud.com/erik_mcclure">&lt;i class="fa-brands fa-soundcloud fa-lg fa-fw">&lt;/i>&amp;nbsp;Soundcloud&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/c/erikmcclure">&lt;i class="fa-brands fa-youtube fa-lg fa-fw">&lt;/i>&amp;nbsp;Youtube&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="streaming">Streaming&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.twitch.tv/cloudhop">&lt;i class="fa-brands fa-twitch fa-lg fa-fw">&lt;/i>&amp;nbsp;Twitch&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/c/CloudHop">&lt;i class="fa-brands fa-youtube fa-lg fa-fw">&lt;/i>&amp;nbsp;Archive&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://discord.gg/nFczp8J">&lt;i class="fa-brands fa-discord fa-lg fa-fw">&lt;/i>&amp;nbsp;Discord&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://steamcommunity.com/id/erikmcclure/">&lt;i class="fa-brands fa-steam fa-lg fa-fw">&lt;/i>&amp;nbsp;Steam&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="photography">Photography&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="https://erikmcclure.deviantart.com/">&lt;i class="fa fa-deviantart fa-fw fa-lg">&lt;/i>&amp;nbsp;DeviantART&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://erikmcclure.deviantart.com/">&lt;i class="fa-brands fa-deviantart fa-lg fa-fw">&lt;/i>&amp;nbsp;DeviantART&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.instagram.com/blackhole0173/">&lt;i class="fa-brands fa-instagram fa-lg fa-fw">&lt;/i>&amp;nbsp;Instagram&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
