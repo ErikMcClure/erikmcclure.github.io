@@ -46,3 +46,5 @@ keywords = "games, music, code, erik mcclure, erikmcclure, aurora theory, sweeti
 [taxonomies]
 category = "categories"
 tag = "tags"
+[markup.goldmark.renderer]
+unsafe= true
