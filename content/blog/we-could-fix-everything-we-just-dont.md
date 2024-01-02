@@ -3,7 +3,6 @@ categories = ["blog"]
 comments = []
 date = "2024-01-01T17:30:00Z"
 title = "We Could Fix Everything, We Just Don't"
-draft = true
 [author]
 name = "Erik McClure"
 
