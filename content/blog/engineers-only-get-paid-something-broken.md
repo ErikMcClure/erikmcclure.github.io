@@ -1,0 +1,29 @@
++++
+categories = ["blog"]
+date = "2024-08-31T15:35:00Z"
+title = "Engineers Only Get Paid If Something Is Broken"
+name = "Erik McClure"
+
++++
+
+{{<html>}}<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">*shaking voice*<br><br>&quot;so, here&#39;s the thing — you&#39;re not gonna force all of us to learn rust&quot;<br><br>the way this is said... you&#39;d think they were being deported or something. incredibly childish people at the helm there.<a href="https://t.co/fcgA6m9fvq">https://t.co/fcgA6m9fvq</a></p>&mdash; fasterthanlime (@fasterthanlime) <a href="https://twitter.com/fasterthanlime/status/1829574164854030843?ref_src=twsrc%5Etfw">August 30, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>{{</html>}}
+
+Recently, Rust people have been getting frustrated with C developers who seem to base their entire personal identity on being able to do unsafe memory things. The thing is, this is not a phenomenon unique to C developers, or even software developers in general, although the visibility of the kernel C developers is higher than the average programmer. Most people will be upset about technology that makes their particular skillset irrelevent. This is best summarized by a famous quote:
+
+{{%blockquote%}}"It is difficult to get a man to understand something, when his salary depends upon his not understanding it" — <a href="https://quoteinvestigator.com/2017/11/30/salary/">Upton Sinclair</a>{{%/blockquote%}}
+
+Professional C developers who dislike Rust's borrow checker are almost always extremely good at doing manual memory management while making very few detectable errors (I say detectable because they usually miss some edge-case that turns into a security nightmare 10 years later). They are either paid lots of money to do this specific task, or they have almost no experience doing anything else. They are one-trick ponies, and they are terrified of their one skill being made irrelevent, at which point they will either no longer make lots of money, or not have a job at all.
+
+You could argue that they could simply *learn Rust*, but you must understand that they believe they are *singularly talented at C*, which in some cases may actually be true. If they start learning Rust now, they might end up just being an *average* Rust developer, and the thought of being *average* is **absolutely terrifying to them**. This is because it's percieved to be a *loss of social status*, which human brains are hardwired to avoid at all costs. It sounds like they're about to be "deported" because that is the exact psychological response that potentially losing social status provokes.
+
+It's not just languages, either. When programmers ask "why is this ecosystem such a disaster", half the time it's because somebody is getting paid to deal with it. Our industry is trapped in an endless loop of a startup building a new technology on top of some half-broken ecosystem, exploding in popularity, and then everyone using the startup's technology hires people to deal with the ecosystem it's built on top of, and those people don't actually want anyone to fix it or they'll be out of a job. There is no escaping the fact that, if someone was getting paid to deal with something that was broken, and you fix it, you just made them irrelevent.
+
+In 30 years, when Rust is slowly being replaced by something better, Rust developers will behave the *exact* same way. Someone will invent a borrow checker that is much more powerful and capable of solving most of the annoying borrow situations that baffle the current Rust borrow checker. Their response will be that this language is for "lazy" programmers, who don't want to be as *precise* as a Real Rust Programmer. They'll complain about things that don't make any sense because they've never actually used the language they're complaining about. The Rust programmers will sound just as dumb as C programmers do today.
+
+I know this will happen because this already happens in literally every other field in existence. Musicians *still* sometimes claim that if you can't play an actual instrument you aren't a "real" musician, whatever that is. There was a big fight when Photoshop came out because artists complained that "ctrl-Z" was cheating and if you can't paint on a real canvas you aren't a Real Artist. It's everywhere, and it's universal.
+
+This is not a programmer problem, it's a people problem. When you look at this through the lens of livelihoods being threatened, you can instantly see that this is all the exact same instinctual human reaction: they have a high status because they are incredibly skilled at a particular thing, and New Thing is threatening to make that skill either irrelevent, or less important, and they don't want to *lose status*. 
+
+The best defense against this behavior seems to be skill generalization and good self-esteem. If you are confident in your abilities as a musician, you don't need to worry about people who are good at using a sequencer, instead you might [try to team up with them](https://www.youtube.com/watch?v=aHjpOzsQ9YI). If you are confident in your general problem solving abilities as a programmer, then the language barely matters, what matters is which language is best suited for the problem at hand.
+
+Software engineering in particular seems to suffer from hyper-specialization, with people having jobs working with extremely specific frameworks, like React, or Kubernetes, or whatever the newest Javascript framework is. It might be that the complexity of our problems are outstripping our tool's abstractions, but regardless of what the cause is, if we don't get things under control soon, this will just keep getting worse.
