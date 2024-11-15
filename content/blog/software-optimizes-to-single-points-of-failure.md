@@ -2,6 +2,7 @@
 categories = ["blog"]
 date = "2018-02-10T18:01:40Z"
 title = "Software Optimizes to Single Points of Failure"
+draft = true
 
 +++
 Whenever people talk about removing single points of failure, most of the suggestions involve "distributed systems" that are resilient to hardware failures. For software, we've invented code signing and smart contracts via blockchain to ensure the code we're running is what we expected to run.

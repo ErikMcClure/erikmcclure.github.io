@@ -2,9 +2,9 @@
 blogimport = true
 categories = ["blog"]
 date = "2017-07-18T15:40:00Z"
-draft = true
 title = "Self-Driving Cars Can Solve World Hunger"
 updated = "2017-07-18T15:40:36.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

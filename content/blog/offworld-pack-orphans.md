@@ -2,7 +2,7 @@
 categories = ["blog", "fiction"]
 comments = []
 date = "2021-10-18T01:06:00Z"
-title = "Kits And Pack Orphans First [Fiction]"
+title = "Offworld Pack Orphan [Fiction]"
 updated = "2021-10-18T01:06:00.000+00:00"
 draft = true
 [author]
@@ -118,7 +118,7 @@ The medic wordlessly took the medipak and immediately got to work. She ran back 
 
 
 
-In the center of the massive hall, I saw a replica of a famous sculpture. An Avali holding a newborn kit in the air as five packmates surround them, reaching up towards the kit with expressions of glee. The original sits in the center of the Illuminate Central HQ, a reminder to everyone of what we believe in: The hope each new generation represents, as we strive to lift them ever higher.
+In the center of the massive hall, I saw a replica of a famous sculpture. An Avali holding a newborn kit in the air as four packmates surround them, reaching up towards the kit with expressions of glee. The original sits in the center of the Illuminate Central HQ, a reminder to everyone of what we believe in: The hope each new generation represents, as we strive to lift them ever higher.
 
 
 "My groundsworn ass,"[1] I heard the officer mutter, and my ears immediately wilted. Things were not going well out there.

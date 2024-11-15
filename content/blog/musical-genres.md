@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2011-09-01T16:29:00Z"
 title = "Musical Genres"
 updated = "2011-09-01T16:55:03.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2016-04-28T14:23:00Z"
 title = "The GPL Is Usually Overkill"
 updated = "2016-04-28T14:23:41.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

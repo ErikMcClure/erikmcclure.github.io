@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2011-05-27T06:06:00Z"
 title = "The Religion Problem: Perspectives"
 updated = "2011-05-27T19:41:39.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

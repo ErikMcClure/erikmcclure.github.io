@@ -5,6 +5,7 @@ comments = [5867581286132899871, 8009584037911902987, 5953261426112169562, 71937
 date = "2012-09-23T20:37:00Z"
 title = "Teenage Rebellion as a Failure of Society"
 updated = "2012-09-24T00:12:25.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

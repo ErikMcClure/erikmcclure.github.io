@@ -5,6 +5,7 @@ comments = [4190836184485292453, 6752032890881967991, 1545154667685345109]
 date = "2011-07-06T17:22:00Z"
 title = "Radians: An explanation"
 updated = "2013-05-04T20:31:38.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

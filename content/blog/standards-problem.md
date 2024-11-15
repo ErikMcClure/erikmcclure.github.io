@@ -5,6 +5,7 @@ comments = [5011332425221492280, 8528568975955881869, 7372419905066142632, 86734
 date = "2012-05-07T01:12:00Z"
 title = "The Standards Problem"
 updated = "2012-05-07T01:33:57.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

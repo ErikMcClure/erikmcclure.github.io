@@ -4,6 +4,7 @@ comments = []
 date = "2021-10-18T01:06:00Z"
 title = "Blockchain Is The New JavaScript"
 updated = "2012-07-25T20:01:34.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 

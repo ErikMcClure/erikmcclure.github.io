@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2012-04-15T23:40:00Z"
 title = "An evidence-based refutation of the Project Glass parodies"
 updated = "2012-04-16T08:05:12.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

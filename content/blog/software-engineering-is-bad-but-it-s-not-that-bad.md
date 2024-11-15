@@ -2,6 +2,7 @@
 categories = ["blog"]
 date = "2018-09-18T11:03:49-07:00"
 title = "Software Engineering Is Bad, But That's Not Why"
+draft = true
 
 +++
 I've been writing code for over 12 years, and for a while I've been disgusted by the sorry state of programming. That's why I felt a deep kinship with Nikita Prokopov's article, [Software Disenchantment](http://tonsky.me/blog/disenchantment/ "Software Disenchantment"). It captures the intense feeling of frustration I have with the software industry as a whole and the inability of modern programmers to write anything even remotely resembling efficient systems.

@@ -3,6 +3,7 @@ categories = ["blog"]
 comments = []
 date = "2023-01-01T14:08:00Z"
 title = "Neurodivergents Will Inherit The Earth"
+draft = true
 [author]
 name = "Erik McClure"
 

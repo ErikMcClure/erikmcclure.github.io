@@ -3,6 +3,7 @@ categories = ["blog"]
 date = "2022-06-13T22:39:00Z"
 title = "Camp Vista - Growing Up Next To Microsoft"
 comments = []
+draft = true
 [author]
 name = "Erik McClure"
 

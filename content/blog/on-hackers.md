@@ -5,6 +5,7 @@ comments = [5658694907934160975, 926511594537749335, 4611701509474751283, 283349
 date = "2011-06-19T17:56:00Z"
 title = "On Hacking (or Why We Need Security Ratings)"
 updated = "2011-06-19T20:07:57.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

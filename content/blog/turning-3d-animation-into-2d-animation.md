@@ -2,9 +2,9 @@
 blogimport = true
 categories = ["blog"]
 date = "2009-12-03T18:21:00Z"
-draft = true
 title = "Turning a 3D animation into a 2D animation"
 updated = "2011-01-22T04:29:08.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

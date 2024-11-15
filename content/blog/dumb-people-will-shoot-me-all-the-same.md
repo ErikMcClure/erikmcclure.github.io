@@ -2,6 +2,7 @@
 categories = ["blog"]
 date = "2024-11-06T16:00:00Z"
 title = "Dumb People Will Shoot Me All The Same"
+draft = true
 [author]
 name = "Erik McClure"
 

@@ -2,7 +2,7 @@
 categories = ["blog"]
 date = "2022-11-11T07:56:00Z"
 draft = true
-title = "The Pilgrimage"
+title = "The Pilgrimage [Fiction]"
 [author]
 name = "Erik McClure"
 

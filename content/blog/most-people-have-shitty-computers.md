@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2013-09-02T21:29:00Z"
 title = "Most People Have Shitty Computers"
 updated = "2013-09-03T16:54:53.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

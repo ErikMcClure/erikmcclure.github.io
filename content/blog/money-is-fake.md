@@ -2,9 +2,9 @@
 blogimport = true
 categories = ["blog"]
 date = "2022-12-17T17:16:00.000+00:00"
-draft = false
 title = "Money Is Fake. It's Not Real. It's Made Up."
 updated = "2022-12-30T22:20:00.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 

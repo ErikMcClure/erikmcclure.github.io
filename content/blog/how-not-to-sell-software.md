@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2014-11-26T18:53:00Z"
 title = "How Not To Install Software"
 updated = "2014-11-26T20:22:56.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

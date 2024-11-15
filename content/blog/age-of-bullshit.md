@@ -2,6 +2,7 @@
 categories = ["blog"]
 date = "2023-02-13T15:35:00Z"
 title = "Welcome to the Age of Bullshit"
+draft = true
 [author]
 name = "Erik McClure"
 

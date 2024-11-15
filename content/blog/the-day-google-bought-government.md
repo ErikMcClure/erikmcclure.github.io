@@ -2,9 +2,9 @@
 blogimport = true
 categories = ["blog"]
 date = "2017-11-16T17:57:00Z"
-draft = true
 title = "The Day Google Bought The Government"
 updated = "2017-11-16T17:57:05.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

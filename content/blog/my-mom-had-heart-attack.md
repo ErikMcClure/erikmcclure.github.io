@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2011-06-08T01:09:00Z"
 title = "My Mom Had a Heart Attack"
 updated = "2011-06-08T01:09:25.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

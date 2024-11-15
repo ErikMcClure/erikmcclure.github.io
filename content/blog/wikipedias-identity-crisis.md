@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2012-01-09T01:31:00Z"
 title = "Wikipedia's Identity Crisis"
 updated = "2012-01-09T01:31:35.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

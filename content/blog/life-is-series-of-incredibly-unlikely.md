@@ -2,9 +2,9 @@
 blogimport = true
 categories = ["blog"]
 date = "2013-08-09T23:16:00Z"
-draft = true
 title = "Life Is A Series Of Incredibly Unlikely Coincidences  "
 updated = "2013-08-09T23:16:49.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

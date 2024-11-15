@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2012-02-29T17:21:00Z"
 title = "Hiring the Wrong People"
 updated = "2012-02-29T22:00:23.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

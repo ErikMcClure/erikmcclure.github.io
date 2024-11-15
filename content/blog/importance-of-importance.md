@@ -5,6 +5,7 @@ comments = [8646467705744358968, 2808889071105058854, 3953158085946294841, 54475
 date = "2011-09-23T23:25:00Z"
 title = "Don't Work on Someone Else's Dream"
 updated = "2012-05-02T14:03:02.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

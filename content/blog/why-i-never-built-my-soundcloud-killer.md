@@ -5,6 +5,7 @@ comments = [2760626960317630558, 5042311757172180503, 566264626755404561]
 date = "2017-07-30T16:57:00Z"
 title = "Why I Never Built My SoundCloud Killer"
 updated = "2017-07-30T17:04:49.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

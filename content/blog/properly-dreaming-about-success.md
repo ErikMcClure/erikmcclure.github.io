@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2012-05-26T05:56:00Z"
 title = "Properly Dreaming About Success"
 updated = "2012-05-26T05:58:14.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

@@ -3,6 +3,7 @@ categories = ["blog"]
 comments = []
 date = "2022-09-11T18:44:00Z"
 title = "I'll Never Respect My Elders After What They've Done"
+draft = true
 
 [author]
 name = "Erik McClure"
