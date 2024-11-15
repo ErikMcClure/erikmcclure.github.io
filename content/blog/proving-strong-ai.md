@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2009-11-03T23:57:00Z"
 title = "Proving Strong AI"
 updated = "2011-01-22T04:39:14.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2015-03-16T03:25:00Z"
 title = "Is There A Commercial Open Source License?"
 updated = "2015-03-16T03:44:58.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

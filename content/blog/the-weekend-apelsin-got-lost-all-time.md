@@ -5,6 +5,7 @@ comments = [2718424008696626000]
 date = "2012-11-13T23:24:00Z"
 title = "The Weekend I Got Lost All The Time"
 updated = "2012-11-13T23:24:45.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2010-10-18T04:42:00Z"
 title = "How To Train Your Dragon"
 updated = "2011-01-22T03:44:20.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

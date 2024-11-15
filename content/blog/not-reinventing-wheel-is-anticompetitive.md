@@ -5,6 +5,7 @@ comments = [2580492638773785216, 1465072138398960621, 1883344438890843204, 49811
 date = "2014-11-22T00:15:00Z"
 title = "Never Reinventing The Wheel Is Anticompetitive "
 updated = "2014-11-22T12:39:24.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

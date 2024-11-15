@@ -2,6 +2,7 @@
 categories = ["blog"]
 date = "2018-07-12T10:57:26-07:00"
 title = "Why Do People Use The Wrong Email?"
+draft = true
 
 +++
 Ever since 2013, I've consistently started getting registration e-mails in foreign languages from sites I definitely did not sign up for.

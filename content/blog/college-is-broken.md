@@ -5,6 +5,7 @@ comments = [5307099633823049622]
 date = "2011-05-03T21:08:00Z"
 title = "College Is Broken"
 updated = "2011-05-03T21:08:49.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

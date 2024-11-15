@@ -5,6 +5,7 @@ comments = [5321267677346341511, 7897533833584106685]
 date = "2013-01-21T16:20:00Z"
 title = "Dreams Are Worth Fighting For"
 updated = "2013-01-21T16:20:33.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

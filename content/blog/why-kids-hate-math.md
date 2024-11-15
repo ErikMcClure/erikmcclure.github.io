@@ -5,6 +5,7 @@ comments = [4111167357059541131, 8833461635433593515, 343118032581988113, 273704
 date = "2011-11-07T03:44:00Z"
 title = "Why Kids Hate Math"
 updated = "2011-11-07T13:52:44.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

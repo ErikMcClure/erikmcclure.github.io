@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2011-04-26T21:11:00Z"
 title = "An Outside Perspective on the PSN Fiasco"
 updated = "2011-04-26T21:17:56.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

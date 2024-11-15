@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2017-03-23T00:37:00Z"
 title = "Companies Can't Be Apolitical"
 updated = "2017-03-23T00:37:10.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

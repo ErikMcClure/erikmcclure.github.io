@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2015-09-28T03:07:00Z"
 title = "There Will Never Be One True Programming Language"
 updated = "2015-09-28T05:13:08.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

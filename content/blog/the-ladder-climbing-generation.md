@@ -5,6 +5,7 @@ comments = [1454999213163312650]
 date = "2013-10-03T15:10:00Z"
 title = "The Ladder-Climbing Generation"
 updated = "2013-10-05T09:11:13.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

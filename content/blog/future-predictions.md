@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2011-04-17T15:54:00Z"
 title = "Future Predictions"
 updated = "2011-04-18T00:47:23.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

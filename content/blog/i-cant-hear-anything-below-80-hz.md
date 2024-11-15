@@ -5,6 +5,7 @@ comments = [5770789685172286302, 5784181064530818725, 6668069236486074249, 91150
 date = "2017-03-07T15:06:00Z"
 title = "I Can't Hear Anything Below 80 Hz*"
 updated = "2017-03-12T19:03:32.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

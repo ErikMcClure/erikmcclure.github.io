@@ -4,6 +4,7 @@ categories = ["blog"]
 date = "2017-11-01T15:26:00Z"
 title = "Ignoring Outliers Creates Racist Algorithms"
 updated = "2017-11-01T15:33:38.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

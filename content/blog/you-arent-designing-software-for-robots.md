@@ -5,6 +5,7 @@ comments = [5929874680943475418, 8173998252851989627]
 date = "2015-06-15T01:13:00Z"
 title = "We Aren't Designing Software For Robots"
 updated = "2015-06-15T11:19:17.000+00:00"
+draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"
