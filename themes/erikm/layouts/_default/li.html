@@ -4,6 +4,6 @@
       <div class="padding">{{ .Content }}</div>
       <hr/>
       <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}"><i class="fa-regular fa-clock fa-fw"></i>&nbsp;Published on <a href="{{ .Permalink }}">{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "January 2, 2006 at 3:04pm" }}{{ end }}</a></time>
-      <aside><a href="{{ .RelPermalink }}#comments"><i class="fa-regular fa-comments fa-fw"></i>&nbsp;{{with .Params.comments}}{{len .}} {{if len . | eq 1 }}comment{{else}}comments{{end}}{{else}}0 comments{{end}}</a></aside>
+      <aside><i class="fa-regular fa-comments fa-fw"></i>&nbsp;<a href="{{ .RelPermalink }}#commento">{{with .Params.comments}}{{len .}} {{if len . | eq 1 }}comment{{else}}comments{{end}}{{else}} comments{{end}}</a></aside>
       {{ partial "share.html" . }}
     </article>

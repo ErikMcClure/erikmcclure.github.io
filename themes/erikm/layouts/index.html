@@ -10,6 +10,7 @@
   <article><h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
   {{ .Summary }}
   <hr/>
+  <div style="float:left"><i class="fa-regular fa-comments fa-fw" style="color:#888"></i>&nbsp;<a href="{{ .RelPermalink }}#commento">{{with .Params.comments}}{{len .}} {{if len . | eq 1 }}comment{{else}}comments{{end}}{{else}} comments{{end}}</a></div>
   <time><i class="fa fa-clock-o fa-fw"></i>&nbsp;Published on {{.Date.Format "January 2, 2006 at 3:04pm"}}</time></article>
   </div>
   </section>
