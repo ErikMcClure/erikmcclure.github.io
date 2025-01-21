@@ -3,7 +3,6 @@ categories = ["blog"]
 date = "2023-10-20T20:40:00Z"
 title = "People Can't Care About Everything"
 name = "Erik McClure"
-draft = true
 
 +++
 

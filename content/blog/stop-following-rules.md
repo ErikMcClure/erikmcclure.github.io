@@ -4,7 +4,6 @@ categories = ["blog"]
 date = "2012-05-13T14:54:00Z"
 title = "Stop Following The Rules"
 updated = "2012-05-13T14:54:07.000+00:00"
-draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"
