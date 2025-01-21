@@ -5,7 +5,6 @@ comments = [4751228645406544520, 5911677390758794331, 5395726161580931704]
 date = "2015-07-21T00:45:00Z"
 title = "I Tried To Install Linux And Now I Regret Everything"
 updated = "2015-07-21T09:48:17.000+00:00"
-draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

@@ -5,7 +5,6 @@ comments = [8910023284287138000, 9080789336946265000, 8610903104231463000]
 date = "2017-09-05T01:04:00Z"
 title = "I Used To Want To Work For Google"
 updated = "2017-09-06T12:07:38.000+00:00"
-draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

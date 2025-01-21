@@ -5,7 +5,6 @@ comments = [4444029134906459378, 2670370944406213596, 2448750406165744475, 24314
 date = "2015-02-18T23:10:00Z"
 title = "Does Anyone Actually Want Good Software?"
 updated = "2015-02-19T17:21:43.000+00:00"
-draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"

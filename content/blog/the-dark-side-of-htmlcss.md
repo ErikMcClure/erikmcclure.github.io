@@ -5,7 +5,6 @@ comments = [9031213592527597570, 1589038650396070651, 2702625009313981584, 84857
 date = "2013-02-24T20:54:00Z"
 title = "The Dark Side of Web Development"
 updated = "2013-02-25T11:19:29.000+00:00"
-draft = true
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"
