@@ -12,8 +12,6 @@ type = "page"
  * [{{<icon fa-solid fa-home fa-lg>}}Homepage](/)
  * [{{<icon fa-solid fa-cloud fa-lg>}}BlueSky](https://bsky.app/profile/erikmcclure.com)
  * [{{<icon fa-brands fa-mastodon fa-lg>}}Mastodon](https://equestria.social/@cloudhop)
- * [{{<icon fa-brands fa-twitter fa-lg>}}Twitter](https://twitter.com/erikmcclure0173)
- * [{{<icon fa-brands fa-keybase fa-lg>}}Keybase](https://keybase.io/erikmcclure)
 
 ### Code
  * [{{<icon fa-brands fa-github fa-lg>}}Github](https://github.com/erikmcclure)
