@@ -8,11 +8,6 @@ title = "Websites"
 type = "page"
 
 +++
-### Social
- * [{{<icon fa-solid fa-home fa-lg>}}Homepage](/)
- * [{{<icon fa-solid fa-cloud fa-lg>}}BlueSky](https://bsky.app/profile/erikmcclure.com)
- * [{{<icon fa-brands fa-mastodon fa-lg>}}Mastodon](https://equestria.social/@cloudhop)
-
 ### Code
  * [{{<icon fa-brands fa-github fa-lg>}}Github](https://github.com/erikmcclure)
  * [{{<icon fa-brands fa-gitlab fa-lg>}}Gitlab](https://gitlab.com/erikmcclure)
