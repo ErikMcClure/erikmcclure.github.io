@@ -2,8 +2,8 @@
 {{ partial "nav.html" . }}
 <main class="blog">
   <section>
-    <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="{{ .Site.BaseURL }}"/>
-    <meta itemprop="dateModified" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">
+    <meta itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" content="{{ .Site.BaseURL }}" />
+    <meta itemprop="dateModified" content="{{ .Date.Format " 2006-01-02T15:04:05-07:00" }}">
     <meta itemprop="headline" content="{{ .Title }}">
     <meta itemprop="description" content="{{ .Summary }}">
     <meta itemprop="url" content="{{ .Permalink }}">
@@ -20,60 +20,65 @@
     </div>
     <article>
       <h4>{{ .Title }}</h4>
-      <hr/>
+      <hr />
       <div class="padding">{{ .Content }}</div>
-      <hr/>
-      <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}"><i class="fa-regular fa-clock fa-fw"></i>&nbsp;Published on <a href="{{ .Permalink }}">{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "January 2, 2006 at 3:04pm" }}{{ end }}</a></time>
+      <hr />
+      <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format " 2006-01-02T15:04:05-07:00" }}"><i
+          class="fa-regular fa-clock fa-fw"></i>&nbsp;Published on <a href="{{ .Permalink }}">{{ with
+          .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "January 2, 2006 at 3:04pm" }}{{ end
+          }}</a></time>
       {{ partial "share.html" . }}
     </article>
-    <article><a name="comments"><h4>Comments</h4></a>
-    <hr/>
-    {{ $.Scratch.Add "count" 0 }}
-    <div class="comments">
-    {{if .Params.Comments}}
-      {{ range $i, $e := .Params.Comments }}
-        {{if $i}}<hr/>{{end}}
+    <article><a name="comments">
+        <h4>Comments</h4>
+      </a>
+      <hr />
+      {{ $.Scratch.Add "count" 0 }}
+      <div class="comments">
+        {{if .Params.Comments}}
+        {{ range $i, $e := .Params.Comments }}
+        {{if $i}}
+        <hr />{{end}}
         {{ $.Scratch.Add "count" 1 }}
         {{ $id := print "c" $e }}
         {{with index $.Site.Data.comments $id }}
-        <div {{with .reply }}class="reply"{{end}} id="{{ $id }}">
-        <div class="reply-arrow"><i class="fa-solid fa-level-up"></i></div>
-        {{if .author.image }}
-        <img src="{{.author.image.source}}" alt="" />
-        {{else}}
-        <div style="display:inline-block;width:32px;height:32px;"></div>
-        {{end}}
-        <b>{{.author.name}}</b>
-        <p>{{.content | safeHTML}}</p>
+        <div {{with .reply }}class="reply" {{end}} id="{{ $id }}">
+          <div class="reply-arrow"><i class="fa-solid fa-level-up"></i></div>
+          {{if .author.image }}
+          <img src="{{.author.image.source}}" alt="" />
+          {{else}}
+          <div style="display:inline-block;width:32px;height:32px;"></div>
+          {{end}}
+          <b>{{.author.name}}</b>
+          <p>{{.content | safeHTML}}</p>
         </div>
         {{else}}
         <p>error: {{$id}}</p>
         {{end}}
-      {{ end }}
-    {{end}}
-    </div>
-    
-    <div class="comments">
-      {{ range $i, $e := .Site.Data.dynamic }}
-        {{if eq $e.id .File.UniqueID }}
-        {{if $.Scratch.Get "count" }}<hr/>{{end}}
-        {{ $.Scratch.Add "count" 1 }}
-        <div {{with .reply }}class="reply"{{end}} id="c{{$i}}">
-        <div class="reply-arrow"><i class="fa-solid fa-level-up"></i></div>
-        <img src="http://lh3.googleusercontent.com/-W4_zl1uSJ10/AAAAAAAAAAI/AAAAAAAABuk/kg-M6T6xPag/s32-c/photo.jpg" alt="" />
-        <b>{{$e.name}}</b>
-        <p>{{$e.message | safeHTML}}</p>
-        </div>
-      {{ end }}
-      {{ end }}
-    </div>
-    
-        {{if $.Scratch.Get "count" }}<hr/>{{end}}
-      <div class="wrapcommento">
-      <div id="commento"></div>
-      <script src="https://cdn.commento.io/js/commento.js"></script>
+        {{ end }}
+        {{end}}
       </div>
-    </form>
+
+      <div class="comments">
+        {{ range $i, $e := .Site.Data.dynamic }}
+        {{if eq $e.id .File.UniqueID }}
+        {{if $.Scratch.Get "count" }}
+        <hr />{{end}}
+        {{ $.Scratch.Add "count" 1 }}
+        <div {{with .reply }}class="reply" {{end}} id="c{{$i}}">
+          <div class="reply-arrow"><i class="fa-solid fa-level-up"></i></div>
+          <img src="http://lh3.googleusercontent.com/-W4_zl1uSJ10/AAAAAAAAAAI/AAAAAAAABuk/kg-M6T6xPag/s32-c/photo.jpg"
+            alt="" />
+          <b>{{$e.name}}</b>
+          <p>{{$e.message | safeHTML}}</p>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+
+      {{if $.Scratch.Get "count" }}
+      <hr />{{end}}
+      </form>
     </article>
   </section>
   {{ partial "archive.html" . }}
