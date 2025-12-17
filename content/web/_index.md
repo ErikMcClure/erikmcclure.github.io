@@ -5,8 +5,7 @@ description = "Erik McClure on the web"
 layout = "web"
 tags = ""
 title = "Websites"
-type = "page"
-
+type = "web"
 +++
 ### Code
  * [{{<icon fa-brands fa-github fa-lg>}}Github](https://github.com/erikmcclure)

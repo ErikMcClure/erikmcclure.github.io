@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'">-->
   <meta name="theme-color" content="#2b7bb5">
-  <meta name="copyright" content="Copyright (c){{ $.Site.LastChange.Year }} {{ .Site.Author.name }}" />
+  <meta name="copyright" content="Copyright (c){{ $.Site.Lastmod.Year }} {{ .Site.Params.Author }}" />
   <meta name="keywords" content="{{ .Site.Params.keywords }}">
   <meta name="robots" content="index,follow">
   <meta name="googlebot" content="index,follow">
@@ -62,15 +62,15 @@
   <meta property="og:site_name" content="{{ .Site.Title }}" />
   <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.image }}" />
   <meta property="og:locale" content="en-US" />
-  <meta property="article:author" content="{{ .Site.Author.name }}" />
+  <meta property="article:author" content="{{ .Site.Params.Author.name }}" />
   
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@{{ .Site.Author.twitter }}" />
-  <meta name="twitter:creator" content="@{{ .Site.Author.twitter }}" />
+  <meta name="twitter:site" content="@{{ .Site.Params.Author.twitter }}" />
+  <meta name="twitter:creator" content="@{{ .Site.Params.Author.twitter }}" />
   <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.image }}" />
   <meta name="twitter:dnt" content="on">
   
-  <link href="{{ .Site.Author.uri | safeURL }}" rel="publisher" />
+  <link href="{{ .Site.Params.Author.uri | safeURL }}" rel="publisher" />
   <meta itemprop="image" content="{{ .Site.BaseURL }}{{ .Site.Params.image }}" />
   <meta name="last-updated" content="{{.Page.Lastmod.Format "20060102-15:04:05.000"}}" /> 
   

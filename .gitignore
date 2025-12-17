@@ -1,2 +1,3 @@
 *.exe
 .hugo*
+public/
