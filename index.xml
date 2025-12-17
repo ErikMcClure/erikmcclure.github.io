@@ -1,24 +1,24 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Erik McClure</title><link>https://erikmcclure.com/</link><description>Applied mathematician and software architect who occasionally writes music.</description><generator><meta name="generator" content="Hugo 0.119.0"/><language>en-us</language><copyright>Copyright (c)2025 Erik McClure</copyright><lastBuildDate>Sat, 22 Nov 2025 22:40:00 +0000</lastBuildDate><atom:link href="https://erikmcclure.com/" rel="self" type="application/rss+xml"/><item><title>Blogs</title><link>https://erikmcclure.com/blog/</link><pubDate>Sat, 22 Nov 2025 22:40:00 +0000</pubDate><guid>https://erikmcclure.com/blog/</guid><description/></item><item><title>Projects</title><link>https://erikmcclure.com/projects/</link><pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate><guid>https://erikmcclure.com/projects/</guid><description/></item><item><title>Websites</title><link>https://erikmcclure.com/web/</link><pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate><guid>https://erikmcclure.com/web/</guid><description>&lt;h3 id="code">Code&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/erikmcclure">&lt;i class="fa-brands fa-github fa-lg fa-fw">&lt;/i>&amp;nbsp;Github&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://gitlab.com/erikmcclure">&lt;i class="fa-brands fa-gitlab fa-lg fa-fw">&lt;/i>&amp;nbsp;Gitlab&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="music">Music&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://erikmcclure.bandcamp.com/">&lt;i class="fa-brands fa-bandcamp fa-lg fa-fw">&lt;/i>&amp;nbsp;Bandcamp&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://erikmcclure.newgrounds.com/">&lt;i class="fa-solid fa-globe fa-lg fa-fw">&lt;/i>&amp;nbsp;Newgrounds&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://soundcloud.com/erik_mcclure">&lt;i class="fa-brands fa-soundcloud fa-lg fa-fw">&lt;/i>&amp;nbsp;Soundcloud&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.youtube.com/c/erikmcclure">&lt;i class="fa-brands fa-youtube fa-lg fa-fw">&lt;/i>&amp;nbsp;Youtube&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="streaming">Streaming&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://www.twitch.tv/cloudhop">&lt;i class="fa-brands fa-twitch fa-lg fa-fw">&lt;/i>&amp;nbsp;Twitch&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.youtube.com/c/CloudHop">&lt;i class="fa-brands fa-youtube fa-lg fa-fw">&lt;/i>&amp;nbsp;Archive&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://discord.gg/nFczp8J">&lt;i class="fa-brands fa-discord fa-lg fa-fw">&lt;/i>&amp;nbsp;Discord&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://steamcommunity.com/id/erikmcclure/">&lt;i class="fa-brands fa-steam fa-lg fa-fw">&lt;/i>&amp;nbsp;Steam&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="photography">Photography&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://erikmcclure.deviantart.com/">&lt;i class="fa-brands fa-deviantart fa-lg fa-fw">&lt;/i>&amp;nbsp;DeviantART&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.instagram.com/blackhole0173/">&lt;i class="fa-brands fa-instagram fa-lg fa-fw">&lt;/i>&amp;nbsp;Instagram&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Erik McClure</title><link>https://erikmcclure.com/</link><description>Applied mathematician and software architect who occasionally writes music.</description><generator><meta name="generator" content="Hugo 0.152.2"/><language>en-us</language><copyright>Copyright (c)2025 Erik McClure</copyright><lastBuildDate>Sat, 22 Nov 2025 22:40:00 +0000</lastBuildDate><atom:link href="https://erikmcclure.com/" rel="self" type="application/rss+xml"/><item><title>Blogs</title><link>https://erikmcclure.com/blog/</link><pubDate>Sat, 22 Nov 2025 22:40:00 +0000</pubDate><guid>https://erikmcclure.com/blog/</guid><description/></item><item><title>Projects</title><link>https://erikmcclure.com/projects/</link><pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate><guid>https://erikmcclure.com/projects/</guid><description/></item><item><title>Websites</title><link>https://erikmcclure.com/web/</link><pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate><guid>https://erikmcclure.com/web/</guid><description>&lt;h3 id="code"&gt;Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/erikmcclure"&gt;&lt;i class="fa-brands fa-github fa-lg fa-fw"&gt;&lt;/i&gt;&amp;nbsp;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gitlab.com/erikmcclure"&gt;&lt;i class="fa-brands fa-gitlab fa-lg fa-fw"&gt;&lt;/i&gt;&amp;nbsp;Gitlab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="music"&gt;Music&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://erikmcclure.bandcamp.com/"&gt;&lt;i class="fa-brands fa-bandcamp fa-lg fa-fw"&gt;&lt;/i&gt;&amp;nbsp;Bandcamp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://erikmcclure.newgrounds.com/"&gt;&lt;i class="fa-solid fa-globe fa-lg fa-fw"&gt;&lt;/i&gt;&amp;nbsp;Newgrounds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://soundcloud.com/erik_mcclure"&gt;&lt;i class="fa-brands fa-soundcloud fa-lg fa-fw"&gt;&lt;/i&gt;&amp;nbsp;Soundcloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/c/erikmcclure"&gt;&lt;i class="fa-brands fa-youtube fa-lg fa-fw"&gt;&lt;/i&gt;&amp;nbsp;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="streaming"&gt;Streaming&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.twitch.tv/cloudhop"&gt;&lt;i class="fa-brands fa-twitch fa-lg fa-fw"&gt;&lt;/i&gt;&amp;nbsp;Twitch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/c/CloudHop"&gt;&lt;i class="fa-brands fa-youtube fa-lg fa-fw"&gt;&lt;/i&gt;&amp;nbsp;Archive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://discord.gg/nFczp8J"&gt;&lt;i class="fa-brands fa-discord fa-lg fa-fw"&gt;&lt;/i&gt;&amp;nbsp;Discord&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://steamcommunity.com/id/erikmcclure/"&gt;&lt;i class="fa-brands fa-steam fa-lg fa-fw"&gt;&lt;/i&gt;&amp;nbsp;Steam&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="photography"&gt;Photography&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://erikmcclure.deviantart.com/"&gt;&lt;i class="fa-brands fa-deviantart fa-lg fa-fw"&gt;&lt;/i&gt;&amp;nbsp;DeviantART&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.instagram.com/blackhole0173/"&gt;&lt;i class="fa-brands fa-instagram fa-lg fa-fw"&gt;&lt;/i&gt;&amp;nbsp;Instagram&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
