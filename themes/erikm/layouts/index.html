@@ -3,16 +3,22 @@
 <main class="projects">
   {{ range first 1 .Site.Taxonomies.categories.blog }}
   <section>
-  <div class="dim">
-  <aside><h2><a href="/blog/">Latest Post</a></h2>
-  <img src="{{ .Site.BaseURL }}{{ .Site.Params.imagesm }}" width="140" height="140" alt="" style="margin-bottom:0.75em"/>
-  </aside>
-  <article><h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
-  {{ .Summary }}
-  <hr/>
-  <div style="float:left"><i class="fa-regular fa-comments fa-fw" style="color:#888"></i>&nbsp;<a href="{{ .RelPermalink }}#commento">{{with .Params.comments}}{{len .}} {{if len . | eq 1 }}comment{{else}}comments{{end}}{{else}} comments{{end}}</a></div>
-  <time><i class="fa fa-clock-o fa-fw"></i>&nbsp;Published on {{.Date.Format "January 2, 2006 at 3:04pm"}}</time></article>
-  </div>
+    <div class="dim">
+      <aside>
+        <h2><a href="/blog/">Latest Post</a></h2>
+        <img src="{{ .Site.BaseURL }}{{ .Site.Params.imagesm }}" width="140" height="140" alt=""
+          style="margin-bottom:0.75em" />
+      </aside>
+      <article>
+        <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+        {{ .Summary }}
+        <hr />
+        <div style="float:left"><a href="{{ .RelPermalink }}#comments"><i class="fa-regular fa-comments fa-fw"
+              style="color:#888"></i>&nbsp;{{with .Params.comments}}{{len .}} {{if len . | eq 1
+            }}comment{{else}}comments{{end}}{{else}}0 comments{{end}}</a></div>
+        <time><i class="fa fa-clock-o fa-fw"></i>&nbsp;Published on {{.Date.Format "January 2, 2006 at 3:04pm"}}</time>
+      </article>
+    </div>
   </section>
   {{ end }}
   {{ partial "projects.html" .Site.Taxonomies.categories.project }}
