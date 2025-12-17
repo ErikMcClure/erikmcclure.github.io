@@ -4,11 +4,11 @@ defaultLayout = "post"
 disableKinds = ["taxonomy"]
 languageCode = "en-us"
 layoutDir = "layouts"
-paginate = 5
-paginatePath = "page"
+pagination.pagerSize = 5
+pagination.path = "page"
 theme = "erikm"
 title = "Erik McClure"
-[author]
+[params.author]
 name = "Erik McClure"
 twitter = "erikmcclure0173"
 uri = "https://plus.google.com/104896885003230920472"
