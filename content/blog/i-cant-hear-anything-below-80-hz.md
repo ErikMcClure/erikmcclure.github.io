@@ -3,17 +3,15 @@ blogimport = true
 categories = ["blog"]
 comments = [5770789685172286302, 5784181064530818725, 6668069236486074249, 9115042684401120312]
 date = "2017-03-07T15:06:00Z"
-title = "I Can't Hear Anything Below 80 Hz*"
+title = "I Can't Hear Anything Below 80 Hz"
 updated = "2017-03-12T19:03:32.000+00:00"
-draft = true
+
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"
 
 +++
-{{%blockquote%}}** at a comfortable listening volume.*{{%/blockquote%}}
-
-**EDIT: I have confirmed all the results presented here by taking the low frequency test with someone standing physically next to me. They heard a tone beginning at 30 Hz, and by the time I could hear a very faint tone around 70 Hz, they described the tone as "conversation volume level", which is about 60 dB. I did not reach this perceived volume level until about 120 Hz, which strongly correlates with the experiment. More specific results would require a professional hearing test.**
+{{<blockquote>}}<b>UPDATE:</b> I have confirmed all the results presented here by taking the low frequency test with someone standing physically next to me. They heard a tone beginning at 30 Hz, and by the time I could hear a very faint tone around 70 Hz, they described the tone as "conversation volume level", which is about 60 dB. I did not reach this perceived volume level until about 120 Hz, which strongly correlates with the experiment. More specific results would require a professional hearing test.{{</blockquote>}}
 
 For almost 10 years, I've suspected that something was wrong with my ability to hear bass tones. Unfortunately, while everyone is used to people having difficulty hearing high tones, nobody takes you seriously if you tell them you have difficulty hearing *low* tones, because most audio equipment has shitty bass response, and human hearing isn't very precise at those frequencies in the first place. People generally say "oh you're just supposed to *feel* the bass, don't worry about it." This was extremely frustrating, because one of my hobbies is writing music, and I have struggled for years and years to do proper bass mixing, which is basically the only activity on the entire planet that actually requires hearing subtle changes in bass frequencies. This is aggravated by the fact that most hearing tests are designed to detect issues with high frequencies, not low frequencies, so all the basic hearing tests I took at school gave test results back that said "perfectly normal". Since I now have professional studio monitor speakers, I'm going to use science to prove that I have an abnormal frequency sensitivity curve that severely hampers my ability to differentiate bass tones. Unfortunately, at the moment I live alone and nowhere near anyone else, so I will have to prove that my equipment is not malfunctioning without being able to actually hear it.
 
@@ -47,14 +45,6 @@ For testing purposes, I've used the results of my sensitivity testing to create 
 
 {{<img src="/img/EQ_demo.png" alt="EQ Curve" width="646">}}
 
-Below is a song I wrote some time ago that was mastered by a friend who can actually hear bass, so hopefully the bass frequencies in this are relatively normal. I actually have a bass synth in this song I can only *barely* hear, and had to rely almost entirely on the sequencer to know which notes were which.
-
-{{<html>}}<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/213925837&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>{{</html>}}
-
-This is the same song with the filter applied:
-
-{{<html>}}<iframe width="100%" height="160" src="https://clyp.it/4fkctaiv/widget" frameborder="0"></iframe>{{</html>}}
-
-By inverting this filter, I can attempt to "correct" for my bass hearing, although this is only effective down to about 70 Hz, which unfortunately means the entire sub-bass spectrum is simply inaudible to me. To accomplish this, I combine the inverted filter with a mastering plugin that completely removes all frequencies below 60 Hz (because I can't hear them) and then lowers the volume by about 8 dB so the amplified bass doesn't blow the waveform up. This doesn't seem to produce any audible effect on songs without significant bass, but when I tried it on a professionally mastered trance song, I was able to hear a small difference in the bass kick. I also tried it on [Brothers In Arms](https://www.youtube.com/watch?v=xllG3fSUAOw) and, for the first time, noticed a very faint bass cello going on that I had never heard before. If you are interested, the FL studio mixer state track that applies the corrective filter is [available here](https://drive.google.com/file/d/0B_2aDNVL_NGmSWJEbE9YVGdrdnM/view?usp=sharing), but for normal human beings the resulting bass is probably offensively loud. For that same reason, it is unfortunately impractical for me to use, because listening to bass frequencies at near 70 dB levels is bad for your hearing, and for that matter it doesn't fix my impaired fidelity anyway, but at least I now know why bass mixing has been so difficult for me over the years.
+By inverting this filter, I can attempt to "correct" for my bass hearing, although this is only effective down to about 70 Hz, which unfortunately means the entire sub-bass spectrum is simply inaudible to me. To accomplish this, I combine the inverted filter with a mastering plugin that completely removes all frequencies below 60 Hz (because I can't hear them) and then lowers the volume by about 8 dB so the amplified bass doesn't blow the waveform up. This doesn't seem to produce any audible effect on songs without significant bass, but when I tried it on a professionally mastered trance song, I was able to hear a small difference in the bass kick. I also tried it on [Brothers In Arms](https://www.youtube.com/watch?v=DgzlVVRfFOU) and, for the first time, noticed a very faint bass cello going on that I had never heard before. If you are interested, the FL studio mixer state track that applies the corrective filter is [available here](https://drive.google.com/file/d/0B_2aDNVL_NGmSWJEbE9YVGdrdnM/view?usp=sharing), but for normal human beings the resulting bass is probably offensively loud. For that same reason, it is unfortunately impractical for me to use, because listening to bass frequencies at near 70 dB levels is bad for your hearing, and for that matter it doesn't fix my impaired fidelity anyway, but at least I now know why bass mixing has been so difficult for me over the years.
 
 I guess if I'm going to continue trying to write music, I need to team up with one of my friends that can actually hear bass.

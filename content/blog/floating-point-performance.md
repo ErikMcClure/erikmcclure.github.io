@@ -4,7 +4,7 @@ categories = ["blog"]
 date = "2010-01-30T01:53:00Z"
 title = "Floating Point Performance"
 updated = "2011-01-22T04:18:21.000+00:00"
-draft = true
+
 [author]
 name = "Erik McClure"
 uri = "https://plus.google.com/104896885003230920472"
