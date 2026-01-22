@@ -147,7 +147,7 @@ body {
 #container {
   min-height: 100%;
   position: relative;
-  background: url('/img/grid.png') repeat fixed;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='3' height='3'%3E%3Crect x='1.25' y='-1' width='2' height='2' transform='rotate(45 0 0)' fill='%23000000'/%3E%3C/svg%3E") repeat fixed;
 }
 
 nav {
@@ -751,10 +751,6 @@ footer span:after {
     background: rgba(0, 0, 0, 0.7);
     color: #f0eeee;
     text-shadow: 1px 1px #000;
-  }
-
-  #container {
-    background: url('/img/grid-dark.png') repeat fixed;
   }
 
   main.blog section article,
